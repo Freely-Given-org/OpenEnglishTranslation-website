@@ -1,0 +1,23 @@
+.NF404 {
+//   height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 90vh;
+  font-size: 200px;
+}
+
+.floaty-thing {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  //   animation: Floaty 25s linear infinite;
+}
+
+.page404 {
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
