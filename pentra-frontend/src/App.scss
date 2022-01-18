@@ -1,0 +1,42 @@
+nav {
+    display: flex;
+    background-color: whitesmoke;
+    padding-right: 20PX;
+}
+
+nav a {
+    display: flex;
+    align-items: center;
+    padding-right: 8px;
+    padding-left: 8px;
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+nav a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: transparent;
+    color: #4A75E0;
+}
+
+nav a:active {
+    background-color: rgba(0, 0, 0, 0.15);
+}
+
+
+@keyframes App-logo-float {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
