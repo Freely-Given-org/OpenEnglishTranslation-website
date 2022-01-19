@@ -1,7 +1,7 @@
 import Header from '../../../Layouts/Header/Header';
 import Main from '../../../Layouts/main/main';
 
-function FGorg() {
+function StatementOfFaith() {
     return (
         <>
             <Header />
@@ -10,4 +10,4 @@ function FGorg() {
     );
 }
 
-export default FGorg;
+export default StatementOfFaith;

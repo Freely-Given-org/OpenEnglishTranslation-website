@@ -19,12 +19,10 @@ function Header() {
             </Link>
             <nav>
                 <Design />
-                <Link to={'/info'}>Info</Link>
                 <Link to={'/reader'}>Reader</Link>
                 <Resources />
                 <Link to={'/blog'}>Blog</Link>
                 <About />
-                <Link to={'/contacts'}>Contacts</Link>
             </nav>
         </div>
     );
