@@ -1,28 +1,39 @@
-name: DeployWebApp
+name: BuildWebApp
 on:
-  push:
+  pull_request:
     branches:
       - master
 jobs:
   build:
-    name: Deploy WebApp
+    name: Build BuildWebApp
     runs-on: self-hosted
     steps:
       - name: check out code 🛎
         uses: actions/checkout@v2
+
       - name: Install Node v17
         uses: actions/setup-node@v2
         with:
           node-version: "17.x"
           registry-url: "https://registry.npmjs.org"
+
       - name: Install dependencies
         run: npm install
         working-directory: ./frontend
+
+      - name: Run prettier
+        run: npm run format-check
+        working-directory: ./frontend
+
+      - name: Run ESLint
+        run: npm run lint
+        working-directory: ./frontend
+
       - name: Build
         run: npm run build
         working-directory: ./frontend
-      - name: MoveBuild
-        run: npm run moveBuild
-        working-directory: ./frontend
 
+      - name: Run Tests
+        run: npm run test
+        working-directory: ./frontend
 
