@@ -1,13 +1,8 @@
 name: BuildWebApp
 on:
-  workflow_dispatch:
-  pull_request:
-    branches:
-      - Dev
   push:
     branches:
-      - Dev
-
+      - master
 jobs:
   build:
     name: Build BuildWebApp
