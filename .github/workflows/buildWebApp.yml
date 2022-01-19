@@ -27,20 +27,34 @@ jobs:
         working-directory: ./frontend
 
   prettier:
-
     name: Prettier check
-    runs-on: self-hosted
+    runs-on: ubuntu-latest
     steps:
+      - name: check out code 🛎
+        uses: actions/checkout@v2
+
+      - name: Install Node v17
+        uses: actions/setup-node@v2
+        with:
+          node-version: "17.x"
+          registry-url: "https://registry.npmjs.org"
 
       - name: Run prettier
         run: npm run format-check
         working-directory: ./frontend
 
   lint:
-
     name: ESLint check
-    runs-on: self-hosted
+    runs-on: ubuntu-latest
     steps:
+      - name: check out code 🛎
+        uses: actions/checkout@v2
+
+      - name: Install Node v17
+        uses: actions/setup-node@v2
+        with:
+          node-version: "17.x"
+          registry-url: "https://registry.npmjs.org"
 
       - name: Run ESLint
         run: npm run lint
@@ -48,11 +62,10 @@ jobs:
 
   # test:
 
-    # name: Tests check
-    # runs-on: self-hosted
-    # steps:
+  # name: Tests check
+  # runs-on: self-hosted
+  # steps:
 
-      # - name: Run Tests
-      #   run: npm run test
-      #   working-directory: ./frontend
-
+  # - name: Run Tests
+  #   run: npm run test
+  #   working-directory: ./frontend
