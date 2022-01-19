@@ -1,4 +1,4 @@
-name: Build
+name: BuildWebApp
 on:
   workflow_dispatch:
   pull_request:
@@ -6,7 +6,7 @@ on:
       - Dev
   push:
     paths-ignore:
-      - "docs/docs/**"
+      - backend
     branches:
       - Dev
 
@@ -26,15 +26,20 @@ jobs:
 
       - name: Install dependencies
         run: npm install
+        working-directory: ./frontend
 
 #       - name: Run prettier
 #         run: npm run format-check
+#         working-directory: ./frontend
 
 #       - name: Run ESLint
 #         run: npm run lint
+#         working-directory: ./frontend
 
       - name: Build
         run: npm run build
+        working-directory: ./frontend
 
       - name: Run Tests
         run: npm run test
+        working-directory: ./frontend
