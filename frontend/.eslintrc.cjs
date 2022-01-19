@@ -16,7 +16,7 @@ module.exports = {
         'plugin:import/typescript',
     ],
     rules: {
-        'arrow-parens': ['warn', 'as-needed'],
+        'arrow-parens': 'off',
         'prefer-const': [
             'warn',
             {

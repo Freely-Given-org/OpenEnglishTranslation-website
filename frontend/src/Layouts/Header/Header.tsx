@@ -5,7 +5,6 @@ import About from '../../Components/navDropdowns/About';
 import Design from '../../Components/navDropdowns/Design';
 import Resources from '../../Components/navDropdowns/Resources';
 
-
 function Header() {
     return (
         <div className="header">

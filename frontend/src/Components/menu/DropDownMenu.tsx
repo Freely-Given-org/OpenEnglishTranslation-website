@@ -17,7 +17,7 @@ function DropDownMenu(props: any) {
     const [isClicked, setIsClicked] = useState(false);
 
     const menu: dropMenu = props.menu;
-    const listItems = menu.items.map(item => {
+    const listItems = menu.items.map((item) => {
         return (
             <li>
                 <Link to={item.link}>{item.name}</Link>
