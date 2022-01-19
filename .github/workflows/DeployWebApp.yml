@@ -5,8 +5,7 @@ on:
     branches:
       - master
 jobs:
-  build:
-    name: BuildWebApp
+  Build:
     runs-on: self-hosted
     steps:
       - name: check out code 🛎
@@ -24,9 +23,8 @@ jobs:
         working-directory: ./frontend
 
   Deploy:
-    name: Deploy App
     runs-on: self-hosted
-    needs: [BuildWebApp]
+    needs: [Build]
     environment:
       name: URL
       url: 'https://openenglishtranslation.bible/'
