@@ -38,6 +38,10 @@ jobs:
         with:
           node-version: "17.x"
           registry-url: "https://registry.npmjs.org"
+          
+      - name: Install dependencies
+        run: npm install
+        working-directory: ./frontend
 
       - name: Run prettier
         run: npm run format-check
@@ -55,6 +59,10 @@ jobs:
         with:
           node-version: "17.x"
           registry-url: "https://registry.npmjs.org"
+          
+      - name: Install dependencies
+        run: npm install
+        working-directory: ./frontend
 
       - name: Run ESLint
         run: npm run lint
