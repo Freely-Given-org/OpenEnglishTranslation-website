@@ -6,7 +6,7 @@ function Footer() {
         <div className="footer">
             <span className="copy-right">
                 <a href="https://github.com/hunter-hulk" target="blank">
-                    © 2021 Samuel Hunt
+                    © 2021 Freely-Given.org
                 </a>
             </span>
             <div className="nav-social">
