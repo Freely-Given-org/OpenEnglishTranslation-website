@@ -8,7 +8,7 @@ jobs:
   Deploy:
     runs-on: self-hosted
     environment:
-      name: URL
+      name: Production
       url: 'https://openenglishtranslation.bible/'
     steps:
       - name: check out code 🛎
