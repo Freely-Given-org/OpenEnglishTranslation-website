@@ -15,15 +15,17 @@ on:
     paths: 
       - frontend/**
 
-defaults:
-  run:
-    working-directory: frontend
+
 
 
 jobs:
   build:
 
     runs-on: ubuntu-latest
+    
+    defaults:
+      run:
+        working-directory: frontend
 
     strategy:
       matrix:
