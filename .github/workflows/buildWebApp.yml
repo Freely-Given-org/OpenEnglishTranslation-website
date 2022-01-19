@@ -1,11 +1,12 @@
 name: BuildWebApp
 on:
+  workflow_dispatch:
   pull_request:
     branches:
       - master
 jobs:
   build:
-    name: Build BuildWebApp
+    name: Building
     runs-on: self-hosted
     steps:
       - name: check out code 🛎
@@ -21,19 +22,37 @@ jobs:
         run: npm install
         working-directory: ./frontend
 
+      - name: Build
+        run: npm run build
+        working-directory: ./frontend
+
+  prettier:
+
+    name: Prettier check
+    runs-on: self-hosted
+    steps:
+
       - name: Run prettier
         run: npm run format-check
         working-directory: ./frontend
+
+  lint:
+
+    name: ESLint check
+    runs-on: self-hosted
+    steps:
 
       - name: Run ESLint
         run: npm run lint
         working-directory: ./frontend
 
-      - name: Build
-        run: npm run build
-        working-directory: ./frontend
+  # test:
 
-      - name: Run Tests
-        run: npm run test
-        working-directory: ./frontend
+    # name: Tests check
+    # runs-on: self-hosted
+    # steps:
+
+      # - name: Run Tests
+      #   run: npm run test
+      #   working-directory: ./frontend
 

@@ -1,11 +1,12 @@
 name: DeployWebApp
 on:
+  workflow_dispatch:
   push:
     branches:
       - master
 jobs:
   build:
-    name: Deploy WebApp
+    name: BuildWebApp
     runs-on: self-hosted
     steps:
       - name: check out code 🛎
@@ -21,6 +22,15 @@ jobs:
       - name: Build
         run: npm run build
         working-directory: ./frontend
+
+  Deploy:
+    name: Deploy App
+    runs-on: self-hosted
+    needs: [BuildWebApp]
+    environment:
+      name: URL
+      url: 'https://openenglishtranslation.bible/'
+    steps:
       - name: MoveBuild
         run: npm run moveBuild
         working-directory: ./frontend
