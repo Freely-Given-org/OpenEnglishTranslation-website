@@ -12,7 +12,7 @@ on:
 
 jobs:
   build:
-    name: Build Monorepo
+    name: Build BuildWebApp
     runs-on: ubuntu-latest
     steps:
       - name: check out code 🛎
@@ -40,6 +40,6 @@ jobs:
         run: npm run build
         working-directory: ./frontend
 
-      - name: Run Tests
-        run: npm run test
-        working-directory: ./frontend
+#       - name: Run Tests
+#         run: npm run test
+#         working-directory: ./frontend
