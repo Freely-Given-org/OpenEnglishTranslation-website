@@ -5,15 +5,13 @@ on:
     branches:
       - Dev
   push:
-    paths-ignore:
-      - backend
     branches:
       - Dev
 
 jobs:
   build:
     name: Build BuildWebApp
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
     steps:
       - name: check out code 🛎
         uses: actions/checkout@v2
