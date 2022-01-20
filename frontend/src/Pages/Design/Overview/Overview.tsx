@@ -30,7 +30,7 @@ function Overview() {
             </p>
             <p>
                 For now, see{' '}
-                <a href="https://freely-given.org/BibleTranslations/English/OET/">
+                <a href='https://freely-given.org/BibleTranslations/English/OET/'>
                     here
                 </a>
                 .

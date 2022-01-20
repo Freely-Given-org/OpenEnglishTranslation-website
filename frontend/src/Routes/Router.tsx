@@ -21,25 +21,25 @@ function Router() {
     return (
         <>
             <Routes>
-                <Route path="/" element={<Home />} />
-                <Route path="/Overview" element={<Overview />} />
-                <Route path="/LiteralVersion" element={<LV />} />
-                <Route path="/ReadersVersion" element={<RV />} />
-                <Route path="/FAQ" element={<FAQ />} />
-                <Route path="/reader" element={<Reader />} />
-                <Route path="/formats" element={<Formats />} />
-                <Route path="/downloads" element={<Downloads />} />
-                <Route path="/blog" element={<Blog />} />
-                <Route path="/OET" element={<OET />} />
-                <Route path="/Freely-Given" element={<FreelyGiven />} />
-                <Route path="/CoreValues" element={<CoreValues />} />
+                <Route path='/' element={<Home />} />
+                <Route path='/Overview' element={<Overview />} />
+                <Route path='/LiteralVersion' element={<LV />} />
+                <Route path='/ReadersVersion' element={<RV />} />
+                <Route path='/FAQ' element={<FAQ />} />
+                <Route path='/reader' element={<Reader />} />
+                <Route path='/formats' element={<Formats />} />
+                <Route path='/downloads' element={<Downloads />} />
+                <Route path='/blog' element={<Blog />} />
+                <Route path='/OET' element={<OET />} />
+                <Route path='/Freely-Given' element={<FreelyGiven />} />
+                <Route path='/CoreValues' element={<CoreValues />} />
                 <Route
-                    path="/StatementOfFaith"
+                    path='/StatementOfFaith'
                     element={<StatementOfFaith />}
                 />
-                <Route path="/Partners" element={<Partners />} />
-                <Route path="/Contact" element={<Contact />} />
-                <Route path="*" element={<NotFount404 />} />
+                <Route path='/Partners' element={<Partners />} />
+                <Route path='/Contact' element={<Contact />} />
+                <Route path='*' element={<NotFount404 />} />
             </Routes>
         </>
     );

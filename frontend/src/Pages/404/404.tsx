@@ -80,10 +80,10 @@ function NotFount404() {
     return (
         <>
             <Header />
-            <div className="NF404" ref={vars}>
-                <div ref={element} id="floaty-thing" className="floaty-thing">
-                    <div className="">404</div>
-                    <div className="page404">Page not found</div>
+            <div className='NF404' ref={vars}>
+                <div ref={element} id='floaty-thing' className='floaty-thing'>
+                    <div className=''>404</div>
+                    <div className='page404'>Page not found</div>
                 </div>
             </div>
         </>

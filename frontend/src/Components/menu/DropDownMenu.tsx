@@ -56,7 +56,7 @@ function DropDownMenu(props: any) {
 
     return (
         <div
-            className="menu"
+            className='menu'
             onClick={clicked}
             onMouseEnter={mouseHover}
             onMouseLeave={mouseLeave}
@@ -69,7 +69,7 @@ function DropDownMenu(props: any) {
                 {menu.title}
             </button>
 
-            {MenuState ? <ul className="menuItems">{listItems}</ul> : null}
+            {MenuState ? <ul className='menuItems'>{listItems}</ul> : null}
         </div>
     );
 }
