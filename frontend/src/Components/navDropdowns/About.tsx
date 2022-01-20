@@ -4,12 +4,28 @@ const menu: dropMenu = {
     title: 'About',
     items: [
         {
-            name: 'About OFR',
-            link: '/OFR',
+            name: 'About OET',
+            link: '/OET',
         },
         {
-            name: 'About F-G.org',
-            link: '/F-G.org',
+            name: 'About Freely-Given',
+            link: '/Freely-Given',
+        },
+        {
+            name: 'Core Values',
+            link: '/CoreValues',
+        },
+        {
+            name: 'Statement of Faith',
+            link: '/StatementOfFaith',
+        },
+        {
+            name: 'Our Partners',
+            link: '/Partners',
+        },
+        {
+            name: 'Contact Us',
+            link: '/Contact',
         },
     ],
 };

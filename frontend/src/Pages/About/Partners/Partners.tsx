@@ -1,7 +1,7 @@
 import Header from '../../../Layouts/Header/Header';
 import Main from '../../../Layouts/main/main';
 
-function OFR() {
+function Partners() {
     return (
         <>
             <Header />
@@ -10,4 +10,4 @@ function OFR() {
     );
 }
 
-export default OFR;
+export default Partners;
