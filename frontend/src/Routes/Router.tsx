@@ -1,9 +1,9 @@
 import { Route, Routes } from 'react-router-dom';
 
 import NotFount404 from '../Pages/404/404';
-import FreelyGiven from '../Pages/About/Freely-Given/Freely-Given';
 import Contact from '../Pages/About/Contact/Contact';
 import CoreValues from '../Pages/About/CoreValues/CoreValues';
+import FreelyGiven from '../Pages/About/Freely-Given/Freely-Given';
 import OET from '../Pages/About/OET/OET';
 import Partners from '../Pages/About/Partners/Partners';
 import StatementOfFaith from '../Pages/About/StatementOfFaith/StatementOfFaith';
@@ -31,7 +31,10 @@ function Router() {
                 <Route path="/OET" element={<OET />} />
                 <Route path="/Freely-Given" element={<FreelyGiven />} />
                 <Route path="/CoreValues" element={<CoreValues />} />
-                <Route path="/StatementOfFaith" element={<StatementOfFaith />} />
+                <Route
+                    path="/StatementOfFaith"
+                    element={<StatementOfFaith />}
+                />
                 <Route path="/Partners" element={<Partners />} />
                 <Route path="/Contact" element={<Contact />} />
                 <Route path="*" element={<NotFount404 />} />
