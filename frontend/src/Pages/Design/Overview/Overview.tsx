@@ -28,6 +28,13 @@ function Overview() {
                 or feet so that the size can be more easily visualised by the
                 reader.
             </p>
+            <p>
+                For now, see{' '}
+                <a href="https://freely-given.org/BibleTranslations/English/OET/">
+                    here
+                </a>
+                .
+            </p>
         </>
     );
 }
