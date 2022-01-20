@@ -4,7 +4,7 @@ import './main.scss';
 function Main() {
     return (
         <div className="main">
-            <img src={logo} alt="idk big thingy" className="app-floaty" />
+            
         </div>
     );
 }
