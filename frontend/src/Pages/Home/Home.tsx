@@ -24,6 +24,16 @@ function Home() {
                 alt="Photo of Bible"
                 src="../../../Assets/sixteen-miles-out-MLOZazGGCb8-unsplash.jpg"
             />
+            <p>
+                Photo by{' '}
+                <a href="https://unsplash.com/@sixteenmilesout?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">
+                    Sixteen Miles Out
+                </a>{' '}
+                on{' '}
+                <a href="https://unsplash.com/collections/4858217/bible?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">
+                    Unsplash
+                </a>
+            </p>
             <Footer />
         </>
     );
