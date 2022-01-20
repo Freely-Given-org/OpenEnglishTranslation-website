@@ -1,5 +1,6 @@
 .header {
     display: flex;
+    height: 65px;
     flex-direction: row;
     justify-content: space-between;
     margin: 0px;
@@ -16,6 +17,9 @@
     margin-top: 5px;
     width: 300px;
     height: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .main-logo:hover svg {
