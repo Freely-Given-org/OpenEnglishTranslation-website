@@ -1,20 +1,20 @@
 import { Route, Routes } from 'react-router-dom';
 
 import NotFount404 from '../Pages/404/404';
-import Contact from '../Pages/About/Contact/Contact';
-import Partners from '../Pages/About/Partners/Partners';
-import StatementOfFaith from '../Pages/About/StatementOfFaith/StatementOfFaith';
-import CoreValues from '../Pages/About/CoreValues/CoreValues';
-import FreelyGiven from '../Pages/About/Freely-Given/Freely-Given';
 import OET from '../Pages/About/OET/OET';
+import FreelyGiven from '../Pages/About/Freely-Given/Freely-Given';
+import CoreValues from '../Pages/About/CoreValues/CoreValues';
+import StatementOfFaith from '../Pages/About/StatementOfFaith/StatementOfFaith';
+import Partners from '../Pages/About/Partners/Partners';
+import Contact from '../Pages/About/Contact/Contact';
+import Overview from '../Pages/Design/Overview/Overview';
+import LV from '../Pages/Design/LV/LV';
+import RV from '../Pages/Design/RV/RV';
+import Home from '../Pages/Home/Home';
+import Reader from '../Pages/Reader/Reader';
 import Blog from '../Pages/Blog/Blog';
 import Downloads from '../Pages/Resources/Downloads/Downloads';
 import Formats from '../Pages/Resources/Formats/Formats';
-import Reader from '../Pages/Reader/Reader';
-import RV from '../Pages/Design/RV/RV';
-import LV from '../Pages/Design/LV/LV';
-import Overview from '../Pages/Design/Overview/Overview';
-import Home from '../Pages/Home/Home';
 
 function Router() {
     return (
