@@ -3,9 +3,16 @@ import './Footer.scss';
 function Footer() {
     return (
         <div className='footer'>
-            <span className="copy-right">
+            <span className="copyright">
+                Copyright © 2022
+                <a href="https://github.com/Freely-Given-org" target="blank">
+                    Freely-Given.org
+                </a>
+            </span>
+            <span className="copyright">
+                Created by
                 <a href="https://github.com/hunter-hulk" target="blank">
-                    © 2021 Freely-Given.org
+                    Hunter-Hulk
                 </a>
             </span>
             <div className="nav-social">

@@ -8,6 +8,7 @@ import OET from '../Pages/About/OET/OET';
 import Partners from '../Pages/About/Partners/Partners';
 import StatementOfFaith from '../Pages/About/StatementOfFaith/StatementOfFaith';
 import Blog from '../Pages/Blog/Blog';
+import FAQ from '../Pages/Design/FAQ/FAQ';
 import LV from '../Pages/Design/LV/LV';
 import Overview from '../Pages/Design/Overview/Overview';
 import RV from '../Pages/Design/RV/RV';
@@ -24,6 +25,7 @@ function Router() {
                 <Route path="/Overview" element={<Overview />} />
                 <Route path="/LiteralVersion" element={<LV />} />
                 <Route path="/ReadersVersion" element={<RV />} />
+                <Route path="/FAQ" element={<FAQ />} />
                 <Route path="/reader" element={<Reader />} />
                 <Route path="/formats" element={<Formats />} />
                 <Route path="/downloads" element={<Downloads />} />

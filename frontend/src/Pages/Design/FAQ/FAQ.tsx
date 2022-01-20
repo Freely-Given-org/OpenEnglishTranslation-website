@@ -1,14 +1,14 @@
 import Header from '../../../Layouts/Header/Header';
 import Main from '../../../Layouts/main/main';
 
-function LV() {
+function FAQ() {
     return (
         <>
             <Header />
             <Main />
             <p>
                 For now, see{' '}
-                <a href="https://freely-given.org/BibleTranslations/English/OET/Introduction.html#OET-LV">
+                <a href="https://freely-given.org/BibleTranslations/English/OET/FAQs.html">
                     here
                 </a>
                 .
@@ -17,4 +17,4 @@ function LV() {
     );
 }
 
-export default LV;
+export default FAQ;
