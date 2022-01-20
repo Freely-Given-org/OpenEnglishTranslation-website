@@ -17,7 +17,6 @@ function Header() {
                     stroke-width="28.222"
                     stroke-linejoin="round"
                     xmlns="http://www.w3.org/2000/svg"
-                    xml:space="preserve"
                 >
                     <defs class="ClipPathGroup">
                         <clipPath id="a" clipPathUnits="userSpaceOnUse">
