@@ -13,6 +13,10 @@ function Home() {
                 Bible is now proceeding and actual translation work is set to
                 resume by the middle of this year (2022).
             </p>
+            <img
+                alt='Photo of Bible'
+                src='../../../Assets/sixteen-miles-out-MLOZazGGCb8-unsplash.jpg'
+            />
             <p>
                 Currently, the best place to read about it is at{' '}
                 <a href='https://freely-given.org/BibleTranslations/English/OET/'>
@@ -20,10 +24,6 @@ function Home() {
                 </a>
                 , but this will soon become the main site.
             </p>
-            <img
-                alt='Photo of Bible'
-                src='../../../Assets/sixteen-miles-out-MLOZazGGCb8-unsplash.jpg'
-            />
             <p>
                 Photo by{' '}
                 <a href='https://unsplash.com/@sixteenmilesout?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText'>

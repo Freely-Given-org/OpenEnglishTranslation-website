@@ -4,15 +4,18 @@ function Footer() {
     return (
         <div className='footer'>
             <span className='copyright'>
-                Copyright © 2022
+                Copyright © 2022{' '}
                 <a href='https://github.com/Freely-Given-org' target='blank'>
                     Freely-Given.org
                 </a>
             </span>
             <span className='copyright'>
-                Created by
-                <a href='https://github.com/hunter-hulk' target='blank'>
-                    Hunter-Hulk
+                Created by{' '}
+                <a
+                    href='https://github.com/orgs/Freely-Given-org/people/Night-Hunter-NF'
+                    target='blank'
+                >
+                    Night-Hunter-NF
                 </a>
             </span>
             <div className='nav-social'>
