@@ -1,9 +1,8 @@
-import React from 'react';
 import './Footer.scss';
 
 function Footer() {
     return (
-        <div className="footer">
+        <div className='footer'>
             <span className="copy-right">
                 <a href="https://github.com/hunter-hulk" target="blank">
                     © 2021 Freely-Given.org

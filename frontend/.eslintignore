@@ -10,6 +10,7 @@ build
 .env.test.local
 .env.production.local
 .vscode/settings.json
+.eslintrc.cjs
 
 package-lock.json
 pnpm-lock.yaml
