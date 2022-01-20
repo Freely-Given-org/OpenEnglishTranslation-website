@@ -4,12 +4,16 @@ const menu: dropMenu = {
     title: 'Design',
     items: [
         {
-            name: 'Litereal Version',
-            link: '/litereal-version',
+            name: 'Overview',
+            link: '/Overview',
+        },
+        {
+            name: 'Literal Version',
+            link: '/LiteralVersion',
         },
         {
             name: 'Readers Version',
-            link: '/readers-version',
+            link: '/ReadersVersion',
         },
     ],
 };
