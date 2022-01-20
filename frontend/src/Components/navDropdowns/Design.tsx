@@ -12,7 +12,7 @@ const menu: dropMenu = {
             link: '/LiteralVersion',
         },
         {
-            name: 'Readers Version',
+            name: 'Reader’s Version',
             link: '/ReadersVersion',
         },
     ],
