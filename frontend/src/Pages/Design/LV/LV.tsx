@@ -8,7 +8,7 @@ function LV() {
             <Main />
             <p>
                 For now, see{' '}
-                <a href="https://freely-given.org/BibleTranslations/English/OET/Introduction.html#OET-LV">
+                <a href='https://freely-given.org/BibleTranslations/English/OET/Introduction.html#OET-LV'>
                     here
                 </a>
                 .

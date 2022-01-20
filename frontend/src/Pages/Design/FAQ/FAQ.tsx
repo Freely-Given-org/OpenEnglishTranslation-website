@@ -8,7 +8,7 @@ function FAQ() {
             <Main />
             <p>
                 For now, see{' '}
-                <a href="https://freely-given.org/BibleTranslations/English/OET/FAQs.html">
+                <a href='https://freely-given.org/BibleTranslations/English/OET/FAQs.html'>
                     here
                 </a>
                 .
