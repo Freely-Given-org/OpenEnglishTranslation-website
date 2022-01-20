@@ -40,7 +40,7 @@ function Overview() {
                 text starts to make sense in your mind.
             </p>
             <p>
-                More details <Link to={'/LV'}>here</Link>.
+                More details <Link to={'/LiteralVersion'}>here</Link>.
             </p>
             <h2>Reader’s Version</h2>
             <p>
@@ -52,7 +52,7 @@ function Overview() {
                 reader.
             </p>
             <p>
-                More details <Link to={'/RV'}>here</Link>.
+                More details <Link to={'/ReadersVersion'}>here</Link>.
             </p>
         </>
     );
