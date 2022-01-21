@@ -1,9 +1,9 @@
-.menu {
+.drop-menu {
     position: relative;
     display: flex;
 }
 
-.menuName {
+.menu-name {
     background: none;
     border: none;
     padding: 0;
@@ -19,7 +19,7 @@
     font-size: 20px;
 }
 
-.menuItems {
+.menu-items {
     padding: 6px 0;
     list-style: none;
     top: 45px;
@@ -33,22 +33,23 @@
     z-index: 10;
     right: 0;
     left: auto;
-}
-.menuItems li {
-    overflow: visible;
-    width: unset;
-    animation: menu-fade 80ms ease-in 0ms 1 normal both;
-    a {
-        padding: 0 10px;
+
+    li {
+        overflow: visible;
         width: unset;
-    }
-    :hover {
-        background-color: #4a75e0;
-        color: #fff;
-        text-decoration: none;
-        outline: none;
+        animation: menu-fade 80ms ease-in 0ms 1 normal both;
         a {
-            color: white;
+            padding: 0 10px;
+            width: unset;
+        }
+        :hover {
+            background-color: #4a75e0;
+            color: #fff;
+            text-decoration: none;
+            outline: none;
+            a {
+                color: white;
+            }
         }
     }
 }

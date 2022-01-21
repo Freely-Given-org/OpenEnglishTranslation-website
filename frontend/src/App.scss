@@ -1,35 +1,6 @@
-nav {
-    display: flex;
-    background-color: whitesmoke;
-    padding-right: 20px;
-}
-
-nav a {
-    display: flex;
-    align-items: center;
-    padding-right: 8px;
-    padding-left: 8px;
-    color: black;
-    text-decoration: none;
-    font-size: 20px;
-}
-
-nav a:visited {
-    color: black;
-    text-decoration: none;
-}
-
 .app {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
 }
 
-nav a:hover {
-    background-color: transparent;
-    color: #4a75e0;
-}
-
-nav a:active {
-    background-color: rgba(0, 0, 0, 0.15);
-}

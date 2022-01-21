@@ -1,4 +1,4 @@
-import DropDownMenu, { dropMenu } from '../menu/DropDownMenu';
+import DropDownMenu, { dropMenu } from '../menu/DropDownMenu/DropDownMenu';
 
 const menu: dropMenu = {
     title: 'About',

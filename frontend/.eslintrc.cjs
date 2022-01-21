@@ -140,7 +140,7 @@ module.exports = {
             },
         ],
         'no-irregular-whitespace': [
-            'warn',
+            'off',
             {
                 skipStrings: false,
             },

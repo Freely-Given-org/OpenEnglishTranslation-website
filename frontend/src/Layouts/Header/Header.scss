@@ -25,3 +25,58 @@
 .main-logo:hover svg {
     fill: #4a75e0;
 }
+
+.big-main-logo {
+    height: 40px;
+}
+
+// .small-main-logo {
+//     width: 50px;
+// }
+
+.big-nav {
+    display: flex;
+    background-color: whitesmoke;
+    padding-right: 20px;
+    a {
+        display: flex;
+        align-items: center;
+        padding-right: 8px;
+        padding-left: 8px;
+        color: black;
+        text-decoration: none;
+        font-size: 20px;
+        :hover {
+            background-color: transparent;
+            color: #4a75e0;
+        }
+        :active {
+            background-color: rgba(0, 0, 0, 0.15);
+        }
+        :visited {
+            color: black;
+            text-decoration: none;
+        }
+    }
+}
+
+.small-nav {
+    display: flex;
+    width: 2.5em;
+    margin-right: 1em;
+}
+
+@media screen  and (max-width: 800px) {
+    .big-nav, .big-main-logo{
+        display: none;
+    }
+    .main-logo {
+        width: 70px;
+    }
+}
+@media screen  and (min-width: 800px) {
+    .small-main-logo, .small-nav{
+        display: none;
+    }
+}
+

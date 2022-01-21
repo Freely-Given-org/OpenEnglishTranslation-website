@@ -1,7 +1,7 @@
 import './main.scss';
 
-function Main() {
-    return <div className='main'></div>;
+function Main({ children }: any) {
+    return <main>{children}</main>;
 }
 
 export default Main;
