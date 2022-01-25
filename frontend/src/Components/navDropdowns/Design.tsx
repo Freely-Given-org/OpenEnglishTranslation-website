@@ -1,4 +1,4 @@
-import DropDownMenu, { dropMenu } from '../menu/DropDownMenu';
+import DropDownMenu, { dropMenu } from '../menu/DropDownMenu/DropDownMenu';
 
 const menu: dropMenu = {
     title: 'Design',
@@ -22,10 +22,15 @@ const menu: dropMenu = {
     ],
 };
 
-function Design() {
+// eslint-disable-next-line @typescript-eslint/consistent-type-definitions
+type props = {
+    phoneNav?: boolean;
+};
+
+function Design({ phoneNav }: props) {
     return (
         <>
-            <DropDownMenu menu={menu} />
+            <DropDownMenu isPhoneNav={phoneNav} menu={menu} />
         </>
     );
 }

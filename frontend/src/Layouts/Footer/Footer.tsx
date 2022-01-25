@@ -9,15 +9,6 @@ function Footer() {
                     Freely-Given.org
                 </a>
             </span>
-            <span className='copyright'>
-                Created by{' '}
-                <a
-                    href='https://github.com/orgs/Freely-Given-org/people/Night-Hunter-NF'
-                    target='blank'
-                >
-                    Night-Hunter-NF
-                </a>
-            </span>
             <div className='nav-social'>
                 <a
                     href='https://www.facebook.com/'

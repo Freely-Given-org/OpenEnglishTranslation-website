@@ -1,16 +1,18 @@
+import { log } from 'console';
 import { useEffect, useRef } from 'react';
 
+import Footer from '../../Layouts/Footer/Footer';
 import Header from '../../Layouts/Header/Header';
 import './404.scss';
 
-const widthLogo = 306 / 2;
-const heightLogo = 266 / 2;
 const speed = 1.2;
 
 function NotFount404() {
-    const vars = useRef<HTMLDivElement>(null);
-    let width: number;
-    let height: number;
+    let childrenWidth: number;
+    let childrenHeight: number;
+
+    let parentWidth: number;
+    let parentHeight: number;
     let element: any;
     let x: number, y: number;
 
@@ -19,22 +21,34 @@ function NotFount404() {
         ySpeed = speed;
     let stopAnimation: boolean;
 
-    const getDymentions = () => {
-        if (vars.current !== null) {
-            const newWidth = vars.current.clientWidth;
-            width = newWidth / 2;
+    const parentRef = useRef<HTMLDivElement>(null);
+    const childrenRef = useRef<HTMLDivElement>(null);
 
-            const newHeight = vars.current.clientHeight;
-            height = newHeight / 2;
+    const getDymentions = () => {
+        if (parentRef.current) {
+            parentHeight = parentRef.current.offsetHeight / 2;
+            parentWidth = parentRef.current.offsetWidth / 2;
+        }
+
+        if (childrenRef.current) {
+            childrenHeight = childrenRef.current.offsetHeight / 2;
+            childrenWidth = childrenRef.current.offsetWidth / 2;
         }
     };
+
     useEffect(() => {
         getDymentions();
         window.addEventListener('resize', getDymentions);
 
         element = document.getElementById('floaty-thing');
-        x = getRandomNumber(-(width - widthLogo), width - widthLogo);
-        y = getRandomNumber(-(height - heightLogo), height - heightLogo);
+        x = getRandomNumber(
+            -(parentWidth - childrenWidth),
+            parentWidth - childrenWidth,
+        );
+        y = getRandomNumber(
+            -(parentHeight - childrenHeight),
+            parentHeight - childrenHeight,
+        );
         window.requestAnimationFrame(bounceAnimation);
 
         return () => {
@@ -56,19 +70,22 @@ function NotFount404() {
             x = x + xSpeed;
             y = y + ySpeed;
 
-            if (x + widthLogo >= width) {
+            if (x + childrenWidth >= parentWidth) {
                 xSpeed = -xSpeed;
-                x = width - widthLogo;
-            } else if (x - widthLogo <= -width) {
+                x = parentWidth - childrenWidth;
+            } else if (x - childrenWidth <= -parentWidth) {
                 xSpeed = -xSpeed;
-                x = -width + widthLogo;
+                x = -parentWidth + childrenWidth;
             }
-            if (y + heightLogo + 20 >= height) {
+            if (y + childrenHeight >= parentHeight) {
                 ySpeed = -ySpeed;
-                y = height - heightLogo - 20;
-            } else if (y - heightLogo + 45 <= -height) {
+                y = parentHeight - childrenHeight;
+            } else if (
+                y - childrenHeight + 0.4 * childrenHeight <=
+                -parentHeight
+            ) {
                 ySpeed = -ySpeed;
-                y = -height + heightLogo - 45;
+                y = -parentHeight + childrenHeight - 0.4 * childrenHeight;
             }
             element.style.transform = `translateY(${y}px) translateX(${x}px)`;
         }
@@ -80,12 +97,19 @@ function NotFount404() {
     return (
         <>
             <Header />
-            <div className='NF404' ref={vars}>
-                <div ref={element} id='floaty-thing' className='floaty-thing'>
+            {/* <Header ref={header} /> */}
+            <div className='NF404' ref={parentRef}>
+                <div
+                    ref={childrenRef}
+                    id='floaty-thing'
+                    className='floaty-thing'
+                >
                     <div className=''>404</div>
                     <div className='page404'>Page not found</div>
                 </div>
             </div>
+            <Footer />
+            {/* <Footer ref={footer}/> */}
         </>
     );
 }
