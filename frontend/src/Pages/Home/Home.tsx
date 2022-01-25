@@ -32,6 +32,7 @@ function Home() {
                             src={HomePagePhoto}
                             alt='idk big thingy'
                             className='home-page-photo'
+                            width={500}
                         />
                         <p>
                             Photo by{' '}

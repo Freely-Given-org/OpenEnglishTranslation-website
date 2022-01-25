@@ -1,6 +1,8 @@
 import './Header.scss';
-import { Link } from 'react-router-dom';
 import CloseIcon from '@mui/icons-material/Close';
+import MenuRoundedIcon from '@mui/icons-material/MenuRounded';
+import { useState } from 'react';
+import { Link } from 'react-router-dom';
 
 import SideMenu from '../../Components/menu/SideMenu/SideMenu';
 import About from '../../Components/navDropdowns/About';
@@ -8,6 +10,8 @@ import Design from '../../Components/navDropdowns/Design';
 import Resources from '../../Components/navDropdowns/Resources';
 
 function Header() {
+    const [sideMenu, setsideMenu] = useState(false);
+
     return (
         <div className='header'>
             <Link to={'/'} className='main-logo'>
@@ -26,10 +30,24 @@ function Header() {
                 <Link to={'/blog'}>Blog</Link>
                 <About />
             </nav>
-            {/* prettier-ignore */}
-            {/* <svg xmlns='http://www.w3.org/2000/svg' className='small-nav' viewBox='0 0 50 50'><path d='M5 8a2 2 0 1 0 0 4h40a2 2 0 1 0 0-4H5zm0 15a2 2 0 1 0 0 4h40a2 2 0 1 0 0-4H5zm0 15a2 2 0 1 0 0 4h40a2 2 0 1 0 0-4H5z' /></svg> */}
-            <CloseIcon/>
-            <SideMenu />
+
+            {sideMenu ? (
+
+                    <SideMenu>
+                        <CloseIcon
+                            onClick={() => {
+                                setsideMenu(false), console.log('close');
+                            }}
+                            className='close-side-menu'
+                        />             
+                    </SideMenu>
+
+            ) : (
+                <MenuRoundedIcon
+                    onClick={() => setsideMenu(true)}
+                    className='small-nav'
+                />
+            )}
         </div>
     );
 }
