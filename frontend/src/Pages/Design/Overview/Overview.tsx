@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+
 import Header from '../../../Layouts/Header/Header';
 import Main from '../../../Layouts/main/main';
 
@@ -9,15 +11,36 @@ function Overview() {
             <h1>Overview</h1>
             <p>
                 The <i>Open English Translation</i> is a unique new English
-                Bible translation with two parts.
+                Bible translation with two parts. In the left column will be the{' '}
+                <i>Literal Version</i>, designed to help you "peek" into the
+                original languages and get an idea what is actually written
+                there. The right column will have the easy to read and
+                understand <i>Reader’s Version</i> written in modern English.
+                Actually it’s intended that you’ll read the{' '}
+                <i>Reader’s Version</i>, and when you think, "Does it really say
+                that?", then you can move your eyes across and get a good idea
+                of what words are actually there in the original language.
+            </p>
+            <p>
+                For more, see the{' '}
+                <a href='https://freely-given.org/BibleTranslations/English/OET/'>
+                    old site
+                </a>
+                .
             </p>
             <h2>Literal Version</h2>
             <p>
                 This side of the page (so to speak) is designed to give you
                 insights into what is actually written in the Hebrew and Greek
-                manuscripts. So the measurements of Noah’s box (yes, actual{' '}
-                <i>chest</i>, except that’s too ambiguous) would be given in
-                cubits, and ideal for a study of numbers in the Bible.
+                manuscripts. So the measurements of Noah’s box (yes, actually{' '}
+                <i>chest</i> would also be a good literal translation, except
+                that saying <i>Noah’s chest</i> could be misunderstood) would be
+                given in cubits, and ideal for a study of numbers in the Bible.
+                And when you get to the <i>Box of the Agreement</i>, the Hebrew
+                text starts to make sense in your mind.
+            </p>
+            <p>
+                More details <Link to={'/LiteralVersion'}>here</Link>.
             </p>
             <h2>Reader’s Version</h2>
             <p>
@@ -29,11 +52,7 @@ function Overview() {
                 reader.
             </p>
             <p>
-                For now, see{' '}
-                <a href='https://freely-given.org/BibleTranslations/English/OET/'>
-                    here
-                </a>
-                .
+                More details <Link to={'/ReadersVersion'}>here</Link>.
             </p>
         </>
     );
