@@ -45,9 +45,7 @@ function Home() {
                             </a>
                         </p>
                     </div>
-                    <div className='page-sidebar'>
-                        
-                    </div>
+                    <div className='page-sidebar'></div>
                 </Page>
             </Main>
             <Footer />

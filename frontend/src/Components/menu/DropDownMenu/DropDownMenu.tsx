@@ -1,5 +1,7 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
+
+import { Triangle } from '../../../Assets/SVGs';
 import './DropDownMenu.scss';
 
 interface item {
@@ -12,11 +14,16 @@ export interface dropMenu {
     items: item[];
 }
 
-function DropDownMenu(props: any) {
+// eslint-disable-next-line @typescript-eslint/consistent-type-definitions
+type Props = {
+    menu: dropMenu;
+    isPhoneNav?: boolean;
+};
+
+function DropDownMenu({ menu, isPhoneNav }: Props) {
     const [MenuState, setMenuState] = useState(false);
     const [isClicked, setIsClicked] = useState(false);
 
-    const menu: dropMenu = props.menu;
     const listItems = menu.items.map((item) => {
         return (
             <li>
@@ -55,22 +62,40 @@ function DropDownMenu(props: any) {
     };
 
     return (
-        <div
-            className='drop-menu'
-            onClick={clicked}
-            onMouseEnter={mouseHover}
-            onMouseLeave={mouseLeave}
-        >
-            <button
-                className={`menu-name menu-title ${
-                    MenuState ? 'drop-menu-title' : ''
-                }`}
-            >
-                {menu.title}
-            </button>
+        <>
+            {isPhoneNav ? (
+                <div className='phone-menu' onClick={clicked}>
+                    <button className='phone-menu-name'>
+                        <Triangle
+                            className={`triangle ${MenuState ? 'turn' : null}`}
+                        />
+                        {menu.title}
+                    </button>
+                    {MenuState ? (
+                        <ul className='phone-menu-items'>{listItems}</ul>
+                    ) : null}
+                </div>
+            ) : (
+                <div
+                    className='drop-menu'
+                    onClick={clicked}
+                    onMouseEnter={mouseHover}
+                    onMouseLeave={mouseLeave}
+                >
+                    <button
+                        className={`menu-name menu-title ${
+                            MenuState ? 'drop-menu-title' : ''
+                        }`}
+                    >
+                        {menu.title}
+                    </button>
 
-            {MenuState ? <ul className='menu-items'>{listItems}</ul> : null}
-        </div>
+                    {MenuState ? (
+                        <ul className='menu-items'>{listItems}</ul>
+                    ) : null}
+                </div>
+            )}
+        </>
     );
 }
 

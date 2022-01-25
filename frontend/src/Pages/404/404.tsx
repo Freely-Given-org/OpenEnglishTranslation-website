@@ -80,9 +80,12 @@ function NotFount404() {
             if (y + childrenHeight >= parentHeight) {
                 ySpeed = -ySpeed;
                 y = parentHeight - childrenHeight;
-            } else if (y - childrenHeight + 70 <= -parentHeight) {
+            } else if (
+                y - childrenHeight + 0.4 * childrenHeight <=
+                -parentHeight
+            ) {
                 ySpeed = -ySpeed;
-                y = -parentHeight + childrenHeight - 70;
+                y = -parentHeight + childrenHeight - 0.4 * childrenHeight;
             }
             element.style.transform = `translateY(${y}px) translateX(${x}px)`;
         }

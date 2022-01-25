@@ -14,10 +14,15 @@ const menu: dropMenu = {
     ],
 };
 
-function Resources() {
+// eslint-disable-next-line @typescript-eslint/consistent-type-definitions
+type props = {
+    phoneNav?: boolean;
+};
+
+function Resources({ phoneNav }: props) {
     return (
         <>
-            <DropDownMenu menu={menu} />
+            <DropDownMenu isPhoneNav={phoneNav} menu={menu} />
         </>
     );
 }
