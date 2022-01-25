@@ -4,7 +4,7 @@ function Footer() {
     return (
         <div className='footer'>
             <span className='copyright'>
-                Copyright © 2022
+                Copyright © 2022{' '}
                 <a href='https://github.com/Freely-Given-org' target='blank'>
                     Freely-Given.org
                 </a>
