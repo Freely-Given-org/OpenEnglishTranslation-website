@@ -18,7 +18,6 @@ import Reader from '../Pages/Reader/Reader';
 import Downloads from '../Pages/Resources/Downloads/Downloads';
 import Formats from '../Pages/Resources/Formats/Formats';
 
-
 function Router() {
     return (
         <>
