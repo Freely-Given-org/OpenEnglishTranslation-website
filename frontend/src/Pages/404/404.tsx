@@ -1,8 +1,5 @@
-import { log } from 'console';
 import { useEffect, useRef } from 'react';
 
-import Footer from '../../Layouts/Footer/Footer';
-import Header from '../../Layouts/Header/Header';
 import './404.scss';
 
 const speed = 1.2;
@@ -95,22 +92,12 @@ function NotFount404() {
     }
 
     return (
-        <>
-            <Header />
-            {/* <Header ref={header} /> */}
-            <div className='NF404' ref={parentRef}>
-                <div
-                    ref={childrenRef}
-                    id='floaty-thing'
-                    className='floaty-thing'
-                >
-                    <div className=''>404</div>
-                    <div className='page404'>Page not found</div>
-                </div>
+        <div className='NF404' ref={parentRef}>
+            <div ref={childrenRef} id='floaty-thing' className='floaty-thing'>
+                <div className=''>404</div>
+                <div className='page404'>Page not found</div>
             </div>
-            <Footer />
-            {/* <Footer ref={footer}/> */}
-        </>
+        </div>
     );
 }
 

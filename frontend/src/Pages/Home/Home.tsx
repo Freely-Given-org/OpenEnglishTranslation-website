@@ -1,14 +1,10 @@
 import HomePagePhoto from '../../Assets/sixteen-miles-out-MLOZazGGCb8-unsplash.jpg';
 import Page from '../../Components/page/page';
-import Footer from '../../Layouts/Footer/Footer';
-import Header from '../../Layouts/Header/Header';
 import Main from '../../Layouts/main/main';
 import './Home.scss';
 
 function Home() {
     return (
-        <>
-            <Header />
             <Main>
                 <div className='banner'>
                     <h1>Exciting new Bible translation!</h1>
@@ -48,8 +44,6 @@ function Home() {
                     <div className='page-sidebar'></div>
                 </Page>
             </Main>
-            <Footer />
-        </>
     );
 }
 

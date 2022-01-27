@@ -32,6 +32,7 @@
 }
 
 .big-nav {
+    height: 100%;
     display: flex;
     background-color: whitesmoke;
     padding-right: 20px;
@@ -44,8 +45,9 @@
         text-decoration: none;
         font-size: 20px;
         :hover {
-            background-color: transparent;
-            color: #4a75e0;
+            // background-color: #4a75e0;
+            color: #4a75e0 !important;
+            display: none;
         }
         :active {
             background-color: rgba(0, 0, 0, 0.15);
@@ -83,17 +85,6 @@
             text-decoration: none;
             font-size: 20px;
             color: black;
-            :hover {
-                background-color: transparent;
-                color: #4a75e0;
-            }
-            :active {
-                background-color: rgba(0, 0, 0, 0.15);
-            }
-            :visited {
-                color: black;
-                text-decoration: none;
-            }
         }
     }
 }

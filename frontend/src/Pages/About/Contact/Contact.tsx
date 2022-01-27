@@ -1,13 +1,7 @@
-import Header from '../../../Layouts/Header/Header';
 import Main from '../../../Layouts/main/main';
 
 function Contact() {
-    return (
-        <>
-            <Header />
-            <Main />
-        </>
-    );
+    return <Main></Main>;
 }
 
 export default Contact;

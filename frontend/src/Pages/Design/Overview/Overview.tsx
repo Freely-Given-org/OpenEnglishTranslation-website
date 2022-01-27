@@ -1,13 +1,10 @@
 import { Link } from 'react-router-dom';
 
-import Header from '../../../Layouts/Header/Header';
 import Main from '../../../Layouts/main/main';
 
 function Overview() {
     return (
-        <>
-            <Header />
-            <Main />
+        <Main>
             <h1>Overview</h1>
             <p>
                 The <i>Open English Translation</i> is a unique new English
@@ -54,7 +51,7 @@ function Overview() {
             <p>
                 More details <Link to={'/ReadersVersion'}>here</Link>.
             </p>
-        </>
+        </Main>
     );
 }
 
