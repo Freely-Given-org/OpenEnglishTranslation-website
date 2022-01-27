@@ -38,10 +38,7 @@ function Header() {
                             <Design phoneNav={true} />
                         </li>
                         <li>
-                            <Link
-                                style={{ paddingLeft: '15px' }}
-                                to={'/reader'}
-                            >
+                            <Link className='menu-link' to={'/reader'}>
                                 Reader
                             </Link>
                         </li>
@@ -49,7 +46,9 @@ function Header() {
                             <Resources phoneNav={true} />
                         </li>
                         <li>
-                            <Link to={'/blog'}>Blog</Link>
+                            <Link className='menu-link' to={'/blog'}>
+                                Blog
+                            </Link>
                         </li>
                         <li>
                             <About phoneNav={true} />

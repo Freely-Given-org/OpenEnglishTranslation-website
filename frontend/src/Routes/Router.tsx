@@ -1,5 +1,7 @@
 import { Route, Routes } from 'react-router-dom';
 
+import Footer from '../Layouts/Footer/Footer';
+import Header from '../Layouts/Header/Header';
 import NotFount404 from '../Pages/404/404';
 import Contact from '../Pages/About/Contact/Contact';
 import CoreValues from '../Pages/About/CoreValues/CoreValues';
@@ -21,6 +23,7 @@ import Formats from '../Pages/Resources/Formats/Formats';
 function Router() {
     return (
         <>
+            <Header />
             <Routes>
                 <Route path='/' element={<Home />} />
                 <Route path='/Overview' element={<Overview />} />
@@ -43,6 +46,7 @@ function Router() {
                 <Route path='/Contact' element={<Contact />} />
                 <Route path='*' element={<NotFount404 />} />
             </Routes>
+            <Footer />
         </>
     );
 }
