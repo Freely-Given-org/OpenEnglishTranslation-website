@@ -23,7 +23,7 @@ import Formats from '../Pages/Resources/Formats/Formats';
 function Router() {
     return (
         <>
-            <Header/>
+            <Header />
             <Routes>
                 <Route path='/' element={<Home />} />
                 <Route path='/Overview' element={<Overview />} />
@@ -46,7 +46,7 @@ function Router() {
                 <Route path='/Contact' element={<Contact />} />
                 <Route path='*' element={<NotFount404 />} />
             </Routes>
-            <Footer/>
+            <Footer />
         </>
     );
 }

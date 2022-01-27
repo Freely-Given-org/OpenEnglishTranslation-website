@@ -6,7 +6,7 @@ module.exports = {
         sourceType: 'module',
         project: '../frontend/tsconfig.json',
     },
-    plugins: ['@typescript-eslint', "unused-imports", "react"],
+    plugins: ['@typescript-eslint', 'unused-imports', 'react'],
     extends: [
         'eslint:recommended',
         'plugin:@typescript-eslint/recommended',
@@ -14,14 +14,19 @@ module.exports = {
         'plugin:import/errors',
         'plugin:import/warnings',
         'plugin:import/typescript',
-        "plugin:react/jsx-runtime",
+        'plugin:react/jsx-runtime',
     ],
     rules: {
-        "unused-imports/no-unused-imports": "warn",
-        "unused-imports/no-unused-vars": [
-			"warn",
-			{ "vars": "all", "varsIgnorePattern": "^_", "args": "after-used", "argsIgnorePattern": "^_" }
-		],
+        'unused-imports/no-unused-imports': 'warn',
+        'unused-imports/no-unused-vars': [
+            'warn',
+            {
+                vars: 'all',
+                varsIgnorePattern: '^_',
+                args: 'after-used',
+                argsIgnorePattern: '^_',
+            },
+        ],
         'arrow-parens': 'off',
         'prefer-const': [
             'warn',
