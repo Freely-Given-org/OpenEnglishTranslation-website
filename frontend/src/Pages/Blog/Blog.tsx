@@ -1,7 +1,7 @@
 import Main from '../../Layouts/main/main';
 
 function Blog() {
-    return <Main></Main>;
+    return <Main><p>Coming ...</p></Main>;
 }
 
 export default Blog;

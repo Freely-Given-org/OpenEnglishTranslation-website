@@ -16,6 +16,10 @@ const menu: dropMenu = {
             link: '/ReadersVersion',
         },
         {
+            name: 'Source Texts',
+            link: '/SourceTexts',
+        },
+        {
             name: 'FAQs',
             link: '/FAQ',
         },

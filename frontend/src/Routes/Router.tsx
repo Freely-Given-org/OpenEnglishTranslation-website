@@ -14,6 +14,7 @@ import FAQ from '../Pages/Design/FAQ/FAQ';
 import LV from '../Pages/Design/LV/LV';
 import Overview from '../Pages/Design/Overview/Overview';
 import RV from '../Pages/Design/RV/RV';
+import SourceTexts from '../Pages/Design/SourceTexts/SourceTexts';
 import Home from '../Pages/Home/Home';
 import Reader from '../Pages/Reader/Reader';
 import Downloads from '../Pages/Resources/Downloads/Downloads';
@@ -28,6 +29,7 @@ function Router() {
                 <Route path='/Overview' element={<Overview />} />
                 <Route path='/LiteralVersion' element={<LV />} />
                 <Route path='/ReadersVersion' element={<RV />} />
+                <Route path='/SourceTexts' element={<SourceTexts />} />
                 <Route path='/FAQ' element={<FAQ />} />
                 <Route path='/reader' element={<Reader />} />
                 <Route path='/formats' element={<Formats />} />
