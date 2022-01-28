@@ -28,7 +28,8 @@
 }
 
 .big-main-logo {
-    height: 40px;
+    height: inherit;
+    width: 300px;
 }
 
 .big-nav {
@@ -44,17 +45,11 @@
         color: black;
         text-decoration: none;
         font-size: 20px;
-        :hover {
-            // background-color: #4a75e0;
-            color: #4a75e0 !important;
-            display: none;
+        &:hover {
+            color: #4a75e0;
         }
-        :active {
+        &:active {
             background-color: rgba(0, 0, 0, 0.15);
-        }
-        :visited {
-            color: black;
-            text-decoration: none;
         }
     }
 }
