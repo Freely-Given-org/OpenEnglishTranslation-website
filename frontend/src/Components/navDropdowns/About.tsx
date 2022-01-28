@@ -9,23 +9,23 @@ const menu: dropMenu = {
         },
         {
             name: 'About Freely-Given',
-            link: '/Freely-Given',
+            link: '/freely-given',
         },
         {
             name: 'Core Values',
-            link: '/CoreValues',
+            link: '/core-values',
         },
         {
             name: 'Statement of Faith',
-            link: '/StatementOfFaith',
+            link: '/statement-of-faith',
         },
         {
             name: 'Our Partners',
-            link: '/Partners',
+            link: '/partners',
         },
         {
             name: 'Contact Us',
-            link: '/Contact',
+            link: '/contact',
         },
     ],
 };

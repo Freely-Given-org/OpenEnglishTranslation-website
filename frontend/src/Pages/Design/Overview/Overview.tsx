@@ -45,7 +45,7 @@ function Overview() {
                         starts to make sense in your mind.
                     </p>
                     <p>
-                        More details <Link to={'/LiteralVersion'}>here</Link>.
+                        More details <Link to={'/literal-version'}>here</Link>.
                     </p>
                     <h2>Reader’s Version</h2>
                     <p>
@@ -57,7 +57,7 @@ function Overview() {
                         the size can be more easily visualised by the reader.
                     </p>
                     <p>
-                        More details <Link to={'/ReadersVersion'}>here</Link>.
+                        More details <Link to={'/readers-version'}>here</Link>.
                     </p>
                 </MainPageContent>
             </Page>
