@@ -8,7 +8,6 @@ function Home() {
         <Main>
             <div className='banner'>
                 <h1>Exciting new Bible translation!</h1>
-                {/* <br /> */}
                 <p>
                     Yes, the design of the <i>Open English Translation</i> of
                     the Bible is now proceeding and actual translation work is
