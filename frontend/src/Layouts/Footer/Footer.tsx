@@ -45,7 +45,9 @@ function Footer() {
                             <Link to={'/core-values'}>Core Values</Link>
                         </li>
                         <li>
-                            <Link to={'/statement-of-faith'}>Statement of Faith</Link>
+                            <Link to={'/statement-of-faith'}>
+                                Statement of Faith
+                            </Link>
                         </li>
                         <li>
                             <Link to={'/partners'}>Our Partners</Link>
