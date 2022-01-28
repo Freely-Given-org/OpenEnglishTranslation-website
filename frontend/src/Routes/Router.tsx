@@ -26,24 +26,24 @@ function Router() {
             <Header />
             <Routes>
                 <Route path='/' element={<Home />} />
-                <Route path='/Overview' element={<Overview />} />
-                <Route path='/LiteralVersion' element={<LV />} />
-                <Route path='/ReadersVersion' element={<RV />} />
-                <Route path='/SourceTexts' element={<SourceTexts />} />
+                <Route path='/overview' element={<Overview />} />
+                <Route path='/literal-version' element={<LV />} />
+                <Route path='/readers-version' element={<RV />} />
+                <Route path='/source-texts' element={<SourceTexts />} />
                 <Route path='/FAQ' element={<FAQ />} />
                 <Route path='/reader' element={<Reader />} />
                 <Route path='/formats' element={<Formats />} />
                 <Route path='/downloads' element={<Downloads />} />
                 <Route path='/blog' element={<Blog />} />
                 <Route path='/OET' element={<OET />} />
-                <Route path='/Freely-Given' element={<FreelyGiven />} />
-                <Route path='/CoreValues' element={<CoreValues />} />
+                <Route path='/freely-given' element={<FreelyGiven />} />
+                <Route path='/core-values' element={<CoreValues />} />
                 <Route
-                    path='/StatementOfFaith'
+                    path='/statement-of-faith'
                     element={<StatementOfFaith />}
                 />
-                <Route path='/Partners' element={<Partners />} />
-                <Route path='/Contact' element={<Contact />} />
+                <Route path='/partners' element={<Partners />} />
+                <Route path='/contact' element={<Contact />} />
                 <Route path='*' element={<NotFount404 />} />
             </Routes>
             <Footer />

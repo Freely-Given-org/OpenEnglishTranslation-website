@@ -9,7 +9,7 @@ function Partners() {
             <p>
                 We are looking for techo geeks in the Bible world to help us
                 achieve this vision. If you're proficient in Python, Rust, or
-                Flutter/Dart, please do <Link to={'/Contact'}>contact</Link> us.
+                Flutter/Dart, please do <Link to={'/contact'}>contact</Link> us.
             </p>
             <h1>Sponsors Wanted</h1>
             <p>
@@ -19,7 +19,7 @@ function Partners() {
                 services, internet, electricity) as well as travel and
                 conferences. Then if there's any extra, it will also be
                 appreciated for helping to pay the grocery bill. Again, please
-                use the <Link to={'/Contact'}>contact page</Link> to get in
+                use the <Link to={'/contact'}>contact page</Link> to get in
                 touch directly.
             </p>
             <h1>Users Wanted</h1>
