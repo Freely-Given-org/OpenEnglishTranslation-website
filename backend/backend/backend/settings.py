@@ -20,12 +20,13 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/4.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-x@fr806&9_&_7gfw4y&g^tkk@a@m7#$$kq0_-x#(9a_86(fbd!'
+SECRET_KEY = 'django-insecure-o*(@)7-5nbs_i!b9a$&h6y@(rw9u3ul+3j7wg(lpdv5v9qf!@u'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
 ALLOWED_HOSTS = []
+
 
 
 # Application definition
@@ -38,9 +39,13 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'rest_framework',
+    'postgresAPI.apps.PostgresapiConfig',
+    'blog.apps.BlogConfig',
+    'corsheaders',
 ]
 
 MIDDLEWARE = [
+    'corsheaders.middleware.CorsMiddleware',
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
@@ -70,17 +75,25 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'backend.wsgi.application'
 
+CORS_ORIGIN_ALLOW_ALL = False
+CORS_ORIGIN_WHITELIST = (
+    'http://localhost:8081',
+)
+
 
 # Database
 # https://docs.djangoproject.com/en/4.0/ref/settings/#databases
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'postgres',
+        'USER': 'postgres',
+        'PASSWORD': 'c08554c1584b6d09',
+        'HOST': '127.0.0.1',
+        'PORT': '3334',
     }
 }
-
 
 # Password validation
 # https://docs.djangoproject.com/en/4.0/ref/settings/#auth-password-validators
@@ -106,7 +119,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'en-us'
 
-TIME_ZONE = 'UTC'
+TIME_ZONE = 'NZ'
 
 USE_I18N = True
 
@@ -122,9 +135,3 @@ STATIC_URL = 'static/'
 # https://docs.djangoproject.com/en/4.0/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
-
-
-REST_FRAMEWORK = {
-    'DEFAULT_PAGINATION_CLASS': 'rest_framework.pagination.PageNumberPagination',
-    'PAGE_SIZE': 10
-}
