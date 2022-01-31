@@ -1,7 +1,7 @@
 import HomePagePhoto from '../../Assets/sixteen-miles-out-MLOZazGGCb8-unsplash.jpg';
 import Page from '../../Components/page/page';
 import Main from '../../Layouts/main/main';
-import './Home.scss';
+// import './Home.scss';
 
 function Home() {
     return (
