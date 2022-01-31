@@ -6,11 +6,13 @@ from rest_framework import status
  
 from blog.models import Blog
 from blog.serializers import BlogSerializer
-from rest_framework.decorators import api_view
+from rest_framework.decorators import api_view, permission_classes
+from rest_framework.permissions import IsAuthenticatedOrReadOnly, IsAuthenticated
 
 
 
 @api_view(['GET', 'POST'])
+@permission_classes([IsAuthenticated])
 def blog_list(request):
     if request.method == 'GET':
         blog = Blog.objects.all()
@@ -32,12 +34,12 @@ def blog_list(request):
         return 
 
 @api_view(['GET', 'PUT', 'DELETE'])
+@permission_classes([IsAuthenticated])
 def blog_by_id(request, pk):
-    # find tutorial by pk (id)
     try: 
         blog = Blog.objects.get(pk=pk) 
     except Blog.DoesNotExist: 
-        return JsonResponse({'message': 'The tutorial does not exist'}, status=status.HTTP_404_NOT_FOUND) 
+        return JsonResponse({'message': 'The blog does not exist'}, status=status.HTTP_404_NOT_FOUND) 
     
     if request.method == 'GET': 
         Blog_serializer = BlogSerializer(blog) 
@@ -54,6 +56,18 @@ def blog_by_id(request, pk):
     elif request.method == 'DELETE': 
         blog.delete() 
     return JsonResponse({'message': 'Blog was deleted successfully!'}, status=status.HTTP_204_NO_CONTENT)
+
+@api_view(['GET'])
+def blog_by_id_published(request, pk):
+    try: 
+        blog = Blog.objects.get(pk=pk) 
+    except Blog.DoesNotExist: 
+        return JsonResponse({'message': 'The blog does not exist'}, status=status.HTTP_404_NOT_FOUND) 
+    
+    if request.method == 'GET': 
+        Blog_serializer = BlogSerializer(blog) 
+        return JsonResponse(Blog_serializer.data) 
+
 
 @api_view(['GET'])
 def blog_list_published(request):
