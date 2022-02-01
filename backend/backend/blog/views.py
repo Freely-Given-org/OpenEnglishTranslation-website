@@ -26,8 +26,8 @@ def blog_list(request):
         # 'safe=False' for objects serialization
 
     elif request.method == 'POST':
-        tutorial_data = JSONParser().parse(request)
-        Blog_serializer = BlogSerializer(data=tutorial_data)
+        blog_data = JSONParser().parse(request)
+        Blog_serializer = BlogSerializer(data=blog_data)
         if Blog_serializer.is_valid():
             Blog_serializer.save()
             return JsonResponse(Blog_serializer.data, status=status.HTTP_201_CREATED) 
@@ -46,8 +46,8 @@ def blog_by_id(request, pk):
         return JsonResponse(Blog_serializer.data) 
 
     elif request.method == 'PUT': 
-        tutorial_data = JSONParser().parse(request) 
-        Blog_serializer = BlogSerializer(blog, data=tutorial_data) 
+        blog_data = JSONParser().parse(request) 
+        Blog_serializer = BlogSerializer(blog, data=blog_data) 
         if Blog_serializer.is_valid(): 
             Blog_serializer.save() 
             return JsonResponse(Blog_serializer.data) 
