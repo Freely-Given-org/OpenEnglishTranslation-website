@@ -6,7 +6,7 @@ module.exports = {
         sourceType: 'module',
         project: '../frontend/tsconfig.json',
     },
-    plugins: ['@typescript-eslint', 'unused-imports', 'react'],
+    plugins: ['@typescript-eslint', 'unused-imports', 'react',],
     extends: [
         'eslint:recommended',
         'plugin:@typescript-eslint/recommended',
@@ -15,6 +15,7 @@ module.exports = {
         'plugin:import/warnings',
         'plugin:import/typescript',
         'plugin:react/jsx-runtime',
+        'plugin:@next/next/recommended',
     ],
     rules: {
         'unused-imports/no-unused-imports': 'warn',

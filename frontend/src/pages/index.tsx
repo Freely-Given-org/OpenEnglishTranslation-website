@@ -1,13 +1,13 @@
 import type { NextPage } from 'next';
-import Head from 'next/head';
 import Image from 'next/image';
+
 import HomePagePhoto from '../Assets/sixteen-miles-out-MLOZazGGCb8-unsplash.jpg';
 import Page from '../Components/page/page';
 import Footer from '../Layouts/Footer/Footer';
 import Header from '../Layouts/Header/Header';
 import Main from '../Layouts/main/main';
-
 import styles from './Home.module.scss';
+
 
 const Home: NextPage = () => {
     return (

@@ -3,7 +3,6 @@ import Page from '../../../Components/page/page';
 import Footer from '../../../Layouts/Footer/Footer';
 import Header from '../../../Layouts/Header/Header';
 import Main from '../../../Layouts/main/main';
-import styles from './overview.module.scss';
 
 function Overview() {
     return (

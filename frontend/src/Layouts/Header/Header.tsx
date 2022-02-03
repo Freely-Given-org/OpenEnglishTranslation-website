@@ -1,7 +1,8 @@
 import CloseIcon from '@mui/icons-material/Close';
 import MenuRoundedIcon from '@mui/icons-material/MenuRounded';
-import { useState } from 'react';
+import { NextPage } from 'next';
 import Link from 'next/link';
+import { useState } from 'react';
 
 import { BigHomeLogo, SmallHomeLogo } from '../../Assets/SVGs';
 import SideMenu from '../../Components/menu/SideMenu/SideMenu';
@@ -9,7 +10,7 @@ import About from '../../Components/navDropdowns/About';
 import Design from '../../Components/navDropdowns/Design';
 import Resources from '../../Components/navDropdowns/Resources';
 import styles from './Header.module.scss';
-import { NextPage } from 'next';
+
 
 const Header: NextPage = () => {
     const [sideMenu, setsideMenu] = useState(false);

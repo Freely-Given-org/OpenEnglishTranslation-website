@@ -1,3 +1,4 @@
+from asyncio.windows_events import NULL
 from django.shortcuts import render
 
 from django.http.response import JsonResponse
@@ -60,7 +61,7 @@ def blog_by_id(request, pk):
 @api_view(['GET'])
 def blog_by_id_published(request, pk):
     try: 
-        blog = Blog.objects.get(pk=pk) 
+        blog = Blog.objects.filter(published=True).get(pk=pk)
     except Blog.DoesNotExist: 
         return JsonResponse({'message': 'The blog does not exist'}, status=status.HTTP_404_NOT_FOUND) 
     
@@ -71,8 +72,22 @@ def blog_by_id_published(request, pk):
 
 @api_view(['GET'])
 def blog_list_published(request):
-    blog = Blog.objects.filter(published=True)
-        
-    if request.method == 'GET': 
+        if 'pk' in request.GET:
+            try: 
+                blog = Blog.objects.filter(published=True).get(pk=request.GET['pk'])
+            except Blog.DoesNotExist: 
+                return JsonResponse({'error': 'The blog pk does not exist'}, status=status.HTTP_404_NOT_FOUND) 
+            Blog_serializer = BlogSerializer(blog) 
+            return JsonResponse(Blog_serializer.data) 
+        elif 'title' in request.GET:
+            try: 
+                blog = Blog.objects.filter(published=True).get(title=request.GET['title'])
+            except Blog.DoesNotExist: 
+                return JsonResponse({'error': 'The blog title does not exist'}, status=status.HTTP_404_NOT_FOUND) 
+            Blog_serializer = BlogSerializer(blog) 
+            return JsonResponse(Blog_serializer.data) 
+
+        blog = Blog.objects.filter(published=True)
         Blog_serializer = BlogSerializer(blog, many=True)
         return JsonResponse(Blog_serializer.data, safe=False)
+    

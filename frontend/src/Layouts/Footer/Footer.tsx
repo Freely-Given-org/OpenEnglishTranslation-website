@@ -1,9 +1,9 @@
-import styles from './Footer.module.scss';
 import FacebookIcon from '@mui/icons-material/Facebook';
 import TwitterIcon from '@mui/icons-material/Twitter';
+import Link from 'next/link';
 
 import { BigHomeLogo } from '../../Assets/SVGs';
-import Link from 'next/link';
+import styles from './Footer.module.scss';
 
 function Footer() {
     return (
