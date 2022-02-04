@@ -1,4 +1,5 @@
 import GET from 'axios';
+import matter from 'gray-matter';
 
 export async function getAllBlogIds() {
     const blogs: any = await GET(
@@ -14,22 +15,22 @@ export async function getAllBlogIds() {
     });
 }
 
-export async function getBlogData(pk: any) {
+export async function getBlogData(pk: string) {
     let query: string;
     if (pk) query = 'pk=' + pk;
     else query = '';
 
-    const blog: any = await GET(
+    const blogQuery: any = await GET(
         `http://127.0.0.1:8080/api/blogs/published/?${query}`,
     );
-    // const fullPath = path.join('src/posts', `pre-rendering.md`);
-    // const fileContents = fs.readFileSync(fullPath, 'utf8');
+    const matterResult = matter(blogQuery.data.body);
+    delete matterResult.orig;
 
-    // // Use gray-matter to parse the post metadata section
-    // const matterResult = matter(fileContents);
+    const blog = ({ ...blogQuery.data, ...matterResult});
+        console.log(blog);
+        
     return {
-        blog: blog.data,
-        // ...matterResult.data,
+        blog: blog,
     };
 }
 

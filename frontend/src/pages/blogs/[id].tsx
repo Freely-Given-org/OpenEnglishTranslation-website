@@ -17,12 +17,17 @@ export async function getStaticPaths() {
   };
 }
 
+interface props {
+    params: {
+        id: string
+    }
+}
 
-export async function getStaticProps({ params }: any) {
-    const blogs = await getBlogData(params.id);
+export async function getStaticProps({ params }: props) {
+    const { blog } = await getBlogData(params.id);
     return {
       props: {
-        blog: blogs.blog,
+        blog: blog,
       },
       revalidate: 10,
     };
@@ -40,10 +45,10 @@ function Blog({ blog }: any) {
             <Main>
                 <Page>
                     <MainPageContent>
-                        {blog.title ?
+                        {blog.isEmpty ? blog.error :
                         <>
                             <h1>{blog.title}</h1>
-                            <p>{blog.body}</p>
+                            <p>{blog.content}</p>
                             <span>{blog.author}</span>
                             <ul>
                                 {blog.labels.map((i: string) => (
@@ -54,7 +59,6 @@ function Blog({ blog }: any) {
                             <br />
                             <span>last edited on{blog.last_modified}</span>
                         </>
-                        : blog.error
                         }
                     </MainPageContent>
                 </Page>
