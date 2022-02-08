@@ -12,9 +12,31 @@ from rest_framework.permissions import IsAuthenticatedOrReadOnly, IsAuthenticate
 
 
 
-@api_view(['GET', 'POST'])
+@api_view(['GET', 'POST', 'PUT', 'DELETE'])
 @permission_classes([IsAuthenticated])
 def blog_list(request):
+    if 'pk' in request.GET:
+        try: 
+            blog = Blog.objects.get(pk=request.GET['pk']) 
+        except Blog.DoesNotExist: 
+            return JsonResponse({'message': 'The blog does not exist'}, status=status.HTTP_404_NOT_FOUND) 
+        
+        if request.method == 'GET': 
+            Blog_serializer = BlogSerializer(blog) 
+            return JsonResponse(Blog_serializer.data) 
+
+        elif request.method == 'PUT': 
+            blog_data = JSONParser().parse(request) 
+            Blog_serializer = BlogSerializer(blog, data=blog_data) 
+            if Blog_serializer.is_valid(): 
+                Blog_serializer.save() 
+                return JsonResponse(Blog_serializer.data) 
+            return JsonResponse(Blog_serializer.errors, status=status.HTTP_400_BAD_REQUEST) 
+
+        elif request.method == 'DELETE': 
+            blog.delete() 
+        return JsonResponse({'message': 'Blog was deleted successfully!'}, status=status.HTTP_204_NO_CONTENT)
+        
     if request.method == 'GET':
         blog = Blog.objects.all()
         
@@ -32,43 +54,7 @@ def blog_list(request):
         if Blog_serializer.is_valid():
             Blog_serializer.save()
             return JsonResponse(Blog_serializer.data, status=status.HTTP_201_CREATED) 
-        return 
-
-@api_view(['GET', 'PUT', 'DELETE'])
-@permission_classes([IsAuthenticated])
-def blog_by_id(request, pk):
-    try: 
-        blog = Blog.objects.get(pk=pk) 
-    except Blog.DoesNotExist: 
-        return JsonResponse({'message': 'The blog does not exist'}, status=status.HTTP_404_NOT_FOUND) 
-    
-    if request.method == 'GET': 
-        Blog_serializer = BlogSerializer(blog) 
-        return JsonResponse(Blog_serializer.data) 
-
-    elif request.method == 'PUT': 
-        blog_data = JSONParser().parse(request) 
-        Blog_serializer = BlogSerializer(blog, data=blog_data) 
-        if Blog_serializer.is_valid(): 
-            Blog_serializer.save() 
-            return JsonResponse(Blog_serializer.data) 
-        return JsonResponse(Blog_serializer.errors, status=status.HTTP_400_BAD_REQUEST) 
-
-    elif request.method == 'DELETE': 
-        blog.delete() 
-    return JsonResponse({'message': 'Blog was deleted successfully!'}, status=status.HTTP_204_NO_CONTENT)
-
-@api_view(['GET'])
-def blog_by_id_published(request, pk):
-    try: 
-        blog = Blog.objects.filter(published=True).get(pk=pk)
-    except Blog.DoesNotExist: 
-        return JsonResponse({'message': 'The blog does not exist'}, status=status.HTTP_404_NOT_FOUND) 
-    
-    if request.method == 'GET': 
-        Blog_serializer = BlogSerializer(blog) 
-        return JsonResponse(Blog_serializer.data) 
-
+        return JsonResponse(Blog_serializer.errors, status=status.HTTP_400_BAD_REQUEST)
 
 @api_view(['GET'])
 def blog_list_published(request):

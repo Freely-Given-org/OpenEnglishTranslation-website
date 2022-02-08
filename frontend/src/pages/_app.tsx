@@ -1,4 +1,5 @@
-import './index.scss';
+import './app.scss';
+import './prism-theme.scss';
 
 import { AppProps } from 'next/app';
 import { useRouter } from 'next/router';

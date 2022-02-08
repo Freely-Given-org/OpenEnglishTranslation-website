@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-o*(@)7-5nbs_i!b9a$&h6y@(rw9u3ul+3j7wg(lpdv5v9qf!@u
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['192.168.120.180', 'localhost', '127.0.0.1']
 
 
 
@@ -39,7 +39,6 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'rest_framework',
-    # 'rest_framework.authtoken',
     'blog.apps.BlogConfig',
     'corsheaders',
 ]
@@ -75,10 +74,10 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'backend.wsgi.application'
 
-CORS_ORIGIN_ALLOW_ALL = False
-CORS_ORIGIN_WHITELIST = (
-    'http://localhost:8081',
-)
+CORS_ORIGIN_ALLOW_ALL = True
+# CORS_ORIGIN_WHITELIST = (
+#     'http://localhost:8081',
+# )
 
 
 # Database
