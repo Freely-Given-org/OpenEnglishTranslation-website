@@ -1,7 +1,7 @@
 import axios from 'axios';
 import type { NextPage } from 'next';
 import dynamic from 'next/dynamic';
-import { useMemo, useState } from 'react';
+import { useEffect, useMemo, useState } from 'react';
 import 'easymde/dist/easymde.min.css';
 import ReactMarkdown from 'react-markdown';
 import rehypePrism from 'rehype-prism-plus';
@@ -15,23 +15,80 @@ const SimpleMDE = dynamic(() => import('react-simplemde-editor'), {
 });
 
 const Home: NextPage = () => {
-    const current = new Date();
-    const date = `${current.getDate()}/${
-        current.getMonth() + 1
-    }/${current.getFullYear()}`;
+    const [blog, setBlog] = useState<any>();
+    const [date, setDate] = useState<any>();
 
     const [auth, setAuth] = useState({ username: '', password: '' });
-    const [images, setImage] = useState<any>();
+    const [imageurl, setImageURL] = useState<any>();
 
     const [title, setTitle] = useState('');
-    const [published, setPublished] = useState(Boolean);
+    const [published, setPublished] = useState('string');
     const [body, setBody] = useState('');
     const [author, setAuthor] = useState('');
 
     const [input, setInput] = useState('');
-    const [labels, setlabels] = useState([] as string[]);
+    const [labels, setlabels] = useState(['']);
 
     const [response, setConsole] = useState('');
+    const [run, setRun] = useState(false);
+
+    useEffect(() => {
+        if (run)
+            localStorage.setItem('labels', JSON.stringify(labels));
+    }, [labels]);
+
+    useEffect(() => {
+        if (run)
+            localStorage.setItem('title', title);
+    }, [title]);
+
+    useEffect(() => {
+        if (run)
+            localStorage.setItem('published', published);
+    }, [published]);
+
+    useEffect(() => {
+        if (run)
+            localStorage.setItem('body', body);
+    }, [body]);
+
+    useEffect(() => {
+        if (run)
+            localStorage.setItem('author', author);
+    }, [author]);
+
+
+
+    useEffect(() => {
+        const current = new Date();
+        const datee = `${current.getDate()}/${
+            current.getMonth() + 1
+        }/${current.getFullYear()}`;
+        setDate(datee);
+        setBlog(new FormData());
+        onload();
+    }, []);
+
+
+    const onload = () => {
+        setTitle(localStorage.getItem('title') || '');
+        setAuthor(localStorage.getItem('author') || '');
+        setPublished(localStorage.getItem('published') || 'false');
+        setBody(localStorage.getItem('body') || '');
+        setlabels(
+            JSON.parse(localStorage.getItem('labels') || '[]') as string[],
+        );
+        setAuth({ username: '', password: '' });
+        setRun(true);
+    };
+
+    const reset = () => {
+        setTitle('');
+        setAuthor('');
+        setPublished('false');
+        setBody('');
+        setlabels([]);
+    };
 
     const updateAuth = (e: React.ChangeEvent<HTMLInputElement>) => {
         const { placeholder, value } = e.target;
@@ -42,21 +99,27 @@ const Home: NextPage = () => {
     };
 
     const submitValue = async () => {
-        const blog = {
-            title: title,
-            published: published,
-            body: body,
-            author: author,
-            labels: labels,
-        };
+        blog.append('title', title);
+        if (published === 'true') {
+            blog.append('published', 'true');
+        } else {
+            blog.append('published', 'false');
+        }
+        blog.append('body', body);
+        blog.append('author', author);
+        blog.append('labels', labels);
+
+        for (const pair of blog.entries()) {
+            console.log(pair[0] + ', ' + pair[1]);
+        }
 
         await axios
             .post('http://192.168.120.180:8080/api/blogs/', blog, {
                 auth: auth,
-                headers: { 'Content-Type': 'application/json' },
+                headers: { 'content-type': 'multipart/form-data' },
             })
             .then(function (response) {
-                setConsole(JSON.stringify(response));
+                setConsole(JSON.stringify(response.data));
             })
             .catch(function (error) {
                 setConsole(JSON.stringify(error.response.data));
@@ -66,16 +129,24 @@ const Home: NextPage = () => {
     const onImageChange = (event: any) => {
         if (event.target.files && event.target.files[0]) {
             const img = event.target.files[0];
-            // console.log(img);
-            if (images)
-                setImage((prevState: any) => [
+            if (imageurl) {
+                setImageURL((prevState: any) => [
                     ...prevState,
-                    { name: img.name, src: URL.createObjectURL(img as Blob) },
+                    {
+                        name: img.name,
+                        src: URL.createObjectURL(img as MediaSource),
+                    },
                 ]);
-            else
-                setImage([
-                    { name: img.name, src: URL.createObjectURL(img as Blob) },
+                blog.append('image', img, [img.name]);
+            } else {
+                setImageURL([
+                    {
+                        name: img.name,
+                        src: URL.createObjectURL(img as MediaSource),
+                    },
                 ]);
+                blog.append('image', img, [img.name]);
+            }
         }
     };
 
@@ -121,10 +192,13 @@ const Home: NextPage = () => {
             >
                 <div className={styles['make-blog']}>
                     <input
-                        className={styles['inputs']}
+                        value={title}
+                        className={styles.inputs}
                         type='text'
                         placeholder='Title'
-                        onChange={(e) => setTitle(e.target.value)}
+                        onChange={(e) => {
+                            setTitle(e.target.value);
+                        }}
                     />
                     <div
                         style={{
@@ -135,12 +209,11 @@ const Home: NextPage = () => {
                     >
                         <label>Publish</label>
                         <select
-                            className={styles['inputs']}
+                            value={published}
+                            className={styles.inputs}
                             placeholder='Published'
                             onChange={(e) => {
-                                if (e.target.value === 'true')
-                                    setPublished(true);
-                                else setPublished(false);
+                                setPublished(e.target.value);
                             }}
                         >
                             <option value='false'>False</option>
@@ -148,38 +221,41 @@ const Home: NextPage = () => {
                         </select>
                     </div>
                     <input
-                        className={styles['inputs']}
+                        value={author}
+                        className={styles.inputs}
                         type='text'
                         placeholder='Author'
-                        onChange={(e) => setAuthor(e.target.value)}
+                        onChange={(e) => {
+                            setAuthor(e.target.value);
+                        }}
                     />
                     <input
-                        className={styles['inputs']}
+                        className={styles.inputs}
                         value={input}
                         placeholder='Enter a label'
                         onKeyDown={onKeyDown}
                         onChange={onChange}
                     />
-                    <div className={styles['tags']}>
+                    <div className={styles.tags}>
                         {labels.map((tag, index) => (
                             <div
                                 onClick={() => deleteTag(index)}
-                                className={styles['tag']}
+                                className={styles.tag}
                             >
                                 {tag}
                             </div>
                         ))}
                     </div>
-                    <div>
-                        {images
-                            ? images.map((i: any) => {
+                    <div style={{minHeight: '30px'}}>
+                        {imageurl
+                            ? imageurl.map((i: any) => {
                                   return (
                                       // eslint-disable-next-line @next/next/no-img-element
                                       <img
                                           style={{ cursor: 'pointer' }}
                                           onClick={() => {
                                               navigator.clipboard.writeText(
-                                                  `<img src="${i.src}" alt='' width="50" height="50" />`,
+                                                  `<img src="${i.src}" alt='${i.name}' width="50" height="50" />`,
                                               );
                                           }}
                                           src={i.src}
@@ -199,9 +275,11 @@ const Home: NextPage = () => {
                     />
                     <SimpleMDE
                         options={options}
-                        className={styles['editor']}
+                        className={styles.editor}
                         value={body}
-                        onChange={(e) => setBody(e)}
+                        onChange={(e) => {
+                            setBody(e);
+                        }}
                     />
                     <div>
                         <label htmlFor='AUTH'>Basic Auth </label>
