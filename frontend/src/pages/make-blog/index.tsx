@@ -33,31 +33,24 @@ const Home: NextPage = () => {
     const [run, setRun] = useState(false);
 
     useEffect(() => {
-        if (run)
-            localStorage.setItem('labels', JSON.stringify(labels));
+        if (run) localStorage.setItem('labels', JSON.stringify(labels));
     }, [labels]);
 
     useEffect(() => {
-        if (run)
-            localStorage.setItem('title', title);
+        if (run) localStorage.setItem('title', title);
     }, [title]);
 
     useEffect(() => {
-        if (run)
-            localStorage.setItem('published', published);
+        if (run) localStorage.setItem('published', published);
     }, [published]);
 
     useEffect(() => {
-        if (run)
-            localStorage.setItem('body', body);
+        if (run) localStorage.setItem('body', body);
     }, [body]);
 
     useEffect(() => {
-        if (run)
-            localStorage.setItem('author', author);
+        if (run) localStorage.setItem('author', author);
     }, [author]);
-
-
 
     useEffect(() => {
         const current = new Date();
@@ -68,7 +61,6 @@ const Home: NextPage = () => {
         setBlog(new FormData());
         onload();
     }, []);
-
 
     const onload = () => {
         setTitle(localStorage.getItem('title') || '');
@@ -246,7 +238,7 @@ const Home: NextPage = () => {
                             </div>
                         ))}
                     </div>
-                    <div style={{minHeight: '30px'}}>
+                    <div style={{ minHeight: '30px' }}>
                         {imageurl
                             ? imageurl.map((i: any) => {
                                   return (
@@ -294,7 +286,10 @@ const Home: NextPage = () => {
                             onChange={updateAuth}
                         />
                     </div>
-                    <button onClick={submitValue}>Submit</button>
+                    <div style={{display: 'flex', justifyContent: 'space-evenly'}}>
+                        <button onClick={submitValue}>Submit</button>
+                        <button onClick={reset}>clear</button>
+                    </div>
                     {response ? (
                         <div
                             style={{
