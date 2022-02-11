@@ -31,6 +31,7 @@ const Home: NextPage = ({ blogs }: any) => {
             <Main>
                 <Page>
                     <MainPageContent>
+                        <h1>Work in progress</h1>
                         <ul>
                             {blogs.map((blog: any) => (
                                 <li>
