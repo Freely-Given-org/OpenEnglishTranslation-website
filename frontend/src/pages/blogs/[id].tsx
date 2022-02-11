@@ -69,9 +69,7 @@ function Blog({ blog }: any) {
                             </>
                         )}
                     </MainPageContent>
-                    <SideBar>
-
-                    </SideBar>
+                    <SideBar></SideBar>
                 </Page>
             </Main>
             <Footer />

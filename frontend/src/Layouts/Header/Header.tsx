@@ -11,7 +11,6 @@ import Design from '../../Components/navDropdowns/Design';
 import Resources from '../../Components/navDropdowns/Resources';
 import styles from './Header.module.scss';
 
-
 const Header: NextPage = () => {
     const [sideMenu, setsideMenu] = useState(false);
 
