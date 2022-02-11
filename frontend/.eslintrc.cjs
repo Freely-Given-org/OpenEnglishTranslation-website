@@ -6,7 +6,7 @@ module.exports = {
         sourceType: 'module',
         project: '../frontend/tsconfig.json',
     },
-    plugins: ['@typescript-eslint', 'unused-imports', 'react',],
+    plugins: ['@typescript-eslint', 'unused-imports', 'react'],
     extends: [
         'eslint:recommended',
         'plugin:@typescript-eslint/recommended',

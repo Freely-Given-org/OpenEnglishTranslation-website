@@ -67,12 +67,16 @@ function DropDownMenu({ menu, isPhoneNav }: Props) {
                 <div className={styles['phone-menu']} onClick={clicked}>
                     <button className={styles['phone-menu-name']}>
                         <Triangle
-                            className={`${styles['triangle']} ${MenuState ? styles['turn'] : null}`}
+                            className={`${styles['triangle']} ${
+                                MenuState ? styles['turn'] : null
+                            }`}
                         />
                         {menu.title}
                     </button>
                     {MenuState ? (
-                        <ul className={styles['phone-menu-items']}>{listItems}</ul>
+                        <ul className={styles['phone-menu-items']}>
+                            {listItems}
+                        </ul>
                     ) : null}
                 </div>
             ) : (
@@ -83,9 +87,9 @@ function DropDownMenu({ menu, isPhoneNav }: Props) {
                     onMouseLeave={mouseLeave}
                 >
                     <button
-                        className={`${styles['menu-name']} ${styles['menu-title']} ${
-                            MenuState ? styles['drop-menu-title'] : ''
-                        }`}
+                        className={`${styles['menu-name']} ${
+                            styles['menu-title']
+                        } ${MenuState ? styles['drop-menu-title'] : ''}`}
                     >
                         {menu.title}
                     </button>

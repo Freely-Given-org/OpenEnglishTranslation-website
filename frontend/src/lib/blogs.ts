@@ -14,8 +14,6 @@ export async function getAllBlogIds() {
     });
 }
 
-
-
 export async function getBlogData(pk: string) {
     let query: string;
     if (pk) query = 'pk=' + pk;
@@ -24,10 +22,10 @@ export async function getBlogData(pk: string) {
     const blogQuery: any = await GET(
         `http://127.0.0.1:8080/api/blogs/published/?${query}`,
     );
-    
+
     // console.log(matterResult);
     // const blog = ({ ...blogQuery.data, ...matterResult});
-        
+
     return {
         blog: blogQuery.data,
     };

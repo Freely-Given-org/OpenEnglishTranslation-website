@@ -286,7 +286,12 @@ const Home: NextPage = () => {
                             onChange={updateAuth}
                         />
                     </div>
-                    <div style={{display: 'flex', justifyContent: 'space-evenly'}}>
+                    <div
+                        style={{
+                            display: 'flex',
+                            justifyContent: 'space-evenly',
+                        }}
+                    >
                         <button onClick={submitValue}>Submit</button>
                         <button onClick={reset}>clear</button>
                     </div>
