@@ -1,17 +1,18 @@
 import GET from 'axios';
+const serverURL = process.env.DJAGO_SERVER_URL as string;
 
 export async function getAllBlogIds() {
-    const blogs: any = await GET(
-        `http://127.0.0.1:8080/api/blogs/published/`,
-    ).catch((err) => console.log(err));
-    // console.log(blogs.data[0].id);
-    return await blogs.data.map((blog: any) => {
-        return {
-            params: {
-                id: blog.id.toString(),
-            },
-        };
-    });
+    try {
+        const blogs: any = await GET(`${serverURL}/api/blogs/published/`);
+
+        return await blogs.data.map((blog: any) => {
+            return {
+                params: {
+                    id: blog.id.toString(),
+                },
+            };
+        });
+    } catch (err) { return [{params: {id: 'error'}}]; }
 }
 
 export async function getBlogData(pk: string) {
@@ -19,16 +20,14 @@ export async function getBlogData(pk: string) {
     if (pk) query = 'pk=' + pk;
     else query = '';
 
-    const blogQuery: any = await GET(
-        `http://127.0.0.1:8080/api/blogs/published/?${query}`,
-    );
-
-    // console.log(matterResult);
-    // const blog = ({ ...blogQuery.data, ...matterResult});
-
-    return {
-        blog: blogQuery.data,
-    };
+    try {
+        const blogQuery: any = await GET(
+            `${serverURL}/api/blogs/published/?${query}`,
+        );
+        return {
+            blog: blogQuery.data,
+        };
+    } catch (error) {return {blog: {error: 'ERROR SERVER NOT WORKING', isEmpty: true}};}
 }
 
 interface querys {
@@ -42,20 +41,14 @@ export async function getBlogsById({ pk, title }: querys) {
     else if (title) query = 'title=' + title;
     else query = '';
     let error;
-    const blogs = await GET(
-        `http://127.0.0.1:8080/api/blogs/published/?${query}`,
-    ).catch((err) => {
-        error = err.response.data;
-    });
-    if (blogs) return blogs.data;
-    else return error;
-
-    //     const matterResult = matter(fileContents)
-
-    //     // Combine the data with the id
-    //     return {
-    //       id,
-    //       ...matterResult.data
-    //     }
-    //   })
+    try {
+        const blogQuery: any = await GET(
+            `${serverURL}/api/blogs/published/?${query}`,
+        );
+        return {
+            blog: blogQuery.data,
+        };
+    } catch (err) {
+        return error;
+    }
 }
