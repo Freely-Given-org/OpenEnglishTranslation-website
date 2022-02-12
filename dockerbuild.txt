@@ -1,0 +1,1 @@
+docker run --name OETDataBase -e POSTGRES_PASSWORD=c08554c1584b6d09 -d postgres

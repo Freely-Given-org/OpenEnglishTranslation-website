@@ -1,7 +1,7 @@
-import './main-page-content.scss';
+import styles from './main-page-content.module.scss';
 
 function MainPageContent({ children }: any) {
-    return <div className='main-page-content'>{children}</div>;
+    return <div className={styles['main-page-content']}>{children}</div>;
 }
 
 export default MainPageContent;

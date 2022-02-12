@@ -5,27 +5,27 @@ const menu: dropMenu = {
     items: [
         {
             name: 'About OET',
-            link: '/OET',
+            link: 'about/OET',
         },
         {
             name: 'About Freely-Given',
-            link: '/freely-given',
+            link: 'about/freely-given',
         },
         {
             name: 'Core Values',
-            link: '/core-values',
+            link: 'about/core-values',
         },
         {
             name: 'Statement of Faith',
-            link: '/statement-of-faith',
+            link: 'about/statement-of-faith',
         },
         {
             name: 'Our Partners',
-            link: '/partners',
+            link: 'about/partners',
         },
         {
             name: 'Contact Us',
-            link: '/contact',
+            link: 'about/contact',
         },
     ],
 };

@@ -3,64 +3,48 @@
     "version": "0.1.0",
     "private": true,
     "scripts": {
-        "start": "react-scripts start",
-        "build": "react-scripts build",
-        "moveBuild": "cp -a build/* /srv/www/OpenEnglishTranslation.bible/",
-        "test": "react-scripts test",
-        "eject": "react-scripts eject",
+        "dev": "next dev",
+        "build": "next build",
+        "start": "next start",
         "format": "prettier --write .",
         "format-check": "prettier --check .",
         "lint": "eslint ./"
     },
-    "eslintConfig": {
-        "extends": "react-app"
-    },
-    "browserslist": {
-        "production": [
-            ">0.2%",
-            "not dead",
-            "not op_mini all"
-        ],
-        "development": [
-            "last 1 chrome version",
-            "last 1 firefox version",
-            "last 1 safari version"
-        ]
-    },
     "dependencies": {
         "@emotion/react": "^11.7.1",
         "@emotion/styled": "^11.6.0",
-        "@mui/icons-material": "^5.3.0",
-        "@mui/material": "^5.3.0",
-        "@reduxjs/toolkit": "^1.7.1",
-        "@testing-library/jest-dom": "^5.16.1",
-        "@testing-library/react": "^12.1.2",
-        "@testing-library/user-event": "^13.5.0",
-        "react": "^17.0.2",
-        "react-dom": "^17.0.2",
-        "react-redux": "^7.2.6",
-        "react-router-dom": "^6.2.1",
-        "react-scripts": "5.0.0",
-        "typescript": "~4.5.4"
-    },
-    "overrides": {
-        "mini-css-extract-plugin": "2.4.5"
+        "@mui/icons-material": "^5.3.1",
+        "@mui/material": "^5.3.1",
+        "axios": "^0.25.0",
+        "easymde": "^2.16.1",
+        "gray-matter": "^4.0.3",
+        "next": "12.0.9",
+        "raw-loader": "^4.0.2",
+        "react": "17.0.2",
+        "react-dom": "17.0.2",
+        "react-markdown": "^8.0.0",
+        "react-remark": "^2.1.0",
+        "react-simplemde-editor": "^5.0.2",
+        "rehype-prism-plus": "^1.3.1",
+        "rehype-raw": "^6.1.1",
+        "remark": "^14.0.2",
+        "remark-gfm": "^3.0.1",
+        "remark-html": "^15.0.1",
+        "sass": "^1.49.0"
     },
     "devDependencies": {
-        "@types/jest": "^27.4.0",
-        "@types/jquery": "^3.5.13",
-        "@types/node": "^17.0.10",
-        "@types/react": "^17.0.38",
-        "@types/react-dom": "^17.0.11",
-        "@types/react-redux": "^7.1.22",
-        "@typescript-eslint/eslint-plugin": "^5.10.0",
-        "@typescript-eslint/parser": "^5.10.0",
-        "eslint": "^8.7.0",
+        "@next/eslint-plugin-next": "^12.0.10",
+        "@types/gtag.js": "^0.0.8",
+        "@types/node": "17.0.13",
+        "@types/react": "17.0.38",
+        "@typescript-eslint/eslint-plugin": "^5.10.2",
+        "eslint": "8.8.0",
+        "eslint-config-next": "12.0.9",
         "eslint-plugin-react": "^7.28.0",
         "eslint-plugin-typescript-sort-keys": "^2.1.0",
         "eslint-plugin-unused-imports": "^2.0.0",
-        "mini-css-extract-plugin": "2.4.5",
+        "mini-css-extract-plugin": "^2.5.3",
         "prettier": "^2.5.1",
-        "sass": "^1.49.0"
+        "typescript": "4.5.5"
     }
 }

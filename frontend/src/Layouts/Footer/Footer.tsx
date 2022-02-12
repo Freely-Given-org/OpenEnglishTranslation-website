@@ -1,75 +1,83 @@
-import './Footer.scss';
 import FacebookIcon from '@mui/icons-material/Facebook';
 import TwitterIcon from '@mui/icons-material/Twitter';
-import { Link } from 'react-router-dom';
+import Link from 'next/link';
 
 import { BigHomeLogo } from '../../Assets/SVGs';
+import styles from './Footer.module.scss';
 
 function Footer() {
     return (
-        <div className='footer'>
-            <div className='footer-container'>
-                <span className='home-logo'>
-                    <Link to={'/'}>
-                        <BigHomeLogo className='big-main-logo' />
+        <div className={styles['footer']}>
+            <div className={styles['footer-container']}>
+                <span className={styles['home-logo']}>
+                    <Link href={'/'}>
+                        <a>
+                            <BigHomeLogo className={styles['big-main-logo']} />
+                        </a>
                     </Link>
                 </span>
-                <div className='link-list-left'>
+                <div className={styles['link-list-left']}>
                     <ul>
                         <li>
-                            <Link to={'/overview'}>Overview</Link>
+                            <Link href={'/overview'}>Overview</Link>
                         </li>
                         <li>
-                            <Link to={'/LV'}>Literal Version</Link>
+                            <Link href={'/literal-version'}>
+                                Literal Version
+                            </Link>
                         </li>
                         <li>
-                            <Link to={'/RV'}>Readers Version</Link>
+                            <Link href={'/readers-version'}>
+                                Readers Version
+                            </Link>
                         </li>
                         <li>
-                            <Link to={'/OET'}>Source Texts</Link>
+                            <Link href={'/OET'}>Source Texts</Link>
                         </li>
                         <li>
-                            <Link to={'/source-texts'}>FAQs</Link>
+                            <Link href={'/source-texts'}>FAQs</Link>
                         </li>
                     </ul>
                 </div>
-                <div className='link-list-right'>
+                <div className={styles['link-list-right']}>
                     <ul>
                         <li>
-                            <Link to={'/OET'}>About OET</Link>
+                            <Link href={'/OET'}>About OET</Link>
                         </li>
                         <li>
-                            <Link to={'/freely-given'}>About Freely-Given</Link>
+                            <Link href={'/freely-given'}>
+                                About Freely-Given
+                            </Link>
                         </li>
                         <li>
-                            <Link to={'/core-values'}>Core Values</Link>
+                            <Link href={'/core-values'}>Core Values</Link>
                         </li>
                         <li>
-                            <Link to={'/statement-of-faith'}>
+                            <Link href={'/statement-of-faith'}>
                                 Statement of Faith
                             </Link>
                         </li>
                         <li>
-                            <Link to={'/partners'}>Our Partners</Link>
+                            <Link href={'/partners'}>Our Partners</Link>
                         </li>
                         <li>
-                            <Link to={'/contact'}>Contact Us</Link>
+                            <Link href={'/contact'}>Contact Us</Link>
                         </li>
                     </ul>
                 </div>
-                <div className='nav-social'>
+                <div className={styles['nav-social']}>
                     <a
                         href='https://www.facebook.com/'
                         className='social-icon'
                         target='blank'
                     >
-                        <FacebookIcon className='facebook-icon' />
+                        <FacebookIcon className={styles['facebook-icon']} />
                     </a>
                     <a href=''>
-                        <TwitterIcon className='twitter-icon' />
+                        <TwitterIcon className={styles['twitter-icon']} />
                     </a>
                 </div>
-                <span className='copyright'>
+                <span className={styles['copyright']}>
                     Copyright © 2022 &nbsp;
                     <a
                         href='https://github.com/Freely-Given-org'

@@ -1,8 +1,8 @@
+import Link from 'next/link';
 import { useState } from 'react';
-import { Link } from 'react-router-dom';
 
 import { Triangle } from '../../../Assets/SVGs';
-import './DropDownMenu.scss';
+import styles from './DropDownMenu.module.scss';
 
 interface item {
     name: string;
@@ -27,7 +27,7 @@ function DropDownMenu({ menu, isPhoneNav }: Props) {
     const listItems = menu.items.map((item) => {
         return (
             <li>
-                <Link to={item.link}>{item.name}</Link>
+                <Link href={item.link}>{item.name}</Link>
             </li>
         );
     });
@@ -64,34 +64,38 @@ function DropDownMenu({ menu, isPhoneNav }: Props) {
     return (
         <>
             {isPhoneNav ? (
-                <div className='phone-menu' onClick={clicked}>
-                    <button className='phone-menu-name'>
+                <div className={styles['phone-menu']} onClick={clicked}>
+                    <button className={styles['phone-menu-name']}>
                         <Triangle
-                            className={`triangle ${MenuState ? 'turn' : null}`}
+                            className={`${styles['triangle']} ${
+                                MenuState ? styles['turn'] : null
+                            }`}
                         />
                         {menu.title}
                     </button>
                     {MenuState ? (
-                        <ul className='phone-menu-items'>{listItems}</ul>
+                        <ul className={styles['phone-menu-items']}>
+                            {listItems}
+                        </ul>
                     ) : null}
                 </div>
             ) : (
                 <div
-                    className='drop-menu'
+                    className={styles['drop-menu']}
                     onClick={clicked}
                     onMouseEnter={mouseHover}
                     onMouseLeave={mouseLeave}
                 >
                     <button
-                        className={`menu-name menu-title ${
-                            MenuState ? 'drop-menu-title' : ''
-                        }`}
+                        className={`${styles['menu-name']} ${
+                            styles['menu-title']
+                        } ${MenuState ? styles['drop-menu-title'] : ''}`}
                     >
                         {menu.title}
                     </button>
 
                     {MenuState ? (
-                        <ul className='menu-items'>{listItems}</ul>
+                        <ul className={styles['menu-items']}>{listItems}</ul>
                     ) : null}
                 </div>
             )}

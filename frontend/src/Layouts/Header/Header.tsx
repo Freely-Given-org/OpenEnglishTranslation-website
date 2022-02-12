@@ -1,29 +1,34 @@
-import './Header.scss';
 import CloseIcon from '@mui/icons-material/Close';
 import MenuRoundedIcon from '@mui/icons-material/MenuRounded';
+import { NextPage } from 'next';
+import Link from 'next/link';
 import { useState } from 'react';
-import { Link } from 'react-router-dom';
 
 import { BigHomeLogo, SmallHomeLogo } from '../../Assets/SVGs';
 import SideMenu from '../../Components/menu/SideMenu/SideMenu';
 import About from '../../Components/navDropdowns/About';
 import Design from '../../Components/navDropdowns/Design';
 import Resources from '../../Components/navDropdowns/Resources';
+import styles from './Header.module.scss';
 
-function Header() {
+const Header: NextPage = () => {
     const [sideMenu, setsideMenu] = useState(false);
 
     return (
-        <div className='header'>
-            <Link to={'/'} className='main-logo'>
-                <BigHomeLogo className='big-main-logo' />
-                <SmallHomeLogo className='small-main-logo' />
-            </Link>
-            <nav className='big-nav'>
+        <div className={styles['header']}>
+            <div className={styles['main-logo']}>
+                <Link href={'/'}>
+                    <a>
+                        <BigHomeLogo className={styles['big-main-logo']} />
+                        <SmallHomeLogo className={styles['small-main-logo']} />
+                    </a>
+                </Link>
+            </div>
+            <nav className={styles['big-nav']}>
                 <Design />
-                <Link to={'/reader'}>Reader</Link>
+                <Link href={'/reader'}>Reader</Link>
                 <Resources />
-                <Link to={'/blog'}>Blog</Link>
+                <Link href={'/blogs'}>Blog</Link>
                 <About />
             </nav>
 
@@ -31,24 +36,20 @@ function Header() {
                 <SideMenu>
                     <CloseIcon
                         onClick={() => setsideMenu(false)}
-                        className='close-side-menu'
+                        className={styles.close_side_menu}
                     />
-                    <ul className='phone-nav'>
+                    <ul className={styles['phone-nav']}>
                         <li>
                             <Design phoneNav={true} />
                         </li>
                         <li>
-                            <Link className='menu-link' to={'/reader'}>
-                                Reader
-                            </Link>
+                            <Link href={'/reader'}>Reader</Link>
                         </li>
                         <li>
                             <Resources phoneNav={true} />
                         </li>
                         <li>
-                            <Link className='menu-link' to={'/blog'}>
-                                Blog
-                            </Link>
+                            <Link href={'/blogs'}>Blog</Link>
                         </li>
                         <li>
                             <About phoneNav={true} />
@@ -58,11 +59,11 @@ function Header() {
             ) : (
                 <MenuRoundedIcon
                     onClick={() => setsideMenu(true)}
-                    className='small-nav'
+                    className={styles['small-nav']}
                 />
             )}
         </div>
     );
-}
+};
 
 export default Header;

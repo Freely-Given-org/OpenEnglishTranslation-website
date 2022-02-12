@@ -1,0 +1,66 @@
+.make-blog {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    flex-basis: 50%;
+    padding: 10px;
+    height: 600px;
+}
+
+.inputs {
+    margin: 10px;
+    min-width: 200px;
+    border: 1px grey solid;
+    border-radius: 5px;
+    max-width: 100%;
+    padding: 8px;
+}
+
+.input-body {
+    display: inline-block;
+    margin: 0;
+    padding: 0.2em;
+    width: auto;
+
+    /* Do not use "border" in textareas unless you want to remove the 3D box most browsers assign and flatten the box design. */
+    /*border: 1px solid black;*/
+    cursor: text;
+    /* Some textareas have a light gray background by default anyway. */
+    background-color: #eee;
+    /* Overflow "auto" allows the box to start with no scrollbars but add them as content fills the box. */
+    overflow: auto;
+}
+
+.tags {
+    grid-column: 1/3;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.tag {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 7px 0;
+    margin-right: 10px;
+    padding: 0 10px;
+    padding-right: 5px;
+    border: 1px solid #6272a4;
+    border-radius: 5px;
+    background-color: #6272a4;
+    white-space: nowrap;
+    color: white;
+    cursor: pointer;
+}
+
+.editor {
+    grid-column: 1/3;
+    width: 100%;
+}
+
+.show-blog {
+    flex-basis: 50%;
+    padding: 10px;
+    word-wrap: break-word;
+    word-break: normal;
+    width: 100%;
+}

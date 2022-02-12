@@ -15,6 +15,7 @@ module.exports = {
         'plugin:import/warnings',
         'plugin:import/typescript',
         'plugin:react/jsx-runtime',
+        'plugin:@next/next/recommended',
     ],
     rules: {
         'unused-imports/no-unused-imports': 'warn',

@@ -5,23 +5,23 @@ const menu: dropMenu = {
     items: [
         {
             name: 'Overview',
-            link: '/overview',
+            link: 'design/overview',
         },
         {
             name: 'Literal Version',
-            link: '/literal-version',
+            link: 'design/literal-version',
         },
         {
             name: 'Reader’s Version',
-            link: '/readers-version',
+            link: 'design/readers-version',
         },
         {
             name: 'Source Texts',
-            link: '/source-texts',
+            link: 'design/source-texts',
         },
         {
             name: 'FAQs',
-            link: '/FAQ',
+            link: 'design/FAQ',
         },
     ],
 };

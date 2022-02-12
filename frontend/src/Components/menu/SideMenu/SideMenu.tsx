@@ -1,7 +1,7 @@
-import './side-menu.scss';
+import styles from './side-menu.module.scss';
 
 function SideMenu({ children }: any) {
-    return <div className='side-menu'>{children}</div>;
+    return <div className={styles['side-menu']}>{children}</div>;
 }
 
 export default SideMenu;
