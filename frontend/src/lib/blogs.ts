@@ -12,7 +12,9 @@ export async function getAllBlogIds() {
                 },
             };
         });
-    } catch (err) { return [{params: {id: 'error'}}]; }
+    } catch (err) {
+        return [{ params: { id: 'error' } }];
+    }
 }
 
 export async function getBlogData(pk: string) {
@@ -27,7 +29,9 @@ export async function getBlogData(pk: string) {
         return {
             blog: blogQuery.data,
         };
-    } catch (error) {return {blog: {error: 'ERROR SERVER NOT WORKING', isEmpty: true}};}
+    } catch (error) {
+        return { blog: { error: 'ERROR SERVER NOT WORKING', isEmpty: true } };
+    }
 }
 
 interface querys {
