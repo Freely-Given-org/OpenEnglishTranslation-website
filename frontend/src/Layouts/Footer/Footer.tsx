@@ -28,7 +28,17 @@ function Footer() {
                         </li>
                         <li>
                             <Link href={'/readers-version'}>
-                                Readers Version
+                                Readers’ Version
+                            </Link>
+                        </li>
+                        <li>
+                            <Link href={'/conventional-edition'}>
+                                Conventional Edition
+                            </Link>
+                        </li>
+                        <li>
+                            <Link href={'/explorers-edition'}>
+                                Explorers’ Edition
                             </Link>
                         </li>
                         <li>

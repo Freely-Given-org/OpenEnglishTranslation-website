@@ -1,3 +1,6 @@
+import Link from 'next/link';
+
+import HomePagePhoto from '../Assets/sixteen-miles-out-MLOZazGGCb8-unsplash.jpg';
 import Footer from '../../../Layouts/Footer/Footer';
 import Header from '../../../Layouts/Header/Header';
 import Main from '../../../Layouts/main/main';
@@ -9,9 +12,28 @@ function SourceTexts() {
             <Main>
                 <div>
                     <h1>Hebrew Scriptures</h1>
+                    <div className={styles['banner-feed']}>
+                        <Image
+                            src={HomePagePhoto}
+                            alt='idk big thingy'
+                            width={500}
+                            height={333.333}
+                            className={styles['home-page-photo']}
+                        />
+                        <p>
+                            Photo by{' '}
+                            <Link href='https://unsplash.com/@sixteenmilesout?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText'>
+                                Sixteen Miles Out
+                            </Link>{' '}
+                            on{' '}
+                            <Link href='https://unsplash.com/collections/4858217/bible?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText'>
+                                Unsplash
+                            </Link>
+                        </p>
+                    </div>
                     <p>
                         We are very grateful for the work of the Open Scripture
-                        Hebrew Bible team, and will be using their OSHB as our
+                        Hebrew Bible team, and will be using their <Link href="https://github.com/Freely-Given-org/morphhb">OSHB</Link> as our
                         source text for the Hebrew Scriptures. This text is
                         based on the Westminster Lenigrad Codex (WLC).
                     </p>
@@ -19,9 +41,9 @@ function SourceTexts() {
                     <p>
                         We are still in the process of finding a suitable
                         open-licensed copy of the{' '}
-                        <a href='https://en.wikipedia.org/wiki/Septuagint'>
+                        <Link href='https://en.wikipedia.org/wiki/Septuagint'>
                             Septuagint
-                        </a>{' '}
+                        </Link>{' '}
                         (LXX) Greek translation of the Hebrew Scriptures. This
                         translation was done around 250BC.
                     </p>
@@ -29,9 +51,9 @@ function SourceTexts() {
                     <p>
                         We are thrilled to be among the very early users of the
                         Greek New Testament from the{' '}
-                        <a href='https://GreekCNTR.org'>
+                        <Link href='https://GreekCNTR.org'>
                             Center for New Testament Restoration
-                        </a>
+                        </Link>
                         .
                     </p>
                 </div>

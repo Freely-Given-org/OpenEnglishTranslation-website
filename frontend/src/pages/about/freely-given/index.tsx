@@ -6,7 +6,9 @@ function FreelyGiven() {
     return (
         <>
             <Header />
-            <Main></Main>
+            <Main>
+                <h1>About Freely-Given.org</h1>
+            </Main>
             <Footer />
         </>
     );

@@ -12,8 +12,16 @@ const menu: dropMenu = {
             link: 'design/literal-version',
         },
         {
-            name: 'Reader’s Version',
+            name: 'Readers’ Version',
             link: 'design/readers-version',
+        },
+        {
+            name: 'Conventional Edition',
+            link: 'design/conventional-edition',
+        },
+        {
+            name: 'Explorers’ Edition',
+            link: 'design/explorers-edition',
         },
         {
             name: 'Source Texts',
