@@ -1,9 +1,11 @@
+import Image from 'next/image';
 import Link from 'next/link';
 
-import HomePagePhoto from '../Assets/sixteen-miles-out-MLOZazGGCb8-unsplash.jpg';
 import Footer from '../../../Layouts/Footer/Footer';
 import Header from '../../../Layouts/Header/Header';
 import Main from '../../../Layouts/main/main';
+import HomePagePhoto from '../Assets/sixteen-miles-out-MLOZazGGCb8-unsplash.jpg';
+import styles from './source-text.module.scss';
 
 function SourceTexts() {
     return (
@@ -12,13 +14,13 @@ function SourceTexts() {
             <Main>
                 <div>
                     <h1>Hebrew Scriptures</h1>
-                    <div className={styles['banner-feed']}>
+                    <div className={styles.bannerFeed}>
                         <Image
                             src={HomePagePhoto}
                             alt='idk big thingy'
                             width={500}
                             height={333.333}
-                            className={styles['home-page-photo']}
+                            className={styles.homePagePhoto}
                         />
                         <p>
                             Photo by{' '}
@@ -33,9 +35,12 @@ function SourceTexts() {
                     </div>
                     <p>
                         We are very grateful for the work of the Open Scripture
-                        Hebrew Bible team, and will be using their <Link href="https://github.com/Freely-Given-org/morphhb">OSHB</Link> as our
-                        source text for the Hebrew Scriptures. This text is
-                        based on the Westminster Lenigrad Codex (WLC).
+                        Hebrew Bible team, and will be using their{' '}
+                        <Link href='https://github.com/Freely-Given-org/morphhb'>
+                            OSHB
+                        </Link>{' '}
+                        as our source text for the Hebrew Scriptures. This text
+                        is based on the Westminster Lenigrad Codex (WLC).
                     </p>
                     <h1>Greek Translation of Hebrew Scriptures</h1>
                     <p>

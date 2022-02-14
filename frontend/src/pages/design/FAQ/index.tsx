@@ -9,115 +9,121 @@ function FAQ() {
         <>
             <Header />
             <Main>
-                <p id='FAQTop' class='FAQContentEntry'>
-                    See the <a href='Introduction.html'>introduction page</a>{' '}
-                    for information about the OET translation philosophy and the
+                <p id='FAQTop' className='FAQContentEntry'>
+                    See the{' '}
+                    <Link href='Introduction.html'>introduction page</Link> for
+                    information about the OET translation philosophy and the
                     various OET versions.
                 </p>
-                <p class='FAQContentEntry'>
-                    <a href='#Name'>
+                <p className='FAQContentEntry'>
+                    <Link href='#Name'>
                         Why is it called the Open English Translation of the
                         Bible (OET)?
-                    </a>
+                    </Link>
                 </p>
-                <p class='FAQContentEntry'>
-                    <a href='#Download'>Where can I download the OET from?</a>
+                <p className='FAQContentEntry'>
+                    <Link href='#Download'>
+                        Where can I download the OET from?
+                    </Link>
                 </p>
-                <p class='FAQContentEntry'>
-                    <a href='#SoLong'>Why's the OET taking so long?</a>
+                <p className='FAQContentEntry'>
+                    <Link href='#SoLong'>Why's the OET taking so long?</Link>
                 </p>
-                <p class='FAQContentEntry'>
-                    <a href='#SoMany'>Why are there so many translations?</a>
+                <p className='FAQContentEntry'>
+                    <Link href='#SoMany'>
+                        Why are there so many translations?
+                    </Link>
                 </p>
-                <p class='FAQContentEntry'>
-                    <a href='#Different'>
+                <p className='FAQContentEntry'>
+                    <Link href='#Different'>
                         Why is the OET different from other translations?
-                    </a>
+                    </Link>
                 </p>
-                <p class='FAQContentEntry'>
-                    <a href='#Dialect'>
+                <p className='FAQContentEntry'>
+                    <Link href='#Dialect'>
                         Which English dialect and spelling system will the OET
                         use?
-                    </a>
+                    </Link>
                 </p>
-                <p class='FAQContentEntry'>
-                    <a href='#Why'>Why is the OET even needed?</a>
+                <p className='FAQContentEntry'>
+                    <Link href='#Why'>Why is the OET even needed?</Link>
                 </p>
-                <p class='FAQContentEntry'>
-                    <a href='#OTNT'>
+                <p className='FAQContentEntry'>
+                    <Link href='#OTNT' passHref>
                         Why doesn't the OET use the names <em>Old Testament</em>{' '}
                         and <em>New Testament</em>?
-                    </a>
+                    </Link>
                 </p>
-                <p class='FAQContentEntry'>
-                    <a href='#CV'>
+                <p className='FAQContentEntry'>
+                    <Link href='#CV'>
                         Why does the OET downplay chapter and verse numbers?
-                    </a>
+                    </Link>
                 </p>
-                <p class='FAQContentEntry'>
-                    <a href='#Tags'>
+                <p className='FAQContentEntry'>
+                    <Link href='#Tags'>
                         Why does the OET have funny characters in the files?
-                    </a>
+                    </Link>
                 </p>
-                <p class='FAQContentEntry'>
-                    <a href='#BookOrder'>
+                <p className='FAQContentEntry'>
+                    <Link href='#BookOrder'>
                         Why does the OET have the books in a different order?
-                    </a>
+                    </Link>
                 </p>
-                <p class='FAQContentEntry'>
-                    <a href='#ReleaseDate'>
+                <p className='FAQContentEntry'>
+                    <Link href='#ReleaseDate'>
                         When is the expected release date?
-                    </a>
+                    </Link>
                 </p>
-                <p class='FAQContentEntry'>
-                    <a href='#SourceFiles'>
+                <p className='FAQContentEntry'>
+                    <Link href='#SourceFiles'>
                         What is the format of the source files?
-                    </a>
+                    </Link>
                 </p>
-                <p class='FAQContentEntry'>
-                    <a href='#License'>What license will the OET have?</a>
+                <p className='FAQContentEntry'>
+                    <Link href='#License'>What license will the OET have?</Link>
                 </p>
-                <p class='FAQContentEntry'>
-                    <a href='#Editor'>Which Bible editor do you use?</a>
+                <p className='FAQContentEntry'>
+                    <Link href='#Editor'>Which Bible editor do you use?</Link>
                 </p>
-                <p class='FAQContentEntry'>
-                    <a href='#LVQ'>
+                <p className='FAQContentEntry'>
+                    <Link href='#LVQ' passHref>
                         <b>Literal Version</b> questions
-                    </a>
+                    </Link>
                 </p>
-                <p class='FAQContentEntry'>
-                    <a href='#RVQ'>
+                <p className='FAQContentEntry'>
+                    <Link href='#RVQ' passHref>
                         <b>Readers' Version</b> questions
-                    </a>
+                    </Link>
                 </p>
-                <p class='FAQContentEntry'>
-                    <a href='#CVQ'>
+                <p className='FAQContentEntry'>
+                    <Link href='#CVQ' passHref>
                         <b>Colloquial Version</b> questions
-                    </a>
+                    </Link>
                 </p>
-                <p class='FAQContentEntry'>
-                    <a href='#SVQ'>
+                <p className='FAQContentEntry'>
+                    <Link href='#SVQ' passHref>
                         <b>Study Version</b> questions
-                    </a>
+                    </Link>
                 </p>
-                <p class='FAQContentEntry'>
-                    <a href='#EVQ'>
+                <p className='FAQContentEntry'>
+                    <Link href='#EVQ' passHref>
                         <b>Extended Version</b> questions
-                    </a>
+                    </Link>
                 </p>
-                <p class='FAQContentEntry'>
-                    See the <a href='Introduction.html'>introduction page</a>{' '}
-                    for information about the OET translation philosophy and the
+                <p className='FAQContentEntry'>
+                    See the{' '}
+                    <Link href='Introduction.html'>introduction page</Link> for
+                    information about the OET translation philosophy and the
                     various OET versions.
                 </p>
                 <p>
-                    [<a href='#FAQTop'>Back to top</a>]
+                    [<Link href='#FAQTop'>Back to top</Link>]
                 </p>
-                <h2 class='FAQ' id='Name'>
+                <h2 className='FAQ' id='Name'>
                     Why is it called the Open English Translation of the Bible
                     (OET)?
                 </h2>
-                <p class='FAQAnswer'></p>
+                <p className='FAQAnswer'></p>
                 <ul>
                     <li>
                         <b>Open</b> (unashamedly inspired by Free and Open
@@ -147,40 +153,40 @@ function FAQ() {
                     </li>
                 </ul>
                 <p>
-                    [<a href='#FAQTop'>Back to top</a>]
+                    [<Link href='#FAQTop'>Back to top</Link>]
                 </p>
-                <h2 class='FAQ' id='Download'>
+                <h2 className='FAQ' id='Download'>
                     Where can I download the OET from?
                 </h2>
-                <p class='FAQAnswer'>
+                <p className='FAQAnswer'>
                     The OET translation isn’t completed yet so it’s not yet
                     available. However, some sample files can be found on the{' '}
-                    <a href='Downloads/'>Downloads page</a>.
+                    <Link href='Downloads/'>Downloads page</Link>.
                 </p>
                 <p>
-                    [<a href='#FAQTop'>Back to top</a>]
+                    [<Link href='#FAQTop'>Back to top</Link>]
                 </p>
-                <h2 class='FAQ' id='SoLong'>
+                <h2 className='FAQ' id='SoLong'>
                     Why's the OET taking so long?
                 </h2>
-                <p class='FAQAnswer'>
+                <p className='FAQAnswer'>
                     The OET translation has been on hold for several years as
                     we’ve worked on other projects. However, we expect serious
                     work to resume on the OET in early 2022.
                 </p>
                 <p>
-                    [<a href='#FAQTop'>Back to top</a>]
+                    [<Link href='#FAQTop'>Back to top</Link>]
                 </p>
-                <h2 class='FAQ' id='SoMany'>
+                <h2 className='FAQ' id='SoMany'>
                     Why are there so many translations?
                 </h2>
-                <p class='FAQAnswer'>
+                <p className='FAQAnswer'>
                     Well, Christians have a long history of devotion to the task
                     of making the Bible available in a language that people can
                     easily understand -- many suffered and some even died in
                     their zeal to make the Scriptures available to others.
                 </p>
-                <p class='FAQAnswer'>
+                <p className='FAQAnswer'>
                     However, assuming that you’re really asking about ENGLISH
                     translations here, there are two main reasons:
                 </p>
@@ -208,7 +214,7 @@ function FAQ() {
                         different translations arise.
                     </li>
                 </ol>
-                <p class='FAQAnswer'>
+                <p className='FAQAnswer'>
                     Someone once said, “
                     <em>
                         Reading a translation is like looking at the back of a
@@ -221,12 +227,12 @@ function FAQ() {
                     confusion).
                 </p>
                 <p>
-                    [<a href='#FAQTop'>Back to top</a>]
+                    [<Link href='#FAQTop'>Back to top</Link>]
                 </p>
-                <h2 class='FAQ' id='Different'>
+                <h2 className='FAQ' id='Different'>
                     Why is the OET different from other translations?
                 </h2>
-                <p class='FAQAnswer'>Well, there are several reasons:</p>
+                <p className='FAQAnswer'>Well, there are several reasons:</p>
                 <ul>
                     <li>
                         It is a 21st century translation so it is designed to be
@@ -251,36 +257,36 @@ function FAQ() {
                     </li>
                 </ul>
                 <p>
-                    [<a href='#FAQTop'>Back to top</a>]
+                    [<Link href='#FAQTop'>Back to top</Link>]
                 </p>
-                <h2 class='FAQ' id='Dialect'>
+                <h2 className='FAQ' id='Dialect'>
                     Which English dialect and spelling system will the OET use?
                 </h2>
-                <p class='FAQAnswer'>
+                <p className='FAQAnswer'>
                     Ha, yaright, mate! Although the base versions will use
                     British spelling, we also plan to make variants available
                     using US spelling and units, etc.
                 </p>
                 <p>
-                    [<a href='#FAQTop'>Back to top</a>]
+                    [<Link href='#FAQTop'>Back to top</Link>]
                 </p>
-                <h2 class='FAQ' id='Why'>
+                <h2 className='FAQ' id='Why'>
                     Why is the OET even needed?
                 </h2>
-                <p class='FAQAnswer'>
+                <p className='FAQAnswer'>
                     Since this is such an important question (especially for
                     potential prayer and financial supporters), the answer is
                     placed on
-                    <a href='Why.html'>this separate page</a>.
+                    <Link href='Why.html'>this separate page</Link>.
                 </p>
                 <p>
-                    [<a href='#FAQTop'>Back to top</a>]
+                    [<Link href='#FAQTop'>Back to top</Link>]
                 </p>
-                <h2 class='FAQ' id='OTNT'>
-                    Why doesn’t the OET Explorer’s Edition (OET-EE) use the names <em>Old Testament</em> and{' '}
-                    <em>New Testament</em>?
+                <h2 className='FAQ' id='OTNT'>
+                    Why doesn’t the OET Explorer’s Edition (OET-EE) use the
+                    names <em>Old Testament</em> and <em>New Testament</em>?
                 </h2>
-                <p class='FAQAnswer'>
+                <p className='FAQAnswer'>
                     Although these names are indeed very familiar, they are
                     often confusing and somewhat misleading for modern readers.
                     In current useage, we really are only likely to use the term{' '}
@@ -290,10 +296,10 @@ function FAQ() {
                     is no longer relevant. Hence the OET actively tries to
                     discard this terminology.
                 </p>
-                <h2 class='FAQ' id='CV'>
+                <h2 className='FAQ' id='CV'>
                     Why does the OET downplay chapter and verse numbers?
                 </h2>
-                <p class='FAQAnswer'>
+                <p className='FAQAnswer'>
                     Have you heard someone say, "This verse says, ..."? Well,
                     verses are a purely artificial (and not particularly well
                     thought-out) way of dividing the Bible text, and verses
@@ -307,12 +313,12 @@ function FAQ() {
                     help do it.
                 </p>
                 <p>
-                    [<a href='#FAQTop'>Back to top</a>]
+                    [<Link href='#FAQTop'>Back to top</Link>]
                 </p>
-                <h2 class='FAQ' id='Tags'>
+                <h2 className='FAQ' id='Tags'>
                     Why does the OET have funny characters in the files?
                 </h2>
-                <p class='FAQAnswer'>
+                <p className='FAQAnswer'>
                     The Literal Version (OET-LV) uses underline characters to
                     join words which are represented by one word in the original
                     language. For example, <em>he_said</em> would indicate that
@@ -326,17 +332,17 @@ function FAQ() {
                     characters, e.g., <em>him=PDavid</em> tells us that the{' '}
                     <em>him</em> referred to is the person David. A full list of
                     tags and special characters can be found{' '}
-                    <a href='Tags.html'>here</a>. Note also that a{' '}
+                    <Link href='Tags.html'>here</Link>. Note also that a{' '}
                     <em>clean</em> copy of the files is also provided on the{' '}
-                    <a href='Downloads/'>Downloads page</a>.
+                    <Link href='Downloads/'>Downloads page</Link>.
                 </p>
                 <p>
-                    [<a href='#FAQTop'>Back to top</a>]
+                    [<Link href='#FAQTop'>Back to top</Link>]
                 </p>
-                <h2 class='FAQ' id='BookOrder'>
+                <h2 className='FAQ' id='BookOrder'>
                     Why does the OET have the books in a different order?
                 </h2>
-                <p class='FAQAnswer'>
+                <p className='FAQAnswer'>
                     Well yeah, tradition is a wonderful thing, and you can be
                     assured that there will be a variant with some more
                     traditional design decisions like the traditional book
@@ -350,12 +356,12 @@ function FAQ() {
                     each other.
                 </p>
                 <p>
-                    [<a href='#FAQTop'>Back to top</a>]
+                    [<Link href='#FAQTop'>Back to top</Link>]
                 </p>
-                <h2 class='FAQ' id='ReleaseDate'>
+                <h2 className='FAQ' id='ReleaseDate'>
                     When is the expected release date?
                 </h2>
-                <p class='FAQAnswer'>
+                <p className='FAQAnswer'>
                     Actually, it’s release <em>dates</em> since there’s five
                     versions. It is planned to develop the Literal Version, the
                     Readers’ Version, and the Colloquial Version simultaneously,
@@ -365,111 +371,114 @@ function FAQ() {
                     also be developed together, but not until after the V1.0.0
                     release of the first three versions, so no time frame is
                     available for them yet. But if we can recruit more{' '}
-                    <a href='../../../Opportunities.html'>volunteers</a>, it
-                    would be nice to speed up the progress.
+                    <Link href='../../../Opportunities.html'>volunteers</Link>,
+                    it would be nice to speed up the progress.
                 </p>
                 <p>
-                    [<a href='#FAQTop'>Back to top</a>]
+                    [<Link href='#FAQTop'>Back to top</Link>]
                 </p>
-                <h2 class='FAQ' id='SourceFiles'>
+                <h2 className='FAQ' id='SourceFiles'>
                     What is the format of the source files?
                 </h2>
-                <p class='FAQAnswer'>
+                <p className='FAQAnswer'>
                     The OET source files use our own
-                    <a href='../../../Software/BibleDropBox/ESFMBibles.html'>
+                    <Link href='../../../Software/BibleDropBox/ESFMBibles.html'>
                         ESFM
-                    </a>
+                    </Link>
                     format, which are human-readable Unicode text files with
                     embedded semantic markers. But each version will be
                     available in multiple exported formats for download,
                     including text,
-                    <a href='https://www.libreoffice.org'>LibreOffice</a>/
-                    <a href='https://www.openoffice.org'>OpenOffice</a> (
-                    <a href='https://en.wikipedia.org/wiki/OpenDocument'>ODF</a>
-                    ), and <a href='https://en.wikipedia.org/wiki/Pdf'>
-                        PDF
-                    </a>{' '}
+                    <Link href='https://www.libreoffice.org'>LibreOffice</Link>/
+                    <Link href='https://www.openoffice.org'>OpenOffice</Link> (
+                    <Link href='https://en.wikipedia.org/wiki/OpenDocument'>
+                        ODF
+                    </Link>
+                    ), and{' '}
+                    <Link href='https://en.wikipedia.org/wiki/Pdf'>PDF</Link>{' '}
                     files (both of individual books and of entire versions),
-                    <a href='../../../Software/BibleDropBox/USFMBibles.html'>
+                    <Link href='../../../Software/BibleDropBox/USFMBibles.html'>
                         USFM
-                    </a>
+                    </Link>
                     and{' '}
-                    <a href='../../../Software/BibleDropBox/USXBibles.html'>
+                    <Link href='../../../Software/BibleDropBox/USXBibles.html'>
                         USX
-                    </a>{' '}
+                    </Link>{' '}
                     files,
-                    <a href='../../../Software/BibleDropBox/OSISBibles.html'>
+                    <Link href='../../../Software/BibleDropBox/OSISBibles.html'>
                         OSIS
-                    </a>{' '}
+                    </Link>{' '}
                     files, and{' '}
-                    <a href='https://www.idpf.org'>Epub electronic book</a>{' '}
+                    <Link href='https://www.idpf.org'>
+                        Epub electronic book
+                    </Link>{' '}
                     files
                 </p>
                 <p>
-                    [<a href='#FAQTop'>Back to top</a>]
+                    [<Link href='#FAQTop'>Back to top</Link>]
                 </p>
-                <h2 class='FAQ' id='License'>
+                <h2 className='FAQ' id='License'>
                     What license will the OET have?
                 </h2>
-                <p class='FAQAnswer'>
+                <p className='FAQAnswer'>
                     It’s still being decided whether to use a{' '}
-                    <a href='https://creativecommons.org/about'>
+                    <Link href='https://creativecommons.org/about'>
                         Creative Commons
-                    </a>{' '}
-                    <a href='https://creativecommons.org/licenses/by-sa/3.0/'>
+                    </Link>{' '}
+                    <Link href='https://creativecommons.org/licenses/by-sa/3.0/'>
                         "share-alike" license
-                    </a>
+                    </Link>
                     or to put the translation into the{' '}
-                    <a href='https://wiki.creativecommons.org/Public_domain'>
+                    <Link href='https://wiki.creativecommons.org/Public_domain'>
                         public domain
-                    </a>
+                    </Link>
                     .
                 </p>
                 <p>
-                    [<a href='#FAQTop'>Back to top</a>]
+                    [<Link href='#FAQTop'>Back to top</Link>]
                 </p>
-                <h2 class='FAQ' id='Editor'>
+                <h2 className='FAQ' id='Editor'>
                     Which Bible editor do you use?
                 </h2>
-                <p class='FAQAnswer'>
+                <p className='FAQAnswer'>
                     We use our own{' '}
-                    <a href='../../../Software/Biblelator/'>
+                    <Link href='../../../Software/Biblelator/'>
                         Biblelator editor
-                    </a>{' '}
+                    </Link>{' '}
                     Bible translation editor which is still being developed, but
                     which already has most of the tools working to enable Old
                     Testament translation (still no interlinear Greek
                     resources).
                 </p>
                 <p>
-                    [<a href='#FAQTop'>Back to top</a>]
+                    [<Link href='#FAQTop'>Back to top</Link>]
                 </p>
                 <h1 id='LVQ'>Literal Version Questions</h1>
-                <p class='FAQContentEntry'>
-                    <a href='#LVAim'>
+                <p className='FAQContentEntry'>
+                    <Link href='#LVAim'>
                         Who is the Literal Version intended for?
-                    </a>
+                    </Link>
                 </p>
-                <p class='FAQContentEntry'>
-                    <a href='#LVWoody'>
+                <p className='FAQContentEntry'>
+                    <Link href='#LVWoody'>
                         Why doesn’t the Literal Version sound very fluent or
                         natural?
-                    </a>
+                    </Link>
                 </p>
-                <h2 class='FAQ' id='LVAim'>
+                <h2 className='FAQ' id='LVAim'>
                     Who is the Literal Version intended for?
                 </h2>
-                <p class='FAQAnswer'>
+                <p className='FAQAnswer'>
                     The OET-LV is intended to help the English reader get a good
                     understanding of what is actually written in the original
                     languages without needing to have a good understanding of
                     Hebrew, Aramaic, and Greek.
                 </p>
-                <h2 class='FAQ' id='LVWoody'>
+                <h2 className='FAQ' id='LVWoody'>
                     Why doesn’t the Literal Version sound very fluent or
                     natural?
                 </h2>
-                <p class='FAQAnswer'>
+                <p className='FAQAnswer'>
                     Yes, we call that the <em>woody</em> feeling. The OET-LV is
                     designed to closely follow the wording used in the original
                     languages, instead of using modern English expressions. This
@@ -480,19 +489,20 @@ function FAQ() {
                     you want something that’s nicer to read.
                 </p>
                 <p>
-                    [<a href='#LVQ'>Back to Literal Version top</a>]
-                    &nbsp;&nbsp;&nbsp; [<a href='#FAQTop'>Back to FAQ top</a>]
+                    [<Link href='#LVQ'>Back to Literal Version top</Link>]
+                    &nbsp;&nbsp;&nbsp; [
+                    <Link href='#FAQTop'>Back to FAQ top</Link>]
                 </p>
                 <h1 id='RVQ'>Readers’ Version Questions</h1>
-                <p class='FAQContentEntry'>
-                    <a href='#RVAim'>
+                <p className='FAQContentEntry'>
+                    <Link href='#RVAim'>
                         Who is the Readers’ Version intended for?
-                    </a>
+                    </Link>
                 </p>
-                <h2 class='FAQ' id='RVAim'>
+                <h2 className='FAQ' id='RVAim'>
                     Who is the Readers’ Version intended for?
                 </h2>
-                <p class='FAQAnswer'>
+                <p className='FAQAnswer'>
                     The OET-RV is intended for someone who wants an easily
                     readable, modern English version of the Bible. It’s
                     particularly useful for getting an overall view of the flow
@@ -500,19 +510,20 @@ function FAQ() {
                     study tools.
                 </p>
                 <p>
-                    [<a href='#RVQ'>Back to Readers’ Version top</a>]
-                    &nbsp;&nbsp;&nbsp; [<a href='#FAQTop'>Back to FAQ top</a>]
+                    [<Link href='#RVQ'>Back to Readers’ Version top</Link>]
+                    &nbsp;&nbsp;&nbsp; [
+                    <Link href='#FAQTop'>Back to FAQ top</Link>]
                 </p>
                 <h1 id='CVQ'>Colloquial Version Questions</h1>
-                <p class='FAQContentEntry'>
-                    <a href='#CVAim'>
+                <p className='FAQContentEntry'>
+                    <Link href='#CVAim'>
                         Who is the Colloquial Version intended for?
-                    </a>
+                    </Link>
                 </p>
-                <h2 class='FAQ' id='CVAim'>
+                <h2 className='FAQ' id='CVAim'>
                     Who is the Colloquial Version intended for?
                 </h2>
-                <p class='FAQAnswer'>
+                <p className='FAQAnswer'>
                     The OET-CV is intended for someone who wants an easily
                     readable, very modern English version of the Bible that’s
                     especially easy for young people to understand. It’s
@@ -522,42 +533,47 @@ function FAQ() {
                     different.
                 </p>
                 <p>
-                    [<a href='#CVQ'>Back to Colloquial Version top</a>]
-                    &nbsp;&nbsp;&nbsp; [<a href='#FAQTop'>Back to FAQ top</a>]
+                    [<Link href='#CVQ'>Back to Colloquial Version top</Link>]
+                    &nbsp;&nbsp;&nbsp; [
+                    <Link href='#FAQTop'>Back to FAQ top</Link>]
                 </p>
                 <h1 id='SVQ'>Study Version Questions</h1>
-                <p class='FAQContentEntry'>
-                    <a href='#SVAim'>Who is the Study Version intended for?</a>
+                <p className='FAQContentEntry'>
+                    <Link href='#SVAim'>
+                        Who is the Study Version intended for?
+                    </Link>
                 </p>
-                <h2 class='FAQ' id='SVAim'>
+                <h2 className='FAQ' id='SVAim'>
                     Who is the Study Version intended for?
                 </h2>
-                <p class='FAQAnswer'>
+                <p className='FAQAnswer'>
                     The OET-SV is intended to help preacher or serious student
                     discover the subtle meanings of the text, with helpful notes
                     and cross-references.
                 </p>
                 <p>
-                    [<a href='#SVQ'>Back to Study Version top</a>]
-                    &nbsp;&nbsp;&nbsp; [<a href='#FAQTop'>Back to FAQ top</a>]
+                    [<Link href='#SVQ'>Back to Study Version top</Link>]
+                    &nbsp;&nbsp;&nbsp; [
+                    <Link href='#FAQTop'>Back to FAQ top</Link>]
                 </p>
                 <h1 id='EVQ'>Extended Version Questions</h1>
-                <p class='FAQContentEntry'>
-                    <a href='#EVAim'>
+                <p className='FAQContentEntry'>
+                    <Link href='#EVAim'>
                         Who is the Extended Version intended for?
-                    </a>
+                    </Link>
                 </p>
-                <h2 class='FAQ' id='EVAim'>
+                <h2 className='FAQ' id='EVAim'>
                     Who is the Extended Version intended for?
                 </h2>
-                <p class='FAQAnswer'>
+                <p className='FAQAnswer'>
                     The OET-EV is intended to help the Bible college lecturer or
                     Bible translator with extended notes (especially about
                     source texts) and other information.
                 </p>
                 <p>
-                    [<a href='#EVQ'>Back to Extended Version top</a>]
-                    &nbsp;&nbsp;&nbsp; [<a href='#FAQTop'>Back to FAQ top</a>]
+                    [<Link href='#EVQ'>Back to Extended Version top</Link>]
+                    &nbsp;&nbsp;&nbsp; [
+                    <Link href='#FAQTop'>Back to FAQ top</Link>]
                 </p>{' '}
             </Main>
             <Footer />
