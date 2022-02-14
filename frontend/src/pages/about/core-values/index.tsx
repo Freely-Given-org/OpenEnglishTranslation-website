@@ -6,7 +6,9 @@ function CoreValues() {
     return (
         <>
             <Header />
-            <Main></Main>
+            <Main>
+                <h1>Core Values</h1>
+            </Main>
             <Footer />
         </>
     );
