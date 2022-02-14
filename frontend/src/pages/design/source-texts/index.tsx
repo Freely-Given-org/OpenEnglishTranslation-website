@@ -1,10 +1,10 @@
 import Image from 'next/image';
 import Link from 'next/link';
 
+import HomePagePhoto from '../../../Assets/sixteen-miles-out-MLOZazGGCb8-unsplash.jpg';
 import Footer from '../../../Layouts/Footer/Footer';
 import Header from '../../../Layouts/Header/Header';
 import Main from '../../../Layouts/main/main';
-import HomePagePhoto from '../Assets/sixteen-miles-out-MLOZazGGCb8-unsplash.jpg';
 import styles from './source-text.module.scss';
 
 function SourceTexts() {
