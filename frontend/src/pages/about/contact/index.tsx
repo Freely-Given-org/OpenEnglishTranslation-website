@@ -20,8 +20,8 @@ function Contact() {
                     com.
                 </p>
                 <p>
-                    Note, of course, that you don’t need to contact us to
-                    request permission to use the Open English Translation—that
+                    Note: Of course you don’t need to contact us to request
+                    permission to use the Open English Translation—that
                     permission is granted in advance!
                 </p>
             </Main>

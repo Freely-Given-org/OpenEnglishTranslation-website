@@ -19,59 +19,59 @@ function Footer() {
                 <div className={styles['link-list-left']}>
                     <ul>
                         <li>
-                            <Link href={'/overview'}>Overview</Link>
+                            <Link href={'/design/overview'}>Overview</Link>
                         </li>
                         <li>
-                            <Link href={'/literal-version'}>
+                            <Link href={'/design/literal-version'}>
                                 Literal Version
                             </Link>
                         </li>
                         <li>
-                            <Link href={'/readers-version'}>
+                            <Link href={'/design/readers-version'}>
                                 Readers’ Version
                             </Link>
                         </li>
                         <li>
-                            <Link href={'/conventional-edition'}>
+                            <Link href={'/design/conventional-edition'}>
                                 Conventional Edition
                             </Link>
                         </li>
                         <li>
-                            <Link href={'/explorers-edition'}>
+                            <Link href={'/design/explorers-edition'}>
                                 Explorers’ Edition
                             </Link>
                         </li>
                         <li>
-                            <Link href={'/OET'}>Source Texts</Link>
+                            <Link href={'/design/source-texts'}>Source Texts</Link>
                         </li>
                         <li>
-                            <Link href={'/source-texts'}>FAQs</Link>
+                            <Link href={'/design/FAQ'}>FAQs</Link>
                         </li>
                     </ul>
                 </div>
                 <div className={styles['link-list-right']}>
                     <ul>
                         <li>
-                            <Link href={'/OET'}>About OET</Link>
+                            <Link href={'/about/OET'}>About OET</Link>
                         </li>
                         <li>
-                            <Link href={'/freely-given'}>
+                            <Link href={'/about/freely-given'}>
                                 About Freely-Given
                             </Link>
                         </li>
                         <li>
-                            <Link href={'/core-values'}>Core Values</Link>
+                            <Link href={'/about/core-values'}>Core Values</Link>
                         </li>
                         <li>
-                            <Link href={'/statement-of-faith'}>
+                            <Link href={'/about/statement-of-faith'}>
                                 Statement of Faith
                             </Link>
                         </li>
                         <li>
-                            <Link href={'/partners'}>Our Partners</Link>
+                            <Link href={'/about/partners'}>Our Partners</Link>
                         </li>
                         <li>
-                            <Link href={'/contact'}>Contact Us</Link>
+                            <Link href={'/about/contact'}>Contact Us</Link>
                         </li>
                     </ul>
                 </div>

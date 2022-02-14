@@ -49,12 +49,14 @@ function FAQ() {
                 <p className={styles.FAQContentEntry}>
                     <Link href='#Why'>Why is the OET even needed?</Link>
                 </p>
-                {/* <p className={styles.FAQContentEntry}>
+                <p className={styles.FAQContentEntry}>
                     <Link href='#OTNT' passHref>
-                        Why doesn't the OET use the names <em>Old Testament</em>{' '}
-                        and <em>New Testament</em>?
+                        <a>
+                            Why doesn't the OET use the names{' '}
+                            <em>Old Testament</em> and <em>New Testament</em>?
+                        </a>
                     </Link>
-                </p> */}
+                </p>
                 <p className={styles.FAQContentEntry}>
                     <Link href='#CV'>
                         Why does the OET downplay chapter and verse numbers?
@@ -86,31 +88,41 @@ function FAQ() {
                 <p className={styles.FAQContentEntry}>
                     <Link href='#Editor'>Which Bible editor do you use?</Link>
                 </p>
-                {/* <p className={styles.FAQContentEntry}>
+                <p className={styles.FAQContentEntry}>
                     <Link href='#LVQ' passHref>
-                        <b>Literal Version</b> questions
+                        <a>
+                            <b>Literal Version</b> questions
+                        </a>
                     </Link>
                 </p>
                 <p className={styles.FAQContentEntry}>
                     <Link href='#RVQ' passHref>
-                        <b>Readers' Version</b> questions
+                        <a>
+                            <b>Readers' Version</b> questions
+                        </a>
                     </Link>
                 </p>
                 <p className={styles.FAQContentEntry}>
                     <Link href='#CVQ' passHref>
-                        <b>Colloquial Version</b> questions
+                        <a>
+                            <b>Colloquial Version</b> questions
+                        </a>
                     </Link>
                 </p>
                 <p className={styles.FAQContentEntry}>
                     <Link href='#SVQ' passHref>
-                        <b>Study Version</b> questions
+                        <a>
+                            <b>Study Version</b> questions
+                        </a>
                     </Link>
                 </p>
                 <p className={styles.FAQContentEntry}>
                     <Link href='#EVQ' passHref>
-                        <b>Extended Version</b> questions
+                        <a>
+                            <b>Extended Version</b> questions
+                        </a>
                     </Link>
-                </p> */}
+                </p>
                 <p className={styles.FAQContentEntry}>
                     See the{' '}
                     <Link href='Introduction.html'>introduction page</Link> for
@@ -125,34 +137,41 @@ function FAQ() {
                     (OET)?
                 </h2>
                 <p className={styles.FAQAnswer}></p>
-                {/* <ul>
+                <ul>
                     <li>
-                        <b>Open</b> (unashamedly inspired by Free and Open
-                        Source software) expresses my desire to make it freely
-                        available for others to use or adapt in any way. I
-                        haven't decided on a licence yet, so feel free to make
-                        suggestions. I'm also wanting to make it open in the
-                        sense of open for others to join in and help with (but
-                        that doesn’t mean that it would be open to everyone—just
-                        those who show a genuine interest and ability).
+                        <a>
+                            <b>Open</b> (unashamedly inspired by Free and Open
+                            Source software) expresses my desire to make it
+                            freely available for others to use or adapt in any
+                            way. I haven't decided on a licence yet, so feel
+                            free to make suggestions. I'm also wanting to make
+                            it open in the sense of open for others to join in
+                            and help with (but that doesn’t mean that it would
+                            be open to everyone—just those who show a genuine
+                            interest and ability).
+                        </a>
                     </li>
                     <li>
-                        <b>English</b> because it’ll be an English translation.
-                        (It seems a little ethnocentric to me to leave the
-                        language qualifier out of the title of a Bible
-                        translation, although it is true that in most cases that
-                        language of the title itself indicates the language of
-                        the translation.)
+                        <a>
+                            <b>English</b> because it’ll be an English
+                            translation. (It seems a little ethnocentric to me
+                            to leave the language qualifier out of the title of
+                            a Bible translation, although it is true that in
+                            most cases that language of the title itself
+                            indicates the language of the translation.)
+                        </a>
                     </li>
                     <li>
-                        <b>Translation</b> just to remind readers/users that it
-                        is indeed just a translation of the original Scriptures.
-                        (Again it seems a little deficient to me if a book
-                        called something like
-                        <em>The Holy Bible</em> doesn’t clearly remind its
-                        readers that it’s not the original.)
+                        <a>
+                            <b>Translation</b> just to remind readers/users that
+                            it is indeed just a translation of the original
+                            Scriptures. (Again it seems a little deficient to me
+                            if a book called something like
+                            <em>The Holy Bible</em> doesn’t clearly remind its
+                            readers that it’s not the original.)
+                        </a>
                     </li>
-                </ul> */}
+                </ul>
                 <p>
                     [<Link href='#FAQTop'>Back to top</Link>]
                 </p>
@@ -191,42 +210,49 @@ function FAQ() {
                     However, assuming that you’re really asking about ENGLISH
                     translations here, there are two main reasons:
                 </p>
-                {/* <ol>
+                <ol>
                     <li>
-                        <b>Language changes.</b> Words change meaning. Some old
-                        words and grammatical forms drop out of common use. Some
-                        old words gain new shades of meaning and new words are
-                        introduced. So a dated translation may not speak well to
-                        the current generation and new translations are
-                        required.
+                        <a>
+                            <b>Language changes.</b> Words change meaning. Some
+                            old words and grammatical forms drop out of common
+                            use. Some old words gain new shades of meaning and
+                            new words are introduced. So a dated translation may
+                            not speak well to the current generation and new
+                            translations are required.
+                        </a>
                     </li>
                     <li>
-                        <b>Translations target a particular audience.</b>
-                        There are many decisions to be made when doing a
-                        translation, and the translators usually follow a series
-                        of policies which are decided by thinking about what
-                        audience they are hoping to reach. The best Bible for a
-                        teenager to use for personal reading and devotions may
-                        not be the same one that a Bible teacher will want to
-                        preach from. Protestants may make different translation
-                        decisions from Catholics, and similarly for other
-                        distinct groups. A publishing company might want to
-                        target a certain segment of the market. Hence, many
-                        different translations arise.
+                        <a>
+                            <b>Translations target a particular audience.</b>
+                            There are many decisions to be made when doing a
+                            translation, and the translators usually follow a
+                            series of policies which are decided by thinking
+                            about what audience they are hoping to reach. The
+                            best Bible for a teenager to use for personal
+                            reading and devotions may not be the same one that a
+                            Bible teacher will want to preach from. Protestants
+                            may make different translation decisions from
+                            Catholics, and similarly for other distinct groups.
+                            A publishing company might want to target a certain
+                            segment of the market. Hence, many different
+                            translations arise.
+                        </a>
                     </li>
-                </ol> */}
-                {/* <p className={styles.FAQAnswer}>
-                    Someone once said, “
-                    <em>
-                        Reading a translation is like looking at the back of a
-                        tapestry.
-                    </em>
-                    ” While we strongly encourage the study of the Jewish and
-                    Christian scriptures in the original languages, this isn’t
-                    practical for everyone. Hence we need translations into our
-                    modern languages despite the shortfalls (and potential
-                    confusion).
-                </p> */}
+                </ol>
+                <p className={styles.FAQAnswer}>
+                    <a>
+                        Someone once said, “
+                        <em>
+                            Reading a translation is like looking at the back of
+                            a tapestry.
+                        </em>
+                        ” While we strongly encourage the study of the Jewish
+                        and Christian scriptures in the original languages, this
+                        isn’t practical for everyone. Hence we need translations
+                        into our modern languages despite the shortfalls (and
+                        potential confusion).
+                    </a>
+                </p>
                 <p>
                     [<Link href='#FAQTop'>Back to top</Link>]
                 </p>
@@ -285,60 +311,69 @@ function FAQ() {
                 <p>
                     [<Link href='#FAQTop'>Back to top</Link>]
                 </p>
-                {/* <h2 className={styles.FAQ} id='OTNT'>
-                    Why doesn’t the OET Explorer’s Edition (OET-EE) use the
-                    names <em>Old Testament</em> and <em>New Testament</em>?
+                <h2 className={styles.FAQ} id='OTNT'>
+                    <a>
+                        Why doesn’t the OET Explorer’s Edition (OET-EE) use the
+                        names <em>Old Testament</em> and <em>New Testament</em>?
+                    </a>
                 </h2>
                 <p className={styles.FAQAnswer}>
-                    Although these names are indeed very familiar, they are
-                    often confusing and somewhat misleading for modern readers.
-                    In current useage, we really are only likely to use the term{' '}
-                    <em>Testament</em>
-                    when we're talking about someone's will. Also, the term{' '}
-                    <em>New</em> might wrongly imply that the <em>Old</em>
-                    is no longer relevant. Hence the OET actively tries to
-                    discard this terminology.
-                </p> */}
+                    <a>
+                        Although these names are indeed very familiar, they are
+                        often confusing and somewhat misleading for modern
+                        readers. In current useage, we really are only likely to
+                        use the term <em>Testament</em>
+                        when we're talking about someone's will. Also, the term{' '}
+                        <em>New</em> might wrongly imply that the <em>Old</em>
+                        is no longer relevant. Hence the OET actively tries to
+                        discard this terminology.
+                    </a>
+                </p>
                 <h2 className={styles.FAQ} id='CV'>
                     Why does the OET downplay chapter and verse numbers?
                 </h2>
-                {/* <p className={styles.FAQAnswer}>
-                    Have you heard someone say, "This verse says, ..."? Well,
-                    verses are a purely artificial (and not particularly well
-                    thought-out) way of dividing the Bible text, and verses
-                    themselves don’t <em>say</em> anything! They are useful for
-                    guiding people to the correct area of the Bible, but
-                    unfortunately they have also greatly assisted in the
-                    unfortunate habit of people quoting short Bible segments
-                    completely out of context. Since the OET aims to try to head
-                    in a new direction, we want to discourage the use of small
-                    snippets out of context, and this is one way that we can
-                    help do it.
-                </p> */}
+                <p className={styles.FAQAnswer}>
+                    <a>
+                        Have you heard someone say, "This verse says, ..."?
+                        Well, verses are a purely artificial (and not
+                        particularly well thought-out) way of dividing the Bible
+                        text, and verses themselves don’t <em>say</em> anything!
+                        They are useful for guiding people to the correct area
+                        of the Bible, but unfortunately they have also greatly
+                        assisted in the unfortunate habit of people quoting
+                        short Bible segments completely out of context. Since
+                        the OET aims to try to head in a new direction, we want
+                        to discourage the use of small snippets out of context,
+                        and this is one way that we can help do it.
+                    </a>
+                </p>
                 <p>
                     [<Link href='#FAQTop'>Back to top</Link>]
                 </p>
                 <h2 className={styles.FAQ} id='Tags'>
                     Why does the OET have funny characters in the files?
                 </h2>
-                {/* <p className={styles.FAQAnswer}>
-                    The Literal Version (OET-LV) uses underline characters to
-                    join words which are represented by one word in the original
-                    language. For example, <em>he_said</em> would indicate that
-                    these two English words are represented by just one word in
-                    the original language and there is no separate word
-                    specifying who is the <em>he</em>. The OET also includes
-                    grammatical and semantic tagging. For example, if the text
-                    says <em>gave it to him</em> the OET will attempt to mark or
-                    tag what the <em>it</em> is and who the <em>him</em> is.
-                    This tagging is done in the text files using special
-                    characters, e.g., <em>him=PDavid</em> tells us that the{' '}
-                    <em>him</em> referred to is the person David. A full list of
-                    tags and special characters can be found{' '}
-                    <Link href='Tags.html'>here</Link>. Note also that a{' '}
-                    <em>clean</em> copy of the files is also provided on the{' '}
-                    <Link href='Downloads/'>Downloads page</Link>.
-                </p> */}
+                <p className={styles.FAQAnswer}>
+                    <a>
+                        The Literal Version (OET-LV) uses underline characters
+                        to join words which are represented by one word in the
+                        original language. For example, <em>he_said</em> would
+                        indicate that these two English words are represented by
+                        just one word in the original language and there is no
+                        separate word specifying who is the <em>he</em>. The OET
+                        also includes grammatical and semantic tagging. For
+                        example, if the text says <em>gave it to him</em> the
+                        OET will attempt to mark or tag what the <em>it</em> is
+                        and who the <em>him</em> is. This tagging is done in the
+                        text files using special characters, e.g.,{' '}
+                        <em>him=PDavid</em> tells us that the <em>him</em>{' '}
+                        referred to is the person David. A full list of tags and
+                        special characters can be found{' '}
+                        <Link href='Tags.html'>here</Link>. Note also that a{' '}
+                        <em>clean</em> copy of the files is also provided on the{' '}
+                        <Link href='Downloads/'>Downloads page</Link>.
+                    </a>
+                </p>
                 <p>
                     [<Link href='#FAQTop'>Back to top</Link>]
                 </p>
@@ -364,19 +399,24 @@ function FAQ() {
                 <h2 className={styles.FAQ} id='ReleaseDate'>
                     When is the expected release date?
                 </h2>
-                {/* <p className={styles.FAQAnswer}>
-                    Actually, it’s release <em>dates</em> since there’s five
-                    versions. It is planned to develop the Literal Version, the
-                    Readers’ Version, and the Colloquial Version simultaneously,
-                    and we hope to make some preliminary books available by the
-                    end of 2022, with the Old Testament being released by the
-                    end of 2025. The Study Version and the Extended Version will
-                    also be developed together, but not until after the V1.0.0
-                    release of the first three versions, so no time frame is
-                    available for them yet. But if we can recruit more{' '}
-                    <Link href='../../../Opportunities.html'>volunteers</Link>,
-                    it would be nice to speed up the progress.
-                </p> */}
+                <p className={styles.FAQAnswer}>
+                    <a>
+                        Actually, it’s release <em>dates</em> since there’s five
+                        versions. It is planned to develop the Literal Version,
+                        the Readers’ Version, and the Colloquial Version
+                        simultaneously, and we hope to make some preliminary
+                        books available by the end of 2022, with the Old
+                        Testament being released by the end of 2025. The Study
+                        Version and the Extended Version will also be developed
+                        together, but not until after the V1.0.0 release of the
+                        first three versions, so no time frame is available for
+                        them yet. But if we can recruit more{' '}
+                        <Link href='../../../Opportunities.html'>
+                            volunteers
+                        </Link>
+                        , it would be nice to speed up the progress.
+                    </a>
+                </p>
                 <p>
                     [<Link href='#FAQTop'>Back to top</Link>]
                 </p>
@@ -481,16 +521,19 @@ function FAQ() {
                     Why doesn’t the Literal Version sound very fluent or
                     natural?
                 </h2>
-                {/* <p className={styles.FAQAnswer}>
-                    Yes, we call that the <em>woody</em> feeling. The OET-LV is
-                    designed to closely follow the wording used in the original
-                    languages, instead of using modern English expressions. This
-                    makes it appear to sound <em>old-fashioned</em>, but the
-                    reason for leaving it that way is to help the serious
-                    student be able to get a good look at what is actually
-                    written in the originals. Use the <b>Readers’ Version</b> if
-                    you want something that’s nicer to read.
-                </p> */}
+                <p className={styles.FAQAnswer}>
+                    <a>
+                        Yes, we call that the <em>woody</em> feeling. The OET-LV
+                        is designed to closely follow the wording used in the
+                        original languages, instead of using modern English
+                        expressions. This makes it appear to sound{' '}
+                        <em>old-fashioned</em>, but the reason for leaving it
+                        that way is to help the serious student be able to get a
+                        good look at what is actually written in the originals.
+                        Use the <b>Readers’ Version</b> if you want something
+                        that’s nicer to read.
+                    </a>
+                </p>
                 <p>
                     [<Link href='#LVQ'>Back to Literal Version top</Link>]
                     &nbsp;&nbsp;&nbsp; [
