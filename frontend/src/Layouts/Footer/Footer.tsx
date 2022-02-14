@@ -42,7 +42,9 @@ function Footer() {
                             </Link>
                         </li>
                         <li>
-                            <Link href={'/design/source-texts'}>Source Texts</Link>
+                            <Link href={'/design/source-texts'}>
+                                Source Texts
+                            </Link>
                         </li>
                         <li>
                             <Link href={'/design/FAQ'}>FAQs</Link>
