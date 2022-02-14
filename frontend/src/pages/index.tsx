@@ -30,13 +30,13 @@ const Home: NextPage = () => {
                     </p>
                 </div>
                 <Page>
-                    <div className={styles['banner-feed']}>
+                    <div className={styles.bannerFeed}>
                         <Image
                             src={HomePagePhoto}
                             alt='idk big thingy'
                             width={500}
                             height={333.333}
-                            className={styles['home-page-photo']}
+                            className={styles.homePagePhoto}
                         />
                         <p>
                             Photo by{' '}
@@ -49,7 +49,7 @@ const Home: NextPage = () => {
                             </Link>
                         </p>
                     </div>
-                    <div className='page-sidebar'></div>
+                    <div className={styles.pageSidebar}></div>
                 </Page>
             </Main>
             <Footer />

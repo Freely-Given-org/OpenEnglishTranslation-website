@@ -1,9 +1,9 @@
-.home-page-photo {
+.homePagePhoto {
     max-width: 100%;
     height: auto;
 }
 
-.banner {
+.bannerFeed {
     box-sizing: border-box;
     width: 100%;
     background-color: #98a9d4;
@@ -15,11 +15,7 @@
     padding: 48px 24px;
 }
 
-.blog-feed {
-    flex-basis: 65%;
-}
-
-.page-sidebar {
+.pageSidebar {
     flex-basis: 35%;
     width: 30vw;
 }
