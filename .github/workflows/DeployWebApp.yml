@@ -24,7 +24,7 @@ jobs:
       - name: Build
         run: npm run build
         working-directory: ./frontend
-      - name: Reloead
+      - name: Reload
         run: pm2 reload open-english-translation
         working-directory: ./frontend
 
