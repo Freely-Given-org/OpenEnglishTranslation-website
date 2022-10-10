@@ -4,7 +4,7 @@ import Footer from '../../../Layouts/Footer/Footer';
 import Header from '../../../Layouts/Header/Header';
 import Main from '../../../Layouts/main/main';
 
-function LV() {
+function CE() {
     return (
         <>
             <Header />
@@ -22,4 +22,4 @@ function LV() {
     );
 }
 
-export default LV;
+export default CE;

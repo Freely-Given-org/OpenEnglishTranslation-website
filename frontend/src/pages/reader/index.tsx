@@ -8,8 +8,11 @@ function Reader() {
             <Header />
             <Main>
                 <p>
-                    This is where you'll be able to read the OET{' '}
-                    <i>Literal Version</i> and <i>Reader's Version</i> online.
+                    This is where you'll be able to read both the OET{' '}
+                    <i>Conventional Edition</i> and <i>Explorers’ Edition</i>{' '}
+                    online. The <i>Literal Version</i> and{' '}
+                    <i>Readers’ Version</i> of each will be displayed
+                    side-by-side.
                 </p>
             </Main>
             <Footer />

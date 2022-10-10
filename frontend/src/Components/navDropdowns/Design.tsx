@@ -5,23 +5,31 @@ const menu: dropMenu = {
     items: [
         {
             name: 'Overview',
-            link: 'design/overview',
+            link: '/design/overview',
         },
         {
             name: 'Literal Version',
-            link: 'design/literal-version',
+            link: '/design/literal-version',
         },
         {
-            name: 'Reader’s Version',
-            link: 'design/readers-version',
+            name: 'Readers’ Version',
+            link: '/design/readers-version',
+        },
+        {
+            name: 'Conventional Edition',
+            link: '/design/conventional-edition',
+        },
+        {
+            name: 'Explorers’ Edition',
+            link: '/design/explorers-edition',
         },
         {
             name: 'Source Texts',
-            link: 'design/source-texts',
+            link: '/design/source-texts',
         },
         {
             name: 'FAQs',
-            link: 'design/FAQ',
+            link: '/design/FAQ',
         },
     ],
 };

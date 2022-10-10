@@ -1,3 +1,5 @@
+import Link from 'next/link';
+
 import Footer from '../../../Layouts/Footer/Footer';
 import Header from '../../../Layouts/Header/Header';
 import Main from '../../../Layouts/main/main';
@@ -20,9 +22,9 @@ function Formats() {
                 <p>
                     When writing any Bible software, one of the first
                     requirements is for a list of{' '}
-                    <a href='https://github.com/Freely-Given-org/BibleBooksCodes'>
+                    <Link href='https://github.com/Freely-Given-org/BibleBooksCodes'>
                         Bible books codes
-                    </a>
+                    </Link>
                     . It's common to use <b>GEN</b> or <b>Gen</b> or <b>gen</b>{' '}
                     for <i>Genesis</i>, but what about Exodus? <b>EXO</b> or{' '}
                     <b>Exo</b> or <b>exo</b> or <b>EXOD</b> or <b>Exod</b> or{' '}
@@ -30,12 +32,12 @@ function Formats() {
                 </p>
                 <h1>ESFM Bible Files</h1>
                 <p>
-                    <a href='https://github.com/Freely-Given-org/ESFM'>
+                    <Link href='https://github.com/Freely-Given-org/ESFM'>
                         Enhanced Standard Format Marker
-                    </a>{' '}
+                    </Link>{' '}
                     (ESFM) files are based on the{' '}
-                    <a href='https://ubsicap.github.io/usfm/'>USFM 3</a> format
-                    used by most Bible translators.
+                    <Link href='https://ubsicap.github.io/usfm/'>USFM 3</Link>{' '}
+                    format used by most Bible translators.
                 </p>
             </Main>
             <Footer />

@@ -1,5 +1,6 @@
 import type { NextPage } from 'next';
 import Image from 'next/image';
+import Link from 'next/link';
 
 import HomePagePhoto from '../Assets/sixteen-miles-out-MLOZazGGCb8-unsplash.jpg';
 import Page from '../Components/page/page';
@@ -22,33 +23,33 @@ const Home: NextPage = () => {
                     </p>
                     <p>
                         Currently, the best place to read about it is at{' '}
-                        <a href='https://freely-given.org/BibleTranslations/English/OET/'>
+                        <Link href='https://freely-given.org/BibleTranslations/English/OET/'>
                             Freely-Given.org
-                        </a>
+                        </Link>
                         , but this will soon become the main site.
                     </p>
                 </div>
                 <Page>
-                    <div className={styles['banner-feed']}>
+                    <div className={styles.bannerFeed}>
                         <Image
                             src={HomePagePhoto}
                             alt='idk big thingy'
                             width={500}
                             height={333.333}
-                            className={styles['home-page-photo']}
+                            className={styles.homePagePhoto}
                         />
                         <p>
                             Photo by{' '}
-                            <a href='https://unsplash.com/@sixteenmilesout?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText'>
+                            <Link href='https://unsplash.com/@sixteenmilesout?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText'>
                                 Sixteen Miles Out
-                            </a>{' '}
+                            </Link>{' '}
                             on{' '}
-                            <a href='https://unsplash.com/collections/4858217/bible?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText'>
+                            <Link href='https://unsplash.com/collections/4858217/bible?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText'>
                                 Unsplash
-                            </a>
+                            </Link>
                         </p>
                     </div>
-                    <div className='page-sidebar'></div>
+                    <div className={styles.pageSidebar}></div>
                 </Page>
             </Main>
             <Footer />
