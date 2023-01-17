@@ -71,7 +71,7 @@ module.exports = {
                     'private-instance-field',
                     'public-abstract-field',
                     'protected-abstract-field',
-                    'private-abstract-field',
+                    //'private-abstract-field',
 
                     // Constructors
                     'public-constructor',
