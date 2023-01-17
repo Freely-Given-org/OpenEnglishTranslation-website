@@ -1,5 +1,7 @@
 import Link from 'next/link';
 
+import MainPageContent from '../../../Components/page/MainPageContent/MainPageContent';
+import Page from '../../../Components/page/page';
 import Footer from '../../../Layouts/Footer/Footer';
 import Header from '../../../Layouts/Header/Header';
 import Main from '../../../Layouts/main/main';
@@ -9,6 +11,8 @@ function Formats() {
         <>
             <Header />
             <Main>
+            <Page>
+            <MainPageContent>
                 <h1>Introduction to Formats and Standards</h1>
                 <p>
                     One important factor in providing a tagged Bible translation
@@ -39,6 +43,8 @@ function Formats() {
                     <Link href='https://ubsicap.github.io/usfm/'>USFM 3</Link>{' '}
                     format used by most Bible translators.
                 </p>
+            </MainPageContent>
+            </Page>
             </Main>
             <Footer />
         </>
