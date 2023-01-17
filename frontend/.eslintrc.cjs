@@ -50,44 +50,44 @@ module.exports = {
             },
         ],
         '@typescript-eslint/explicit-module-boundary-types': 'off',
-        '@typescript-eslint/member-ordering': [
-            'warn',
-            {
-                default: [
-                    // Index signature
-                    'signature',
+        // '@typescript-eslint/member-ordering': [
+        //     'warn',
+        //     {
+        //         default: [
+        //             // Index signature
+        //             'signature',
 
-                    // Static
-                    'public-static-field',
-                    'protected-static-field',
-                    'private-static-field',
-                    'public-static-method',
-                    'protected-static-method',
-                    'private-static-method',
+        //             // Static
+        //             'public-static-field',
+        //             'protected-static-field',
+        //             'private-static-field',
+        //             'public-static-method',
+        //             'protected-static-method',
+        //             'private-static-method',
 
-                    // Fields
-                    'public-instance-field',
-                    'protected-instance-field',
-                    'private-instance-field',
-                    'public-abstract-field',
-                    'protected-abstract-field',
-                    //'private-abstract-field',
+        //             // Fields
+        //             'public-instance-field',
+        //             'protected-instance-field',
+        //             'private-instance-field',
+        //             'public-abstract-field',
+        //             'protected-abstract-field',
+        //             'private-abstract-field',
 
-                    // Constructors
-                    'public-constructor',
-                    'protected-constructor',
-                    'private-constructor',
+        //             // Constructors
+        //             'public-constructor',
+        //             'protected-constructor',
+        //             'private-constructor',
 
-                    // Methods
-                    'public-instance-method',
-                    'protected-instance-method',
-                    'private-instance-method',
-                    'public-abstract-method',
-                    'protected-abstract-method',
-                    'private-abstract-method',
-                ],
-            },
-        ],
+        //             // Methods
+        //             'public-instance-method',
+        //             'protected-instance-method',
+        //             'private-instance-method',
+        //             'public-abstract-method',
+        //             'protected-abstract-method',
+        //             'private-abstract-method',
+        //         ],
+        //     },
+        // ],
         '@typescript-eslint/no-explicit-any': 'off',
         '@typescript-eslint/no-extra-semi': 'warn',
         '@typescript-eslint/no-floating-promises': 'off',
