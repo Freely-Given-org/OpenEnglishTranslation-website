@@ -34,8 +34,8 @@ function Partners() {
                     of 2022, we’ll be wanting users to try them out in their own
                     Bible software. Incorporating the OET will definitely take
                     more effort than for conventional translations, because the
-                    design has both a <i>Literal Version</i> and a{' '}
-                    <i>Readers’ Version</i> that complement each other and are
+                    design has both a <em>Literal Version</em> and a{' '}
+                    <em>Readers’ Version</em> that complement each other and are
                     intended to be displayed together (or printed side-by-side).
                 </p>
             </Main>

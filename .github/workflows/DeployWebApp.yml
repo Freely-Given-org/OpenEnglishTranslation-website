@@ -12,11 +12,11 @@ jobs:
       url: 'https://openenglishtranslation.bible/'
     steps:
       - name: check out code 🛎
-        uses: actions/checkout@v2
-      - name: Install Node v17
-        uses: actions/setup-node@v2
+        uses: actions/checkout@v3
+      - name: Install Node v18
+        uses: actions/setup-node@v3
         with:
-          node-version: "17.x"
+          node-version: "18.x"
           registry-url: "https://registry.npmjs.org"
       - name: Install dependencies
         run: npm install
@@ -24,7 +24,7 @@ jobs:
       - name: Build
         run: npm run build
         working-directory: ./frontend
-      - name: Reloead
+      - name: Reload
         run: pm2 reload open-english-translation
         working-directory: ./frontend
 

@@ -98,7 +98,7 @@ function FAQ() {
                 <p className={styles.FAQContentEntry}>
                     <Link href='#RVQ' passHref>
                         <a>
-                            <b>Readers' Version</b> questions
+                            <b>Readers’ Version</b> questions
                         </a>
                     </Link>
                 </p>
