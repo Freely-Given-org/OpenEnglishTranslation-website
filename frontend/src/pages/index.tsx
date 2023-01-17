@@ -17,9 +17,10 @@ const Home: NextPage = () => {
                 <div className={styles.banner}>
                     <h1>Exciting new Bible translation!</h1>
                     <p>
-                        Yes, work on the <em>Open English Translation</em>{' '}
-                        of the Bible is now proceeding and the first rough draft
-                        of the New Testament is expected by the end of this year (2023).
+                        Yes, work on the <em>Open English Translation</em> of
+                        the Bible is now proceeding and the first rough draft of
+                        the New Testament is expected by the end of this year
+                        (2023).
                     </p>
                     <p>
                         At the moment, the best place to read about it is at{' '}
@@ -29,26 +30,26 @@ const Home: NextPage = () => {
                         , but this will eventually become the main site.
                     </p>
                     <p>
-                        We’re currently looking for volunteers to help
-                        with a logo design
-                        (and any design help on this website that you’d like to offer)
-                        as well as reading and checking our early draft
-                        (even just to give your reactions).
-                        If you’d like to see an early draft of some of the New Testament,
+                        We’re currently looking for volunteers to help with a
+                        logo design (and any design help on this website that
+                        you’d like to offer) as well as reading and checking our
+                        early draft (even just to give your reactions). If you’d
+                        like to see an early draft of some of the New Testament,
                         please ask us via our{' '}
                         <Link href='/about/contact'>contact page</Link>.
                     </p>
                     <p>
-                        We’re also looking for software developers.
-                        If you’re a Python or Dart/Flutter developer and would like to help
+                        We’re also looking for software developers. If you’re a
+                        Python or Dart/Flutter developer and would like to help
                         with a vital project, please do{' '}
-                        <Link href='/about/contact'>contact</Link> us.
-                        We’re also after Rust and Golang devs.
+                        <Link href='/about/contact'>contact</Link> us. We’re
+                        also after Rust and Golang devs.
                     </p>
                     <p>
-                        If you’re a professional Bible translator or Bible translation consultant
-                        or have Biblical Hebrew or Greek expertise,
-                        we would also be grateful for offers of expert help via our{' '}
+                        If you’re a professional Bible translator or Bible
+                        translation consultant or have Biblical Hebrew or Greek
+                        expertise, we would also be grateful for offers of
+                        expert help via our{' '}
                         <Link href='/about/contact'>contact page</Link>.
                     </p>
                 </div>

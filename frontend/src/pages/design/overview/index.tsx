@@ -15,18 +15,19 @@ function Overview() {
                     <MainPageContent>
                         <h1>Overview</h1>
                         <p>
-                            The <em>Open English Translation</em> is a unique new, open-licensed
-                            English Bible translation with two parts. In the
-                            left column will be the <em>Literal Version</em>,
-                            designed to help you “peek” into the original
-                            languages and get an idea what is actually written
-                            there. The right column will have the easy to read
-                            and understand <em>Readers’ Version</em> written in
-                            modern English. Actually it’s intended that you’ll
-                            read the <em>Readers’ Version</em>, and when you
-                            think, “Does it really say that?”, then you can move
-                            your eyes across and get a good idea of what words
-                            are actually there in the original language.
+                            The <em>Open English Translation</em> is a unique
+                            new, open-licensed English Bible translation with
+                            two parts. In the left column will be the{' '}
+                            <em>Literal Version</em>, designed to help you
+                            “peek” into the original languages and get an idea
+                            what is actually written there. The right column
+                            will have the easy to read and understand{' '}
+                            <em>Readers’ Version</em> written in modern English.
+                            Actually it’s intended that you’ll read the{' '}
+                            <em>Readers’ Version</em>, and when you think, “Does
+                            it really say that?”, then you can move your eyes
+                            across and get a good idea of what words are
+                            actually there in the original language.
                         </p>
                         <p>
                             For more, see the{' '}
