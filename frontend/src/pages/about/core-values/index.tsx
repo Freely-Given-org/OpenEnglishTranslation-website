@@ -1,3 +1,5 @@
+import MainPageContent from '../../../Components/page/MainPageContent/MainPageContent';
+import Page from '../../../Components/page/page';
 import Footer from '../../../Layouts/Footer/Footer';
 import Header from '../../../Layouts/Header/Header';
 import Main from '../../../Layouts/main/main';
@@ -7,7 +9,11 @@ function CoreValues() {
         <>
             <Header />
             <Main>
-                <h1>Core Values</h1>
+                <Page>
+                    <MainPageContent>
+                        <h1>Core Values</h1>
+                    </MainPageContent>
+                </Page>
             </Main>
             <Footer />
         </>
