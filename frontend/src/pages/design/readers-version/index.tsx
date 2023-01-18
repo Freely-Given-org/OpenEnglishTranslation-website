@@ -13,6 +13,7 @@ function RV() {
             <Main>
                 <Page>
                     <MainPageContent>
+                        <h1>Readers’ Version</h1>
                         <p>
                             For now, see{' '}
                             <Link href='https://freely-given.org/BibleTranslations/English/OET/FAQs.html'>

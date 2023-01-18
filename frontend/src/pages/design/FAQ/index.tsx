@@ -106,6 +106,12 @@ function FAQ() {
                             </Link>
                         </p>
                         <p className={styles.FAQContentEntry}>
+                            <Link href='#VersionsEditions'>
+                                What’s the difference between <i>versions</i>{' '}
+                                and <i>editions</i>?
+                            </Link>
+                        </p>
+                        <p className={styles.FAQContentEntry}>
                             <Link href='#LVQ' passHref>
                                 <a>
                                     <b>Literal Version</b> questions
@@ -549,6 +555,20 @@ function FAQ() {
                             developed, but which already has most of the tools
                             working to enable Old Testament translation (still
                             no interlinear Greek resources).
+                        </p>
+                        <h2 className={styles.FAQ} id='VersionsEditions'>
+                            What’s the difference between <i>versions</i> and{' '}
+                            <i>editions</i>?
+                        </h2>
+                        <p className={styles.FAQAnswer}>
+                            <em>Versions</em> refers to the words or the text
+                            itself. They’re different versions of the actual
+                            translation.
+                            <em>Editions</em> refers to the publication, i.e., a
+                            book or webpage or PDF. They’re different Bible
+                            productions that might be in different fonts or
+                            paper sizes and/or contain a different combination
+                            of versions.
                         </p>
                         <p>
                             [<Link href='#FAQTop'>Back to top</Link>]

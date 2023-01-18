@@ -36,36 +36,37 @@ function Overview() {
                             </Link>
                             .
                         </p>
-                        <h2>Literal Version</h2>
-                        <p>
-                            This side of the page (so to speak) is designed to
-                            give you insights into what is actually written in
-                            the Hebrew and Greek manuscripts. So the
-                            measurements of Noah’s box (yes, actually{' '}
-                            <i>chest</i> would also be a good literal
-                            translation, except that saying <i>Noah’s chest</i>{' '}
-                            could be misunderstood) would be given in cubits,
-                            and ideal for a study of numbers in the Bible. And
-                            when you get to the <i>Box of the Agreement</i>, the
-                            Hebrew text starts to make sense in your mind.
-                        </p>
-                        <p>
-                            More details{' '}
-                            <Link href='/literal-version'>here</Link>.
-                        </p>
                         <h2>Readers’ Version</h2>
                         <p>
-                            This side of the page is designed to express the
-                            meaning of each sentence (as scholars can best
-                            understand it) in good, clear, readable modern
-                            English. Here the measurements of Noah’s barge (yes,
-                            a more modern word) would be in familiar units like
-                            metres or feet so that the size can be more easily
-                            visualised by the reader.
+                            This side of the page (so to speak) is designed to
+                            express the meaning of each sentence (as scholars
+                            can best understand it) in good, clear, readable
+                            modern English. Here the measurements of Noah’s
+                            barge (yes, a more modern word than <i>ark</i>)
+                            would be in familiar units like metres or feet so
+                            that the size can be easily visualised by the
+                            reader.
                         </p>
                         <p>
                             More details{' '}
-                            <Link href='/readers-version'>here</Link>.
+                            <Link href='/design/readers-version'>here</Link>.
+                        </p>
+                        <h2>Literal Version</h2>
+                        <p>
+                            This side of the page is designed to give you
+                            insights into what is actually written in the Hebrew
+                            and Greek manuscripts. So the measurements of Noah’s
+                            box (yes, actually <i>chest</i> would also be a good
+                            literal translation, except that saying{' '}
+                            <i>Noah’s chest</i> could be misunderstood) would be
+                            given in the original cubits, and ideal for a study
+                            of numbers in the Bible. And when you get to the{' '}
+                            <i>Box of the Agreement</i>, the Hebrew text starts
+                            to make sense in your mind.
+                        </p>
+                        <p>
+                            More details{' '}
+                            <Link href='/design/literal-version'>here</Link>.
                         </p>
                     </MainPageContent>
                 </Page>
