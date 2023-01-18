@@ -30,7 +30,7 @@ function Formats() {
                             <Link href='https://github.com/Freely-Given-org/BibleBooksCodes'>
                                 Bible books codes
                             </Link>
-                            . It's common to use <b>GEN</b> or <b>Gen</b> or{' '}
+                            . It’s common to use <b>GEN</b> or <b>Gen</b> or{' '}
                             <b>gen</b> for <i>Genesis</i>, but what about
                             Exodus? <b>EXO</b> or <b>Exo</b> or <b>exo</b> or{' '}
                             <b>EXOD</b> or <b>Exod</b> or <b>exod</b>?
