@@ -15,8 +15,8 @@ function Contact() {
                     <MainPageContent>
                         <h1>Contacting the Editors</h1>
                         <p>
-                            The Open English Translation of the Bible is a
-                            product of{' '}
+                            The <em>Open English Translation</em> of the Bible
+                            is a product of{' '}
                             <Link href='https://Freely-Given.org'>
                                 Freely-Given.org
                             </Link>
@@ -30,6 +30,22 @@ function Contact() {
                             Note: Of course you don’t need to contact us to
                             request permission to use the Open English
                             Translation—that permission is granted in advance!
+                        </p>
+                        <h1>Volunteering</h1>
+                        <p>
+                            We’re currently looking for volunteers to help with
+                            this work. This includes both Bible people
+                            (translators and consultants and readers and
+                            checkers) as well as software people (developers and
+                            designers). Please use the above contact method to
+                            get in touch.
+                        </p>
+                        <p>
+                            Any volunteers must agree in writing in advance that
+                            their work will become the property of
+                            Freely-Given.org, and thus made publicly available
+                            under an open licence. Of course we’re happy to
+                            credit any contributors (if they desire).
                         </p>
                     </MainPageContent>
                 </Page>

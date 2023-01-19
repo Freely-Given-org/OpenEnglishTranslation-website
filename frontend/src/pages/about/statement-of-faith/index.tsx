@@ -13,8 +13,9 @@ function StatementOfFaith() {
                     <MainPageContent>
                         <h1>Statement of Faith</h1>
                         <p>
-                            The developers of the Open English Translation of
-                            the Bible all agree to the following:
+                            The developers of the{' '}
+                            <em>Open English Translation</em> of the Bible all
+                            agree to the following:
                         </p>
                         <h2>One God, three persons</h2>
                         <ul>

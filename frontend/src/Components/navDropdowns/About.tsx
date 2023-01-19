@@ -24,6 +24,10 @@ const menu: dropMenu = {
             link: '/about/partners',
         },
         {
+            name: 'Licence',
+            link: '/about/licence',
+        },
+        {
             name: 'Contact Us',
             link: '/about/contact',
         },

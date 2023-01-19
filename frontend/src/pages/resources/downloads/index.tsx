@@ -15,7 +15,8 @@ function Downloads() {
                     <MainPageContent>
                         <h1>Downloads</h1>
                         <p>
-                            We aim to have some initial PDF downloads here soon.
+                            We aim to have some initial PDF downloads of draft
+                            texts here by mid-2023.
                         </p>
                     </MainPageContent>
                 </Page>
