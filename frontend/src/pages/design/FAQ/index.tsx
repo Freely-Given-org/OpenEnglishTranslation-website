@@ -402,7 +402,7 @@ function FAQ() {
                         </h2>
                         <p className={styles.FAQAnswer}>
                             <a>
-                                The Literal Version (OET-LV) uses underline
+                                The Literal Version (OET-LV) usess underline
                                 characters to join words which are represented
                                 by one word in the original language. For
                                 example, <em>he_said</em> would indicate that
