@@ -30,6 +30,7 @@ export async function getBlogData(pk: string) {
             blog: blogQuery.data,
         };
     } catch (error) {
+        console.error('get blogs error:', error);
         return { blog: { error: 'ERROR SERVER NOT WORKING', isEmpty: true } };
     }
 }
