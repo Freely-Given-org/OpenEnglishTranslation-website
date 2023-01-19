@@ -36,7 +36,7 @@ function Overview() {
                             </Link>
                             .
                         </p>
-                        <h2>Readers’ Version</h2>
+                        <h2>OET Readers’ Version</h2>
                         <p>
                             This side of the page (so to speak) is designed to
                             express the meaning of each sentence (as scholars
@@ -51,7 +51,7 @@ function Overview() {
                             More details{' '}
                             <Link href='/design/readers-version'>here</Link>.
                         </p>
-                        <h2>Literal Version</h2>
+                        <h2>OET Literal Version</h2>
                         <p>
                             This side of the page is designed to give you
                             insights into what is actually written in the Hebrew
@@ -67,6 +67,18 @@ function Overview() {
                         <p>
                             More details{' '}
                             <Link href='/design/literal-version'>here</Link>.
+                        </p>
+                        <h2>OET Editions</h2>
+                        <p>
+                            As well as the two completely different versions of
+                            the actual translated text shown above, the{' '}
+                            <em>Open English Translation</em> will also have
+                            different <i>editions</i>. These are different ways
+                            that the texts are published, such as whether the
+                            Old Testament books are presented in the typical
+                            Christian Bible book order, or in the traditional
+                            Jewish book order, or in chronological or some other
+                            order.
                         </p>
                     </MainPageContent>
                 </Page>
