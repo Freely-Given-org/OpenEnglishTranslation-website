@@ -106,12 +106,6 @@ function FAQ() {
                             </Link>
                         </p>
                         <p className={styles.FAQContentEntry}>
-                            <Link href='#VersionsEditions'>
-                                What’s the difference between <i>versions</i>{' '}
-                                and <i>editions</i>?
-                            </Link>
-                        </p>
-                        <p className={styles.FAQContentEntry}>
                             <Link href='#LVQ' passHref>
                                 <a>
                                     <b>Literal Version</b> questions
@@ -402,7 +396,7 @@ function FAQ() {
                         </h2>
                         <p className={styles.FAQAnswer}>
                             <a>
-                                The Literal Version (OET-LV) usess underline
+                                The Literal Version (OET-LV) uses underline
                                 characters to join words which are represented
                                 by one word in the original language. For
                                 example, <em>he_said</em> would indicate that

@@ -13,7 +13,7 @@ function CE() {
             <Main>
                 <Page>
                     <MainPageContent>
-                    <h1>Conventional Edition</h1>
+                        <h1>Conventional Edition</h1>
                         <p>
                             For now, see{' '}
                             <Link href='https://freely-given.org/BibleTranslations/English/OET/FAQs.html'>
