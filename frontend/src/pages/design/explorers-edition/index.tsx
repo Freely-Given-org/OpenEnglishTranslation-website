@@ -1,5 +1,7 @@
 import Link from 'next/link';
 
+import MainPageContent from '../../../Components/page/MainPageContent/MainPageContent';
+import Page from '../../../Components/page/page';
 import Footer from '../../../Layouts/Footer/Footer';
 import Header from '../../../Layouts/Header/Header';
 import Main from '../../../Layouts/main/main';
@@ -9,13 +11,18 @@ function EE() {
         <>
             <Header />
             <Main>
-                <p>
-                    For now, see{' '}
-                    <Link href='https://freely-given.org/BibleTranslations/English/OET/FAQs.html'>
-                        here
-                    </Link>
-                    .
-                </p>
+                <Page>
+                    <MainPageContent>
+                        <h1>OET Explorers’ Edition</h1>
+                        <p>
+                            For now, see{' '}
+                            <Link href='https://freely-given.org/BibleTranslations/English/OET/FAQs.html'>
+                                here
+                            </Link>
+                            .
+                        </p>
+                    </MainPageContent>
+                </Page>
             </Main>
             <Footer />
         </>
