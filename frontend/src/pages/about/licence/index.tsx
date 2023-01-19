@@ -23,8 +23,9 @@ function Licence() {
                             </Link>{' '}
                             licence.
                         </p>
+                        <h2>Future plans</h2>
                         <p>
-                            We are retaining a licence that requires
+                            For now we are retaining a licence that requires
                             attribution, etc. until the project design and the
                             text is somewhat finalised, stablised, and
                             recognised. However, having to keep track of author

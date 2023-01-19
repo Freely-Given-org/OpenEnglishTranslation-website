@@ -13,7 +13,7 @@ function EE() {
             <Main>
                 <Page>
                     <MainPageContent>
-                        <h1>Explorers’ Edition</h1>
+                        <h1>OET Explorers’ Edition</h1>
                         <p>
                             For now, see{' '}
                             <Link href='https://freely-given.org/BibleTranslations/English/OET/FAQs.html'>

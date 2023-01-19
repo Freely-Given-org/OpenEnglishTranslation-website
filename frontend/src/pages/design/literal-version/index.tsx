@@ -13,7 +13,7 @@ function LV() {
             <Main>
                 <Page>
                     <MainPageContent>
-                        <h1>Literal Version</h1>
+                        <h1>OET Literal Version</h1>
                         <p>
                             For now, see{' '}
                             <Link href='https://freely-given.org/BibleTranslations/English/OET/FAQs.html'>
