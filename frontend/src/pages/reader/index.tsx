@@ -13,11 +13,11 @@ function Reader() {
                     <MainPageContent>
                         <p>
                             This is where you’ll be able to read both the OET{' '}
-                            <i>Conventional Edition</i> and{' '}
-                            <i>Explorers’ Edition</i> online. The{' '}
-                            <em>Literal Version</em> and{' '}
-                            <em>Readers’ Version</em> of each will be displayed
-                            side-by-side.
+                            <em>Conventional Edition</em> and{' '}
+                            <em>Explorers’ Edition</em> online. The{' '}
+                            <em>Readers’ Version</em> and{' '}
+                            <em>Literal Version</em> and of each will be
+                            displayed side-by-side.
                         </p>
                     </MainPageContent>
                 </Page>

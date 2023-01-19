@@ -23,9 +23,12 @@ function FAQ() {
                             and the various OET versions.
                         </p>
                         <p className={styles.FAQContentEntry}>
-                            <Link href='#Name'>
-                                Why is it called the Open English Translation of
-                                the Bible (OET)?
+                            <Link href='#Name' passHref>
+                                <a>
+                                    Why is it called the{' '}
+                                    <em>Open English Translation</em> of the
+                                    Bible (OET)?
+                                </a>
                             </Link>
                         </p>
                         <p className={styles.FAQContentEntry}>
@@ -106,6 +109,14 @@ function FAQ() {
                             </Link>
                         </p>
                         <p className={styles.FAQContentEntry}>
+                            <Link href='#VersionsEditions' passHref>
+                                <a>
+                                    What’s the difference between{' '}
+                                    <i>versions</i> and <i>editions</i>?
+                                </a>
+                            </Link>
+                        </p>
+                        <p className={styles.FAQContentEntry}>
                             <Link href='#LVQ' passHref>
                                 <a>
                                     <b>Literal Version</b> questions
@@ -152,15 +163,16 @@ function FAQ() {
                             [<Link href='#FAQTop'>Back to top</Link>]
                         </p>
                         <h2 className={styles.FAQ} id='Name'>
-                            Why is it called the Open English Translation of the
-                            Bible (OET)?
+                            Why is it called the{' '}
+                            <em>Open English Translation</em> of the Bible
+                            (OET)?
                         </h2>
                         <p className={styles.FAQAnswer}></p>
                         <ul>
                             <li>
                                 <a>
                                     <b>Open</b> (unashamedly inspired by Free
-                                    and Open Source software) expresses my
+                                    and Open Source software) expresses our
                                     desire to make it freely available for
                                     others to use or adapt in any way. We
                                     haven’t decided on a licence yet, so feel
@@ -396,20 +408,21 @@ function FAQ() {
                         </h2>
                         <p className={styles.FAQAnswer}>
                             <a>
-                                The Literal Version (OET-LV) uses underline
-                                characters to join words which are represented
-                                by one word in the original language. For
-                                example, <em>he_said</em> would indicate that
-                                these two English words are represented by just
-                                one word in the original language and there is
-                                no separate word specifying who is the{' '}
-                                <em>he</em>. The OET also includes grammatical
-                                and semantic tagging. For example, if the text
-                                says <em>gave it to him</em> the OET will
-                                attempt to mark or tag what the <em>it</em> is
-                                and who the <em>him</em> is. This tagging is
-                                done in the text files using special characters,
-                                e.g., <em>him=PDavid</em> tells us that the{' '}
+                                The <em>Literal Version</em> (OET-LV) uses
+                                underline characters to join words which are
+                                represented by one word in the original
+                                language. For example, <em>he_said</em> would
+                                indicate that these two English words are
+                                represented by just one word in the original
+                                language and there is no separate word
+                                specifying who is the <em>he</em>. The OET also
+                                includes grammatical and semantic tagging. For
+                                example, if the text says{' '}
+                                <em>gave it to him</em> the OET will attempt to
+                                mark or tag what the <em>it</em> is and who the{' '}
+                                <em>him</em> is. This tagging is done in the
+                                text files using special characters, e.g.,{' '}
+                                <em>him=PDavid</em> tells us that the{' '}
                                 <em>him</em> referred to is the person David. A
                                 full list of tags and special characters can be
                                 found <Link href='Tags.html'>here</Link>. Note
@@ -449,10 +462,11 @@ function FAQ() {
                             <a>
                                 Actually, it’s release <em>dates</em> since
                                 there’s five versions. It is planned to develop
-                                the Literal Version, the Readers’ Version, and
-                                the Colloquial Version simultaneously, and we
-                                hope to make some preliminary books available by
-                                the end of 2022, with the Old Testament being
+                                the <em>Literal Version</em>, the{' '}
+                                <em>Readers’ Version</em>, and perhaps also the{' '}
+                                <em>Colloquial Version</em> simultaneously, and
+                                we hope to make some preliminary books available
+                                by the mid-2023, with the Old Testament being
                                 released by the end of 2025. The Study Version
                                 and the Extended Version will also be developed
                                 together, but not until after the V1.0.0 release
@@ -570,17 +584,22 @@ function FAQ() {
                         <h1 id='LVQ'>Literal Version Questions</h1>
                         <p className={styles.FAQContentEntry}>
                             <Link href='#LVAim'>
-                                Who is the Literal Version intended for?
+                                <a>
+                                    Who is the <em>Literal Version</em> intended
+                                    for?
+                                </a>
                             </Link>
                         </p>
                         <p className={styles.FAQContentEntry}>
                             <Link href='#LVWoody'>
-                                Why doesn’t the Literal Version sound very
-                                fluent or natural?
+                                <a>
+                                    Why doesn’t the <em>Literal Version</em>{' '}
+                                    sound very fluent or natural?
+                                </a>
                             </Link>
                         </p>
                         <h2 className={styles.FAQ} id='LVAim'>
-                            Who is the Literal Version intended for?
+                            Who is the <em>Literal Version</em> intended for?
                         </h2>
                         <p className={styles.FAQAnswer}>
                             The OET-LV is intended to help the English reader
@@ -589,8 +608,8 @@ function FAQ() {
                             good understanding of Hebrew, Aramaic, and Greek.
                         </p>
                         <h2 className={styles.FAQ} id='LVWoody'>
-                            Why doesn’t the Literal Version sound very fluent or
-                            natural?
+                            Why doesn’t the <em>Literal Version</em> sound very
+                            fluent or natural?
                         </h2>
                         <p className={styles.FAQAnswer}>
                             <a>
