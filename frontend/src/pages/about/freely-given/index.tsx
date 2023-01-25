@@ -15,10 +15,10 @@ function FreelyGiven() {
                     <MainPageContent>
                         <h1>About Freely-Given.org</h1>
                         <p>
-                            The
+                            The{' '}
                             <Link href='https://Freely-Given.org'>
                                 Freely-Given.org website
-                            </Link>
+                            </Link>{' '}
                             was started in 2009 by Robert Hunt, a Bible
                             translator, as a place to collect and curate free
                             and open-licensed Bible-related resources.
@@ -32,6 +32,8 @@ function FreelyGiven() {
                             Now in the 2020’s, we are actively searching for
                             programmers and website developers who would like to
                             join us in sharing God’s gifts with the wider world.
+                            Please see the contact page to let us know your
+                            skills.
                         </p>
                     </MainPageContent>
                 </Page>
