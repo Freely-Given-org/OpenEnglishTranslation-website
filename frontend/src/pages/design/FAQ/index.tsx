@@ -227,10 +227,18 @@ function FAQ() {
                             Why’s the OET taking so long?
                         </h2>
                         <p className={styles.FAQAnswer}>
-                            The OET translation has been on hold for several
-                            years as we’ve worked on other projects. However, we
-                            expect serious work to resume on the OET in early
-                            2022.
+                            After briefly getting started back in 2010, the OET
+                            translation has been on hold for several years as we
+                            were asked to help with other projects, but we were
+                            finally able to resume full-time work on the OET in
+                            July 2023. Any Bible translation takes several years
+                            of work, but we hope to have the first draft of the
+                            New Testament by the end of 2023. Further progress
+                            depends on how many volunteers we can recruit to
+                            help. (For example, without any other software
+                            developers, time has to be taken off translation to
+                            develop sample websites and apps in order to even
+                            display the first draft.)
                         </p>
                         <p>
                             [<Link href='#FAQTop'>Back to top</Link>]
