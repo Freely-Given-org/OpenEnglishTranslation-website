@@ -22,8 +22,11 @@ const Home: NextPage = () => {
                             <p>
                                 Yes, work on the{' '}
                                 <em>Open English Translation</em> of the Bible
-                                is now proceeding and <b>the first rough draft of
-                                the New Testament is expected by the end of 2023</b>
+                                is now proceeding and{' '}
+                                <b>
+                                    the first rough draft of the New Testament
+                                    is expected by the end of 2023
+                                </b>
                                 (and then hopefully released by the end of
                                 2024).
                             </p>

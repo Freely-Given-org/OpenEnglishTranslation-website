@@ -14,7 +14,9 @@ function Reader() {
                 <Page>
                     <MainPageContent>
                         <p>
-                            <Link href='https://Freely-Given.org/OBD/OET/bySec/JHN_S2.htm#Top'>Reader</Link>
+                            <Link href='https://Freely-Given.org/OBD/OET/bySec/JHN_S2.htm#Top'>
+                                Reader
+                            </Link>
                             {/* This is where you’ll be able to read both the OET{' '}
                             <em>Conventional Edition</em> and{' '}
                             <em>Explorers’ Edition</em> online. The{' '}

@@ -27,7 +27,9 @@ const Header: NextPage = () => {
             <nav className={styles['big-nav']}>
                 <Design />
                 {/* <Link href={'/Reader'}>Reader</Link> */}
-                <Link href='https://Freely-Given.org/OBD/OET/bySec/JHN_S2.htm#Top'>Reader</Link>
+                <Link href='https://Freely-Given.org/OBD/OET/bySec/JHN_S2.htm#Top'>
+                    Reader
+                </Link>
                 <Resources />
                 <Link href={'/Blog'}>Blog</Link>
                 <About />
