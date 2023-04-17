@@ -19,61 +19,61 @@ function Footer() {
                 <div className={styles['link-list-left']}>
                     <ul>
                         <li>
-                            <Link href={'/design/overview'}>Overview</Link>
+                            <Link href={'/Design/overview'}>Overview</Link>
                         </li>
                         <li>
-                            <Link href={'/design/literal-version'}>
+                            <Link href={'/Design/LiteralVersion'}>
                                 Literal Version
                             </Link>
                         </li>
                         <li>
-                            <Link href={'/design/readers-version'}>
+                            <Link href={'/Design/ReadersVersion'}>
                                 Readers’ Version
                             </Link>
                         </li>
                         <li>
-                            <Link href={'/design/conventional-edition'}>
+                            <Link href={'/Design/ConventionalEdition'}>
                                 Conventional Edition
                             </Link>
                         </li>
                         <li>
-                            <Link href={'/design/explorers-edition'}>
+                            <Link href={'/Design/ExplorersEdition'}>
                                 Explorers’ Edition
                             </Link>
                         </li>
                         <li>
-                            <Link href={'/design/source-texts'}>
+                            <Link href={'/Design/SourceTexts'}>
                                 Source Texts
                             </Link>
                         </li>
                         <li>
-                            <Link href={'/design/FAQ'}>FAQs</Link>
+                            <Link href={'/Design/FAQ'}>FAQs</Link>
                         </li>
                     </ul>
                 </div>
                 <div className={styles['link-list-right']}>
                     <ul>
                         <li>
-                            <Link href={'/about/OET'}>About OET</Link>
+                            <Link href={'/About/OET'}>About OET</Link>
                         </li>
                         <li>
-                            <Link href={'/about/freely-given'}>
+                            <Link href={'/About/Freely-Given'}>
                                 About Freely-Given
                             </Link>
                         </li>
                         <li>
-                            <Link href={'/about/core-values'}>Core Values</Link>
+                            <Link href={'/About/CoreValues'}>Core Values</Link>
                         </li>
                         <li>
-                            <Link href={'/about/statement-of-faith'}>
+                            <Link href={'/About/StatementOfFaith'}>
                                 Statement of Faith
                             </Link>
                         </li>
                         <li>
-                            <Link href={'/about/partners'}>Our Partners</Link>
+                            <Link href={'/About/Partners'}>Our Partners</Link>
                         </li>
                         <li>
-                            <Link href={'/about/contact'}>Contact Us</Link>
+                            <Link href={'/About/Contact'}>Contact Us</Link>
                         </li>
                     </ul>
                 </div>

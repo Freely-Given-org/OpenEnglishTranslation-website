@@ -31,7 +31,7 @@ function Overview() {
                         </p>
                         <p>
                             For more, see the{' '}
-                            <Link href='https://freely-given.org/BibleTranslations/English/OET/'>
+                            <Link href='https://Freely-Given.org/BibleTranslations/English/OET/'>
                                 old site
                             </Link>
                             .
@@ -49,7 +49,7 @@ function Overview() {
                         </p>
                         <p>
                             More details{' '}
-                            <Link href='/design/readers-version'>here</Link>.
+                            <Link href='/Design/ReadersVersion'>here</Link>.
                         </p>
                         <h2>OET Literal Version</h2>
                         <p>
@@ -66,7 +66,7 @@ function Overview() {
                         </p>
                         <p>
                             More details{' '}
-                            <Link href='/design/literal-version'>here</Link>.
+                            <Link href='/Design/LiteralVersion'>here</Link>.
                         </p>
                         <h2>OET Editions</h2>
                         <p>

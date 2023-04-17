@@ -5,11 +5,11 @@ const menu: dropMenu = {
     items: [
         {
             name: 'Downloads',
-            link: '/resources/downloads',
+            link: '/Resources/Downloads',
         },
         {
             name: 'Formats',
-            link: '/resources/formats',
+            link: '/Resources/Formats',
         },
     ],
 };

@@ -26,10 +26,10 @@ const Header: NextPage = () => {
             </div>
             <nav className={styles['big-nav']}>
                 <Design />
-                {/* <Link href={'/reader'}>Reader</Link> */}
-                <Link href='https://Freely-Given.org/OBD/'>Reader</Link>
+                {/* <Link href={'/Reader'}>Reader</Link> */}
+                <Link href='https://Freely-Given.org/OBD/OET/bySec/JHN_S2.htm#Top'>Reader</Link>
                 <Resources />
-                <Link href={'/blogs'}>Blog</Link>
+                <Link href={'/Blog'}>Blog</Link>
                 <About />
             </nav>
 
@@ -44,13 +44,13 @@ const Header: NextPage = () => {
                             <Design phoneNav={true} />
                         </li>
                         <li>
-                            <Link href={'/reader'}>Reader</Link>
+                            <Link href={'/Reader'}>Reader</Link>
                         </li>
                         <li>
                             <Resources phoneNav={true} />
                         </li>
                         <li>
-                            <Link href={'/blogs'}>Blog</Link>
+                            <Link href={'/Blog'}>Blog</Link>
                         </li>
                         <li>
                             <About phoneNav={true} />

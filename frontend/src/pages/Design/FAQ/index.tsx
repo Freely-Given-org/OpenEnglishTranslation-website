@@ -544,7 +544,7 @@ function FAQ() {
                         </h2>
                         <p className={styles.FAQAnswer}>
                             It’s still being decided whether to use a{' '}
-                            <Link href='https://creativecommons.org/about'>
+                            <Link href='https://creativecommons.org/About'>
                                 Creative Commons
                             </Link>{' '}
                             <Link href='https://creativecommons.org/licenses/by-sa/3.0/'>
