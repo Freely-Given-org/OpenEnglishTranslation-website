@@ -31,11 +31,13 @@ function OET() {
                             laptop that were all encrypted and their use was
                             tightly controlled. This didn’t seem to match either
                             the origin of the Scriptures nor did it match the
-                            theme of Jesus’ gift to mankind. (Even today, it’s
-                            much easier to find a pornography download on the
-                            internet than to find a free, modern Bible text
-                            download that you could use in your own app or on
-                            your own website.)
+                            theme of Jesus’ gift to mankind. (Shouldn’t
+                            Christians be <em>more</em> generous than secular
+                            programmers, not less? Isn’t the Bible often called
+                            ‘God’s’ word? Even today, it’s much easier to find a
+                            pornography download on the internet than to find a
+                            free, modern Bible text download that you could use
+                            in your own app or on your own website. Try it.)
                         </p>
                     </MainPageContent>
                 </Page>

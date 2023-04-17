@@ -36,10 +36,10 @@ const Home: NextPage = ({ blogs }: any) => {
                             {blogs.map((blog: any) => (
                                 <li>
                                     <Link
-                                        href={`/blogs/${blog.params.id}`}
+                                        href={`/Blog/${blog.params.id}`}
                                         key={blog.params.id}
                                     >
-                                        <a>/blogs/ {blog.params.id}</a>
+                                        <a>/Blog/ {blog.params.id}</a>
                                     </Link>
                                     ;
                                 </li>

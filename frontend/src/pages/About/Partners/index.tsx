@@ -18,7 +18,7 @@ function Partners() {
                             We are looking for techo geeks in the Bible world to
                             help us achieve this vision. If you’re proficient in
                             Python, Flutter/Dart, Rust, or Golang, please do{' '}
-                            <Link href="/contact'">contact</Link> us.
+                            <Link href="/Contact'">contact</Link> us.
                         </p>
                         <h1>Sponsors wanted</h1>
                         <p>
@@ -32,7 +32,7 @@ function Partners() {
                             developers. Then if there’s any extra, it will also
                             be appreciated for helping to pay the grocery bill.
                             Again, please use the{' '}
-                            <Link href='/contact'>contact page</Link> to get in
+                            <Link href='/Contact'>contact page</Link> to get in
                             touch directly.
                         </p>
                         <h1>Users wanted</h1>

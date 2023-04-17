@@ -5,31 +5,31 @@ const menu: dropMenu = {
     items: [
         {
             name: 'About OET',
-            link: '/about/OET',
+            link: '/About/OET',
         },
         {
             name: 'About Freely-Given',
-            link: '/about/freely-given',
+            link: '/About/Freely-Given',
         },
         {
             name: 'Core Values',
-            link: '/about/core-values',
+            link: '/About/CoreValues',
         },
         {
             name: 'Statement of Faith',
-            link: '/about/statement-of-faith',
+            link: '/About/StatementOfFaith',
         },
         {
             name: 'Our Partners',
-            link: '/about/partners',
+            link: '/About/Partners',
         },
         {
             name: 'Licence',
-            link: '/about/licence',
+            link: '/About/Licence',
         },
         {
             name: 'Contact Us',
-            link: '/about/contact',
+            link: '/About/Contact',
         },
     ],
 };

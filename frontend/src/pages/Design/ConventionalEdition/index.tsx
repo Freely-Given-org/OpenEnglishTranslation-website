@@ -16,7 +16,7 @@ function CE() {
                         <h1>OET Conventional Edition</h1>
                         <p>
                             For now, see{' '}
-                            <Link href='https://freely-given.org/BibleTranslations/English/OET/FAQs.html'>
+                            <Link href='https://Freely-Given.org/BibleTranslations/English/OET/FAQs.html'>
                                 here
                             </Link>
                             .

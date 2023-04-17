@@ -30,11 +30,14 @@ function StatementOfFaith() {
                             </li>
                         </ul>
                         <p>
-                            PS: The OET doesn’t always continue English
+                            PS: The OET doesn’t always continue old English
                             traditions of using capital letters for pronouns and
                             other words referring to members of the trinity. Of
                             course, the original Hebrew and Greek scriptures
-                            didn’t ever distinguish or use such things.
+                            didn’t ever distinguish or use such things. (They
+                            only had one set of letter types, so no distinction
+                            between capital or small letters. Modern Hebrew
+                            still doesn’t.)
                         </p>
                     </MainPageContent>
                 </Page>
