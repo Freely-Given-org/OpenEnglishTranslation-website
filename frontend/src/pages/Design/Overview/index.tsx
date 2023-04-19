@@ -17,56 +17,88 @@ function Overview() {
                         <p>
                             The <em>Open English Translation</em> is a unique
                             new, open-licensed English Bible translation with
-                            two parts. In the left column will be the{' '}
+                            two parts or ‘versions’. In the left column we
+                            display the easy to read and understand{' '}
+                            <em>Readers’ Version</em> written in modern English.
+                            The right column displays the{' '}
                             <em>Literal Version</em>, designed to help you
                             “peek” into the original languages and get an idea
-                            what is actually written there. The right column
-                            will have the easy to read and understand{' '}
-                            <em>Readers’ Version</em> written in modern English.
-                            Actually it’s intended that you’ll read the{' '}
+                            what is actually written there. It’s intended that
+                            in normal use, you’ll read the{' '}
                             <em>Readers’ Version</em>, and when you think, “Does
                             it really say that?”, then you can move your eyes
                             across and get a good idea of what words are
-                            actually there in the original language.
+                            actually there in the original language even if you
+                            haven’t learnt Hebrew or Koine Greek.
                         </p>
                         <p>
-                            For more, see the{' '}
-                            <Link href='https://Freely-Given.org/BibleTranslations/English/OET/'>
-                                old site
-                            </Link>
-                            .
+                            Most other Bible translations must choose to place
+                            themselves somewhere on the line that moves from
+                            being very literal (some people might perhaps
+                            naively think this is being accurate to the
+                            original), to being more helpful to the reader by
+                            being more free/dynamic (in making a translation
+                            that fills in some of the implied information that
+                            might have been obvious to the original readers).
+                            The <em>OET</em> handles this by choosing{' '}
+                            <b>two points</b> on that line instead of just one!
+                            These two versions (one very literal and one quite
+                            dynamic) are intended to be used together (and never
+                            alone).
+                        </p>
+                        <p>
+                            (You can see this for yourself if you scroll down
+                            the parallel pages in our{' '}
+                            <Link href='/Reader'>Reader</Link>.)
+                        </p>
+                        <p>
+                            Another major distinction is that the <em>OET</em>{' '}
+                            is being made <b>freely available</b> for others to
+                            use and publish in Bible studies and similar
+                            materials, to print, to display on any device, and
+                            even to change/customise (with some limitations) for
+                            a specific group.
                         </p>
                         <h2>OET Readers’ Version</h2>
                         <p>
                             This side of the page (so to speak) is designed to
-                            express the meaning of each sentence (as scholars
-                            can best understand it) in good, clear, readable
-                            modern English. Here the measurements of Noah’s
-                            barge (yes, a more modern word than <i>ark</i>)
-                            would be in familiar units like metres or feet so
-                            that the size can be easily visualised by the
-                            reader.
+                            <b>express the meaning of each sentence</b> (as
+                            scholars can best understand it) in{' '}
+                            <b>good, clear, readable, modern English</b>. Here
+                            the measurements of Noah’s barge (yes, a more modern
+                            word than <i>ark</i>) would be in familiar units
+                            like metres or feet so that the size can be more
+                            easily visualised by the reader.
                         </p>
                         <p>
-                            More details{' '}
-                            <Link href='/Design/ReadersVersion'>here</Link>.
+                            More details at{' '}
+                            <Link href='/Design/ReadersVersion'>
+                                Design / Readers’ Version
+                            </Link>
+                            .
                         </p>
                         <h2>OET Literal Version</h2>
                         <p>
                             This side of the page is designed to give you
-                            insights into what is actually written in the Hebrew
-                            and Greek manuscripts. So the measurements of Noah’s
-                            box (yes, actually <i>chest</i> would also be a good
-                            literal translation, except that saying{' '}
-                            <i>Noah’s chest</i> could be misunderstood) would be
-                            given in the original cubits, and ideal for a study
-                            of numbers in the Bible. And when you get to the{' '}
+                            <b>
+                                insights into what is actually written in the
+                                Hebrew and Greek
+                            </b>{' '}
+                            manuscripts. So the measurements of Noah’s box (yes,
+                            actually <i>chest</i> would also be a good literal
+                            translation, except that saying <i>Noah’s chest</i>{' '}
+                            could be misunderstood) would be given in the
+                            original cubit measures, and ideal for a study of
+                            numbers in the Bible. And when you get to the{' '}
                             <i>Box of the Agreement</i>, the Hebrew text starts
                             to make sense in your mind.
                         </p>
                         <p>
-                            More details{' '}
-                            <Link href='/Design/LiteralVersion'>here</Link>.
+                            More details at{' '}
+                            <Link href='/Design/LiteralVersion'>
+                                Design / Literal Version
+                            </Link>
+                            .
                         </p>
                         <h2>OET Editions</h2>
                         <p>

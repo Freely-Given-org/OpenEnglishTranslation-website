@@ -15,9 +15,9 @@ function Licence() {
                     <MainPageContent>
                         <h1>Licence</h1>
                         <p>
-                            This Bible translation and website are licensed
-                            under a Creative Commons Attribution-ShareAlike 4.0
-                            International{' '}
+                            This Bible translation and website are each
+                            separately licensed under a Creative Commons
+                            Attribution-ShareAlike 4.0 International{' '}
                             <Link href='https://CreativeCommons.org/licenses/by-sa/4.0/'>
                                 (CC BY-SA 4.0)
                             </Link>{' '}
@@ -33,12 +33,15 @@ function Licence() {
                             users, and so in the future, we plan to place this
                             work in the public domain. So we hereby announce
                             that as soon as any translated Bible book has been
-                            published at or above v1.0 for three years, that
-                            book is to be placed into the public domain. Or
+                            published at or above v1.0 for two years, that book
+                            is to be placed into the public domain. Or
                             alternatively, upon the death of the principle
-                            translator or three years of inaction on the project
-                            repository (whichever is soonest), the entire work
-                            is to be placed into the public domain.
+                            translator or two years of inaction on the{' '}
+                            <Link href='https://GitHub.com/Freely-Given-org/OpenEnglishTranslation--OET'>
+                                project repository
+                            </Link>{' '}
+                            (whichever is soonest), the entire work is to be
+                            placed into the public domain.
                         </p>
                     </MainPageContent>
                 </Page>

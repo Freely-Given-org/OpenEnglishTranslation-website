@@ -47,14 +47,17 @@ const Home: NextPage = () => {
                                 that it’s translated from.
                             </p>
                             <p>
-                                We’re currently looking for volunteers to help
-                                with many aspects of this work including logo
-                                and website design, as well as help with the
-                                translation itself, i.e., consultants,
-                                translators, checkers, authors, note-writers,
-                                etc. If you’d like to help with a revolutionary
-                                new Bible project, please look for more
-                                information on our{' '}
+                                We’re currently <b>looking for volunteers</b> to
+                                help with many aspects of this work including{' '}
+                                <b>logo and website design</b>, as well as help
+                                with the translation itself, i.e.,{' '}
+                                <b>
+                                    consultants, translators, checkers, authors,
+                                    note-writers
+                                </b>
+                                , etc. If you’d like to help with a
+                                revolutionary new Bible project, please look for
+                                more information on our{' '}
                                 <Link href='/About/Partners'>
                                     Partners page
                                 </Link>
@@ -62,14 +65,15 @@ const Home: NextPage = () => {
                             </p>
                             <p>
                                 We’re also looking for software developers. If
-                                you’re a Python or Dart/Flutter developer and
-                                would like to help with this vital side of the
-                                project, please please look for more information
-                                on our{' '}
+                                you’re a{' '}
+                                <b>Python or Dart/Flutter or other Android</b>{' '}
+                                developer and would like to help with this vital
+                                side of the project, please please look for more
+                                information on our{' '}
                                 <Link href='/About/Partners'>
                                     Partners page
                                 </Link>
-                                . We’re also after Rust and Golang devs.
+                                . We’re also after <b>Rust</b> and Golang devs.
                             </p>
                         </div>
                     </MainPageContent>
@@ -90,6 +94,15 @@ const Home: NextPage = () => {
                             <Link href='https://unsplash.com/collections/4858217/bible?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText'>
                                 Unsplash
                             </Link>
+                        </p>
+                    </div>
+                    <div className={styles.banner}>
+                        <h1>Verse of the day</h1>
+                        <p>
+                            And the message became a human and lived here among
+                            us and we saw his greatness—the greatness of an only
+                            child of the father—full of grace and truth. (Jn
+                            1:14, OET-RV)
                         </p>
                     </div>
                     <div className={styles.pageSidebar}></div>

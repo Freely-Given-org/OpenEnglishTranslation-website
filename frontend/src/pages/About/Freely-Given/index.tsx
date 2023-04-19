@@ -29,10 +29,24 @@ function FreelyGiven() {
                             own language.
                         </p>
                         <p>
-                            Now in the 2020’s, we are actively searching for
-                            programmers and website developers who would like to
-                            join us in sharing God’s gifts with the wider world.
-                            Please see the contact page to let us know your
+                            Now Freely-Given.org has become a producer of
+                            resources and not just a curator—starting production
+                            of the <em>Open English Translation</em> of the
+                            Bible.
+                        </p>
+                        <p>
+                            Of course, Freely-Given.org was already known for
+                            the <em>Bible Drop Box</em> conversion system for
+                            Bible formats based on our Bible Organisational
+                            System library (Python).
+                        </p>
+                        <p>
+                            So now in the 2020’s, we are still actively
+                            searching for programmers and website developers who
+                            would like to join us in sharing God’s gifts with
+                            the wider world. Please see our{' '}
+                            <Link href='/About/Partners'>Partners page</Link> to
+                            see our list of needs, and then let us know your
                             skills.
                         </p>
                     </MainPageContent>
