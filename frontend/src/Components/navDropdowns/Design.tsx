@@ -8,6 +8,10 @@ const menu: dropMenu = {
             link: '/Design/Overview',
         },
         {
+            name: 'Name',
+            link: '/Design/Name',
+        },
+        {
             name: 'Readers’ Version',
             link: '/Design/ReadersVersion',
         },

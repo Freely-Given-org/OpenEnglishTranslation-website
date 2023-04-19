@@ -2,11 +2,12 @@
 
 ## Start front end
 ```js
+// in the frontend dir to rebuild the app
+npm run build
 // in the frontend dir to start
 pm2 start npm -- start
-// same dir to rebuild the app
-npm build
 ```
+
 ### Notes
 The blogs will rebuild themselves every hour -- if you want to update sooner you will need to restart
 

@@ -22,6 +22,9 @@ function Footer() {
                             <Link href={'/Design/Overview'}>Overview</Link>
                         </li>
                         <li>
+                            <Link href={'/Design/Name'}>Name</Link>
+                        </li>
+                        <li>
                             <Link href={'/Design/LiteralVersion'}>
                                 Literal Version
                             </Link>
