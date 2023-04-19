@@ -97,13 +97,14 @@ function CoreValues() {
                             We live in the 21st century and the digital age. A
                             modern Bible should have interlinked resources and
                             make full use of the internet. Every word in the{' '}
-                            <em>OET-LV</em> is already connected to the Greek word that
-                            it’s translated from and it’s in progress for the <em>OET-RV</em>. We already have a good start
-                            linking at pronouns to their referents, i.e., to
-                            click on a pronoun like ‘him’ and find out who it’s
-                            talking about. Click on the person’s name and go to
-                            an entry where you can click throught their family
-                            tree.
+                            <em>OET-LV</em> is already connected to the Greek
+                            word that it’s translated from and it’s in progress
+                            for the <em>OET-RV</em>. We already have a good
+                            start linking at pronouns to their referents, i.e.,
+                            to click on a pronoun like ‘him’ and find out who
+                            it’s talking about. Click on the person’s name and
+                            go to an entry where you can click throught their
+                            family tree.
                         </p>
                     </MainPageContent>
                 </Page>

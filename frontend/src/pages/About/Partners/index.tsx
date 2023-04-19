@@ -46,8 +46,8 @@ function Partners() {
                         </p>
                         <h2>Readers and checkers</h2>
                         <p>
-                            Are you a <i>word-crafter</i>? As <em>OET</em> books are
-                            being drafted, we need readers to look at the
+                            Are you a <i>word-crafter</i>? As <em>OET</em> books
+                            are being drafted, we need readers to look at the
                             English style. When translating, it’s sometimes
                             difficult to get the Greek words and word order out
                             of your mind and to think about how we’d say the
