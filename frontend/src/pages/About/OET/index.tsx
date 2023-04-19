@@ -225,7 +225,9 @@ function OET() {
                                 <br />
                                 We’ll also be providing a list of these section
                                 headings that you can quickly skim through (and
-                                we hope to include extra, alternative headings).
+                                we hope to also include extra, alternative
+                                headings to help users find what they’re looking
+                                for).
                             </li>
                             <li>
                                 Being a 21<span>st</span> century translation

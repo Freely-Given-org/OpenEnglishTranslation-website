@@ -23,15 +23,6 @@ function FAQ() {
                             philosophy and the various <em>OET</em> versions.
                         </p>
                         <p className={styles.FAQContentEntry}>
-                            <Link href='#Name' passHref>
-                                <a>
-                                    Why is it called the{' '}
-                                    <em>Open English Translation</em> of the
-                                    Bible (OET)?
-                                </a>
-                            </Link>
-                        </p>
-                        <p className={styles.FAQContentEntry}>
                             <Link href='#Download'>
                                 Where can I download the OET from?
                             </Link>
@@ -162,52 +153,6 @@ function FAQ() {
                         <p>
                             [<Link href='#FAQTop'>Back to top</Link>]
                         </p>
-                        <h2 className={styles.FAQ} id='Name'>
-                            Why is it called the{' '}
-                            <em>Open English Translation</em> of the Bible
-                            (OET)?
-                        </h2>
-                        <p className={styles.FAQAnswer}></p>
-                        <ul>
-                            <li>
-                                <a>
-                                    <b>Open</b> (unashamedly inspired by Free
-                                    and Open Source software) expresses our
-                                    desire to make it freely available for
-                                    others to use or adapt in any way. We
-                                    haven’t decided on a licence yet, so feel
-                                    free to make suggestions. We’re also wanting
-                                    to make it open in the sense of open for
-                                    others to join in and help with (but that
-                                    doesn’t mean that it would be open to
-                                    everyone—just those who show a genuine
-                                    interest and ability).
-                                </a>
-                            </li>
-                            <li>
-                                <a>
-                                    <b>English</b> because it’ll be an English
-                                    translation. (It seems a little ethnocentric
-                                    to me to leave the language qualifier out of
-                                    the title of a Bible translation, although
-                                    it is true that in most cases that language
-                                    of the title itself indicates the language
-                                    of the translation.)
-                                </a>
-                            </li>
-                            <li>
-                                <a>
-                                    <b>Translation</b> just to remind
-                                    readers/users that it is indeed just a
-                                    translation of the original Scriptures.
-                                    (Again it seems a little deficient to me if
-                                    a book called something like
-                                    <em>The Holy Bible</em> doesn’t clearly
-                                    remind its readers that it’s not the
-                                    original.)
-                                </a>
-                            </li>
-                        </ul>
                         <p>
                             [<Link href='#FAQTop'>Back to top</Link>]
                         </p>
@@ -320,8 +265,8 @@ function FAQ() {
                         </p>
                         <ul>
                             <li>
-                                It is a 21st century translation so it is
-                                designed to be relevant and up-to-date
+                                It is a 21<sup>st</sup> century translation so
+                                it is designed to be relevant and up-to-date
                             </li>
                             <li>
                                 It is freely available and can be used on paper
@@ -349,9 +294,16 @@ function FAQ() {
                             <em>OET</em> use?
                         </h2>
                         <p className={styles.FAQAnswer}>
-                            Ha, yaright, mate! Although the base versions will
-                            use British spelling, we also plan to make variants
-                            available using US spelling and units, etc.
+                            Ha, yaright, mate! No, we’re not wanting to use
+                            slang, but we do aim to avoid churchified language
+                            if there’s a more natural way to express Biblical
+                            concepts in the language of a responsible adult at
+                            work.
+                        </p>
+                        <p>
+                            Although the base versions will use British
+                            spelling, we also plan to make variants available
+                            using US spelling and units, etc.
                         </p>
                         <p>
                             [<Link href='#FAQTop'>Back to top</Link>]
