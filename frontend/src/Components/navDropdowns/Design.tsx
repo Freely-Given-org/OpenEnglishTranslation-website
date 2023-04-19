@@ -20,12 +20,12 @@ const menu: dropMenu = {
             link: '/Design/LiteralVersion',
         },
         {
-            name: 'Conventional Edition',
-            link: '/Design/ConventionalEdition',
-        },
-        {
             name: 'Explorers’ Edition',
             link: '/Design/ExplorersEdition',
+        },
+        {
+            name: 'Conventional Edition',
+            link: '/Design/ConventionalEdition',
         },
         {
             name: 'Source Texts',

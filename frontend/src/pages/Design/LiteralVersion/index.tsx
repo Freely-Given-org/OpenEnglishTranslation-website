@@ -37,12 +37,6 @@ function LV() {
                                 figure of speech that we are familiar with).
                             </li>
                             <li>
-                                <i>Up</i> and <i>down</i> in the original
-                                languages (and thus in the{' '}
-                                <em>Literal Version</em>) refer to <i>uphill</i>{' '}
-                                and <i>downhill</i>.
-                            </li>
-                            <li>
                                 Being a 21<span>st</span> century translation
                                 done in an era when there is much more effort in
                                 general to respect speakers of other languages
@@ -50,10 +44,15 @@ function LV() {
                                 our own countries) and to pronounce their names
                                 and placenames correctly, the <em>OET</em>{' '}
                                 attempts to do the same for Biblical names and
-                                placenames. (If you have difficulty following
-                                the names in the <em>Literal Version</em>, you
-                                can always look across to the{' '}
-                                <em>Readers’ Version</em>.)
+                                placenames and the <em>Literal Version</em>{' '}
+                                transliterates all proper nouns. If it’s a name
+                                from the <em>Hebrew Scriptures</em>, then the
+                                first time it’s used in a book, it will also
+                                have a Hebrew transliteration. (If you have
+                                difficulty following the names in the{' '}
+                                <em>Literal Version</em>, you can always look
+                                across to the <em>Readers’ Version</em> for
+                                help.)
                             </li>
                             <li>
                                 In addition to wanting to get names and
@@ -170,6 +169,12 @@ function LV() {
                                 </b>{' '}
                                 form (although we are aware that some modern
                                 dialects now prefer <i>yous</i>).
+                            </li>
+                            <li>
+                                <i>Up</i> and <i>down</i> in the original
+                                languages (and thus in the{' '}
+                                <em>Literal Version</em>) refer to <i>uphill</i>{' '}
+                                and <i>downhill</i>.
                             </li>
                             <li>
                                 Because the <em>Literal Version</em> so closely
