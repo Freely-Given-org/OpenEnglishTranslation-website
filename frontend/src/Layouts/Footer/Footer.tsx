@@ -19,7 +19,7 @@ function Footer() {
                 <div className={styles['link-list-left']}>
                     <ul>
                         <li>
-                            <Link href={'/Design/overview'}>Overview</Link>
+                            <Link href={'/Design/Overview'}>Overview</Link>
                         </li>
                         <li>
                             <Link href={'/Design/LiteralVersion'}>

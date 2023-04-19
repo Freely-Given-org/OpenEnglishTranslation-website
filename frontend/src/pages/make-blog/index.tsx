@@ -106,7 +106,7 @@ const Home: NextPage = () => {
         }
 
         await axios
-            .post('http://192.168.120.180:8080/api/Blog/', blog, {
+            .post('http://192.168.120.180:8080/api/blogs/', blog, {
                 auth: auth,
                 headers: { 'content-type': 'multipart/form-data' },
             })

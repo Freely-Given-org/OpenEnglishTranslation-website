@@ -23,8 +23,9 @@ function Contact() {
                             . It is offered to the world as a free gift in the
                             same way that the original scriptures were created
                             without thought of profit. To contact the editors
-                            with corrections or suggestions, please email Freely
-                            (dot) Given (dot) org (at) gmail (dot) com.
+                            with corrections or suggestions, please email{' '}
+                            <b>Freely</b> (dot) <b>Given</b> (dot) <b>org</b>{' '}
+                            (at) <b>gmail</b> (dot) <b>com</b>.
                         </p>
                         <p>
                             Note: Of course you don’t need to contact us to
@@ -37,8 +38,9 @@ function Contact() {
                             this work. This includes both Bible people
                             (translators and consultants and readers and
                             checkers) as well as software people (developers and
-                            designers). Please use the above contact method to
-                            get in touch.
+                            designers). There’s more details on the{' '}
+                            <Link href='/About/Partners'>Partners page</Link> .
+                            Please use the above contact method to get in touch.
                         </p>
                         <p>
                             Any volunteers must agree in writing in advance that

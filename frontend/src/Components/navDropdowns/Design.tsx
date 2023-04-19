@@ -5,15 +5,15 @@ const menu: dropMenu = {
     items: [
         {
             name: 'Overview',
-            link: '/Design/overview',
-        },
-        {
-            name: 'Literal Version',
-            link: '/Design/LiteralVersion',
+            link: '/Design/Overview',
         },
         {
             name: 'Readers’ Version',
             link: '/Design/ReadersVersion',
+        },
+        {
+            name: 'Literal Version',
+            link: '/Design/LiteralVersion',
         },
         {
             name: 'Conventional Edition',

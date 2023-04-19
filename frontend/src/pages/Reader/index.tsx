@@ -13,16 +13,11 @@ function Reader() {
             <Main>
                 <Page>
                     <MainPageContent>
+                        {/* <iframe src='/myStaticIndex.htm' width='100%'></iframe> */}
                         <p>
                             <Link href='https://Freely-Given.org/OBD/OET/bySec/JHN_S2.htm#Top'>
-                                Reader
+                                Enter reader
                             </Link>
-                            {/* This is where you’ll be able to read both the OET{' '}
-                            <em>Conventional Edition</em> and{' '}
-                            <em>Explorers’ Edition</em> online. The{' '}
-                            <em>Readers’ Version</em> and{' '}
-                            <em>Literal Version</em> and of each will be
-                            displayed side-by-side. */}
                         </p>
                     </MainPageContent>
                 </Page>
