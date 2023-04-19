@@ -49,6 +49,18 @@ function Contact() {
                             under an open licence. Of course we’re happy to
                             credit any contributors (if they desire).
                         </p>
+                        <p>
+                            <small>
+                                We are very interested in having those join us
+                                who are retired or otherwise financially
+                                self-supported but we are also aware that there
+                                might be younger volunteers who are interested
+                                to help in a great project but still need to
+                                feed their families. If that’s you, contact us
+                                anyway and we may be able to find a way to help
+                                with a small honorarium.
+                            </small>
+                        </p>
                     </MainPageContent>
                 </Page>
             </Main>

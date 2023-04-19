@@ -15,11 +15,34 @@ function CE() {
                     <MainPageContent>
                         <h1>OET Conventional Edition</h1>
                         <p>
-                            For now, see{' '}
-                            <Link href='https://Freely-Given.org/BibleTranslations/English/OET/FAQs.html'>
-                                here
-                            </Link>
-                            .
+                            The <em>Conventional Edition</em> is an alternative
+                            edition of the <em>OET</em> and is derived from the{' '}
+                            <em>Explorers’ Edition</em> (the one that is
+                            displayed in the <Link href='/Reader'>Reader</Link>
+                            ). This edition is aimed at more conservative
+                            readers who don’t want their Bible reading to be
+                            distracted by different book orders or by finding
+                            non-conventional names or key phrases in the text.
+                        </p>
+                        <p>
+                            The <em>OET Literal Version</em> remains the same in
+                            all current editions (and uses transliterated names
+                            as all good literal versions should).
+                        </p>
+                        <p>
+                            <small>
+                                Technical readers might be interested to know
+                                that we developed the{' '}
+                                <Link href='https://GitHub.com/Freely-Given-org/ScriptedBibleEditor'>
+                                    Scripted Bible Editor
+                                </Link>{' '}
+                                specifically for being able to derive one Bible
+                                version from another by a series of scripted
+                                changes stored in TSV tables. (The{' '}
+                                <em>Scripted Bible Editor</em> is also used to
+                                help create the <em>OET Literal Version</em>{' '}
+                                from the Greek.)
+                            </small>
                         </p>
                     </MainPageContent>
                 </Page>

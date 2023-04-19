@@ -26,7 +26,8 @@ function Partners() {
                             help us achieve this vision to provide a free and
                             open, modern, new English translation. If you’re
                             proficient in Python, Flutter/Dart, Rust, or Golang,
-                            please do <Link href="/Contact'">contact</Link> us.
+                            please do <Link href='/About/Contact'>contact</Link>{' '}
+                            us.
                         </p>
                         <p>
                             We also need programmers to include the <em>OET</em>{' '}
@@ -103,8 +104,8 @@ function Partners() {
                             developers. Then if there’s any extra, it will also
                             be appreciated for helping to pay the grocery bill.
                             Again, please use the{' '}
-                            <Link href='/Contact'>contact page</Link> to get in
-                            touch directly.
+                            <Link href='/About/Contact'>contact page</Link> to
+                            get in touch directly.
                         </p>
                     </MainPageContent>
                 </Page>
