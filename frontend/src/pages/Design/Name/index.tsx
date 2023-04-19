@@ -14,8 +14,9 @@ function Name() {
                 <Page>
                     <MainPageContent>
                         <h1>
-                            Why is it called the <em>Open English Translation</em> of the
-                            Bible (OET)?
+                            Why is it called the{' '}
+                            <em>Open English Translation</em> of the Bible
+                            (OET)?
                         </h1>
                         <ul>
                             <li>
