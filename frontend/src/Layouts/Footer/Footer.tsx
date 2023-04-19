@@ -35,13 +35,13 @@ function Footer() {
                             </Link>
                         </li>
                         <li>
-                            <Link href={'/Design/ConventionalEdition'}>
-                                Conventional Edition
+                            <Link href={'/Design/ExplorersEdition'}>
+                                Explorers’ Edition
                             </Link>
                         </li>
                         <li>
-                            <Link href={'/Design/ExplorersEdition'}>
-                                Explorers’ Edition
+                            <Link href={'/Design/ConventionalEdition'}>
+                                Conventional Edition
                             </Link>
                         </li>
                         <li>
@@ -74,6 +74,9 @@ function Footer() {
                         </li>
                         <li>
                             <Link href={'/About/Partners'}>Our Partners</Link>
+                        </li>
+                        <li>
+                            <Link href={'/About/Licence'}>Licence</Link>
                         </li>
                         <li>
                             <Link href={'/About/Contact'}>Contact Us</Link>
