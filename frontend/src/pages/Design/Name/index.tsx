@@ -40,8 +40,8 @@ function Name() {
                             <li>
                                 <b>Translation</b> just to remind readers/users
                                 that it is indeed just a translation of the
-                                original Scriptures. (Again it seems a little
-                                deficient if a book called something like
+                                original language scriptures. (Again it seems a
+                                little deficient if a book called something like
                                 <em>The Holy Bible</em> doesn’t clearly remind
                                 its readers that it’s not the original but
                                 merely one of hundreds of different English
