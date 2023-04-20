@@ -46,6 +46,15 @@ function Licence() {
                             (whichever is soonest), the entire work is to be
                             placed into the public domain.
                         </p>
+                        <h1>Volunteering</h1>
+                        <p>
+                            Any volunteers must agree in writing in advance that
+                            their work will become the property of
+                            Freely-Given.org, and thus also made publicly
+                            available under an open licence and put into the
+                            public domain in the future. Of course we’re happy
+                            to credit any contributors (if they desire).
+                        </p>
                     </MainPageContent>
                 </Page>
             </Main>

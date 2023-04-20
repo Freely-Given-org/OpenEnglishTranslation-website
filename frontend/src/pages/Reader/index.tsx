@@ -1,3 +1,4 @@
+import styled from '@emotion/styled';
 import Link from 'next/link';
 
 import MainPageContent from '../../Components/page/MainPageContent/MainPageContent';
@@ -5,7 +6,6 @@ import Page from '../../Components/page/page';
 import Footer from '../../Layouts/Footer/Footer';
 import Header from '../../Layouts/Header/Header';
 import Main from '../../Layouts/main/main';
-import styled from '@emotion/styled';
 
 function Reader() {
     return (
@@ -36,7 +36,7 @@ function Reader() {
                                 by the end of 2024.
                             </small>
                         </p>
-                        <ReaderIframe src='https://Freely-Given.org/OBD/OET/bySec/JHN_S2.htm#Top' />
+                        <ReaderIframe src='https://Freely-Given.org/OBD/OET/bySec/MRK_S2.htm#Top' />
                         <p>
                             See the{' '}
                             <Link href='/About/Contact'>contact page</Link> to
@@ -45,8 +45,11 @@ function Reader() {
                         <p>
                             <small>
                                 (
-                                <Link href='https://Freely-Given.org/OBD/OET/bySec/JHN_S2.htm#Top'>
-                                    Jump to reader site
+                                <Link
+                                    href='https://Freely-Given.org/OBD/OET/bySec/JHN_S2.htm#Top'
+                                    target='blank'
+                                >
+                                    Open reader site in separate tab
                                 </Link>
                                 )
                             </small>
@@ -62,6 +65,6 @@ function Reader() {
 export default Reader;
 
 const ReaderIframe = styled.iframe`
-    width: 45vw;
-    height: 50vh;
+    width: 95vw;
+    height: 95vh;
 `;

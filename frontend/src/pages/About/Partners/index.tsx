@@ -20,6 +20,13 @@ function Partners() {
                         <p></p>
 
                         <h1>Volunteers wanted</h1>
+                        <p>
+                            Wanting to gift your God-given skills to the Bible
+                            world? Excited that your work could be freely reused
+                            by Bible translators across all the continents
+                            (especially in the smaller language communities)?
+                            Yes, we need you!
+                        </p>
                         <h2>Programmers</h2>
                         <p>
                             We are looking for techo geeks in the Bible world to
@@ -39,11 +46,36 @@ function Partners() {
                             and are intended to scroll together (or be printed
                             side-by-side).
                         </p>
+                        <div className={styles.bannerFeed}>
+                            <Image
+                                src={HelpersPhoto}
+                                alt='Picture of an open Bible'
+                                width={500}
+                                height={333.333}
+                                className={styles.helperPhoto}
+                            />
+                            <p>
+                                Photo by{' '}
+                                <Link href='https://unsplash.com/@johnschno?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText'>
+                                    John Schnobrich
+                                </Link>{' '}
+                                on{' '}
+                                <Link href='https://unsplash.com/photos/2FPjlAyMQTA?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText'>
+                                    Unsplash
+                                </Link>
+                            </p>
+                        </div>
                         <h2>Designers and artists</h2>
                         <p>
                             Are layout, colour groups, and CSS your cup of tea?
                             (Ours is Bible translation.) Think you could make
                             all of this more beautiful? If so, we could use you.
+                        </p>
+                        <p>
+                            Could you provide black-and-white images to help our{' '}
+                            <em>OET</em> readers understand the text? Or colour
+                            diagrams or maps that could be at the back of an
+                            open-licenced Bible? We certainly need you!
                         </p>
                         <h2>Readers and checkers</h2>
                         <p>
@@ -71,27 +103,6 @@ function Partners() {
                             that your scholarship is then freely available to
                             future generations as well.
                         </p>
-                    </MainPageContent>
-                    <div className={styles.bannerFeed}>
-                        <Image
-                            src={HelpersPhoto}
-                            alt='Picture of an open Bible'
-                            width={500}
-                            height={333.333}
-                            className={styles.helperPhoto}
-                        />
-                        <p>
-                            Photo by{' '}
-                            <Link href='https://unsplash.com/@johnschno?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText'>
-                                John Schnobrich
-                            </Link>{' '}
-                            on{' '}
-                            <Link href='https://unsplash.com/photos/2FPjlAyMQTA?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText'>
-                                Unsplash
-                            </Link>
-                        </p>
-                    </div>
-                    <MainPageContent>
                         <h1>Sponsors wanted</h1>
                         <p>
                             We also need financial help for this project to
