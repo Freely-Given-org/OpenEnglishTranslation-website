@@ -31,6 +31,8 @@ function Contact() {
                             Note: Of course you don’t need to contact us to
                             request permission to use the Open English
                             Translation—that permission is granted in advance!
+                            (See the{' '}
+                            <Link href='/About/Licence'>Licence page</Link>.)
                         </p>
                         <h1>Volunteering</h1>
                         <p>
@@ -39,8 +41,7 @@ function Contact() {
                             (translators and consultants and readers and
                             checkers) as well as software people (developers and
                             designers). There’s more details on the{' '}
-                            <Link href='/About/Partners'>Partners page</Link> .
-                            Please use the above contact method to get in touch.
+                            <Link href='/About/Partners'>Partners page</Link>.
                         </p>
                         <p>
                             Any volunteers must agree in writing in advance that

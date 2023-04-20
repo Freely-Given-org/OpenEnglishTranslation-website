@@ -25,7 +25,7 @@ const Home: NextPage = () => {
                                 is now proceeding and{' '}
                                 <b>
                                     the first rough draft of the New Testament
-                                    is expected by the end of 2023
+                                    is expected by the end of 2023{' '}
                                 </b>
                                 (and then hopefully released by the end of
                                 2024).
@@ -46,6 +46,27 @@ const Home: NextPage = () => {
                                 a photograph of the original Greek manuscript
                                 that it’s translated from.
                             </p>
+                        </div>
+                        <div className={styles.bannerFeed}>
+                            <Image
+                                src={HomePagePhoto}
+                                alt='Picture of an open Bible'
+                                width={500}
+                                height={333.333}
+                                className={styles.homePagePhoto}
+                            />
+                            <p>
+                                Photo by{' '}
+                                <Link href='https://unsplash.com/@sixteenmilesout?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText'>
+                                    Sixteen Miles Out
+                                </Link>{' '}
+                                on{' '}
+                                <Link href='https://unsplash.com/collections/4858217/bible?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText'>
+                                    Unsplash
+                                </Link>
+                            </p>
+                        </div>
+                        <div className={styles.banner}>
                             <p>
                                 We’re currently <b>looking for volunteers</b> to
                                 help with many aspects of this work including{' '}
@@ -75,27 +96,6 @@ const Home: NextPage = () => {
                                 </Link>
                                 . We’re also after <b>Rust</b> and Golang devs.
                             </p>
-                        </div>
-                        <div className={styles.bannerFeed}>
-                            <Image
-                                src={HomePagePhoto}
-                                alt='Picture of an open Bible'
-                                width={500}
-                                height={333.333}
-                                className={styles.homePagePhoto}
-                            />
-                            <p>
-                                Photo by{' '}
-                                <Link href='https://unsplash.com/@sixteenmilesout?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText'>
-                                    Sixteen Miles Out
-                                </Link>{' '}
-                                on{' '}
-                                <Link href='https://unsplash.com/collections/4858217/bible?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText'>
-                                    Unsplash
-                                </Link>
-                            </p>
-                        </div>
-                        <div className={styles.banner}>
                             <h1>Verse of the day</h1>
                             <p>
                                 And the message became a human and lived here
