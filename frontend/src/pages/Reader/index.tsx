@@ -5,6 +5,7 @@ import Page from '../../Components/page/page';
 import Footer from '../../Layouts/Footer/Footer';
 import Header from '../../Layouts/Header/Header';
 import Main from '../../Layouts/main/main';
+import styled from '@emotion/styled';
 
 function Reader() {
     return (
@@ -26,7 +27,7 @@ function Reader() {
                             </em>{' '}
                             displayed together side-by-side.
                         </p>
-                        {/* <iframe src='/myStaticIndex.htm' width='100%'></iframe> */}
+                        <ReaderIframe src='https://Freely-Given.org/OBD/OET/bySec/JHN_S2.htm#Top'/>
                         <h2>
                             <Link href='https://Freely-Given.org/OBD/OET/bySec/JHN_S2.htm#Top'>
                                 Enter reader
@@ -53,3 +54,10 @@ function Reader() {
 }
 
 export default Reader;
+
+const ReaderIframe = styled.iframe`
+    width: 45vw;
+    height: 50vh;
+`;
+
+
