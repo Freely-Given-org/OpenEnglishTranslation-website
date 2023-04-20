@@ -5,6 +5,7 @@ import Page from '../../Components/page/page';
 import Footer from '../../Layouts/Footer/Footer';
 import Header from '../../Layouts/Header/Header';
 import Main from '../../Layouts/main/main';
+import styled from '@emotion/styled';
 
 function Reader() {
     return (
@@ -26,23 +27,29 @@ function Reader() {
                             </em>{' '}
                             displayed together side-by-side.
                         </p>
-                        {/* <iframe src='/myStaticIndex.htm' width='100%'></iframe> */}
-                        <h2>
-                            <Link href='https://Freely-Given.org/OBD/OET/bySec/JHN_S2.htm#Top'>
-                                Enter reader
-                            </Link>
-                        </h2>
                         <p>
-                            You should note that the <em>OET</em> project is
-                            still in the very early, startup phases and so you
-                            are viewing very early, rough drafts. We are aiming
-                            to release the <em>OET New Testament</em> by the end
-                            of 2024.
+                            <small>
+                                You should note that the <em>OET</em> project is
+                                still in the very early, startup phases and so
+                                you are viewing very early, rough drafts. We are
+                                aiming to release the <em>OET New Testament</em>{' '}
+                                by the end of 2024.
+                            </small>
                         </p>
+                        <ReaderIframe src='https://Freely-Given.org/OBD/OET/bySec/JHN_S2.htm#Top' />
                         <p>
                             See the{' '}
                             <Link href='/About/Contact'>contact page</Link> to
                             submit any errors or suggestions.
+                        </p>
+                        <p>
+                            <small>
+                                (
+                                <Link href='https://Freely-Given.org/OBD/OET/bySec/JHN_S2.htm#Top'>
+                                    Jump to reader site
+                                </Link>
+                                )
+                            </small>
                         </p>
                     </MainPageContent>
                 </Page>
@@ -53,3 +60,8 @@ function Reader() {
 }
 
 export default Reader;
+
+const ReaderIframe = styled.iframe`
+    width: 45vw;
+    height: 50vh;
+`;

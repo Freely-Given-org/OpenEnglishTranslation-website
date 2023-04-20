@@ -8,3 +8,23 @@ body {
     -moz-osx-font-smoothing: grayscale;
     min-height: 100vh;
 }
+
+a {
+    color: #007bff;
+    text-decoration: none;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+
+a:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}
+
+a:active {
+    outline-width: 0;
+}
+
+a:visited {
+    color: #007bff;
+}

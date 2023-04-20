@@ -1,9 +1,10 @@
+import styled from '@emotion/styled';
 import { useEffect, useRef } from 'react';
 
 import Footer from '../Layouts/Footer/Footer';
 import Header from '../Layouts/Header/Header';
 import Main from '../Layouts/main/main';
-import styles from './404.module.scss';
+// import styles from './404.module.scss';
 
 const speed = 1.2;
 
@@ -98,16 +99,12 @@ function NotFount404() {
         <>
             <Header />
             <Main>
-                <div className={styles['NF404']} ref={parentRef}>
-                    <div
-                        ref={childrenRef}
-                        id='floaty-thing'
-                        className={styles['floaty-thing']}
-                    >
+                <NF404 ref={parentRef}>
+                    <FLoatingDiv ref={childrenRef} id='floaty-thing'>
                         <div>404</div>
-                        <div className={styles['page404']}>Page not found</div>
-                    </div>
-                </div>
+                        <Page404>Page not found</Page404>
+                    </FLoatingDiv>
+                </NF404>
             </Main>
             <Footer />
         </>
@@ -115,3 +112,28 @@ function NotFount404() {
 }
 
 export default NotFount404;
+
+const Page404 = styled.div`
+    font-size: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+`;
+
+const NF404 = styled.div`
+    //   height: 100%;
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    // min-height: 90vh;
+    font-size: 214px;
+`;
+
+const FLoatingDiv = styled.div`
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    //   animation: Floaty 25s linear infinite;
+`;
