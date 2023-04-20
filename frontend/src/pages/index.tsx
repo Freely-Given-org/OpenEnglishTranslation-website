@@ -76,35 +76,35 @@ const Home: NextPage = () => {
                                 . We’re also after <b>Rust</b> and Golang devs.
                             </p>
                         </div>
+                        <div className={styles.bannerFeed}>
+                            <Image
+                                src={HomePagePhoto}
+                                alt='Picture of an open Bible'
+                                width={500}
+                                height={333.333}
+                                className={styles.homePagePhoto}
+                            />
+                            <p>
+                                Photo by{' '}
+                                <Link href='https://unsplash.com/@sixteenmilesout?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText'>
+                                    Sixteen Miles Out
+                                </Link>{' '}
+                                on{' '}
+                                <Link href='https://unsplash.com/collections/4858217/bible?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText'>
+                                    Unsplash
+                                </Link>
+                            </p>
+                        </div>
+                        <div className={styles.banner}>
+                            <h1>Verse of the day</h1>
+                            <p>
+                                And the message became a human and lived here among
+                                us and we saw his greatness—the greatness of an only
+                                child of the father—full of grace and truth. (Jn
+                                1:14, OET-RV)
+                            </p>
+                        </div>
                     </MainPageContent>
-                    <div className={styles.bannerFeed}>
-                        <Image
-                            src={HomePagePhoto}
-                            alt='Picture of an open Bible'
-                            width={500}
-                            height={333.333}
-                            className={styles.homePagePhoto}
-                        />
-                        <p>
-                            Photo by{' '}
-                            <Link href='https://unsplash.com/@sixteenmilesout?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText'>
-                                Sixteen Miles Out
-                            </Link>{' '}
-                            on{' '}
-                            <Link href='https://unsplash.com/collections/4858217/bible?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText'>
-                                Unsplash
-                            </Link>
-                        </p>
-                    </div>
-                    <div className={styles.banner}>
-                        <h1>Verse of the day</h1>
-                        <p>
-                            And the message became a human and lived here among
-                            us and we saw his greatness—the greatness of an only
-                            child of the father—full of grace and truth. (Jn
-                            1:14, OET-RV)
-                        </p>
-                    </div>
                     <div className={styles.pageSidebar}></div>
                 </Page>
             </Main>
