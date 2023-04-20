@@ -30,13 +30,16 @@ function Licence() {
                             text is somewhat finalised, stablised, and
                             recognised. However, having to keep track of author
                             credits, etc., adds a burden (albeit small) to
-                            users, and so in the future, we plan to place this
-                            work in the public domain. So we hereby announce
-                            that as soon as any translated Bible book has been
-                            published at or above v1.0 for two years, that book
-                            is to be placed into the public domain. Or
-                            alternatively, upon the death of the principle
-                            translator or two years of inaction on the{' '}
+                            users, and so in the future,{' '}
+                            <b>
+                                we plan to place this work in the public domain
+                            </b>
+                            . So we hereby announce that as soon as any
+                            translated Bible book has been published at or above
+                            v1.0 for two years, that book is to be placed into
+                            the public domain. Or alternatively, upon the death
+                            of the principle translator or two years of inaction
+                            on the{' '}
                             <Link href='https://GitHub.com/Freely-Given-org/OpenEnglishTranslation--OET'>
                                 project repository
                             </Link>{' '}
