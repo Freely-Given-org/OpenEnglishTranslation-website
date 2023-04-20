@@ -98,10 +98,10 @@ const Home: NextPage = () => {
                         <div className={styles.banner}>
                             <h1>Verse of the day</h1>
                             <p>
-                                And the message became a human and lived here among
-                                us and we saw his greatness—the greatness of an only
-                                child of the father—full of grace and truth. (Jn
-                                1:14, OET-RV)
+                                And the message became a human and lived here
+                                among us and we saw his greatness—the greatness
+                                of an only child of the father—full of grace and
+                                truth. (Jn 1:14, OET-RV)
                             </p>
                         </div>
                     </MainPageContent>

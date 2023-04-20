@@ -27,23 +27,29 @@ function Reader() {
                             </em>{' '}
                             displayed together side-by-side.
                         </p>
-                        <ReaderIframe src='https://Freely-Given.org/OBD/OET/bySec/JHN_S2.htm#Top'/>
-                        <h2>
-                            <Link href='https://Freely-Given.org/OBD/OET/bySec/JHN_S2.htm#Top'>
-                                Enter reader
-                            </Link>
-                        </h2>
                         <p>
-                            You should note that the <em>OET</em> project is
-                            still in the very early, startup phases and so you
-                            are viewing very early, rough drafts. We are aiming
-                            to release the <em>OET New Testament</em> by the end
-                            of 2024.
+                            <small>
+                                You should note that the <em>OET</em> project is
+                                still in the very early, startup phases and so
+                                you are viewing very early, rough drafts. We are
+                                aiming to release the <em>OET New Testament</em>{' '}
+                                by the end of 2024.
+                            </small>
                         </p>
+                        <ReaderIframe src='https://Freely-Given.org/OBD/OET/bySec/JHN_S2.htm#Top' />
                         <p>
                             See the{' '}
                             <Link href='/About/Contact'>contact page</Link> to
                             submit any errors or suggestions.
+                        </p>
+                        <p>
+                            <small>
+                                (
+                                <Link href='https://Freely-Given.org/OBD/OET/bySec/JHN_S2.htm#Top'>
+                                    Jump to reader site
+                                </Link>
+                                )
+                            </small>
                         </p>
                     </MainPageContent>
                 </Page>
@@ -59,5 +65,3 @@ const ReaderIframe = styled.iframe`
     width: 45vw;
     height: 50vh;
 `;
-
-

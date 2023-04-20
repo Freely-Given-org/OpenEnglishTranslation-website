@@ -1,10 +1,10 @@
+import styled from '@emotion/styled';
 import { useEffect, useRef } from 'react';
 
 import Footer from '../Layouts/Footer/Footer';
 import Header from '../Layouts/Header/Header';
 import Main from '../Layouts/main/main';
-import styles from './404.module.scss';
-import styled from '@emotion/styled';
+// import styles from './404.module.scss';
 
 const speed = 1.2;
 
@@ -100,11 +100,7 @@ function NotFount404() {
             <Header />
             <Main>
                 <NF404 ref={parentRef}>
-                    <FLoatingDiv
-                        ref={childrenRef}
-                        id='floaty-thing'
-                      
-                    >
+                    <FLoatingDiv ref={childrenRef} id='floaty-thing'>
                         <div>404</div>
                         <Page404>Page not found</Page404>
                     </FLoatingDiv>
