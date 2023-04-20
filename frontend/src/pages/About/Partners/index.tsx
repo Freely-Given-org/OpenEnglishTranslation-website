@@ -27,6 +27,20 @@ function Partners() {
                             (especially in the smaller language communities)?
                             Yes, we need you!
                         </p>
+                        <p>
+                            Sadly we’ve seen examples of older people who’ve
+                            worked on Bible resources in their retirement years,
+                            but didn’t make their source files publicly
+                            available online. Often, their work or private
+                            website has disappeared offline once God called them
+                            home. If you’re likely in your later years and have
+                            skills to develop Bible resources, invest them into
+                            a project where everything is{' '}
+                            <Link href='https://GitHub.com/Freely-Given-org'>
+                                online and public
+                            </Link>{' '}
+                            and is free and open for everyone to use.
+                        </p>
                         <h2>Programmers</h2>
                         <p>
                             We are looking for techo geeks in the Bible world to
