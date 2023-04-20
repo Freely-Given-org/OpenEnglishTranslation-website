@@ -547,7 +547,7 @@ function OET() {
                             was in contrast to the Bible resources on the same
                             laptop that were all encrypted and their use was
                             tightly controlled. This didn’t seem to match either
-                            the origin of the Scriptures nor did it match the
+                            the origin of the scriptures nor did it match the
                             theme of Jesus’ gift to mankind. (Shouldn’t
                             Christians be <em>more</em> generous than secular
                             programmers, not less? Isn’t the Bible often called

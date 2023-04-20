@@ -46,7 +46,7 @@ function LV() {
                                 attempts to do the same for Biblical names and
                                 placenames and the <em>Literal Version</em>{' '}
                                 transliterates all proper nouns. If it’s a name
-                                from the <em>Hebrew Scriptures</em>, then the
+                                from the <em>Hebrew scriptures</em>, then the
                                 first time it’s used in a book, it will also
                                 have a Hebrew transliteration. (If you have
                                 difficulty following the names in the{' '}

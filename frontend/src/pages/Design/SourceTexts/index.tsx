@@ -15,7 +15,7 @@ function SourceTexts() {
                     <MainPageContent>
                         <div>
                             <h1>Hebrew and Greek Source Texts</h1>
-                            <h2>Hebrew Scriptures</h2>
+                            <h2>Hebrew scriptures</h2>
                             <p>
                                 We are very grateful for the work of the Open
                                 Scriptures Hebrew Bible team, and will be using
@@ -23,11 +23,11 @@ function SourceTexts() {
                                 <Link href='https://github.com/Freely-Given-org/morphhb'>
                                     OSHB
                                 </Link>{' '}
-                                as our source text for the Hebrew Scriptures.
+                                as our source text for the Hebrew scriptures.
                                 This text is based on the Westminster Lenigrad
                                 Codex (WLC).
                             </p>
-                            <h2>Greek Translation of Hebrew Scriptures</h2>
+                            <h2>Greek translation of Hebrew scriptures</h2>
                             <p>
                                 We are still in the process of finding a
                                 suitable open-licensed copy of the{' '}
@@ -35,12 +35,12 @@ function SourceTexts() {
                                     Septuagint
                                 </Link>{' '}
                                 (LXX) Greek translation of the Hebrew
-                                Scriptures. This translation was done around
+                                scriptures. This translation was done around
                                 250BC and is important because it appears to
                                 have had a major influence on the Greek
-                                Scriptures.
+                                scriptures.
                             </p>
-                            <h2>Greek Scriptures</h2>
+                            <h2>Greek scriptures</h2>
                             <p>
                                 We are thrilled to be among the very early users
                                 of the ground-breaking{' '}

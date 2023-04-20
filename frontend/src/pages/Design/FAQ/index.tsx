@@ -15,10 +15,8 @@ function FAQ() {
                 <Page>
                     <MainPageContent>
                         <p id='FAQTop' className={styles.FAQContentEntry}>
-                            See the{' '}
-                            <Link href='Introduction.html'>
-                                introduction page
-                            </Link>{' '}
+                            See our{' '}
+                            <Link href='/Design/Overview'>overview page</Link>{' '}
                             for information about the <em>OET</em> translation
                             philosophy and the various <em>OET</em> versions.
                         </p>
@@ -143,15 +141,10 @@ function FAQ() {
                             </Link>
                         </p>
                         <p className={styles.FAQContentEntry}>
-                            See the{' '}
-                            <Link href='Introduction.html'>
-                                introduction page
-                            </Link>{' '}
+                            See our{' '}
+                            <Link href='/Design/Overview'>overview page</Link>{' '}
                             for information about the <em>OET</em> translation
                             philosophy and the various <em>OET</em> versions.
-                        </p>
-                        <p>
-                            [<Link href='#FAQTop'>Back to top</Link>]
                         </p>
                         <p>
                             [<Link href='#FAQTop'>Back to top</Link>]
@@ -161,7 +154,7 @@ function FAQ() {
                         </h2>
                         <p className={styles.FAQAnswer}>
                             The <em>OET</em> translation isn’t completed yet so
-                            it’s not yet available. However, some sample files
+                            it’s not yet available. However, more information
                             can be found on the{' '}
                             <Link href='Downloads/'>Downloads page</Link>.
                         </p>
@@ -195,7 +188,7 @@ function FAQ() {
                             Well, Christians have a long history of devotion to
                             the task of making the Bible available in a language
                             that people can easily understand—many suffered and
-                            some even died in their zeal to make the Scriptures
+                            some even died in their zeal to make the scriptures
                             available to others.
                         </p>
                         <p className={styles.FAQAnswer}>
@@ -314,7 +307,7 @@ function FAQ() {
                         <p className={styles.FAQAnswer}>
                             Since this is such an important question (especially
                             for potential prayer and financial supporters), the
-                            answer is placed on
+                            answer is placed on{' '}
                             <Link href='Why.html'>this separate page</Link>.
                         </p>
                         <p>
@@ -322,7 +315,7 @@ function FAQ() {
                         </p>
                         <h2 className={styles.FAQ} id='OTNT'>
                             <a>
-                                Why doesn’t the <em>OET</em> Explorer’s Edition
+                                Why doesn’t the <em>OET</em> Explorers’ Edition
                                 (OET-EE) use the names <em>Old Testament</em>{' '}
                                 and <em>New Testament</em>?
                             </a>
@@ -430,15 +423,15 @@ function FAQ() {
                                 the <em>Literal Version</em>, the{' '}
                                 <em>Readers’ Version</em>, and perhaps also the{' '}
                                 <em>Colloquial Version</em> simultaneously, and
-                                we hope to make some preliminary books available
-                                by the mid-2023, with the Old Testament being
-                                released by the end of 2025. The Study Version
+                                we hope to make the New Testament available by
+                                the end of 2024, with the Old Testament being
+                                released by the end of 2030. The Study Version
                                 and the Extended Version will also be developed
                                 together, but not until after the V1.0.0 release
                                 of the first three versions, so no time frame is
                                 available for them yet. But if we can recruit
                                 more{' '}
-                                <Link href='../../../Opportunities.html'>
+                                <Link href='https://Freely-Given.org/Opportunities.html'>
                                     volunteers
                                 </Link>
                                 , it would be nice to speed up the progress.
@@ -451,17 +444,17 @@ function FAQ() {
                             What is the format of the source files?
                         </h2>
                         <p className={styles.FAQAnswer}>
-                            The <em>OET</em> source files use our own
-                            <Link href='../../../Software/BibleDropBox/ESFMBibles.html'>
+                            The <em>OET</em> source files use our own{' '}
+                            <Link href='https://Freely-Given.org/Software/BibleDropBox/ESFMBibles.html'>
                                 ESFM
-                            </Link>
+                            </Link>{' '}
                             format, which are human-readable Unicode text files
                             with embedded semantic markers. But each version
                             will be available in multiple exported formats for
-                            download, including text,
+                            download, including text,{' '}
                             <Link href='https://www.libreoffice.org'>
                                 LibreOffice
-                            </Link>
+                            </Link>{' '}
                             /
                             <Link href='https://www.openoffice.org'>
                                 OpenOffice
@@ -475,23 +468,23 @@ function FAQ() {
                                 PDF
                             </Link>{' '}
                             files (both of individual books and of entire
-                            versions),
-                            <Link href='../../../Software/BibleDropBox/USFMBibles.html'>
+                            versions),{' '}
+                            <Link href='https://Freely-Given.org/Software/BibleDropBox/USFMBibles.html'>
                                 USFM
-                            </Link>
+                            </Link>{' '}
                             and{' '}
-                            <Link href='../../../Software/BibleDropBox/USXBibles.html'>
+                            <Link href='https://Freely-Given.org/Software/BibleDropBox/USXBibles.html'>
                                 USX
                             </Link>{' '}
-                            files,
-                            <Link href='../../../Software/BibleDropBox/OSISBibles.html'>
+                            files,{' '}
+                            <Link href='https://Freely-Given.org/Software/BibleDropBox/OSISBibles.html'>
                                 OSIS
                             </Link>{' '}
                             files, and{' '}
                             <Link href='https://www.idpf.org'>
                                 Epub electronic book
                             </Link>{' '}
-                            files
+                            files.
                         </p>
                         <p>
                             [<Link href='#FAQTop'>Back to top</Link>]
@@ -500,18 +493,19 @@ function FAQ() {
                             What license will the <em>OET</em> have?
                         </h2>
                         <p className={styles.FAQAnswer}>
-                            It’s still being decided whether to use a{' '}
-                            <Link href='https://creativecommons.org/About'>
+                            It’s currently being released under a{' '}
+                            <Link href='https://CreativeCommons.org/About'>
                                 Creative Commons
                             </Link>{' '}
-                            <Link href='https://creativecommons.org/licenses/by-sa/3.0/'>
+                            <Link href='https://CreativeCommons.org/licenses/by-sa/4.0/'>
                                 "share-alike" license
-                            </Link>
-                            or to put the translation into the{' '}
+                            </Link>{' '}
+                            with a future plan to put it all into the{' '}
                             <Link href='https://wiki.creativecommons.org/Public_domain'>
                                 public domain
                             </Link>
-                            .
+                            . See our <Link href='/About/Licence'>Licence</Link>{' '}
+                            page.
                         </p>
                         <p>
                             [<Link href='#FAQTop'>Back to top</Link>]
@@ -521,10 +515,10 @@ function FAQ() {
                         </h2>
                         <p className={styles.FAQAnswer}>
                             We use our own{' '}
-                            <Link href='../../../Software/Biblelator/'>
-                                Biblelator editor
+                            <Link href='https://Freely-Given.org/Software/Biblelator/'>
+                                Biblelator
                             </Link>{' '}
-                            Bible translation editor which is still being
+                            Bible-translation editor which is still being
                             developed, but which already has most of the tools
                             working to enable Old Testament translation (still
                             no interlinear Greek resources).
@@ -536,12 +530,11 @@ function FAQ() {
                         <p className={styles.FAQAnswer}>
                             <em>Versions</em> refers to the words or the text
                             itself. They’re different versions of the actual
-                            translation.
-                            <em>Editions</em> refers to the publication, i.e., a
-                            book or webpage or PDF. They’re different Bible
-                            productions that might be in different fonts or
-                            paper sizes and/or contain a different combination
-                            of versions.
+                            translation. <em>Editions</em> refers to the
+                            publication, i.e., a book or webpage or PDF. They’re
+                            different Bible productions that might be in
+                            different fonts or paper sizes and/or contain a
+                            different combination of versions.
                         </p>
                         <p>
                             [<Link href='#FAQTop'>Back to top</Link>]
