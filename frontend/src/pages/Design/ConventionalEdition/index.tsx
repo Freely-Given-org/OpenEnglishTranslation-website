@@ -27,7 +27,7 @@ function CE() {
                         <p>
                             The <em>OET Literal Version</em> remains the same in
                             all current editions (and uses transliterated names
-                            as all good literal versions should).
+                            as all good highly-literal versions should).
                         </p>
                         <p>
                             <small>
@@ -38,7 +38,10 @@ function CE() {
                                 </Link>{' '}
                                 specifically for being able to derive one Bible
                                 version from another by a series of scripted
-                                changes stored in TSV tables. (The{' '}
+                                changes stored in TSV tables. So it’s only one
+                                computer command for us to create the{' '}
+                                <em>Conventional Edition</em> from the{' '}
+                                <em>Explorers’ Edition</em>. (The{' '}
                                 <em>Scripted Bible Editor</em> is also used to
                                 help create the <em>OET Literal Version</em>{' '}
                                 from the Greek.)

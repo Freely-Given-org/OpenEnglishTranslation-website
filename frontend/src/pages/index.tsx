@@ -22,7 +22,7 @@ const Home: NextPage = () => {
                             <p>
                                 Yes, work on the{' '}
                                 <em>Open English Translation</em> of the Bible
-                                is now proceeding and{' '}
+                                is proceeding and{' '}
                                 <b>
                                     the first rough draft of the New Testament
                                     is expected by the end of 2023{' '}
@@ -31,7 +31,7 @@ const Home: NextPage = () => {
                                 2024).
                             </p>
                             <p>
-                                Currently as of April 2023 we have a first draft
+                                Currently as of May 2023 we have a first draft
                                 of almost 40% of the New Testament. This is
                                 enough that you can get an idea of the style
                                 that we’re aiming for, although some decisions
@@ -44,7 +44,8 @@ const Home: NextPage = () => {
                                 clicks (and with the help of a companion
                                 website) you can go all the way from our text to
                                 a photograph of the original Greek manuscript
-                                that it’s translated from.
+                                that it’s translated from. Try clicking on a
+                                word in our <Link href='/Reader'>Reader</Link>.
                             </p>
                         </div>
                         <div className={styles.bannerFeed}>
@@ -87,7 +88,7 @@ const Home: NextPage = () => {
                             <p>
                                 We’re also looking for software developers. If
                                 you’re a{' '}
-                                <b>Python or Dart/Flutter or other Android</b>{' '}
+                                <b>Python or Flutter/Dart or other Android</b>{' '}
                                 developer and would like to help with this vital
                                 side of the project, please please look for more
                                 information on our{' '}

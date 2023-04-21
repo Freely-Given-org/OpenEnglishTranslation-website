@@ -25,7 +25,8 @@ function Reader() {
                             <em>
                                 OET <b>Literal Version</b>
                             </em>{' '}
-                            displayed together side-by-side.
+                            displayed together side-by-side (as well as parallel
+                            and interlinear verse views).
                         </p>
                         <p>
                             <small>

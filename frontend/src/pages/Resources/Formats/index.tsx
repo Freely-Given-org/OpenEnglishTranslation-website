@@ -55,9 +55,9 @@ function Formats() {
                                     , <b>PE2</b>
                                 </li>
                                 <li>
-                                    include codes for ‘books’ beyond the 66 in
-                                    the Western protestant tradition, e.g.,{' '}
-                                    <b>TOB</b>, <b>LAO</b>
+                                    include codes for ‘books’ beyond the
+                                    sixty-six in the modern Western protestant
+                                    tradition, e.g., <b>TOB</b>, <b>LAO</b>
                                 </li>
                                 <li>
                                     include codes for unusual cases like{' '}
