@@ -1,4 +1,5 @@
-// import Link from 'next/link';
+import styled from '@emotion/styled';
+import Link from 'next/link';
 
 import MainPageContent from '../../../Components/page/MainPageContent/MainPageContent';
 import Page from '../../../Components/page/page';
@@ -22,19 +23,41 @@ function LV() {
                                     more focussed on translating individual
                                     Greek words
                                 </b>
+                                . It’s designed to be{' '}
+                                <b>
+                                    ‘a window into what’s actually written in
+                                    the Hebrew and Greek’
+                                </b>
                                 .
                             </li>
                             <li>
-                                The <em>Literal Version</em> retains the ancient
-                                units (useful for historical and symbolic
-                                studies) whereas the <em>Readers’ Version</em>{' '}
-                                uses modern units for all measurements (easy to
-                                understand and visualise).
+                                The <em>OET Literal Version</em> is{' '}
+                                <b>
+                                    more literal than most other ‘literal’
+                                    translations
+                                </b>
+                                . We’re able to do this, because we know that
+                                the{' '}
+                                <em>
+                                    <Link href='/Design/ReadersVersion'>
+                                        Readers’ Version
+                                    </Link>
+                                </em>{' '}
+                                is right next to it to smooth things over.
                             </li>
                             <li>
-                                The <em>Literal Version</em> retains the
-                                original figurative language (even if it’s not a
-                                figure of speech that we are familiar with).
+                                The <em>Literal Version</em>{' '}
+                                <b>retains the ancient units</b> (useful for
+                                historical and symbolic studies) whereas the{' '}
+                                <em>Readers’ Version</em> uses modern units for
+                                all measurements (easy to understand and
+                                visualise).
+                            </li>
+                            <li>
+                                The <em>Literal Version</em>{' '}
+                                <b>retains the original figurative language</b>{' '}
+                                (even if it’s not a figure of speech that we are
+                                familiar with).
                             </li>
                             <li>
                                 Being a 21<span>st</span> century translation
@@ -45,11 +68,12 @@ function LV() {
                                 and placenames correctly, the <em>OET</em>{' '}
                                 attempts to do the same for Biblical names and
                                 placenames and the <em>Literal Version</em>{' '}
-                                transliterates all proper nouns. If it’s a name
-                                from the <em>Hebrew scriptures</em>, then the
-                                first time it’s used in a book, it will also
-                                have a Hebrew transliteration. (If you have
-                                difficulty following the names in the{' '}
+                                <b>transliterates all proper nouns</b>. If it’s
+                                a name from the <em>Hebrew scriptures</em>, then
+                                the first time it’s used in a New Testament
+                                book, it will also have a Hebrew
+                                transliteration. (If you have difficulty
+                                following the names in the{' '}
                                 <em>Literal Version</em>, you can always look
                                 across to the <em>Readers’ Version</em> for
                                 help.)
@@ -57,7 +81,7 @@ function LV() {
                             <li>
                                 In addition to wanting to get names and
                                 placenames more accurate, we’ve also attempted
-                                to modernise and simplify the spelling
+                                to modernise and <b>simplify the spelling</b>
                                 (transliterations) of these names to make it
                                 easier for readers to pronounce them as they
                                 come across them, e.g., using <b>f</b> instead
@@ -68,12 +92,15 @@ function LV() {
                             </li>
                             <li>
                                 With regular words, we’ve tried to do the
-                                opposite, i.e., to use less Greek rather than
-                                more wherever possible. So a word like{' '}
-                                <i>baptise</i> (which is an adapted
-                                transliteration of the Greek verb), actually
-                                gets translated, so this example becomes{' '}
-                                <i>immerse</i>.
+                                opposite, i.e., to{' '}
+                                <b>
+                                    use less Greek rather than more wherever
+                                    possible
+                                </b>
+                                . So a word like <i>baptise</i> (which is an
+                                adapted transliteration of the Greek verb),
+                                actually gets translated, so this example
+                                becomes <i>immerse</i>.
                             </li>
                             <li>
                                 <i>Italics</i> are only used for{' '}
@@ -93,12 +120,15 @@ function LV() {
                                 transliteration of the Koine Greek word{' '}
                                 <i>Kristos</i> used for the original Hebrew{' '}
                                 <i>messiah</i>. (It’s not Jesus’ surname!) It
-                                seems to make sense to only use one word
-                                consistently rather than using two words for the
-                                same thing (just because they came from two
-                                different languages), so the <em>OET</em> has
-                                elected to only use <i>messiah</i>. However,
-                                these words actually have a meaning, just as{' '}
+                                seems to make sense to{' '}
+                                <b>
+                                    only use one word consistently rather than
+                                    using two words for the same thing
+                                </b>{' '}
+                                (just because they came from two different
+                                languages), so the <em>OET</em> has elected to
+                                only use <i>messiah</i>. However, these words
+                                actually have a meaning, just as{' '}
                                 <i>President</i> is not just a title, but
                                 someone who <i>presides</i> over governmental
                                 meetings. So going a step further, we have
