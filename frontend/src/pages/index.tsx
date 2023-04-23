@@ -110,6 +110,9 @@ const Home: NextPage = () => {
                                 of_an_only_begotten with a_father, full of_grace
                                 and truth. (Jn 1:14, OET-LV)
                             </p>
+                            <p>
+                                <small>(Early draft versions.)</small>
+                            </p>
                         </div>
                     </MainPageContent>
                     <div className={styles.pageSidebar}></div>
