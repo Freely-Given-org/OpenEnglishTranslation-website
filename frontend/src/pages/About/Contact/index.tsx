@@ -25,7 +25,15 @@ function Contact() {
                             without thought of profit. To contact the editors
                             with corrections or suggestions, please email{' '}
                             <b>Freely</b> (dot) <b>Given</b> (dot) <b>org</b>{' '}
-                            (at) <b>gmail</b> (dot) <b>com</b>.
+                            (at) <b>gmail</b> (dot) <b>com</b>.{' '}
+                            <small>
+                                (All <em>OET</em> submissions become the
+                                property of{' '}
+                                <Link href='https://Freely-Given.org'>
+                                    Freely-Given.org
+                                </Link>
+                                —see below.)
+                            </small>
                         </p>
                         <p>
                             Note: Of course you don’t need to contact us to
@@ -48,7 +56,8 @@ function Contact() {
                             their work will become the property of
                             Freely-Given.org, and thus made publicly available
                             under an open licence. Of course we’re happy to
-                            credit any contributors (if they desire).
+                            credit any contributors (unless they wish to remain
+                            anonymous).
                         </p>
                         <p>
                             <small>
@@ -56,7 +65,7 @@ function Contact() {
                                 who are retired or otherwise financially
                                 self-supported but we are also aware that there
                                 might be younger volunteers who are interested
-                                to help in a great project but still need to
+                                to help with a great project but still need to
                                 feed their families. If that’s you, contact us
                                 anyway and we may be able to find a way to help
                                 with a small honorarium.

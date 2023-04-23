@@ -104,6 +104,15 @@ const Home: NextPage = () => {
                                 of an only child of the father—full of grace and
                                 truth. (Jn 1:14, OET-RV)
                             </p>
+                            <p>
+                                And the message became flesh and sheltered among
+                                us, and we_saw the glory of_him, a_glory as
+                                of_an_only_begotten with a_father, full of_grace
+                                and truth. (Jn 1:14, OET-LV)
+                            </p>
+                            <p>
+                                <small>(Early draft versions.)</small>
+                            </p>
                         </div>
                     </MainPageContent>
                     <div className={styles.pageSidebar}></div>
