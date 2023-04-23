@@ -55,6 +55,22 @@ function Licence() {
                             public domain in the future. Of course we’re happy
                             to credit any contributors (if they desire).
                         </p>
+                        <h1>Copyright</h1>
+                        <p>
+                            This <em>OET</em> Bible translation is copyright ©
+                            2010-2023{' '}
+                            <Link href='https://Freely-Given-org'>
+                                Freely-Given.org
+                            </Link>
+                            .
+                        </p>
+                        <p>
+                            This website is copyright © 2022-2023{' '}
+                            <Link href='https://Freely-Given-org'>
+                                Freely-Given.org
+                            </Link>
+                            .
+                        </p>
                     </MainPageContent>
                 </Page>
             </Main>
