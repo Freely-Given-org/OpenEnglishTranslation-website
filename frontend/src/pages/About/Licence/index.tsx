@@ -15,6 +15,16 @@ function Licence() {
                     <MainPageContent>
                         <h1>Licence</h1>
                         <p>
+                            The spirit and the bride say, “Come.”
+                            <br />
+                            Whoever hears this should also say, “Come.”
+                            <br />
+                            Anyone who’s thirsty to live forever should come.
+                            Anyone who wants it can take the water that gives
+                            life free of charge.{' '}
+                            <small>(Rev 22:17 OET-RV)</small>
+                        </p>
+                        <p>
                             This Bible translation and website are each
                             separately licensed under a Creative Commons
                             Attribution-ShareAlike 4.0 International{' '}
@@ -53,7 +63,8 @@ function Licence() {
                             Freely-Given.org, and thus also made publicly
                             available under an open licence and put into the
                             public domain in the future. Of course we’re happy
-                            to credit any contributors (if they desire).
+                            to credit any contributors (unless they request
+                            otherwise).
                         </p>
                         <h1>Copyright</h1>
                         <p>
