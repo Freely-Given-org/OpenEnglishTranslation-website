@@ -91,7 +91,7 @@ function Footer() {
                     >
                         <FacebookIcon className={styles['facebook-icon']} />
                     </a>
-                    <a href='https://twitter.com/Freely_GivenOrg'>
+                    <a href='https://twitter.com/OETBible'>
                         <TwitterIcon className={styles['twitter-icon']} />
                     </a>
                 </div>

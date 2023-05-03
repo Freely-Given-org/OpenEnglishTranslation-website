@@ -61,7 +61,7 @@ function Overview() {
                         </p>
                         <h2>OET Readers’ Version</h2>
                         <p>
-                            This side of the page (so to speak) is designed to
+                            This side of the page (so to speak) is designed to{' '}
                             <b>express the meaning of each sentence</b> (as
                             scholars can best understand it) in{' '}
                             <b>good, clear, readable, modern English</b>. Here
@@ -79,7 +79,7 @@ function Overview() {
                         </p>
                         <h2>OET Literal Version</h2>
                         <p>
-                            This side of the page is designed to give you
+                            This side of the page is designed to give you{' '}
                             <b>
                                 insights into what is actually written in the
                                 Hebrew and Greek

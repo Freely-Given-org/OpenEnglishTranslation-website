@@ -8,5 +8,8 @@
 # Remove the backend/backend/backend folder -- it seems to get recreated by Django
 rm -r backend
 # Start Django
-python manage.py startapp backend
 
+# WRONG this creates an app: python manage.py startapp backend
+python manage.py check
+python manage.py migrate
+python manage.py runserver

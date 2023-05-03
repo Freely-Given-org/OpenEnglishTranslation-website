@@ -31,6 +31,40 @@ const Home: NextPage = () => {
                                 2024).
                             </p>
                             <p>
+                                You can read more details in the{' '}
+                                <Link href='/Design/Overview'>Overview</Link>,
+                                but some of the distinctives of the <em>OET</em>{' '}
+                                include:
+                            </p>
+                            <ul>
+                                <li>
+                                    a <em>Readers’ Version</em> and a very{' '}
+                                    <em>Literal Version</em> side-by-side
+                                </li>
+                                <li>
+                                    freely available to use, copy, print, adapt,
+                                    or retranslate
+                                </li>
+                                <li>
+                                    a commitment to accuracy and high-quality,
+                                    and to wrestle with the text to try to
+                                    determine the likely intent of the various
+                                    biblical writers
+                                </li>
+                                <li>
+                                    designed from the beginning to connect with
+                                    other resources including the original
+                                    manuscripts
+                                </li>
+                                <li>
+                                    not bound by church jargon, unnecessary
+                                    tradition, and following the crowd, in an
+                                    attempt to communicate well to non-churched
+                                    readers, yet to provoke and stimulate
+                                    seasoned Bible readers
+                                </li>
+                            </ul>
+                            <p>
                                 Currently as of May 2023 we have a first draft
                                 of almost 40% of the New Testament. This is
                                 enough that you can get an idea of the style

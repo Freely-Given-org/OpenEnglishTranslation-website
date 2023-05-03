@@ -97,12 +97,12 @@ function Partners() {
                             are being drafted, we need readers to look at the
                             English style. When translating, it’s sometimes
                             difficult to get the Greek words and word order out
-                            of your mind and to think about how we’d say the
-                            same thing in our modern English. Other times we
-                            might have chosen a modern idiom, but one that’s not
-                            known in other English-speaking nations. So we need
-                            readers to let us know if they can help make the{' '}
-                            <em>Readers’ Version</em> more natural.
+                            of your mind and to think about how we’d get the
+                            same thing across in our modern English. Other times
+                            we might have chosen a modern idiom, but one that’s
+                            not well-known in other English-speaking nations. So
+                            we need readers to let us know if they can help make
+                            the <em>Readers’ Version</em> more natural.
                         </p>
                         <h2>Bible consultants</h2>
                         <p>
