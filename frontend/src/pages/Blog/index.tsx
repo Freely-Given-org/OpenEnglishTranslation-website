@@ -31,8 +31,8 @@ const Home: NextPage = ({ blogs }: any) => {
             <Main>
                 <Page>
                     <MainPageContent>
-                        <h1>Work in progress</h1>
-                        <ul>
+                        <h1>Coming (in June 2023) ...</h1>
+                        {/* <ul>
                             {blogs.map((blog: any) => (
                                 <li>
                                     <Link
@@ -44,7 +44,7 @@ const Home: NextPage = ({ blogs }: any) => {
                                     ;
                                 </li>
                             ))}
-                        </ul>
+                        </ul> */}
                     </MainPageContent>
                     <SideBar></SideBar>
                 </Page>
