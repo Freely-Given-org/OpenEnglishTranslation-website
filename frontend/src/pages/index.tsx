@@ -136,16 +136,21 @@ const Home: NextPage = () => {
                                 And the message became a human and lived here
                                 among us and we saw his greatness—the greatness
                                 of an only child of the father—full of grace and
-                                truth. (Jn 1:14, OET-RV)
+                                truth. <small>(Jn 1:14, OET-RV)</small>
                             </p>
                             <p>
                                 And the message became flesh and sheltered among
                                 us, and we_saw the glory of_him, a_glory as
                                 of_an_only_begotten with a_father, full of_grace
-                                and truth. (Jn 1:14, OET-LV)
+                                and truth. <small>(Jn 1:14, OET-LV)</small>
                             </p>
                             <p>
                                 <small>(Early draft versions.)</small>
+                            </p>
+                            <p className={styles.right}>
+                                <Link href='/Design/Overview'>
+                                    Read Overview
+                                </Link>
                             </p>
                         </div>
                     </MainPageContent>

@@ -42,9 +42,9 @@ function Overview() {
                             might have been obvious to the original readers).
                             The <em>OET</em> handles this by choosing{' '}
                             <b>two points</b> on that line instead of just one!
-                            These two versions (one very literal and one quite
-                            dynamic) are intended to be used together (and never
-                            alone).
+                            These two versions (one <b>very literal</b> and one{' '}
+                            <b>quite dynamic</b>) are intended to be used
+                            together (and never alone).
                         </p>
                         <p>
                             (You can see this for yourself if you scroll down
@@ -110,8 +110,67 @@ function Overview() {
                             Old Testament books are presented in the typical
                             Christian Bible book order, or in the traditional
                             Jewish book order, or in chronological or some other
-                            order.
+                            order or combination of books.
                         </p>
+                        <h1>
+                            What the OET is <i>not</i>
+                        </h1>
+                        <p>
+                            This section was added because we’ve noticed some
+                            people wrongly assuming that our ‘easy-to-read’ goal
+                            for the <em>Readers’ Version</em> means that we’re
+                            using simplified English. So here’s a list of what
+                            the <em>OET</em> is NOT:
+                        </p>
+                        <ul>
+                            <li>
+                                it’s not written in simplified English or using
+                                a restricted vocabulary
+                            </li>
+                            <li>
+                                it’s not specifically targeted at children or
+                                people who’ve learnt English as their second
+                                language
+                            </li>
+                            <li>it’s not trying to use street slang</li>
+                            <li>
+                                it’s not aiming to make sentences unnecessarily
+                                short or simple
+                            </li>
+                            <li>it’s not theologically liberal</li>
+                            <li>
+                                it’s not backwards looking or ‘anti’ other Bible
+                                translations
+                            </li>
+                        </ul>
+                        <h2>In contrast</h2>
+                        <p>
+                            So in contrast to those misconceptions, a few more
+                            points about what the <em>OET Readers’ Version</em>{' '}
+                            IS:
+                        </p>
+                        <ul>
+                            <li>it is aimed at native English speakers</li>
+                            <li>it is aimed at educated readers</li>
+                            <li>
+                                it tries to use words, phrases, and idioms that
+                                the average person might use at home and work
+                            </li>
+                            <li>
+                                it does try to avoid church jargon where there’s
+                                a more contemporary way of expressing the same
+                                content
+                            </li>
+                            <li>
+                                its complexities will be most appreciated by
+                                well-educated, long-term Bible readers who are
+                                open to new ways of thinking
+                            </li>
+                            <li>
+                                it’s aiming to carve a new path forward in
+                                increasing Biblical understanding
+                            </li>
+                        </ul>
                     </MainPageContent>
                 </Page>
             </Main>

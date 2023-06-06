@@ -31,7 +31,7 @@ const Home: NextPage = ({ blogs }: any) => {
             <Main>
                 <Page>
                     <MainPageContent>
-                        <h1>Coming (in June 2023) ...</h1>
+                        <h1>Coming (in July 2023) ...</h1>
                         {/* <ul>
                             {blogs.map((blog: any) => (
                                 <li>
