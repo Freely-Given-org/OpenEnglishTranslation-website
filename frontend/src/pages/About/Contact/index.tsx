@@ -24,8 +24,8 @@ function Contact() {
                             same way that the original scriptures were created
                             without thought of profit. To contact the editors
                             with corrections or suggestions, please email{' '}
-                            <b>Freely</b> (dot) <b>Given</b> (dot) <b>org</b>{' '}
-                            (at) <b>gmail</b> (dot) <b>com</b>.{' '}
+                            <b>OET</b> (dot) <b>Bible</b> (at) <b>gmail</b>{' '}
+                            (dot) <b>com</b>.{' '}
                             <small>
                                 (All <em>OET</em> submissions become the
                                 property of{' '}

@@ -20,10 +20,14 @@ function Downloads() {
                         </p>
                         <p>
                             The in-progress source files of the <em>OET</em> are{' '}
+                            <Link href='https://github.com/Freely-Given-org/ESFM'>
+                                ESFM
+                            </Link>{' '}
+                            (enhanced{' '}
                             <Link href='https://UbsIcap.github.io/usfm/'>
                                 USFM
-                            </Link>{' '}
-                            and associated data tables are{' '}
+                            </Link>
+                            ) and associated ESFM data tables are{' '}
                             <Link href='https://en.Wikipedia.org/wiki/Tab-separated_values'>
                                 TSV
                             </Link>

@@ -31,6 +31,40 @@ const Home: NextPage = () => {
                                 2024).
                             </p>
                             <p>
+                                You can read more details in the{' '}
+                                <Link href='/Design/Overview'>Overview</Link>,
+                                but some of the distinctives of the <em>OET</em>{' '}
+                                include:
+                            </p>
+                            <ul>
+                                <li>
+                                    a <em>Readers’ Version</em> and a very{' '}
+                                    <em>Literal Version</em> side-by-side
+                                </li>
+                                <li>
+                                    freely available to use, copy, print, adapt,
+                                    or retranslate
+                                </li>
+                                <li>
+                                    a commitment to accuracy and high-quality,
+                                    and to wrestle with the text to try to
+                                    determine the likely intent of the various
+                                    biblical writers
+                                </li>
+                                <li>
+                                    designed from the beginning to connect with
+                                    other resources including the original
+                                    manuscripts
+                                </li>
+                                <li>
+                                    not bound by church jargon, unnecessary
+                                    tradition, and following the crowd, in an
+                                    attempt to communicate well to non-churched
+                                    readers, yet to provoke and stimulate
+                                    seasoned Bible readers
+                                </li>
+                            </ul>
+                            <p>
                                 Currently as of May 2023 we have a first draft
                                 of almost 40% of the New Testament. This is
                                 enough that you can get an idea of the style
@@ -102,16 +136,21 @@ const Home: NextPage = () => {
                                 And the message became a human and lived here
                                 among us and we saw his greatness—the greatness
                                 of an only child of the father—full of grace and
-                                truth. (Jn 1:14, OET-RV)
+                                truth. <small>(Jn 1:14, OET-RV)</small>
                             </p>
                             <p>
                                 And the message became flesh and sheltered among
                                 us, and we_saw the glory of_him, a_glory as
                                 of_an_only_begotten with a_father, full of_grace
-                                and truth. (Jn 1:14, OET-LV)
+                                and truth. <small>(Jn 1:14, OET-LV)</small>
                             </p>
                             <p>
                                 <small>(Early draft versions.)</small>
+                            </p>
+                            <p className={styles.right}>
+                                <Link href='/Design/Overview'>
+                                    Read Overview
+                                </Link>
                             </p>
                         </div>
                     </MainPageContent>

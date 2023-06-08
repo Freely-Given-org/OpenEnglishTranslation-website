@@ -24,7 +24,7 @@ function SourceTexts() {
                                     OSHB
                                 </Link>{' '}
                                 as our source text for the Hebrew scriptures.
-                                This text is based on the Westminster Lenigrad
+                                This text is based on the Westminster Leningrad
                                 Codex (WLC).
                             </p>
                             <h2>Greek translation of Hebrew scriptures</h2>
