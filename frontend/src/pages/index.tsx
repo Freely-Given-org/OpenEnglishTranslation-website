@@ -43,7 +43,10 @@ const Home: NextPage = () => {
                                 </li>
                                 <li>
                                     freely available to use, copy, print, adapt,
-                                    or retranslate
+                                    or retranslate—no need to ask for{' '}
+                                    <Link href='/About/Licence'>
+                                        permission
+                                    </Link>
                                 </li>
                                 <li>
                                     a commitment to accuracy and high-quality,
@@ -53,8 +56,8 @@ const Home: NextPage = () => {
                                 </li>
                                 <li>
                                     designed from the beginning to connect with
-                                    other resources including the original
-                                    manuscripts
+                                    other resources including links to the
+                                    original manuscripts
                                 </li>
                                 <li>
                                     not bound by church jargon, unnecessary
@@ -65,14 +68,15 @@ const Home: NextPage = () => {
                                 </li>
                             </ul>
                             <p>
-                                Currently as of May 2023 we have a first draft
-                                of almost 40% of the New Testament. This is
-                                enough that you can get an idea of the style
-                                that we’re aiming for, although some decisions
-                                (even some major ones) are still in flux. But
-                                we’re also excited about the way that every word
-                                in the <em>OET Literal Version</em> is linked to
-                                the Greek word that it’s translated from, and as
+                                Currently as of August 2023 we have a first
+                                draft of over 60% of the New Testament
+                                available. This is enough that you can get an
+                                idea of the style that we’re aiming for,
+                                although some decisions (even some major ones)
+                                are still in flux. But we’re also excited about
+                                the way that every word in the{' '}
+                                <em>OET Literal Version</em> is linked to the
+                                Greek word that it’s translated from, and as
                                 part of the <em>OET</em>{' '}
                                 <b>commitment to transparency</b>, with a few
                                 clicks (and with the help of a companion
@@ -112,8 +116,8 @@ const Home: NextPage = () => {
                                     note-writers
                                 </b>
                                 , etc. If you’d like to help with a
-                                revolutionary new Bible project, please look for
-                                more information on our{' '}
+                                revolutionary, new Bible project, please look
+                                for more information on our{' '}
                                 <Link href='/About/Partners'>
                                     Partners page
                                 </Link>
@@ -136,7 +140,14 @@ const Home: NextPage = () => {
                                 And the message became a human and lived here
                                 among us and we saw his greatness—the greatness
                                 of an only child of the father—full of grace and
-                                truth. <small>(Jn 1:14, OET-RV)</small>
+                                truth.{' '}
+                                <small>
+                                    (
+                                    <Link href='https://Freely-Given.org/OBD/pa/JHN/C1V14.htm#Top'>
+                                        Jn 1:14
+                                    </Link>
+                                    , OET-RV, early draft version)
+                                </small>
                             </p>
                             <p>
                                 And the message became flesh and sheltered among
@@ -145,7 +156,30 @@ const Home: NextPage = () => {
                                 and truth. <small>(Jn 1:14, OET-LV)</small>
                             </p>
                             <p>
-                                <small>(Early draft versions.)</small>
+                                <small>
+                                    <b>Note:</b> You’re probably more used to
+                                    Jesus/Yeshua being called ‘the Word’ (than
+                                    ‘the message’), but in modern English,
+                                    ‘words’ are the things on this page.
+                                    Hundreds of years ago, someone decided that
+                                    the Greek word ‘λόγος’ (logos) meant ‘word’
+                                    in English and many translations have
+                                    naively followed that, but we’ve{' '}
+                                    <Link href='https://BibleHub.com/greek/3056.htm'>
+                                        known
+                                    </Link>{' '}
+                                    for a long time now that ‘message’ or
+                                    ‘speech’ (or similar), would be a more
+                                    accurate translation in most contexts. While
+                                    most older Bibles still use ‘word’, the new{' '}
+                                    <em>OET</em> uses a better translation that
+                                    makes the{' '}
+                                    <Link href='https://Freely-Given.org/OBD/OET/bySec/JHN_S2.htm#Top'>
+                                        concept
+                                    </Link>{' '}
+                                    much easier for the modern reader to
+                                    understand.
+                                </small>
                             </p>
                             <p className={styles.right}>
                                 <Link href='/Design/Overview'>
