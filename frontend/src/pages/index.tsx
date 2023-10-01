@@ -33,8 +33,8 @@ const Home: NextPage = () => {
                             <p>
                                 You can read more details in the{' '}
                                 <Link href='/Design/Overview'>Overview</Link>,
-                                but some of the distinctives of the <em>OET</em>{' '}
-                                include:
+                                but some of the distinctives of the <em>OET</em>
+                                 include:
                             </p>
                             <ul>
                                 <li>
@@ -68,8 +68,8 @@ const Home: NextPage = () => {
                                 </li>
                             </ul>
                             <p>
-                                Currently as of August 2023 we have a first
-                                draft of over 60% of the New Testament
+                                Currently as of October 2023 we have a first
+                                draft of around 80% of the New Testament
                                 available. This is enough that you can get an
                                 idea of the style that we’re aiming for,
                                 although some decisions (even some major ones)
@@ -77,7 +77,7 @@ const Home: NextPage = () => {
                                 the way that every word in the{' '}
                                 <em>OET Literal Version</em> is linked to the
                                 Greek word that it’s translated from, and as
-                                part of the <em>OET</em>{' '}
+                                part of the <em>OET</em> 
                                 <b>commitment to transparency</b>, with a few
                                 clicks (and with the help of a companion
                                 website) you can go all the way from our text to
@@ -172,7 +172,7 @@ const Home: NextPage = () => {
                                     ‘speech’ (or similar), would be a more
                                     accurate translation in most contexts. While
                                     most older Bibles still use ‘word’, the new{' '}
-                                    <em>OET</em> uses a better translation that
+                                    <em>OET</em> uses a better translation that
                                     makes the{' '}
                                     <Link href='https://Freely-Given.org/OBD/OET/bySec/JHN_S2.htm#Top'>
                                         concept

@@ -65,8 +65,8 @@ function LV() {
                                 general to respect speakers of other languages
                                 (including the languages of ethnic minorities in
                                 our own countries) and to pronounce their names
-                                and placenames correctly, the <em>OET</em>{' '}
-                                attempts to do the same for Biblical names and
+                                and placenames correctly, the <em>OET</em>
+                                 attempts to do the same for Biblical names and
                                 placenames and the <em>Literal Version</em>{' '}
                                 <b>transliterates all proper nouns</b>. If it’s
                                 a name from the <em>Hebrew scriptures</em>, then
@@ -107,7 +107,7 @@ function LV() {
                                 <em>emphasis</em>, not to indicate{' '}
                                 <i>added words</i> as historically done in older
                                 translations due to limitations of the original
-                                printing processes. The <em>OET</em> fixes the
+                                printing processes. The <em>OET</em> fixes the
                                 problem where most modern books use{' '}
                                 <i>italics</i> for <em>emphasis</em> whereas
                                 older Bibles use <i>italics</i> for the words
@@ -126,7 +126,7 @@ function LV() {
                                     using two words for the same thing
                                 </b>{' '}
                                 (just because they came from two different
-                                languages), so the <em>OET</em> has elected to
+                                languages), so the <em>OET</em> has elected to
                                 only use <i>messiah</i>. However, these words
                                 actually have a meaning, just as{' '}
                                 <i>President</i> is not just a title, but

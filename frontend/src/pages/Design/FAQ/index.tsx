@@ -17,11 +17,11 @@ function FAQ() {
                         <p id='FAQTop' className={styles.FAQContentEntry}>
                             See our{' '}
                             <Link href='/Design/Overview'>overview page</Link>{' '}
-                            for information about the <em>OET</em> translation
-                            philosophy and the various <em>OET</em> versions.
+                            for information about the <em>OET</em> translation
+                            philosophy and the various <em>OET</em> versions.
                         </p>
                         <p>
-                            Note: Some of the design of the <em>OET</em> is
+                            Note: Some of the design of the <em>OET</em> is
                             still in flux, so please regard the answers to these
                             FAQs as current snapshots only.
                         </p>
@@ -32,13 +32,17 @@ function FAQ() {
                         </p>
                         <h1>Frequently Asked Questions</h1>
                         <p className={styles.FAQContentEntry}>
-                            <Link href='#Download'>
-                                Where can I download the OET from?
+                            <Link href='#Download' passHref>
+                                <a>
+                                    Where can I download the <em>OET</em> from?
+                                </a>
                             </Link>
                         </p>
                         <p className={styles.FAQContentEntry}>
-                            <Link href='#SoLong'>
-                                Why’s the OET taking so long?
+                            <Link href='#SoLong' passHref>
+                                <a>
+                                    Why’s the <em>OET</em> taking so long?
+                                </a>
                             </Link>
                         </p>
                         <p className={styles.FAQContentEntry}>
@@ -47,45 +51,68 @@ function FAQ() {
                             </Link>
                         </p>
                         <p className={styles.FAQContentEntry}>
-                            <Link href='#Different'>
-                                Why is the OET different from other
-                                translations?
+                            <Link href='#Different' passHref>
+                                <a>
+                                    Why is the <em>OET</em> different from other
+                                    translations?
+                                </a>
                             </Link>
                         </p>
                         <p className={styles.FAQContentEntry}>
-                            <Link href='#Dialect'>
-                                Which English dialect and spelling system does
-                                the OET use?
+                            <Link href='#Dialect' passHref>
+                                <a>
+                                    Which English dialect and spelling system
+                                    does the <em>OET</em> use?
+                                </a>
                             </Link>
                         </p>
                         <p className={styles.FAQContentEntry}>
-                            <Link href='#Why'>Why is the OET even needed?</Link>
+                            <Link href='#Anachronisms' passHref>
+                                <a>
+                                    Isn’t the <em>OET</em> anachronistic when it
+                                    uses modern concepts that didn’t exist back
+                                    in Bible times?
+                                </a>
+                            </Link>
+                        </p>
+                        <p className={styles.FAQContentEntry}>
+                            <Link href='#Why' passHref>
+                                <a>
+                                    Why is the <em>OET</em> even needed?
+                                </a>
+                            </Link>
                         </p>
                         <p className={styles.FAQContentEntry}>
                             <Link href='#OTNT' passHref>
                                 <a>
-                                    Why doesn’t the OET use the names{' '}
+                                    Why doesn’t the <em>OET</em> use the names{' '}
                                     <em>Old Testament</em> and{' '}
                                     <em>New Testament</em>?
                                 </a>
                             </Link>
                         </p>
                         <p className={styles.FAQContentEntry}>
-                            <Link href='#CV'>
-                                Why does the OET downplay chapter and verse
-                                numbers?
+                            <Link href='#CV' passHref>
+                                <a>
+                                    Why does the <em>OET</em> downplay chapter
+                                    and verse numbers?
+                                </a>
                             </Link>
                         </p>
                         <p className={styles.FAQContentEntry}>
-                            <Link href='#Tags'>
-                                Why does the OET have funny characters in the
-                                files?
+                            <Link href='#Tags' passHref>
+                                <a>
+                                    Why does the <em>OET</em> have funny
+                                    characters in the files?
+                                </a>
                             </Link>
                         </p>
                         <p className={styles.FAQContentEntry}>
-                            <Link href='#BookOrder'>
-                                Why does the OET have the books in a different
-                                order?
+                            <Link href='#BookOrder' passHref>
+                                <a>
+                                    Why does the <em>OET</em> have the books in
+                                    a different order?
+                                </a>
                             </Link>
                         </p>
                         <p className={styles.FAQContentEntry}>
@@ -99,8 +126,10 @@ function FAQ() {
                             </Link>
                         </p>
                         <p className={styles.FAQContentEntry}>
-                            <Link href='#License'>
-                                What license does the OET have?
+                            <Link href='#License' passHref>
+                                <a>
+                                    What license does the <em>OET</em> have?
+                                </a>
                             </Link>
                         </p>
                         <p className={styles.FAQContentEntry}>
@@ -154,18 +183,18 @@ function FAQ() {
                         <p className={styles.FAQContentEntry}>
                             See our{' '}
                             <Link href='/Design/Overview'>overview page</Link>{' '}
-                            for information about the <em>OET</em> translation
-                            philosophy and the various <em>OET</em> versions.
+                            for information about the <em>OET</em> translation
+                            philosophy and the various <em>OET</em> versions.
                         </p>
                         <p>
                             [<Link href='#FAQTop'>Back to top</Link>]
                         </p>
                         <h1>Answers</h1>
                         <h2 className={styles.FAQ} id='Download'>
-                            Where can I download the <em>OET</em> from?
+                            Where can I download the <em>OET</em> from?
                         </h2>
                         <p className={styles.FAQAnswer}>
-                            The <em>OET</em> translation isn’t completed yet so
+                            The <em>OET</em> translation isn’t completed yet so
                             it’s not yet available. However, more information
                             can be found on the{' '}
                             <Link href='Downloads/'>Downloads page</Link>.
@@ -174,14 +203,15 @@ function FAQ() {
                             [<Link href='#FAQTop'>Back to top</Link>]
                         </p>
                         <h2 className={styles.FAQ} id='SoLong'>
-                            Why’s the <em>OET</em> taking so long?
+                            Why’s the <em>OET</em> taking so long?
                         </h2>
                         <p className={styles.FAQAnswer}>
-                            After briefly getting started back in 2010, the OET
+                            After briefly getting started back in 2010, the{' '}
+                            <em>OET</em>
                             translation has been on hold for several years as we
                             were asked to help with other projects, but we were
                             finally able to resume full-time work on the{' '}
-                            <em>OET</em> in July 2022. Any Bible translation
+                            <em>OET</em> in July 2022. Any Bible translation
                             takes several years of work, but we hope to have the
                             first draft of the New Testament by the end of 2023.
                             Further progress depends on how many volunteers we
@@ -252,7 +282,7 @@ function FAQ() {
                             [<Link href='#FAQTop'>Back to top</Link>]
                         </p>
                         <h2 className={styles.FAQ} id='Different'>
-                            Why is the <em>OET</em> different from other
+                            Why is the <em>OET</em> different from other
                             translations?
                         </h2>
                         <p className={styles.FAQAnswer}>
@@ -269,7 +299,7 @@ function FAQ() {
                                 even used as a base for a derivative work
                             </li>
                             <li>
-                                The <em>OET</em> consists of multiple versions
+                                The <em>OET</em> consists of multiple versions
                                 with different goals and purposes that are
                                 intended to be used together as a set
                             </li>
@@ -286,7 +316,7 @@ function FAQ() {
                         </p>
                         <h2 className={styles.FAQ} id='Dialect'>
                             Which English dialect and spelling system does the
-                            <em>OET</em> use?
+                            <em>OET</em> use?
                         </h2>
                         <p className={styles.FAQAnswer}>
                             Ha, yaright, mate! No, we’re not wanting to use
@@ -295,7 +325,7 @@ function FAQ() {
                             concepts in the language of a responsible adult at
                             work.
                         </p>
-                        <p>
+                        <p className={styles.FAQAnswer}>
                             Although the base versions use British spelling, we
                             also plan to make variants available using US
                             spelling and units, etc.
@@ -303,8 +333,33 @@ function FAQ() {
                         <p>
                             [<Link href='#FAQTop'>Back to top</Link>]
                         </p>
+                        <h2 className={styles.FAQ} id='Anachronisms'>
+                            Isn’t the <em>OET</em> anachronistic when it uses
+                            modern concepts that didn’t exist back in Bible
+                            times?
+                        </h2>
+                        <p className={styles.FAQAnswer}>
+                            Yes, that’s a fair question and one that we have to
+                            admit to. It’s a compromise that we feel is
+                            worthwile because of our priority goal of making the
+                            Bible more easily understandable for current
+                            generations.
+                        </p>
+                        <p className={styles.FAQAnswer}>
+                            But, of course, NO English words at all existed back
+                            in Biblical times, so there’ll always be a cultural
+                            misfit. For example, all English translations use
+                            the words ‘priest’ and ‘soldier’, but those Biblical
+                            roles were a very long way from the work of modern
+                            priests and soldiers, so the reader ALWAYS has to be
+                            making cultural adjustments when reading ancient
+                            texts and their translations.
+                        </p>
+                        <p>
+                            [<Link href='#FAQTop'>Back to top</Link>]
+                        </p>
                         <h2 className={styles.FAQ} id='Why'>
-                            Why is the <em>OET</em> even needed?
+                            Why is the <em>OET</em> even needed?
                         </h2>
                         <p className={styles.FAQAnswer}></p>
                         <ol>
@@ -338,7 +393,7 @@ function FAQ() {
                                 few verses into your church bulletin, but would
                                 not normally allow you to publish a Bible-study
                                 with the full Bible text conveniently included.
-                                The <em>OET</em> would allow churches and other
+                                The <em>OET</em> would allow churches and other
                                 groups to freely publish Bible studies,
                                 Scriptural songs, and other similar materials
                                 without having to try to first obtain written
@@ -362,11 +417,11 @@ function FAQ() {
                             we’re talking about someone’s will. Also, the term{' '}
                             <em>New</em> might wrongly imply that the{' '}
                             <em>Old</em> is no longer relevant. Hence the{' '}
-                            <em>OET</em> actively tries to discard this
+                            <em>OET</em> actively tries to discard this
                             terminology.
                         </p>
                         <h2 className={styles.FAQ} id='CV'>
-                            Why does the <em>OET</em> downplay chapter and verse
+                            Why does the <em>OET</em> downplay chapter and verse
                             numbers?
                         </h2>
                         <p className={styles.FAQAnswer}>
@@ -378,7 +433,7 @@ function FAQ() {
                             correct area of the Bible, but unfortunately they
                             have also greatly assisted in the unfortunate habit
                             of people quoting short Bible segments completely
-                            out of context. Since the <em>OET</em> aims to try
+                            out of context. Since the <em>OET</em> aims to try
                             to head in a new direction, we want to discourage
                             the use of small snippets out of context, and this
                             is one way that we can help do it.
@@ -387,7 +442,7 @@ function FAQ() {
                             [<Link href='#FAQTop'>Back to top</Link>]
                         </p>
                         <h2 className={styles.FAQ} id='Tags'>
-                            Why does the <em>OET</em> have funny characters in
+                            Why does the <em>OET</em> have funny characters in
                             the files?
                         </h2>
                         <p className={styles.FAQAnswer}>
@@ -397,10 +452,10 @@ function FAQ() {
                             <em>he_said</em> would indicate that these two
                             English words are represented by just one word in
                             the original language and there is no separate word
-                            specifying who is the <em>he</em>. The <em>OET</em>{' '}
-                            also includes grammatical and semantic tagging. For
+                            specifying who is the <em>he</em>. The <em>OET</em>
+                             also includes grammatical and semantic tagging. For
                             example, if the text says <em>gave it to him</em>{' '}
-                            the <em>OET</em> will attempt to mark or tag what
+                            the <em>OET</em> will attempt to mark or tag what
                             the <em>it</em> is and who the <em>him</em> is. This
                             tagging is done in the text files using special
                             characters, e.g., <em>him=PDavid</em> tells us that
@@ -418,7 +473,7 @@ function FAQ() {
                             [<Link href='#FAQTop'>Back to top</Link>]
                         </p>
                         <h2 className={styles.FAQ} id='BookOrder'>
-                            Why does the <em>OET</em> have the books in a
+                            Why does the <em>OET</em> have the books in a
                             different order?
                         </h2>
                         <p className={styles.FAQAnswer}>
@@ -431,7 +486,7 @@ function FAQ() {
                             writings were split so those scrolls wouldn’t be too
                             physically big and heavy, and we may join them
                             togther again, e.g., 1 &amp; 2 Samuel. The default
-                            <em>OET</em> New Testament will begin with John’s
+                            <em>OET</em> New Testament will begin with John’s
                             account, which also has the advantage of placing
                             Luke’s two accounts right after each other.
                         </p>
@@ -466,7 +521,7 @@ function FAQ() {
                             What is the format of the source files?
                         </h2>
                         <p className={styles.FAQAnswer}>
-                            The <em>OET</em> source files use our own{' '}
+                            The <em>OET</em> source files use our own{' '}
                             <Link href='https://Freely-Given.org/Software/BibleDropBox/ESFMBibles.html'>
                                 ESFM
                             </Link>{' '}
@@ -512,7 +567,7 @@ function FAQ() {
                             [<Link href='#FAQTop'>Back to top</Link>]
                         </p>
                         <h2 className={styles.FAQ} id='License'>
-                            What license does the <em>OET</em> have?
+                            What license does the <em>OET</em> have?
                         </h2>
                         <p className={styles.FAQAnswer}>
                             It’s currently being released under a{' '}

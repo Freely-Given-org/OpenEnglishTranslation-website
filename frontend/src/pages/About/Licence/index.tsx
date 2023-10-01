@@ -68,7 +68,7 @@ function Licence() {
                         </p>
                         <h1>Copyright</h1>
                         <p>
-                            This <em>OET</em> Bible translation is copyright ©
+                            This <em>OET</em> Bible translation is copyright ©
                             2010-2023{' '}
                             <Link href='https://Freely-Given-org'>
                                 Freely-Given.org

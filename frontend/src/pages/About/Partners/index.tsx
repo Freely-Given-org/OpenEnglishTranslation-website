@@ -33,9 +33,9 @@ function Partners() {
                             but didn’t make their source files publicly
                             available online. Often, their work or private
                             website has disappeared offline once God called them
-                            home. If you’re likely in your later years and have
-                            skills to develop Bible resources, invest them into
-                            a project where everything is{' '}
+                            home. If you’re in your later years and have skills
+                            to develop Bible resources, invest them into a
+                            project where everything is{' '}
                             <Link href='https://GitHub.com/Freely-Given-org'>
                                 online and public
                             </Link>{' '}
@@ -51,14 +51,17 @@ function Partners() {
                             us.
                         </p>
                         <p>
-                            We also need programmers to include the <em>OET</em>{' '}
-                            into their existing Bible apps. Incorporating the{' '}
-                            <em>OET</em> will definitely take more effort than
+                            We also need programmers to include the <em>OET</em>
+                             into their existing Bible apps. Incorporating the{' '}
+                            <em>OET</em> will definitely take more effort than
                             for conventional translations, because the design
-                            has both a <em>Literal Version</em> and a{' '}
-                            <em>Readers’ Version</em> that complement each other
+                            has both a <em>Readers’ Version</em> and a{' '}
+                            <em>Literal Version</em> that complement each other
                             and are intended to scroll together (or be printed
-                            side-by-side).
+                            side-by-side), plus the fact that <em>OET</em>
+                             ‘books’ are presented in a different order and
+                            there’s no book named ‘James’. Also, terms like ‘New
+                            Testament’ do not apply to the <em>OET</em>.
                         </p>
                         <div className={styles.bannerFeed}>
                             <Image
@@ -87,13 +90,13 @@ function Partners() {
                         </p>
                         <p>
                             Could you provide black-and-white images to help our{' '}
-                            <em>OET</em> readers understand the text? Or colour
+                            <em>OET</em> readers understand the text? Or colour
                             diagrams or maps that could be at the back of an
                             open-licenced Bible? We certainly need you!
                         </p>
                         <h2>Readers and checkers</h2>
                         <p>
-                            Are you a <i>word-crafter</i>? As <em>OET</em> books
+                            Are you a <i>word-crafter</i>? As <em>OET</em> books
                             are being drafted, we need readers to look at the
                             English style. When translating, it’s sometimes
                             difficult to get the Greek words and word order out
@@ -102,20 +105,36 @@ function Partners() {
                             we might have chosen a modern idiom, but one that’s
                             not well-known in other English-speaking nations. So
                             we need readers to let us know if they can help make
-                            the <em>Readers’ Version</em> more natural.
+                            the <em>Readers’ Version</em> more fluent and
+                            natural.
                         </p>
                         <h2>Bible consultants</h2>
                         <p>
                             If you’re a Bible translation consultant and/or a
                             Hebrew or Greek expert, we would value your help in
                             checking our drafts for accuracy and also for making
-                            suggestions for improvement. Or perhaps you have a
-                            certain speciality and would like to improve or
-                            expand our drafts of the book introductions, or
-                            write a set of footnotes about some helpful topic.
-                            One advantage of working in an open translation, is
-                            that your scholarship is then freely available to
-                            future generations as well.
+                            suggestions for improvement. Perhaps you could keep
+                            the <em>OET</em> in a small window while you’re
+                            checking a translation in another language. Any
+                            feedback would be helpful.
+                        </p>
+                        <p>
+                            Because the <em>OET</em> is a fresh translation from
+                            the Hebrew and Greek (and not based on other English
+                            translations), there’s a higher chance that our
+                            initial drafts will contain errors, i.e., there’s
+                            many places in an English Bible translation where
+                            the meaning of the original writer could be
+                            interpreted differently. That’s ok, unless we’ve
+                            interpreted the Greek wrongly! We don’t want that.
+                        </p>
+                        <p>
+                            Or perhaps you have a certain speciality and would
+                            like to improve or expand our drafts of the book
+                            introductions, or write a set of footnotes about
+                            some helpful topic. One advantage of working in an
+                            open translation, is that your scholarship is then
+                            freely available to future generations as well.
                         </p>
                         <h1>Sponsors wanted</h1>
                         <p>
@@ -123,12 +142,14 @@ function Partners() {
                             advance at full speed. Although most of the work is
                             done by volunteers, we do need to cover our
                             computing costs (domain names, servers and services,
-                            internet, electricity) as well as travel and
-                            conferences. We would also like to be able to pay
-                            for services from contract programmers and web
-                            developers. Then if there’s any extra, it will also
-                            be appreciated for helping to pay the grocery bill.
-                            Again, please use the{' '}
+                            internet, electricity) as well as books and
+                            reference materials, travel and conferences. Then
+                            there’s also printing costs—only for small test runs
+                            of Bible portions at this stage. We would also like
+                            to be able to pay for services from contract
+                            programmers and web developers. Then if there’s any
+                            extra, it will also be appreciated for helping to
+                            pay the grocery bill. Again, please use the{' '}
                             <Link href='/About/Contact'>contact page</Link> to
                             get in touch directly.
                         </p>

@@ -33,7 +33,7 @@ function Reader() {
                         </p>
                         <p>
                             <small>
-                                You should note that the <em>OET</em> project is
+                                You should note that the <em>OET</em> project is
                                 still in the very early, startup phases and so
                                 you are viewing very early, rough drafts just to
                                 demonstrate some of the concepts. We are aiming

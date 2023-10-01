@@ -16,7 +16,7 @@ function EE() {
                         <h1>OET Explorers’ Edition</h1>
                         <p>
                             The <em>Explorers’ Edition</em> is the default
-                            edition of the <em>OET</em> and the one displayed in
+                            edition of the <em>OET</em> and the one displayed in
                             the <Link href='/Reader'>Reader</Link>. This edition
                             might be ‘over-the-top’ for conservative readers,
                             with the traditional book orders changed (
