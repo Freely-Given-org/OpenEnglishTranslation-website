@@ -68,8 +68,8 @@ const Home: NextPage = () => {
                                 </li>
                             </ul>
                             <p>
-                                Currently as of October 2023 we have a first
-                                draft of around 80% of the New Testament
+                                Currently as of November 2023 we have a first
+                                draft of around 83% of the New Testament
                                 available. This is enough that you can get an
                                 idea of the style that we’re aiming for,
                                 although some decisions (even some major ones)
