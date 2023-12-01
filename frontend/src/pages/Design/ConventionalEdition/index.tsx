@@ -16,7 +16,7 @@ function CE() {
                         <h1>OET Conventional Edition</h1>
                         <p>
                             The <em>Conventional Edition</em> is an alternative
-                            edition of the <em>OET</em> and is derived from the{' '}
+                            edition of the <em>OET</em> and is derived from the{' '}
                             <em>Explorers’ Edition</em> (the one that is
                             displayed in the <Link href='/Reader'>Reader</Link>
                             ). This edition is aimed at more conservative

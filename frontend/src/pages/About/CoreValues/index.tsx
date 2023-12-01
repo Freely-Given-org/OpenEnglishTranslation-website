@@ -70,7 +70,7 @@ function CoreValues() {
                         </p>
                         <h3>Transparent</h3>
                         <p>
-                            The <em>OET</em> is designed in such a way as to
+                            The <em>OET</em> is designed in such a way as to
                             make the modern, idiomatic, English translation
                             found in the <em>Readers’ Version</em> to be able to
                             be traced across to the <em>Literal Version</em> and

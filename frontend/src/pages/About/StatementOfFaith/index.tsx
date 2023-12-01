@@ -60,15 +60,15 @@ function StatementOfFaith() {
                             <li>
                                 God the son—commonly known in English as Jesus,
                                 although you might find him called by his Hebrew
-                                name Yeshua in some of the <em>OET</em>{' '}
-                                editions. We believe that he was and is the
+                                name Yeshua in some of the <em>OET</em>
+                                 editions. We believe that he was and is the
                                 creator son of God. Everything was formed
                                 through him and by him.
                             </li>
                             <li>God the (holy) spirit</li>
                         </ul>
                         <p>
-                            Note: The <em>OET</em> doesn’t always continue old
+                            Note: The <em>OET</em> doesn’t always continue old
                             English traditions of using capital letters for
                             pronouns and other words referring to members of the
                             trinity. Of course, that’s because the original
@@ -83,7 +83,7 @@ function StatementOfFaith() {
                         <p>
                             Everyone has a bias and in the interest of complete
                             transparency, we openly declare ours here. All of
-                            those involved in the <em>OET</em> translation up
+                            those involved in the <em>OET</em> translation up
                             until this point have come from a ‘Western’
                             protestant background. More particularly, the
                             founder comes from a conservative Pentecostal
@@ -96,7 +96,7 @@ function StatementOfFaith() {
                             However, please don’t wrongly take this statement to
                             imply that we have deliberately gone out of our way
                             to insert or even reinforce our own theology in the{' '}
-                            <em>OET</em> translation. We believe that every
+                            <em>OET</em> translation. We believe that every
                             person should have access to a Bible that they can
                             easily understand, and would be very happy if both
                             believers and non-believers found this translation
@@ -141,7 +141,7 @@ function StatementOfFaith() {
                                 Bible book orders and Biblical names in general)
                             </li>
                             <li>
-                                by doing such things, to make the <em>OET</em> a
+                                by doing such things, to make the <em>OET</em> a
                                 new and fresh read for those who may have
                                 already read their other English translations
                                 many times over

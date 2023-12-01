@@ -16,13 +16,13 @@ function EE() {
                         <h1>OET Explorers’ Edition</h1>
                         <p>
                             The <em>Explorers’ Edition</em> is the default
-                            edition of the <em>OET</em> and the one displayed in
+                            edition of the <em>OET</em> and the one displayed in
                             the <Link href='/Reader'>Reader</Link>. This edition
                             might be ‘over-the-top’ for conservative readers,
                             with the traditional book orders changed (
-                            <i>John</i> before <i>Matthew</i>) and the
-                            (wrongly-named) book of <i>James</i> changed to{' '}
-                            <i>Jacob</i>.
+                            <i>John</i> and <i>Mark</i> before <i>Matthew</i>)
+                            and the (wrongly-named) book of <i>James</i> changed
+                            to <i>Jacob</i>.
                         </p>
                         <p>
                             The <em>Readers’ Version</em> in this edition uses{' '}
@@ -32,7 +32,11 @@ function EE() {
                             or recognisable to English readers, e.g.,{' '}
                             <i>Mary</i> becomes <i>Maria</i> (from her Greek
                             name, but not <i>Miriam</i> which was likely her
-                            Hebrew name).
+                            Hebrew name). Many Hebrew names starting with ‘J’
+                            are improved to be more accurate and start with ‘Y’,
+                            e.g., Yonah, yet they’re still easily recognisable
+                            for English readers. (This is definitely only a
+                            compromise solution.)
                         </p>
                         <p>
                             The <em>OET Literal Version</em> remains the same in

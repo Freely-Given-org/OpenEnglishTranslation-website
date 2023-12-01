@@ -24,8 +24,8 @@ function Formats() {
                             as a gift to use in whatever ways meets your needs.
                         </p>
                         <p>
-                            Putting that a different way, the <em>OET</em>{' '}
-                            attempts to lead and set new directions not just in
+                            Putting that a different way, the <em>OET</em>
+                             attempts to lead and set new directions not just in
                             the way the Bible text is translated and how it’s
                             presented to the user, but also how it’s saved on
                             computers and linked to helpful databases.
@@ -64,7 +64,7 @@ function Formats() {
                                     <b>SAM</b> (which would be <b>SA1</b> and{' '}
                                     <b>SA2</b> (since we're no longer restricted
                                     by how big or heavy a single scroll can
-                                    be—the revolutionary, new <em>OET</em>{' '}
+                                    be—the revolutionary, new <em>OET</em> 
                                     always considers traditions and whether or
                                     not they still need to apply)
                                 </li>

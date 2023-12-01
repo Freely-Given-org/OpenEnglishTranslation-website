@@ -40,7 +40,7 @@ function Overview() {
                             being more free/dynamic (in making a translation
                             that fills in some of the implied information that
                             might have been obvious to the original readers).
-                            The <em>OET</em> handles this by choosing{' '}
+                            The <em>OET</em> handles this by choosing{' '}
                             <b>two points</b> on that line instead of just one!
                             These two versions (one <b>very literal</b> and one{' '}
                             <b>quite dynamic</b>) are intended to be used
@@ -52,8 +52,8 @@ function Overview() {
                             <Link href='/Reader'>Reader</Link>.)
                         </p>
                         <p>
-                            Another major distinction is that the <em>OET</em>{' '}
-                            is being made <b>freely available</b> for others to
+                            Another major distinction is that the <em>OET</em>
+                             is being made <b>freely available</b> for others to
                             use and publish in Bible studies and similar
                             materials, to print, to display on any device, and
                             even to change/customise (with some limitations) for
@@ -73,7 +73,7 @@ function Overview() {
                         <p>
                             More details at{' '}
                             <Link href='/Design/ReadersVersion'>
-                                Design / Readers’ Version
+                                Design/Readers’ Version
                             </Link>
                             .
                         </p>
@@ -91,12 +91,13 @@ function Overview() {
                             original cubit measures, and ideal for a study of
                             numbers in the Bible. And when you get to the{' '}
                             <i>Box of the Agreement</i>, the Hebrew text starts
-                            to make sense in your mind.
+                            to make sense in your mind (compared to the{' '}
+                            <i>Ark of the Covenant</i>).
                         </p>
                         <p>
                             More details at{' '}
                             <Link href='/Design/LiteralVersion'>
-                                Design / Literal Version
+                                Design/Literal Version
                             </Link>
                             .
                         </p>
@@ -120,7 +121,7 @@ function Overview() {
                             people wrongly assuming that our ‘easy-to-read’ goal
                             for the <em>Readers’ Version</em> means that we’re
                             using simplified English. So here’s a list of what
-                            the <em>OET</em> is NOT:
+                            the <em>OET</em> is NOT:
                         </p>
                         <ul>
                             <li>
@@ -137,7 +138,10 @@ function Overview() {
                                 it’s not aiming to make sentences unnecessarily
                                 short or simple
                             </li>
-                            <li>it’s not theologically liberal</li>
+                            <li>
+                                it’s not theologically liberal or intentionally
+                                pushing any particular bias
+                            </li>
                             <li>
                                 it’s not backwards looking or ‘anti’ other Bible
                                 translations
@@ -167,8 +171,12 @@ function Overview() {
                                 open to new ways of thinking
                             </li>
                             <li>
-                                it’s aiming to carve a new path forward in
-                                increasing Biblical understanding
+                                it’s aiming to carve a new path <b>forward</b>{' '}
+                                in increasing Biblical understanding
+                            </li>
+                            <li>
+                                it’s aiming to carve a new path <b>forward</b>{' '}
+                                in improving Bible layouts and typesetting
                             </li>
                         </ul>
                     </MainPageContent>

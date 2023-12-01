@@ -51,7 +51,7 @@ function OET() {
                             languages.
                         </p>
                         <p>
-                            So the <em>OET</em> gives both side-by-side, and
+                            So the <em>OET</em> gives both side-by-side, and
                             with the advantage that both the{' '}
                             <em>Readers’ Version</em> and the{' '}
                             <em>Literal Version</em>{' '}
@@ -80,7 +80,7 @@ function OET() {
                         </p>
                         <h2>Goals and intended audience</h2>
                         <p>
-                            The <em>OET</em> has the following goals:
+                            The <em>OET</em> has the following goals:
                         </p>
                         <ul>
                             <li>
@@ -128,7 +128,7 @@ function OET() {
                         </ul>
                         <h3 id='Distinctives'>Distinctives</h3>
                         <p>
-                            The <em>OET</em> has the following distinguishing
+                            The <em>OET</em> has the following distinguishing
                             points:
                         </p>
                         <ul>
@@ -235,8 +235,8 @@ function OET() {
                                 general to respect speakers of other languages
                                 (including the languages of ethnic minorities in
                                 our own countries) and to pronounce their names
-                                and placenames correctly, the <em>OET</em>{' '}
-                                attempts to do the same for Biblical names and
+                                and placenames correctly, the <em>OET</em>
+                                 attempts to do the same for Biblical names and
                                 placenames. (All this is a little complex when
                                 we have both Hebrew and Greek versions of names
                                 and placenames—more below.) Certainly by showing
@@ -285,7 +285,7 @@ function OET() {
                                 <em>emphasis</em>, not to indicate{' '}
                                 <i>added words</i> as historically done in older
                                 translations due to limitations of the original
-                                printing processes. The <em>OET</em> fixes the
+                                printing processes. The <em>OET</em> fixes the
                                 problem where most modern books use{' '}
                                 <i>italics</i> for <em>emphasis</em> whereas
                                 older Bibles use <i>italics</i> for the words
@@ -301,7 +301,7 @@ function OET() {
                                 seems to make sense to only use one word
                                 consistently rather than using two words for the
                                 same thing (just because they came from two
-                                different languages), so the <em>OET</em> has
+                                different languages), so the <em>OET</em> has
                                 elected to only use <i>messiah</i>. However,
                                 these words actually have a meaning, just as{' '}
                                 <i>President</i> is not just a title, but

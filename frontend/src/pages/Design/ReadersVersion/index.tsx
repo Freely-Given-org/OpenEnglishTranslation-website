@@ -102,8 +102,8 @@ function RV() {
                                 general to respect speakers of other languages
                                 (including the languages of ethnic minorities in
                                 our own countries) and to pronounce their names
-                                and placenames correctly, the <em>OET</em>{' '}
-                                attempts to{' '}
+                                and placenames correctly, the <em>OET</em>
+                                 attempts to{' '}
                                 <b>
                                     show greater respect for Biblical names and
                                     placenames
@@ -134,7 +134,7 @@ function RV() {
                                 <em>emphasis</em>, not to indicate{' '}
                                 <i>added words</i> as historically done in older
                                 translations due to limitations of the ancient
-                                printing processes. (The <em>OET</em> fixes the
+                                printing processes. (The <em>OET</em> fixes the
                                 problem where most modern printing uses{' '}
                                 <i>italics</i> for <em>emphasis</em> whereas
                                 older Bibles use <i>italics</i> for the words
@@ -150,7 +150,7 @@ function RV() {
                                 seems to make sense to only use one word
                                 consistently rather than using two words for the
                                 same thing (just because they came from two
-                                different languages), so the <em>OET</em> has
+                                different languages), so the <em>OET</em> has
                                 elected to only use <i>messiah</i>.
                             </li>
                         </ul>

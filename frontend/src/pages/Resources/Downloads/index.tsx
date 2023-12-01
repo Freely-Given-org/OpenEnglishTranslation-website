@@ -19,7 +19,7 @@ function Downloads() {
                             texts here by the end of 2023.
                         </p>
                         <p>
-                            The in-progress source files of the <em>OET</em> are{' '}
+                            The in-progress source files of the <em>OET</em> are{' '}
                             <Link href='https://github.com/Freely-Given-org/ESFM'>
                                 ESFM
                             </Link>{' '}

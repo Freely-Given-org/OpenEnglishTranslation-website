@@ -27,7 +27,7 @@ function Contact() {
                             <b>OET</b> (dot) <b>Bible</b> (at) <b>gmail</b>{' '}
                             (dot) <b>com</b>.{' '}
                             <small>
-                                (All <em>OET</em> submissions become the
+                                (All <em>OET</em> submissions become the
                                 property of{' '}
                                 <Link href='https://Freely-Given.org'>
                                     Freely-Given.org

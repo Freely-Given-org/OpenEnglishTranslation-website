@@ -84,6 +84,18 @@ function SourceTexts() {
                                 </Link>
                                 .
                             </p>
+                            <h2>Study Notes</h2>
+                            <p>
+                                The Study and Theme Notes that can be found in
+                                the parallel and interlinear pages as well as
+                                the Bible Dictionary (with maps) in our{' '}
+                                <Link href='/Reader'>Bible Reader</Link> come
+                                from{' '}
+                                <Link href='https://TyndaleOpenResources.com'>
+                                    Tyndale House Publishers
+                                </Link>
+                                .
+                            </p>
                         </div>
                     </MainPageContent>
                 </Page>
