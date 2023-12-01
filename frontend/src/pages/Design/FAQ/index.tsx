@@ -454,7 +454,9 @@ function FAQ() {
                             the original language and there is no separate word
                             specifying who is the <em>he</em>. The <em>OET</em>
                              also includes grammatical and semantic tagging. For
-                            example, if the text says <em>gave it to him</em>{' '}
+                            example, if the text says <em>
+                                gave it to him
+                            </em>{' '}
                             the <em>OET</em> will attempt to mark or tag what
                             the <em>it</em> is and who the <em>him</em> is. This
                             tagging is done in the text files using special
