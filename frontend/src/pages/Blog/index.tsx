@@ -74,14 +74,13 @@ const Home: NextPage = ({ blogs }: any) => {
                         </p>
                         <p>
                             The Greek word <b>λόγος</b> (<i>logos</i>—but not
-                            the plural of
-                            <i>logo</i>) does NOT mean ‘word’ as the word ‘word’
-                            is normally used in modern English. It would be
-                            usually better translated as ‘saying’, ‘message’,
-                            ‘discourse’, ‘statement’, ‘account’, ‘address’,
-                            ‘matter’, ‘idea’, ‘report’, ‘presentation’, or
-                            similar. Just read some of the Greek lexicons (for
-                            Strong’s #
+                            the plural of <i>logo</i>) does NOT mean ‘word’ as
+                            the word ‘word’ is normally used in modern English.
+                            It would be usually better translated as ‘saying’,
+                            ‘message’, ‘discourse’, ‘statement’, ‘account’,
+                            ‘address’, ‘matter’, ‘idea’, ‘report’,
+                            ‘presentation’, or similar. Just read some of the
+                            Greek lexicons (for Strong’s #
                             <Link href='https://BibleHub.com/greek/3056.htm'>
                                 3056
                             </Link>
@@ -147,7 +146,8 @@ const Home: NextPage = ({ blogs }: any) => {
                                 Robert Hunt, August 2023.
                                 <br />
                                 Street evangelist, public school chaplain,
-                                prison Bible-study leader, and Bible translator.
+                                prison Bible-study leader, Bible
+                                teacher/preacher, and Bible translator.
                             </small>
                         </p>
                     </MainPageContent>
