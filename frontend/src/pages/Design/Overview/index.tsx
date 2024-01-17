@@ -113,15 +113,24 @@ function Overview() {
                             Jewish book order, or in chronological or some other
                             order or combination of books.
                         </p>
+                        <p>
+                            We also plan to offer specialist editions with
+                            footnotes and/or study-notes on things like
+                            theological and doctrinal topics, as well as
+                            archaeological discoveries, plus specialist edtions
+                            for Muslims or Hindus, etc., wanting to learn more
+                            about the Christian scriptures.
+                        </p>
                         <h1>
                             What the OET is <i>not</i>
                         </h1>
                         <p>
                             This section was added because we’ve noticed some
-                            people wrongly assuming that our ‘easy-to-read’ goal
-                            for the <em>Readers’ Version</em> means that we’re
-                            using simplified English. So here’s a list of what
-                            the <em>OET</em> is NOT:
+                            people wrongly assuming that our ‘easy-to-read’ and
+                            ‘free-of-church-jargon’ goals for the{' '}
+                            <em>Readers’ Version</em> means that we’re using
+                            simplified English. So here’s a list of what the{' '}
+                            <em>OET</em> is NOT:
                         </p>
                         <ul>
                             <li>
@@ -135,7 +144,7 @@ function Overview() {
                             </li>
                             <li>it’s not trying to use street slang</li>
                             <li>
-                                it’s not aiming to make sentences unnecessarily
+                                it’s not aiming to make sentences artificially
                                 short or simple
                             </li>
                             <li>
@@ -154,29 +163,39 @@ function Overview() {
                             IS:
                         </p>
                         <ul>
-                            <li>it is aimed at native English speakers</li>
+                            <li>
+                                it is aimed at <b>native English speakers</b>
+                            </li>
                             <li>it is aimed at educated readers</li>
                             <li>
                                 it tries to use words, phrases, and idioms that
                                 the average person might use at home and work
                             </li>
                             <li>
-                                it does try to avoid church jargon where there’s
-                                a more contemporary way of expressing the same
-                                content
+                                it does <b>try to avoid church jargon</b> where
+                                there’s a more contemporary way of expressing
+                                the same concepts
+                            </li>
+                            <li>
+                                it’s translated with non-churched people always
+                                in mind
                             </li>
                             <li>
                                 its complexities will be most appreciated by
-                                well-educated, long-term Bible readers who are
-                                open to new ways of thinking
+                                well-educated, long-term Bible readers who
+                                aren’t tied to tradition for tradition’s sake
                             </li>
                             <li>
-                                it’s aiming to carve a new path <b>forward</b>{' '}
-                                in increasing Biblical understanding
+                                it’s aiming to <b>carve a new path forward</b>{' '}
+                                in increasing Biblical understanding that we
+                                hope will also rub off onto major, commercial
+                                English Bible translations
                             </li>
                             <li>
-                                it’s aiming to carve a new path <b>forward</b>{' '}
+                                it’s aiming to <b>carve a new path forward</b>{' '}
                                 in improving Bible layouts and typesetting
+                                (wanting to reduce the quoting of ‘verses’ and
+                                reading of ‘chapters’ out of context)
                             </li>
                         </ul>
                     </MainPageContent>

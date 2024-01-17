@@ -25,59 +25,93 @@ const Home: NextPage = () => {
                                 is proceeding and{' '}
                                 <b>
                                     the first rough draft of the New Testament
-                                    is expected by the end of 2023{' '}
+                                    is expected by the end of March{' '}
                                 </b>
-                                (and then hopefully released by the end of
-                                2024).
+                                (and then Old Testament drafting will continue,
+                                alongside New Testament checking).
                             </p>
                             <p>
                                 You can read more details in the{' '}
                                 <Link href='/Design/Overview'>Overview</Link>,
-                                but some of the distinctives of the <em>OET</em>
+                                but some of the <b>distinctives</b> of the{' '}
+                                <em>OET</em>
                                  include:
                             </p>
                             <ul>
                                 <li>
-                                    a <em>Readers’ Version</em> and a very{' '}
-                                    <em>Literal Version</em> side-by-side
-                                </li>
-                                <li>
-                                    freely available to use, copy, print, adapt,
-                                    or retranslate—no need to ask for{' '}
-                                    <Link href='/About/Licence'>
-                                        permission
-                                    </Link>
-                                </li>
-                                <li>
-                                    a commitment to accuracy and high-quality,
-                                    and to wrestle with the text to try to
-                                    determine the likely intent of the various
-                                    biblical writers
-                                </li>
-                                <li>
-                                    designed from the beginning to connect with
-                                    other resources including links to the
-                                    original manuscripts
+                                    a{' '}
+                                    <b>
+                                        <em>Readers’ Version</em>
+                                    </b>{' '}
+                                    and a very{' '}
+                                    <b>
+                                        <em>Literal Version</em>
+                                    </b>{' '}
+                                    side-by-side
                                 </li>
                                 <li>
                                     not bound by church jargon, unnecessary
                                     tradition, and following the crowd, in an
-                                    attempt to communicate well to non-churched
-                                    readers, yet to provoke and stimulate
-                                    seasoned Bible readers
+                                    attempt to{' '}
+                                    <b>
+                                        communicate well to non-churched readers
+                                    </b>
+                                    , yet to{' '}
+                                    <b>
+                                        provoke and stimulate seasoned Bible
+                                        readers
+                                    </b>
+                                </li>
+                                <li>
+                                    a commitment to{' '}
+                                    <b>accuracy and high-quality</b>, and to
+                                    wrestle with the text to try to determine
+                                    the likely intent of the various biblical
+                                    writers
+                                </li>
+                                <li>
+                                    following{' '}
+                                    <Link href='https://www.nzherald.co.nz/nz/te-wiki-o-te-reo-maori-new-zealands-most-mispronounced-places-and-what-to-do-about-it/JCCWGOZ5OAQQN7C5A5PDV7UBMI/'>
+                                        modern trends
+                                    </Link>{' '}
+                                    in our societies of{' '}
+                                    <b>
+                                        showing more respect to other language
+                                        groups
+                                    </b>{' '}
+                                    by doing the same with the names of the
+                                    Biblical characters
+                                </li>
+                                <li>
+                                    designed from the beginning to{' '}
+                                    <b>connect with other resources</b>{' '}
+                                    including links to the original manuscripts
+                                </li>
+                                <li>
+                                    not a commercial product like most English
+                                    Bibles—
+                                    <b>
+                                        freely available to use, copy, print,
+                                        adapt, or retranslate
+                                    </b>
+                                    —no need to ask for{' '}
+                                    <Link href='/About/Licence'>
+                                        permission
+                                    </Link>
                                 </li>
                             </ul>
                             <p>
-                                Currently as of early-December 2023 we have a
-                                first draft of around 85% of the New Testament
-                                available. This is enough that you can get an
-                                idea of the style that we’re aiming for,
-                                although some decisions (even some major ones)
-                                are still in flux. But we’re also excited about
-                                the way that every word in the{' '}
-                                <em>OET Literal Version</em> is linked to the
-                                Greek word that it’s translated from, and as
-                                part of the <em>OET</em> 
+                                Currently as of January 2024, we have a first
+                                draft of around 90% of the New Testament
+                                available (just leaving the end of Hebrews, as
+                                well as Revelation, and 1 Corinthians). This is
+                                more than enough for you to get an idea of the
+                                style that we’re aiming for, although some
+                                decisions (even some major ones) are still in
+                                flux. But we’re also excited about the way that
+                                every word in the <em>OET Literal Version</em>{' '}
+                                is linked to the Greek word that it’s translated
+                                from, and as part of the <em>OET</em> 
                                 <b>commitment to transparency</b>, with a few
                                 clicks (and with the help of a companion
                                 website) you can go all the way from our text to
@@ -107,8 +141,8 @@ const Home: NextPage = () => {
                         </div>
                         <div className={styles.banner}>
                             <p>
-                                We’re currently <b>looking for volunteers</b> to
-                                help with many aspects of this work including{' '}
+                                We’re <b>needing more volunteers</b> to help
+                                with many aspects of this work including{' '}
                                 <b>logo and website design</b>, as well as help
                                 with the translation itself, i.e.,{' '}
                                 <b>
@@ -128,7 +162,7 @@ const Home: NextPage = () => {
                                 you’re a{' '}
                                 <b>Python or Flutter/Dart or other Android</b>{' '}
                                 developer and would like to help with this vital
-                                side of the project, please please look for more
+                                side of the project, please look for more
                                 information on our{' '}
                                 <Link href='/About/Partners'>
                                     Partners page
@@ -143,7 +177,7 @@ const Home: NextPage = () => {
                                 truth.{' '}
                                 <small>
                                     (
-                                    <Link href='https://Freely-Given.org/OBD/pa/JHN/C1V14.htm#Top'>
+                                    <Link href='https://Freely-Given.org/OBD/par/JHN/C1V14.htm#Top'>
                                         Jn 1:14
                                     </Link>
                                     , OET-RV, early draft version)
@@ -153,7 +187,11 @@ const Home: NextPage = () => {
                                 And the message became flesh and sheltered among
                                 us, and we_saw the glory of_him, a_glory as
                                 of_an_only_begotten with a_father, full of_grace
-                                and truth. <small>(Jn 1:14, OET-LV)</small>
+                                and truth.{' '}
+                                <small>
+                                    (Jn 1:14, OET-LV, joined_words come from
+                                    single Greek words)
+                                </small>
                             </p>
                             <p>
                                 <small>
@@ -171,14 +209,19 @@ const Home: NextPage = () => {
                                     for a long time now that ‘message’ or
                                     ‘speech’ (or similar), would be a more
                                     accurate translation in most contexts. While
-                                    most older Bibles still use ‘word’, the new{' '}
-                                    <em>OET</em> uses a better translation that
-                                    makes the{' '}
+                                    most older English translations still use
+                                    ‘word’, the new <em>OET</em> uses a better
+                                    translation that makes the{' '}
                                     <Link href='https://Freely-Given.org/OBD/OET/bySec/JHN_S2.htm#Top'>
                                         concept
                                     </Link>{' '}
                                     much easier for the modern reader to
-                                    understand.
+                                    understand. (Oh, and by the way, there are
+                                    no capitalised words in the Hebrew and Greek
+                                    originals, so with a focus on accuracy over
+                                    tradition, the <em>OET</em> has much less
+                                    artificial capitalisation than your older
+                                    Bible.)
                                 </small>
                             </p>
                             <p className={styles.right}>

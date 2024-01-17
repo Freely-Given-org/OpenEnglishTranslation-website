@@ -21,7 +21,7 @@ function Name() {
                         <ul>
                             <li>
                                 <b>Open</b> (unashamedly inspired by Free and
-                                Open Source software) expresses our desire to
+                                Open-source software) expresses our desire to
                                 make it freely available for others to use or
                                 adapt in any way. It’s also open in the sense of
                                 open for others to join in and help with (but
@@ -31,10 +31,11 @@ function Name() {
                             </li>
                             <li>
                                 <b>English</b> because it’s an English
-                                translation. (It seems a little ethnocentric to
-                                leave the language qualifier out of the title of
-                                a Bible translation, although it is true that in
-                                most cases that language of the title itself
+                                translation. Modern English. Our English. (It
+                                seems a little ethnocentric to leave the
+                                language qualifier out of the title of a Bible
+                                translation, although it’s true that in most
+                                cases that language of the title itself
                                 indicates the language of the translation.)
                             </li>
                             <li>

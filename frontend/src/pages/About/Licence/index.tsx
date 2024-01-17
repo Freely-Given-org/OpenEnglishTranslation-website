@@ -25,7 +25,7 @@ function Licence() {
                             <small>(Rev 22:17 OET-RV)</small>
                         </p>
                         <p>
-                            This Bible translation and website are each
+                            The Bible translation and this website are each
                             separately licensed under a Creative Commons
                             Attribution-ShareAlike 4.0 International{' '}
                             <Link href='https://CreativeCommons.org/licenses/by-sa/4.0/'>
@@ -68,19 +68,76 @@ function Licence() {
                         </p>
                         <h1>Copyright</h1>
                         <p>
-                            This <em>OET</em> Bible translation is copyright ©
-                            2010-2023{' '}
+                            The <em>Open English Translation</em> of the Bible
+                            is copyright © 2010-2024{' '}
                             <Link href='https://Freely-Given-org'>
                                 Freely-Given.org
                             </Link>
                             .
                         </p>
                         <p>
-                            This website is copyright © 2022-2023{' '}
+                            This website is copyright © 2022-2024{' '}
                             <Link href='https://Freely-Given-org'>
                                 Freely-Given.org
                             </Link>
                             .
+                        </p>
+                        <h1>Publication Guidelines</h1>
+                        <p>
+                            The <em>OET</em> is offered under an open license
+                            that means that you can copy, use, and even print it
+                            without even requesting permission. However, that
+                            doesn’t mean that it’s not copyrighted—it is and our
+                            copyright and attribution should be displayed in
+                            your publication or on your website, e.g., “This{' '}
+                            <em>Open English Translation</em> of the Bible is
+                            copyright © 2010-2024 by{' '}
+                            <Link href='https://Freely-Given-org'>
+                                Freely-Given.org
+                            </Link>{' '}
+                            and used under the terms of the Creative Commons
+                            Attribution-ShareAlike 4.0 International{' '}
+                            <Link href='https://CreativeCommons.org/licenses/by-sa/4.0/'>
+                                (CC BY-SA 4.0)
+                            </Link>{' '}
+                            licence. The source files are available at{' '}
+                            <Link href='https://OpenEnglishTranslation.Bible'>
+                                https://OpenEnglishTranslation.Bible
+                            </Link>{' '}
+                            and at{' '}
+                            <Link href='https://GitHub.com/Freely-Given-org/OpenEnglishTranslation--OET'>
+                                https://GitHub.com/Freely-Given-org/OpenEnglishTranslation--OET
+                            </Link>{' '}
+                            and were downloaded on such-and-such-a-date.”
+                        </p>
+                        <p>
+                            If you wish to change or adapt the <em>OET</em>, you
+                            can also do that except that now you must change its
+                            name, e.g., “This work was adapted from the{' '}
+                            <em>Open English Translation</em> of the Bible,
+                            copyright © 2010-2024 by{' '}
+                            <Link href='https://Freely-Given-org'>
+                                Freely-Given.org
+                            </Link>{' '}
+                            and used under the terms of the Creative Commons
+                            Attribution-ShareAlike 4.0 International{' '}
+                            <Link href='https://CreativeCommons.org/licenses/by-sa/4.0/'>
+                                (CC BY-SA 4.0)
+                            </Link>{' '}
+                            licence. Those original source files are available
+                            at{' '}
+                            <Link href='https://OpenEnglishTranslation.Bible'>
+                                https://OpenEnglishTranslation.Bible
+                            </Link>{' '}
+                            and at{' '}
+                            <Link href='https://GitHub.com/Freely-Given-org/OpenEnglishTranslation--OET'>
+                                https://GitHub.com/Freely-Given-org/OpenEnglishTranslation--OET
+                            </Link>{' '}
+                            and were last downloaded on such-and-such-a-date.”
+                            <br />
+                            Because the <em>OET</em> licence is a ‘share-alike’
+                            licence, you must also make your derived work
+                            available on the same terms.
                         </p>
                     </MainPageContent>
                 </Page>
