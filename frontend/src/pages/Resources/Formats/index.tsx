@@ -17,18 +17,22 @@ function Formats() {
                         <p>
                             One important factor in providing a tagged Bible
                             translation for free use in Bible apps and programs
-                            is that the data must be readily accessible in
-                            convenient forms. Hence, Freely-Given has invested
-                            in designing Bible databases and file formats that
-                            themselves are offered to the Bible software world
-                            as a gift to use in whatever ways meets your needs.
+                            is that{' '}
+                            <b>
+                                the data must be readily accessible in
+                                convenient forms
+                            </b>
+                            . Hence, Freely-Given.org has invested in designing
+                            Bible databases and file formats that themselves are
+                            offered to the Bible software world as a gift to use
+                            in whatever ways meets your needs.
                         </p>
                         <p>
                             Putting that a different way, the <em>OET</em>
-                             attempts to lead and set new directions not just in
-                            the way the Bible text is translated and how it’s
-                            presented to the user, but also how it’s saved on
-                            computers and linked to helpful databases.
+                             attempts to <b>lead and set new directions</b> not
+                            just in the way the Bible text is translated and how
+                            it’s presented to the user, but also how it’s saved
+                            on computers and linked to helpful databases.
                         </p>
                         <h1>Bible Books Codes</h1>
                         <p>

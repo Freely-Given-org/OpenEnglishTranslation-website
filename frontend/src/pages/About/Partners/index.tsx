@@ -24,18 +24,22 @@ function Partners() {
                             Wanting to gift your God-given skills to the Bible
                             world? Excited that your work could be freely reused
                             by Bible translators across all the continents
-                            (especially in the smaller language communities)?
-                            Yes, we need you!
+                            (especially in the smaller language communities) and
+                            for decades to come (because the source files are
+                            available for future revisions)? Yes, we need you!
                         </p>
                         <p>
                             Sadly we’ve seen examples of older people who’ve
                             worked on Bible resources in their retirement years,
                             but didn’t make their source files publicly
-                            available online. Often, their work or private
-                            website has disappeared offline once God called them
-                            home. If you’re in your later years and have skills
-                            to develop Bible resources, invest them into a
-                            project where everything is{' '}
+                            available online. Often, their{' '}
+                            <Link href='https://web.archive.org/web/20210309160638/https://www.isv.org/bible/'>
+                                work
+                            </Link>{' '}
+                            or private website has disappeared offline once God
+                            called them home. If you’re in your later years and
+                            have skills to develop Bible resources, invest them
+                            into a project where everything is{' '}
                             <Link href='https://GitHub.com/Freely-Given-org'>
                                 online and public
                             </Link>{' '}
@@ -128,14 +132,36 @@ function Partners() {
                             interpreted differently. That’s ok, unless we’ve
                             interpreted the Greek wrongly! We don’t want that.
                         </p>
+                        <h2>Topic specialists</h2>
                         <p>
-                            Or perhaps you have a certain speciality and would
-                            like to improve or expand our drafts of the book
+                            Perhaps you have a certain speciality and would like
+                            to improve or expand our drafts of the book
                             introductions, or write a set of footnotes about
                             some helpful topic. One advantage of working in an
                             open translation, is that your scholarship is then
                             freely available to future generations as well.
                         </p>
+                        <p>
+                            We would like to have sets of open-licensed,
+                            specialist footnotes and/or study-notes that can be
+                            programmatically swapped in and out in order to
+                            produce specialist Bible websites and/or specialist
+                            printings. These include things like:
+                        </p>
+                        <ul>
+                            <li>
+                                notes for Muslim, Hindu, atheist, etc., readers
+                            </li>
+                            <li>notes on theological and doctrinal issues</li>
+                            <li>
+                                notes linking the ‘Hebrew Scriptures’ (Old
+                                Testament) with the ‘Messianic Update’ (New
+                                Testament) and vv.
+                            </li>
+                            <li>notes on archaeological discoveries</li>
+                            <li>textual criticsm notes</li>
+                            <li>and more...</li>
+                        </ul>
                         <h1>Sponsors wanted</h1>
                         <p>
                             We also need financial help for this project to
@@ -147,11 +173,9 @@ function Partners() {
                             there’s also printing costs—only for small test runs
                             of Bible portions at this stage. We would also like
                             to be able to pay for services from contract
-                            programmers and web developers. Then if there’s any
-                            extra, it will also be appreciated for helping to
-                            pay the grocery bill. Again, please use the{' '}
-                            <Link href='/About/Contact'>contact page</Link> to
-                            get in touch directly.
+                            programmers and web developers. Again, please use
+                            the <Link href='/About/Contact'>contact page</Link>{' '}
+                            to get in touch directly.
                         </p>
                     </MainPageContent>
                 </Page>

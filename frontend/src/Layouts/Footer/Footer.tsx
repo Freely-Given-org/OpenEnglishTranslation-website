@@ -96,9 +96,9 @@ function Footer() {
                     </a>
                 </div>
                 <span className={styles['copyright']}>
-                    Copyright © 2022-2023 &nbsp;
+                    Copyright © 2022-2024 &nbsp;
                     <a
-                        href='https://github.com/Freely-Given-org'
+                        href='https://GitHub.com/Freely-Given-org'
                         target='blank'
                     >
                         Freely-Given.org

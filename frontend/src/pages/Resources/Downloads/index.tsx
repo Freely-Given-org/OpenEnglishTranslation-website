@@ -16,7 +16,7 @@ function Downloads() {
                         <h1>Downloads</h1>
                         <p>
                             We aim to have some initial PDF downloads of draft
-                            texts here by the end of 2023.
+                            New Testament texts here by mid-2024.
                         </p>
                         <p>
                             The in-progress source files of the <em>OET</em> are{' '}

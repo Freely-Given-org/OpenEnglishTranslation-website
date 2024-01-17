@@ -213,7 +213,7 @@ function FAQ() {
                             finally able to resume full-time work on the{' '}
                             <em>OET</em> in July 2022. Any Bible translation
                             takes several years of work, but we hope to have the
-                            first draft of the New Testament by the end of 2023.
+                            first draft of the New Testament in early 2024.
                             Further progress depends on how many volunteers we
                             can recruit to help. (For example, without any other
                             software developers, time has to be taken off
@@ -504,9 +504,9 @@ function FAQ() {
                             <em>Literal Version</em>, the{' '}
                             <em>Readers’ Version</em>, and perhaps also the{' '}
                             <em>Colloquial Version</em> simultaneously, and we
-                            hope to make the New Testament available by the end
-                            of 2024, with the Old Testament being released by
-                            the end of 2030. The Study Version and the Extended
+                            hope to complete the first draft of the New
+                            Testament in early 2024, with the Old Testament
+                            draft by 2028. The Study Version and the Extended
                             Version will also be developed together, but not
                             until after the V1.0 release of the first two
                             versions, so no time frame is available for them

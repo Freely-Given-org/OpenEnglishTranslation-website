@@ -35,10 +35,11 @@ function Reader() {
                             <small>
                                 You should note that the <em>OET</em> project is
                                 still in the very early, startup phases and so
-                                you are viewing very early, rough drafts just to
-                                demonstrate some of the concepts. We are aiming
-                                to release the <em>OET New Testament</em> by the
-                                end of 2024.
+                                you are viewing very early, rough drafts of the
+                                New Testament made available to demonstrate some
+                                of the concepts and for early users to start
+                                testing. We are aiming to start drafting the{' '}
+                                <em>OET Old Testament</em> by mid-2024.
                             </small>
                         </p>
                         <ReaderIframe src='https://Freely-Given.org/OBD/OET/bySec/MRK_S2.htm#Top' />
@@ -52,7 +53,7 @@ function Reader() {
                                 (
                                 <Link
                                     href='https://Freely-Given.org/OBD/OET/bySec/JHN_S2.htm#Top'
-                                    target='blank'
+                                    target='_blank'
                                 >
                                     Open reader site in separate tab
                                 </Link>
