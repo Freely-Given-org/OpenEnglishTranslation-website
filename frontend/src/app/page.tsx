@@ -1,5 +1,4 @@
-'use client'
-
+'use client';
 
 import type { NextPage } from 'next';
 import Image from 'next/image';
@@ -11,7 +10,6 @@ import Page from '../Components/page/page';
 import Footer from '../Layouts/Footer/Footer';
 import Header from '../Layouts/Header/Header';
 import Main from '../Layouts/main/main';
-import styles from './Home.module.scss';
 
 const Home: NextPage = () => {
     return (
@@ -20,7 +18,7 @@ const Home: NextPage = () => {
             <Main>
                 <Page>
                     <MainPageContent>
-                        <div className={styles.banner}>
+                        <div>
                             <h1>Exciting new Bible translation!</h1>
                             <p>
                                 Yes, work on the{' '}
@@ -126,13 +124,12 @@ const Home: NextPage = () => {
                                 <Link href='/Reader'>Reader</Link>.
                             </p>
                         </div>
-                        <div className={styles.bannerFeed}>
+                        <div>
                             <Image
                                 src={HomePagePhoto}
                                 alt='Picture of an open Bible'
                                 width={500}
                                 height={333.333}
-                                className={styles.homePagePhoto}
                             />
                             <p>
                                 Photo by{' '}
@@ -145,7 +142,7 @@ const Home: NextPage = () => {
                                 </Link>
                             </p>
                         </div>
-                        <div className={styles.banner}>
+                        <div>
                             <p>
                                 We’re <b>needing more volunteers</b> to help
                                 with many aspects of this work including{' '}
@@ -230,14 +227,13 @@ const Home: NextPage = () => {
                                     Bible.)
                                 </small>
                             </p>
-                            <p className={styles.right}>
+                            <p>
                                 <Link href='/Design/Overview'>
                                     Read Overview
                                 </Link>
                             </p>
                         </div>
                     </MainPageContent>
-                    <div className={styles.pageSidebar}></div>
                 </Page>
             </Main>
             <Footer />
