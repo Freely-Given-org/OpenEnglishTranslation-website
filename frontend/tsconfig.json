@@ -14,9 +14,9 @@
         "resolveJsonModule": true,
         "isolatedModules": true,
         "noEmit": true,
-        "jsx": "preserve",
-        "incremental": true
+        "jsx": "react-jsx",
+        "jsxImportSource": "@emotion/react",
+        "baseUrl": "src"
     },
-    "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "next.config.js"],
-    "exclude": [".eslintrc.cjs", ".env.local"]
+    "include": ["src"]
 }
