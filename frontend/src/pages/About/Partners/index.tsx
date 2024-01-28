@@ -172,23 +172,28 @@ function Partners() {
                             of the world, the names of the Bible characters were
                             adapted or transliterated from the major language
                             (e.g., English or Spanish or French) names, and not
-                            from the Hebrew or Greek names? Could this be
-                            improved? Not easily because of the power of
-                            tradition, but that doesn’t mean that it’s
-                            impossible.
+                            from the Hebrew or Greek names? So that means in
+                            some cases for example, the people’s Hebrew names
+                            were translated in Greek, then into English or
+                            Spanish, etc., then into the country’s national
+                            language, and then into the country’s minority
+                            languages. Could this be improved? Not easily
+                            because of the power of tradition, but that doesn’t
+                            mean that it’s impossible.
                         </p>
                         <p>
                             Did you know that the NZ Māori (Te Reo Māori) Bible
-                            does not necessarily use the best term for God
-                            (Atua)? Wow, changing that now would be a big step!
-                            Also, did you know that some important Biblical
-                            terms were just invented instead of translated. For
-                            example, Eph. 6:2, “<b>Honour</b> your father and
-                            mother…” became “Whaka<b>honor</b>etia tou papa me
-                            tou whaea…”. Could this be improved? Yes, it could!
-                            Similarly for Rom. 2:10, “but <b>glory</b>, honor
-                            and peace for everyone…” became “He <b>kororia</b>{' '}
-                            ia, he honore, he rangimarie, …”.
+                            does not necessarily use the best term for God (
+                            <i>Atua</i>)? Wow, changing that now would be a huge
+                            change! Also, did you know that some important
+                            Biblical terms were just invented instead of
+                            translated. For example, Eph. 6:2, “<b>Honour</b>{' '}
+                            your father and mother…” became “Whaka<b>honor</b>
+                            etia tou papa me tou whaea…”. Could this be
+                            improved? Yes, it could! Similarly for Rom. 2:10,
+                            “but <b>glory</b>, honor and peace for everyone…”
+                            became “He <b>kororia</b> ia, he honore, he
+                            rangimarie, …”.
                         </p>
                         <p>
                             What about <em>your</em> language? Could the Bible
@@ -203,7 +208,7 @@ function Partners() {
                                 all stand. But times certainly change and
                                 languages constantly change as well, so maybe
                                 the Bible translation world can also be
-                                challenged to update?
+                                challenged to update and improve?
                             </small>
                         </p>
                         <h1>Sponsors wanted</h1>
