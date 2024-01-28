@@ -43,7 +43,8 @@ function Partners() {
                             <Link href='https://GitHub.com/Freely-Given-org'>
                                 online and public
                             </Link>{' '}
-                            and is free and open for everyone to use.
+                            and is free and open for everyone to use and to
+                            continue to build on and improve.
                         </p>
                         <h2>Programmers</h2>
                         <p>
@@ -130,7 +131,8 @@ function Partners() {
                             many places in an English Bible translation where
                             the meaning of the original writer could be
                             interpreted differently. That’s ok, unless we’ve
-                            interpreted the Greek wrongly! We don’t want that.
+                            interpreted the original languages wrongly! We don’t
+                            want that.
                         </p>
                         <h2>Topic specialists</h2>
                         <p>
@@ -162,6 +164,48 @@ function Partners() {
                             <li>textual criticsm notes</li>
                             <li>and more...</li>
                         </ul>
+                        <h2>Language Experts</h2>
+                        <p>
+                            The <em>OET</em> dream is actually a huge one that
+                            could extend towards other languages beyond English.
+                            Did you know that in many less prominent languages
+                            of the world, the names of the Bible characters were
+                            adapted or transliterated from the major language
+                            (e.g., English or Spanish or French) names, and not
+                            from the Hebrew or Greek names? Could this be
+                            improved? Not easily because of the power of
+                            tradition, but that doesn’t mean that it’s
+                            impossible.
+                        </p>
+                        <p>
+                            Did you know that the NZ Māori (Te Reo Māori) Bible
+                            does not necessarily use the best term for God
+                            (Atua)? Wow, changing that now would be a big step!
+                            Also, did you know that some important Biblical
+                            terms were just invented instead of translated. For
+                            example, Eph. 6:2, “<b>Honour</b> your father and
+                            mother…” became “Whaka<b>honor</b>etia tou papa me
+                            tou whaea…”. Could this be improved? Yes, it could!
+                            Similarly for Rom. 2:10, “but <b>glory</b>, honor
+                            and peace for everyone…” became “He <b>kororia</b>{' '}
+                            ia, he honore, he rangimarie, …”.
+                        </p>
+                        <p>
+                            What about <em>your</em> language? Could the Bible
+                            translation you use be improved? Are the commercial
+                            Bible publishing companies interested in doing this?
+                            If not, maybe we could work together with you?
+                        </p>
+                        <p>
+                            <small>
+                                Just to clarify, we’re not here to judge those
+                                who’ve gone before us and on whose shoulders we
+                                all stand. But times certainly change and
+                                languages constantly change as well, so maybe
+                                the Bible translation world can also be
+                                challenged to update?
+                            </small>
+                        </p>
                         <h1>Sponsors wanted</h1>
                         <p>
                             We also need financial help for this project to
