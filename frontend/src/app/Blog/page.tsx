@@ -15,16 +15,16 @@ interface blog {
     params: { id: '3' };
 }
 
-export async function getStaticProps() {
-    const blogs: blog[] = await getAllBlogIds();
+// export async function getStaticProps() {
+//     const blogs: blog[] = await getAllBlogIds();
 
-    return {
-        props: {
-            blogs: blogs,
-        },
-        revalidate: 3600,
-    };
-}
+//     return {
+//         props: {
+//             blogs: blogs,
+//         },
+//         revalidate: 3600,
+//     };
+// }
 
 const Home: NextPage = ({ blogs }: any) => {
     return (
