@@ -14,8 +14,9 @@ const Home = ({ blogs }: any) => {
             <Header />
             <Main>
                 <Page>
+                    
                     <MainPageContent>
-                        <ul>
+                        {/* <ul>
                             {blogs.map((blog: any) => (
                                 <li>
                                     <Link
@@ -27,7 +28,7 @@ const Home = ({ blogs }: any) => {
                                     ;
                                 </li>
                             ))}
-                        </ul>
+                        </ul> */}
                         <h1>What’s that ‘for’?</h1>
                         <p>
                             The most memorised Bible verse in the world was John

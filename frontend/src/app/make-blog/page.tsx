@@ -17,7 +17,7 @@ const SimpleMDE = dynamic(() => import('react-simplemde-editor'), {
 });
 
 const Home: NextPage = () => {
-    const [blog, setBlog] = useState<FormData>();
+    const [blog, setBlog] = useState<any>();
     const [date, setDate] = useState<any>();
 
     const [auth, setAuth] = useState({ username: '', password: '' });
@@ -129,7 +129,7 @@ const Home: NextPage = () => {
                     },
                 ]);
                 blog.append('image', img, [img.name]);
-            } else {
+            } else {4
                 setImageURL([
                     {
                         name: img.name,
