@@ -79,3 +79,6 @@ function Blog({ blog }: any) {
 }
 
 export default Blog;
+
+
+export const runtime = 'edge';
