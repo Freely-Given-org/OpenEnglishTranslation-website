@@ -185,8 +185,8 @@ const Home = ({ blogs }: any) => {
                             </Link>
                             ) and you’ll quickly discover that.
                         </p>
-                        <p>
-                            Now it’s true that the mother of a the rebellious
+                        <p>1
+                            Now it’s true that the mother of a the rebellious1
                             teenager might tell him/her: “I’d like to have a
                             word with you about the language that you’ve been
                             using.” Or someone might ask, “What’s the word on

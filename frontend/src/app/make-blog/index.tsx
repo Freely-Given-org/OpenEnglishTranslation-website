@@ -8,7 +8,6 @@ import rehypePrism from 'rehype-prism-plus';
 import rehypeRaw from 'rehype-raw';
 import remarkGfm from 'remark-gfm';
 
-import styles from './make-blog.module.scss';
 import { MenuItem, Select } from '@mui/material';
 
 const SimpleMDE = dynamic(() => import('react-simplemde-editor'), {
@@ -183,10 +182,9 @@ const Home: NextPage = () => {
                     minHeight: '100vh',
                 }}
             >
-                <div className={styles['make-blog']}>
+                <div>
                     <input
                         value={title}
-                        className={styles.inputs}
                         type='text'
                         placeholder='Title'
                         onChange={(e) => {
@@ -208,13 +206,12 @@ const Home: NextPage = () => {
                                 setPublished(e.target.value);
                             }}
                         >
-                            <MenuItem  value='false'>False</MenuItem >
-                            <MenuItem  value='true'>True</MenuItem >
+                            <MenuItem value='false'>False</MenuItem>
+                            <MenuItem value='true'>True</MenuItem>
                         </Select>
                     </div>
                     <input
                         value={author}
-                        className={styles.inputs}
                         type='text'
                         placeholder='Author'
                         onChange={(e) => {
@@ -222,20 +219,14 @@ const Home: NextPage = () => {
                         }}
                     />
                     <input
-                        className={styles.inputs}
                         value={input}
                         placeholder='Enter a label'
                         onKeyDown={onKeyDown}
                         onChange={onChange}
                     />
-                    <div className={styles.tags}>
+                    <div>
                         {labels.map((tag, index) => (
-                            <div
-                                onClick={() => deleteTag(index)}
-                                className={styles.tag}
-                            >
-                                {tag}
-                            </div>
+                            <div onClick={() => deleteTag(index)}>{tag}</div>
                         ))}
                     </div>
                     <div style={{ minHeight: '30px' }}>
@@ -267,7 +258,6 @@ const Home: NextPage = () => {
                     />
                     <SimpleMDE
                         options={options}
-                        className={styles.editor}
                         value={body}
                         onChange={(e) => {
                             setBody(e);
@@ -305,7 +295,7 @@ const Home: NextPage = () => {
                         </div>
                     ) : null}
                 </div>
-                <div className={styles['show-blog']}>
+                <div>
                     <h1>{title}</h1>
                     <ReactMarkdown
                         children={body}
