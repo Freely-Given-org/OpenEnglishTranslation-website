@@ -10,6 +10,14 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/4.0/ref/settings/
 """
 
+from .utils import load_env 
+
+BASE_DIR = Path(__file__).parent.parent.parent 
+
+load_env(BASE_DIR / "../.env") #here you indicate where your .env file is
+
+SECRET_KEY = os.environ['SECRET_KEY']
+
 from pathlib import Path
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
@@ -20,7 +28,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/4.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-o*(@)7-5nbs_i!b9a$&h6y@(rw9u3ul+3j7wg(lpdv5v9qf!@u'
+
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -86,10 +94,10 @@ CORS_ORIGIN_ALLOW_ALL = True
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'postgres',
-        'USER': 'postgres',
-        'PASSWORD': 'mynewpassword',
-        'HOST': '100.119.132.63',
+        'NAME': os.environ['DJANGO_DATABASE_NAME']
+        'USER': os.environ['DJANGO_DATABASE_USER']
+        'PASSWORD': os.environ['DJANGO_DATABASE_PASSWORD']
+        'HOST': os.environ['DJANGO_DATABASE_HOST']
         'PORT': '5432',
     }
 }
