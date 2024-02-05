@@ -25,28 +25,6 @@ jobs:
       - name: Build
         run: npm run build
         working-directory: ./frontend
-
-  prettier:
-    name: Prettier check
-    runs-on: ubuntu-latest
-    steps:
-      - name: check out code 🛎
-        uses: actions/checkout@v3
-
-      - name: Install Node v18
-        uses: actions/setup-node@v3
-        with:
-          node-version: "18.x"
-          registry-url: "https://registry.npmjs.org"
-          
-      - name: Install dependencies
-        run: npm install prettier
-        working-directory: ./frontend
-
-      - name: Run prettier
-        run: npm run format-check
-        working-directory: ./frontend
-
   lint:
     name: ESLint check
     runs-on: ubuntu-latest

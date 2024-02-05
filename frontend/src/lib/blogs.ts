@@ -1,9 +1,9 @@
 import GET from 'axios';
-const serverURL = process.env.DJAGO_SERVER_URL as string;
+const serverURL = process.env.NEXT_PUBLIC_API_URL as string;
 
 export async function getAllBlogIds() {
     try {
-        const blogs: any = await GET(`${serverURL}/api/blogs/published/`);
+        const blogs = await GET(`${serverURL}/api/blogs/published/`);
 
         return await blogs.data.map((blog: any) => {
             return {
@@ -23,7 +23,7 @@ export async function getBlogData(pk: string) {
     else query = '';
 
     try {
-        const blogQuery: any = await GET(
+        const blogQuery = await GET(
             `${serverURL}/api/blogs/published/?${query}`,
         );
         return {

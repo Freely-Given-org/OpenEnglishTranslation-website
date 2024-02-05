@@ -1,19 +1,18 @@
 import FacebookIcon from '@mui/icons-material/Facebook';
 import TwitterIcon from '@mui/icons-material/Twitter';
-import Link from 'next/link';
+import { Link } from '@mui/material';
+import NextLink from 'next/link';
 
-import { BigHomeLogo } from '../../Assets/SVGs';
 import styles from './Footer.module.scss';
+import { BigHomeLogo } from '../../Assets/SVGs';
 
 function Footer() {
     return (
         <div className={styles['footer']}>
             <div className={styles['footer-container']}>
                 <span className={styles['home-logo']}>
-                    <Link href={'/'}>
-                        <a>
-                            <BigHomeLogo className={styles['big-main-logo']} />
-                        </a>
+                    <Link component={NextLink} href={'/'}>
+                        <BigHomeLogo className={styles['big-main-logo']} />
                     </Link>
                 </span>
                 <div className={styles['link-list-left']}>
