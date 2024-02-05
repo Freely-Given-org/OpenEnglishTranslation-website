@@ -3,13 +3,11 @@
 import Image from 'next/image';
 import Link from 'next/link';
 
-import HelpersPhoto from '../../../Assets/john-schnobrich-2FPjlAyMQTA-unsplash.jpg';
 import MainPageContent from '../../../Components/page/MainPageContent/MainPageContent';
 import Page from '../../../Components/page/page';
 import Footer from '../../../Layouts/Footer/Footer';
 import Header from '../../../Layouts/Header/Header';
 import Main from '../../../Layouts/main/main';
-import styles from '../../Home.module.scss';
 
 function Partners() {
     return (
@@ -70,13 +68,12 @@ function Partners() {
                             there’s no book named ‘James’. Also, terms like ‘New
                             Testament’ do not apply to the <em>OET</em>.
                         </p>
-                        <div className={styles.bannerFeed}>
+                        <div>
                             <Image
-                                src={HelpersPhoto}
+                                src={"/assets/john-schnobrich-2FPjlAyMQTA-unsplash.jpg"}
                                 alt='Picture of an open Bible'
                                 width={500}
                                 height={333.333}
-                                className={styles.helperPhoto}
                             />
                             <p>
                                 Photo by{' '}

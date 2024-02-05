@@ -4,7 +4,6 @@ import type { NextPage } from 'next';
 import Image from 'next/image';
 import Link from 'next/link';
 
-import HomePagePhoto from '../Assets/sixteen-miles-out-MLOZazGGCb8-unsplash.jpg';
 import MainPageContent from '../Components/page/MainPageContent/MainPageContent';
 import Page from '../Components/page/page';
 import Footer from '../Layouts/Footer/Footer';
@@ -126,7 +125,7 @@ const Home: NextPage = () => {
                         </div>
                         <div>
                             <Image
-                                src={HomePagePhoto}
+                                src={"/assets/sixteen-miles-out-MLOZazGGCb8-unsplash.jpg"}
                                 alt='Picture of an open Bible'
                                 width={500}
                                 height={333.333}

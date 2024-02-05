@@ -9,6 +9,7 @@ import rehypeRaw from 'rehype-raw';
 import remarkGfm from 'remark-gfm';
 
 import styles from './make-blog.module.scss';
+import { MenuItem, Select } from '@mui/material';
 
 const SimpleMDE = dynamic(() => import('react-simplemde-editor'), {
     ssr: false,
@@ -200,17 +201,16 @@ const Home: NextPage = () => {
                         }}
                     >
                         <label>Publish</label>
-                        <select
+                        <Select
                             value={published}
-                            className={styles.inputs}
-                            placeholder='Published'
+                            label='Published'
                             onChange={(e) => {
                                 setPublished(e.target.value);
                             }}
                         >
-                            <option value='false'>False</option>
-                            <option value='true'>True</option>
-                        </select>
+                            <MenuItem  value='false'>False</MenuItem >
+                            <MenuItem  value='true'>True</MenuItem >
+                        </Select>
                     </div>
                     <input
                         value={author}
