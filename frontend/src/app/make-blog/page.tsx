@@ -1,3 +1,5 @@
+'use client';
+
 import axios from 'axios';
 import type { NextPage } from 'next';
 import dynamic from 'next/dynamic';
@@ -15,7 +17,7 @@ const SimpleMDE = dynamic(() => import('react-simplemde-editor'), {
 });
 
 const Home: NextPage = () => {
-    const [blog, setBlog] = useState<any>();
+    const [blog, setBlog] = useState<FormData>();
     const [date, setDate] = useState<any>();
 
     const [auth, setAuth] = useState({ username: '', password: '' });
@@ -91,6 +93,7 @@ const Home: NextPage = () => {
     };
 
     const submitValue = async () => {
+        if (!blog) return;
         blog.append('title', title);
         if (published === 'true') {
             blog.append('published', 'true');
@@ -99,14 +102,10 @@ const Home: NextPage = () => {
         }
         blog.append('body', body);
         blog.append('author', author);
-        blog.append('labels', labels);
-
-        for (const pair of blog.entries()) {
-            console.log(pair[0] + ', ' + pair[1]);
-        }
+        blog.append('labels', labels.toString());
 
         await axios
-            .post('http://192.168.120.180:8080/api/blogs/', blog, {
+            .post(`http://localhost:8000/api/blogs/`, blog, {
                 auth: auth,
                 headers: { 'content-type': 'multipart/form-data' },
             })
