@@ -1,7 +1,7 @@
 from django.shortcuts import render
 
 from django.http.response import JsonResponse
-from rest_framework.parsers import JSONParser 
+from rest_framework.parsers import JSONParser, FormParser 
 from rest_framework import status
  
 from blog.models import Blog
@@ -48,7 +48,7 @@ def blog_list(request):
         # 'safe=False' for objects serialization
 
     elif request.method == 'POST':
-        blog_data = JSONParser().parse(request)
+        blog_data = FormParser().parse(request)
         Blog_serializer = BlogSerializer(data=blog_data)
         if Blog_serializer.is_valid():
             Blog_serializer.save()
