@@ -1,14 +1,14 @@
-"use client";
+'use client';
 
-import { Link } from "@mui/material";
-import MainPageContent from "Components/page/MainPageContent/MainPageContent";
-import SideBar from "Components/page/MainPageContent/SideBar/SideBar";
-import Page from "Components/page/page";
-import Footer from "Layouts/Footer/Footer";
-import Header from "Layouts/Header/Header";
-import Main from "Layouts/main/main";
+import { Link } from '@mui/material';
+import MainPageContent from 'Components/page/MainPageContent/MainPageContent';
+import SideBar from 'Components/page/MainPageContent/SideBar/SideBar';
+import Page from 'Components/page/page';
+import Footer from 'Layouts/Footer/Footer';
+import Header from 'Layouts/Header/Header';
+import Main from 'Layouts/main/main';
 
-const Home = ({ blogs }: any) => {
+const Home = ({ _blogs }: any) => {
     return (
         <>
             <Header />

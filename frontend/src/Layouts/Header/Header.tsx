@@ -1,16 +1,16 @@
 import CloseIcon from '@mui/icons-material/Close';
 import MenuRoundedIcon from '@mui/icons-material/MenuRounded';
+import { Link } from '@mui/material';
 import { NextPage } from 'next';
-import { useState } from 'react';
 import NextLink from 'next/link';
+import { useState } from 'react';
 
+import styles from './Header.module.scss';
 import { BigHomeLogo, SmallHomeLogo } from '../../Assets/SVGs';
 import SideMenu from '../../Components/menu/SideMenu/SideMenu';
 import About from '../../Components/navDropdowns/About';
 import Design from '../../Components/navDropdowns/Design';
 import Resources from '../../Components/navDropdowns/Resources';
-import styles from './Header.module.scss';
-import { Link } from '@mui/material';
 
 const Header: NextPage = () => {
     const [sideMenu, setsideMenu] = useState(false);
@@ -47,9 +47,9 @@ const Header: NextPage = () => {
                         <li>
                             <Resources phoneNav={true} />
                         </li>
-                        <li>
+                        {/* <li>
                             <Link href={'/Blog'}>Blog</Link>
-                        </li>
+                        </li> */}
                         <li>
                             <About phoneNav={true} />
                         </li>

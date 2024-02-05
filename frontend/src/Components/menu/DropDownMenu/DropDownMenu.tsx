@@ -1,8 +1,8 @@
 import Link from 'next/link';
 import { useState } from 'react';
 
-import { Triangle } from '../../../Assets/SVGs';
 import styles from './DropDownMenu.module.scss';
+import { Triangle } from '../../../Assets/SVGs';
 
 interface item {
     name: string;

@@ -1,4 +1,4 @@
-"use client";
+'use client';
 
 import Image from 'next/image';
 import Link from 'next/link';
@@ -70,7 +70,7 @@ function Partners() {
                         </p>
                         <div>
                             <Image
-                                src={"/assets/john-schnobrich-2FPjlAyMQTA-unsplash.jpg"}
+                                src={'/assets/john-schnobrich-2FPjlAyMQTA-unsplash.jpg'}
                                 alt='Picture of an open Bible'
                                 width={500}
                                 height={333.333}

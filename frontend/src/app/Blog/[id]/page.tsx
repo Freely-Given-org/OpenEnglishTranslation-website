@@ -1,16 +1,16 @@
-"use client";
+'use client';
 
 import MainPageContent from 'Components/page/MainPageContent/MainPageContent';
 import SideBar from 'Components/page/MainPageContent/SideBar/SideBar';
+import Page from 'Components/page/page';
 import Footer from 'Layouts/Footer/Footer';
 import Header from 'Layouts/Header/Header';
+import Main from 'Layouts/main/main';
 import { useEffect } from 'react';
 import ReactMarkdown from 'react-markdown';
 import rehypePrism from 'rehype-prism-plus';
 import rehypeRaw from 'rehype-raw';
 import remarkGfm from 'remark-gfm';
-import Main from 'Layouts/main/main';
-import Page from 'Components/page/page';
 
 
 // export async function getStaticPaths() {

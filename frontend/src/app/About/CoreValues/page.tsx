@@ -1,4 +1,4 @@
-"use client";
+'use client';
 
 import MainPageContent from '../../../Components/page/MainPageContent/MainPageContent';
 import Page from '../../../Components/page/page';

@@ -125,7 +125,7 @@ const Home: NextPage = () => {
                         </div>
                         <div>
                             <Image
-                                src={"/assets/sixteen-miles-out-MLOZazGGCb8-unsplash.jpg"}
+                                src={'/assets/sixteen-miles-out-MLOZazGGCb8-unsplash.jpg'}
                                 alt='Picture of an open Bible'
                                 width={500}
                                 height={333.333}

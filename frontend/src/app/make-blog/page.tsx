@@ -1,5 +1,6 @@
 'use client';
 
+import { MenuItem, Select } from '@mui/material';
 import axios from 'axios';
 import type { NextPage } from 'next';
 import dynamic from 'next/dynamic';
@@ -9,8 +10,6 @@ import ReactMarkdown from 'react-markdown';
 import rehypePrism from 'rehype-prism-plus';
 import rehypeRaw from 'rehype-raw';
 import remarkGfm from 'remark-gfm';
-
-import { MenuItem, Select } from '@mui/material';
 
 const SimpleMDE = dynamic(() => import('react-simplemde-editor'), {
     ssr: false,
@@ -129,7 +128,8 @@ const Home: NextPage = () => {
                     },
                 ]);
                 blog.append('image', img, [img.name]);
-            } else {4
+            } else {
+                4;
                 setImageURL([
                     {
                         name: img.name,

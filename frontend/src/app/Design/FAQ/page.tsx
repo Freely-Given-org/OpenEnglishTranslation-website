@@ -1,14 +1,14 @@
-"use client";
+'use client';
 
+import { Link } from '@mui/material';
 import NextLink from 'next/link';
 
+import styles from './FAQ.module.scss';
 import MainPageContent from '../../../Components/page/MainPageContent/MainPageContent';
 import Page from '../../../Components/page/page';
 import Footer from '../../../Layouts/Footer/Footer';
 import Header from '../../../Layouts/Header/Header';
 import Main from '../../../Layouts/main/main';
-import styles from './FAQ.module.scss';
-import { Link } from '@mui/material';
 
 function FAQ() {
     return (

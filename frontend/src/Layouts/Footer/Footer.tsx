@@ -1,10 +1,10 @@
 import FacebookIcon from '@mui/icons-material/Facebook';
 import TwitterIcon from '@mui/icons-material/Twitter';
+import { Link } from '@mui/material';
 import NextLink from 'next/link';
 
-import { BigHomeLogo } from '../../Assets/SVGs';
 import styles from './Footer.module.scss';
-import { Link } from '@mui/material';
+import { BigHomeLogo } from '../../Assets/SVGs';
 
 function Footer() {
     return (
