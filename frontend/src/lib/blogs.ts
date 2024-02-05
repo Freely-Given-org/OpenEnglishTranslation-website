@@ -1,5 +1,5 @@
 import GET from 'axios';
-const serverURL = process.env.DJAGO_SERVER_URL as string;
+const serverURL = process.env.NEXT_PUBLIC_API_URL as string;
 
 export async function getAllBlogIds() {
     try {

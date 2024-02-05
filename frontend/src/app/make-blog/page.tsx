@@ -105,7 +105,7 @@ const Home: NextPage = () => {
         blog.append('labels', labels.toString());
 
         await axios
-            .post(`http://localhost:8000/api/blogs/`, blog, {
+            .post(`${process.env.NEXT_PUBLIC_API_URL}/api/blogs/`, blog, {
                 auth: auth,
                 headers: { 'content-type': 'multipart/form-data' },
             })
