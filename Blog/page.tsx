@@ -1,7 +1,7 @@
 "use client";
 
 
-import { getAllBlogIds } from '../../lib/blogs';
+import { getAllBlogIds } from '../src/lib/blogs';
 import Home from './blogs-home';
 
 interface blog {
