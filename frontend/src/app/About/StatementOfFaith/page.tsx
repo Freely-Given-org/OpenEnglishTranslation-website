@@ -89,8 +89,8 @@ function StatementOfFaith() {
                             until this point have come from a ‘Western’
                             protestant background. More particularly, the
                             founder comes from a conservative Pentecostal
-                            background, also believing that if Genesis isn't
-                            accurate, then the rest of the Bible isn't worth
+                            background, also believing that if Genesis isn’t
+                            accurate, then the rest of the Bible isn’t worth
                             believing either, i.e., from a six-day creation
                             background.
                         </p>

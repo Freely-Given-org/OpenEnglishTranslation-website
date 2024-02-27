@@ -70,20 +70,25 @@ function Partners() {
                         </p>
                         <div>
                             <Image
-                                src={'/assets/john-schnobrich-2FPjlAyMQTA-unsplash.jpg'}
+                                src={
+                                    '/assets/john-schnobrich-2FPjlAyMQTA-unsplash.jpg'
+                                }
                                 alt='Picture of an open Bible'
                                 width={500}
                                 height={333.333}
                             />
                             <p>
-                                Photo by{' '}
-                                <Link href='https://unsplash.com/@johnschno?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText'>
-                                    John Schnobrich
-                                </Link>{' '}
-                                on{' '}
-                                <Link href='https://unsplash.com/photos/2FPjlAyMQTA?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText'>
-                                    Unsplash
-                                </Link>
+                                  
+                                <small>
+                                    Photo by{' '}
+                                    <Link href='https://unsplash.com/@johnschno?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText'>
+                                        John Schnobrich
+                                    </Link>{' '}
+                                    on{' '}
+                                    <Link href='https://unsplash.com/photos/2FPjlAyMQTA?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText'>
+                                        Unsplash
+                                    </Link>
+                                </small>
                             </p>
                         </div>
                         <h2>Designers and artists</h2>

@@ -101,43 +101,49 @@ const Home: NextPage = () => {
                                 </li>
                             </ul>
                             <p>
-                                Currently as of February 2024, we have a first,
-                                rough draft of around 90% of the New Testament
-                                available (leaving just Revelation, and 1
-                                Corinthians), plus a few small Old Testament
-                                books, so around 24% of the Bible drafted. This
-                                is more than enough for you to get an idea of
-                                the style that we’re aiming for, although some
-                                decisions (even some major ones) are still in
-                                flux. But we’re also excited about the way that
-                                every word in the <em>OET Literal Version</em>{' '}
-                                ‘Messianic Update’ (New Testament) is linked to
-                                the Greek word that it’s translated from, and as
-                                part of the <em>OET</em> 
-                                <b>commitment to transparency</b>, with a few
-                                clicks (and with the help of a companion
-                                website) you can go all the way from our text to
-                                a photograph of the original Greek manuscript
-                                that it’s translated from. Try clicking on a
-                                word in our <Link href='/Reader'>Reader</Link>.
+                                Currently as of late February 2024, we have a
+                                first, rough draft of around 95% of the New
+                                Testament available (leaving just Revelation to
+                                finish), plus a few small Old Testament books
+                                trialled, so a total of around 25% of the Bible
+                                drafted. This is more than enough for you to get
+                                an idea of the style that we’re aiming for,
+                                although some decisions (even some major ones)
+                                are still in flux. But we’re also excited about
+                                the way that every word in the{' '}
+                                <em>OET Literal Version</em> ‘Messianic Update’
+                                (New Testament) is linked to the Greek word that
+                                it’s translated from, and as part of the{' '}
+                                <em>OET</em> <b>commitment to transparency</b>,
+                                with a few clicks (and with the help of a
+                                companion website) you can go all the way from
+                                our text to a photograph of the original Greek
+                                manuscript that it’s translated from. Try
+                                clicking on a word in our{' '}
+                                <Link href='/Reader'>Reader</Link>.
                             </p>
                         </div>
                         <div>
                             <Image
-                                src={'/assets/sixteen-miles-out-MLOZazGGCb8-unsplash.jpg'}
+                                src={
+                                    '/assets/sixteen-miles-out-MLOZazGGCb8-unsplash.jpg'
+                                }
                                 alt='Picture of an open Bible'
                                 width={500}
                                 height={333.333}
                             />
                             <p>
-                                Photo by{' '}
-                                <Link href='https://unsplash.com/@sixteenmilesout?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText'>
-                                    Sixteen Miles Out
-                                </Link>{' '}
-                                on{' '}
-                                <Link href='https://unsplash.com/collections/4858217/bible?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText'>
-                                    Unsplash
-                                </Link>
+                                  
+                                <small>
+                                    Photo by{' '}
+                                    <Link href='https://unsplash.com/@sixteenmilesout?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText'>
+                                        Sixteen Miles Out
+                                    </Link>{' '}
+                                    on{' '}
+                                    <Link href='https://unsplash.com/collections/4858217/bible?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText'>
+                                        Unsplash
+                                    </Link>
+                                </small>
                             </p>
                         </div>
                         <div>
