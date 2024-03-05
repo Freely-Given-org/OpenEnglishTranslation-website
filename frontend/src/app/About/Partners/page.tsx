@@ -141,11 +141,15 @@ function Partners() {
                         <h2>Topic specialists</h2>
                         <p>
                             Perhaps you have a certain speciality and would like
-                            to improve or expand our drafts of the book
-                            introductions, or write a set of footnotes about
-                            some helpful topic. One advantage of working in an
-                            open translation, is that your scholarship is then
-                            freely available to future generations as well.
+                            to{' '}
+                            <b>
+                                improve or expand our drafts of the book
+                                introductions
+                            </b>
+                            , or write a set of footnotes about some helpful
+                            topic. One advantage of working in an open
+                            translation, is that your scholarship is then freely
+                            available to future generations as well.
                         </p>
                         <p>
                             We would like to have sets of open-licensed,
@@ -187,7 +191,7 @@ function Partners() {
                         </p>
                         <p>
                             Did you know that the NZ Māori (Te Reo Māori) Bible
-                            does not necessarily use the best term for God (
+                            does not necessarily use their best term for God (
                             <i>Atua</i>)? Wow, changing that now would be a huge
                             change! Also, did you know that some important
                             Biblical terms were just invented instead of
@@ -213,6 +217,30 @@ function Partners() {
                                 languages constantly change as well, so maybe
                                 the Bible translation world can also be
                                 challenged to update and improve?
+                            </small>
+                        </p>
+                        <h1>Typesetters</h1>
+                        <p>
+                            Are you an expert in{' '}
+                            <Link href='https://pagedjs.org/'>Paged.js</Link>?
+                            Or{' '}
+                            <Link href='https://GitHub.com/Freely-Given-org/BibleTypesetter'>
+                                SILE Typesetter
+                            </Link>
+                            ? Or{' '}
+                            <Link href='https://software.sil.org/ptxprint/'>
+                                PTXprint
+                            </Link>
+                            ? If someone could do the layout for us, we could
+                            focus on completing, checking, and improving the
+                            Bible text itself.
+                        </p>
+                        <p>
+                            <small>
+                                (In May 2023, we created one very-basic test
+                                copy of the two-column <em>OET</em> with two
+                                gospels using PTXprint, but we're ready now to
+                                start looking at something more serious.)
                             </small>
                         </p>
                         <h1>Sponsors wanted</h1>
