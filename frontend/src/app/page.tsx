@@ -101,12 +101,11 @@ const Home: NextPage = () => {
                                 </li>
                             </ul>
                             <p>
-                                Currently as of early March 2024, we have a
-                                first, rough draft of around 97% of the New
-                                Testament available (leaving just the last half
-                                of Revelation to finish), plus a few small Old
-                                Testament books trialled, so a total of around
-                                26% of the Bible drafted. This is more than
+                                Currently as of March 2024, we have a first,
+                                rough draft of the New Testament available, plus
+                                a few small Old Testament books trialled (around
+                                3% of the Old Testament), so a total of around
+                                28% of the Bible drafted. This is more than
                                 enough for you to get an idea of the style that
                                 we’re aiming for, although some decisions (even
                                 some major ones) are still in flux. But we’re
