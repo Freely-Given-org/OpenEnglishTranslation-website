@@ -11,6 +11,7 @@ import SideMenu from '../../Components/menu/SideMenu/SideMenu';
 import About from '../../Components/navDropdowns/About';
 import Design from '../../Components/navDropdowns/Design';
 import Resources from '../../Components/navDropdowns/Resources';
+import Discussion from '../../Components/navDropdowns/Discussion';
 
 const Header: NextPage = () => {
     const [sideMenu, setsideMenu] = useState(false);
@@ -25,9 +26,11 @@ const Header: NextPage = () => {
             </div>
             <nav className={styles['big-nav']}>
                 <Design />
-                <Link component={NextLink}  href='/Reader'>Reader</Link>
+                <Link component={NextLink} href='/Reader'>
+                    Reader
+                </Link>
                 <Resources />
-                <Link component={NextLink}  href={'/Blog'}>Blog</Link>
+                <Discussion />
                 <About />
             </nav>
 
@@ -47,9 +50,9 @@ const Header: NextPage = () => {
                         <li>
                             <Resources phoneNav={true} />
                         </li>
-                        {/* <li>
-                            <Link href={'/Blog'}>Blog</Link>
-                        </li> */}
+                        <li>
+                            <Discussion phoneNav={true} />
+                        </li>
                         <li>
                             <About phoneNav={true} />
                         </li>
