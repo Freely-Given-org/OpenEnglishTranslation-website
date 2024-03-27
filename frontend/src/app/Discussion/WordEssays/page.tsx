@@ -92,7 +92,9 @@ function WordEssays() {
                             </Link>{' '}
                             in the 1300’s.
                         </p>
-                        <p>See more in the <Link href="../Blog/">blog</Link>.</p>
+                        <p>
+                            See more in the <Link href='../Blog/'>blog</Link>.
+                        </p>
                         <p>
                             Sadly, even many English translations that claim to
                             be ‘modern’ or ‘new’ are still full of archaic
