@@ -17,7 +17,7 @@ function NewDiscussion() {
                     <MainPageContent>
                         <h1>Starting a new discussion</h1>
                         <p>
-                            We use the gitHub{' '}
+                            We use the GitHub{' '}
                             <Link href='https://GitHub.com/Freely-Given-org/OpenEnglishTranslation--OET/discussions'>
                                 discussion pages
                             </Link>{' '}

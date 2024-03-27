@@ -26,19 +26,19 @@ function WordEssays() {
                             reasons that Bible translations sound ‘formal’ or
                             ‘quaint’:
                             <br />
-                            <b>1. </b>Because Hebrew or Greek word order and
+                            <b>1.</b> Because Hebrew or Greek word order and
                             idioms are often carried through into English
                             translations, e.g., ‘son of Abraham’ rather than
                             ‘Abraham’s son’, and
                             <br />
-                            2. Because ancient English word choices (some going
-                            back all the way to John Wycliffe in the 1300’s) are
-                            still present in so-called ‘modern’ English
-                            translations, e.g., using ‘For’ instead of
+                            <b>2.</b> Because ancient English word choices (some
+                            going back all the way to John Wycliffe in the
+                            1300’s) are still present in so-called ‘modern’
+                            English translations, e.g., using ‘For’ instead of
                             ‘Because’, using ‘great’ instead of ‘large’, or
                             using ‘wild beasts’ instead of ‘wild animals’.
                             <sup>**</sup>
-                            <br />
+                            <br /> <br />
                             <small>
                                 <b>
                                     <sup>*</sup>
@@ -50,32 +50,32 @@ function WordEssays() {
                                 collection of Hebrew, Aramaic, and Koine Greek
                                 documents.
                             </small>
-                            <br />
+                            <br /> <br />
                             <small>
                                 <b>
-                                    <sup>*</sup>
+                                    <sup>**</sup>
                                 </b>{' '}
                                 Disclaimer: The founder of the OET lives in New
                                 Zealand where we make some different word
                                 choices from the country where English
                                 originated (England, 55+ million people), and
                                 even more noticeable, from the country with the
-                                largest ‘English’-speaking population (USA, 330+
-                                million people). Please do let us know if
-                                anything on this page isn’t true for your
-                                English dialect.
+                                largest native-‘English’-speaking population
+                                (USA, 330+ million people). Please do let us
+                                know if anything stated on this page isn’t true
+                                for your English dialect.
                             </small>
                         </p>
                         <h2>For</h2>
                         <p>
                             ‘For God so loved the world…’ So what does the word
-                            ‘For’ mean at the beginning of that most well-known
+                            ‘For’ mean at the beginning of that very well-known
                             sentence? Most people we’ve questioned can’t really
                             answer that question, although many do realise that
                             the modern equivalent would be ‘Because’, but then
                             that confuses them because they never memorised what
                             came before{' '}
-                            <Link href='https://Freely-Given.org/OBD/OET/bySec/JHN_S10.htm#V16'>
+                            <Link href='https://Freely-Given.org/OBD/OET/bySec/JHN_S10.htm#V14'>
                                 John 3:16
                             </Link>
                             . And why didn’t they? Because ‘For’ is unnatural at
@@ -86,19 +86,19 @@ function WordEssays() {
                                 page for that verse
                             </Link>{' '}
                             and see how even recent English translations copy
-                            the same sentence structure that John Wycliffe{' '}
+                            the same sentence structure that John Wycliffe first{' '}
                             <Link href='https://Freely-Given.org/OBD/par/JHN/C3V16.htm#WYC'>
                                 used
                             </Link>{' '}
                             in the 1300’s.
                         </p>
                         <p>
-                            See more in the <Link href='../Blog/'>blog</Link>.
-                        </p>
-                        <p>
                             Sadly, even many English translations that claim to
                             be ‘modern’ or ‘new’ are still full of archaic
                             sentences starting with ‘For’.
+                        </p>
+                        <p>
+                            See more in the <Link href='Blog/'>blog</Link>.
                         </p>
                         <h2>Great</h2>
                         <p>
@@ -120,7 +120,7 @@ function WordEssays() {
                         </p>
                         <h2>Wild beasts</h2>
                         <p>
-                            In the past, your might have taken a tour of an
+                            In the past, you might have taken a tour of an
                             African safari park to view the ‘wild beasts’, but
                             nowadays, we would be more likely to call them ‘wild
                             animals’. The word ‘beast’ does linger on in English
@@ -130,7 +130,8 @@ function WordEssays() {
                             word ‘animal’ over ‘beast’. Tragically though, even
                             quite modern English Bible translations persist in
                             their use of the word ‘beast’, most noticeably in
-                            Yohan's Revelation.
+                            Yohan's Revelation, but it’s likely producing the
+                            wrong word picture in the minds of many readers.
                         </p>
                         <h2>Ark</h2>
                         <p>
@@ -138,7 +139,8 @@ function WordEssays() {
                             boat-shaped object for modern readers—perhaps
                             largely influenced by (inaccurate?) Noah’s Ark
                             picture books. Of course, the big problem with that
-                            is when you come to the ‘Ark of the Covenant’.
+                            is when you come to the ‘Ark of the Covenant’ and
+                            try to figure out the connection.
                         </p>
                         <p>
                             The real meaning of the Hebrew word ‘תֵּבַת’ (tēvat)
