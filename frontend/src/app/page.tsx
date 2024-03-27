@@ -101,25 +101,26 @@ const Home: NextPage = () => {
                                 </li>
                             </ul>
                             <p>
-                                Currently as of March 2024, we have a first,
-                                rough draft of the New Testament available, plus
-                                a few small Old Testament books trialled (around
-                                3% of the Old Testament), so a total of around
-                                28% of the Bible drafted. This is more than
-                                enough for you to get an idea of the style that
-                                we’re aiming for, although some decisions (even
-                                some major ones) are still in flux. But we’re
-                                also excited about the way that every word in
-                                the <em>OET Literal Version</em> ‘Messianic
-                                Update’ (New Testament) is linked to the Greek
-                                word that it’s translated from, and as part of
-                                the <em>OET</em> 
-                                <b>commitment to transparency</b>, with a few
-                                clicks (and with the help of a companion
-                                website) you can go all the way from our text to
-                                a photograph of the original Greek manuscript
-                                that it’s translated from. Try clicking on a
-                                word in our <Link href='/Reader'>Reader</Link>.
+                                Currently as of late March 2024, we have a
+                                first, rough draft of the New Testament
+                                available, plus a few small Old Testament books
+                                and half of Genesis trialled (around 4% of the
+                                Old Testament), so a total of around 29% of the
+                                Bible drafted. This is more than enough for you
+                                to get an idea of the style that we’re aiming
+                                for, although some decisions (even some major
+                                ones) are still in flux. But we’re also excited
+                                about the way that every word in the{' '}
+                                <em>OET Literal Version</em> ‘Messianic Update’
+                                (New Testament) is linked to the Greek word that
+                                it’s translated from, and as part of the{' '}
+                                <em>OET</em> <b>commitment to transparency</b>,
+                                with a few clicks (and with the help of a
+                                companion website) you can go all the way from
+                                our text to a photograph of the original Greek
+                                manuscript that it’s translated from. Try
+                                clicking on a word in our{' '}
+                                <Link href='/Reader'>Reader</Link>.
                             </p>
                         </div>
                         <div>
