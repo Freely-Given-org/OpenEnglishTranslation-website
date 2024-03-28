@@ -103,6 +103,9 @@ function Footer() {
                         Freely-Given.org
                     </a>
                 </span>
+                <span className={styles['copyright']}>
+                    <small>(Site last built: 2024-Mar-27)</small>
+                </span>
             </div>
         </div>
     );
