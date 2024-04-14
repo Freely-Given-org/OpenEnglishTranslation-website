@@ -24,6 +24,15 @@ function NewDiscussion() {
                             for open, online discussions, so feel free to join
                             in with an existing discussion or start a new one.
                         </p>
+                        <p>
+                            Alternatively, you can submit a question or comment
+                            from{' '}
+                            <Link href='/About/Contact'>our contact page</Link>,
+                            and then we'll either open a discussion ourselves,
+                            or add it to{' '}
+                            <Link href='/Discussion/FAQ'>our FAQ Page</Link>{' '}
+                            with our response.
+                        </p>
                     </MainPageContent>
                 </Page>
             </Main>

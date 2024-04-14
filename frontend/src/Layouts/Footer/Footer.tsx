@@ -49,7 +49,7 @@ function Footer() {
                             </Link>
                         </li>
                         <li>
-                            <Link href={'/Design/FAQ'}>FAQs</Link>
+                            <Link href={'/Discussion/FAQ'}>FAQs</Link>
                         </li>
                     </ul>
                 </div>
@@ -104,7 +104,7 @@ function Footer() {
                     </a>
                 </span>
                 <span className={styles['copyright']}>
-                    <small>(Site last built: 2024-Mar-27)</small>
+                    <small>(Site last built: 2024-Apr-4)</small>
                 </span>
             </div>
         </div>
