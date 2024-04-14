@@ -8,8 +8,20 @@ const menu: dropMenu = {
             link: '/Discussion/WordEssays',
         },
         {
+            name: 'Theological Essays',
+            link: '/Discussion/KTEssays',
+        },
+        {
+            name: 'Style Essays',
+            link: '/Discussion/StyleEssays',
+        },
+        {
             name: 'Blog',
             link: '/Discussion/Blog',
+        },
+        {
+            name: 'FAQs',
+            link: '/Discussion/FAQ',
         },
         {
             name: 'New',

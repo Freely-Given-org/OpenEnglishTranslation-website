@@ -31,10 +31,6 @@ const menu: dropMenu = {
             name: 'Source Texts',
             link: '/Design/SourceTexts',
         },
-        {
-            name: 'FAQs',
-            link: '/Design/FAQ',
-        },
     ],
 };
 
