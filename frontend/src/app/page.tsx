@@ -70,6 +70,15 @@ const Home: NextPage = () => {
                                     writers
                                 </li>
                                 <li>
+                                    prepared to <b>fix long-time mistakes</b>,
+                                    including some that have been propagated for
+                                    hundreds of years since the New Testament
+                                    was translated from the Latin translation
+                                    into middle-English, i.e., aiming to correct
+                                    old mistakes at the risk of making some new
+                                    ones
+                                </li>
+                                <li>
                                     following{' '}
                                     <Link href='https://www.nzherald.co.nz/nz/te-wiki-o-te-reo-maori-new-zealands-most-mispronounced-places-and-what-to-do-about-it/JCCWGOZ5OAQQN7C5A5PDV7UBMI/'>
                                         modern trends
@@ -101,19 +110,19 @@ const Home: NextPage = () => {
                                 </li>
                             </ul>
                             <p>
-                                Currently as of mid-April 2024, we have a first,
-                                rough draft of the New Testament available, plus
-                                a few small Old Testament books and half of
-                                Genesis trialled (combines to around 7% of the
-                                Old Testament), so a total of around 31% of the
-                                Bible drafted. That’s more than enough for you
-                                to get an idea of the style that we’re aiming
-                                for, although some decisions (even some major
-                                ones) are still in flux. But we’re also excited
-                                about the way that every word in the{' '}
-                                <em>OET Literal Version</em> is linked to the
-                                Hebrew or Greek word that it’s translated from.
-                                Also, as part of the <em>OET</em> 
+                                Currently as of late-April 2024, we have a
+                                first, rough draft of the New Testament
+                                available, plus a few small Old Testament books
+                                and most of Genesis trialled (combines to around
+                                8% of the Old Testament), so a total of around
+                                31% of the Bible drafted. That’s more than
+                                enough for you to get an idea of the style that
+                                we’re aiming for, although some decisions (even
+                                some major ones) are still in flux. But we’re
+                                also excited about the way that every word in
+                                the <em>OET Literal Version</em> is linked to
+                                the Hebrew or Greek word that it’s translated
+                                from. Also, as part of the <em>OET</em> 
                                 <b>commitment to transparency</b>, for ‘The
                                 Messianic Update’ (New Testament) with a few
                                 clicks (and with the help of a companion
