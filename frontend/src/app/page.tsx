@@ -74,9 +74,12 @@ const Home: NextPage = () => {
                                     including some that have been propagated for
                                     hundreds of years since the New Testament
                                     was translated from the Latin translation
-                                    into middle-English, i.e., aiming to correct
-                                    old mistakes at the risk of making some new
-                                    ones
+                                    into{' '}
+                                    <Link href='https://Freely-Given.org/OBD/WYC/byC/MRK_C1.htm#Top'>
+                                        middle-English
+                                    </Link>
+                                    , i.e., we’re aiming to correct old mistakes
+                                    (at the risk of making some new ones)
                                 </li>
                                 <li>
                                     following{' '}

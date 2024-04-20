@@ -44,7 +44,11 @@ function LV() {
                                         Readers’ Version
                                     </Link>
                                 </em>{' '}
-                                is right next to it to smooth things over.
+                                is right next to it to smooth things over. (One
+                                easily noticeable difference from other
+                                ‘literal’ translations is that we don't omit
+                                Hebrew or Greek words which are usually
+                                untranslated in English.)
                             </li>
                             <li>
                                 The <em>Literal Version</em>{' '}
