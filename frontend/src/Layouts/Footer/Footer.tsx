@@ -94,7 +94,7 @@ function Footer() {
                         <TwitterIcon className={styles['twitter-icon']} />
                     </a>
                 </div>
-                <p className={styles['copyright']}>
+                <span className={styles['copyright']}>
                     Copyright © 2022-2024 &nbsp;
                     <a
                         href='https://GitHub.com/Freely-Given-org'
@@ -102,10 +102,9 @@ function Footer() {
                     >
                         Freely-Given.org
                     </a>
-                </p>
-                <p className={styles['copyright']}>
-                    <small>(Site last built: 2024-Apr-4)</small>
-                </p>
+                <br />
+                    <small>(Site last built: 2024-Apr-21)</small>
+                </span>
             </div>
         </div>
     );
