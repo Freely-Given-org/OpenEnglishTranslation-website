@@ -102,7 +102,9 @@ function Footer() {
                     >
                         Freely-Given.org
                     </a>
-                <br /> <small>(Site last built: 2024-Apr-21)</small>
+                </span>
+                <span className={styles['buildNotes']}>
+                    (Site last built: 2024-Apr-21)
                 </span>
             </div>
         </div>

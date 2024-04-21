@@ -87,3 +87,22 @@
         }
     }
 }
+
+.buildNotes {
+    grid-row: 6;
+    grid-column: 1/3;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    border-top: 1px solid white;
+    margin-top: 20px;
+    font-size: 0.8rem;
+    a {
+        text-decoration: none;
+        color: white;
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+}
