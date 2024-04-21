@@ -44,7 +44,7 @@ function Reader() {
                                 <em>OET Old Testament</em> by mid-2024.
                             </small>
                         </p>
-                        <ReaderIframe src='https://Freely-Given.org/OBD/OET/bySec/MRK_S2.htm#Top' />
+                        <ReaderIframe src='https://Freely-Given.org/OBD/OET/bySec/JHN_S2.htm#Top' />
                         <p>
                             See the{' '}
                             <Link href='/About/Contact'>contact page</Link> to

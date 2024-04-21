@@ -481,34 +481,44 @@ function OET() {
                                 designed to be used alone (but rather alongside
                                 the <em>Readers’ Version</em>), it’s{' '}
                                 <b>much more literal</b> than most other
-                                “literal versions”. You’ll quickly notice
+                                ‘literal’ versions. You’ll quickly notice
                                 lighter colours that mark the deemphasis of
                                 words that had to be added to make the English
                                 sentences even make sense. But there’s at least
-                                two other things that aren’t necessarily changed
-                                in the English <em>Literal Version</em>:
+                                three other things that aren’t necessarily
+                                changed in the English <em>Literal Version</em>:
                                 <ol>
                                     <li>
-                                        Other languages use the negative
-                                        differently, especially when it’s
-                                        doubled or tripled in the sentence. If
-                                        you don’t understand this, you could
-                                        easily think that the original means the
-                                        opposite of what the words actually
-                                        appear to say. For example the double
-                                        negative: “You are<span>_</span> not{' '}
-                                        <span>_</span>caring<span>_</span>about
-                                        no one.” (adapted from Matthew 22:16).
-                                        In natural, fluent English, we would
-                                        have to reverse the second negative to
-                                        get the expected meaning, ending up with{' '}
-                                        <i>anyone</i> as you’ll find in the{' '}
+                                        Most other ‘literal’ versions don’t give
+                                        any indication of words which remain
+                                        untranslated into English. The{' '}
+                                        <em>OET Literal Version</em> displays
+                                        these words in a lighter colour and with
+                                        a strike-out line through them.
+                                    </li>
+                                    <li>
+                                        Some languages use the negative
+                                        differently than English does,
+                                        especially when it’s doubled or tripled
+                                        in the sentence. If you don’t understand
+                                        this, you could easily think that the
+                                        original means the opposite of what the
+                                        words actually appear to say. For
+                                        example the double negative: “You are
+                                        <span>_</span> not <span>_</span>caring
+                                        <span>_</span>about no one.” (adapted
+                                        from Matthew 22:16). In natural, fluent
+                                        English, we would have to reverse the
+                                        second negative to get the expected
+                                        meaning, ending up with <i>anyone</i> as
+                                        you’ll find in the{' '}
                                         <em>Readers’ Version</em>. But in Greek,
-                                        the second negative adds emphasis rather
-                                        than reversing the first negative. So
-                                        our <em>Literal Version</em> shows you
-                                        the words that are actually there (in
-                                        the Greek in this case).
+                                        the second negative <b>adds emphasis</b>{' '}
+                                        rather than reversing the first
+                                        negative. So our{' '}
+                                        <em>Literal Version</em> shows you the
+                                        words that are actually there (in the
+                                        Greek in this example).
                                     </li>
                                     <li>
                                         Other languages may omit (or{' '}
