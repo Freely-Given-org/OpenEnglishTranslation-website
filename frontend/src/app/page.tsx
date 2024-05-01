@@ -113,19 +113,24 @@ const Home: NextPage = () => {
                                 </li>
                             </ul>
                             <p>
-                                Currently as of late-April 2024, we have a
-                                first, rough draft of the New Testament
-                                available, plus a few small Old Testament books
-                                and most of Genesis trialled (combines to around
-                                8% of the Old Testament), so a total of around
-                                31% of the Bible drafted. That’s more than
-                                enough for you to get an idea of the style that
-                                we’re aiming for, although some decisions (even
-                                some major ones) are still in flux. But we’re
-                                also excited about the way that every word in
-                                the <em>OET Literal Version</em> is linked to
-                                the Hebrew or Greek word that it’s translated
-                                from. Also, as part of the <em>OET</em> 
+                                Currently as of early-May 2024, we have a first,
+                                rough draft of the New Testament available, plus
+                                a few Old Testament books trialled (Genesis,
+                                Ruth, Esther, some of Job, and Jonah combines to
+                                around 10% of the Old Testament), so a total of
+                                <b>around 33% of the Bible drafted</b>. That’s
+                                more than enough for you to get an idea of the
+                                style that we’re aiming for, although some
+                                decisions (even some major ones) are still in
+                                flux (and will be for quite some time yet). But
+                                we’re also
+                                <b>
+                                    excited about the way that every word in the{' '}
+                                    <em>OET Literal Version</em> is linked to
+                                    the Hebrew or Greek word that it’s
+                                    translated from
+                                </b>
+                                . Also, as part of the <em>OET</em> 
                                 <b>commitment to transparency</b>, for ‘The
                                 Messianic Update’ (New Testament) with a few
                                 clicks (and with the help of a companion
