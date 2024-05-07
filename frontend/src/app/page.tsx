@@ -82,11 +82,8 @@ const Home: NextPage = () => {
                                     (at the risk of making some new ones)
                                 </li>
                                 <li>
-                                    trying to{' '}
-                                    <b>
-                                        avoid using (transliterated) Greek words
-                                    </b>{' '}
-                                    in the English translation (like ‘apostle’),
+                                    trying to <b>avoid using Greek words</b> in
+                                    the English translation (like ‘apostle’),
                                     although we do use (Hebrew) ‘Messiah’
                                     heavily
                                 </li>
@@ -143,8 +140,8 @@ const Home: NextPage = () => {
                                 <b>commitment to transparency</b>, for ‘The
                                 Messianic Update’ (New Testament) with a few
                                 clicks (and with the help of a companion
-                                website) you can go all the way from our text to
-                                a photograph of the original Greek manuscript
+                                website), you can go all the way from our text
+                                to a photograph of the original Greek manuscript
                                 that it’s translated from. Try clicking on a
                                 word in our <Link href='/Reader'>Reader</Link>.
                             </p>
