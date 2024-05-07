@@ -82,6 +82,15 @@ const Home: NextPage = () => {
                                     (at the risk of making some new ones)
                                 </li>
                                 <li>
+                                    trying to{' '}
+                                    <b>
+                                        avoid using (transliterated) Greek words
+                                    </b>{' '}
+                                    in the English translation (like ‘apostle’),
+                                    although we do use (Hebrew) ‘Messiah’
+                                    heavily
+                                </li>
+                                <li>
                                     following{' '}
                                     <Link href='https://www.nzherald.co.nz/nz/te-wiki-o-te-reo-maori-new-zealands-most-mispronounced-places-and-what-to-do-about-it/JCCWGOZ5OAQQN7C5A5PDV7UBMI/'>
                                         modern trends
@@ -92,7 +101,7 @@ const Home: NextPage = () => {
                                         groups
                                     </b>{' '}
                                     by doing the same with the names of the
-                                    Biblical characters
+                                    Biblical characters and with God’s name
                                 </li>
                                 <li>
                                     designed from the beginning to{' '}
@@ -117,13 +126,13 @@ const Home: NextPage = () => {
                                 rough draft of the New Testament available, plus
                                 a few Old Testament books trialled (Genesis,
                                 Ruth, Esther, some of Job, and Jonah combines to
-                                around 10% of the Old Testament), so a total of
+                                around 10% of the Old Testament), so a total of{' '}
                                 <b>around 33% of the Bible drafted</b>. That’s
                                 more than enough for you to get an idea of the
                                 style that we’re aiming for, although some
                                 decisions (even some major ones) are still in
                                 flux (and will be for quite some time yet). But
-                                we’re also
+                                we’re also{' '}
                                 <b>
                                     excited about the way that every word in the{' '}
                                     <em>OET Literal Version</em> is linked to
