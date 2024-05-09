@@ -89,8 +89,8 @@ function Licence() {
                             The <em>OET</em> is offered under an open license
                             that means that you can copy, use, and even print it
                             without even requesting permission. However, that
-                            doesn’t mean that it’s not copyrighted—it is and our
-                            copyright and attribution should be displayed in
+                            doesn’t mean that it’s not copyrighted—it is, and
+                            our copyright and attribution should be displayed in
                             your publication or on your website, e.g., “This{' '}
                             <em>Open English Translation</em> of the Bible is
                             copyright © 2010-2024 by{' '}
@@ -110,7 +110,8 @@ function Licence() {
                             <Link href='https://GitHub.com/Freely-Given-org/OpenEnglishTranslation--OET'>
                                 https://GitHub.com/Freely-Given-org/OpenEnglishTranslation--OET
                             </Link>{' '}
-                            and were downloaded on such-and-such-a-date.”
+                            and were downloaded on{' '}
+                            <small>such-and-such-a-date</small>.”
                         </p>
                         <p>
                             If you wish to change or adapt the <em>OET</em>, you
@@ -135,11 +136,12 @@ function Licence() {
                             <Link href='https://GitHub.com/Freely-Given-org/OpenEnglishTranslation--OET'>
                                 https://GitHub.com/Freely-Given-org/OpenEnglishTranslation--OET
                             </Link>{' '}
-                            and were last downloaded on such-and-such-a-date.”
+                            and were last downloaded on{' '}
+                            <small>such-and-such-a-date</small>.”
                             <br />
-                            Because the <em>OET</em> licence is a ‘share-alike’
-                            licence, you must also make your derived work
-                            available on the same terms.
+                            Then because the <em>OET</em> licence is a
+                            ‘share-alike’ licence, you must also make your
+                            derived work available on the same terms.
                         </p>
                     </MainPageContent>
                 </Page>

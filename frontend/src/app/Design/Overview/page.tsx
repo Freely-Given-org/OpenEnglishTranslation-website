@@ -58,7 +58,8 @@ function Overview() {
                              is being made <b>freely available</b> for others to
                             use and publish in Bible studies and similar
                             materials, to print, to display on any device, and
-                            even to change/customise (with some limitations) for
+                            even to change/customise (with some{' '}
+                            <Link href='/About/Licence'>limitations</Link>) for
                             a specific group.
                         </p>
                         <h2>OET Readers’ Version</h2>
@@ -156,6 +157,10 @@ function Overview() {
                             <li>
                                 it’s not backwards looking or ‘anti’ other Bible
                                 translations
+                            </li>
+                            <li>
+                                it’s not developed using so-called ‘AI’ or other
+                                ‘speed-up-the-task’ tools
                             </li>
                         </ul>
                         <h2>In contrast</h2>
