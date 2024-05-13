@@ -126,10 +126,11 @@ function RV() {
                                 With regular words, we’ve tried to do the
                                 opposite, i.e., to use less Greek rather than
                                 more wherever possible. So a word like{' '}
-                                <i>baptise</i> (which is an adapted
-                                transliteration of the Greek verb), actually
-                                gets translated, so this example becomes{' '}
-                                <i>immerse</i>.
+                                <i>apostle</i> (which is an adapted
+                                transliteration of the Greek verb meaning ‘one
+                                sent out’), actually gets translated, so this
+                                example becomes <i>missionary</i> in many
+                                places.
                             </li>
                             <li>
                                 <i>Italics</i> are only used for{' '}

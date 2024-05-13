@@ -19,7 +19,7 @@ function Formats() {
                         <p>
                             One important factor in providing a tagged Bible
                             translation for free use in Bible apps and programs
-                            is that{' '}
+                            in this modern computer age, is that{' '}
                             <b>
                                 the data must be readily accessible in
                                 convenient forms
@@ -32,9 +32,173 @@ function Formats() {
                         <p>
                             Putting that a different way, the <em>OET</em>
                              attempts to <b>lead and set new directions</b> not
-                            just in the way the Bible text is translated and how
-                            it’s presented to the user, but also how it’s saved
-                            on computers and linked to helpful databases.
+                            just in the ways the Bible text is translated and
+                            how it’s presented to the user, but also how it’s
+                            saved on computers and linked to helpful databases.
+                        </p>
+                        <p>
+                            Most existing Bible translations in the world are
+                            developed using the{' '}
+                            <Link href='https://ubsicap.github.io/usfm/'>
+                                USFM
+                            </Link>{' '}
+                            file format. USFM includes features for marking
+                            titles and introductions, chapters and verses,
+                            section headings and paragraphs, footnotes and
+                            cross-references, and even for marking words that
+                            the translators have added, and for marking the
+                            words of Jesus (for things like red-letter Bibles).
+                            However, we want to go further to do things like:
+                        </p>
+                        <ul>
+                            <li>
+                                easily <b>annotating footnotes into classes</b>,
+                                e.g., text-critical comments, historical
+                                comments, comments on figurative language, etc.
+                            </li>
+                            <li>
+                                not just marking added words, but putting the
+                                <b>reason they were added or changed</b>, e.g.,
+                                required by English grammar, implied by the
+                                previous sentence or context, implied by
+                                knowledge of historical context, etc.
+                            </li>
+                            <li>
+                                not just marking Jesus’ words, but annotating{' '}
+                                <b>every</b> speech segment, including the
+                                narrator or editor.
+                            </li>
+                        </ul>
+                        <h1>ESFM Bible files</h1>
+                        <p>
+                            <Link href='https://github.com/Freely-Given-org/ESFM'>
+                                Enhanced Standard Format Marker
+                            </Link>{' '}
+                            (ESFM) files are based on that{' '}
+                            <Link href='https://ubsicap.github.io/usfm/'>
+                                USFM 3
+                            </Link>{' '}
+                            format used by most Bible translators but add the
+                            ability to include metadata (such as names of
+                            translators for that particular file) and plentiful
+                            datasets linked to each Bible word by means of
+                            associated tables.
+                        </p>
+                        <p>
+                            Note that we also provide a{' '}
+                            <Link href='https://github.com/Freely-Given-org/OpenEnglishTranslation--OET/blob/main/scripts/OET-LV-RV_ESFM_to_USFM.py'>
+                                script
+                            </Link>{' '}
+                            to convert our ESFM back to USFM (by stripping out
+                            most of the additional information).
+                        </p>
+                        <p>
+                            Note also (while we’re discussing file formats for
+                            Bible software), most current Bible programs and
+                            apps weren’t designed to handle a{' '}
+                            <em>Readers’ Version</em> and a very{' '}
+                            <em>Literal Version</em> that are intended to always
+                            be used together. We have a dedicated cross-platform
+                            Bible app{' '}
+                            <Link href='https://github.com/Correct-Syntax/bible_side'>
+                                in early development
+                            </Link>{' '}
+                            that includes a JSON version of our ESFM files.
+                        </p>
+                        <h2>
+                            <em>OET</em> extensions
+                        </h2>
+                        <p></p>
+                        <h3>Add character fields</h3>
+                        <p>
+                            ESFM and USFM both have a <b>\add</b> character
+                            field. To that, we insert (after the space) a single
+                            character (that would not normally be expected to be
+                            part of the start of an English word) inside the
+                            added field, to indicate the reason why a word or
+                            words were added or changed in the English
+                            translation.
+                        </p>
+                        <ul>
+                            <li>
+                                <b>+</b> We had to <b>add an article</b> (like
+                                ‘the’) for the English to make grammatical sense
+                            </li>
+                            <li>
+                                <b>-</b> We had to <b>drop an article</b> that
+                                was in the original language but would seem
+                                strange in English, e.g., ‘the God’. (
+                                <em>OET-LV</em> only)
+                            </li>
+                            <li>
+                                <b>=</b> We had to <b>add a copula</b> (like
+                                ‘is’) for the English to make sense
+                            </li>
+                            <li>
+                                <b>~</b> We had to <b>add a direct object</b>{' '}
+                                (like ‘it’ after ‘he hit’) for the English to
+                                make grammatical sense
+                            </li>
+                            <li>
+                                <b>&gt;</b> We had to{' '}
+                                <b>add an implied person or object</b> (like
+                                ‘thing’ after ‘he took one’, or ‘person’ after
+                                ‘one’ in ‘one took the bread’) for the English
+                                to make sense
+                            </li>
+                            <li>
+                                <b>^</b> We had to <b>add an owner</b> (like
+                                replacing ‘the’ with the possessive ‘his’ in
+                                ‘raised the hands’) for the English to make
+                                sense
+                            </li>
+                            <li>
+                                PROPOSED <b>@</b> We{' '}
+                                <b>changed a name to a pronoun</b> (like
+                                replacing ‘Adam’ with the pronoun ‘he’) for
+                                English fluency
+                            </li>
+                            <li>
+                                PROPOSED <b>*</b> We{' '}
+                                <b>changed a pronoun to a name</b> (like
+                                replacing pronoun ‘he’ with the name ‘Adam’) for
+                                English fluency, or following a section heading
+                                in order to help readers who jump into the text
+                                at that point (<em>OET-RV</em> only)
+                            </li>
+                            <li>
+                                PROPOSED <b>*</b> We{' '}
+                                <b>
+                                    reworded (single word, or phrase, or clause)
+                                </b>{' '}
+                                (like replacing ‘said’ with ‘answered’, or
+                                replacing ‘let them go’ with ‘release them’) to
+                                make the English style more modern and
+                                easy-to-understand (<em>OET-RV</em> only)
+                            </li>
+                        </ul>
+                        <p>
+                            PROPOSED If any of the above is preceded by a
+                            question-mark character ‘<b>?</b>’, then it means
+                            that{' '}
+                            <b>a considerable amount of doubt is involved</b>,
+                            i.e., the intent of the original author is unclear
+                            and our best attempt might actually be wrong.
+                        </p>
+                        <h3>Footnotes</h3>
+                        <p>
+                            We are planning to annotate the type of all of our
+                            notes to enable some notes to be added or removed
+                            for specific online or printed <em>OET</em>
+                             editions. Plus we plan/hope to get specialists to
+                            write additional footnote sets, e.g., for a Muslim
+                            or a Jew reading the Bible.
+                        </p>
+                        <p>
+                            For annotating footnote types, we are currently
+                            testing the addition of a code at the beginning of
+                            the initial <b>\ft</b> field, e.g., ‘TC: ’ to
+                            indicate a note on textual criticism. More to come…
                         </p>
                         <h1>Bible Books Codes</h1>
                         <p>
@@ -75,21 +239,6 @@ function Formats() {
                                     not they still need to apply)
                                 </li>
                             </ul>
-                        </p>
-                        <h1>ESFM Bible Files</h1>
-                        <p>
-                            <Link href='https://github.com/Freely-Given-org/ESFM'>
-                                Enhanced Standard Format Marker
-                            </Link>{' '}
-                            (ESFM) files are based on the{' '}
-                            <Link href='https://ubsicap.github.io/usfm/'>
-                                USFM 3
-                            </Link>{' '}
-                            format used by most Bible translators but add the
-                            ability to include metadata (such as names of
-                            translators for that particular file) and plentiful
-                            datasets linked to each Bible word by means of
-                            associated tables.
                         </p>
                     </MainPageContent>
                 </Page>

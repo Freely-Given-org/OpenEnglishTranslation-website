@@ -345,7 +345,7 @@ function OET() {
                                 or even <i>He</i> when it refers to Jesus,
                                 because the concept of capital and small letters
                                 didn’t even exist when original manuscripts like{' '}
-                                <a href='https://greekcntr.org/manuscripts/data/1G20001.htm'>
+                                <a href='https://greekcntr.org/manuscripts/images/1G20001/1G20001-262v.jpg'>
                                     this portion
                                 </a>{' '}
                                 were written. (Our policy has more to do with

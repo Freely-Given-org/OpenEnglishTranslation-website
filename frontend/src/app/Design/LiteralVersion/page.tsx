@@ -22,7 +22,7 @@ function LV() {
                                 about English fluency and{' '}
                                 <b>
                                     more focussed on translating individual
-                                    Greek words
+                                    Hebrew and Greek words
                                 </b>
                                 . It’s designed to be{' '}
                                 <b>
@@ -86,7 +86,7 @@ function LV() {
                             <li>
                                 In addition to wanting to get names and
                                 placenames more accurate, we’ve also attempted
-                                to modernise and <b>simplify the spelling</b>
+                                to modernise and <b>simplify the spelling</b>{' '}
                                 (transliterations) of these names to make it
                                 easier for readers to pronounce them as they
                                 come across them, e.g., using <b>f</b> instead
@@ -160,7 +160,7 @@ function LV() {
                                 <i>master</i> as a way to get readers to at
                                 least think a little more about what the concept
                                 might mean. (The word <i>boss</i> felt a little
-                                informal.)
+                                too informal.)
                             </li>
                             <li>
                                 The <em>Literal Version</em>{' '}
@@ -176,7 +176,7 @@ function LV() {
                                 or even <i>He</i> when it refers to Jesus,
                                 because the concept of capital and small letters
                                 didn’t even exist when original manuscripts like{' '}
-                                <a href='https://greekcntr.org/manuscripts/data/1G20001.htm'>
+                                <a href='https://greekcntr.org/manuscripts/images/1G20001/1G20001-262v.jpg'>
                                     this portion
                                 </a>{' '}
                                 were written. (Our policy has more to do with
