@@ -200,6 +200,27 @@ function Formats() {
                             the initial <b>\ft</b> field, e.g., ‘TC: ’ to
                             indicate a note on textual criticism. More to come…
                         </p>
+                        <h3>Hebrew parallelism</h3>
+                        <p>
+                            Hebrew poetry doesn't use rhyming like a lot of
+                            English poetry does, but (like English), it does
+                            often use shortish lines and often these come in
+                            pairs or doublets.
+                        </p>
+                        <p>
+                            The <em>OET-RV</em> marks the second line of
+                            doublets with the <b>≈</b> character (commonly used
+                            in mathematics for ‘approximately equal’) when we
+                            consider that the author seems to be repeating a
+                            similar thought in the second line of a doublet.
+                        </p>
+                        <p>
+                            For example, we might code something like:
+                            <br />
+                            \q1 God is my hope.
+                            <br />
+                            \q1 <b>≈</b>The Lord is my comfort.
+                        </p>
                         <h1>Bible Books Codes</h1>
                         <p>
                             When writing any Bible software, one of the first
