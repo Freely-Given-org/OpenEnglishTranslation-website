@@ -35,6 +35,9 @@ function Formats() {
                             just in the ways the Bible text is translated and
                             how it’s presented to the user, but also how it’s
                             saved on computers and linked to helpful databases.
+                            And we are ‘splitters’ rather than ‘lumpers’ because
+                            we try to provide detailed information, even if it’s
+                            only discarded later.
                         </p>
                         <p>
                             Most existing Bible translations in the world are
@@ -57,7 +60,7 @@ function Formats() {
                                 comments, comments on figurative language, etc.
                             </li>
                             <li>
-                                not just marking added words, but putting the
+                                not just marking added words, but putting the{' '}
                                 <b>reason they were added or changed</b>, e.g.,
                                 required by English grammar, implied by the
                                 previous sentence or context, implied by
@@ -121,45 +124,45 @@ function Formats() {
                         </p>
                         <ul>
                             <li>
-                                <b>+</b> We had to <b>add an article</b> (like
+                                <b>+</b> We had to <b>add an article</b> (like
                                 ‘the’) for the English to make grammatical sense
                             </li>
                             <li>
-                                <b>-</b> We had to <b>drop an article</b> that
+                                <b>-</b> We had to <b>drop an article</b> that
                                 was in the original language but would seem
                                 strange in English, e.g., ‘the God’. (
                                 <em>OET-LV</em> only)
                             </li>
                             <li>
-                                <b>=</b> We had to <b>add a copula</b> (like
-                                ‘is’) for the English to make sense
+                                <b>=</b> We had to <b>add a copula</b> (like
+                                ‘is’) for the English to make grammatical sense
                             </li>
                             <li>
-                                <b>~</b> We had to <b>add a direct object</b>{' '}
+                                <b>~</b> We had to <b>add a direct object</b>{' '}
                                 (like ‘it’ after ‘he hit’) for the English to
                                 make grammatical sense
                             </li>
                             <li>
-                                <b>&gt;</b> We had to{' '}
+                                <b>&gt;</b> We had to{' '}
                                 <b>add an implied person or object</b> (like
                                 ‘thing’ after ‘he took one’, or ‘person’ after
                                 ‘one’ in ‘one took the bread’) for the English
                                 to make sense
                             </li>
                             <li>
-                                <b>^</b> We had to <b>add an owner</b> (like
+                                <b>^</b> We had to <b>add an owner</b> (like
                                 replacing ‘the’ with the possessive ‘his’ in
                                 ‘raised the hands’) for the English to make
                                 sense
                             </li>
                             <li>
-                                PROPOSED <b>@</b> We{' '}
+                                PROPOSED <b>@</b> We{' '}
                                 <b>changed a name to a pronoun</b> (like
                                 replacing ‘Adam’ with the pronoun ‘he’) for
                                 English fluency
                             </li>
                             <li>
-                                PROPOSED <b>*</b> We{' '}
+                                PROPOSED <b>*</b> We{' '}
                                 <b>changed a pronoun to a name</b> (like
                                 replacing pronoun ‘he’ with the name ‘Adam’) for
                                 English fluency, or following a section heading
@@ -167,7 +170,7 @@ function Formats() {
                                 at that point (<em>OET-RV</em> only)
                             </li>
                             <li>
-                                PROPOSED <b>*</b> We{' '}
+                                PROPOSED <b>*</b> We{' '}
                                 <b>
                                     reworded (single word, or phrase, or clause)
                                 </b>{' '}
@@ -217,9 +220,9 @@ function Formats() {
                         <p>
                             For example, we might code something like:
                             <br />
-                            \q1 God is my hope.
+                             \q1 God is my hope.
                             <br />
-                            \q1 <b>≈</b>The Lord is my comfort.
+                             \q1 <b>≈</b>Yahweh is my comfort.
                         </p>
                         <h1>Bible Books Codes</h1>
                         <p>
@@ -255,8 +258,8 @@ function Formats() {
                                     <b>SAM</b> (which would be <b>SA1</b> and{' '}
                                     <b>SA2</b> (since we're no longer restricted
                                     by how big or heavy a single scroll can
-                                    be—the revolutionary, new <em>OET</em> 
-                                    always considers traditions and whether or
+                                    be—the revolutionary, new <em>OET</em>
+                                     always considers traditions and whether or
                                     not they still need to apply)
                                 </li>
                             </ul>

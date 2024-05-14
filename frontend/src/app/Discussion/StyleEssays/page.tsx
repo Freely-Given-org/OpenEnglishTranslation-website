@@ -50,7 +50,7 @@ function StyleEssays() {
                             material, these parenthetical statements are
                             displayed in a lighter colour grey text so that’s
                             it’s clear to the reader what the editors have
-                            added. (This is part of the <em>OET</em> commitment
+                            added. (This is part of the <em>OET</em> commitment
                             to total transparency in the translation process.)
                         </p>
                     </MainPageContent>

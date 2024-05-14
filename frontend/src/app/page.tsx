@@ -34,8 +34,7 @@ const Home: NextPage = () => {
                                 You can read more details in the{' '}
                                 <Link href='/Design/Overview'>Overview</Link>,
                                 but some of the <b>distinctives</b> of the{' '}
-                                <em>OET</em>
-                                 include:
+                                <em>OET</em> include:
                             </p>
                             <ul>
                                 <li>
