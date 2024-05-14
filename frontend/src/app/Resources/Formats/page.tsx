@@ -126,45 +126,45 @@ function Formats() {
                         </p>
                         <ul>
                             <li>
-                                <b>+</b> We had to <b>add an article</b> (like
+                                <b>+</b> We had to <b>add an article</b> (like
                                 ‘the’) for the English to make grammatical sense
                             </li>
                             <li>
-                                <b>-</b> We had to <b>drop an article</b> that
+                                <b>-</b> We had to <b>drop an article</b> that
                                 was in the original language but would seem
                                 strange in English, e.g., ‘the God’. (
                                 <em>OET-LV</em> only)
                             </li>
                             <li>
-                                <b>=</b> We had to <b>add a copula</b> (like
+                                <b>=</b> We had to <b>add a copula</b> (like
                                 ‘is’) for the English to make grammatical sense
                             </li>
                             <li>
-                                <b>~</b> We had to <b>add a direct object</b>{' '}
+                                <b>~</b> We had to <b>add a direct object</b>{' '}
                                 (like ‘it’ after ‘he hit’) for the English to
                                 make grammatical sense
                             </li>
                             <li>
-                                <b>&gt;</b> We had to{' '}
+                                <b>&gt;</b> We had to{' '}
                                 <b>add an implied person or object</b> (like
                                 ‘thing’ after ‘he took one’, or ‘person’ after
                                 ‘one’ in ‘one took the bread’) for the English
                                 to make sense
                             </li>
                             <li>
-                                <b>^</b> We had to <b>add an owner</b> (like
+                                <b>^</b> We had to <b>add an owner</b> (like
                                 replacing ‘the’ with the possessive ‘his’ in
                                 ‘raised the hands’) for the English to make
                                 sense
                             </li>
                             <li>
-                                PROPOSED <b>@</b> We{' '}
+                                PROPOSED <b>*</b> We{' '}
                                 <b>changed a name to a pronoun</b> (like
                                 replacing ‘Adam’ with the pronoun ‘he’) for
                                 English fluency
                             </li>
                             <li>
-                                PROPOSED <b>*</b> We{' '}
+                                PROPOSED <b>@</b> We{' '}
                                 <b>changed a pronoun to a name</b> (like
                                 replacing pronoun ‘he’ with the name ‘Adam’) for
                                 English fluency, or following a section heading
@@ -172,7 +172,7 @@ function Formats() {
                                 at that point (<em>OET-RV</em> only)
                             </li>
                             <li>
-                                PROPOSED <b>≈</b> We{' '}
+                                PROPOSED <b>≈</b> We{' '}
                                 <b>
                                     reworded (single word, or phrase, or clause)
                                 </b>{' '}
@@ -180,9 +180,15 @@ function Formats() {
                                 replacing ‘let them go’ with ‘release them’) to
                                 make the English style more modern and
                                 easy-to-understand (<em>OET-RV</em> only)
+                                <br />
+                                <small>
+                                    <b>Note</b>: This is different from when
+                                    this symbol is used for Hebrew parallelism
+                                    (see below).
+                                </small>
                             </li>
                             <li>
-                                PROPOSED <b>?</b> We were{' '}
+                                PROPOSED <b>?</b> We were{' '}
                                 <b>
                                     unable to determine what the author intended
                                     to communicate
@@ -227,16 +233,25 @@ function Formats() {
                         <p>
                             The <em>OET-RV</em> marks the second line of
                             doublets with the <b>≈</b> character (commonly used
-                            in mathematics for ‘approximately equal’) when we
-                            consider that the author seems to be repeating a
-                            similar thought in the second line of a doublet.
+                            in mathematics for ‘approximately equal’) to alert
+                            the reader when we consider that the author seems to
+                            be repeating a similar thought in the second line of
+                            a doublet. (This character will usually follow the
+                            space after a \q1 or \q2 field.)
                         </p>
                         <p>
                             For example, we might code something like:
                             <br />
                              \q1 God is my hope.
                             <br />
-                             \q1 <b>≈</b>Yahweh is my comfort.
+                             \q1 <b>≈</b>Yahweh gives me comfort.
+                        </p>
+                        <p>
+                            <small>
+                                <b>Note</b>: This is different from when the{' '}
+                                <b>≈</b> character is used with the \add
+                                character field (see above).
+                            </small>
                         </p>
                         <h1>Bible Books Codes</h1>
                         <p>

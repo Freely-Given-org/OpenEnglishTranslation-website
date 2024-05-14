@@ -122,7 +122,7 @@ const Home: NextPage = () => {
                                 rough draft of the New Testament available, plus
                                 a few Old Testament books trialled (Genesis,
                                 Ruth, Esther, and Jonah, along with some of
-                                Exodus and Job, combines to around 11% of the
+                                Exodus and Job, combines to around 12% of the
                                 Old Testament), so a total of{' '}
                                 <b>around 34% of the Bible drafted</b>. That’s
                                 more than enough for you to get an idea of the
