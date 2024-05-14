@@ -207,19 +207,18 @@ function FAQ() {
                         </h2>
                         <p className={styles.FAQAnswer}>
                             After briefly getting started back in 2010, the{' '}
-                            <em>OET</em>
-                            translation has been on hold for several years as we
-                            were asked to help with other projects, but we were
-                            finally able to resume full-time work on the{' '}
-                            <em>OET</em> in July 2022. Any Bible translation
-                            takes several years of work, but the first draft of
-                            the New Testament was completed in March 2024, and
-                            Old Testament translation is ongoing. Further
-                            progress depends on how many volunteers we can
-                            recruit to help. (For example, without any other
-                            software developers, time has to be taken off
-                            translation to develop sample websites and apps in
-                            order to even display the first draft.)
+                            <em>OET</em> translation has been on hold for
+                            several years as we were asked to help with other
+                            projects, but we were finally able to resume
+                            full-time work on the <em>OET</em> in July 2022. Any
+                            Bible translation takes several years of work, but
+                            the first draft of the New Testament was completed
+                            in March 2024, and Old Testament translation is
+                            ongoing. Further progress depends on how many
+                            volunteers we can recruit to help. (For example,
+                            without any other software developers, time has to
+                            be taken off translation to develop sample websites
+                            and apps in order to even display the first draft.)
                         </p>
                         <p>
                             [
