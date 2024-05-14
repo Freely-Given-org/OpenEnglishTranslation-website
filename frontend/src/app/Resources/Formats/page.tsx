@@ -112,7 +112,9 @@ function Formats() {
                             <em>OET</em> extensions
                         </h2>
                         <p></p>
-                        <h3>Add character fields</h3>
+                        <h3>
+                            <em>Add</em> character fields
+                        </h3>
                         <p>
                             ESFM and USFM both have a <b>\add</b> character
                             field. To that, we insert (after the space) a single
@@ -170,7 +172,7 @@ function Formats() {
                                 at that point (<em>OET-RV</em> only)
                             </li>
                             <li>
-                                PROPOSED <b>*</b> We{' '}
+                                PROPOSED <b>≈</b> We{' '}
                                 <b>
                                     reworded (single word, or phrase, or clause)
                                 </b>{' '}
@@ -179,15 +181,27 @@ function Formats() {
                                 make the English style more modern and
                                 easy-to-understand (<em>OET-RV</em> only)
                             </li>
+                            <li>
+                                PROPOSED <b>?</b> We were{' '}
+                                <b>
+                                    unable to determine what the author intended
+                                    to communicate
+                                </b>
+                                ,
+                                <br />
+                                PLUS, if any of the above are preceded by a
+                                question-mark ‘<b>?</b>’, then it means that{' '}
+                                <b>
+                                    a considerable amount of doubt is involved
+                                </b>
+                                , i.e., the intent of the original author is
+                                unclear and our best attempt might actually be
+                                wrong. (Often in those cases, we’ll simply leave
+                                the word-for-word literal text in the Readers’
+                                Version where it’s unclear, but in some cases,
+                                even that isn’t at all understandable.)
+                            </li>
                         </ul>
-                        <p>
-                            PROPOSED If any of the above is preceded by a
-                            question-mark character ‘<b>?</b>’, then it means
-                            that{' '}
-                            <b>a considerable amount of doubt is involved</b>,
-                            i.e., the intent of the original author is unclear
-                            and our best attempt might actually be wrong.
-                        </p>
                         <h3>Footnotes</h3>
                         <p>
                             We are planning to annotate the type of all of our
