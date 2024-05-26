@@ -127,7 +127,8 @@ function Formats() {
                         <ul>
                             <li>
                                 <b>+</b> We had to <b>add an article</b> (like
-                                ‘the’) for the English to make grammatical sense
+                                ‘a’ or ‘the’ or ‘some’) for the English to make
+                                grammatical sense
                             </li>
                             <li>
                                 <b>-</b> We had to <b>drop an article</b> that
