@@ -141,7 +141,7 @@ function Formats() {
                                 ‘is’) for the English to make grammatical sense
                             </li>
                             <li>
-                                <b>~</b> We had to <b>add a direct object</b>{' '}
+                                <b>&lt;</b> We had to <b>add a direct object</b>{' '}
                                 (like ‘it’ after ‘he hit’) for the English to
                                 make grammatical sense
                             </li>
@@ -153,27 +153,43 @@ function Formats() {
                                 to make sense
                             </li>
                             <li>
-                                <b>^</b> We had to <b>add an owner</b> (like
+                                <b>&amp;</b> We had to <b>add an owner</b> (like
                                 replacing ‘the’ with the possessive ‘his’ in
                                 ‘raised the hands’) for the English to make
                                 sense
                             </li>
                             <li>
-                                PROPOSED <b>*</b> We{' '}
-                                <b>changed a name to a pronoun</b> (like
-                                replacing ‘Adam’ with the pronoun ‘he’) for
-                                English fluency
+                                <b>*</b> We <b>changed a name to a pronoun</b>{' '}
+                                (like replacing ‘Adam’ with the pronoun ‘he’)
+                                for English fluency
                             </li>
                             <li>
-                                PROPOSED <b>@</b> We{' '}
-                                <b>changed a pronoun to a name</b> (like
-                                replacing pronoun ‘he’ with the name ‘Adam’) for
-                                English fluency, or following a section heading
-                                in order to help readers who jump into the text
-                                at that point (<em>OET-RV</em> only)
+                                <b>@</b> We <b>changed a pronoun to a name</b>{' '}
+                                (like replacing pronoun ‘he’ with the name
+                                ‘Adam’) for English fluency, or following a
+                                section heading in order to help readers who
+                                jump into the text at that point (
+                                <em>OET-RV</em> only)
                             </li>
                             <li>
-                                PROPOSED <b>≈</b> We{' '}
+                                <b>#</b> We{' '}
+                                <b>changed a singular saying to plural</b> (like
+                                replacing ‘The poor man, he cries…’ with ‘Poor
+                                people, they cry…’) in order to generalise the
+                                saying for modern readers, and often to remove
+                                any wrong suggestion that it might only apply to
+                                males (<em>OET-RV</em> only)
+                            </li>
+                            <li>
+                                <b>^</b> We{' '}
+                                <b>changed a saying to its opposite</b> (like
+                                replacing ‘the doorway is not closed’ with ‘the
+                                door is always open’) in order to make something
+                                more natural for modern readers (<em>OET-RV</em>{' '}
+                                only)
+                            </li>
+                            <li>
+                                <b>≈</b> We{' '}
                                 <b>
                                     reworded (single word, or phrase, or clause)
                                 </b>{' '}
@@ -185,11 +201,11 @@ function Formats() {
                                 <small>
                                     <b>Note</b>: This is different from when
                                     this symbol is used for Hebrew parallelism
-                                    (see below).
+                                    (see separate section below).
                                 </small>
                             </li>
                             <li>
-                                PROPOSED <b>?</b> We were{' '}
+                                <b>?</b> We were{' '}
                                 <b>
                                     unable to determine what the author intended
                                     to communicate
@@ -209,14 +225,16 @@ function Formats() {
                                 even that isn’t at all understandable.)
                             </li>
                         </ul>
-                        <h3>Footnotes</h3>
+                        <h3>Footnotes and cross-references</h3>
                         <p>
                             We are planning to annotate the type of all of our
                             notes to enable some notes to be added or removed
                             for specific online or printed <em>OET</em>
                              editions. Plus we plan/hope to get specialists to
-                            write additional footnote sets, e.g., for a Muslim
-                            or a Jew reading the Bible.
+                            write additional footnote and cross-reference sets,
+                            e.g., for a Muslim or a Jew reading this English
+                            translation, or for a specialist archeological
+                            edition, etc.
                         </p>
                         <p>
                             For annotating footnote types, we are currently

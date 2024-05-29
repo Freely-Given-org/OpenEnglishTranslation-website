@@ -78,6 +78,24 @@ function RV() {
                             </li>
                             <li>
                                 The <em>Readers’ Version</em>{' '}
+                                <b>is less wordy</b> than some English Bible
+                                translations, because we don’t always need to
+                                translate all the words, e.g., something like
+                                ‘And all the assembly of the sons of Israel
+                                departed from the land of Egypt’ might become
+                                ‘Then all the Israelis left Egypt’ as well as
+                                removing unnecessary duplicated phrases like in{' '}
+                                <Link href='https://Freely-Given.org/OBD/par/EXO/C18V10.htm#Top'>
+                                    Exo 18:10
+                                </Link>
+                                . (Always remember that the{' '}
+                                <em>Readers’ Version</em> is for Bible{' '}
+                                <b>readers</b>, and the <em>Literal Version</em>{' '}
+                                is right there for those who’re wanting to get
+                                in and <b>study</b> the text.)
+                            </li>
+                            <li>
+                                The <em>Readers’ Version</em>{' '}
                                 <b>uses section headings</b> which are very
                                 helpful to skim through when trying to locate a
                                 certain passage. However, you’ll quickly notice
