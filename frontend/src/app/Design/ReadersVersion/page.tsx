@@ -1,6 +1,6 @@
 'use client';
 
-// import Link from 'next/link';
+import Link from 'next/link';
 
 import MainPageContent from '../../../Components/page/MainPageContent/MainPageContent';
 import Page from '../../../Components/page/page';
@@ -75,6 +75,24 @@ function RV() {
                                 <i>didn’t</i>, especially when it’s in direct
                                 speech. (Always remember that the Bible was
                                 written in the languages of the common people.)
+                            </li>
+                            <li>
+                                The <em>Readers’ Version</em>{' '}
+                                <b>is less wordy</b> than some English Bible
+                                translations, because we don’t always need to
+                                translate all the words, e.g., something like
+                                ‘And all the assembly of the sons of Israel
+                                departed from the land of Egypt’ might become
+                                ‘Then all the Israelis left Egypt’ as well as
+                                removing unnecessary duplicated phrases like in{' '}
+                                <Link href='https://Freely-Given.org/OBD/par/EXO/C18V10.htm#Top'>
+                                    Exo 18:10
+                                </Link>
+                                . (Always remember that the{' '}
+                                <em>Readers’ Version</em> is for Bible{' '}
+                                <b>readers</b>, and the <em>Literal Version</em>{' '}
+                                is right there for those who’re wanting to get
+                                in and <b>study</b> the text.)
                             </li>
                             <li>
                                 The <em>Readers’ Version</em>{' '}

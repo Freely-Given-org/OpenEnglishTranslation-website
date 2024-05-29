@@ -29,15 +29,17 @@ function KTEssays() {
                         <ul>
                             <li>
                                 Following tradition, many older Bible
-                                translations (or those that place tradition over
-                                accuracy) use the term “LORD” or “the LORD” to
-                                represent “Yahweh”. This tradition resulted from
-                                the fact that historically, the Jewish people
-                                became afraid of mispronouncing Yahweh’s name
-                                and started saying “Lord” (Hebrew “Adonai”)
-                                every time the term “Yahweh” appeared in the
-                                text. Modern Bibles write “LORD” with all
-                                capital letters out of tradition and to
+                                translations (and even more recent ones that
+                                place tradition above accuracy and common sense)
+                                use the term “L<small>ORD</small>” or “the L
+                                <small>ORD</small>” to represent “Yahweh”. This
+                                old-fashioned tradition resulted from the fact
+                                that historically, the Jewish people became
+                                afraid of mispronouncing Yahweh’s name and
+                                started saying “Lord” (Hebrew “Adonai”) every
+                                time the term “Yahweh” appeared in the text.
+                                Modern Bibles write “L<small>ORD</small>” with
+                                all capital letters out of tradition and to
                                 distinguish it from “Lord” which is a different
                                 Hebrew word and is translated as “master” in the{' '}
                                 <em>OET</em>.
@@ -81,13 +83,13 @@ function KTEssays() {
                             <li>
                                 Some church denominations prefer not to use the
                                 term “Yahweh” and instead use the traditional
-                                rendering, “LORD.” An important consideration is
-                                that this may be confusing when read aloud
-                                because it will sound the same as the title
-                                “Lord.” Some languages may have an affix or
-                                other grammatical marker that could be added to
-                                distinguish “LORD” as a name (Yahweh) from
-                                “Lord” or “master” as a title.
+                                rendering, “L<small>ORD</small>”. An important
+                                consideration is that this may be confusing when
+                                read aloud because it will sound the same as the
+                                title “Lord.” Some languages may have an affix
+                                or other grammatical marker that could be added
+                                to distinguish “L<small>ORD</small>” as a name
+                                (Yahweh) from “Lord” or “master” as a title.
                             </li>
                             <li>
                                 It is best if possible to keep the name Yahweh
