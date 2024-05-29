@@ -1,6 +1,6 @@
 'use client';
 
-// import Link from 'next/link';
+import Link from 'next/link';
 
 import MainPageContent from '../../../Components/page/MainPageContent/MainPageContent';
 import Page from '../../../Components/page/page';
