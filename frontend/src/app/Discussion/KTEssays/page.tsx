@@ -19,88 +19,117 @@ function KTEssays() {
                         <h2>with important theological meanings</h2>
                         <h3>(Sometimes called ‘Key Terms’)</h3>
                         <h2>Yahweh</h2>
+                        <p>
+                            The <em>Open English Translation</em> translators
+                            maintain that the tradition of replacing God’s name
+                            with the substitution ‘L<small>ORD</small>’ is not
+                            the most helpful for most English readers, and in
+                            fact can be quite misleading. Sadly, it’s become a
+                            well-established tradition in both English Bible
+                            translations and in English-speaking church
+                            services, so changing it now will feel odd for a
+                            time (but that doesn’t mean that we shouldn’t make
+                            the effort).
+                        </p>
+                        <p>
+                            The following notes are adapted from{' '}
+                            <Link href='https://git.Door43.org/unfoldingWord/en_tw/src/branch/master/bible/kt/yahweh.md'>
+                                git.Door43.org/unfoldingWord/en_tw/src/branch/master/bible/kt/yahweh.md
+                            </Link>
+                            .
+                        </p>
                         <h3>Facts:</h3>
                         <p>
-                            The term “Yahweh” is God’s personal name in the Old
+                            The term ‘Yahweh’ is God’s personal name in the Old
                             Testament. The specific origin of this name is
-                            unknown, but it is probably derived from the Hebrew
-                            verb meaning, “to be”.
+                            unknown, but it’s probably derived from the Hebrew
+                            verb meaning, ‘to be’.
                         </p>
                         <ul>
                             <li>
                                 Following tradition, many older Bible
                                 translations (and even more recent ones that
                                 place tradition above accuracy and common sense)
-                                use the term “L<small>ORD</small>” or “the L
-                                <small>ORD</small>” to represent “Yahweh”. This
+                                use the term ‘L<small>ORD</small>’ or ‘the L
+                                <small>ORD</small>’ to represent ‘Yahweh’. This
                                 old-fashioned tradition resulted from the fact
                                 that historically, the Jewish people became
                                 afraid of mispronouncing Yahweh’s name and
-                                started saying “Lord” (Hebrew “Adonai”) every
-                                time the term “Yahweh” appeared in the text.
-                                Modern Bibles write “L<small>ORD</small>” with
+                                started saying ‘Lord’ (Hebrew ‘Adonai’) every
+                                time the term ‘Yahweh’ appeared in the text.
+                                Modern Bibles write ‘L<small>ORD</small>’ with
                                 all capital letters out of tradition and to
-                                distinguish it from “Lord” which is a different
-                                Hebrew word and is translated as “master” in the{' '}
+                                distinguish it from ‘Lord’ which is a different
+                                Hebrew word and is translated as ‘master’ in the{' '}
                                 <em>OET</em>.
                             </li>
                             <li>
                                 The <em>Open English Translation</em>{' '}
                                 <em>Readers Version</em> and{' '}
                                 <em>Literal Version</em> always translate this
-                                term as “Yahweh” in agreement with the text of
+                                term as ‘Yahweh’ in agreement with the text of
                                 the Hebrew scriptures.
                             </li>
                             <li>
-                                The term “Yahweh” never occurs in the original
+                                The term ‘Yahweh’ never occurs in the original
                                 text of the New Testament Messianic update; only
-                                the Greek term for “Master/Lord” is used, even
+                                the Greek term for ‘Master/Lord’ is used, even
                                 when quoting the Hebrew scriptures.
                             </li>
                             <li>
                                 In the Hebrew scriptures, when God spoke about
                                 himself, he would often use his name instead of
-                                a pronoun.
+                                a pronoun. (In our <em>Readers Version</em>, we
+                                adjust this to way modern English uses
+                                pronouns.)
                             </li>
                             <li>
-                                “Yah” is a shortened form of the name Yahweh
+                                ‘Yah’ is a shortened form of the name Yahweh
                                 that occurs in poetry and praise (e.g.
-                                Hallelujah = "Praise Yah"), and in some Hebrew
-                                names (e.g. Zechariah = “Yah remembers”).
+                                Hallelujah = ‘Praise Yah’), and in some Hebrew
+                                names (e.g. Zechariah = ‘Yah remembers’).
+                            </li>
+                            <li>
+                                Some traditions have used ‘Jehovah’ (we’d prefer
+                                the spelling ‘Yehovah’) rather than ‘Yahweh’ for
+                                God’s name. Although we understand this to be
+                                less likely to be correct, we would consider
+                                that to still be better than replacing the name
+                                with ‘L<small>ORD</small>’.
                             </li>
                         </ul>
                         <h3>Other translation possibilities:</h3>
                         <ul>
                             <li>
-                                “Yahweh” could be translated by a word or phrase
-                                that means “I am” or “existing one” or “the one
-                                who is” or “he who is present”.
+                                ‘Yahweh’ could be translated by a word or phrase
+                                that means ‘I am’ or ‘existing one’ or ‘the one
+                                who is’ or ‘he who is present’.
                             </li>
                             <li>
                                 This term could also be written in a way that is
-                                similar to how “Yahweh” is spelled.
+                                similar to how ‘Yahweh’ is spelled.
                             </li>
                             <li>
                                 Some church denominations prefer not to use the
-                                term “Yahweh” and instead use the traditional
-                                rendering, “L<small>ORD</small>”. An important
+                                term ‘Yahweh’ and instead use the traditional
+                                rendering, ‘L<small>ORD</small>’. An important
                                 consideration is that this may be confusing when
                                 read aloud because it will sound the same as the
-                                title “Lord.” Some languages may have an affix
+                                title ‘Lord’. Some languages may have an affix
                                 or other grammatical marker that could be added
-                                to distinguish “L<small>ORD</small>” as a name
-                                (Yahweh) from “Lord” or “master” as a title.
+                                to distinguish ‘L<small>ORD</small>’ as a name
+                                (Yahweh) from ‘Lord’ or ‘master’ as a title.
                             </li>
                             <li>
-                                It is best if possible to keep the name Yahweh
-                                where it literally occurs in the text, but some
-                                translations may decide to use only a pronoun in
-                                some places, to make the text more natural and
-                                clear.
+                                Some might consider it best, if possible, to
+                                keep the name Yahweh where it literally occurs
+                                in the text, but other translations may decide
+                                to use only a pronoun in some places to make
+                                the text more natural and clear.
                             </li>
                             <li>
-                                Introduce the quote with something like, “This
-                                is what Yahweh says”.
+                                Introduce the quote with something like, ‘This
+                                is what Yahweh says’.
                             </li>
                         </ul>
                         <p>
@@ -296,13 +325,6 @@ function KTEssays() {
                             ,{' '}
                             <Link href='https://BibleHub.com/hebrew/3050.htm'>
                                 H3050
-                            </Link>
-                            .
-                        </p>
-                        <p>
-                            Adapted from{' '}
-                            <Link href='https://git.Door43.org/unfoldingWord/en_tw/src/branch/master/bible/kt/yahweh.md'>
-                                git.Door43.org/unfoldingWord/en_tw/src/branch/master/bible/kt/yahweh.md
                             </Link>
                             .
                         </p>
