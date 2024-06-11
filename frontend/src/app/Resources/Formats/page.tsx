@@ -153,6 +153,14 @@ function Formats() {
                                 to make sense
                             </li>
                             <li>
+                                <b>≡</b> We chose to{' '}
+                                <b>repeat something that was elided</b> (like
+                                replacing ‘pursued King A and King B’ with the
+                                longer ‘pursued King A and pursued King B’ where
+                                doing so makes the English easier to read and
+                                understand
+                            </li>
+                            <li>
                                 <b>&amp;</b> We had to <b>add an owner</b> (like
                                 replacing ‘the’ with the possessive ‘his’ in
                                 ‘raised the hands’) for the English to make
@@ -173,12 +181,15 @@ function Formats() {
                             </li>
                             <li>
                                 <b>#</b> We{' '}
-                                <b>changed a singular saying to plural</b> (like
-                                replacing ‘The poor man, he cries…’ with ‘Poor
-                                people, they cry…’) in order to generalise the
-                                saying for modern readers, and often to remove
-                                any wrong suggestion that it might only apply to
-                                males (<em>OET-RV</em> only)
+                                <b>
+                                    changed the number, mostly changing singular
+                                    sayings to plural
+                                </b>{' '}
+                                (like replacing ‘The poor man, he cries…’ with
+                                ‘Poor people, they cry…’) in order to generalise
+                                the saying for modern readers, and often to
+                                remove any wrong suggestion that it might only
+                                apply to males (<em>OET-RV</em> only)
                             </li>
                             <li>
                                 <b>^</b> We{' '}

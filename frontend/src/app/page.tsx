@@ -118,13 +118,13 @@ const Home: NextPage = () => {
                                 </li>
                             </ul>
                             <p>
-                                Currently as of late-May 2024, we have the first
+                                Currently as of mid-June 2024, we have the first
                                 draft of the New Testament available, plus a few
                                 Old Testament books trialled (Genesis, Ruth,
                                 Esther, and Jonah, along with some of Exodus and
-                                Job, combines to around 14% of the Hebrew
+                                Job, combines to around 15% of the Hebrew
                                 scriptures), so a total of{' '}
-                                <b>around 36% of the Bible drafted</b>. That’s
+                                <b>around 37% of the Bible drafted</b>. That’s
                                 more than enough for you to get an idea of the
                                 style that we’re aiming for, although some
                                 decisions (even some major ones) are still in

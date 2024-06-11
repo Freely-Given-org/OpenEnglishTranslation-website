@@ -32,11 +32,13 @@ function KTEssays() {
                             the effort).
                         </p>
                         <p>
-                            The following notes are adapted from{' '}
-                            <Link href='https://git.Door43.org/unfoldingWord/en_tw/src/branch/master/bible/kt/yahweh.md'>
-                                git.Door43.org/unfoldingWord/en_tw/src/branch/master/bible/kt/yahweh.md
-                            </Link>
-                            .
+                            <small>
+                                The following notes are adapted from{' '}
+                                <Link href='https://git.Door43.org/unfoldingWord/en_tw/src/branch/master/bible/kt/yahweh.md'>
+                                    unfoldingWord’s notes for translators
+                                </Link>
+                                .
+                            </small>
                         </p>
                         <h3>Facts:</h3>
                         <p>
@@ -91,11 +93,11 @@ function KTEssays() {
                             </li>
                             <li>
                                 Some traditions have used ‘Jehovah’ (we’d prefer
-                                the spelling ‘Yehovah’) rather than ‘Yahweh’ for
-                                God’s name. Although we understand this to be
-                                less likely to be correct, we would consider
-                                that to still be better than replacing the name
-                                with ‘L<small>ORD</small>’.
+                                the spelling ‘Yehovah’ or ‘Yehowah’) rather than
+                                ‘Yahweh’ for God’s name. Although we understand
+                                this to be less likely to be correct, we would
+                                consider that to still be better than replacing
+                                the name with ‘L<small>ORD</small>’.
                             </li>
                         </ul>
                         <h3>Other translation possibilities:</h3>
@@ -124,8 +126,8 @@ function KTEssays() {
                                 Some might consider it best, if possible, to
                                 keep the name Yahweh where it literally occurs
                                 in the text, but other translations may decide
-                                to use only a pronoun in some places to make
-                                the text more natural and clear.
+                                to use only a pronoun in some places to make the
+                                text more natural and clear.
                             </li>
                             <li>
                                 Introduce the quote with something like, ‘This
