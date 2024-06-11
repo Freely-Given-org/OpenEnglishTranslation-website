@@ -38,13 +38,12 @@ function Reader() {
                                 You should note that the <em>OET</em> project is
                                 still in the very early, startup phases and so
                                 you are viewing very early, rough drafts of the
-                                New Testament made available to demonstrate some
-                                of the concepts and for early users to start
-                                testing. We are aiming to start drafting the{' '}
-                                <em>OET Old Testament</em> by mid-2024.
+                                New Testament and some Old Testament books made
+                                available to demonstrate some of the concepts
+                                and for early users to start testing. The{' '}
+                                <em>OET Old Testament</em> drafting is ongoing.
                             </small>
                         </p>
-                        <ReaderIframe src='https://Freely-Given.org/OBD/OET/bySec/JHN_S2.htm#Top' />
                         <p>
                             See the{' '}
                             <Link href='/About/Contact'>contact page</Link> to
@@ -62,6 +61,7 @@ function Reader() {
                                 )
                             </small>
                         </p>
+                        <ReaderIframe src='https://Freely-Given.org/OBD/OET/bySec/JHN_S2.htm#Top' />
                     </MainPageContent>
                 </Page>
             </Main>
