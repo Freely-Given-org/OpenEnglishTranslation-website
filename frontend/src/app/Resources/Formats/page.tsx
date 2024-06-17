@@ -164,7 +164,12 @@ function Formats() {
                                 <b>&amp;</b> We had to <b>add an owner</b> (like
                                 replacing ‘the’ with the possessive ‘his’ in
                                 ‘raised the hands’) for the English to make
-                                sense
+                                sense or to be more natural (like in ‘<b>his</b>{' '}
+                                only son’ in{' '}
+                                <Link href='https://Freely-Given.org/OBD/par/JHN/C3V16.htm#Top'>
+                                    John 3:16
+                                </Link>
+                                )
                             </li>
                             <li>
                                 <b>*</b> We <b>changed a name to a pronoun</b>{' '}
