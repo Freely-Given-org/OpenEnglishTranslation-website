@@ -172,17 +172,17 @@ function Formats() {
                                 )
                             </li>
                             <li>
-                                <b>*</b> We <b>changed a name to a pronoun</b>{' '}
-                                (like replacing ‘Adam’ with the pronoun ‘he’)
-                                for English fluency
-                            </li>
-                            <li>
                                 <b>@</b> We <b>changed a pronoun to a name</b>{' '}
                                 (like replacing pronoun ‘he’ with the name
                                 ‘Adam’) for English fluency, or following a
                                 section heading in order to help readers who
                                 jump into the text at that point (
                                 <em>OET-RV</em> only)
+                            </li>
+                            <li>
+                                <b>*</b> We <b>changed a name to a pronoun</b>{' '}
+                                (like replacing ‘Adam’ with the pronoun ‘he’)
+                                for English fluency
                             </li>
                             <li>
                                 <b>#</b> We{' '}
