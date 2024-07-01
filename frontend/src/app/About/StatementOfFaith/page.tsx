@@ -38,11 +38,11 @@ function StatementOfFaith() {
                             </li>
                             <li>
                                 the Greek scriptures (commonly known as the ‘New
-                                Testament’) which feature five narrative
+                                Testament’) which feature four narrative
                                 accounts of Yeshua’s life on earth around 2,000
-                                years ago and the establishment of Christian
-                                assemblies, followed by a collection of letters
-                                and a couple of other documents.
+                                years ago plus one about the establishment of
+                                Christian assemblies, followed by a collection
+                                of letters and a couple of other documents.
                             </li>
                         </ul>
                         <p>
