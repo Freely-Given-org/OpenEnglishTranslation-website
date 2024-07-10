@@ -122,10 +122,10 @@ const Home: NextPage = () => {
                                 first draft of the New Testament available, plus
                                 a few Old Testament books trialled (Genesis,
                                 Exodus, Ruth, Esther, Job, Jonah, and Malachi,
-                                along with a few Psalms and some of Joshua,
-                                combines to around 18% of the Hebrew
+                                along with a third of Joshua and a few Psalms,
+                                combines to around 19% of the Hebrew
                                 scriptures), so a total of{' '}
-                                <b>over 39% of the Bible drafted</b>. That’s
+                                <b>over 40% of the Bible drafted</b>. That’s
                                 more than enough for you to get an idea of the
                                 style that we’re aiming for, although some
                                 decisions (even some major ones) are still in
