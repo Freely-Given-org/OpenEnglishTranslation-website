@@ -118,19 +118,18 @@ const Home: NextPage = () => {
                                 </li>
                             </ul>
                             <p>
-                                Currently as of early-July 2024, we have the
-                                first draft of the New Testament available, plus
-                                a few Old Testament books trialled (Genesis,
-                                Exodus, Ruth, Esther, Job, Jonah, and Malachi,
-                                along with a third of Joshua and a few Psalms,
-                                combines to around 19% of the Hebrew
-                                scriptures), so a total of{' '}
-                                <b>over 40% of the Bible drafted</b>. That’s
-                                more than enough for you to get an idea of the
-                                style that we’re aiming for, although some
-                                decisions (even some major ones) are still in
-                                flux (and will be for quite some time yet). But
-                                we’re also{' '}
+                                Currently as of mid-July 2024, we have the first
+                                draft of the New Testament available, plus a few
+                                Old Testament books trialled (Genesis, Exodus,
+                                Ruth, Esther, Job, Jonah, and Malachi, along
+                                with half of Joshua and a few Psalms, combines
+                                to around 20% of the Hebrew scriptures), so a
+                                total of <b>over 40% of the Bible drafted</b>.
+                                That’s more than enough for you to get an idea
+                                of the style that we’re aiming for, although
+                                some decisions (even some major ones) are still
+                                in flux (and will be for quite some time yet).
+                                But we’re also{' '}
                                 <b>
                                     excited about the way that every word in the{' '}
                                     <em>OET Literal Version</em> is linked to
