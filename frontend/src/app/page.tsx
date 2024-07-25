@@ -81,9 +81,10 @@ const Home: NextPage = () => {
                                     (at the risk of making some new ones)
                                 </li>
                                 <li>
-                                    trying to <b>avoid using Greek words</b> in
-                                    the English translation (like ‘baptise’ and
-                                    ‘apostle’), although we do use (Hebrew)
+                                    trying to{' '}
+                                    <b>avoid using untranslated Greek words</b>{' '}
+                                    in the English translation (like ‘baptise’
+                                    and ‘apostle’), although we do use (Hebrew)
                                     ‘Messiah’ heavily
                                 </li>
                                 <li>
@@ -118,13 +119,13 @@ const Home: NextPage = () => {
                                 </li>
                             </ul>
                             <p>
-                                Currently as of mid-July 2024, we have the first
+                                Currently as of late-July 2024, we have the first
                                 draft of the New Testament available, plus a few
                                 Old Testament books trialled (Genesis, Exodus,
                                 Ruth, Esther, Job, Jonah, and Malachi, along
-                                with half of Joshua and a few Psalms, combines
-                                to around 20% of the Hebrew scriptures), so a
-                                total of <b>over 40% of the Bible drafted</b>.
+                                with most of Joshua and a few Psalms, combines
+                                to around 21% of the Hebrew scriptures), so a
+                                total of <b>over 41% of the Bible drafted</b>.
                                 That’s more than enough for you to get an idea
                                 of the style that we’re aiming for, although
                                 some decisions (even some major ones) are still
