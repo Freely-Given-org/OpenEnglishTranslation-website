@@ -43,27 +43,29 @@ function WordEssays() {
                                 <b>
                                     <sup>*</sup>
                                 </b>{' '}
-                                Note: The OET intentionally doesn’t call itself
-                                a ‘Bible’ but a ‘translation of the Bible’ in an
-                                attempt to remind and educate our readers that
-                                we use an English <b>translation</b> of a
-                                collection of Hebrew, Aramaic, and Koine Greek
-                                documents.
+                                Note: The <em>OET</em> intentionally doesn’t
+                                call itself a ‘Bible’ but a ‘translation of the
+                                Bible’ in an attempt to remind and educate our
+                                readers that we use an English{' '}
+                                <b>translation</b> of a collection of Hebrew,
+                                Aramaic, and Koine Greek documents.
                             </small>
                             <br /> <br />
                             <small>
                                 <b>
                                     <sup>**</sup>
                                 </b>{' '}
-                                Disclaimer: The founder of the OET lives in New
-                                Zealand where we make some different word
-                                choices from the country where English
-                                originated (England, 55+ million people), and
-                                even more noticeable, from the country with the
-                                largest native-‘English’-speaking population
-                                (USA, 330+ million people). Please do let us
-                                know if anything stated on this page isn’t true
-                                for your English dialect.
+                                Disclaimer: The founder of the <em>OET</em>{' '}
+                                lives in New Zealand where we make some
+                                different word choices from the country where
+                                English originated (England, 55+ million
+                                people), and even more noticeable, from the
+                                country with the largest
+                                native-‘English’-speaking population (USA, 330+
+                                million people). Please do{' '}
+                                <Link href='/About/Contact'>let us know</Link>{' '}
+                                if anything stated on this page isn’t true for
+                                your English dialect.
                             </small>
                         </p>
                         <h2>For</h2>
@@ -117,6 +119,59 @@ function WordEssays() {
                             naturally use the word ‘great’ to describe the
                             frightening event. However, many recent English
                             Bible translations still do just that.
+                        </p>
+                        <h2>Of (genitive/possessive)</h2>
+                        <p>
+                            The English word ‘of’ seems so small and
+                            insignificant that it surely couldn’t have too much
+                            effect on a modern Bible translation? But it does,
+                            and this issue has become more significant over the
+                            centuries because of English language change.
+                        </p>
+                        <p>
+                            Imagine if I said, ‘I’m just going to drop in at the
+                            house of Michael.’ Sounds a bit weird? But in the
+                            1500’s when John Wycliffe was translating from Latin
+                            to what we now call ‘Middle English’, ‘the house of
+                            Michael’ was a quite normal construction. However,
+                            some five hundred years later, it’s more normal to
+                            say ‘Michael’s house’. The <em>OET</em> tries hard
+                            to use modern English forms as much as possible,
+                            however many of the archaic forms are still carried
+                            over into other English translations that would
+                            consider themselves to be ‘modern’, e.g., ‘hand of
+                            God’, ‘temple of God’, ‘Son of God’, ‘Son of Man’,
+                            etc., etc. As mentioned above, one of the reasons
+                            why so many of our Bibles sound ‘quaint’ or
+                            ‘authoritative’ (depending on your perspective) is
+                            that they tradition above natural language use and
+                            so they sound more ‘formal’ than more modern English
+                            narratives and essays.
+                        </p>
+                        <p>
+                            There is another problem with interpreting the Greek
+                            genitive is that is can be ambiguous. Consider ‘love
+                            of God’ in the sentence ‘The love of God for people
+                            is amazing.’ This could be rewritten as ‘God’s love
+                            for people is amazing.’ On the contrary, ‘Mary
+                            really lives out her love of God.’ Here ‘love of
+                            God’ can’t be replaced with ‘God’s love’ but rather
+                            with ‘love for God’, hence ‘Mary really lives out
+                            her love for God.’ So we realise that the ‘of’
+                            (genitive) form is ambiguous: it can often be
+                            translated with the English possessive form (usually
+                            expressed with apostrophe in modern English) but
+                            sometimes we must choose a different English
+                            construction, and occasionally we might bring the
+                            ambiguous form across to English because we can’t
+                            determine which option the writer intended.
+                        </p>
+                        <p>
+                            All to say that you’ll find many less ‘of’
+                            constructions in the <em>OET</em>
+                            and although that might make it sound unfamiliar to
+                            long-term Bible readers, it will feel considerably
+                            less ‘quaint’ or ‘weird’ to first-time readers.
                         </p>
                         <h2>Wild beasts</h2>
                         <p>
