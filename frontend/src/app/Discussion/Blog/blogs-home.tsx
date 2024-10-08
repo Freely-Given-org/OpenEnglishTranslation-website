@@ -28,7 +28,7 @@ const Home = ({ _blogs }: any) => {
                                 </li>
                             ))}
                         </ul> */}
-                        <h1>What’s that ‘for’?</h1>
+                        <h1 id='for'>What’s that ‘for’?</h1>
                         <p>
                             The most memorised Bible verse in the world was John
                             3:16 from the KJB:{' '}
@@ -143,7 +143,7 @@ const Home = ({ _blogs }: any) => {
                                 translator.
                             </small>
                         </p>
-                        <h1>Which ‘word’?</h1>
+                        <h1 id='word'>Which ‘word’?</h1>
                         <p>
                             In the beginning was ‘the word’{' '}
                             <small>

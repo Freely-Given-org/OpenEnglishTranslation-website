@@ -22,28 +22,34 @@ function WordEssays() {
                             text often feels very formal, in fact so much so
                             that many readers now expect that a Bible
                             translation <em>must</em> sound formal. What most
-                            readers don’t realise, is that there are two main
+                            readers don’t realise, is that there are three main
                             reasons that Bible translations sound ‘formal’ or
                             ‘quaint’:
                             <br />
-                            <b>1.</b> Because Hebrew or Greek word order and
-                            idioms are often carried through into English
-                            translations, e.g., ‘son of Abraham’ rather than
-                            ‘Abraham’s son’, and
+                            <b>1.</b> Because Hebrew or Greek word order is
+                            often carried through into English translations,
+                            e.g., ‘son of Abraham’ rather than ‘Abraham’s son’,
                             <br />
-                            <b>2.</b> Because ancient English word choices (some
-                            going back all the way to John Wycliffe in the
-                            1300’s) are still present in so-called ‘modern’
-                            English translations, e.g., using ‘For’ instead of
-                            ‘Because’, using ‘great’ instead of ‘large’, or
-                            using ‘wild beasts’ instead of ‘wild animals’.
-                            <sup>**</sup>
+                            <b>2.</b> Because Hebrew or Greek idioms are often
+                            carried through into English translations, e.g.,
+                            ‘God delivered him from the hand of the Philistines’
+                            when we’d never use that idiom in natural English
+                            speech.
+                            <br />
+                            <b>3.</b> Because ancient English word choices (some
+                            going back all the way to John Wycliffe<sup>**</sup>{' '}
+                            in the 1300’s) are still present in so-called
+                            ‘modern’ English translations, e.g., using ‘For’
+                            instead of ‘Because’, using ‘great’ where we would
+                            no longer use it, or using ‘wild beasts’ instead of
+                            ‘wild animals’.
+                            <sup>***</sup>
                             <br /> <br />
                             <small>
                                 <b>
                                     <sup>*</sup>
                                 </b>{' '}
-                                Note: The <em>OET</em> intentionally doesn’t
+                                Note: The <em>OET</em> intentionally doesn’t
                                 call itself a ‘Bible’ but a ‘translation of the
                                 Bible’ in an attempt to remind and educate our
                                 readers that we use an English{' '}
@@ -55,20 +61,41 @@ function WordEssays() {
                                 <b>
                                     <sup>**</sup>
                                 </b>{' '}
-                                Disclaimer: The founder of the <em>OET</em>{' '}
-                                lives in New Zealand where we make some
+                                Middle English: The English of the 1300’s that
+                                John Wycliffe translated into is now labelled as
+                                ‘Middle English’. We have included Wycliffe’s
+                                New Testament on our parallel verse pages so
+                                that you can view that early English translation
+                                and discover where much of our English scripture
+                                terminology originated, and then go upwards on
+                                the page from there to view the changes over the
+                                following centuries, e.g., see{' '}
+                                <Link href='https://Freely-Given.org/OBD/par/MRK/C2V11.htm#Wyc'>
+                                    Mark 2:11
+                                </Link>
+                                .
+                            </small>
+                            <br /> <br />
+                            <small>
+                                <b>
+                                    <sup>***</sup>
+                                </b>{' '}
+                                Disclaimer: The founder of the <em>OET</em>
+                                 lives in New Zealand where we make some
                                 different word choices from the country where
                                 English originated (England, 55+ million
                                 people), and even more noticeable, from the
                                 country with the largest
                                 native-‘English’-speaking population (USA, 330+
                                 million people). Please do{' '}
-                                <Link href='/About/Contact'>let us know</Link>{' '}
+                                <Link href='/About/Contact'>
+                                    let us know
+                                </Link>{' '}
                                 if anything stated on this page isn’t true for
                                 your English dialect.
                             </small>
                         </p>
-                        <h2>For</h2>
+                        <h2 id='for'>For</h2>
                         <p>
                             ‘For God so loved the world…’ So what does the word
                             ‘For’ mean at the beginning of that very well-known
@@ -102,7 +129,73 @@ function WordEssays() {
                         <p>
                             See more in the <Link href='Blog/'>blog</Link>.
                         </p>
-                        <h2>Great</h2>
+                        <h2 id='of'>Of (genitive/possessive)</h2>
+                        <p>
+                            The English word ‘of’ seems so small and
+                            insignificant that it surely couldn’t have too much
+                            effect on a modern Bible translation? But it does,
+                            and this issue has become more significant over the
+                            centuries because of English language change.
+                        </p>
+                        <p>
+                            Imagine if I said, ‘I’m just going to drop in at the
+                            house of Michael.’ Sounds a bit weird? But in the
+                            1300’s when John Wycliffe was translating from Latin
+                            to what we now call ‘Middle English’,{' '}
+                            <Link href='https://Freely-Given.org/OBD/par/ACT/C10V17.htm#Wyc'>
+                                ‘the house of Simon’
+                            </Link>{' '}
+                            was a quite normal construction. However now, some
+                            seven hundred years later, it’s more normal to say
+                            ‘Simon’s house’. The <em>OET</em>
+                             tries hard to use modern English forms as much as
+                            possible, however many of the archaic forms are
+                            still carried over into other English translations
+                            that would consider themselves to be ‘modern’, e.g.,
+                            ‘hand of God’, ‘temple of God’, ‘Son of God’, ‘Son
+                            of Man’, etc., etc. As mentioned above, one of the
+                            reasons why so many of our Bibles sound ‘quaint’ or
+                            ‘authoritative’ (depending on your perspective) is
+                            that they tradition above natural language use and
+                            so they sound more ‘formal’ than more modern English
+                            narratives and essays.
+                        </p>
+                        <p>
+                            There is another problem with interpreting the Greek
+                            genitive in that it can be ambiguous. Consider ‘love
+                            of God’ in the sentence ‘The love of God for people
+                            is amazing.’ This could be rewritten as ‘God’s love
+                            for people is amazing.’ On the contrary, ‘Mary
+                            really lives out her love of God.’ Here ‘love of
+                            God’ can’t be replaced with ‘God’s love’ but rather
+                            with ‘love for God’, hence ‘Mary really lives out
+                            her love for God.’ So we realise that the ‘of’
+                            (Greek genitive) form is ambiguous: it can often be
+                            translated with the English possessive form (usually
+                            expressed with apostrophe in modern English) but
+                            sometimes we must choose a different English
+                            construction, and occasionally we might bring the
+                            ambiguous form across to English because we can’t
+                            determine which option the writer intended.
+                        </p>
+                        <p>
+                            All to say that you’ll find many less ‘of’
+                            constructions in the <em>OET</em> and although that
+                            might make it sound unfamiliar to long-term Bible
+                            readers, it will feel considerably less ‘quaint’ or
+                            ‘weird’ to first-time readers.
+                        </p>
+                        <h2 id='deliver'>Deliver</h2>
+                        <p>
+                            Pretty much the only things that get ‘delivered’ in
+                            modern times are packages, pizzas, and babies.
+                            Slaves taken by ISIS get ‘rescued’ and God might
+                            help the army to ‘defeat’ or ‘conquer’ the enemy,
+                            not ‘deliver them into your hand’. Addicts ‘break’
+                            the habit. Prisoners (or sinners) get ‘released’ or
+                            ‘set free’ rather than getting ‘delivered’.
+                        </p>
+                        <h2 id='great'>Great</h2>
                         <p>
                             Have you watched a <em>great</em> movie recently? In
                             modern English, the word ‘great’ typically has a
@@ -116,64 +209,11 @@ function WordEssays() {
                             , he used that word to describe a terrible
                             earthquake. No doubt any modern reader who’s had
                             their house damaged in an earthquake wouldn’t
-                            naturally use the word ‘great’ to describe the
-                            frightening event. However, many recent English
-                            Bible translations still do just that.
+                            naturally use the phase ‘great earthquake’ to
+                            describe the frightening event. However, many recent
+                            English Bible translations still do just that.
                         </p>
-                        <h2>Of (genitive/possessive)</h2>
-                        <p>
-                            The English word ‘of’ seems so small and
-                            insignificant that it surely couldn’t have too much
-                            effect on a modern Bible translation? But it does,
-                            and this issue has become more significant over the
-                            centuries because of English language change.
-                        </p>
-                        <p>
-                            Imagine if I said, ‘I’m just going to drop in at the
-                            house of Michael.’ Sounds a bit weird? But in the
-                            1500’s when John Wycliffe was translating from Latin
-                            to what we now call ‘Middle English’, ‘the house of
-                            Michael’ was a quite normal construction. However,
-                            some five hundred years later, it’s more normal to
-                            say ‘Michael’s house’. The <em>OET</em> tries hard
-                            to use modern English forms as much as possible,
-                            however many of the archaic forms are still carried
-                            over into other English translations that would
-                            consider themselves to be ‘modern’, e.g., ‘hand of
-                            God’, ‘temple of God’, ‘Son of God’, ‘Son of Man’,
-                            etc., etc. As mentioned above, one of the reasons
-                            why so many of our Bibles sound ‘quaint’ or
-                            ‘authoritative’ (depending on your perspective) is
-                            that they tradition above natural language use and
-                            so they sound more ‘formal’ than more modern English
-                            narratives and essays.
-                        </p>
-                        <p>
-                            There is another problem with interpreting the Greek
-                            genitive is that is can be ambiguous. Consider ‘love
-                            of God’ in the sentence ‘The love of God for people
-                            is amazing.’ This could be rewritten as ‘God’s love
-                            for people is amazing.’ On the contrary, ‘Mary
-                            really lives out her love of God.’ Here ‘love of
-                            God’ can’t be replaced with ‘God’s love’ but rather
-                            with ‘love for God’, hence ‘Mary really lives out
-                            her love for God.’ So we realise that the ‘of’
-                            (genitive) form is ambiguous: it can often be
-                            translated with the English possessive form (usually
-                            expressed with apostrophe in modern English) but
-                            sometimes we must choose a different English
-                            construction, and occasionally we might bring the
-                            ambiguous form across to English because we can’t
-                            determine which option the writer intended.
-                        </p>
-                        <p>
-                            All to say that you’ll find many less ‘of’
-                            constructions in the <em>OET</em>
-                            and although that might make it sound unfamiliar to
-                            long-term Bible readers, it will feel considerably
-                            less ‘quaint’ or ‘weird’ to first-time readers.
-                        </p>
-                        <h2>Wild beasts</h2>
+                        <h2 id='beast'>Wild beasts</h2>
                         <p>
                             In the past, you might have taken a tour of an
                             African safari park to view the ‘wild beasts’, but
@@ -185,10 +225,10 @@ function WordEssays() {
                             word ‘animal’ over ‘beast’. Tragically though, even
                             quite modern English Bible translations persist in
                             their use of the word ‘beast’, most noticeably in
-                            Yohan's Revelation, but it’s likely producing the
+                            Yohan’s Revelation, but it’s likely producing the
                             wrong word picture in the minds of many readers.
                         </p>
-                        <h2>Ark</h2>
+                        <h2 id='ark'>Ark</h2>
                         <p>
                             Sadly, the word ‘ark’ raises connotation of a
                             boat-shaped object for modern readers—perhaps
