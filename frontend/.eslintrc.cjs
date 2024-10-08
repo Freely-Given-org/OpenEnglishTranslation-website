@@ -16,7 +16,6 @@ module.exports = {
         'plugin:import/typescript',
         'plugin:react/jsx-runtime',
         'plugin:@next/next/recommended',
-        'prettier',
     ],
     rules: {
         'unused-imports/no-unused-imports': 'warn',
