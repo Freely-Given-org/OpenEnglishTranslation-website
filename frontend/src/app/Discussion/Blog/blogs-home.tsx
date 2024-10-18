@@ -255,6 +255,30 @@ const Home = ({ _blogs }: any) => {
                                 translator.
                             </small>
                         </p>
+                        <h1 id='emotional'>
+                            Our emotional attachment to Bible translations
+                        </h1>
+                        <p>
+                            One thing that’s become increasingly apparent to me
+                            as I’ve worked on the{' '}
+                            <em>Open English Translation</em> of the Bible (
+                            <em>OET</em>), is how much that Western Protestant
+                            Christians are emotionally attached to their
+                            favourite Bible translation(s). (This likely applies
+                            to other groups as well, but I can’t speak for
+                            them.)
+                        </p>
+                        <p>Firstly there’s</p>
+                        <p>
+                            <small>
+                                Robert Hunt, September 2024.
+                                <br />
+                                Street and door-to-door evangelist, public
+                                school chaplain, prison Bible-study leader,
+                                Bible teacher/preacher, and professional Bible
+                                translator.
+                            </small>
+                        </p>
                     </MainPageContent>
                     <SideBar></SideBar>
                 </Page>

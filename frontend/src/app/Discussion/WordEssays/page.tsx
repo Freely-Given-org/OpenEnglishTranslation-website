@@ -139,7 +139,7 @@ function WordEssays() {
                         </p>
                         <p>
                             Imagine if I said, ‘I’m just going to drop in at the
-                            house of Michael.’ Sounds a bit weird? But in the
+                            house of Simon.’ Sounds a bit weird? But in the
                             1300’s when John Wycliffe was translating from Latin
                             to what we now call ‘Middle English’,{' '}
                             <Link href='https://Freely-Given.org/OBD/par/ACT/C10V17.htm#Wyc'>
