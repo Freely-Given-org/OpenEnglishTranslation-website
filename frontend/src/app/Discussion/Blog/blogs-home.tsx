@@ -28,7 +28,7 @@ const Home = ({ _blogs }: any) => {
                                 </li>
                             ))}
                         </ul> */}
-                        <h1>What’s that ‘for’?</h1>
+                        <h1 id='for'>What’s that ‘for’?</h1>
                         <p>
                             The most memorised Bible verse in the world was John
                             3:16 from the KJB:{' '}
@@ -143,7 +143,7 @@ const Home = ({ _blogs }: any) => {
                                 translator.
                             </small>
                         </p>
-                        <h1>Which ‘word’?</h1>
+                        <h1 id='word'>Which ‘word’?</h1>
                         <p>
                             In the beginning was ‘the word’{' '}
                             <small>
@@ -248,6 +248,30 @@ const Home = ({ _blogs }: any) => {
                         <p>
                             <small>
                                 Robert Hunt, August 2023.
+                                <br />
+                                Street and door-to-door evangelist, public
+                                school chaplain, prison Bible-study leader,
+                                Bible teacher/preacher, and professional Bible
+                                translator.
+                            </small>
+                        </p>
+                        <h1 id='emotional'>
+                            Our emotional attachment to Bible translations
+                        </h1>
+                        <p>
+                            One thing that’s become increasingly apparent to me
+                            as I’ve worked on the{' '}
+                            <em>Open English Translation</em> of the Bible (
+                            <em>OET</em>), is how much that Western Protestant
+                            Christians are emotionally attached to their
+                            favourite Bible translation(s). (This likely applies
+                            to other groups as well, but I can’t speak for
+                            them.)
+                        </p>
+                        <p>Firstly there’s</p>
+                        <p>
+                            <small>
+                                Robert Hunt, September 2024.
                                 <br />
                                 Street and door-to-door evangelist, public
                                 school chaplain, prison Bible-study leader,

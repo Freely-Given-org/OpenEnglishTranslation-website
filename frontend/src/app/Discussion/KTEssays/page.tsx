@@ -18,7 +18,7 @@ function KTEssays() {
                         <h1>Essays on Bible words</h1>
                         <h2>with important theological meanings</h2>
                         <h3>(Sometimes called ‘Key Terms’)</h3>
-                        <h2>Yahweh</h2>
+                        <h2 id='Yahweh'>Yahweh</h2>
                         <p>
                             The <em>Open English Translation</em> translators
                             maintain that the tradition of replacing God’s name

@@ -20,7 +20,7 @@ function StyleEssays() {
                         <h1>OET Literal Version</h1>
                         <p>Coming... </p>
                         <h1>OET Readers' Version</h1>
-                        <h2>(Parentheses)</h2>
+                        <h2 id='parentheses'>(Parentheses)</h2>
                         <p>
                             It’s not uncommon to find extra explanations in the
                             Bible text, and they’re not always highly relevant
