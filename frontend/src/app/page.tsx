@@ -19,6 +19,7 @@ const Home: NextPage = () => {
                     <MainPageContent>
                         <div>
                             <h1>Exciting new Bible translation!</h1>
+                            <h3>The English translation for the 2030’s</h3>
                             <p>
                                 Yes, work on the{' '}
                                 <em>Open English Translation</em> of the Bible
@@ -27,8 +28,8 @@ const Home: NextPage = () => {
                                     the first rough draft of the New Testament
                                     was completed
                                 </b>{' '}
-                                in mid-March so now Old Testament drafting
-                                continues alongside New Testament checking.
+                                in March so Old Testament drafting now continues
+                                alongside New Testament checking.
                             </p>
                             <p>
                                 You can read more details in the{' '}
@@ -119,14 +120,14 @@ const Home: NextPage = () => {
                                 </li>
                             </ul>
                             <p>
-                                Currently as of early-October 2024, we have the
+                                Currently as of mid-October 2024, we have the
                                 first draft of the New Testament available, plus
                                 several Old Testament books trialled (Genesis,
                                 Exodus, Joshua, Judges, Ruth, 1 Samuel, Esther,
-                                Job, Obadiah, Jonah, and Malachi, along with a
-                                little of 2 Samuel and a few Psalms, combines to
-                                around 28% of the Hebrew scriptures), so a total
-                                of <b>over 46% of the Bible drafted</b>. That’s
+                                Job, Obadiah, Jonah, and Malachi, along with
+                                half of 2 Samuel and a few Psalms, combines to
+                                around 29% of the Hebrew scriptures), so a total
+                                of <b>over 47% of the Bible drafted</b>. That’s
                                 more than enough for you to get an idea of the
                                 style that we’re aiming for, although some
                                 decisions (even some major ones) are still in
