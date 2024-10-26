@@ -19,7 +19,7 @@ function Partners() {
                         <h1>Our Partners</h1>
                         <p></p>
 
-                        <h1>Volunteers wanted</h1>
+                        <h1 id='volunteers'>Volunteers wanted</h1>
                         <p>
                             Wanting to gift your God-given skills to the Bible
                             world? Excited that your work could be freely reused
@@ -46,7 +46,7 @@ function Partners() {
                             and is free and open for everyone to use and to
                             continue to build on and improve.
                         </p>
-                        <h2>Programmers</h2>
+                        <h2 id='programmers'>Programmers</h2>
                         <p>
                             We are looking for techo geeks in the Bible world to
                             help us achieve this vision to provide a free and
@@ -91,7 +91,7 @@ function Partners() {
                                 </small>
                             </p>
                         </div>
-                        <h2>Designers and artists</h2>
+                        <h2 id='designers'>Designers and artists</h2>
                         <p>
                             Are layout, colour groups, and CSS your cup of tea?
                             (Ours is Bible translation.) Think you could make
@@ -103,7 +103,7 @@ function Partners() {
                             diagrams or maps that could be at the back of an
                             open-licenced Bible? We certainly need you!
                         </p>
-                        <h2>Readers and checkers</h2>
+                        <h2 id='checkers'>Readers and checkers</h2>
                         <p>
                             Are you a <i>word-crafter</i>? As <em>OET</em> books
                             are being drafted, we need readers to look at the
@@ -117,7 +117,7 @@ function Partners() {
                             the <em>Readers’ Version</em> more fluent and
                             natural.
                         </p>
-                        <h2>Bible consultants</h2>
+                        <h2 id='consultants'>Bible consultants</h2>
                         <p>
                             If you’re a Bible translation consultant and/or a
                             Hebrew or Greek expert, we would value your help in
@@ -138,7 +138,7 @@ function Partners() {
                             interpreted the original languages wrongly! We don’t
                             want that.
                         </p>
-                        <h2>Topic specialists</h2>
+                        <h2 id='specialists'>Topic specialists</h2>
                         <p>
                             Perhaps you have a certain speciality and would like
                             to{' '}
@@ -172,7 +172,7 @@ function Partners() {
                             <li>textual criticsm notes</li>
                             <li>and more...</li>
                         </ul>
-                        <h2>Language Experts</h2>
+                        <h2 id='languages'>Language Experts</h2>
                         <p>
                             The <em>OET</em> dream is actually a huge one that
                             could extend towards other languages beyond English.
@@ -219,7 +219,7 @@ function Partners() {
                                 challenged to update and improve?
                             </small>
                         </p>
-                        <h1>Typesetters</h1>
+                        <h1 id='typesetters'>Typesetters</h1>
                         <p>
                             Are you an expert in{' '}
                             <Link href='https://pagedjs.org/'>Paged.js</Link>?
@@ -243,7 +243,7 @@ function Partners() {
                                 start looking at something more serious.)
                             </small>
                         </p>
-                        <h1>Sponsors wanted</h1>
+                        <h1 id='sponsors'>Sponsors wanted</h1>
                         <p>
                             We also need financial help for this project to
                             advance at full speed. Although most of the work is
