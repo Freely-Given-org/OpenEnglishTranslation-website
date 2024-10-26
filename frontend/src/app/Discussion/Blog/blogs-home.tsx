@@ -54,9 +54,12 @@ const Home = ({ _blogs }: any) => {
                             New Zealand English dialect (except perhaps in the
                             short sentence ‘For what?’ where it’s a
                             preposition). Perhaps it means ‘Because’ in John
-                            3:16, but if we substitute that in, then the rest of
-                            the sentence sounds wrong. However, it does seem to
-                            have the right meaning.
+                            3:16, but if we substitute that in, then the
+                            sentence sounds wrong out of context because it
+                            seems to need to connect to something (which it
+                            actually should—it should be connected to the
+                            previous verses). However, ‘Because’ does seem to be
+                            the correct modern replacement for ‘For’.
                         </p>
                         <p>
                             So now my second question:{' '}
@@ -78,12 +81,12 @@ const Home = ({ _blogs }: any) => {
                             counted seven in John 3 in <i>NET</i>.)
                         </p>
                         <p>
-                            So here’s the rub: If modern English Bible
-                            translations frequently use the conjunction ‘for’,
-                            but if it’s never/rarely used in our speech, then
-                            the conclusion is that{' '}
+                            So here’s the rub: If so-called ‘modern’ English
+                            Bible translations frequently use the conjunction
+                            ‘For’, but if it’s never/rarely used in our speech,
+                            then the conclusion surely must be that{' '}
                             <b>
-                                these Bibles are not translated into my language
+                                those Bibles are not translated into MY language
                             </b>
                             ! (I discovered this when talking to people on the
                             street about the Bible and finding out how strange
@@ -218,7 +221,7 @@ const Home = ({ _blogs }: any) => {
                             retained in other contexts as a form of church
                             jargon—talking like someone out of a previous
                             century. Nowadays in real life, we are more likely
-                            to use ‘set free’ for prisons and sins.
+                            to use ‘set free’ for prisons and sinful habits.
                         </p>
                         <p>
                             Churches have ‘Seeker services’ but when did you
@@ -243,7 +246,8 @@ const Home = ({ _blogs }: any) => {
                                 share the good message to those on the street
                             </b>
                             . Oh, and did I say it’s provocative (as in
-                            provoking you to think)? Join us and help.
+                            provoking you to <em>think</em> as you read your
+                            Bible)? Join us and help.
                         </p>
                         <p>
                             <small>
@@ -275,7 +279,7 @@ const Home = ({ _blogs }: any) => {
                         <p>
                             Firstly there’s the KJB-only movement—a group
                             (particularly in the USA) that claims that the King
-                            James Bible (a 400+-year old British English
+                            James Bible (a 400+ year old British English
                             translation that received hundreds of corrections
                             until 1769 and still contains some mistakes) is
                             somehow more perfect than any modern English
@@ -296,14 +300,15 @@ const Home = ({ _blogs }: any) => {
                         <p>
                             Secondly, many people just trust their denomination
                             or pastor about their Bible translation. While this
-                            isn’t necessary a bad thing, the expertise of most
+                            isn’t necessarily a bad thing, the expertise of most
                             pastors isn’t in linguistics and translation, nor
-                            (by definition) is it in sharing the Christian
-                            message with unchurched people who don’t necessarily
-                            know all the Christian jargon (Christianese) yet.
+                            (by definition, since pastor means ‘shepherd’) is it
+                            in sharing the Christian message with unchurched
+                            people (evangelism) who don’t necessarily know all
+                            the Christian jargon (‘Christianese’) yet.
                         </p>
                         <p>
-                            Thirdly, most English Bibles are sold by large
+                            Thirdly, most English Bibles are published by large
                             multi-million dollar businesses with marketing
                             departments. These organisations are very involved
                             in advertising, including emails, videos, and other
@@ -318,40 +323,40 @@ const Home = ({ _blogs }: any) => {
                         <p>
                             Finally, there’s very many of us (yes, we were
                             exactly the same ourselves) who would read about{' '}
-                            <em>the great earthquake</em> in Rev 16:18 without
-                            ever thinking about how such a destructive event
-                            could be called ‘great’ (as we mostly use the word
-                            today, like a ‘great dinner’). Or those who can
-                            quote John 3:16 from memory without ever giving a
-                            single thought to why it begins with ‘For’. Or those
-                            who can easily sing{' '}
-                            <em>Great is thy faithfulness</em> without ever
-                            realising that those words are in the wrong order
-                            for modern speech.
+                            <em>the great earthquake</em> in Rev 16:18{' '}
+                            <b>without ever noticing or thinking about</b> how
+                            such a destructive event could be called ‘great’ (as
+                            we mostly use the word today, like a ‘great
+                            dinner’). Or those who can quote John 3:16 from
+                            memory without ever giving a single thought to why
+                            it usually begins with the word ‘For’. Or those who
+                            can easily sing <em>Great is thy faithfulness</em>{' '}
+                            without ever realising that those words are in the
+                            wrong order for modern speech.
                         </p>
                         <p>
-                            At this point, most people tell me that the Bible is
+                            At this point, most people tell me that the Bible is{' '}
                             <b>poetic</b>. Yes, some of it certainly is, but the
-                            great majority of it is narrative. So no, the reason
-                            it sounds ‘quaint’ is not that the Hebrew or Greek
-                            was quaint, but simply because the English
-                            translations that we get emotionally attached to
-                            still have much old-fashioned use of English words
-                            and phrases—many times following the original
-                            languages too closely instead of translating into
-                            our language, e.g., with phrases like{' '}
-                            <em>son of God</em> instead of the more modern{' '}
-                            <em>God’s son</em>.
+                            great majority of it is not poetry but{' '}
+                            <b>narrative</b>. So no, the reason it sounds
+                            ‘quaint’ is not that the Hebrew or Greek was quaint,
+                            but simply because the English translations that we
+                            get emotionally attached to still have much
+                            old-fashioned use of English words and phrases—many
+                            times following the original languages too closely
+                            instead of translating into our language, e.g., with
+                            phrases like <em>son of God</em> instead of the more
+                            up-to-date <em>God’s son</em>.
                         </p>
                         <p>
                             So yes, we’re aware that the Open English
                             Translation will likely take a decade or so to make
-                            any mark on the Bible market due to emotional
+                            any major mark on the Bible market due to emotional
                             attachment and other factors (not to mention that it
                             won’t be finished for at least another two years).
                             But we’re aiming for the 2030’s generation who’ll be
-                            looking for a Bible translation in their own
-                            language.
+                            looking for a reliable Bible translation in the
+                            language that they actually speak.
                         </p>
                         <p>
                             <small>
