@@ -145,7 +145,7 @@ const Home = ({ _blogs }: any) => {
                             names were changed back to ‘J’s.
                         </p>
                         <p>
-                            The next sad event is simply an accident of history.
+                            The next sad event is simply an accident of history.{' '}
                             <b>Language change</b>, although it was slowed down
                             after the invention of the printing press and the
                             resultant stabilisation of spelling, is continuous
@@ -173,11 +173,12 @@ const Home = ({ _blogs }: any) => {
                         <p>
                             What’s more, a number of Hebrew names (like
                             ‘Ishmael’, ‘Isaac’, ‘Israel’, and ‘Isaiah’) have a
-                            ‘Y’ <b>preceding</b> the ‘I’/‘i’, so English
-                            speakers sadly get those names quite wrong.
+                            ‘Y’ (that ended up being dropped completely){' '}
+                            <b>preceding</b> the ‘I’/‘i’, so English speakers
+                            sadly get those names quite wrong as well.
                         </p>
                         <p>
-                            Then names like ‘Isaiah’ (and ‘Jeremiah’,‘Uzziah’,
+                            Then names like ‘Isaiah’ (and ‘Jeremiah’, ‘Uzziah’,
                             and many others) have an ‘i’ in the middle that
                             should be a ‘y’. The transliterated Hebrew is more
                             like ‘Yeshayahu’, and then
