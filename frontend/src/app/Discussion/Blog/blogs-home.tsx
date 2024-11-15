@@ -207,14 +207,18 @@ const Home = ({ _blogs }: any) => {
                         <ol>
                             <li>
                                 A disconnection from the Jewishness of the
-                                Bible. Did you know that former Israeli
-                                prime-minister ‘
+                                Bible. Did you know that Matthew’s Jewish name
+                                ‘Matityahu’ has a ‘Yah’ in it (and means ‘gift
+                                of Yahweh’)? (Our name ‘Matthew’ comes from his
+                                Greek name via his Latin name.) Did you know
+                                that former Israeli prime-minister ‘
                                 <Link href='https://en.wikipedia.org/wiki/Yitzhak_Rabin'>
                                     Yitzhak Rabin
                                 </Link>
                                 ’ was named after ‘Isaac’? Even the name ‘Jesus’
                                 doesn’t sound very Jewish because it’s not. Try
-                                ‘Yeshua’ instead.
+                                ‘Yeshua’ instead (and it’s the same name as
+                                ‘Joshua’).
                             </li>
                             <li>
                                 It’s not as easy as it could be to recognise
