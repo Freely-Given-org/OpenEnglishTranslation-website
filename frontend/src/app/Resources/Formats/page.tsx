@@ -131,12 +131,6 @@ function Formats() {
                                 grammatical sense
                             </li>
                             <li>
-                                <b>-</b> We had to <b>drop an article</b> that
-                                was in the original language but would seem
-                                strange in English, e.g., ‘the God’. (
-                                <em>OET-LV</em> only)
-                            </li>
-                            <li>
                                 <b>=</b> We had to <b>add a copula</b> (like
                                 ‘is’) for the English to make grammatical sense
                             </li>
