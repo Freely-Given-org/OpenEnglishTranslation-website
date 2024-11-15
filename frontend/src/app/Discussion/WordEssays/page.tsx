@@ -16,6 +16,10 @@ function WordEssays() {
                 <Page>
                     <MainPageContent>
                         <h1>Essays on some Bible words</h1>
+                        <h2>
+                            Trying to nudge English Bible translation into the
+                            21st century
+                        </h2>
                         <p>
                             If you try to read many of the books that call
                             themselves Bibles<sup>*</sup>, you’ll find that the
@@ -28,7 +32,8 @@ function WordEssays() {
                             <br />
                             <b>1.</b> Because Hebrew or Greek word order is
                             often carried through into English translations,
-                            e.g., ‘son of Abraham’ rather than ‘Abraham’s son’,
+                            e.g., ‘son of Abraham’ rather than the more natural
+                            modern English ‘Abraham’s son’,
                             <br />
                             <b>2.</b> Because Hebrew or Greek idioms are often
                             carried through into English translations, e.g.,
