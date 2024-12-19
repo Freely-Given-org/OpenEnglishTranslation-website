@@ -99,7 +99,7 @@ const Home = ({ _blogs }: any) => {
                             a number of deficiencies in the Wycliffe
                             translation, and particularly to the invention of
                             name ‘
-                            <Link href='https://Freely-Given.org/OBD/par/JAM/C1V1.htm#Wyc'>
+                            <Link href='https://Freely-Given.org/OBD/par/JAM/C1V1.htm#Wycl'>
                                 James
                             </Link>
                             ’ (which was probably pronounced as two syllables at
@@ -107,7 +107,7 @@ const Home = ({ _blogs }: any) => {
                             (Yakōbos), although in passages where Wycliffe
                             realised that it was talking about the Old Testament
                             character, he corrected it to ‘
-                            <Link href='https://Freely-Given.org/OBD/par/MAT/C1V2.htm#Wyc'>
+                            <Link href='https://Freely-Given.org/OBD/par/MAT/C1V2.htm#Wycl'>
                                 Jacob
                             </Link>
                             ’ (pronounced ‘Yakob’). This is discussed more{' '}

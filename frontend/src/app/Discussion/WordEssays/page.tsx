@@ -245,7 +245,7 @@ function WordEssays() {
                         <p>
                             The real meaning of the Hebrew word ‘תֵּבַת’ (tēvat)
                             (
-                            <Link href='https://Freely-Given.org/OBD/par/GEN/C6V14.htm#KJB'>
+                            <Link href='https://Freely-Given.org/OBD/par/GEN/C6V14.htm#KJB-1769'>
                                 traditionally translated
                             </Link>{' '}
                             as ‘ark’) is ‘(wooden) chest’ or ‘box’.
