@@ -28,7 +28,7 @@ const menu: dropMenu = {
             link: '/Design/ConventionalEdition',
         },
         {
-            name: 'Source Texts',
+            name: 'Source texts',
             link: '/Design/SourceTexts',
         },
     ],

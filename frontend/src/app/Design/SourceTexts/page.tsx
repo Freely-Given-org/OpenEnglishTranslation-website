@@ -16,7 +16,7 @@ function SourceTexts() {
                 <Page>
                     <MainPageContent>
                         <div>
-                            <h1>Hebrew and Greek Source Texts</h1>
+                            <h1>Hebrew and Greek source texts</h1>
                             <h2>Hebrew scriptures</h2>
                             <p>
                                 We are very grateful for the work of the Open

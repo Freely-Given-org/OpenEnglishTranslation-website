@@ -45,7 +45,7 @@ function Footer() {
                         </li>
                         <li>
                             <Link href={'/Design/SourceTexts'}>
-                                Source Texts
+                                Source texts
                             </Link>
                         </li>
                         <li>
@@ -64,21 +64,21 @@ function Footer() {
                             </Link>
                         </li>
                         <li>
-                            <Link href={'/About/CoreValues'}>Core Values</Link>
+                            <Link href={'/About/CoreValues'}>Core values</Link>
                         </li>
                         <li>
                             <Link href={'/About/StatementOfFaith'}>
-                                Statement of Faith
+                                Statement of faith
                             </Link>
                         </li>
                         <li>
-                            <Link href={'/About/Partners'}>Our Partners</Link>
+                            <Link href={'/About/Partners'}>Our partners</Link>
                         </li>
                         <li>
                             <Link href={'/About/Licence'}>Licence</Link>
                         </li>
                         <li>
-                            <Link href={'/About/Contact'}>Contact Us</Link>
+                            <Link href={'/About/Contact'}>Contact us</Link>
                         </li>
                     </ul>
                 </div>
@@ -104,7 +104,7 @@ function Footer() {
                     </a>
                 </span>
                 <span className={styles['buildNotes']}>
-                    (Site last built: 16 November 2024)
+                    (Site last built: 23 December 2024)
                 </span>
             </div>
         </div>
