@@ -15,10 +15,10 @@ function StyleEssays() {
             <Main>
                 <Page>
                     <MainPageContent>
-                        <h1>Essays on some Style decisions</h1>
+                        <h1>Essays on some style decisions</h1>
                         <h2>(Things like layout and punctuation)</h2>
                         <h1>OET Literal Version</h1>
-                        <p>Coming... </p>
+                        <p>Coming...</p>
                         <h1>OET Readers' Version</h1>
                         <h2 id='parentheses'>(Parentheses)</h2>
                         <p>
@@ -53,6 +53,13 @@ function StyleEssays() {
                             added. (This is part of the <em>OET</em> commitment
                             to total transparency in the translation process.)
                         </p>
+                        <h2 id='anachronisms'>Anachronisms</h2>
+                        <p>Coming...</p>
+                        <h2 id='wordVariety'>Word variety</h2>
+                        <p>Coming...</p>
+                        <h2 id='surpriseParticle'>Surprise particle</h2>
+                        <p>Coming...</p>
+                        <h2>More coming...</h2>
                     </MainPageContent>
                 </Page>
             </Main>
