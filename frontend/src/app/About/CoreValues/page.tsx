@@ -13,7 +13,7 @@ function CoreValues() {
             <Main>
                 <Page>
                     <MainPageContent>
-                        <h1>Core Values</h1>
+                        <h1>Core values</h1>
                         <h2> of the</h2>
                         <h1>
                             <em>Open English Translation</em>

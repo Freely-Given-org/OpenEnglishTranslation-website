@@ -4,15 +4,19 @@ const menu: dropMenu = {
     title: 'Discussion',
     items: [
         {
-            name: 'Word Essays',
+            name: 'Biblical names',
+            link: '/Discussion/BiblicalNames',
+        },
+        {
+            name: 'Word essays',
             link: '/Discussion/WordEssays',
         },
         {
-            name: 'Theological Essays',
+            name: 'Theological essays',
             link: '/Discussion/KTEssays',
         },
         {
-            name: 'Style Essays',
+            name: 'Style essays',
             link: '/Discussion/StyleEssays',
         },
         {

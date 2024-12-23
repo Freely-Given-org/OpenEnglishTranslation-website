@@ -12,15 +12,15 @@ const menu: dropMenu = {
             link: '/About/Freely-Given',
         },
         {
-            name: 'Core Values',
+            name: 'Core values',
             link: '/About/CoreValues',
         },
         {
-            name: 'Statement of Faith',
+            name: 'Statement of faith',
             link: '/About/StatementOfFaith',
         },
         {
-            name: 'Our Partners',
+            name: 'Our partners',
             link: '/About/Partners',
         },
         {
@@ -28,7 +28,7 @@ const menu: dropMenu = {
             link: '/About/Licence',
         },
         {
-            name: 'Contact Us',
+            name: 'Contact us',
             link: '/About/Contact',
         },
     ],
