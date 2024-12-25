@@ -7,7 +7,6 @@ import Page from '../../../Components/page/page';
 import Footer from '../../../Layouts/Footer/Footer';
 import Header from '../../../Layouts/Header/Header';
 import Main from '../../../Layouts/main/main';
-import { StrikethroughS } from '@mui/icons-material';
 
 function WordEssays() {
     return (
@@ -307,9 +306,8 @@ function WordEssays() {
                         </p>
                         <p>
                             Yohan (John) 14:6: Yeshua (Jesus) answered, “I am{' '}
-                            <StrikethroughS>the way</StrikethroughS>{' '}
-                            <b>the path</b> and the truth and the life. No one
-                            can get to the father except via me.”{' '}
+                            <s>the way</s> <b>the path</b> and the truth and the
+                            life. No one can get to the father except via me.”{' '}
                             <small>OET-RV</small>
                         </p>
                     </MainPageContent>
