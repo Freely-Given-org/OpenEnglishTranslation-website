@@ -7,6 +7,7 @@ import Page from '../../../Components/page/page';
 import Footer from '../../../Layouts/Footer/Footer';
 import Header from '../../../Layouts/Header/Header';
 import Main from '../../../Layouts/main/main';
+import { FormatStrikethrough } from '@mui/icons-material';
 
 function WordEssays() {
     return (
@@ -190,6 +191,23 @@ function WordEssays() {
                             readers, it will feel considerably less ‘quaint’ or
                             ‘weird’ to first-time readers.
                         </p>
+                        <h2 id='arise'>Arise/Arose</h2>
+                        <p>
+                            Was everyone in the Hebrew Scriptures sitting or
+                            lying down when they were told by someone else to go
+                            somewhere? So many English translations say
+                            something like ‘So he <b>got up</b> and went to …’.
+                            In modern-English that would seem to normally mean
+                            ‘he
+                            <b>got out (of bed)</b> and went …’, although it
+                            could also mean ‘he <b>stood up (from the table)</b>{' '}
+                            and went …’. That probably wasn’t the word picture
+                            in the mind of the original author. It’s more likely
+                            to mean ‘he <b>packed up</b> and went …’ or ‘he{' '}
+                            <b>got ready</b> and went …’ or even just ‘he{' '}
+                            <b>departed</b> and walked to …’ in that context it
+                            seems.
+                        </p>
                         <h2 id='deliver'>Deliver</h2>
                         <p>
                             Pretty much the only things that get ‘delivered’ in
@@ -249,6 +267,49 @@ function WordEssays() {
                                 traditionally translated
                             </Link>{' '}
                             as ‘ark’) is ‘(wooden) chest’ or ‘box’.
+                        </p>
+                        <h2 id='way'>Way</h2>
+                        <p>
+                            ‘Get out of the way!’ ‘What’s the quickest way to
+                            your place?’ Yes, we can still use ‘way’ in certain
+                            contexts in English to mean ‘path’ or ‘road’.
+                        </p>
+                        <p>
+                            But that not the most common meaning of ‘way’ in
+                            <Link href='https://www.oxfordlearnersdictionaries.com/definition/english/way_1'>
+                                modern-English
+                            </Link>
+                            . More like ‘What’s the best way to get that open?’
+                            where ‘way’ is more of a verbal noun meaning
+                            ‘method’ or ‘series of steps’.
+                        </p>
+                        <p>
+                            So what about{' '}
+                            <Link href='https://biblehub.com/psalms/1-1.htm'>
+                                Psalm 1
+                            </Link>{' '}
+                            which often talks about ‘not standing in the way of
+                            sinners’? Take the <i>ESV</i>: ‘Blessed is the man
+                            who walks not …, nor stands in the way of sinners,
+                            …’ A godly person shouldn’t ‘stand in the way of
+                            sinners’, i.e., ‘Don’t try to prevent sinners from
+                            doing anything they want’? No, that’s not what it’s
+                            even talking about—it’s talking about how godly
+                            people shouldn’t stand on the path to the casino or
+                            the brothel in case they’re talked into accompanying
+                            the sinners that walk that way.
+                        </p>
+                        <p>
+                            A large number of modern English Bible translations
+                            still overuse ‘way’ where they should be saying
+                            ‘path’ or ‘road’. English has changed a lot since
+                            the 1500’s.
+                        </p>
+                        <p>
+                            Yohan (John) 14:6: Yeshua answered, “I am{' '}
+                            <FormatStrikethrough>the way</FormatStrikethrough>{' '}
+                            <b>the path</b> and the truth and the life. No one
+                            can get to the father except via me.”
                         </p>
                     </MainPageContent>
                 </Page>
