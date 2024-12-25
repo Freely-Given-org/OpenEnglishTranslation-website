@@ -57,6 +57,8 @@ function StyleEssays() {
                         <p>Coming...</p>
                         <h2 id='wordVariety'>Word variety</h2>
                         <p>Coming...</p>
+                        <h2 id='saying'>Saying—direct speech</h2>
+                        <p>Coming...</p>
                         <h2 id='surpriseParticle'>Surprise particle</h2>
                         <p>Coming...</p>
                         <h2>More coming...</h2>
