@@ -310,6 +310,8 @@ function WordEssays() {
                             life. No one can get to the father except via me.”{' '}
                             <small>OET-RV</small>
                         </p>
+                        <h2 id='struck'>Struck</h2>
+                        <p>Coming ...</p>
                     </MainPageContent>
                 </Page>
             </Main>

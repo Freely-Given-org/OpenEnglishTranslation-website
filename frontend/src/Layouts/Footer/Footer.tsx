@@ -95,7 +95,7 @@ function Footer() {
                     </a>
                 </div>
                 <span className={styles['copyright']}>
-                    Copyright © 2022-2024 &nbsp;
+                    Copyright © 2022-2025 &nbsp;
                     <a
                         href='https://GitHub.com/Freely-Given-org'
                         target='blank'
@@ -104,7 +104,7 @@ function Footer() {
                     </a>
                 </span>
                 <span className={styles['buildNotes']}>
-                    (Site last built: 26 December 2024)
+                    (Site last built: 1 January 2025)
                 </span>
             </div>
         </div>
