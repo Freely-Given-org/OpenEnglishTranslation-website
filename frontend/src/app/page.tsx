@@ -28,8 +28,9 @@ const Home: NextPage = () => {
                                     the first rough draft of the New Testament
                                     was completed
                                 </b>{' '}
-                                in March so Old Testament drafting now continues
-                                alongside New Testament checking.
+                                in March 2024 and over a third of the Old
+                                Testament is now drafted as New Testament
+                                checking also continues.
                             </p>
                             <p>
                                 You can read more details in the{' '}
@@ -98,8 +99,20 @@ const Home: NextPage = () => {
                                         showing more respect to other language
                                         groups
                                     </b>{' '}
-                                    by doing the same with the names of the
-                                    Biblical characters and with God’s name
+                                    by trying to do the same with the{' '}
+                                    <Link href='/Discussion/BiblicalNames'>
+                                        names
+                                    </Link>{' '}
+                                    of the Biblical characters and with{' '}
+                                    <Link href='/Discussion/KTEssays#Yahweh'>
+                                        God’s name
+                                    </Link>
+                                </li>
+                                <li>
+                                    preparing for the next major movement of
+                                    lost young people searching for truth and
+                                    meaning, but who mightn’t want to learn
+                                    old-fashioned English to do so
                                 </li>
                                 <li>
                                     designed from the beginning to{' '}
@@ -125,9 +138,9 @@ const Home: NextPage = () => {
                                 several Old Testament books (Genesis, Exodus,
                                 Joshua, Judges, Ruth, 1&2 Samuel, 1 Kings,
                                 Esther, Job, Obadiah, Jonah, Nahum, Haggai, and
-                                Malachi, along with about a third of 2 Kings
-                                and of Ezra, and a few Psalms combines to around
-                                37% of the Hebrew scriptures), so a total of{' '}
+                                Malachi, along with most of 2 Kings and some of
+                                Ezra, and a few Psalms combines to around 37% of
+                                the Hebrew scriptures), so a total of{' '}
                                 <b>53% of the Bible drafted</b>. That’s more
                                 than enough for you to get an idea of the style
                                 that we’re aiming for, although some decisions
