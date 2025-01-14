@@ -69,10 +69,9 @@ function StyleEssays() {
                         </p>
                         <p>
                             As an example, a Bible like that wouldn’t have words
-                            in the Old Testament like ‘temple’ or ‘palace’
-                            because the OT has ‘בֵּית’ (bēyt) and the most
-                            common translation of that word would be ‘house’.
-                            Look at{' '}
+                            in the Old Testament like ‘temple’ or ‘palace’ where
+                            the OT has ‘בֵּית’ (bēyt), as the most common
+                            translation of that word would be ‘house’. Look at{' '}
                             <Link href='https://Freely-Given.org/OBD/par/KI2/C16V8.htm#Top'>
                                 2 Kings 16:8
                             </Link>{' '}
@@ -80,6 +79,17 @@ function StyleEssays() {
                             did it. (That sentence contains both concepts of
                             ‘temple’ and ‘palace’.) A literal translation will
                             likely have ‘house of YHWH’ and ‘house of the king’.
+                        </p>
+                        <p>
+                            <small>
+                                Note: There is another less common Hebrew word
+                                ‘הֵיכַל’ (hēykal) which does translate literally
+                                as ‘temple’, e.g., see{' '}
+                                <Link href='https://Freely-Given.org/OBD/par/KI1/C6V3.htm#Top'>
+                                    1 Ki 6:3
+                                </Link>
+                                .
+                            </small>
                         </p>
                         <p>
                             A literal Bible shouldn’t have the word ‘angel’ in

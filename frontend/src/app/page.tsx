@@ -133,15 +133,15 @@ const Home: NextPage = () => {
                                 </li>
                             </ul>
                             <p>
-                                Currently as of early-January 2025, we have the
+                                Currently as of mid-January 2025, we have the
                                 first draft of the New Testament available, plus
                                 several Old Testament books (Genesis, Exodus,
-                                Joshua, Judges, Ruth, 1&2 Samuel, 1 Kings,
+                                Joshua, Judges, Ruth, 1&2 Samuel, 1&2 Kings,
                                 Esther, Job, Obadiah, Jonah, Nahum, Haggai, and
-                                Malachi, along with most of 2 Kings and some of
-                                Ezra, and a few Psalms combines to around 37% of
-                                the Hebrew scriptures), so a total of{' '}
-                                <b>53% of the Bible drafted</b>. That’s more
+                                Malachi, along with some of Ezra, and a few
+                                Psalms combines to around 38% of the Hebrew
+                                scriptures), so a total of{' '}
+                                <b>54% of the Bible drafted</b>. That’s more
                                 than enough for you to get an idea of the style
                                 that we’re aiming for, although some decisions
                                 (even some major ones) are still in flux (and
