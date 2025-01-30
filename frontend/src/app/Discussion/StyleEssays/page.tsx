@@ -54,7 +54,62 @@ function StyleEssays() {
                             to total transparency in the translation process.)
                         </p>
                         <h2 id='anachronisms'>Anachronisms</h2>
-                        <p>Coming...</p>
+                        <p>
+                            The <em>OET Literal Version</em> closely follows the
+                            original texts so no anachronisms should occur
+                            (beyond glosses for individual words), but it’s very
+                            different for the <em>Readers’ Version</em> where
+                            our aim is{' '}
+                            <b>
+                                to make it easy for modern English readers to
+                                understand the message of the text
+                            </b>
+                            . So we definitely use things like modern metric
+                            terms for weights and measures which are technically
+                            anachronisms since those units didn’t exist in the
+                            time of the Bible writers.
+                        </p>
+                        <p id='sundial'>
+                            However, we’re quite prepared to go beyond that.
+                            Should we change ‘sundial’ to ‘clock’? Well, we’d be
+                            prepared to make changes like that if we felt that
+                            it would help the understanding of the modern
+                            reader. (In that particular case, we would probably
+                            feel that the average, educated reader should
+                            probably know what a sundial is, even if they’ve
+                            never personally seen one. But obviously that
+                            conclusion might not be correct for all readers, so
+                            of course our renderings cannot possibly please
+                            everybody. The younger generations tend to learn
+                            more from videos and short articles rather than by
+                            reading a range of literature, so it’s well known
+                            that their vocabulary sizes are declining on
+                            average. However, do note that making an
+                            ‘easy-reader’ or ‘simplified’ English Bible
+                            translation has been addressed by others, and isn’t
+                            one of the primary goals of the <em>OET</em>.)
+                        </p>
+                        <p id='lots'>
+                            So what about ‘casting lots’ versus ‘drawing straws’
+                            or ‘throwing dice’ (or maybe even ‘flipping a
+                            coin’). Well, firstly we consider ‘casting’ to be
+                            archaic English outside of fishing or moulten metal
+                            contexts, so at best we’d want ‘throwing lots (on
+                            the ground)’ (as distinct from throwing like a
+                            cricket ball). But what is a ‘lot’ in that context?
+                            (It can also refer to your allocated piece of land.)
+                            Well, we don’t actually know. Probably stones or
+                            sticks, but possibly even a special carved object
+                            somewhat like a dice, and of course the practise
+                            likely evolved throughout the millenia. (The Bible
+                            covers some 4,000 years of history.) In this case,
+                            the <em>OET-RV</em> probably won’t hesitate to use a
+                            modern word like ‘dice’ even though that is clearly
+                            an anachronism. Why stumble the modern reader over
+                            something we don’t even know anyway? (If you want
+                            the literal, just look across to our{' '}
+                            <em>Literal Version</em>.)
+                        </p>
                         <h2 id='wordVariety'>Word variety</h2>
                         <p>
                             The last thing that the general Bible-<b>reading</b>{' '}
@@ -108,10 +163,78 @@ function StyleEssays() {
                             (but most will have ‘angel’ there).
                         </p>
                         <p>More coming...</p>
+                        <p>
+                            Also, if it’s possible and it doesn’t lower the
+                            quality of either translation, we actually prefer
+                            that the <em>Readers’ Version</em> and the{' '}
+                            <em>Literal Version</em> use <b>different</b>{' '}
+                            English glosses from each other, in order to
+                            complement each other, thus helping to indicate the
+                            potential range of meaning for that specific Hebrew
+                            or Greek word.
+                        </p>
                         <h2 id='saying'>Saying—direct speech</h2>
                         <p>Coming...</p>
                         <h2 id='surpriseParticle'>Surprise particle</h2>
                         <p>Coming...</p>
+                        <h2 id='rhythm'>Rhythm or metre</h2>
+                        <p>Coming...</p>
+                        <h2 id='phraseOrder'>Phrase order</h2>
+                        <p>
+                            Sometimes the original Hebrew or Greek sentence has
+                            two or more items or phrases in an order that we
+                            wouldn’t naturally use in modern English, so in the{' '}
+                            <em>Readers’ Version</em> we won’t hesitate to
+                            change the order to make it more natural for our
+                            readers.{' '}
+                        </p>
+                        <p>
+                            There are two common reasons for these differences:
+                        </p>
+                        <ol>
+                            <li>
+                                Every language/culture has common ways to say
+                                things, e.g., <b>salt and pepper</b> vs.{' '}
+                                <b>pepper and salt</b>, and{' '}
+                                <b>the big, red house</b> vs.{' '}
+                                <b>the red, big house</b>.
+                            </li>
+                            <li>
+                                Most, if not all, of the Hebrew and Greek
+                                originals would have been dictated, so they had
+                                a{' '}
+                                <b>
+                                    speaker with a scribe writing on expensive
+                                    parchment
+                                </b>{' '}
+                                rather than a{' '}
+                                <b>
+                                    writer with a word-processor where it’s very
+                                    easy to do edits
+                                </b>
+                                . Thus not everything will be in the most
+                                thought-out/logical order that might be expected
+                                of modern writing.
+                            </li>
+                        </ol>
+                        <p>
+                            A simple, single-word example is{' '}
+                            <b>silver and gold.</b> In modern English, we would
+                            nearly always say <b>gold and silver</b>.
+                        </p>
+                        <p>
+                            A longer example (talking about Yehudah/Judah) might
+                            have{' '}
+                            <b>
+                                He sent the message into the towns and into
+                                Yerushalem/Jerusalem.
+                            </b>{' '}
+                            This would be more natural in modern English as{' '}
+                            <b>
+                                He sent the message into Yerushalem/Jerusalem
+                                and the surrounding towns.
+                            </b>
+                        </p>
                         <h2>More coming...</h2>
                     </MainPageContent>
                 </Page>
