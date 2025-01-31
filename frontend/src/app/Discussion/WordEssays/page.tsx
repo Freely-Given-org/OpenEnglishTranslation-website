@@ -311,8 +311,11 @@ function WordEssays() {
                             <small>OET-RV</small>
                         </p>
                         <h2 id='struck'>Struck</h2>
-                        <p>Coming ...</p>
-                    </MainPageContent>
+                        <p>with sword ... coming ...</p>
+                        <h2 id='forsake'>Forsake</h2>
+                        <p>To abandon ... coming ...</p>
+                        <h2>More coming...</h2>
+                        </MainPageContent>
                 </Page>
             </Main>
             <Footer />

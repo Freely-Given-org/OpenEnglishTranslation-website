@@ -1,6 +1,6 @@
 'use client';
 
-// import Link from 'next/link';
+import Link from 'next/link';
 
 import MainPageContent from '../../../Components/page/MainPageContent/MainPageContent';
 import Page from '../../../Components/page/page';
@@ -210,6 +210,67 @@ function BiblicalNames() {
                         <p>Coming...</p>
                         <h2 id='trends'>Modern cultural trends</h2>
                         <p>Coming...</p>
+                        <h2 id='godNames'>
+                            People’s names that include God’s name
+                        </h2>
+                        <p>
+                            A large number of Biblical names include a reference
+                            to God—either ‘El’ (the shortened form of ‘Elohim’
+                            <small>
+                                which actually starts with a{' '}
+                                <Link href='https://www.thoughtco.com/glottal-stop-phonetics-1690901'>
+                                    glottal stop
+                                </Link>{' '}
+                                that’s not normally shown in English spellings
+                            </small>
+                            ) or ‘Yah’ (the shortened form of ‘Yahweh’).
+                            Well-known names which are examples of these include{' '}
+                            <i>Daniel</i> & <i>Ishmael</i> & <i>Jezreel</i>, and{' '}
+                            <i>Elijah</i> & <i>Isaiah</i>, although typical
+                            (poor<sup>*</sup> and inconsistent) English spelling
+                            of Biblical names doesn’t always make their endings
+                            obvious.
+                        </p>
+                        <p>
+                            <sup>*</sup>{' '}
+                            <small>
+                                We get most of our Bible names from Hebrew →
+                                Greek → Latin → early-Germanic → English.
+                            </small>
+                        </p>
+                        <h3>The OET Literal Version</h3>
+                        <p>
+                            If you look at a list of names in the{' '}
+                            <em>OET-LV</em> like{' '}
+                            <Link href='https://Freely-Given.org/OBD/OET-LV/byC/NEH_C10.htm#V2'>
+                                this one
+                            </Link>
+                            , you’ll notice many strange letters and we use our
+                            own modernised transliteration scheme for the Hebrew
+                            letters. If the first Hebrew letter is quite
+                            different from the English spelling, we will
+                            sometimes add the English spelling in parentheses,
+                            e.g., ‘Yēshūˊa/(Jeshua)’.
+                        </p>
+                        <p>
+                            But the main thing we want to notice right now are
+                            how names like ‘Yisrā<sup>ʼēl</sup>’ (Israel) and
+                            ‘Nəḩem<sup>yāh</sup>’ (Nehemiah) have God’s name
+                            superscripted to help make it more obvious for those
+                            who’re studying our <em>Literal Version</em>.
+                        </p>
+                        <h3>The OET Readers’ Version</h3>
+                        <p>
+                            By contrast, the <em>Readers’ Version</em>on the
+                            left{' '}
+                            <Link href='https://Freely-Given.org/OBD/OET/byC/NEH_C10.htm#V1'>
+                                here
+                            </Link>
+                            , doesn’t use fancy letters or superscripts.
+                            However, the names are more similar to the Hebrew
+                            pronunciation than the traditional (poor) English
+                            versions.
+                        </p>
                         <h2>More coming...</h2>
                     </MainPageContent>
                 </Page>
