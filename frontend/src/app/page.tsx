@@ -19,7 +19,19 @@ const Home: NextPage = () => {
                     <MainPageContent>
                         <div>
                             <h1>Exciting new Bible translation!</h1>
-                            <h3>The English translation for the 2030’s</h3>
+                            <p>
+                                Imagine if, instead of all those complicated
+                                rules about how many verses you can use and how
+                                much of each book your work is allowed to
+                                contain, imagine if the copyright page on your
+                                Bible said something like, “This is a careful,
+                                modern-English translation of God’s messages to
+                                mankind that have been preserved through the
+                                centuries despite much opposition and
+                                blood-shed, <b>and it’s free for you to use</b>
+                                ”!
+                            </p>
+                            <h1>The English translation for the 2030’s</h1>
                             <p>
                                 Yes, work on the{' '}
                                 <em>Open English Translation</em> of the Bible
@@ -28,7 +40,7 @@ const Home: NextPage = () => {
                                     the first rough draft of the New Testament
                                     was completed
                                 </b>{' '}
-                                in March 2024 and over a third of the Old
+                                in March 2024 and well over a third of the Old
                                 Testament is now drafted as New Testament
                                 checking also continues.
                             </p>
@@ -133,16 +145,16 @@ const Home: NextPage = () => {
                                 </li>
                             </ul>
                             <p>
-                                Currently as of early-February 2025, we have the
+                                Currently as of mid-February 2025, we have the
                                 first draft of ‘The Messianic Update’ (New
                                 Testament) available, plus several Old Testament
                                 books (Genesis, Exodus, Joshua, Judges, Ruth,
-                                1&2 Samuel, 1&2 Kings, Esther, Job, Obadiah,
-                                Jonah, Nahum, Haggai, and Malachi, along with
-                                most of Nehemiah,some of Ezra, and a few Psalms,
-                                combines to around 40% of the Hebrew
+                                1&2 Samuel, 1&2 Kings, Nehemiah, Esther, Job,
+                                Daniel, Obadiah, Jonah, Nahum, Haggai, and
+                                Malachi, some of Ezra, and a few Psalms,
+                                combines to around 41% of the Hebrew
                                 scriptures), so a total of{' '}
-                                <b>55% of the Bible drafted</b>. That’s more
+                                <b>56% of the Bible drafted</b>. That’s more
                                 than enough for you to get an idea of the style
                                 that we’re aiming for, although some decisions
                                 (even some major ones) are still in flux (and
@@ -251,8 +263,9 @@ const Home: NextPage = () => {
                                     ‘words’ are the things on this page.
                                     Hundreds of years ago, someone decided that
                                     the Greek word ‘λόγος’ (logos) meant ‘word’
-                                    in English and many translations have
-                                    naively followed that, but we’ve{' '}
+                                    in English (and beginner Greek students are
+                                    still taught that) and many translations
+                                    have naively followed that, but we’ve{' '}
                                     <Link href='https://BibleHub.com/greek/3056.htm'>
                                         known
                                     </Link>{' '}
