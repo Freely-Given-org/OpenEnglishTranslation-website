@@ -86,10 +86,10 @@ function BiblicalNames() {
                             how to pronounce Hebrew or Greek. Unfortunately
                             then, our solution will only ever be a compromise
                             solution, which will sadly frustrate some purists.
-                            The <em>OET</em> is a compromise, in fact, every
-                            Bible translation is always a compromise in many
-                            ways (even if most marketing departments don’t try
-                            to highlight that).
+                            The <em>OET</em> is a compromise, in fact, every
+                            Bible translation is always a compromise in{' '}
+                            <em>many</em> ways (even if most of their marketing
+                            departments don’t try to highlight that).
                         </p>
                         <h2 id='consonants'>
                             Consonants in the relevant languages
@@ -225,17 +225,35 @@ function BiblicalNames() {
                             </small>
                             ) or ‘Yah’ (the shortened form of ‘Yahweh’).
                             Well-known names which are examples of these include{' '}
-                            <i>Daniel</i> & <i>Ishmael</i> & <i>Jezreel</i>, and{' '}
-                            <i>Elijah</i> & <i>Isaiah</i>, although typical
-                            (poor<sup>*</sup> and inconsistent) English spelling
-                            of Biblical names doesn’t always make their endings
-                            obvious.
+                            <i>
+                                Dani<b>el</b>
+                            </i>{' '}
+                            &{' '}
+                            <i>
+                                Ishma<b>el</b>
+                            </i>{' '}
+                            &{' '}
+                            <i>
+                                Jezre<b>el</b>
+                            </i>
+                            , and{' '}
+                            <i>
+                                Eli<b>jah</b>
+                            </i>{' '}
+                            &{' '}
+                            <i>
+                                Isa<b>iah</b>
+                            </i>
+                            , although typical (poor<sup>*</sup> and
+                            inconsistent) English spelling of Biblical names
+                            doesn’t always make their endings obvious.
                         </p>
                         <p>
                             <sup>*</sup>{' '}
                             <small>
-                                We get most of our Bible names from Hebrew →
-                                Greek → Latin → early-Germanic → English.
+                                We get most of our traditional Bible names from
+                                Hebrew → Greek → Latin → early-Germanic →
+                                English.
                             </small>
                         </p>
                         <h3>The OET Literal Version</h3>
@@ -255,13 +273,15 @@ function BiblicalNames() {
                         <p>
                             But the main thing we want to notice right now are
                             how names like ‘Yisrā<sup>ʼēl</sup>’ (Israel) and
-                            ‘Nəḩem<sup>yāh</sup>’ (Nehemiah) have God’s name
-                            superscripted to help make it more obvious for those
-                            who’re studying our <em>Literal Version</em>.
+                            ‘Nəḩem<sup>yāh</sup>’ (Nehemiah, but it’s only three
+                            syllables in Hebrew) have the shortened form of
+                            God’s name superscripted to help make it more
+                            obvious for those who’re studying our{' '}
+                            <em>Literal Version</em>.
                         </p>
                         <h3>The OET Readers’ Version</h3>
                         <p>
-                            By contrast, the <em>Readers’ Version</em>on the
+                            By contrast, the <em>Readers’ Version</em> on the
                             left{' '}
                             <Link href='https://Freely-Given.org/OBD/OET/byC/NEH_C10.htm#V1'>
                                 here
