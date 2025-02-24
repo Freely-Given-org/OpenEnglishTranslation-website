@@ -38,8 +38,8 @@ function StyleEssays() {
                             <i>
                                 married two local women from the Canaan region
                             </i>
-                            : Adah (the Hittite Elon's daughter) and Oholibamah
-                            (Anah's daughter and granddaughter of the Hivite
+                            : Adah (the Hittite Elon’s daughter) and Oholibamah
+                            (Anah’s daughter and granddaughter of the Hivite
                             Zibeon).
                         </p>
                         <p>

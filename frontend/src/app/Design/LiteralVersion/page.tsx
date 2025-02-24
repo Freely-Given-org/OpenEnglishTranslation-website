@@ -46,7 +46,7 @@ function LV() {
                                 </em>{' '}
                                 is right next to it to smooth things over. (One
                                 easily noticeable difference from other
-                                ‘literal’ translations is that we don't omit
+                                ‘literal’ translations is that we don’t omit
                                 Hebrew or Greek words which are usually
                                 untranslated in English.)
                             </li>

@@ -20,16 +20,16 @@ function KTEssays() {
                         <h3>(Sometimes called ‘Key Terms’)</h3>
                         <h2 id='Yahweh'>Yahweh</h2>
                         <p>
-                            The <em>Open English Translation</em> translators
-                            maintain that the tradition of replacing God’s name
-                            with the substitution ‘L<small>ORD</small>’ is not
-                            the most helpful for most English readers, and in
-                            fact can be quite misleading. Sadly, it’s become a
-                            well-established tradition in both English Bible
-                            translations and in English-speaking church
-                            services, so changing it now will feel odd for a
-                            time (but that doesn’t mean that we shouldn’t make
-                            the effort).
+                            The <em>Open English Translation</em> (<em>OET</em>
+                            )translators maintain that the tradition of
+                            replacing God’s name with the substitution ‘L
+                            <small>ORD</small>’ is not the most helpful for most
+                            English readers, and in fact can be quite
+                            misleading. Sadly, it’s become a well-established
+                            tradition in both English Bible translations and in
+                            English-speaking church services, so changing it now
+                            will feel odd for a time (but that doesn’t mean that
+                            we shouldn’t make the effort).
                         </p>
                         <p>
                             <small>
@@ -66,38 +66,61 @@ function KTEssays() {
                                 <em>OET</em>.
                             </li>
                             <li>
-                                The <em>Open English Translation</em>{' '}
-                                <em>Readers Version</em> and{' '}
+                                The <em>OET</em> <em>Readers Version</em> and{' '}
                                 <em>Literal Version</em> always translate this
                                 term as ‘Yahweh’ in agreement with the text of
                                 the Hebrew scriptures.
                             </li>
                             <li>
+                                English translations that use ‘L
+                                <small>ORD</small>’ in place of ‘Yahweh’ get
+                                into trouble when the Hebrew text also contains
+                                the Hebrew word for ‘lord/master’ (‘adonai’),
+                                and rather than have the ridiculous ‘lord L
+                                <small>ORD</small>’, many of them are forced to
+                                add ‘God’ to get ‘L<small>ORD</small> God’ even
+                                where there’s no word for God in the verse,
+                                e.g., see{' '}
+                                <Link href='https://Freely-Given.org/OBD/par/ZEP/C1V7.htm#NET'>
+                                    Zeph 1:7
+                                </Link>
+                                .
+                            </li>
+                            <li>
                                 The term ‘Yahweh’ never occurs in the original
-                                text of the New Testament Messianic update; only
+                                text of the New Testament Messianic update—only
                                 the Greek term for ‘Master/Lord’ is used, even
-                                when quoting the Hebrew scriptures.
+                                when quoting the Hebrew scriptures. (This makes
+                                it difficult for us to know sometimes if the
+                                Greek term ‘κύριος’ is referring to ‘Yahweh’ or
+                                ‘Yeshua’/‘Jesus’.)
                             </li>
                             <li>
                                 In the Hebrew scriptures, when God spoke about
                                 himself, he would often use his name instead of
                                 a pronoun. (In our <em>Readers Version</em>, we
-                                adjust this to way modern English uses
-                                pronouns.)
+                                adjust this to the way that modern English
+                                naturally uses pronouns.)
                             </li>
                             <li>
                                 ‘Yah’ is a shortened form of the name Yahweh
-                                that occurs in poetry and praise (e.g.
-                                Hallelujah = ‘Praise Yah’), and in some Hebrew
-                                names (e.g. Zechariah = ‘Yah remembers’).
+                                that occurs in poetry and praise (e.g. Hallelu
+                                <sup>yah</sup> (Hallelujah) = ‘Praise Yah’), and
+                                in some Hebrew names (e.g. Zekar<sup>yah</sup>{' '}
+                                (Zechariah) = ‘Yah remembers’).
                             </li>
                             <li>
-                                Some traditions have used ‘Jehovah’ (we’d prefer
-                                the spelling ‘Yehovah’ or ‘Yehowah’) rather than
-                                ‘Yahweh’ for God’s name. Although we understand
-                                this to be less likely to be correct, we would
-                                consider that to still be better than replacing
-                                the name with ‘L<small>ORD</small>’.
+                                <small>
+                                    Some traditions have used ‘Jehovah’ rather
+                                    than ‘Yahweh’ for God’s name. Although we
+                                    understand this to be much less likely to be
+                                    correct (or to put it more strongly, it
+                                    appears to be a historical mistake), we
+                                    would consider that to still be better than
+                                    replacing God’s name with ‘L
+                                    <small>ORD</small>’ (although we’d prefer
+                                    the spelling ‘Yehovah’ or ‘Yehowah’).
+                                </small>
                             </li>
                         </ul>
                         <h3>Other translation possibilities:</h3>
