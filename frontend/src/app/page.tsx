@@ -150,9 +150,9 @@ const Home: NextPage = () => {
                                 Testament) available, plus several Old Testament
                                 books (Genesis, Exodus, Joshua, Judges, Ruth,
                                 1&2 Samuel, 1&2 Kings, Nehemiah, Esther, Job,
-                                Daniel, Obadiah, Jonah, Nahum, Zephaniah, Haggai, and
-                                Malachi, half of Ezra, and a few Psalms,
-                                combines to around 42% of the Hebrew
+                                Daniel, Obadiah, Jonah, Nahum, Zephaniah,
+                                Haggai, and Malachi, half of Ezra, and a few
+                                Psalms, combines to around 42% of the Hebrew
                                 scriptures), so a total of{' '}
                                 <b>57% of the Bible drafted</b>. That’s more
                                 than enough for you to get an idea of the style
