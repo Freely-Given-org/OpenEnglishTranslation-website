@@ -28,7 +28,7 @@ const menu: dropMenu = {
             link: '/Discussion/FAQ',
         },
         {
-            name: 'New',
+            name: 'New topic',
             link: '/Discussion/New',
         },
         {
