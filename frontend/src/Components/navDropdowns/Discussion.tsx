@@ -31,6 +31,10 @@ const menu: dropMenu = {
             name: 'New',
             link: '/Discussion/New',
         },
+        {
+            name: 'Challenge / Errors',
+            link: '/Discussion/Challenge',
+        },
     ],
 };
 

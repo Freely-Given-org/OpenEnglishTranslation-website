@@ -98,8 +98,8 @@ const Home: NextPage = () => {
                                     trying to{' '}
                                     <b>avoid using untranslated Greek words</b>{' '}
                                     in the English translation (like ‘baptise’
-                                    and ‘apostle’), although we do use (Hebrew)
-                                    ‘Messiah’ heavily
+                                    and ‘apostle’), although we do use ‘Messiah’
+                                    (from Hebrew) heavily
                                 </li>
                                 <li>
                                     following{' '}
@@ -145,16 +145,16 @@ const Home: NextPage = () => {
                                 </li>
                             </ul>
                             <p>
-                                Currently as of mid-February 2025, we have the
+                                Currently as of late-February 2025, we have the
                                 first draft of ‘The Messianic Update’ (New
                                 Testament) available, plus several Old Testament
                                 books (Genesis, Exodus, Joshua, Judges, Ruth,
                                 1&2 Samuel, 1&2 Kings, Nehemiah, Esther, Job,
-                                Daniel, Obadiah, Jonah, Nahum, Haggai, and
-                                Malachi, some of Ezra, and a few Psalms,
-                                combines to around 41% of the Hebrew
+                                Daniel, Obadiah, Jonah, Nahum, Zephaniah, Haggai, and
+                                Malachi, half of Ezra, and a few Psalms,
+                                combines to around 42% of the Hebrew
                                 scriptures), so a total of{' '}
-                                <b>56% of the Bible drafted</b>. That’s more
+                                <b>57% of the Bible drafted</b>. That’s more
                                 than enough for you to get an idea of the style
                                 that we’re aiming for, although some decisions
                                 (even some major ones) are still in flux (and

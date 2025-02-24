@@ -16,6 +16,37 @@ function BiblicalNames() {
                 <Page>
                     <MainPageContent>
                         <h1>Essay on Biblical names</h1>
+                        <h2>Modern views on naming</h2>
+                        <p>
+                            One of the positive changes of the 21<sup>st</sup>{' '}
+                            century has been a concerted attempt to pronounce
+                            names better (rather than just using crude English
+                            approximations). One example is the change of the
+                            name of the country previously called ‘Turkey’ in
+                            English:
+                        </p>
+                        <p>
+                            “Turkey adopted its official name, Türkiye
+                            Cumhuriyeti, known in English as the Republic of
+                            Turkey or more commonly known as Turkey, upon the
+                            declaration of the republic on 29 October 1923. In
+                            2021, however, via the UN, Turkey changed its
+                            spelling to Türkiye.”{' '}
+                            <small>
+                                (
+                                <Link href='https://en.wikipedia.org/wiki/Name_of_Turkey#:~:text=Turkey%20adopted%20its%20official%20name,changed%20its%20spelling%20to%20T%C3%BCrkiye.'>
+                                    Wikipedia
+                                </Link>
+                                )
+                            </small>
+                        </p>
+                        <p>
+                            This trend includes making better attempts at
+                            pronouncing local place names. So, if we can work
+                            harder on pronouncing place names more correctly,
+                            why can’t we also work on improving our
+                            pronunciation of the names of Biblical characters?
+                        </p>
                         <h2>Transliteration and English spellings</h2>
                         <h2 id='introduction'>Introduction</h2>
                         <p>

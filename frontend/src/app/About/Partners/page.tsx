@@ -239,7 +239,7 @@ function Partners() {
                             <small>
                                 (In May 2023, we created one very-basic test
                                 copy of the two-column <em>OET</em> with two
-                                gospels using PTXprint, but we're ready now to
+                                gospels using PTXprint, but we’re ready now to
                                 start looking at something more serious.)
                             </small>
                         </p>

@@ -28,7 +28,7 @@ function NewDiscussion() {
                             Alternatively, you can submit a question or comment
                             from{' '}
                             <Link href='/About/Contact'>our contact page</Link>,
-                            and then we'll either open a discussion ourselves,
+                            and then we’ll either open a discussion ourselves,
                             or add it to{' '}
                             <Link href='/Discussion/FAQ'>our FAQ Page</Link>{' '}
                             with our response.

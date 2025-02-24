@@ -314,7 +314,7 @@ function Formats() {
                                 <li>
                                     include codes for unusual cases like{' '}
                                     <b>SAM</b> (which would be <b>SA1</b> and{' '}
-                                    <b>SA2</b> (since we're no longer restricted
+                                    <b>SA2</b> (since we’re no longer restricted
                                     by how big or heavy a single scroll can
                                     be—the revolutionary, new <em>OET</em>
                                      always considers traditions and whether or
