@@ -33,8 +33,8 @@ function Name() {
                             </li>
                             <li>
                                 <b>English</b> because it’s an English
-                                translation. Modern English. Our English. (It
-                                seems a little ethnocentric to leave the
+                                translation. <b>Modern English. Our English.</b>{' '}
+                                (It seems a little ethnocentric to leave the
                                 language qualifier out of the title of a Bible
                                 translation, although it’s true that in most
                                 cases that language of the title itself
