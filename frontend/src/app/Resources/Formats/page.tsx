@@ -72,7 +72,7 @@ function Formats() {
                                 narrator or editor.
                             </li>
                         </ul>
-                        <h1>ESFM Bible files</h1>
+                        <h1 id='ESFM'>ESFM Bible files</h1>
                         <p>
                             <Link href='https://github.com/Freely-Given-org/ESFM'>
                                 Enhanced Standard Format Marker
@@ -112,7 +112,7 @@ function Formats() {
                             <em>OET</em> extensions
                         </h2>
                         <p></p>
-                        <h3>
+                        <h3 id='Add'>
                             <em>Add</em> character fields
                         </h3>
                         <p>

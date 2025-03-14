@@ -196,26 +196,28 @@ function WordEssays() {
                             lying down when they were told by someone else to go
                             somewhere? So many English translations say
                             something like ‘So he <b>got up</b> and went to …’.
-                            In modern-English that would seem to normally mean
-                            ‘he
-                            <b>got out (of bed)</b> and went …’, although it
+                            In modern-English that would seem to normally imply
+                            ‘he <b>got out (of bed)</b> and went …’, although it
                             could also mean ‘he <b>stood up (from the table)</b>{' '}
-                            and went …’. That probably wasn’t the word picture
-                            in the mind of the original author. It’s more likely
-                            to mean ‘he <b>packed up</b> and went …’ or ‘he{' '}
-                            <b>got ready</b> and went …’ or even just ‘he{' '}
+                            and went …’. However, that probably wasn’t the word
+                            picture in the mind of the original author. It’s
+                            more likely to mean ‘he <b>packed up</b> and went …’
+                            or ‘he <b>got ready</b> and went …’ or even just ‘he{' '}
                             <b>departed</b> and walked to …’ in that context it
-                            seems.
+                            seems. In other contexts, a better modern equivalent
+                            is often something like ‘he <b>took action by</b>{' '}
+                            …’.
                         </p>
                         <h2 id='deliver'>Deliver</h2>
                         <p>
                             Pretty much the only things that get ‘delivered’ in
                             modern times are packages, pizzas, and babies.
-                            Slaves taken by ISIS get ‘rescued’ and God might
-                            help the army to ‘defeat’ or ‘conquer’ the enemy,
-                            not ‘deliver them into your hand’. Addicts ‘break’
-                            the habit. Prisoners (or sinners) get ‘released’ or
-                            ‘set free’ rather than getting ‘delivered’.
+                            Slaves taken by ISIS get ‘rescued’ rather than
+                            ‘delivered’, and God might help the army to ‘defeat’
+                            or ‘conquer’ the enemy, not ‘deliver them into your
+                            hand’. Addicts ‘break’ the habit. Prisoners (or
+                            sinners) get ‘released’ or ‘set free’ rather than
+                            getting ‘delivered’ in modern English.
                         </p>
                         <h2 id='great'>Great</h2>
                         <p>
@@ -315,7 +317,7 @@ function WordEssays() {
                         <h2 id='forsake'>Forsake</h2>
                         <p>To abandon ... coming ...</p>
                         <h2>More coming...</h2>
-                        </MainPageContent>
+                    </MainPageContent>
                 </Page>
             </Main>
             <Footer />
