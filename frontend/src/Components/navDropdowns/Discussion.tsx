@@ -28,6 +28,10 @@ const menu: dropMenu = {
             link: '/Discussion/FAQ',
         },
         {
+            name: 'Notes / Disclaimers',
+            link: '/Discussion/Notes',
+        },
+        {
             name: 'New topic',
             link: '/Discussion/New',
         },

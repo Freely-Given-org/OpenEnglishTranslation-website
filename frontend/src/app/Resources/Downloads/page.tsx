@@ -18,7 +18,9 @@ function Downloads() {
                         <h1>Downloads</h1>
                         <p>
                             We aim to have some initial PDF downloads of draft
-                            New Testament texts here by mid-2024.
+                            texts of ‘The Messianic Update’ (the ‘New
+                            Testament’) texts here by mid-2024. (Oops, still
+                            trying to find some typesetting help, sorry.)
                         </p>
                         <p>
                             The in-progress source files of the <em>OET</em> are{' '}
