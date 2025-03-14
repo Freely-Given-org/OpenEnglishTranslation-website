@@ -75,7 +75,7 @@ function KTEssays() {
                                 English translations that use ‘L
                                 <small>ORD</small>’ in place of ‘Yahweh’ get
                                 into trouble when the Hebrew text also contains
-                                the Hebrew word for ‘lord/master’ (‘adonai’),
+                                the Hebrew word for ‘master/lord’ (‘adonai’),
                                 and rather than have the ridiculous ‘lord L
                                 <small>ORD</small>’, many of them are forced to
                                 add ‘God’ to get ‘L<small>ORD</small> God’ even
@@ -115,11 +115,15 @@ function KTEssays() {
                                     than ‘Yahweh’ for God’s name. Although we
                                     understand this to be much less likely to be
                                     correct (or to put it more strongly, it
-                                    appears to be a historical mistake), we
-                                    would consider that to still be better than
-                                    replacing God’s name with ‘L
-                                    <small>ORD</small>’ (although we’d prefer
-                                    the spelling ‘Yehovah’ or ‘Yehowah’).
+                                    appears to be a{' '}
+                                    <Link href='https://en.Wikipedia.org/wiki/Jehovah'>
+                                        historical mistake
+                                    </Link>
+                                    ), we would consider that to still be better
+                                    than replacing God’s name with ‘L
+                                    <small>ORD</small>’ (although we’d at least
+                                    prefer the more helpful spelling ‘Yehovah’
+                                    or ‘Yehowah’).
                                 </small>
                             </li>
                         </ul>

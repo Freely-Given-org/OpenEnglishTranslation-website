@@ -165,7 +165,7 @@ const Home: NextPage = () => {
                                 1&2 Samuel, 1&2 Kings, Ezra, Nehemiah, Esther,
                                 Job, Daniel, Obadiah, Jonah, Nahum, Habakkuk,
                                 Zephaniah, Haggai, and Malachi, some of
-                                Zechariah, and a several Psalms, combines to
+                                Zechariah, and several Psalms, combines to
                                 around 45% of the Hebrew scriptures), so a total
                                 of <b>59% of the Bible drafted</b>. That’s more
                                 than enough for you to get an idea of the style
