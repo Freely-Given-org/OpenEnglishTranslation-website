@@ -276,7 +276,7 @@ function WordEssays() {
                             contexts in English to mean ‘path’ or ‘road’.
                         </p>
                         <p>
-                            But that not the most common meaning of ‘way’ in
+                            But that’s not the most common meaning of ‘way’ in
                             <Link href='https://www.oxfordlearnersdictionaries.com/definition/english/way_1'>
                                 modern-English
                             </Link>
@@ -313,9 +313,60 @@ function WordEssays() {
                             <small>OET-RV</small>
                         </p>
                         <h2 id='struck'>Struck</h2>
-                        <p>with sword ... coming ...</p>
+                        <p>
+                            A common use of ‘struck’ in modern English might be
+                            to be ‘struck by lightning’ or ‘struck by a speeding
+                            car’. However, the Bible was written in an era when
+                            wars, fighting, and law & order were often carried
+                            out with weapons like swords and spears. The word
+                            translated ‘struck’ belongs to that era, and isn’t
+                            necessarily so relevant in our era of guns (and even
+                            drones). When someone was ‘struck’, it was often a
+                            euphemism for something like ‘run through with a
+                            sword and killed’.
+                        </p>
+                        <p>
+                            For the sake of clarity, the <em>OET-RV</em> will
+                            try to avoid ‘struck’, and replace it with a phrase
+                            like ‘killed in battle’ (depending on the context)
+                            which we believe will be clearer to all of our
+                            younger readers of modern English.
+                        </p>
+                        <h2 id='perish'>Perish</h2>
+                        <p>
+                            In modern English, we mostly use ‘perish’ to
+                            describe what happens to food that’s been left
+                            sitting around for too long—it loses its crispness
+                            and begins to degrade and eventually rot.
+                        </p>
+                        <p>
+                            In older English (and yes, it’s still understood by
+                            many modern readers), ‘perish’ could be used to
+                            refer to someone (who’s unwanted, such as an enemy)
+                            dying—often killed in battle.
+                        </p>
+                        <p>
+                            The <em>OET-RV</em> will avoid ‘perish’, and try to
+                            use phrases like ‘killed in battle’ (depending on
+                            the context) which we believe will be clearer to all
+                            of our younger readers of modern English.
+                        </p>
                         <h2 id='forsake'>Forsake</h2>
                         <p>To abandon ... coming ...</p>
+                        <h2 id='land'>Land of …</h2>
+                        <p>
+                            Would you like a holiday in the ‘land of Australia’
+                            or in the ‘land of California’? Well, maybe you
+                            would, but we don’t usually talk like that. However,
+                            many older English translations still do, using
+                            ‘land of …’ sometimes for entire countries, and
+                            sometimes for regions within countries.
+                        </p>
+                        <p>
+                            The <em>OET-RV</em> tries to avoid that unnatural
+                            English terminology and uses terms like ‘Persian
+                            empire’ and ‘Negev region’.
+                        </p>
                         <h2>More coming...</h2>
                     </MainPageContent>
                 </Page>

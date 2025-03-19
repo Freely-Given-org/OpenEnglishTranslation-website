@@ -48,7 +48,8 @@ function LV() {
                                 easily noticeable difference from other
                                 ‘literal’ translations is that we don’t omit
                                 Hebrew or Greek words which are usually
-                                untranslated in English.)
+                                untranslated in English—often for grammatical
+                                reasons, but sometimes for semantic reasons.)
                             </li>
                             <li>
                                 The <em>Literal Version</em>{' '}
@@ -75,10 +76,10 @@ function LV() {
                                 placenames and the <em>Literal Version</em>{' '}
                                 <b>transliterates all proper nouns</b>. If it’s
                                 a name from the <em>Hebrew scriptures</em>, then
-                                the first time it’s used in a New Testament
-                                book, it will also have a Hebrew
-                                transliteration. (If you have difficulty
-                                following the names in the{' '}
+                                the first time it’s used in a document/book in
+                                the <em>Messianic update</em> (New Testament),
+                                it will also have a Hebrew transliteration. (If
+                                you have difficulty following the names in the{' '}
                                 <em>Literal Version</em>, you can always look
                                 across to the <em>Readers’ Version</em> for
                                 help.)
@@ -93,7 +94,18 @@ function LV() {
                                 of <b>ph</b>, so <i>Epafras</i> instead of{' '}
                                 <i>Epaphras</i>. (Oddly, even traditional
                                 English Bible translations surprisingly do use{' '}
-                                <i>Felix</i> and <i>Festus</i>.)
+                                <i>Felix</i> and <i>Festus</i>, despite{' '}
+                                <i>Philemon</i> and <i>Phoebe</i>.{' '}
+                                <small>
+                                    Those go all the way back to the Latin
+                                    Vulgate translation, although John Wycliffe
+                                    did try to simplify Latin ‘
+                                    <Link href='https://Freely-Given.org/OBD/par/ROM/C16V1.htm#ClVg'>
+                                        Phœben
+                                    </Link>
+                                    ’ to ‘Feben’.
+                                </small>
+                                )
                             </li>
                             <li>
                                 With regular words, we’ve tried to do the
@@ -150,17 +162,18 @@ function LV() {
                                 ancient king or <i>lord</i> who has the power of
                                 life and death over them. Thus the title{' '}
                                 <i>Lord Jesus</i> is easily said, yet relatively
-                                few actually live with Jesus as the lord of
-                                their thoughts and actions and daily activities.
-                                (Just think how many would embarrassingly rush
-                                to turn off the video they’re streaming if Jesus
-                                appeared in the room.) As a reaction to the word{' '}
-                                <i>Lord</i> seemingly becoming so cliché for
-                                many Christians, we use the translation{' '}
-                                <i>master</i> as a way to get readers to at
-                                least think a little more about what the concept
-                                might mean. (The word <i>boss</i> felt a little
-                                too informal.)
+                                few actually live with Yeshua/Jesus as the lord
+                                of their thoughts and actions and daily
+                                activities. (Just think how many people would
+                                embarrassingly rush to turn off the music or
+                                video they’re streaming if Jesus appeared in the
+                                room.) As a reaction to the word <i>Lord</i>{' '}
+                                seemingly becoming so cliché for many
+                                Christians, we use the translation <i>master</i>{' '}
+                                as a way to get readers to at least think a
+                                little more about what the concept might mean.
+                                (The word <i>boss</i> felt a little too
+                                informal.)
                             </li>
                             <li>
                                 The <em>Literal Version</em>{' '}
@@ -185,7 +198,8 @@ function LV() {
                                 against religious tradition of the last few
                                 centuries, but just because something is
                                 traditional, does not necessarily mean that it
-                                is correct or even helpful.)
+                                is correct or even truly helpful in the long
+                                term.)
                             </li>
                             <li>
                                 Most dialects of modern English don’t
@@ -203,7 +217,8 @@ function LV() {
                                     for the plural
                                 </b>{' '}
                                 form (although we are aware that some modern
-                                dialects now prefer <i>yous</i>).
+                                dialects now prefer <i>yous</i> and some other
+                                options).
                             </li>
                             <li>
                                 <i>Up</i> and <i>down</i> in the original
@@ -218,9 +233,9 @@ function LV() {
                                 one-to-one between languages. This is one reason
                                 why the <em>OET-LV</em> reads strangely: because
                                 we try to avoid using different English words if
-                                we can; knowing that the <em>OET-LV</em> will
-                                not be natural English. Again, this is because
-                                we want the <em>OET-LV</em> to be a window into
+                                we can—knowing that the <em>OET-LV</em> will not
+                                be natural English. Again, this is because we
+                                want the <em>OET-LV</em> to be a window into
                                 what’s actually written in the original
                                 languages. For fluent English (like in the{' '}
                                 <em>Readers’ Version</em>) the same Greek word
@@ -258,7 +273,7 @@ function LV() {
                                     <i>being raised up</i>, it was deliberately
                                     ambiguous because his hearers didn’t
                                     understand until right near the end that he
-                                    was going to be executed so coming back to
+                                    was going to be executed, so coming back to
                                     life wasn’t on their minds. So we, looking
                                     back in history, know that he was talking
                                     about coming back to life, but at the time,
@@ -302,7 +317,7 @@ function LV() {
                                     </li>
                                     <li>
                                         It just reminds readers that the order
-                                        of the “books” in the Bible is not set
+                                        of the ‘books’ in the Bible is not set
                                         by sacred degree—only by tradition.
                                     </li>
                                 </ol>
@@ -313,7 +328,8 @@ function LV() {
                                     of Rev 4:6-7 which allegedly match with the
                                     banners (not described in the Bible) of the
                                     four divisions of the tribes of Israel
-                                    mentioned in Numbers 2.)
+                                    mentioned in Numbers 2. We don’t find that
+                                    to be a compelling argument.)
                                 </small>
                             </li>
                             <li>
@@ -339,8 +355,11 @@ function LV() {
                                         appear to say. For example the double
                                         negative: “You are<span>_</span> not{' '}
                                         <span>_</span>caring<span>_</span>about
-                                        no one.” (adapted from Matthew 22:16).
-                                        In natural, fluent English, we would
+                                        no one.” (adapted from Matthew{' '}
+                                        <Link href='https://Freely-Given.org/OBD/par/MAT/C22V16.htm#OET-LV'>
+                                            22:16
+                                        </Link>
+                                        ). In natural, fluent English, we would
                                         have to reverse the second negative to
                                         get the expected meaning, ending up with{' '}
                                         <i>anyone</i> as you’ll find in the{' '}
