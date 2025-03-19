@@ -355,6 +355,18 @@ function KTEssays() {
                             <Link href='https://BibleHub.com/hebrew/3050.htm'>
                                 H3050
                             </Link>
+                            ,{' '}
+                            <Link href='https://BibleHub.com/hebrew/136.htm'>
+                                H136
+                            </Link>
+                            ,{' '}
+                            <Link href='https://BibleHub.com/hebrew/113.htm'>
+                                H113
+                            </Link>
+                            ,{' '}
+                            <Link href='https://BibleHub.com/greek/2962.htm'>
+                                G2962
+                            </Link>
                             .
                         </p>
                         <h2>More coming...</h2>
