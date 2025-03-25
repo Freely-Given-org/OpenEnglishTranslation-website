@@ -175,6 +175,99 @@ function RV() {
                                 elected to only use <i>messiah</i>.
                             </li>
                         </ul>
+                        <h2 id='word'>Word translation flow-chart</h2>
+                        <p>
+                            <small>
+                                Many words have a <b>range of meaning</b>, e.g.,
+                                ‘cold’, ‘warm’, or ‘hot’ each refer to a range
+                                of temperatures. So too with verbs, ‘hit’,
+                                ‘beat’, ‘bash’, and ‘flatten’ might each refer
+                                to striking a child with a stick (or a car) with
+                                various ranges of force. When translating words
+                                from other languages, some parts of a word’s
+                                range of meaning might require quite different
+                                words in the destination language.
+                            </small>
+                        </p>
+                        <p>
+                            <small>
+                                Many words have both a <b>primary meaning</b>{' '}
+                                and an <b>extended meaning</b>. For example, a
+                                ‘butterfly’ might be a certain flying form of an
+                                insect, but can also be used to describe part of
+                                the ‘choke’ system (also an extended meaning) of
+                                a combustion engine. When translating words from
+                                other languages, primary meanings and extended
+                                meanings might require quite different
+                                translations in the destination language.
+                            </small>
+                        </p>
+                        <p>
+                            <small>
+                                A word’s <em>collocation</em> describes the
+                                other word(s) that appear beside it, e.g., a
+                                ‘tall building’ and a ‘tall person’ are both ok,
+                                but ‘baby’ would normally be collocated with
+                                ‘long’ rather than ‘tall’ (because the baby
+                                mostly lies down, rather than stands up). So
+                                ‘tall baby’ (for a newborn) is a{' '}
+                                <Link href='https://www.newindianexpress.com/education/edex/2016/Aug/22/common-collocation-errors-1511856.html'>
+                                    miscollocation
+                                </Link>
+                                .
+                            </small>
+                        </p>
+                        <ol>
+                            <li>
+                                Is the word part of an idiom? YES: Go to ‘
+                                <Link href='#idiom'>
+                                    Idiom translation flow-chart
+                                </Link>
+                                ’ below.
+                            </li>
+                            <li>
+                                Is the accepted literal translation of this word
+                                in regular use in modern English with the same
+                                meaning as in the Hebrew/Greek? YES: use the
+                                English word (or a synonym if required by{' '}
+                                <Link href='https://english.stackexchange.com/questions/538639/using-synonyms-to-improve-text-readability-elegant-variation'>
+                                    good English style
+                                </Link>
+                                —note that we can be free to do that because our
+                                side-by-side <em>Literal Version</em> always
+                                attempts to use exactly the SAME translation
+                                every time.)
+                            </li>
+                            <li>More coming...</li>
+                        </ol>
+                        <h2 id='idiom'>Idiom translation flow-chart</h2>
+                        <p>
+                            <small>
+                                An <em>idiom</em> is a phrase or clause where it
+                                might be possible to understand all the words,
+                                but the reader would likely still not understand
+                                it{' '}
+                                <Link href='https://www.christianity.com/wiki/god/god-is-long-of-nose.html#google_vignette'>
+                                    correctly
+                                </Link>{' '}
+                                if they hadn’t come across it previously. A good
+                                English example is ‘kick the bucket’ where you
+                                might understand what a ‘kick’ involves, and you
+                                might know what a ‘bucket’ is, yet you might not
+                                be aware that together as a clause, it means ‘to
+                                die’. A{' '}
+                                <Link href='https://Freely-Given.org/OBD/par/EXO/C34V6.htm#Top'>
+                                    Hebrew
+                                </Link>{' '}
+                                example describes Yahweh as being ‘long of
+                                nostril’ which has traditionally been translated
+                                as ‘long-suffering’, but more likely as
+                                ‘patient’ in a modern translation.
+                            </small>
+                        </p>
+                        <ol>
+                            <li>More coming...</li>
+                        </ol>
                     </MainPageContent>
                 </Page>
             </Main>

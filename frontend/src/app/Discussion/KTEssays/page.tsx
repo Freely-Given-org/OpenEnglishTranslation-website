@@ -110,6 +110,16 @@ function KTEssays() {
                                 (Zechariah) = ‘Yah remembers’).
                             </li>
                             <li>
+                                Many current English translations use the word
+                                ‘God’ in their section headings (especially in
+                                the Psalms/Songs) even when the word ‘God’
+                                (‘Elohim’) doesn’t even appear once within the
+                                section (because it uses ‘Yahweh’ throughout).
+                                This demonstrates quite a sad (unconscious?)
+                                bias against the use of God’s name ‘Yahweh’ by
+                                many contemporary Christian groups.
+                            </li>
+                            <li>
                                 <small>
                                     Some traditions have used ‘Jehovah’ rather
                                     than ‘Yahweh’ for God’s name. Although we
@@ -369,6 +379,12 @@ function KTEssays() {
                             </Link>
                             .
                         </p>
+                        <h2 id='name'>Name of God</h2>
+                        <p>
+                            Psa 69:30 from the Hebrew: ‘I will praise the name
+                            of God …’
+                        </p>
+                        <p>More coming ...</p>
                         <h2>More coming...</h2>
                     </MainPageContent>
                 </Page>

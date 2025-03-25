@@ -276,7 +276,7 @@ function WordEssays() {
                             contexts in English to mean ‘path’ or ‘road’.
                         </p>
                         <p>
-                            But that’s not the most common meaning of ‘way’ in
+                            But that’s not the most common meaning of ‘way’ in{' '}
                             <Link href='https://www.oxfordlearnersdictionaries.com/definition/english/way_1'>
                                 modern-English
                             </Link>
@@ -367,6 +367,16 @@ function WordEssays() {
                             English terminology and uses terms like ‘Persian
                             empire’ and ‘Negev region’.
                         </p>
+                        <h2 id='woe'>Woe to …</h2>
+                        <p>
+                            “Woe to you kids if you don’t get your room tidied
+                            up quickly!” Well, maybe not in modern-English
+                            (although ‘woe and betide’ seems to come to my mind
+                            from somewhere deep down).
+                        </p>
+                        <p>To come to a bad end ... coming ...</p>
+                        <h2 id='behold'>Behold!</h2>
+                        <p>Wow! ... coming ...</p>
                         <h2>More coming...</h2>
                     </MainPageContent>
                 </Page>
