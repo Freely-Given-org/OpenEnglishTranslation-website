@@ -156,18 +156,26 @@ const Home: NextPage = () => {
                                     </Link>
                                     )
                                 </li>
+                                <li>
+                                    <b>
+                                        able to keep improving over time with
+                                        community input
+                                    </b>{' '}
+                                    (especially because of the two points
+                                    immediately above this one).
+                                </li>
                             </ul>
                             <p>
-                                Currently as of mid-March 2025, we have the
+                                Currently as of late-March 2025, we have the
                                 first draft of ‘The Messianic Update’ (New
                                 Testament) available, plus several Old Testament
                                 books (Genesis, Exodus, Joshua, Judges, Ruth,
                                 1&2 Samuel, 1&2 Kings, Ezra, Nehemiah, Esther,
                                 Job, Daniel, Obadiah, Jonah, Nahum, Habakkuk,
-                                Zephaniah, Haggai, and Malachi, half of
-                                Zechariah, and several Psalms, combines to
-                                around 45% of the Hebrew scriptures), so a total
-                                of <b>59% of the Bible drafted</b>. That’s more
+                                Zephaniah, Haggai, Zechariah, and Malachi, and
+                                several Psalms, combines to over 46% of the
+                                Hebrew scriptures), so a total of{' '}
+                                <b>60% of the Bible now drafted</b>. That’s more
                                 than enough for you to get an idea of the style
                                 that we’re aiming for, although some decisions
                                 (even some major ones) are still in flux (and
