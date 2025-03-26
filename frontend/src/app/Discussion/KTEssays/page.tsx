@@ -385,6 +385,8 @@ function KTEssays() {
                             of God …’
                         </p>
                         <p>More coming ...</p>
+                        <h2 id='lovingkindness'>Loving-kindness</h2>
+                        <p>Coming ...</p>
                         <h2>More coming...</h2>
                     </MainPageContent>
                 </Page>

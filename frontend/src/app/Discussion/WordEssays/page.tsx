@@ -161,9 +161,9 @@ function WordEssays() {
                             of Man’, etc., etc. As mentioned above, one of the
                             reasons why so many of our Bibles sound ‘quaint’ or
                             ‘authoritative’ (depending on your perspective) is
-                            that they tradition above natural language use and
-                            so they sound more ‘formal’ than more modern English
-                            narratives and essays.
+                            that they place tradition above natural language use
+                            and so they sound more ‘formal’ than more modern
+                            English narratives and essays.
                         </p>
                         <p>
                             There is another problem with interpreting the Greek
@@ -179,9 +179,10 @@ function WordEssays() {
                             translated with the English possessive form (usually
                             expressed with apostrophe in modern English) but
                             sometimes we must choose a different English
-                            construction, and occasionally we might bring the
-                            ambiguous form across to English because we can’t
-                            determine which option the writer intended.
+                            construction, and occasionally we might need to
+                            bring the ambiguous form across to English because
+                            we can’t be certain which option the writer
+                            intended.
                         </p>
                         <p>
                             All to say that you’ll find many less ‘of’
@@ -377,6 +378,8 @@ function WordEssays() {
                         <p>To come to a bad end ... coming ...</p>
                         <h2 id='behold'>Behold!</h2>
                         <p>Wow! ... coming ...</p>
+                        <h2 id='saves'>Saves</h2>
+                        <p>Saves/delivers/rescues ... coming ...</p>
                         <h2>More coming...</h2>
                     </MainPageContent>
                 </Page>
