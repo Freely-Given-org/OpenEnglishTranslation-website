@@ -111,10 +111,14 @@ function RV() {
                                 just focusing on the events happening at the
                                 time.
                                 <br />
-                                We provide a list of these section headings that
-                                you can quickly skim through (and we hope to
-                                also include extra, alternative headings in the
-                                future).
+                                We provide{' '}
+                                <Link href='https://Freely-Given.org/OBD/OET/bySec/RUT.htm#Top'>
+                                    a list
+                                </Link>{' '}
+                                of these section headings that you can quickly
+                                skim through (including extra, alternative
+                                headings) to help you find what you’re looking
+                                for.
                             </li>
                             <li>
                                 Being a 21<sup>st</sup> century translation done
