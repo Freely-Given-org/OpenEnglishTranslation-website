@@ -97,10 +97,11 @@ function KTEssays() {
                             </li>
                             <li>
                                 In the Hebrew scriptures, when God spoke about
-                                himself, he would often use his name instead of
-                                a pronoun. (In our <em>Readers Version</em>, we
-                                adjust this to the way that modern English
-                                naturally uses pronouns.)
+                                himself, he would often use his own name instead
+                                of a pronoun like ‘I’ or ‘me’. (In our{' '}
+                                <em>Readers Version</em>, we adjust this to the
+                                way that modern English naturally uses
+                                pronouns.)
                             </li>
                             <li>
                                 ‘Yah’ is a shortened form of the name Yahweh
@@ -113,11 +114,12 @@ function KTEssays() {
                                 Many current English translations use the word
                                 ‘God’ in their section headings (especially in
                                 the Psalms/Songs) even when the word ‘God’
-                                (‘Elohim’) doesn’t even appear once within the
-                                section (because it uses ‘Yahweh’ throughout).
-                                This demonstrates quite a sad (unconscious?)
-                                bias against the use of God’s name ‘Yahweh’ by
-                                many contemporary Christian groups.
+                                (‘Elohim’) <b>doesn’t even appear once</b>{' '}
+                                within the section (because the section or song
+                                uses ‘Yahweh’ throughout). This demonstrates
+                                quite a sad (unconscious?) bias against the use
+                                of God’s name ‘Yahweh’ by many contemporary
+                                Christian groups.
                             </li>
                             <li>
                                 <small>

@@ -218,8 +218,8 @@ const Home = ({ _blogs }: any) => {
                                 </Link>
                                 ’ was named after ‘Isaac’? Even the name ‘Jesus’
                                 doesn’t sound very Jewish because it’s not. Try
-                                ‘Yeshua’ instead (and it’s the same name as
-                                ‘Joshua’).
+                                ‘Yeshua’ instead (and it’s exactly the same name
+                                as ‘Joshua’ in the Bible).
                             </li>
                             <li>
                                 It’s not as easy as it could be to recognise
@@ -382,11 +382,14 @@ const Home = ({ _blogs }: any) => {
                         </p>
                         <p>
                             The Greek word <b>λόγος</b> (<i>logos</i>—but not
-                            the plural of <i>logo</i>) does NOT mean ‘word’ as
-                            the word ‘word’ is normally used in modern English.
-                            It would be usually better translated as ‘saying’,
-                            ‘message’, ‘discourse’, ‘statement’, ‘account’,
-                            ‘address’, ‘matter’, ‘idea’, ‘report’,
+                            the plural of <i>logo</i>) does NOT mean ‘
+                            <Link href='https://rediscoveryingjesus.substack.com/p/the-greek-word-mistranslated-as-word'>
+                                word
+                            </Link>
+                            ’ as the word ‘word’ is normally used in modern
+                            English. It would be usually better translated as
+                            ‘saying’, ‘message’, ‘discourse’, ‘statement’,
+                            ‘account’, ‘address’, ‘matter’, ‘idea’, ‘report’,
                             ‘presentation’, or similar. Just read some of the
                             Greek lexicons (for Strong’s #
                             <Link href='https://BibleHub.com/greek/3056.htm'>
