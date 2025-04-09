@@ -166,20 +166,20 @@ const Home: NextPage = () => {
                                 </li>
                             </ul>
                             <p>
-                                Currently as of late-March 2025, we have the
+                                Currently as of mid-April 2025, we have the
                                 first draft of ‘The Messianic Update’ (New
                                 Testament) available, plus several Old Testament
                                 books (Genesis, Exodus, Joshua, Judges, Ruth,
                                 1&2 Samuel, 1&2 Kings, Ezra, Nehemiah, Esther,
-                                Job, Daniel, Obadiah, Jonah, Nahum, Habakkuk,
-                                Zephaniah, Haggai, Zechariah, and Malachi, half
-                                of Micah, and several Psalms, combines to over
-                                47% of the Hebrew scriptures), so a total of{' '}
-                                <b>60% of the Bible now drafted</b>. That’s more
-                                than enough for you to get an idea of the style
-                                that we’re aiming for, although some decisions
-                                (even some major ones) are still in flux (and
-                                will be for quite some time yet).
+                                Job, Daniel, Obadiah, Jonah, Micah, Nahum,
+                                Habakkuk, Zephaniah, Haggai, Zechariah, and
+                                Malachi, some of Amos, and many Psalms, combines
+                                to over 48% of the Hebrew scriptures), so a
+                                total of <b>61% of the Bible now drafted</b>.
+                                That’s more than enough for you to get an idea
+                                of the style that we’re aiming for, although
+                                some decisions (even some major ones) are still
+                                in flux (and will be for quite some time yet).
                             </p>
                             <p>
                                 But we’re also{' '}

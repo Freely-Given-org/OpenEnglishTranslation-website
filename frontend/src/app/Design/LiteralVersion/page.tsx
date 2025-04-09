@@ -389,6 +389,30 @@ function LV() {
                                 doesn’t say.
                             </li>
                         </ul>
+                        <h2 id='failures'>
+                            Failures of English literal versions
+                        </h2>
+                        <p>
+                            Sadly, mismatches between the English language and
+                            the original Biblical languages make some things not
+                            very clear to readers of English Bible translations
+                            that claim to be literal (including our own):
+                        </p>
+                        <ul>
+                            <li id='faith'>
+                                English words based on the root ‘faith’ and
+                                those based on ‘believe’ don’t make it obvious
+                                that these are usually the same root word in the
+                                original languages.
+                            </li>
+                            <li id='holy'>
+                                English words based on the root ‘holy’ and those
+                                based on ‘saint’ or ‘sanctify’ don’t make it
+                                obvious that these are usually the same root
+                                word in the original languages.
+                            </li>
+                            <p>An innovative solution would be helpful.</p>
+                        </ul>
                     </MainPageContent>
                 </Page>
             </Main>
