@@ -235,6 +235,72 @@ function StyleEssays() {
                                 and the surrounding towns.
                             </b>
                         </p>
+                        <h2 id='verses'>Verse breaks</h2>
+                        <p>
+                            As we work our way through translating the
+                            scriptures, it’s very clear (and rather sad) that
+                            it’s obvious that{' '}
+                            <b>
+                                many translations make word and punctuation
+                                decisions around verse breaks
+                            </b>
+                            . (While it’s neither our aim or desire here to
+                            criticise other English translations, we do feel
+                            that it’s important to point this out here.) We find
+                            it very sad to see how so many Bible users take
+                            ‘verses’ (a totally 100% artificial construct
+                            superimposed on the scriptural text) out of context,
+                            and no Bible translation should encourage this
+                            problem.
+                        </p>
+                        <p>
+                            We have found this problem to be especially
+                            noticeable in the collection of Songs/Psalms, but
+                            it’s not uncommon throughout the scriptures.
+                        </p>
+                        <p>
+                            So how’s it obvious? Well, simply by looking at the
+                            number of sentences in most English Bibles that
+                            start a verse (and the sentence) with ‘For’. (We’ve
+                            also written about that specifically{' '}
+                            <Link href='/Discussion/WordEssays#for'>here</Link>
+                            .) Simple logic says that we rarely start sentences
+                            in modern English with ‘For’ and so using ‘Because’
+                            is more natural. But we were all also taught at
+                            school to try to avoid starting sentences with
+                            ‘Because’, because it’s a linking word and much of
+                            the time it should be a continuation of the previous
+                            sentence. (If you want examples, just skim down the
+                            left of{' '}
+                            <Link href='https://Freely-Given.org/OBD/BSB/byDoc/PSA.htm#Top'>
+                                this very long page
+                            </Link>{' '}
+                            and note how many sentences/verses start with ‘But’
+                            or ‘For’ and ask yourself the question, ‘Would it
+                            have been more natural for that sentence to have
+                            been joined to the previous one?’ or you can do the
+                            same thing in Psalms in your printed Bible.)
+                        </p>
+                        <p>
+                            So it’s important to always remember that when the
+                            Biblical authors wrote a document, or a song, or a
+                            letter, they weren’t filling in a table of short
+                            sentences in boxes in a spreadsheet (that’s more or
+                            less how ‘verses’ are represented inside computers),
+                            but they were trying to express the natural language
+                            in their minds onto parchment. There are some good
+                            reasons (often related to reading level) to try to
+                            keep translated sentences shortish, but how often
+                            have we lost the connections and the flow, and
+                            consequently encouraged snippets to be memorised and
+                            quoted out of context?
+                        </p>
+                        <p>
+                            Note: the same can be said about chapter breaks, but
+                            although that’s not an uncommon problem, it
+                            obviously doesn’t affect the reader as numerously as
+                            the verse break issue does.
+                        </p>
                         <h2>More coming...</h2>
                     </MainPageContent>
                 </Page>

@@ -173,7 +173,7 @@ const Home: NextPage = () => {
                                 1&2 Samuel, 1&2 Kings, Ezra, Nehemiah, Esther,
                                 Job, Daniel, Obadiah, Jonah, Micah, Nahum,
                                 Habakkuk, Zephaniah, Haggai, Zechariah, and
-                                Malachi, some of Amos, and many Psalms, combines
+                                Malachi, half of Amos and many Psalms, combines
                                 to over 48% of the Hebrew scriptures), so a
                                 total of <b>61% of the Bible now drafted</b>.
                                 That’s more than enough for you to get an idea
