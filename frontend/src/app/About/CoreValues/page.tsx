@@ -99,7 +99,7 @@ function CoreValues() {
                             We live in the 21<sup>st</sup> century and the
                             digital age. A modern Bible should have interlinked
                             resources and make full use of the internet. Every
-                            word in the <em>OET-LV</em> is already connected to
+                            word in the <em>OET-LV</em> is already connected to
                             the Greek word that it’s translated from and it’s in
                             progress for the <em>OET-RV</em>. We already have a
                             good start linking at pronouns to their referents,

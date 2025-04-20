@@ -21,7 +21,7 @@ function KTEssays() {
                         <h2 id='Yahweh'>Yahweh</h2>
                         <p>
                             The <em>Open English Translation</em> (<em>OET</em>
-                            )translators maintain that the tradition of
+                            ) translators maintain that the tradition of
                             replacing God’s name with the substitution ‘L
                             <small>ORD</small>’ is not the most helpful for most
                             English readers, and in fact can be quite
@@ -66,7 +66,7 @@ function KTEssays() {
                                 <em>OET</em>.
                             </li>
                             <li>
-                                The <em>OET</em> <em>Readers Version</em> and{' '}
+                                The <em>OET</em> <em>Readers Version</em> and{' '}
                                 <em>Literal Version</em> always translate this
                                 term as ‘Yahweh’ in agreement with the text of
                                 the Hebrew scriptures.
@@ -387,8 +387,10 @@ function KTEssays() {
                             of God …’
                         </p>
                         <p>More coming ...</p>
-                        <h2 id='lovingkindness'>Loving-kindness</h2>
-                        <p>Coming ...</p>
+                        <h2 id='lovingKindness'>Loving-kindness</h2>
+                        <p>Loyal commitment coming ...</p>
+                        <h2 id='fear'>Fear of Yahweh</h2>
+                        <p>Respect++ coming ...</p>
                         <h2>More coming...</h2>
                     </MainPageContent>
                 </Page>

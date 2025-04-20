@@ -166,16 +166,16 @@ const Home: NextPage = () => {
                                 </li>
                             </ul>
                             <p>
-                                Currently as of mid-April 2025, we have the
+                                Currently as of late-April 2025, we have the
                                 first draft of ‘The Messianic Update’ (New
                                 Testament) available, plus several Old Testament
                                 books (Genesis, Exodus, Joshua, Judges, Ruth,
                                 1&2 Samuel, 1&2 Kings, Ezra, Nehemiah, Esther,
-                                Job, Daniel, Obadiah, Jonah, Micah, Nahum,
+                                Job, Daniel, Amos, Obadiah, Jonah, Micah, Nahum,
                                 Habakkuk, Zephaniah, Haggai, Zechariah, and
-                                Malachi, half of Amos and many Psalms, combines
-                                to over 48% of the Hebrew scriptures), so a
-                                total of <b>61% of the Bible now drafted</b>.
+                                Malachi, some of Joel, and many Psalms, combines
+                                to over 49% of the Hebrew scriptures), so a
+                                total of <b>62% of the Bible now drafted</b>.
                                 That’s more than enough for you to get an idea
                                 of the style that we’re aiming for, although
                                 some decisions (even some major ones) are still

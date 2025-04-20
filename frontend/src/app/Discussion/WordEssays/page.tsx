@@ -376,10 +376,67 @@ function WordEssays() {
                             from somewhere deep down).
                         </p>
                         <p>To come to a bad end ... coming ...</p>
+                        <h2 id='comeGo'>Coming and going</h2>
+                        <p>
+                            In English, if you’re inside a house, you could
+                            watch someone else <em>come</em> in. But a third
+                            person standing out on the street might be able to
+                            watch that second person <em>go</em> into the house.
+                            It’s all to do with the relative perspective, but
+                            different languages (including Hebrew and Greek)
+                            don’t necessarily have the same rules as English.
+                            (Sadly, many Bible students who’ve learnt Hebrew or
+                            Greek but don’t actually speak and think in a
+                            language from a different language family might have
+                            learnt ‘come’ or ‘go’ as glosses on certain Biblical
+                            words, and don’t necessarily pay much attention to
+                            the hearer’s and speaker’s perspectives when
+                            translating, resulting in unnatural English.)
+                        </p>
+                        <p>
+                            So if your father told you, ‘Come into your room.’
+                            where would he be standing when he said that? Well,
+                            obviously, he's already in your room and you're
+                            somewhere outside the room. So if someone said, ‘Do
+                            such-and-such when you come into your room.’ where
+                            was that person speaking from? The speaker must
+                            already be inside that room, else or they would have
+                            said, ‘… when you <em>go</em> into your room.’
+                        </p>
+                        <p>
+                            So why, in{' '}
+                            <Link href='https://Freely-Given.org/OBD/par/LUK/C23V42.htm#BSB'>
+                                Luke 23:42
+                            </Link>{' '}
+                            does nearly every English translation say, ‘Remember
+                            me when you <em>come</em> into your kingdom.’? The
+                            speaker (one of the two thieves on the stakes beside
+                            Yeshua/Jesus) was NOT inside the kingdom that he was
+                            speaking about, so he should have said, ‘… when you{' '}
+                            <em>go</em> into your kingdom.’ Note that in this
+                            particular case, our <em>Readers’ Version</em> uses
+                            ‘… when you <em>enter</em> your kingdom.’ (which is
+                            independant of the hearer’s perspective), but in
+                            other examples, don’t be surprised if the{' '}
+                            <em>OET-RV</em> changes words like ‘come’ and ‘go’
+                            to conform with normal English usage (rather than
+                            carrying through any differing Hebrew or Greek
+                            perspectives).
+                        </p>
+                        <h2 id='thisThat'>This and that</h2>
+                        <p>Also depends on perspective ... coming ...</p>
                         <h2 id='behold'>Behold!</h2>
                         <p>Wow! ... coming ...</p>
                         <h2 id='saves'>Saves</h2>
                         <p>Saves/delivers/rescues ... coming ...</p>
+                        <h2 id='rejoice'>Rejoice</h2>
+                        <p>
+                            See{' '}
+                            <Link href='https://books.google.com/ngrams/graph?content=rejoice%2C+joy&year_start=1500&year_end=2022&corpus=en&smoothing=3'>
+                                Google Books Ngram Viewer
+                            </Link>{' '}
+                            ... coming ...
+                        </p>
                         <h2>More coming...</h2>
                     </MainPageContent>
                 </Page>

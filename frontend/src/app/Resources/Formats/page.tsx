@@ -171,7 +171,7 @@ function Formats() {
                                 ‘Adam’) for English fluency, or following a
                                 section heading in order to help readers who
                                 jump into the text at that point (
-                                <em>OET-RV</em> only)
+                                <em>OET-RV</em> only)
                             </li>
                             <li>
                                 <b>*</b> We <b>changed a name to a pronoun</b>{' '}
@@ -188,7 +188,7 @@ function Formats() {
                                 ‘Poor people, they cry…’) in order to generalise
                                 the saying for modern readers, and often to
                                 remove any wrong suggestion that it might only
-                                apply to males (<em>OET-RV</em> only)
+                                apply to males (<em>OET-RV</em> only)
                             </li>
                             <li>
                                 <b>^</b> We{' '}
@@ -206,7 +206,7 @@ function Formats() {
                                 (like replacing ‘said’ with ‘answered’, or
                                 replacing ‘let them go’ with ‘release them’) to
                                 make the English style more modern and
-                                easy-to-understand (<em>OET-RV</em> only)
+                                easy-to-understand (<em>OET-RV</em> only)
                                 <br />
                                 <small>
                                     <b>Note</b>: This is different from when
@@ -235,7 +235,7 @@ function Formats() {
                                 even that isn’t at all understandable.)
                             </li>
                         </ul>
-                        <h3>Footnotes and cross-references</h3>
+                        <h3 id='fNotesXrefs'>Footnotes and cross-references</h3>
                         <p>
                             We are planning to annotate the type of all of our
                             notes to enable some notes to be added or removed
@@ -252,7 +252,7 @@ function Formats() {
                             the initial <b>\ft</b> field, e.g., ‘TC: ’ to
                             indicate a note on textual criticism. More to come…
                         </p>
-                        <h3>Hebrew parallelism</h3>
+                        <h3 id='parallelism'>Hebrew parallelism</h3>
                         <p>
                             Hebrew poetry doesn't use rhyming like a lot of
                             English poetry does, but (like English), it does
@@ -260,13 +260,23 @@ function Formats() {
                             pairs or doublets.
                         </p>
                         <p>
-                            The <em>OET-RV</em> marks the second line of
-                            doublets with the <b>≈</b> character (commonly used
-                            in mathematics for ‘approximately equal’) to alert
-                            the reader when we consider that the author seems to
-                            be repeating a similar thought in the second line of
-                            a doublet. (This character will usually follow the
-                            space after a \q1 or \q2 field.)
+                            The <em>OET-RV</em> marks the second line of
+                            doublets with synonymous parallelism with the{' '}
+                            <b>≈</b> character (commonly used in mathematics for
+                            ‘approximately equal’) to alert the reader when we
+                            consider that the author seems to be repeating a
+                            similar thought in the second line of a doublet.
+                            (This character will usually follow the space after
+                            a \q1 or \q2 field.)
+                        </p>
+                        <p>
+                            Similarly, we use the <b>^</b> character for
+                            antithetic parallelism (saying the opposite in the
+                            second line of the doublet), and the <b></b>
+                            {'→'}
+                            character for synthetic parallelism (coming to the
+                            result or conclusion in the second line of the
+                            doublet.)
                         </p>
                         <p>
                             For example, we might code something like:
@@ -274,15 +284,23 @@ function Formats() {
                              \q1 God is my hope.
                             <br />
                              \q1 <b>≈</b>Yahweh gives me comfort.
+                            <br />
+                             \q1 Judah will prosper,
+                            <br />
+                             \q1 <b>^</b>but Israel will be taken into exile.
+                            <br />
+                             \q1 I called to Yahweh for help
+                            <br />
+                             \q1 <b>→</b>and he answered my prayer.
                         </p>
                         <p>
                             <small>
                                 <b>Note</b>: This is different from when the{' '}
-                                <b>≈</b> character is used with the \add
-                                character field (see above).
+                                <b>≈</b> and <b>^</b>characters are used with
+                                the <b>\add</b> character field (see above).
                             </small>
                         </p>
-                        <h1>Bible Books Codes</h1>
+                        <h1 id='booksCodes'>Bible Books Codes</h1>
                         <p>
                             When writing any Bible software, one of the first
                             requirements is for a list of Bible books codes .
@@ -291,8 +309,12 @@ function Formats() {
                             about Exodus? <b>EXO</b> or <b>Exo</b> or <b>exo</b>{' '}
                             or <b>EX</b> or <b>Ex</b> or <b>ex</b> or{' '}
                             <b>EXOD</b> or <b>Exod</b> or <b>exod</b>? The{' '}
-                            <em>BibleOrgSys</em>{' '}
-                            <Link href='https://github.com/Freely-Given-org/BibleBooksCodes'>
+                            <em>
+                                <Link href='https://GitHub.com/Freely-Given-org/BibleOrgSys'>
+                                    BibleOrgSys
+                                </Link>
+                            </em>{' '}
+                            <Link href='https://GitHub.com/Freely-Given-org/BibleBooksCodes'>
                                 Bible books codes
                             </Link>
                             :
