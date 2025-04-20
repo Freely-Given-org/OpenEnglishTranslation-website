@@ -290,7 +290,7 @@ function BiblicalNames() {
                         <h3>The OET Literal Version</h3>
                         <p>
                             If you look at a list of names in the{' '}
-                            <em>OET-LV</em> like{' '}
+                            <em>OET-LV</em> like{' '}
                             <Link href='https://Freely-Given.org/OBD/OET-LV/byC/NEH_C10.htm#V2'>
                                 this one
                             </Link>

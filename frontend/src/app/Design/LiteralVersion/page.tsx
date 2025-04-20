@@ -231,18 +231,18 @@ function LV() {
                                 follows the original languages, it’s important
                                 to remember that words often don’t match
                                 one-to-one between languages. This is one reason
-                                why the <em>OET-LV</em> reads strangely: because
+                                why the <em>OET-LV</em> reads strangely: because
                                 we try to avoid using different English words if
-                                we can—knowing that the <em>OET-LV</em> will not
+                                we can—knowing that the <em>OET-LV</em> will not
                                 be natural English. Again, this is because we
-                                want the <em>OET-LV</em> to be a window into
+                                want the <em>OET-LV</em> to be a window into
                                 what’s actually written in the original
                                 languages. For fluent English (like in the{' '}
                                 <em>Readers’ Version</em>) the same Greek word
                                 might require several different translations
                                 when used in different contexts. For example,
                                 the Greek word translated <i>raise</i> in the{' '}
-                                <em>OET-LV</em> would likely require the
+                                <em>OET-LV</em> would likely require the
                                 following changes:
                                 <ol>
                                     <li>

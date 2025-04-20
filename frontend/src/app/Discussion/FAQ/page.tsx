@@ -735,7 +735,7 @@ function FAQ() {
                             Who is the <em>Literal Version</em> intended for?
                         </h2>
                         <p className={styles.FAQAnswer}>
-                            The <em>OET-LV</em> is intended to help the English
+                            The <em>OET-LV</em> is intended to help the English
                             reader get a good understanding of what is actually
                             written in the original languages without needing to
                             have a good understanding of Hebrew, Aramaic, and
@@ -747,7 +747,7 @@ function FAQ() {
                         </h2>
                         <p className={styles.FAQAnswer}>
                             Yes, we call that the <em>woody</em> feeling. The{' '}
-                            <em>OET-LV</em> is designed to closely follow the
+                            <em>OET-LV</em> is designed to closely follow the
                             wording used in the original languages, instead of
                             using modern English expressions. This makes it
                             appear to sound <em>old-fashioned</em>, but the
@@ -778,7 +778,7 @@ function FAQ() {
                             Who is the Readers’ Version intended for?
                         </h2>
                         <p className={styles.FAQAnswer}>
-                            The <em>OET-RV</em> is intended for someone who
+                            The <em>OET-RV</em> is intended for someone who
                             wants an easily-readable, modern English version of
                             the Bible. It’s particularly useful for getting an
                             overall view of the flow of the text without being

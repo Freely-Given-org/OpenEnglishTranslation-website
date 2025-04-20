@@ -28,7 +28,7 @@ function StyleEssays() {
                             this material makes the text hard to read aloud
                             because there’s it’s hard to discover the essential
                             elements of the sentence to get the stress and
-                            emphasis correct. So the <em>OET-RV</em> doesn’t
+                            emphasis correct. So the <em>OET-RV</em> doesn’t
                             hesitate to move this material into parentheses,
                             thus clearly marking it as non-essential to the main
                             flow of the text.
@@ -103,7 +103,7 @@ function StyleEssays() {
                             somewhat like a dice, and of course the practise
                             likely evolved throughout the millenia. (The Bible
                             covers some 4,000 years of history.) In this case,
-                            the <em>OET-RV</em> probably won’t hesitate to use a
+                            the <em>OET-RV</em> probably won’t hesitate to use a
                             modern word like ‘dice’ even though that is clearly
                             an anachronism. Why stumble the modern reader over
                             something we don’t even know anyway? (If you want
@@ -238,16 +238,15 @@ function StyleEssays() {
                         <h2 id='verses'>Verse breaks</h2>
                         <p>
                             As we work our way through translating the
-                            scriptures, it’s very clear (and rather sad) that
-                            it’s obvious that{' '}
+                            scriptures, it’s very obvious (and rather sad) that{' '}
                             <b>
                                 many translations make word and punctuation
                                 decisions around verse breaks
                             </b>
                             . (While it’s neither our aim or desire here to
                             criticise other English translations, we do feel
-                            that it’s important to point this out here.) We find
-                            it very sad to see how so many Bible users take
+                            that it’s important to point this out.) We find it
+                            very sad to see how so many Bible users take
                             ‘verses’ (a totally 100% artificial construct
                             superimposed on the scriptural text) out of context,
                             and no Bible translation should encourage this

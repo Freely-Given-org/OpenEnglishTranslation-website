@@ -28,20 +28,28 @@ function Notes() {
                         <p>Proposed stages include:</p>
                         <ol>
                             <li>
-                                Have the computer output a very literal English
-                                version of each word in the original texts
-                                (using both our own and others’ resources that
-                                are open-licensed)
+                                Have the computer output{' '}
+                                <b>
+                                    a very literal English version of each word
+                                </b>{' '}
+                                in the original texts (using both our own and
+                                others’ resources that are open-licensed)
                             </li>
                             <li>
-                                Re-order those sentences to make them readable
+                                <b>
+                                    Re-order those sentences to make them
+                                    readable
+                                </b>{' '}
                                 in English, thus producing our{' '}
                                 <em>OET Literal Version</em>
                             </li>
                             <li>
                                 Manually (i.e., not using so-called ‘AI’ tools)
-                                produce a modern-English draft of each sentence
-                                from that <em>Literal Version</em> (using our
+                                <b>
+                                    produce a modern-English draft of each
+                                    sentence
+                                </b>{' '}
+                                from that <em>Literal Version</em> (using our{' '}
                                 <Link href='https://Freely-Given.org/OBD/par/MRK/C1V1.htm#Top'>
                                     parallel verse pages
                                 </Link>{' '}
@@ -51,30 +59,35 @@ function Notes() {
                                 <em>OET Readers’ Version</em>
                             </li>
                             <li>
-                                Rework the <em>Readers’ Version</em> to be more
-                                natural and fluent, including checking the
-                                metre/rhythym in Psalms and similar genres.
+                                Rework the <em>Readers’ Version</em> to be{' '}
+                                <b>more natural and fluent</b>, including
+                                checking the metre/rhythym in Psalms and similar
+                                genres
                             </li>
                             <li>
                                 Now recheck the <em>Readers’ Version</em> for
-                                accuracy against the original texts
+                                <b>accuracy against the original texts</b>
                             </li>
                             <li>
-                                Work on the extra fields including footnotes and
-                                cross-references
+                                Work on the{' '}
+                                <b>
+                                    extra fields including character mark-up,
+                                    footnotes, and cross-references
+                                </b>
+                                .
                             </li>
                         </ol>
                         <p>So we’re currently at stage #3 above.</p>
                         <h1>Disclaimers</h1>
                         <h2>Translation distance marking</h2>
                         <p>
-                            In our <em>OET Readers’ Version</em> translation, we now
-                            attempt to mark up where we change it from a literal
-                            translation, e.g., if we change the ‘The wealthy man
-                            says’ to ‘Wealthy people say’ then we've made a
-                            change in <em>number</em> (i.e., from singular to
-                            plural) and we mark that. You can see the kinds of
-                            things that we annotate on our{' '}
+                            In our <em>OET Readers’ Version</em> translation, we
+                            now attempt to mark up where we change it from a
+                            literal translation, e.g., if we change the ‘The
+                            wealthy man says’ to ‘Wealthy people say’ then we've
+                            made a change in <em>number</em> (i.e., from
+                            singular to plural) and we mark that. You can see
+                            the kinds of things that we annotate on our{' '}
                             <Link href='/Resources/Formats#Add'>
                                 Formats page
                             </Link>
