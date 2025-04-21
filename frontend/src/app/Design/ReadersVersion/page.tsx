@@ -45,7 +45,7 @@ function RV() {
                                 and most of the other features that help modern
                                 Bible readers.
                             </li>
-                            <li>
+                            <li id='units'>
                                 The <em>Readers’ Version</em>{' '}
                                 <b>uses modern units</b> for all measurements
                                 (easy to understand and visualise).
@@ -56,6 +56,13 @@ function RV() {
                                 speech is not readily understandable, it
                                 explains the point that the author appears to be
                                 trying to express.
+                            </li>
+                            <li id='modern'>
+                                The <em>Readers’ Version</em> might insert
+                                modern English figures of speech, e.g., “My
+                                kinsmen stand afar off,” might become “My
+                                relatives keep their distance,” i.e., using a
+                                modern idiom.
                             </li>
                             <li>
                                 <i>Up</i> and <i>down</i> in the original

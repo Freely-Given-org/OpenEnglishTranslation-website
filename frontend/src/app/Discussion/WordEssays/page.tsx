@@ -191,6 +191,20 @@ function WordEssays() {
                             readers, it will feel considerably less ‘quaint’ or
                             ‘weird’ to first-time readers.
                         </p>
+                        <h2 id='word'>Word</h2>
+                        <p>
+                            What’s a ‘word’? It usually refers to the things on
+                            this page. Greek ‘λόγος’ (logos) doesn't mean ‘word’
+                            ... more coming ... For now see the{' '}
+                            <Link href='/Discussion/Blog#word'>
+                                blog article
+                            </Link>{' '}
+                            and{' '}
+                            <Link href='https://rediscoveryingjesus.substack.com/p/the-greek-word-mistranslated-as-word'>
+                                Gary Gagliardi’s excellent write-up
+                            </Link>
+                            .
+                        </p>
                         <h2 id='arise'>Arise/Arose</h2>
                         <p>
                             Was everyone in the Hebrew Scriptures sitting or
@@ -438,6 +452,26 @@ function WordEssays() {
                             ... coming ...
                         </p>
                         <h2>More coming...</h2>
+                        <h2 id='POS'>Note about parts of speech</h2>
+                        <p>
+                            Would this be modern, natural English? “He saved me
+                            by grabbing my jacket as I started to fall.” Yes, I
+                            think using ‘saved’ is quite natural. But what about
+                            “He was my salvation because he grabbed my jacket
+                            just as I started to fall.” Probably the use of the
+                            noun ‘salvation’ increases the risk that it's not so
+                            natural. (See the n-grams{' '}
+                            <Link href='https://books.google.com/ngrams/graph?content=save%2C+salvation&year_start=1500&year_end=2022&corpus=en&smoothing=3'>
+                                here
+                            </Link>
+                            .) In the <em>OET Literal Version</em> we aim to
+                            keep the same part of speech as the original
+                            language wherever possible, but in the{' '}
+                            <em>Readers’ Version</em>, we will frequently change
+                            from a verbal noun to a phrase and/or make other
+                            adjustments in order to try to use the same English
+                            that we actually speak in our daily lives.
+                        </p>
                     </MainPageContent>
                 </Page>
             </Main>
