@@ -88,7 +88,7 @@ const Home: NextPage = () => {
                                     hundreds of years since the New Testament
                                     was translated from the Latin translation
                                     into{' '}
-                                    <Link href='https://Freely-Given.org/OBD/WYC/byC/MRK_C1.htm#Top'>
+                                    <Link href='https://Freely-Given.org/OBD/Wycl/byC/MRK_C1.htm#Top'>
                                         middle-English
                                     </Link>
                                     , i.e., we’re aiming to correct old mistakes

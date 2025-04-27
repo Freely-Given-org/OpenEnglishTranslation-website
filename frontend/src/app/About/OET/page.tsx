@@ -285,7 +285,15 @@ function OET() {
                                 gets translated, so this example becomes{' '}
                                 <i>immerse</i>.
                             </li>
-                            <li>
+                            <li id='testaments'>
+                                Rather than using the archaic and difficult to
+                                understand section names ‘Old Testament’ and
+                                ‘New Testament’, the <em>OET</em> will use ‘The
+                                Hebrew scriptures’ and ‘The Messianic update’ to
+                                replace them (and to try to provoke our readers
+                                to think, and to learn more about Bible history).
+                            </li>
+                            <li id='italics'>
                                 <i>Italics</i> are only used for{' '}
                                 <em>emphasis</em>, not to indicate{' '}
                                 <i>added words</i> as historically done in older
