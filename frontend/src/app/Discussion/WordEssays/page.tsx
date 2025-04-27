@@ -35,13 +35,19 @@ function WordEssays() {
                             e.g., ‘son of Abraham’ rather than the more natural
                             modern English ‘Abraham’s son’,
                             <br />
-                            <b>2.</b> Because Hebrew or Greek idioms are often
+                            <b>2.</b> Because Hebrew or Greek <b>idioms</b> are often
                             carried through into English translations, e.g.,
                             ‘God delivered him from the hand of the Philistines’
                             when we’d never use that idiom in natural English
                             speech.
                             <br />
-                            <b>3.</b> Because ancient English word choices (some
+                            <b>3.</b> Because Hebrew or Greek <b>euphemisms</b> are often
+                            carried through into English translations, e.g.,
+                            ‘Adam knew Eve and they had a son’
+                            when we’d never use that particular euphemism in natural English
+                            speech.
+                            <br />
+                            <b>4.</b> Because ancient English word choices (some
                             going back all the way to John Wycliffe<sup>**</sup>{' '}
                             in the 1300’s) are still present in so-called
                             ‘modern’ English translations, e.g., using ‘For’
@@ -75,7 +81,7 @@ function WordEssays() {
                                 terminology originated, and then go upwards on
                                 the page from there to view the changes over the
                                 following centuries, e.g., see{' '}
-                                <Link href='https://Freely-Given.org/OBD/par/MRK/C2V11.htm#Wyc'>
+                                <Link href='https://Freely-Given.org/OBD/par/MRK/C2V11.htm#Wycl'>
                                     Mark 2:11
                                 </Link>
                                 .
@@ -121,7 +127,7 @@ function WordEssays() {
                             </Link>{' '}
                             and see how even recent English translations copy
                             the same sentence structure that John Wycliffe first{' '}
-                            <Link href='https://Freely-Given.org/OBD/par/JHN/C3V16.htm#WYC'>
+                            <Link href='https://Freely-Given.org/OBD/par/JHN/C3V16.htm#Wycl'>
                                 used
                             </Link>{' '}
                             in the 1300’s.
@@ -147,7 +153,7 @@ function WordEssays() {
                             house of Simon.’ Sounds a bit weird? But in the
                             1300’s when John Wycliffe was translating from Latin
                             to what we now call ‘Middle English’,{' '}
-                            <Link href='https://Freely-Given.org/OBD/par/ACT/C10V17.htm#Wyc'>
+                            <Link href='https://Freely-Given.org/OBD/par/ACT/C10V17.htm#Wycl'>
                                 ‘the house of Simon’
                             </Link>{' '}
                             was a quite normal construction. However now, some
@@ -242,7 +248,7 @@ function WordEssays() {
                             in the 1300’s when John Wycliffe translated the New
                             Testament into English (from Latin), the word
                             ‘great’ mostly meant ‘large’. So in{' '}
-                            <Link href='https://Freely-Given.org/OBD/par/REV/C16V18.htm#WYC'>
+                            <Link href='https://Freely-Given.org/OBD/par/REV/C16V18.htm#Wycl'>
                                 Rev 16:18
                             </Link>
                             , he used that word to describe a terrible

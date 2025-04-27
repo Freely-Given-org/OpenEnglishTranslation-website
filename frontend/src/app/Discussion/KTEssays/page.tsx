@@ -20,20 +20,22 @@ function KTEssays() {
                         <h3>(Sometimes called ‘Key Terms’)</h3>
                         <h2 id='Yahweh'>Yahweh</h2>
                         <p>
-                            The <em>Open English Translation</em> (<em>OET</em>
-                            ) translators maintain that the tradition of
-                            replacing God’s name with the substitution ‘L
+                            The <em>Open English Translation</em> (<em>OET</em>)
+                            translators maintain that the tradition of replacing
+                            God’s name with the substitution ‘L
                             <small>ORD</small>’ is not the most helpful for most
                             English readers, and in fact can be quite
-                            misleading. Sadly, it’s become a well-established
-                            tradition in both English Bible translations and in
-                            English-speaking church services, so changing it now
-                            will feel odd for a time (but that doesn’t mean that
-                            we shouldn’t make the effort).
+                            misleading. Sadly, it’s become such a
+                            well-established tradition in both English Bible
+                            translations and in English-speaking church
+                            services, that fixing it now will feel odd for a
+                            time (but that doesn’t mean that we shouldn’t make
+                            the effort).
                         </p>
                         <p>
                             <small>
-                                The following notes are adapted from{' '}
+                                The following notes are adapted and expanded
+                                from{' '}
                                 <Link href='https://git.Door43.org/unfoldingWord/en_tw/src/branch/master/bible/kt/yahweh.md'>
                                     unfoldingWord’s notes for translators
                                 </Link>
@@ -77,14 +79,34 @@ function KTEssays() {
                                 into trouble when the Hebrew text also contains
                                 the Hebrew word for ‘master/lord’ (‘adonai’),
                                 and rather than have the ridiculous ‘lord L
-                                <small>ORD</small>’, many of them are forced to
-                                add ‘God’ to get ‘L<small>ORD</small> God’ even
-                                where there’s no word for God in the verse,
-                                e.g., see{' '}
-                                <Link href='https://Freely-Given.org/OBD/par/ZEP/C1V7.htm#NET'>
+                                <small>ORD</small>’, many of them are{' '}
+                                <b>
+                                    forced to add ‘God’ to get ‘L
+                                    <small>ORD</small> God’ even where there’s
+                                    no word for God in the verse
+                                </b>
+                                , e.g., see{' '}
+                                <Link href='https://Freely-Given.org/OBD/par/ZEP/C1V7.htm#BSB'>
                                     Zeph 1:7
                                 </Link>
                                 .
+                            </li>
+                            <li>
+                                The not-uncommon ‘Praise the name of the L
+                                <small>ORD</small>’ exhortation from the Hebrew
+                                scriptures (e.g.,{' '}
+                                <Link href='https://Freely-Given.org/OBD/par/PSA/C148V13.htm#BSB'>
+                                    Psa 148:13
+                                </Link>
+                                ){' '}
+                                <b>
+                                    doesn’t really make a lot of sense if you
+                                    stop and think about it
+                                </b>
+                                . How can you praise a name that you aren’t told
+                                in the translation (and many readers don’t even
+                                know, even though it’s right there in the
+                                original over and over again)?
                             </li>
                             <li>
                                 The term ‘Yahweh’ never occurs in the original
