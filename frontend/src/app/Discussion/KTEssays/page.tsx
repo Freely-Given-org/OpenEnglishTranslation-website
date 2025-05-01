@@ -35,7 +35,7 @@ function KTEssays() {
                         <p>
                             <small>
                                 The following notes are adapted and expanded
-                                from{' '}
+                                (with permission) from{' '}
                                 <Link href='https://git.Door43.org/unfoldingWord/en_tw/src/branch/master/bible/kt/yahweh.md'>
                                     unfoldingWord’s notes for translators
                                 </Link>
