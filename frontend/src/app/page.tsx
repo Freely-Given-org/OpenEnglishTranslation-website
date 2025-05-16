@@ -38,11 +38,11 @@ const Home: NextPage = () => {
                                 is proceeding and{' '}
                                 <b>
                                     the first rough draft of the New Testament
-                                    was completed
+                                    was completed back
                                 </b>{' '}
-                                in March 2024 and well over a third of the Old
-                                Testament is now drafted as New Testament
-                                checking also continues.
+                                in March 2024 and over half of the Old Testament
+                                is now drafted as New Testament checking also
+                                continues.
                             </p>
                             <p>
                                 You can read more details in the{' '}
@@ -124,8 +124,9 @@ const Home: NextPage = () => {
                                 <li>
                                     preparing for the next major movement of
                                     lost young people searching for truth and
-                                    meaning, but who mightn’t want to learn
-                                    old-fashioned English to do so
+                                    meaning and purpose, but who mightn’t want
+                                    to be forced to learn old-fashioned English
+                                    to do so
                                 </li>
                                 <li>
                                     designed from the beginning to{' '}
@@ -166,21 +167,21 @@ const Home: NextPage = () => {
                                 </li>
                             </ul>
                             <p>
-                                Currently as of early-May 2025, we have the
-                                first draft of ‘The Messianic Update’ (New
-                                Testament) available, plus several Old Testament
-                                books (Genesis, Exodus, Joshua, Judges, Ruth,
-                                1&2 Samuel, 1&2 Kings, Ezra, Nehemiah, Esther,
-                                Job, Daniel, Joel, Amos, Obadiah, Jonah, Micah,
+                                Currently as of mid-May 2025, we have the first
+                                draft of ‘The Messianic Update’ (New Testament)
+                                available, plus several Old Testament books
+                                (Genesis, Exodus, Joshua, Judges, Ruth, 1&2
+                                Samuel, 1&2 Kings, Ezra, Nehemiah, Esther, Job,
+                                Daniel, Joel, Amos, Obadiah, Jonah, Micah,
                                 Nahum, Habakkuk, Zephaniah, Haggai, Zechariah,
-                                and Malachi, some of Hosea, and half of the
-                                Psalms/Songs, combines to over 50% of the Hebrew
-                                scriptures), so a total of{' '}
-                                <b>63% of the Bible now drafted</b>. That’s more
-                                than enough for you to get an idea of the style
-                                that we’re aiming for, although some decisions
-                                (even some major ones) are still in flux (and
-                                will be for quite some time yet).
+                                and Malachi, over half of both Hosea and the
+                                Psalms/Songs, combining to around 52% of the
+                                Hebrew scriptures), so a total of{' '}
+                                <b>64% of the Bible now drafted</b>. That’s
+                                plenty for you to get an idea of the style that
+                                we’re aiming for, although some decisions (even
+                                some major ones) are still in flux (and will be
+                                for quite some time yet).
                             </p>
                             <p>
                                 But we’re also{' '}
