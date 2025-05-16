@@ -35,17 +35,17 @@ function WordEssays() {
                             e.g., ‘son of Abraham’ rather than the more natural
                             modern English ‘Abraham’s son’,
                             <br />
-                            <b>2.</b> Because Hebrew or Greek <b>idioms</b> are often
-                            carried through into English translations, e.g.,
-                            ‘God delivered him from the hand of the Philistines’
-                            when we’d never use that idiom in natural English
-                            speech.
+                            <b>2.</b> Because Hebrew or Greek <b>idioms</b> are
+                            often carried through into English translations,
+                            e.g., ‘God delivered him from the hand of the
+                            Philistines’ when we’d never use that idiom in
+                            natural English speech.
                             <br />
-                            <b>3.</b> Because Hebrew or Greek <b>euphemisms</b> are often
-                            carried through into English translations, e.g.,
-                            ‘Adam knew Eve and they had a son’
-                            when we’d never use that particular euphemism in natural English
-                            speech.
+                            <b>3.</b> Because Hebrew or Greek <b>euphemisms</b>{' '}
+                            are often carried through into English translations,
+                            e.g., ‘Adam knew Eve and they had a son’ when we’d
+                            never use that particular euphemism in natural
+                            English speech.
                             <br />
                             <b>4.</b> Because ancient English word choices (some
                             going back all the way to John Wycliffe<sup>**</sup>{' '}
@@ -374,20 +374,6 @@ function WordEssays() {
                         </p>
                         <h2 id='forsake'>Forsake</h2>
                         <p>To abandon ... coming ...</p>
-                        <h2 id='land'>Land of …</h2>
-                        <p>
-                            Would you like a holiday in the ‘land of Australia’
-                            or in the ‘land of California’? Well, maybe you
-                            would, but we don’t usually talk like that. However,
-                            many older English translations still do, using
-                            ‘land of …’ sometimes for entire countries, and
-                            sometimes for regions within countries.
-                        </p>
-                        <p>
-                            The <em>OET-RV</em> tries to avoid that unnatural
-                            English terminology and uses terms like ‘Persian
-                            empire’ and ‘Negev region’.
-                        </p>
                         <h2 id='woe'>Woe to …</h2>
                         <p>
                             “Woe to you kids if you don’t get your room tidied
@@ -416,7 +402,7 @@ function WordEssays() {
                         <p>
                             So if your father told you, ‘Come into your room.’
                             where would he be standing when he said that? Well,
-                            obviously, he's already in your room and you're
+                            obviously, he’s already in your room and you're
                             somewhere outside the room. So if someone said, ‘Do
                             such-and-such when you come into your room.’ where
                             was that person speaking from? The speaker must
@@ -447,8 +433,63 @@ function WordEssays() {
                         <p>Also depends on perspective ... coming ...</p>
                         <h2 id='behold'>Behold!</h2>
                         <p>Wow! ... coming ...</p>
+                        <h2 id='pieces'>Pieces of silver</h2>
+                        <p>
+                            So many English translations still use the term
+                            ‘pieces of silver’, e.g., a donkey’s head going for{' '}
+                            <Link href='https://Freely-Given.org/OBD/par/KI2/C6V25.htm#WEBBE'>
+                                eighty pieces of silver
+                            </Link>{' '}
+                            during a famine. To a modern reader, that makes it
+                            sound like the silver was sliced off a block like
+                            ‘pieces of apple’, but it was most probably a small
+                            (crude compared to modern coins, yet somewhat
+                            standardised){' '}
+                            <Link href='https://en.wikipedia.org/wiki/Coin#History'>
+                                silver coin
+                            </Link>
+                            . Some translations substitute ‘shekels of silver’
+                            which is a move in the right direction. The{' '}
+                            <em>OET-RV</em> uses ‘silver coins’ which might be
+                            slightly anachronistic, yet still helpfully guides
+                            the modern reader into understanding that those
+                            ‘silver pieces’ were standardised even back then.
+                        </p>
                         <h2 id='saves'>Saves</h2>
                         <p>Saves/delivers/rescues ... coming ...</p>
+                        <h2 id='earth'>Earth/Land</h2>
+                        <p>
+                            The Hebrew scriptures use ‘
+                            <Link href='https://Freely-Given.org/OBD/ref/HebLem/%CA%BCere%CA%A6.htm#Top'>
+                                אֶרֶץ
+                            </Link>
+                            ’ (ʼereʦ) sometimes to refer to the area occupied by
+                            Israel, and this is often translated as the ‘land’,
+                            but the <em>OET-RV</em> will often translate it more
+                            naturally as the ‘country’ or adjust it further (see{' '}
+                            <Link href='#land'>below</Link>).
+                        </p>
+                        <p>
+                            Other times it refers to the entire area of human
+                            habitation, and that’s often translated as the
+                            ‘earth’ rather than just the ‘land’, but the{' '}
+                            <em>OET-RV</em> will often translate it more
+                            naturally as the ‘world’.
+                        </p>
+                        <h2 id='land'>Land of …</h2>
+                        <p>
+                            Would you like a holiday in the ‘land of Australia’
+                            or in the ‘land of California’? Well, maybe you
+                            would, but we don’t usually talk like that. However,
+                            many older English translations still do, using
+                            ‘land of …’ sometimes for entire countries, and
+                            sometimes for regions within countries.
+                        </p>
+                        <p>
+                            The <em>OET-RV</em> tries to avoid that unnatural
+                            English terminology and uses terms like ‘Persian
+                            empire’ and ‘Negev region’.
+                        </p>
                         <h2 id='rejoice'>Rejoice</h2>
                         <p>
                             See{' '}
@@ -465,7 +506,7 @@ function WordEssays() {
                             think using ‘saved’ is quite natural. But what about
                             “He was my salvation because he grabbed my jacket
                             just as I started to fall.” Probably the use of the
-                            noun ‘salvation’ increases the risk that it's not so
+                            noun ‘salvation’ increases the risk that it’s not so
                             natural. (See the n-grams{' '}
                             <Link href='https://books.google.com/ngrams/graph?content=save%2C+salvation&year_start=1500&year_end=2022&corpus=en&smoothing=3'>
                                 here
