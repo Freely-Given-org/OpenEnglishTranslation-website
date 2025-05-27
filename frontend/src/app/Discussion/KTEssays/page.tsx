@@ -408,6 +408,13 @@ function KTEssays() {
                             Psa 69:30 from the Hebrew: ‘I will praise the name
                             of God …’
                         </p>
+                        <p>
+                            Why praise{' '}
+                            <Link href='https://www.reddit.com/r/Christianity/comments/13nxwhw/why_do_people_praise_the_name_of_god_instead_of/'>
+                                praise God’s name
+                            </Link>{' '}
+                            instead of just praising God directly?
+                        </p>
                         <p>More coming ...</p>
                         <h2 id='lovingKindness'>Loving-kindness</h2>
                         <p>Loyal commitment coming ...</p>
