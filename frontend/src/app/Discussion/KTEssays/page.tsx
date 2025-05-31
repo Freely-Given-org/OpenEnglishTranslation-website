@@ -22,15 +22,38 @@ function KTEssays() {
                         <p>
                             The <em>Open English Translation</em> (<em>OET</em>)
                             translators maintain that the tradition of replacing
-                            God’s name with the substitution ‘L
-                            <small>ORD</small>’ is not the most helpful for most
-                            English readers, and in fact can be quite
-                            misleading. Sadly, it’s become such a
-                            well-established tradition in both English Bible
-                            translations and in English-speaking church
-                            services, that fixing it now will feel odd for a
-                            time (but that doesn’t mean that we shouldn’t make
-                            the effort).
+                            God’s name with the substitution{' '}
+                            <b>
+                                ‘L
+                                <small>ORD</small>’ is not the most helpful for
+                                most English readers
+                            </b>
+                            , and in fact can be quite misleading. Sadly, it’s
+                            become such a well-established tradition in both
+                            English Bible translations and in English-speaking
+                            church services, that fixing it now will feel odd
+                            for a time (but that doesn’t mean that we shouldn’t
+                            make the effort).
+                        </p>
+                        <p>
+                            What’s more in ‘The Messianic Update’ (the New
+                            Testament), our <em>Readers Version</em> considers
+                            ‘Yahweh’ to be a perfectly valid translation of the
+                            Greek ‘κύριος’ (kurios), especially when it occurs
+                            without a preceeding article (no ‘the’ in the
+                            Greek). In most modern English translations, that's
+                            automatically translated as ‘Lord’ without any
+                            apparent consideration for the missing article. See{' '}
+                            <Link href='https://Freely-Given.org/OBD/par/MRK/C11V9.htm#OET-RV'>
+                                Mark 11:9
+                            </Link>{' '}
+                            for a good example of this.
+                        </p>
+                        <p>
+                            We believe that these decisions are a good step
+                            forward in helping ‘average Joe Bible-reader’ to get
+                            a good understanding into what the original authors
+                            were expressing in their own words/languages.
                         </p>
                         <p>
                             <small>
