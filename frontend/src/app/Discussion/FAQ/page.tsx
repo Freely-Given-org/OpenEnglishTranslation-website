@@ -449,7 +449,7 @@ function FAQ() {
                             numbers?
                         </h2>
                         <p className={styles.FAQAnswer}>
-                            Have you heard someone say, “This verse says, ...”?
+                            Have you heard someone say, “This verse says, …”?
                             Well, verses are a purely artificial (and not
                             particularly well thought-out) way of dividing the
                             Bible text, and verses themselves don’t <em>say</em>{' '}

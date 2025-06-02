@@ -233,14 +233,14 @@ function BiblicalNames() {
                             the consonants.)
                         </p>
                         <h2 id='lxx'>The first major Bible translation</h2>
-                        <p>Coming...</p>
+                        <p>Coming…</p>
                         <h2 id='history'>
                             The historical accidents that led to our Biblical
                             names
                         </h2>
-                        <p>Coming...</p>
+                        <p>Coming…</p>
                         <h2 id='trends'>Modern cultural trends</h2>
-                        <p>Coming...</p>
+                        <p>Coming…</p>
                         <h2 id='godNames'>
                             People’s names that include God’s name
                         </h2>
@@ -322,7 +322,7 @@ function BiblicalNames() {
                             pronunciation than the traditional (poor) English
                             versions.
                         </p>
-                        <h2>More coming...</h2>
+                        <h2>More coming…</h2>
                     </MainPageContent>
                 </Page>
             </Main>

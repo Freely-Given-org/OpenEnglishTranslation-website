@@ -201,7 +201,7 @@ function WordEssays() {
                         <p>
                             What’s a ‘word’? It usually refers to the things on
                             this page. Greek ‘λόγος’ (logos) doesn't mean ‘word’
-                            ... more coming ... For now see the{' '}
+                            … more coming … For now see the{' '}
                             <Link href='/Discussion/Blog#word'>
                                 blog article
                             </Link>{' '}
@@ -373,7 +373,7 @@ function WordEssays() {
                             of our younger readers of modern English.
                         </p>
                         <h2 id='forsake'>Forsake</h2>
-                        <p>To abandon ... coming ...</p>
+                        <p>To abandon … coming …</p>
                         <h2 id='woe'>Woe to …</h2>
                         <p>
                             “Woe to you kids if you don’t get your room tidied
@@ -381,7 +381,7 @@ function WordEssays() {
                             (although ‘woe and betide’ seems to come to my mind
                             from somewhere deep down).
                         </p>
-                        <p>To come to a bad end ... coming ...</p>
+                        <p>To come to a bad end … coming …</p>
                         <h2 id='comeGo'>Coming and going</h2>
                         <p>
                             In English, if you’re inside a house, you could
@@ -430,9 +430,9 @@ function WordEssays() {
                             perspectives).
                         </p>
                         <h2 id='thisThat'>This and that</h2>
-                        <p>Also depends on perspective ... coming ...</p>
+                        <p>Also depends on perspective … coming …</p>
                         <h2 id='behold'>Behold!</h2>
-                        <p>Wow! ... coming ...</p>
+                        <p>Wow! … coming …</p>
                         <h2 id='pieces'>Pieces of silver</h2>
                         <p>
                             So many English translations still use the term
@@ -456,7 +456,7 @@ function WordEssays() {
                             ‘silver pieces’ were standardised even back then.
                         </p>
                         <h2 id='saves'>Saves</h2>
-                        <p>Saves/delivers/rescues ... coming ...</p>
+                        <p>Saves/delivers/rescues … coming …</p>
                         <h2 id='earth'>Earth/Land</h2>
                         <p>
                             The Hebrew scriptures use ‘
@@ -496,9 +496,22 @@ function WordEssays() {
                             <Link href='https://books.google.com/ngrams/graph?content=rejoice%2C+joy&year_start=1500&year_end=2022&corpus=en&smoothing=3'>
                                 Google Books Ngram Viewer
                             </Link>{' '}
-                            ... coming ...
+                            … coming …
                         </p>
-                        <h2>More coming...</h2>
+                        <h2 id='courts'>Courts</h2>
+                        <p>
+                            In modern English, the first thing that might come
+                            to mind if we talk about ‘the courts of Egypt’ would
+                            likely be the formal rooms where judges decide
+                            cases, but in the scriptures it’s often referring to
+                            larger walled areas in general, which we might call
+                            ‘courtyards’. For example in Song/Psalm 84:2a ‘I
+                            desperately want to be in the courts of the LORD’s
+                            temple.’ (NET) becomes something like ‘I long to be
+                            in Yahweh’s temple courtyards …’ in the{' '}
+                            <em>OET-RV</em>.
+                        </p>
+                        <h2>More coming…</h2>
                         <h2 id='POS'>Note about parts of speech</h2>
                         <p>
                             Would this be modern, natural English? “He saved me

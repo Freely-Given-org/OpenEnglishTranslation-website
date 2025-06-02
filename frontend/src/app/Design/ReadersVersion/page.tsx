@@ -249,7 +249,7 @@ function RV() {
                                 attempts to use exactly the SAME translation
                                 every time.)
                             </li>
-                            <li>More coming...</li>
+                            <li>More coming…</li>
                         </ol>
                         <h2 id='idiom'>Idiom translation flow-chart</h2>
                         <p>
@@ -277,7 +277,7 @@ function RV() {
                             </small>
                         </p>
                         <ol>
-                            <li>More coming...</li>
+                            <li>More coming…</li>
                         </ol>
                     </MainPageContent>
                 </Page>

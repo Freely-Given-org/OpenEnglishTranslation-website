@@ -40,14 +40,25 @@ function KTEssays() {
                             Testament), our <em>Readers Version</em> considers
                             ‘Yahweh’ to be a perfectly valid translation of the
                             Greek ‘κύριος’ (kurios), especially when it occurs
-                            without a preceeding article (no ‘the’ in the
-                            Greek). In most modern English translations, that's
+                            without a preceeding article (no ‘the’) in the
+                            Greek. In most modern English translations, that's
                             automatically translated as ‘Lord’ without any
                             apparent consideration for the missing article. See{' '}
                             <Link href='https://Freely-Given.org/OBD/par/MRK/C11V9.htm#OET-RV'>
                                 Mark 11:9
                             </Link>{' '}
-                            for a good example of this.
+                            for a good example of this. (Only the{' '}
+                            <Link href='https://Freely-Given.org/OBD/par/MRK/C11V10.htm#Luth'>
+                                Lutheran German translation
+                            </Link>{' '}
+                            and{' '}
+                            <Link href='https://Freely-Given.org/OBD/par/MRK/C11V9.htm#Cvdl'>
+                                the Coverdale Bible
+                            </Link>{' '}
+                            used the equivalent of ‘L
+                            <small>ORD</small>’ at that point—all the others
+                            just have ‘Lord’ which was a title which could be
+                            given to any man in Yeshua’s time.)
                         </p>
                         <p>
                             We believe that these decisions are a good step
@@ -418,13 +429,48 @@ function KTEssays() {
                             </Link>
                             ,{' '}
                             <Link href='https://BibleHub.com/hebrew/113.htm'>
-                                H113
+                                H113u
                             </Link>
                             ,{' '}
                             <Link href='https://BibleHub.com/greek/2962.htm'>
                                 G2962
                             </Link>
                             .
+                        </p>
+                        <h2 id='God'>God</h2>
+                        <p>
+                            It’s not necessarily straight-forward to know how to
+                            translate Hebrew ‘אֱלהִים’ (Elohim). For a start,
+                            it’s a plural word but it’s often used
+                            (unexpectedly) with a singular verb, so there’s some
+                            mystery here of the plural also being singular, or
+                            the singular also having a plural aspect.
+                            (Christians, of course, believe that that’s part of
+                            the mystery of what’s known as ‘the trinity’
+                            (expressed right from the very first verse in the
+                            Hebrew scriptures).
+                        </p>
+                        <p>
+                            In some places, it clearly refers to idols and
+                            suchlike, and in this case, it‘s often translated as
+                            ‘gods’.
+                        </p>
+                        <p>
+                            In most other cases, modern English translations
+                            would usually translate it as the singlar ‘God’
+                            (always written with a capital letter, although
+                            Hebrew has no such thing as capital letters).
+                        </p>
+                        <p>
+                            The <em>OET-RV</em> has made the decision to follow
+                            these traditions. However, we’d just like to note
+                            here that we strongly considered using less
+                            capitalisation, e.g., in terms like ‘Yahweh your
+                            god’ (rather than ‘Yahweh your God’). Although we
+                            think the lower-case ‘god’ might make more sense in
+                            that context, we didn’t proceed in that direction as
+                            we felt it might confuse our readers used to the
+                            traditional form.
                         </p>
                         <h2 id='name'>Name of God</h2>
                         <p>
@@ -438,12 +484,12 @@ function KTEssays() {
                             </Link>{' '}
                             instead of just praising God directly?
                         </p>
-                        <p>More coming ...</p>
+                        <p>More coming …</p>
                         <h2 id='lovingKindness'>Loving-kindness</h2>
-                        <p>Loyal commitment coming ...</p>
+                        <p>Loyal commitment coming …</p>
                         <h2 id='fear'>Fear of Yahweh</h2>
-                        <p>Respect++ coming ...</p>
-                        <h2>More coming...</h2>
+                        <p>Respect++ coming …</p>
+                        <h2>More coming…</h2>
                     </MainPageContent>
                 </Page>
             </Main>
