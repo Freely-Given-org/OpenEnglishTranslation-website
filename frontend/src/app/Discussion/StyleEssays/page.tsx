@@ -18,7 +18,7 @@ function StyleEssays() {
                         <h1>Essays on some style decisions</h1>
                         <h2>(Things like layout and punctuation)</h2>
                         <h1>OET Literal Version</h1>
-                        <p>Coming...</p>
+                        <p>Coming…</p>
                         <h1>OET Readers' Version</h1>
                         <h2 id='parentheses'>(Parentheses)</h2>
                         <p>
@@ -162,7 +162,7 @@ function StyleEssays() {
                             </Link>{' '}
                             (but most will have ‘angel’ there).
                         </p>
-                        <p>More coming...</p>
+                        <p>More coming…</p>
                         <p>
                             Also, if it’s possible and it doesn’t lower the
                             quality of either translation, we actually prefer
@@ -174,11 +174,11 @@ function StyleEssays() {
                             or Greek word.
                         </p>
                         <h2 id='saying'>Saying—direct speech</h2>
-                        <p>Coming...</p>
+                        <p>Coming…</p>
                         <h2 id='surpriseParticle'>Surprise particle</h2>
-                        <p>Coming...</p>
+                        <p>Coming…</p>
                         <h2 id='rhythm'>Rhythm or metre</h2>
-                        <p>Coming...</p>
+                        <p>Coming…</p>
                         <h2 id='phraseOrder'>Phrase order</h2>
                         <p>
                             Sometimes the original Hebrew or Greek sentence has
@@ -300,7 +300,7 @@ function StyleEssays() {
                             obviously doesn’t affect the reader as numerously as
                             the verse break issue does.
                         </p>
-                        <h2>More coming...</h2>
+                        <h2>More coming…</h2>
                     </MainPageContent>
                 </Page>
             </Main>

@@ -170,7 +170,7 @@ function Partners() {
                             </li>
                             <li>notes on archaeological discoveries</li>
                             <li>textual criticsm notes</li>
-                            <li>and more...</li>
+                            <li>and more…</li>
                         </ul>
                         <h2 id='languages'>Language Experts</h2>
                         <p>
