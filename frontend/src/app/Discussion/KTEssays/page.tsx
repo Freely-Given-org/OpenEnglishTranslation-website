@@ -48,7 +48,7 @@ function KTEssays() {
                                 Mark 11:9
                             </Link>{' '}
                             for a good example of this. (Only the{' '}
-                            <Link hef='https://Freely-Given.org/OBD/par/MRK/C11V10.htm#Luth'>
+                            <Link href='https://Freely-Given.org/OBD/par/MRK/C11V10.htm#Luth'>
                                 Lutheran German translation
                             </Link>{' '}
                             and{' '}
