@@ -18,7 +18,7 @@ const Home: NextPage = () => {
                 <Page>
                     <MainPageContent>
                         <div>
-                            <h1>Exciting new Bible translation!</h1>
+                            <h1>Exciting, radical, new Bible translation!</h1>
                             <p>
                                 Imagine if, instead of all those complicated
                                 rules about how many verses you can use and how
@@ -33,7 +33,7 @@ const Home: NextPage = () => {
                             </p>
                             <h1>The English translation for the 2030’s</h1>
                             <p>
-                                Yes, work on the{' '}
+                                Yes, work on the radical new{' '}
                                 <em>Open English Translation</em> of the Bible
                                 is proceeding and{' '}
                                 <b>
@@ -97,10 +97,10 @@ const Home: NextPage = () => {
                                 <li>
                                     trying to{' '}
                                     <b>avoid using untranslated Greek words</b>{' '}
-                                    in the English translation (like ‘angel’,
-                                    ‘apostle’, ‘baptise’, and ‘Christ’),
-                                    although we do use ‘Messiah’ (from Hebrew)
-                                    heavily
+                                    as much as possible in the English
+                                    translation (words like ‘angel’, ‘apostle’,
+                                    ‘baptise’, and ‘Christ’), although we do use
+                                    ‘Messiah’ (from Hebrew) heavily
                                 </li>
                                 <li>
                                     following{' '}
@@ -172,12 +172,12 @@ const Home: NextPage = () => {
                                 Testament) available, plus several Old Testament
                                 books (Genesis, Exodus, Joshua, Judges, Ruth,
                                 1&2 Samuel, 1&2 Kings, Ezra, Nehemiah, Esther,
-                                Job, Daniel, Hosea, Joel, Amos, Obadiah, Jonah,
-                                Micah, Nahum, Habakkuk, Zephaniah, Haggai,
-                                Zechariah, and Malachi, over half of the
-                                Psalms/Songs and most of Song of Songs,
-                                combining to around 53% of the Hebrew
-                                scriptures), so a total of{' '}
+                                Job, Song of Songs, Daniel, Hosea, Joel, Amos,
+                                Obadiah, Jonah, Micah, Nahum, Habakkuk,
+                                Zephaniah, Haggai, Zechariah, and Malachi, over
+                                half of the Psalms/Songs and some of
+                                Lamentations, combining to around 53% of the
+                                Hebrew scriptures), so a total of{' '}
                                 <b>65% of the Bible now drafted</b>. That’s
                                 plenty for you to get an idea of the style that
                                 we’re aiming for, although some decisions (even
