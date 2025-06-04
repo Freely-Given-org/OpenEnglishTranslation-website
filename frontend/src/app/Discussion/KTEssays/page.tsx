@@ -37,7 +37,7 @@ function KTEssays() {
                         </p>
                         <p>
                             What’s more in ‘The Messianic Update’ (the New
-                            Testament), our <em>Readers Version</em> considers
+                            Testament), our <em>Readers’ Version</em> considers
                             ‘Yahweh’ to be a perfectly valid translation of the
                             Greek ‘κύριος’ (kurios), especially when it occurs
                             without a preceeding article (no ‘the’) in the
@@ -102,7 +102,7 @@ function KTEssays() {
                                 <em>OET</em>.
                             </li>
                             <li>
-                                The <em>OET</em> <em>Readers Version</em> and{' '}
+                                The <em>OET</em> <em>Readers’ Version</em> and{' '}
                                 <em>Literal Version</em> always translate this
                                 term as ‘Yahweh’ in agreement with the text of
                                 the Hebrew scriptures.
@@ -155,7 +155,7 @@ function KTEssays() {
                                 In the Hebrew scriptures, when God spoke about
                                 himself, he would often use his own name instead
                                 of a pronoun like ‘I’ or ‘me’. (In our{' '}
-                                <em>Readers Version</em>, we adjust this to the
+                                <em>Readers’ Version</em>, we adjust this to the
                                 way that modern English naturally uses
                                 pronouns.)
                             </li>
