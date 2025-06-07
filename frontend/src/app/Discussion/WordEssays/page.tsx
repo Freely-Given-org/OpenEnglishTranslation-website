@@ -490,6 +490,32 @@ function WordEssays() {
                             English terminology and uses terms like ‘Persian
                             empire’ and ‘Negev region’.
                         </p>
+                        <h2 id='before'>Before</h2>
+                        <p>
+                            In many so-called modern English translations,
+                            you’ll find sentences something like{' '}
+                            <Link href='https://Freely-Given.org/OBD/par/PSA/C89V23.htm#BSB'>
+                                Psa 89:23a
+                            </Link>
+                            : “I will crush his enemies before him.”
+                        </p>
+                        <p>
+                            In Hebrew, the phrase translated ‘before him’ will
+                            typically mean ‘in front of him’ or ‘ahead of him’
+                            (because it’s connected to the Hebrew word ‘face’).
+                            However, a modern English reader could be forgiven
+                            for misunderstanding the above sentence to mean: “I
+                            will crush his enemies before he does.” That would
+                            be how those words would naturally be used in
+                            English, like “I got there before him.” (where
+                            ‘before him’ has a focus on ‘before in time’.)
+                        </p>
+                        <p>
+                            The <em>OET Readers’ Version</em> makes a greater
+                            attempt to translate Hebrew phrases and idioms (even
+                            something as basic as ‘before him’) into modern
+                            English phrases or idioms with the same meaning.
+                        </p>
                         <h2 id='rejoice'>Rejoice</h2>
                         <p>
                             See{' '}
