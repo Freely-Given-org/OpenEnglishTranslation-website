@@ -38,12 +38,13 @@ function KTEssays() {
                         <p>
                             What’s more in ‘The Messianic Update’ (the New
                             Testament), our <em>Readers’ Version</em> considers
-                            ‘Yahweh’ to be a perfectly valid translation of the
-                            Greek ‘κύριος’ (kurios), especially when it occurs
-                            without a preceeding article (no ‘the’) in the
-                            Greek. In most modern English translations, that's
-                            automatically translated as ‘Lord’ without any
-                            apparent consideration for the missing article. See{' '}
+                            ‘Yahweh’ to be one perfectly valid translation of
+                            the Greek ‘κύριος’ (kurios), especially when it
+                            occurs without a preceeding article (no ‘the’) in
+                            the Greek. In most modern English translations,
+                            that's automatically translated as ‘Lord’ without
+                            any apparent consideration for the missing article.
+                            See{' '}
                             <Link href='https://Freely-Given.org/OBD/par/MRK/C11V9.htm#OET-RV'>
                                 Mark 11:9
                             </Link>{' '}
@@ -81,25 +82,27 @@ function KTEssays() {
                             The term ‘Yahweh’ is God’s personal name in the Old
                             Testament. The specific origin of this name is
                             unknown, but it’s probably derived from the Hebrew
-                            verb meaning, ‘to be’.
+                            verb meaning, ‘to be’ (hence can be considered to
+                            mean ‘I am’).
                         </p>
                         <ul>
                             <li>
                                 Following tradition, many older Bible
                                 translations (and even more recent ones that
                                 place tradition above accuracy and common sense)
-                                use the term ‘L<small>ORD</small>’ or ‘the L
-                                <small>ORD</small>’ to represent ‘Yahweh’. This
-                                old-fashioned tradition resulted from the fact
-                                that historically, the Jewish people became
+                                use the term ‘L<small>ORD</small>’ or (by adding
+                                an article that’s not in the original languages)
+                                ‘the L<small>ORD</small>’ to represent ‘Yahweh’.
+                                This old-fashioned tradition resulted from the
+                                fact that historically, the Jewish people became
                                 afraid of mispronouncing Yahweh’s name and
                                 started saying ‘Lord’ (Hebrew ‘Adonai’) every
                                 time the term ‘Yahweh’ appeared in the text.
-                                Modern Bibles write ‘L<small>ORD</small>’ with
-                                all capital letters out of tradition and to
-                                distinguish it from ‘Lord’ which is a different
-                                Hebrew word and is translated as ‘master’ in the{' '}
-                                <em>OET</em>.
+                                Modern English translations write ‘L
+                                <small>ORD</small>’ with all capital letters out
+                                of tradition and to distinguish it from ‘Lord’
+                                which is a different Hebrew word and is
+                                translated as ‘master’ in the <em>OET</em>.
                             </li>
                             <li>
                                 The <em>OET</em> <em>Readers’ Version</em> and{' '}
@@ -149,7 +152,9 @@ function KTEssays() {
                                 when quoting the Hebrew scriptures. (This makes
                                 it difficult for us to know sometimes if the
                                 Greek term ‘κύριος’ is referring to ‘Yahweh’ or
-                                ‘Yeshua’/‘Jesus’.)
+                                ‘Yeshua’/‘Jesus’. However, the presence or
+                                absence of the article ‘the’ gives us a big
+                                clue.)
                             </li>
                             <li>
                                 In the Hebrew scriptures, when God spoke about
@@ -194,6 +199,14 @@ function KTEssays() {
                                     or ‘Yehowah’).
                                 </small>
                             </li>
+                            <li>
+                                <small>
+                                    You should also note that in their zeal to
+                                    not offend God, Jewish people also don’t use
+                                    the term God/Elohim, but instead call him
+                                    ‘Ha Shem’ (which means ‘The Name’).
+                                </small>
+                            </li>
                         </ul>
                         <h3>Other translation possibilities:</h3>
                         <ul>
@@ -204,17 +217,18 @@ function KTEssays() {
                             </li>
                             <li>
                                 This term could also be written in a way that is
-                                similar to how ‘Yahweh’ is spelled.
+                                similar to how ‘Yahweh’ is spelt.
                             </li>
                             <li>
-                                Some church denominations prefer not to use the
-                                term ‘Yahweh’ and instead use the traditional
-                                rendering, ‘L<small>ORD</small>’. An important
-                                consideration is that this may be confusing when
-                                read aloud because it will sound the same as the
-                                title ‘Lord’. Some languages may have an affix
-                                or other grammatical marker that could be added
-                                to distinguish ‘L<small>ORD</small>’ as a name
+                                Some church denominations around the world
+                                prefer not to use the term ‘Yahweh’ and instead
+                                use the traditional rendering, ‘L
+                                <small>ORD</small>’. An important consideration
+                                is that this may be confusing when read aloud
+                                because it will sound the same as the title
+                                ‘Lord’. Some languages may have an affix or
+                                other grammatical marker that could be added to
+                                distinguish ‘L<small>ORD</small>’ as a name
                                 (Yahweh) from ‘Lord’ or ‘master’ as a title.
                             </li>
                             <li>
@@ -472,13 +486,19 @@ function KTEssays() {
                             we felt it might confuse our readers used to the
                             traditional form.
                         </p>
+                        <p>
+                            You should also note that in their zeal to not
+                            offend God, Jewish people don’t use the term
+                            God/Elohim, but instead call him ‘Ha Shem’ (which
+                            means ‘The Name’).
+                        </p>
                         <h2 id='name'>Name of God</h2>
                         <p>
                             Psa 69:30 from the Hebrew: ‘I will praise the name
                             of God …’
                         </p>
                         <p>
-                            Why praise{' '}
+                            Why{' '}
                             <Link href='https://www.reddit.com/r/Christianity/comments/13nxwhw/why_do_people_praise_the_name_of_god_instead_of/'>
                                 praise God’s name
                             </Link>{' '}
@@ -486,9 +506,9 @@ function KTEssays() {
                         </p>
                         <p>More coming …</p>
                         <h2 id='lovingKindness'>Loving-kindness</h2>
-                        <p>Loyal commitment coming …</p>
+                        <p>Essay on Loyal commitment coming …</p>
                         <h2 id='fear'>Fear of Yahweh</h2>
-                        <p>Respect++ coming …</p>
+                        <p>Essay on Respect++ coming …</p>
                         <h2>More coming…</h2>
                     </MainPageContent>
                 </Page>
