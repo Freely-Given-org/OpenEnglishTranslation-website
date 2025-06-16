@@ -174,10 +174,10 @@ const Home: NextPage = () => {
                                 Samuel, 1&2 Kings, Ezra, Nehemiah, Esther, Job,
                                 Song of Songs, Daniel, Hosea, Joel, Amos,
                                 Obadiah, Jonah, Micah, Nahum, Habakkuk,
-                                Zephaniah, Haggai, Zechariah, and Malachi, over
-                                half of the Psalms/Songs and some of
-                                Lamentations, combining to around 54% of the
-                                Hebrew scriptures), so a total of{' '}
+                                Zephaniah, Haggai, Zechariah, and Malachi, most
+                                of the Psalms/Songs and half of Lamentations,
+                                combining to around 55% of the Hebrew
+                                scriptures), so a total of{' '}
                                 <b>66% of the Bible now drafted</b>. That’s
                                 plenty for you to get an idea of the style that
                                 we’re aiming for, although some decisions (even
