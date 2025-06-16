@@ -41,10 +41,11 @@ function KTEssays() {
                             ‘Yahweh’ to be one perfectly valid translation of
                             the Greek ‘κύριος’ (kurios), especially when it
                             occurs without a preceeding article (no ‘the’) in
-                            the Greek. In most modern English translations,
-                            that's automatically translated as ‘Lord’ without
-                            any apparent consideration for the missing article.
-                            See{' '}
+                            the Greek, or when it’s quoting the Hebrew
+                            scriptures where it contains ‘Yahweh’. In most
+                            modern English translations, that’s automatically
+                            translated as ‘the Lord’ without any apparent
+                            consideration for the missing Greek article. See{' '}
                             <Link href='https://Freely-Given.org/OBD/par/MRK/C11V9.htm#OET-RV'>
                                 Mark 11:9
                             </Link>{' '}
