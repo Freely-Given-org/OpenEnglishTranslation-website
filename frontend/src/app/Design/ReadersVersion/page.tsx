@@ -186,20 +186,132 @@ function RV() {
                                 elected to only use <i>messiah</i>.
                             </li>
                         </ul>
-                        <h2 id='word'>Word translation flow-chart</h2>
+                        <h2 id='nonLiteral'>Our ‘non-literalness’ principle</h2>
                         <p>
+                            Many so-called Bible ‘translations’ pride themselves
+                            on how ‘literal’ they are. After many decades of
+                            learning and studying languages (linguistics), we
+                            believe that a principle of translating ‘one word in
+                            the source language into one word in the target
+                            language’, is a principle of ‘non-translation’ (and
+                            most so-called ‘literal’ Bibles don’t actually do it
+                            despite their claim on the cover). A good
+                            ‘translation’ <em>must</em> translate the intended
+                            meaning of the author into the appropriate words in
+                            the target language.{' '}
                             <small>
-                                Many words have a <b>range of meaning</b>, e.g.,
-                                ‘cold’, ‘warm’, or ‘hot’ each refer to a range
-                                of temperatures. So too with verbs, ‘hit’,
-                                ‘beat’, ‘bash’, and ‘flatten’ might each refer
-                                to striking a child with a stick (or a car) with
-                                various ranges of force. When translating words
-                                from other languages, some parts of a word’s
-                                range of meaning might require quite different
-                                words in the destination language.
+                                (Of course, a word-for-word correspondence is an
+                                excellent tool for serious students of a text in
+                                another language, and we use it for the{' '}
+                                <Link href='https://Freely-Given.org/OBD/par/MRK/C1V17.htm#Luth'>
+                                    German
+                                </Link>{' '}
+                                and{' '}
+                                <Link href='https://Freely-Given.org/OBD/par/MRK/C1V36.htm#ClVg'>
+                                    Latin
+                                </Link>{' '}
+                                on our parallel verse pages, but it shouldn’t be
+                                considered as a ‘translation’ for mainstream
+                                readers.)
                             </small>
                         </p>
+                        ‘ ’
+                        <p>
+                            Most words have a <b>range of meaning</b>, e.g.,
+                            ‘cold’, ‘warm’, or ‘hot’ each refer to a range of
+                            temperatures. So too with verbs, ‘hit’, ‘beat’,
+                            ‘bash’, and ‘flatten’ might each refer to striking a
+                            dog with a stick (or with a car) with various ranges
+                            of force. When translating words from other
+                            languages, some parts of a word’s range of meaning
+                            might require quite different words in the
+                            destination language.
+                        </p>
+                        <p>
+                            All to say that the <em>OET Readers’ Version</em>{' '}
+                            has a deliberate non-literal policy, i.e., if the
+                            identical Hebrew/Greek word is used two or more
+                            times in the same passage,{' '}
+                            <b>
+                                we will consider if we can use different English
+                                synonyms to translate that word
+                            </b>{' '}
+                            in order to try to demonstrate the range of meaning
+                            of that original word. (You may recall that your
+                            English teacher at school encouraged you to use
+                            synonyms when writing, to make it more interesting
+                            to read rather than just repeating the same word.)
+                        </p>
+                        <h3 id='example'>Example</h3>
+                        <p>
+                            Let’s give an example from{' '}
+                            <Link href='https://Freely-Given.org/OBD/par/ECC/C1V2.htm#Top'>
+                                Ecclessiates 1:2
+                            </Link>
+                            :
+                        </p>
+                        <p>
+                            You can see from our <em>Literal Version</em> that
+                            the same Hebrew word () is used five times—three
+                            times in the singular and twice in the plural:
+                            <br />
+                            Futility_of futilities teacher he_said futility_of
+                            futilities the_all (is) futility.
+                        </p>
+                        <p>
+                            The KJB-1769 had:
+                            <br />
+                            Vanity of vanities, saith the Preacher, vanity of
+                            vanities; all is vanity.
+                        </p>
+                        <p>
+                            NET has:
+                            <br />
+                            “Futile! Futile!” laments the Teacher, “Absolutely
+                            futile! Everything is futile!”
+                            <br />
+                            with a very long and quite technical footnote about
+                            the possible meanings of the word translated
+                            ‘futile’ here and suggesting other synonyms such as
+                            ‘breath’, ‘wind’, ‘profitless’, ‘fruitless’,
+                            ‘worthless’, and ‘pointless’, as well as mentioning
+                            connotations like ‘transitory’ and ‘fleeting’.
+                        </p>
+                        <p>
+                            BSB is very similar:
+                            <br />
+                            “Futility* of futilities,” says the Teacher,
+                            “futility of futilities! Everything is futile!”
+                            <br />
+                            with the footnote:{' '}
+                            <small>
+                                Literally vapor or breath; the Hebrew words
+                                translated in Ecclesiastes as forms of futile or
+                                fleeting can also be translated as vanity or
+                                meaningless.
+                            </small>
+                        </p>
+                        <p>
+                            Our <em>Readers’ Version</em> has:
+                            <br />
+                            “Totally pointless,” says the leader. “A complete
+                            waste of time. Everything’s worthless.”
+                            <br />
+                            Here you can see a fairly extreme case of where we
+                            used different synonyms in an attempt to alert the
+                            English reader to some of the possible range of
+                            meanings of that original Hebrew word.
+                        </p>
+                        <p>
+                            <small>
+                                Note: Remember that the <em>OET</em> has our
+                                (very) <em>Literal Version</em> right there
+                                beside our <em>Readers’ Version</em> so that the
+                                serious student can look across to that
+                                word-for-word rendering of the Hebrew text.
+                            </small>
+                        </p>
+                        <h2 id='word'>Word translation flow-chart</h2>
                         <p>
                             <small>
                                 Many words have both a <b>primary meaning</b>{' '}
