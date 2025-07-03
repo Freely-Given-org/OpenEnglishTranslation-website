@@ -20,6 +20,46 @@ function StyleEssays() {
                         <h1>OET Literal Version</h1>
                         <p>Coming…</p>
                         <h1>OET Readers' Version</h1>
+                        <h2 id='poetry'>Poetry</h2>
+                        <p>
+                            Just a quick introductory note first about ‘poetic’
+                            English translations. I’ve heard people say how they
+                            like the King James Bible because it’s so ‘poetic’.
+                        </p>
+                        <p>
+                            Take for example,{' '}
+                            <Link href='https://Freely-Given.org/OBD/par/PSA/C119V105.htm#KJB-1611'>
+                                Song/Psalm 119:105
+                            </Link>{' '}
+                            which I grew up singing: “Thy word is a lamp unto my
+                            feet, and a light unto my path.” Of course, we can
+                            see that this
+                            <em>is</em> Hebrew poetry—not because it rhymes
+                            (like a lot of English poetry), but because it
+                            expresses the same thought twice in a row, but using
+                            different words. But to a modern English reader, it
+                            also sounds <em>cute</em> because of the archaic
+                            pronoun ‘Thy’ and the use of ‘unto’. It sounds
+                            romantic because an oil lamp sounds more inviting
+                            than just turning on a torch/flashlight, and walking
+                            on a rough forest path sounds more inviting than
+                            walking on the nicely levelled footpath that we’re
+                            more likely to do these days. These archaic and
+                            old-fashioned English words and cultural concepts
+                            are what makes that language seem poetic, even
+                            though the Hebrew author considered it poetic for
+                            entirely different reasons (that many English
+                            readers don’t even spot).
+                        </p>
+                        <p>
+                            All to say that our notions of ‘poetic’ are often
+                            misconceived, and certainly the{' '}
+                            <em>OET Readers’ Version</em> will be striving to
+                            use modern language as much as possible, as we value
+                            ease of understanding God’s message over archaic
+                            words and concepts which differ from our culture yet
+                            have nostalgic appeal.
+                        </p>
                         <h2 id='parentheses'>(Parentheses)</h2>
                         <p>
                             It’s not uncommon to find extra explanations in the
