@@ -167,7 +167,7 @@ const Home: NextPage = () => {
                                 </li>
                             </ul>
                             <p id='progress'>
-                                Currently as of late-June 2025, we have the
+                                Currently as of early-July 2025, we have the
                                 first draft of ‘The Messianic Update’ (New
                                 Testament) available, plus most of the Old
                                 Testament books (Genesis, Exodus, Joshua,

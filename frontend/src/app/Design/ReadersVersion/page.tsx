@@ -195,10 +195,10 @@ function RV() {
                             the source language into one word in the target
                             language’, is a principle of ‘non-translation’ (and
                             most so-called ‘literal’ Bibles don’t actually do it
-                            despite their claim on the cover). A good
-                            ‘translation’ <em>must</em> translate the intended
-                            meaning of the author into the appropriate words in
-                            the target language.{' '}
+                            consistently despite their claim on the cover). A
+                            good ‘translation’ <em>must</em> translate the
+                            intended meaning of the author into the appropriate
+                            words in the target language.{' '}
                             <small>
                                 (Of course, a word-for-word correspondence is an
                                 excellent tool for serious students of a text in
@@ -215,7 +215,6 @@ function RV() {
                                 readers.)
                             </small>
                         </p>
-                        ‘ ’
                         <p>
                             Most words have a <b>range of meaning</b>, e.g.,
                             ‘cold’, ‘warm’, or ‘hot’ each refer to a range of
@@ -228,35 +227,70 @@ function RV() {
                             destination language.
                         </p>
                         <p>
+                            <small>
+                                Note: In the{' '}
+                                <em>
+                                    OET{' '}
+                                    <Link href='/Design/LiteralVersion'>
+                                        Literal Version
+                                    </Link>
+                                </em>{' '}
+                                (intended as a study tool), range of meaning is
+                                often shown by displaying the possible different
+                                English translations of the word separated by a
+                                forward slash (but we don’t want kind of
+                                distraction in the <em>Readers’ Version</em>).
+                            </small>
+                        </p>
+                        <p>
                             All to say that the <em>OET Readers’ Version</em>{' '}
-                            has a deliberate non-literal policy, i.e., if the
-                            identical Hebrew/Greek word is used two or more
+                            <b>has a deliberate non-literal policy</b>, i.e., if
+                            the identical Hebrew/Greek word is used two or more
                             times in the same passage,{' '}
                             <b>
                                 we will consider if we can use different English
                                 synonyms to translate that word
                             </b>{' '}
-                            in order to try to demonstrate the range of meaning
-                            of that original word. (You may recall that your
-                            English teacher at school encouraged you to use
-                            synonyms when writing, to make it more interesting
-                            to read rather than just repeating the same word.)
+                            each time in order to try to demonstrate the range
+                            of meaning of that original word. (You may also
+                            recall that your English teacher at school
+                            encouraged you to use synonyms when writing, to make
+                            it more interesting for the reader, rather than just
+                            repeating the same word.)
                         </p>
                         <h3 id='example'>Example</h3>
                         <p>
                             Let’s give an example from{' '}
-                            <Link href='https://Freely-Given.org/OBD/par/ECC/C1V2.htm#Top'>
-                                Ecclessiates 1:2
+                            <Link href='https://Freely-Given.org/OBD/par/ECC/C1V2.htm#OET-LV'>
+                                Ecclessiastes 1:2
                             </Link>
                             :
                         </p>
                         <p>
                             You can see from our <em>Literal Version</em> that
-                            the same Hebrew word () is used five times—three
-                            times in the singular and twice in the plural:
+                            the same Hebrew word (הָבֶל) is used five
+                            times—three times in the singular and twice in the
+                            plural:
                             <br />
                             Futility_of futilities teacher he_said futility_of
                             futilities the_all (is) futility.
+                        </p>
+                        <p>
+                            <small>
+                                Note: If you click on that final word ‘futility’
+                                at that link it will take you to a{' '}
+                                <Link href='https://Freely-Given.org/OBD/ref/HebWrd/ECCc1v2w8.htm#Top'>
+                                    word page
+                                </Link>
+                                . Then on that word page, click on the Hebrew
+                                lemma (word root) and it will take you to that{' '}
+                                <Link href='https://Freely-Given.org/OBD/ref/HebLem/he%E2%B1%B1el.htm#Top'>
+                                    lemma page
+                                </Link>{' '}
+                                where you can see all the ways that that root
+                                word is translated in our{' '}
+                                <em>Literal Version</em>.
+                            </small>
                         </p>
                         <p>
                             The KJB-1769 had:
@@ -307,7 +341,7 @@ function RV() {
                                 Note: Remember that the <em>OET</em> has our
                                 (very) <em>Literal Version</em> right there
                                 beside our <em>Readers’ Version</em> so that the
-                                serious student can look across to that
+                                serious student can also look across to that
                                 word-for-word rendering of the Hebrew text.
                             </small>
                         </p>
