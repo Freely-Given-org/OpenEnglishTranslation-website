@@ -32,6 +32,10 @@ const Home: NextPage = () => {
                                 ”!
                             </p>
                             <h1>The English translation for the 2030’s</h1>
+                            <h2>
+                                Trying to nudge English Bible translation into
+                                the 21st century
+                            </h2>
                             <p>
                                 Yes, work on the radical new{' '}
                                 <em>Open English Translation</em> of the Bible
@@ -167,19 +171,18 @@ const Home: NextPage = () => {
                                 </li>
                             </ul>
                             <p id='progress'>
-                                Currently as of early-July 2025, we have the
-                                first draft of ‘The Messianic Update’ (New
-                                Testament) available, plus most of the Old
-                                Testament books (Genesis, Exodus, Joshua,
-                                Judges, Ruth, 1&2 Samuel, 1&2 Kings, Ezra,
-                                Nehemiah, Esther, Job, Song of Songs,
-                                Lamentations, Daniel, Hosea, Joel, Amos,
-                                Obadiah, Jonah, Micah, Nahum, Habakkuk,
-                                Zephaniah, Haggai, Zechariah, and Malachi, most
-                                of the Psalms/Songs and some of Ecclesiastes,
-                                combining to around 56% of the Hebrew
-                                scriptures), so a total of{' '}
-                                <b>67% of the Bible now drafted</b>. That’s
+                                Currently as of mid-July 2025, we have the first
+                                draft of ‘The Messianic Update’ (New Testament)
+                                available, plus most of the Old Testament books
+                                (Genesis, Exodus, Joshua, Judges, Ruth, 1&2
+                                Samuel, 1&2 Kings, Ezra, Nehemiah, Esther, Job,
+                                Song of Songs, Lamentations, Daniel, Hosea,
+                                Joel, Amos, Obadiah, Jonah, Micah, Nahum,
+                                Habakkuk, Zephaniah, Haggai, Zechariah, and
+                                Malachi, most of the Psalms/Songs and half of
+                                Ecclesiastes, combining to around 57% of the
+                                Hebrew scriptures), so a total of{' '}
+                                <b>68% of the Bible now drafted</b>. That’s
                                 plenty for you to get an idea of the style that
                                 we’re aiming for, although some decisions (even
                                 some major ones) are still in flux (and will be

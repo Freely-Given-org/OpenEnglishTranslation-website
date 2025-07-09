@@ -16,10 +16,6 @@ function WordEssays() {
                 <Page>
                     <MainPageContent>
                         <h1>Essays on some Bible words</h1>
-                        <h2>
-                            Trying to nudge English Bible translation into the
-                            21st century
-                        </h2>
                         <p>
                             If you try to read many of the books that call
                             themselves Bibles<sup>*</sup>, you’ll find that the
