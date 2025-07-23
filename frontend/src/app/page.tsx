@@ -176,17 +176,17 @@ const Home: NextPage = () => {
                                 available, plus most of the Old Testament books
                                 (Genesis, Exodus, Joshua, Judges, Ruth, 1&2
                                 Samuel, 1&2 Kings, Ezra, Nehemiah, Esther, Job,
-                                Song of Songs, Lamentations, Daniel, Hosea,
-                                Joel, Amos, Obadiah, Jonah, Micah, Nahum,
-                                Habakkuk, Zephaniah, Haggai, Zechariah, and
-                                Malachi, most of the Psalms/Songs and half of
-                                Ecclesiastes, combining to around 57% of the
+                                Songs/Psalms, Song of Songs, Lamentations,
+                                Daniel, Hosea, Joel, Amos, Obadiah, Jonah,
+                                Micah, Nahum, Habakkuk, Zephaniah, Haggai,
+                                Zechariah, and Malachi, and most of
+                                Ecclesiastes, combining to around 58% of the
                                 Hebrew scriptures), so a total of{' '}
-                                <b>68% of the Bible now drafted</b>. That’s
-                                plenty for you to get an idea of the style that
-                                we’re aiming for, although some decisions (even
-                                some major ones) are still in flux (and will be
-                                for quite some time yet).
+                                <b>almost 69% of the Bible now drafted</b>.
+                                That’s plenty for you to get an idea of the
+                                style that we’re aiming for, although some
+                                decisions (even some major ones) are still in
+                                flux (and will be for quite some time yet).
                             </p>
                             <p>
                                 But we’re also{' '}
