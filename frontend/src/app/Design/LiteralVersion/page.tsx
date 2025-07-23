@@ -175,7 +175,7 @@ function LV() {
                                 (The word <i>boss</i> felt a little too
                                 informal.)
                             </li>
-                            <li>
+                            <li id='capitals'>
                                 The <em>Literal Version</em>{' '}
                                 <b>
                                     tries to add as little as possible that’s
@@ -192,14 +192,23 @@ function LV() {
                                 <a href='https://greekcntr.org/manuscripts/images/1G20001/1G20001-262v.jpg'>
                                     this portion
                                 </a>{' '}
-                                were written. (Our policy has more to do with
-                                accuracy and education than it does with “lack
-                                of respect” or any such thing. Often this goes
-                                against religious tradition of the last few
-                                centuries, but just because something is
-                                traditional, does not necessarily mean that it
-                                is correct or even truly helpful in the long
-                                term.)
+                                were written. So capitalisation of key words is
+                                something{' '}
+                                <Link href='https://mattayars.com/why-dont-modern-bible-translations-capitalize-divine-pronouns/'>
+                                    added by English translators
+                                </Link>{' '}
+                                and sometimes forces them to have to decide what
+                                the text means in places where it’s ambigious.
+                                (Our policy has more to do with accuracy and
+                                education than it does with “lack of respect” or
+                                any such thing. Often this goes against
+                                religious tradition of the last few centuries,
+                                but just because something is traditional, does
+                                not necessarily mean that it is correct or even
+                                <Link href='https://www.biblica.com/resources/bible-faqs/why-do-some-bible-translations-not-capitalize-pronouns-referring-to-god/'>
+                                    truly helpful
+                                </Link>{' '}
+                                in the long term.)
                             </li>
                             <li>
                                 Most dialects of modern English don’t

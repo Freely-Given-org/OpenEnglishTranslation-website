@@ -161,7 +161,7 @@ function RV() {
                                 example becomes <i>missionary</i> in many
                                 places.
                             </li>
-                            <li>
+                            <li id='italics'>
                                 <i>Italics</i> are only used for{' '}
                                 <em>emphasis</em>, not to indicate{' '}
                                 <i>added words</i> as historically done in older
@@ -173,6 +173,19 @@ function RV() {
                                 which should actually be <b>deemphasised</b>,
                                 i.e., the words which actually <b>aren’t</b> in
                                 the original manuscripts!)
+                            </li>
+                            <li id='capitals'>
+                                The <em>Readers’ Version</em> has the{' '}
+                                <Link href='/Design/LiteralVersion#capitals'>
+                                    same policy
+                                </Link>{' '}
+                                as the <em>Literal Version</em> in only using
+                                capitals where English would normally use them
+                                simply because there’s no distinction between
+                                capital and small letters in the original
+                                manuscripts so we don’t feel a need to
+                                superimpose extra capitalisation onto the
+                                Biblical texts.
                             </li>
                             <li>
                                 The English word <i>Christ</i> is an adapted
