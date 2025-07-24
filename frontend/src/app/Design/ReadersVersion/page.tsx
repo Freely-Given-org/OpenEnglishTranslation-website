@@ -179,12 +179,15 @@ function RV() {
                                 <Link href='/Design/LiteralVersion#capitals'>
                                     same policy
                                 </Link>{' '}
-                                as the <em>Literal Version</em> in only using
-                                capitals where English would normally use them
+                                as the <em>Literal Version</em> in only{' '}
+                                <b>
+                                    using capitals where English would normally
+                                    use them
+                                </b>{' '}
                                 simply because there’s no distinction between
                                 capital and small letters in the original
                                 manuscripts so we don’t feel a need to
-                                superimpose extra capitalisation onto the
+                                superimpose that extra capitalisation onto the
                                 Biblical texts.
                             </li>
                             <li>

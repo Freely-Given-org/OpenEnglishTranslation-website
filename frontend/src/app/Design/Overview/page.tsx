@@ -62,7 +62,7 @@ function Overview() {
                             <Link href='/About/Licence'>limitations</Link>) for
                             a specific group.
                         </p>
-                        <h2>OET Readers’ Version</h2>
+                        <h2 id='RV'>OET Readers’ Version</h2>
                         <p>
                             This side of the page (so to speak) is designed to{' '}
                             <b>express the meaning of each sentence</b> (as
@@ -80,7 +80,7 @@ function Overview() {
                             </Link>
                             .
                         </p>
-                        <h2>OET Literal Version</h2>
+                        <h2 id='LV'>OET Literal Version</h2>
                         <p>
                             This side of the page is designed to give you{' '}
                             <b>
@@ -104,7 +104,7 @@ function Overview() {
                             </Link>
                             .
                         </p>
-                        <h2>OET Editions</h2>
+                        <h2 id='editions'>OET Editions</h2>
                         <p>
                             As well as the two completely different versions of
                             the actual translated text shown above, the{' '}
@@ -124,7 +124,7 @@ function Overview() {
                             for Muslims or Hindus, etc., wanting to learn more
                             about the Christian scriptures.
                         </p>
-                        <h1>
+                        <h1 id='not'>
                             What the OET is <i>not</i>
                         </h1>
                         <p>
@@ -159,11 +159,11 @@ function Overview() {
                                 translations
                             </li>
                             <li>
-                                it’s not developed using so-called ‘AI’ or other
-                                ‘speed-up-the-task’ tools
+                                it’s not developed using so-called ‘AI’ or any
+                                other automated ‘speed-up-the-task’ tools
                             </li>
                         </ul>
-                        <h2>In contrast</h2>
+                        <h2 id='is'>In contrast</h2>
                         <p>
                             So in contrast to those misconceptions, a few more
                             points about what the <em>OET Readers’ Version</em>{' '}

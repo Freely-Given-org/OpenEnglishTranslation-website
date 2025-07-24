@@ -204,7 +204,7 @@ function LV() {
                                 any such thing. Often this goes against
                                 religious tradition of the last few centuries,
                                 but just because something is traditional, does
-                                not necessarily mean that it is correct or even
+                                not necessarily mean that it is correct or even{' '}
                                 <Link href='https://www.biblica.com/resources/bible-faqs/why-do-some-bible-translations-not-capitalize-pronouns-referring-to-god/'>
                                     truly helpful
                                 </Link>{' '}
