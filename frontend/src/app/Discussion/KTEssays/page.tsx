@@ -275,7 +275,7 @@ function KTEssays() {
                             translations use ‘L
                             <small>ORD</small>’ to replace the name ‘Yahweh’ in
                             the preceding three verses (Num 6:24, 25, and 26) so
-                            many Christians don’t even know what God’s name that
+                            many Christians don’t even know what God’s name that{' '}
                             <Link href='https://Freely-Given.org/OBD/par/EXO/C3V14.htm#Top'>
                                 was revealed to Mosheh
                             </Link>{' '}
