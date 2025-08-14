@@ -78,7 +78,7 @@ function KTEssays() {
                                 .
                             </small>
                         </p>
-                        <h3>Facts:</h3>
+                        <h3 id='facts'>Facts:</h3>
                         <p>
                             The term ‘Yahweh’ is God’s personal name in the Old
                             Testament. The specific origin of this name is
@@ -209,7 +209,9 @@ function KTEssays() {
                                 </small>
                             </li>
                         </ul>
-                        <h3>Other translation possibilities:</h3>
+                        <h3 id='possibilities'>
+                            Other translation possibilities:
+                        </h3>
                         <ul>
                             <li>
                                 ‘Yahweh’ could be translated by a word or phrase
@@ -261,6 +263,23 @@ function KTEssays() {
                                 Lord
                             </Link>
                             )
+                        </p>
+                        <h3 id='examples'>Some examples:</h3>
+                        <p>
+                            In{' '}
+                            <Link href='https://Freely-Given.org/OBD/par/NUM/C6V27.htm#Top'>
+                                Numbers 6:27
+                            </Link>
+                            , Yahweh says, ‘I will put my name on the people of
+                            Israel and bless them.’ However, most modern English
+                            translations use ‘L
+                            <small>ORD</small>’ to replace the name ‘Yahweh’ in
+                            the preceding three verses (Num 6:24, 25, and 26) so
+                            many Christians don’t even know what God’s name that
+                            <Link href='https://Freely-Given.org/OBD/par/EXO/C3V14.htm#Top'>
+                                was revealed to Mosheh
+                            </Link>{' '}
+                            (Moses) is.
                         </p>
                         <h3>Bible References:</h3>
                         <ul>

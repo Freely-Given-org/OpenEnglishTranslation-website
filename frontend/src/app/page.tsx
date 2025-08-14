@@ -180,10 +180,10 @@ const Home: NextPage = () => {
                                 Ecclesiastes, Song of Songs, Lamentations,
                                 Daniel, Hosea, Joel, Amos, Obadiah, Jonah,
                                 Micah, Nahum, Habakkuk, Zephaniah, Haggai,
-                                Zechariah, and Malachi, a third of Ezekiel and
-                                some of Proverbs, combining to over 60% of the
+                                Zechariah, and Malachi, nearly half of Ezekiel
+                                and some of Proverbs, combining to 61% of the
                                 Hebrew scriptures), so a total of{' '}
-                                <b>70% of the Bible now drafted</b>. That’s
+                                <b>71% of the Bible now drafted</b>. That’s
                                 plenty for you to get an idea of the style that
                                 we’re aiming for, although some decisions (even
                                 some major ones) are still in flux (and will be
