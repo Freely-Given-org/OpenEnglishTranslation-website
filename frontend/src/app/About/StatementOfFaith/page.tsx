@@ -109,7 +109,7 @@ function StatementOfFaith() {
                         <h1>Agenda</h1>
                         <p>
                             It’s sort of covered in other places like the{' '}
-                            <Link href={'/Design/Overview'}>Overview</Link>, but
+                            <Link href={'/Intro/Overview'}>Overview</Link>, but
                             hey, let’s say it again in point form here (so no
                             one can accuse us of having a hidden agenda):
                         </p>

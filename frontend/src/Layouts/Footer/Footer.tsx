@@ -18,10 +18,10 @@ function Footer() {
                 <div className={styles['link-list-left']}>
                     <ul>
                         <li>
-                            <Link href={'/Design/Overview'}>Overview</Link>
+                            <Link href={'/Intro/Overview'}>Overview</Link>
                         </li>
                         <li>
-                            <Link href={'/Design/Name'}>Name</Link>
+                            <Link href={'/Intro/Name'}>Name</Link>
                         </li>
                         <li>
                             <Link href={'/Design/LiteralVersion'}>
@@ -55,6 +55,12 @@ function Footer() {
                 </div>
                 <div className={styles['link-list-right']}>
                     <ul>
+                        <li>
+                            <Link href={'/Intro/WhoFor'}>Who for?</Link>
+                        </li>
+                        <li>
+                            <Link href={'/Intro/Stories'}>Stories</Link>
+                        </li>
                         <li>
                             <Link href={'/About/OET'}>About OET</Link>
                         </li>
@@ -104,7 +110,7 @@ function Footer() {
                     </a>
                 </span>
                 <span className={styles['buildNotes']}>
-                    (Site last built: 1 Sept 2025)
+                    (Site last built: 7 Sept 2025)
                 </span>
             </div>
         </div>

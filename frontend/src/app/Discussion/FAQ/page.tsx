@@ -19,7 +19,7 @@ function FAQ() {
                     <MainPageContent>
                         <p id='FAQTop' className={styles.FAQContentEntry}>
                             See our{' '}
-                            <Link href='/Design/Overview'>overview page</Link>{' '}
+                            <Link href='/Intro/Overview'>overview page</Link>{' '}
                             for information about the <em>OET</em> translation
                             philosophy and the various <em>OET</em> versions.
                         </p>
@@ -171,7 +171,7 @@ function FAQ() {
                         </p>
                         <p className={styles.FAQContentEntry}>
                             See our{' '}
-                            <Link href='/Design/Overview'>overview page</Link>{' '}
+                            <Link href='/Intro/Overview'>overview page</Link>{' '}
                             for information about the <em>OET</em> translation
                             philosophy and the various <em>OET</em> versions.
                         </p>

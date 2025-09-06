@@ -50,7 +50,7 @@ const Home: NextPage = () => {
                             </p>
                             <p>
                                 You can read more details in the{' '}
-                                <Link href='/Design/Overview'>Overview</Link>,
+                                <Link href='/Intro/Overview'>Overview</Link>,
                                 but some of the <b>distinctives</b> of the{' '}
                                 <em>OET</em> include:
                             </p>
@@ -317,7 +317,7 @@ const Home: NextPage = () => {
                                 </small>
                             </p>
                             <p>
-                                <Link href='/Design/Overview'>
+                                <Link href='/Intro/Overview'>
                                     Read Overview
                                 </Link>
                             </p>
