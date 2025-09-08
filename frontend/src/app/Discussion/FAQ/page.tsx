@@ -19,7 +19,7 @@ function FAQ() {
                     <MainPageContent>
                         <p id='FAQTop' className={styles.FAQContentEntry}>
                             See our{' '}
-                            <Link href='/Design/Overview'>overview page</Link>{' '}
+                            <Link href='/Intro/Overview'>overview page</Link>{' '}
                             for information about the <em>OET</em> translation
                             philosophy and the various <em>OET</em> versions.
                         </p>
@@ -171,7 +171,7 @@ function FAQ() {
                         </p>
                         <p className={styles.FAQContentEntry}>
                             See our{' '}
-                            <Link href='/Design/Overview'>overview page</Link>{' '}
+                            <Link href='/Intro/Overview'>overview page</Link>{' '}
                             for information about the <em>OET</em> translation
                             philosophy and the various <em>OET</em> versions.
                         </p>
@@ -188,9 +188,20 @@ function FAQ() {
                         </h2>
                         <p className={styles.FAQAnswer}>
                             The <em>OET</em> translation isn’t completed yet so
-                            it’s not yet available. However, more information
-                            can be found on the{' '}
-                            <Link component={NextLink} href='Downloads/'>
+                            PDF and other downloads aren’t available yet.
+                            However, it can be read online{' '}
+                            <Link
+                                component={NextLink}
+                                href='https://Freely-Given.org/OBD/OET/'
+                            >
+                                here
+                            </Link>{' '}
+                            plus more information on downloads can be found on
+                            our{' '}
+                            <Link
+                                component={NextLink}
+                                href='/Resources/Downloads/'
+                            >
                                 Downloads page
                             </Link>
                             .

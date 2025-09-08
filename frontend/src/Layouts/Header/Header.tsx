@@ -10,6 +10,7 @@ import { BigHomeLogo, SmallHomeLogo } from '../../Assets/SVGs';
 import SideMenu from '../../Components/menu/SideMenu/SideMenu';
 import About from '../../Components/navDropdowns/About';
 import Design from '../../Components/navDropdowns/Design';
+import Intro from '../../Components/navDropdowns/Intro';
 import Resources from '../../Components/navDropdowns/Resources';
 import Discussion from '../../Components/navDropdowns/Discussion';
 
@@ -25,6 +26,7 @@ const Header: NextPage = () => {
                 </Link>
             </div>
             <nav className={styles['big-nav']}>
+                <Intro />
                 <Design />
                 <Link component={NextLink} href='/Reader'>
                     Reader
@@ -41,6 +43,9 @@ const Header: NextPage = () => {
                         className={styles.close_side_menu}
                     />
                     <ul className={styles['phone-nav']}>
+                        <li>
+                            <Intro phoneNav={true} />
+                        </li>
                         <li>
                             <Design phoneNav={true} />
                         </li>

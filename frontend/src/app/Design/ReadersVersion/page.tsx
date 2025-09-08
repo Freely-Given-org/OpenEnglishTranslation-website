@@ -354,7 +354,7 @@ function RV() {
                         </p>
                         <p>
                             <small>
-                                Note: Remember that the <em>OET</em> has our
+                                Note: Remember that the <em>OET</em> has our
                                 (very) <em>Literal Version</em> right there
                                 beside our <em>Readers’ Version</em> so that the
                                 serious student can also look across to that

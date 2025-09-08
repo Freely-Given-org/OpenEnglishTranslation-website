@@ -50,7 +50,7 @@ const Home: NextPage = () => {
                             </p>
                             <p>
                                 You can read more details in the{' '}
-                                <Link href='/Design/Overview'>Overview</Link>,
+                                <Link href='/Intro/Overview'>Overview</Link>,
                                 but some of the <b>distinctives</b> of the{' '}
                                 <em>OET</em> include:
                             </p>
@@ -171,8 +171,8 @@ const Home: NextPage = () => {
                                 </li>
                             </ul>
                             <p id='progress'>
-                                Currently as of early-September 2025, we have
-                                the first draft of ‘The Messianic Update’ (New
+                                Currently as of mid-September 2025, we have the
+                                first draft of ‘The Messianic Update’ (New
                                 Testament) available, plus most of the Old
                                 Testament books (Genesis, Exodus, Joshua,
                                 Judges, Ruth, 1&2 Samuel, 1&2 Kings, Ezra,
@@ -180,14 +180,14 @@ const Home: NextPage = () => {
                                 Ecclesiastes, Song of Songs, Lamentations,
                                 Daniel, Hosea, Joel, Amos, Obadiah, Jonah,
                                 Micah, Nahum, Habakkuk, Zephaniah, Haggai,
-                                Zechariah, and Malachi, over half of Ezekiel,
-                                and some of 1 Chronicles and Proverbs, combining
-                                to 62% of the Hebrew scriptures), so a total of{' '}
-                                <b>72% of the Bible now drafted</b>. That’s
-                                plenty for you to get an idea of the style that
-                                we’re aiming for, although some decisions (even
-                                some major ones) are still in flux (and will be
-                                for quite some time yet).
+                                Zechariah, and Malachi, over half of Ezekiel, a
+                                third of 1 Chronicles, and some of Proverbs,
+                                combining to 63% of the Hebrew scriptures), so a
+                                total of <b>73% of the Bible now drafted</b>.
+                                That’s plenty for you to get an idea of the
+                                style that we’re aiming for, although some
+                                decisions (even some major ones) are still in
+                                flux (and will be for quite some time yet).
                             </p>
                             <p>
                                 But we’re also{' '}
@@ -317,7 +317,7 @@ const Home: NextPage = () => {
                                 </small>
                             </p>
                             <p>
-                                <Link href='/Design/Overview'>
+                                <Link href='/Intro/Overview'>
                                     Read Overview
                                 </Link>
                             </p>
