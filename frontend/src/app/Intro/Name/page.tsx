@@ -33,12 +33,13 @@ function Name() {
                             </li>
                             <li>
                                 <b>English</b> because it’s an English
-                                translation. <b>Modern English. Our English.</b>{' '}
+                                translation: <b>Modern English. Our English.</b>{' '}
                                 (It seems a little ethnocentric to leave the
                                 language qualifier out of the title of a Bible
-                                translation, although it’s true that in most
-                                cases that language of the title itself
-                                indicates the language of the translation.)
+                                translation, as in ‘Holy Bible’ or similar,
+                                although it’s true that in most cases that
+                                language of the title itself indicates the
+                                language of the translation.)
                             </li>
                             <li>
                                 <b>Translation</b> just to remind readers/users

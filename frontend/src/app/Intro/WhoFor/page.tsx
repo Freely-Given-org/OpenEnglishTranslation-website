@@ -36,7 +36,7 @@ function WhoFor() {
                                 pronoun Hebrew names more like how they should
                                 be pronounced (and not limited by the Greek
                                 alphabet like most traditional Biblical English
-                                names).
+                                names have been).
                             </li>
                         </ol>
                         <h1>
@@ -58,8 +58,8 @@ function WhoFor() {
                             <li>
                                 thinks church and Bible tradition is more
                                 important than implementing advances in
-                                translation knowledge and changes in our modern
-                                English language.
+                                translation knowledge and updating for changes
+                                in our modern English language.
                             </li>
                             <li>
                                 thinks the colour and quality of the leather and

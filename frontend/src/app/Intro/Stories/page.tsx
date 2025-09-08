@@ -26,8 +26,8 @@ function Stories() {
                             I grew up with Bibles with the term ‘L
                             <small>ORD</small>’ in them, and the only
                             translations that I was aware of that used ‘Yahweh’
-                            (or ‘Jehovah’) were Roman Catholic Bibles. So when I
-                            started reading the{' '}
+                            (or the mistaken ‘Jehovah’) were Roman Catholic
+                            Bibles. So when I started reading the{' '}
                             <em>Open English Translation</em>, it definitely did
                             feel a bit unusual for a while.
                         </p>
@@ -50,10 +50,10 @@ function Stories() {
                             <small>ORD</small>.” i.e., using the name which
                             we’re not allowed to pronounce and which many
                             Christians these days don’t even know! (Not to
-                            mention that we had to add the English article ‘the’
-                            even though that wasn’t in the Hebrew.) Obviously
-                            people back in those times didn’t hesitate to
-                            pronounce Yahweh’s name if they used it in
+                            mention that they had to add the English article
+                            ‘the’ even though that wasn’t in the Hebrew.)
+                            Obviously people back in those times didn’t hesitate
+                            to pronounce Yahweh’s name if they used it in
                             blessings!
                         </p>
                         <h2>More coming ...</h2>
