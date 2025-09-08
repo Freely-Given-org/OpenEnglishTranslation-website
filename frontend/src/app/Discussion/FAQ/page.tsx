@@ -188,9 +188,20 @@ function FAQ() {
                         </h2>
                         <p className={styles.FAQAnswer}>
                             The <em>OET</em> translation isn’t completed yet so
-                            it’s not yet available. However, more information
-                            can be found on the{' '}
-                            <Link component={NextLink} href='Downloads/'>
+                            PDF and other downloads aren’t available yet.
+                            However, it can be read online{' '}
+                            <Link
+                                component={NextLink}
+                                href='https://Freely-Given.org/OBD/OET/'
+                            >
+                                here
+                            </Link>{' '}
+                            plus more information on downloads can be found on
+                            our{' '}
+                            <Link
+                                component={NextLink}
+                                href='/Resources/Downloads/'
+                            >
                                 Downloads page
                             </Link>
                             .

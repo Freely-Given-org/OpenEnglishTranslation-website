@@ -4,14 +4,6 @@ const menu: dropMenu = {
     title: 'Design',
     items: [
         {
-            name: 'Overview',
-            link: '/Intro/Overview',
-        },
-        {
-            name: 'Name',
-            link: '/Intro/Name',
-        },
-        {
             name: 'Readers’ Version',
             link: '/Design/ReadersVersion',
         },

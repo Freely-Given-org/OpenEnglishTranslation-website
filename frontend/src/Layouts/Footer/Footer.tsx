@@ -81,9 +81,6 @@ function Footer() {
                             <Link href={'/About/Partners'}>Our partners</Link>
                         </li>
                         <li>
-                            <Link href={'/About/Licence'}>Licence</Link>
-                        </li>
-                        <li>
                             <Link href={'/About/Contact'}>Contact us</Link>
                         </li>
                     </ul>
@@ -110,7 +107,7 @@ function Footer() {
                     </a>
                 </span>
                 <span className={styles['buildNotes']}>
-                    (Site last built: 7 Sept 2025)
+                    (Site last built: 8 Sept 2025)
                 </span>
             </div>
         </div>
