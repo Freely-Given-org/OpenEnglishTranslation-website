@@ -17,8 +17,65 @@ function StyleEssays() {
                     <MainPageContent>
                         <h1>Essays on some style decisions</h1>
                         <h2>(Things like layout and punctuation)</h2>
+                        <h2 id='capitalisation'>Capitalisation</h2>
+                        <p>
+                            The <em>OET</em> uses capital letters at the start
+                            of sentences and to proper nouns (and we include
+                            ‘God’ in that) as per standard, modern English, but
+                            we don’t add artificial capitalisation to pronouns
+                            and we try to limit the addition of capitalisation
+                            to terms like ‘Kingdom of Heaven’. We say
+                            ‘addition’, because there’s no capitalisation at all
+                            in the original Hebrew and Greek manuscripts.
+                        </p>
+                        <p>
+                            As an example of where translators are divided over
+                            the interpretation of a word, look at the different
+                            capitalisation in the different versions displayed
+                            on{' '}
+                            <Link href='https://Freely-Given.org/OBD/par/CH1/C12V18.htm#ULT'>
+                                our parallel verse page for 1 Chr 12:18
+                            </Link>
+                            . The original text{' '}
+                            <Link href='https://Freely-Given.org/OBD/par/CH1/C12V18.htm#OET-LV'>
+                                says
+                            </Link>
+                            , ‘And spirit clothed Amasai …’. But some
+                            translations add the definite article and
+                            capitalisation to get ‘the Spirit’ which is a valid
+                            interpretation, even though it’s usually invisible
+                            to the reader that it’s been done. Other
+                            translations (like{' '}
+                            <Link href='https://Freely-Given.org/OBD/par/CH1/C12V18.htm#NET'>
+                                NET
+                            </Link>
+                            )have ‘a spirit’ with a footnote to explain their
+                            decision to the reader.
+                        </p>
+                        <p>
+                            All to say that most English readers don't realise
+                            that those capitalised terms are interpretations
+                            made by translators. Since one of the aims of the{' '}
+                            <em>OET</em> is to make readers think more, we’ve
+                            decided not to add capitalisation any more than we
+                            need to.
+                        </p>
+                        <p>
+                            (You should note, however, that we <em>do</em> mark
+                            the emphasis known as <em>nomina sacra</em> (or
+                            ‘sacred names’—see{' '}
+                            <Link href='#nominaSacra'>below</Link>) that does
+                            come from the original Greek manuscripts.)
+                        </p>
                         <h1>OET Literal Version</h1>
-                        <p>Coming…</p>
+                        <h2 id='nominaSacra'>Nomina sacra (sacred names)</h2>
+                        <p>
+                            Some of the original New Testament Greek manuscripts
+                            contain a scribal device that’s been given the Latin
+                            name <em>nomina sacra</em> (meaning ‘sacred names’).
+                        </p>
+                        <p>More coming…</p>
+                        <h2>More coming…</h2>
                         <h1>OET Readers' Version</h1>
                         <h2 id='poetry'>Poetry</h2>
                         <p>

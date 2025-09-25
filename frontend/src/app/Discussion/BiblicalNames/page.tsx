@@ -218,9 +218,10 @@ function BiblicalNames() {
                             own. It should also be noted that ‘sh’ is a common
                             English consonant sound, as are ‘ch’ and ‘th’{' '}
                             <small>
-                                (although the latter has two distinct{' '}
-                                pronunciations as can be seen in the words
-                                ‘this’ and ‘thistle’)
+                                (although even some native speakers of English
+                                aren’t consciously aware that the latter has two
+                                distinct pronunciations as can be seen in the
+                                words ‘this’ and ‘thistle’)
                             </small>
                             .
                         </p>
