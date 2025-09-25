@@ -27,8 +27,8 @@ const Home: NextPage = () => {
                                 Bible said something like, “This is a careful,
                                 modern-English translation of God’s messages to
                                 mankind that have been preserved through the
-                                centuries despite much opposition and
-                                blood-shed, <b>and it’s free for you to use</b>
+                                centuries despite much opposition and bloodshed,{' '}
+                                <b>and it’s free for you to use</b>
                                 ”!
                             </p>
                             <h1>The English translation for the 2030’s</h1>
@@ -171,23 +171,20 @@ const Home: NextPage = () => {
                                 </li>
                             </ul>
                             <p id='progress'>
-                                Currently as of mid-September 2025, we have the
-                                first draft of ‘The Messianic Update’ (New
-                                Testament) available, plus most of the Old
-                                Testament books (Genesis, Exodus, Joshua,
-                                Judges, Ruth, 1&2 Samuel, 1&2 Kings, Ezra,
-                                Nehemiah, Esther, Job, Songs/Psalms,
-                                Ecclesiastes, Song of Songs, Lamentations,
-                                Daniel, Hosea, Joel, Amos, Obadiah, Jonah,
-                                Micah, Nahum, Habakkuk, Zephaniah, Haggai,
-                                Zechariah, and Malachi, over half of Ezekiel, a
-                                third of 1 Chronicles, and some of Proverbs,
-                                combining to 63% of the Hebrew scriptures), so a
-                                total of <b>73% of the Bible now drafted</b>.
-                                That’s plenty for you to get an idea of the
-                                style that we’re aiming for, although some
-                                decisions (even some major ones) are still in
-                                flux (and will be for quite some time yet).
+                                Currently as of late-September 2025, we have a
+                                first draft of most of the sixty-six Bible
+                                ‘books’{' '}
+                                <small>
+                                    excluding Leviticus, Numbers, Deuteronomy,
+                                    1&2 Chronicles, Proverbs, Isaiah, Jeremiah,
+                                    and Ezekiel
+                                </small>
+                                . That comes to 65% of the Hebrew scriptures
+                                drafted, or for the whole Bible, 74%. That’s
+                                plenty for you to get an idea of the style that
+                                we’re aiming for, although some decisions (even
+                                some major ones) are still in flux (and will be
+                                for quite some time yet).
                             </p>
                             <p>
                                 But we’re also{' '}
@@ -213,7 +210,7 @@ const Home: NextPage = () => {
                                     '/assets/sixteen-miles-out-MLOZazGGCb8-unsplash.jpg'
                                 }
                                 alt='Picture of an open Bible'
-                                width={500}
+                                width={450}
                                 height={333.333}
                             />
                             <p>

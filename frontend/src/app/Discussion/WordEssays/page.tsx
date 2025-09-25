@@ -207,6 +207,24 @@ function WordEssays() {
                             </Link>
                             .
                         </p>
+                        <p>
+                            Also, despite what might be stamped onto the front
+                            cover of your older Bible, the scriptures don’t
+                            describe themselves as ‘The Word of God’ or even
+                            ‘The Message of God’, but rather that title is used
+                            to refer to the Messiah Yeshua (Jesus) himself,
+                            e.g., see{' '}
+                            <Link href='https://Freely-Given.org/OBD/OET/bySec/JHN_S2.htm#V1'>
+                                Yohan (John) 1:1-5
+                            </Link>{' '}
+                            and{' '}
+                            <Link href='https://Freely-Given.org/OBD/OET/bySec/REV_S34.htm#Top'>
+                                Rev. 19:13
+                            </Link>
+                            . (That sacred connection to Yeshua gets trampled on
+                            if we reassign ‘God’s Message’ to ink scratches on a
+                            piece of dead animal skin.)
+                        </p>
                         <h2 id='arise'>Arise/Arose</h2>
                         <p>
                             Was everyone in the Hebrew Scriptures sitting or

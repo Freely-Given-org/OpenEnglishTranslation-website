@@ -45,23 +45,22 @@ function Reader() {
                             </small>
                         </p>
                         <p>
+                            (
+                            <Link
+                                href='https://Freely-Given.org/OBD/OET/bySec/JHN_S2.htm#Top'
+                                target='_blank'
+                            >
+                                Open reader site in separate tab (recommended
+                                for best performance)
+                            </Link>
+                            )
+                        </p>
+                        <ReaderIframe src='https://Freely-Given.org/OBD/OET/bySec/JHN_S2.htm#Top' />
+                        <p>
                             See the{' '}
                             <Link href='/About/Contact'>contact page</Link> to
                             submit any errors or suggestions.
                         </p>
-                        <p>
-                            <small>
-                                (
-                                <Link
-                                    href='https://Freely-Given.org/OBD/OET/bySec/JHN_S2.htm#Top'
-                                    target='_blank'
-                                >
-                                    Open reader site in separate tab
-                                </Link>
-                                )
-                            </small>
-                        </p>
-                        <ReaderIframe src='https://Freely-Given.org/OBD/OET/bySec/JHN_S2.htm#Top' />
                     </MainPageContent>
                 </Page>
             </Main>
