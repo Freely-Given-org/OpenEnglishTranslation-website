@@ -36,12 +36,14 @@ function Reader() {
                         <p>
                             <small>
                                 You should note that the <em>OET</em> project is
-                                still in the very early, startup phases and so
-                                you are viewing very early, rough drafts of the
-                                New Testament and some Old Testament books made
-                                available to demonstrate some of the concepts
-                                and for early users to start testing. The{' '}
+                                still in the startup phase and so you are
+                                viewing early, rough drafts of the New Testament
+                                and some Old Testament books made available to
+                                demonstrate some of the concepts and for early
+                                users to start testing. The{' '}
                                 <em>OET Old Testament</em> drafting is ongoing.
+                                The text is suitable to use for Bible-study, but
+                                not yet recommended for memorisation.
                             </small>
                         </p>
                         <p>

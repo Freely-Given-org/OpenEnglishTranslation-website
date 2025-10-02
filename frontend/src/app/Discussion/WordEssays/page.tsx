@@ -196,8 +196,18 @@ function WordEssays() {
                         <h2 id='word'>Word</h2>
                         <p>
                             What’s a ‘word’? It usually refers to the things on
-                            this page. Greek ‘λόγος’ (logos) doesn't mean ‘word’
-                            … more coming … For now see the{' '}
+                            this page. Greek{' '}
+                            <Link href='https://en.wiktionary.org/wiki/%CE%BB%CF%8C%CE%B3%CE%BF%CF%82'>
+                                ‘λόγος’ (logos)
+                            </Link>{' '}
+                            doesn't mean ‘word’—that would be{' '}
+                            <Link href='https://en.wiktionary.org/wiki/%CE%BB%CE%AD%CE%BE%CE%B9%CF%82'>
+                                ‘λέξις’ (lexis)
+                            </Link>{' '}
+                            from which we get the English word ‘lexicon’. Greek
+                            ‘λόγος’ (logos) would be better translated into
+                            English as ‘account’, ‘message’, or ‘statement’. …
+                            more coming … For now see the{' '}
                             <Link href='/Discussion/Blog#word'>
                                 blog article
                             </Link>{' '}
@@ -221,7 +231,8 @@ function WordEssays() {
                             <Link href='https://Freely-Given.org/OBD/OET/bySec/REV_S34.htm#Top'>
                                 Rev. 19:13
                             </Link>
-                            . (That sacred connection to Yeshua gets trampled on
+                            . (That sacred connection to Yeshua being both the
+                            messenger and the message itself, gets trampled on
                             if we reassign ‘God’s Message’ to ink scratches on a
                             piece of dead animal skin.)
                         </p>
