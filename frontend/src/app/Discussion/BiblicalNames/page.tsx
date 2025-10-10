@@ -203,8 +203,8 @@ function BiblicalNames() {
                             for ‘yes’ which is spelt ‘ja’ but pronounced more
                             like ‘ya’. This has had a major effect on the first
                             letter of Hebrew names, because a large number of
-                            them start with the ‘Y’ sound (which would be ‘J’ in
-                            German).
+                            them start with the ‘Y’ sound (which would be spelt
+                            as ‘J’ in German).
                         </p>
                         <p>
                             <b>Modern English</b> has the following consonant
