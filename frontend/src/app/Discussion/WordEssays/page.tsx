@@ -193,6 +193,33 @@ function WordEssays() {
                             readers, it will feel considerably less ‘quaint’ or
                             ‘weird’ to first-time readers.
                         </p>
+                        <h2 id='you'>You (plural)</h2>
+                        <p>
+                            Most dialects of modern English don’t distinguish
+                            between <i>you (singular)</i> referring to just one
+                            person, and <i>you (plural)</i> referring to a group
+                            of two or more people (or three or more in Hebrew
+                            which has a dual form). However, the original
+                            languages clearly distinguish these, so in order to
+                            indicate this to our readers the{' '}
+                            <em>Literal Version</em> uses{' '}
+                            <i>
+                                you<span>_</span>all
+                            </i>{' '}
+                            for the plural form (although we’re aware that some
+                            modern dialects now prefer <i>yous</i> and others
+                            have used <i>y’all</i>).
+                        </p>
+                        <p>
+                            However, in our <em>Readers’ Version</em> (where we
+                            don’t want ugly markers like ‘you(pl)’), it’s not so
+                            simple. Sometimes it’s okay to use <i>you all</i>,
+                            and in other places we can change it within the
+                            context to <i>all of you</i>. However, you(plural)
+                            doesn’t necessarily mean <i>all of you</i>, just
+                            that there’s more than one of you.
+                        </p>
+                        <p>To be continued ....</p>
                         <h2 id='word'>Word</h2>
                         <p>
                             What’s a ‘word’? It usually refers to the things on
