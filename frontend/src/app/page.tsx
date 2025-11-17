@@ -171,18 +171,18 @@ const Home: NextPage = () => {
                                 </li>
                             </ul>
                             <p id='progress'>
-                                Currently as of late-October 2025, we have a
+                                Currently as of mid-November 2025, we have a
                                 first draft of most of the sixty-six Bible
                                 ‘books’{' '}
                                 <small>
-                                    excluding Leviticus, Numbers, Deuteronomy, 2
-                                    Chronicles, Proverbs, Isaiah, and Jeremiah
+                                    excluding Leviticus, Numbers, Deuteronomy,
+                                    Proverbs, Isaiah, and Jeremiah
                                 </small>
-                                . That comes to 70% of the Bible drafted, which
-                                is plenty for you to get an idea of the style
+                                . Now 80% of the Bible is drafted, which is
+                                plenty for you to get a good idea of the style
                                 that we’re aiming for, although some decisions
                                 (even some major ones) are still in flux (and
-                                will be for a some time yet).
+                                will be for a some months yet).
                             </p>
                             <p>
                                 But we’re also{' '}

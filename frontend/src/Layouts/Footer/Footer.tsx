@@ -107,7 +107,7 @@ function Footer() {
                     </a>
                 </span>
                 <span className={styles['buildNotes']}>
-                    (Site last built: 30 Oct 2025)
+                    (Site last built: 17 Nov 2025)
                 </span>
             </div>
         </div>
