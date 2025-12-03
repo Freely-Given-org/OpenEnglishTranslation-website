@@ -24,7 +24,7 @@ function StyleEssays() {
                             ‘God’ in that) as per standard, modern English, but
                             we don’t add artificial capitalisation to pronouns
                             and we try to limit the addition of capitalisation
-                            to terms like ‘Kingdom of Heaven’. We say
+                            in terms like ‘Kingdom of Heaven’. We say
                             ‘addition’, because there’s no capitalisation at all
                             in the original Hebrew and Greek manuscripts.
                         </p>
@@ -49,8 +49,12 @@ function StyleEssays() {
                             <Link href='https://Freely-Given.org/OBD/par/CH1/C12V18.htm#NET'>
                                 NET
                             </Link>
-                            )have ‘a spirit’ with a footnote to explain their
-                            decision to the reader.
+                            ) have ‘a spirit’ with a footnote to explain their
+                            decision to the reader (although we're{' '}
+                            <Link href='https://netbible.com/faq/'>
+                                prohibited
+                            </Link>{' '}
+                            from displaying those NET footnotes).
                         </p>
                         <p>
                             All to say that most English readers don't realise
