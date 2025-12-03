@@ -46,7 +46,7 @@ function CE() {
                                 <em>Explorers’ Edition</em>. (The{' '}
                                 <em>Scripted Bible Editor</em> is also used to
                                 help create the <em>OET Literal Version</em>{' '}
-                                from the Greek.)
+                                from the Hebrew and Greek.)
                             </small>
                         </p>
                     </MainPageContent>
