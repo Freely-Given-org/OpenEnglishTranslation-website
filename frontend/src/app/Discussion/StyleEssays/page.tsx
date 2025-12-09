@@ -50,7 +50,7 @@ function StyleEssays() {
                                 NET
                             </Link>
                             ) have ‘a spirit’ with a footnote to explain their
-                            decision to the reader (although we're{' '}
+                            decision to the reader (although we’re{' '}
                             <Link href='https://netbible.com/faq/'>
                                 prohibited
                             </Link>{' '}
@@ -274,6 +274,12 @@ function StyleEssays() {
                             complement each other, thus helping to indicate the
                             potential range of meaning for that specific Hebrew
                             or Greek word.
+                        </p>
+                        <p>
+                            Some people might even have fun calling the{' '}
+                            <em>OET Readers’ Version</em> an{' '}
+                            <em>anti-literal</em> translation, but we’d take
+                            that as a compliment. 😀
                         </p>
                         <h2 id='saying'>Saying—direct speech</h2>
                         <p>Coming…</p>

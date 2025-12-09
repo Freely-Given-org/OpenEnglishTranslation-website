@@ -28,7 +28,7 @@ function Challenge() {
                             and type in a description of the problem so we can
                             investigate it. If it’s a typo or a simple
                             inconsistency, no need to make any justification for
-                            a fix. (Or if you're familiar with Git, go ahead and
+                            a fix. (Or if you’re familiar with Git, go ahead and
                             submit a merge request / PR.)
                         </p>
                         <p>

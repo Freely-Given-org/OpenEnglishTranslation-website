@@ -19,7 +19,7 @@ function Notes() {
                         <h2>Project stages</h2>
                         <p>
                             We are currently in ‘first-draft mode’. This means
-                            that we're trying to fill in all 31,102 Bible verses
+                            that we’re trying to fill in all 31,102 Bible verses
                             with text, so that we have a Bible that we can at
                             least start reading and find every reference.
                             However, drafting is only stage one of a
@@ -84,7 +84,7 @@ function Notes() {
                             In our <em>OET Readers’ Version</em> translation, we
                             now attempt to mark up where we change it from a
                             literal translation, e.g., if we change the ‘The
-                            wealthy man says’ to ‘Wealthy people say’ then we've
+                            wealthy man says’ to ‘Wealthy people say’ then we’ve
                             made a change in <em>number</em> (i.e., from
                             singular to plural) and we mark that. You can see
                             the kinds of things that we annotate on our{' '}
