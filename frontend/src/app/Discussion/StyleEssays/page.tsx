@@ -275,7 +275,12 @@ function StyleEssays() {
                             potential range of meaning for that specific Hebrew
                             or Greek word.
                         </p>
-                        <p>Some people might even have fun calling the <em>OET Readers’ Version</em> an <em>anti-literal</em> translation, but we’d take that as a compliment. 😀</p>
+                        <p>
+                            Some people might even have fun calling the{' '}
+                            <em>OET Readers’ Version</em> an{' '}
+                            <em>anti-literal</em> translation, but we’d take
+                            that as a compliment. 😀
+                        </p>
                         <h2 id='saying'>Saying—direct speech</h2>
                         <p>Coming…</p>
                         <h2 id='surpriseParticle'>Surprise particle</h2>
