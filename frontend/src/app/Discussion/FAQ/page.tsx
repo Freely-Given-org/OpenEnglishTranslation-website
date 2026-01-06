@@ -1,6 +1,5 @@
 'use client';
 
-import { Link } from '@mui/material';
 import NextLink from 'next/link';
 
 import styles from './FAQ.module.scss';
@@ -19,7 +18,7 @@ function FAQ() {
                     <MainPageContent>
                         <p id='FAQTop' className={styles.FAQContentEntry}>
                             See our{' '}
-                            <Link href='/Intro/Overview'>overview page</Link>{' '}
+                            <NextLink href='/Intro/Overview'>overview page</NextLink>{' '}
                             for information about the <em>OET</em> translation
                             philosophy and the various <em>OET</em> versions.
                         </p>
@@ -30,156 +29,156 @@ function FAQ() {
                         </p>
                         <p>
                             Use the{' '}
-                            <Link href='/About/Contact'>contact page</Link> to
+                            <NextLink href='/About/Contact'>contact page</NextLink> to
                             submit additional questions.
                         </p>
                         <h1>Frequently Asked Questions</h1>
                         <p className={styles.FAQContentEntry}>
-                            <Link
-                                component={NextLink}
+                            <NextLink
+                                
                                 href='#Download'
                                 passHref
                             >
                                 Where can I download the <em>OET</em> from?
-                            </Link>
+                            </NextLink>
                         </p>
                         <p className={styles.FAQContentEntry}>
-                            <Link component={NextLink} href='#SoLong' passHref>
+                            <NextLink  href='#SoLong' passHref>
                                 Why’s the <em>OET</em> taking so long?
-                            </Link>
+                            </NextLink>
                         </p>
                         <p className={styles.FAQContentEntry}>
-                            <Link component={NextLink} href='#SoMany'>
+                            <NextLink  href='#SoMany'>
                                 Why are there so many translations?
-                            </Link>
+                            </NextLink>
                         </p>
                         <p className={styles.FAQContentEntry}>
-                            <Link
-                                component={NextLink}
+                            <NextLink
+                                
                                 href='#Different'
                                 passHref
                             >
                                 Why is the <em>OET</em> different from other
                                 translations?
-                            </Link>
+                            </NextLink>
                         </p>
                         <p className={styles.FAQContentEntry}>
-                            <Link component={NextLink} href='#Dialect' passHref>
+                            <NextLink  href='#Dialect' passHref>
                                 Which English dialect and spelling system does
                                 the <em>OET</em> use?
-                            </Link>
+                            </NextLink>
                         </p>
                         <p className={styles.FAQContentEntry}>
-                            <Link
-                                component={NextLink}
+                            <NextLink
+                                
                                 href='#Anachronisms'
                                 passHref
                             >
                                 Isn’t the <em>OET</em> anachronistic when it
                                 uses modern concepts that didn’t exist back in
                                 Bible times?
-                            </Link>
+                            </NextLink>
                         </p>
                         <p className={styles.FAQContentEntry}>
-                            <Link component={NextLink} href='#Why' passHref>
+                            <NextLink  href='#Why' passHref>
                                 Why is the <em>OET</em> even needed?
-                            </Link>
+                            </NextLink>
                         </p>
                         <p className={styles.FAQContentEntry}>
-                            <Link component={NextLink} href='#OTNT' passHref>
+                            <NextLink  href='#OTNT' passHref>
                                 Why doesn’t the <em>OET</em> use the names{' '}
                                 <em>Old Testament</em> and{' '}
                                 <em>New Testament</em>?
-                            </Link>
+                            </NextLink>
                         </p>
                         <p className={styles.FAQContentEntry}>
-                            <Link component={NextLink} href='#CV' passHref>
+                            <NextLink  href='#CV' passHref>
                                 Why does the <em>OET</em> downplay chapter and
                                 verse numbers?
-                            </Link>
+                            </NextLink>
                         </p>
                         <p className={styles.FAQContentEntry}>
-                            <Link component={NextLink} href='#Tags' passHref>
+                            <NextLink  href='#Tags' passHref>
                                 Why does the <em>OET</em> have funny characters
                                 in the files?
-                            </Link>
+                            </NextLink>
                         </p>
                         <p className={styles.FAQContentEntry}>
-                            <Link
-                                component={NextLink}
+                            <NextLink
+                                
                                 href='#BookOrder'
                                 passHref
                             >
                                 Why does the <em>OET</em> have the books in a
                                 different order?
-                            </Link>
+                            </NextLink>
                         </p>
                         <p className={styles.FAQContentEntry}>
-                            <Link component={NextLink} href='#ReleaseDate'>
+                            <NextLink  href='#ReleaseDate'>
                                 When is the expected release date?
-                            </Link>
+                            </NextLink>
                         </p>
                         <p className={styles.FAQContentEntry}>
-                            <Link href='#SourceFiles'>
+                            <NextLink href='#SourceFiles'>
                                 What is the format of the source files?
-                            </Link>
+                            </NextLink>
                         </p>
                         <p className={styles.FAQContentEntry}>
-                            <Link component={NextLink} href='#License' passHref>
+                            <NextLink  href='#License' passHref>
                                 What license does the <em>OET</em> have?
-                            </Link>
+                            </NextLink>
                         </p>
                         <p className={styles.FAQContentEntry}>
-                            <Link href='#Editor'>
+                            <NextLink href='#Editor'>
                                 Which Bible editor do you use?
-                            </Link>
+                            </NextLink>
                         </p>
                         <p className={styles.FAQContentEntry}>
-                            <Link
-                                component={NextLink}
+                            <NextLink
+                                
                                 href='#VersionsEditions'
                                 passHref
                             >
                                 What’s the difference between <i>versions</i>{' '}
                                 and <i>editions</i>?
-                            </Link>
+                            </NextLink>
                         </p>
                         <p className={styles.FAQContentEntry}>
-                            <Link component={NextLink} href='#LVQ' passHref>
+                            <NextLink  href='#LVQ' passHref>
                                 <b>Literal Version</b> questions
-                            </Link>
+                            </NextLink>
                         </p>
                         <p className={styles.FAQContentEntry}>
-                            <Link component={NextLink} href='#RVQ' passHref>
+                            <NextLink  href='#RVQ' passHref>
                                 <b>Readers’ Version</b> questions
-                            </Link>
+                            </NextLink>
                         </p>
                         <p className={styles.FAQContentEntry}>
-                            <Link component={NextLink} href='#CVQ' passHref>
+                            <NextLink  href='#CVQ' passHref>
                                 <b>Colloquial Version</b> questions
-                            </Link>
+                            </NextLink>
                         </p>
                         <p className={styles.FAQContentEntry}>
-                            <Link component={NextLink} href='#SVQ' passHref>
+                            <NextLink  href='#SVQ' passHref>
                                 <b>Study Version</b> questions
-                            </Link>
+                            </NextLink>
                         </p>
                         <p className={styles.FAQContentEntry}>
-                            <Link component={NextLink} href='#EVQ' passHref>
+                            <NextLink  href='#EVQ' passHref>
                                 <b>Extended Version</b> questions
-                            </Link>
+                            </NextLink>
                         </p>
                         <p className={styles.FAQContentEntry}>
                             See our{' '}
-                            <Link href='/Intro/Overview'>overview page</Link>{' '}
+                            <NextLink href='/Intro/Overview'>overview page</NextLink>{' '}
                             for information about the <em>OET</em> translation
                             philosophy and the various <em>OET</em> versions.
                         </p>
                         <p>
                             [
-                            <Link component={NextLink} href='#FAQTop'>
+                            <NextLink  href='#FAQTop'>
                                 Back to top
-                            </Link>
+                            </NextLink>
                             ]
                         </p>
                         <h1>Answers</h1>
@@ -190,27 +189,27 @@ function FAQ() {
                             The <em>OET</em> translation isn’t completed yet so
                             PDF and other downloads aren’t available yet.
                             However, it can be read online{' '}
-                            <Link
-                                component={NextLink}
+                            <NextLink
+                                
                                 href='https://Freely-Given.org/OBD/OET/'
                             >
                                 here
-                            </Link>{' '}
+                            </NextLink>{' '}
                             plus more information on downloads can be found on
                             our{' '}
-                            <Link
-                                component={NextLink}
+                            <NextLink
+                                
                                 href='/Resources/Downloads/'
                             >
                                 Downloads page
-                            </Link>
+                            </NextLink>
                             .
                         </p>
                         <p>
                             [
-                            <Link component={NextLink} href='#FAQTop'>
+                            <NextLink  href='#FAQTop'>
                                 Back to top
-                            </Link>
+                            </NextLink>
                             ]
                         </p>
                         <h2 className={styles.FAQ} id='SoLong'>
@@ -233,9 +232,9 @@ function FAQ() {
                         </p>
                         <p>
                             [
-                            <Link component={NextLink} href='#FAQTop'>
+                            <NextLink href='#FAQTop'>
                                 Back to top
-                            </Link>
+                            </NextLink>
                             ]
                         </p>
                         <h2 className={styles.FAQ} id='SoMany'>
@@ -295,9 +294,9 @@ function FAQ() {
                         </p>
                         <p>
                             [
-                            <Link component={NextLink} href='#FAQTop'>
+                            <NextLink  href='#FAQTop'>
                                 Back to top
-                            </Link>
+                            </NextLink>
                             ]
                         </p>
                         <h2 className={styles.FAQ} id='Different'>
@@ -332,9 +331,9 @@ function FAQ() {
                         </ul>
                         <p>
                             [
-                            <Link component={NextLink} href='#FAQTop'>
+                            <NextLink  href='#FAQTop'>
                                 Back to top
-                            </Link>
+                            </NextLink>
                             ]
                         </p>
                         <h2 className={styles.FAQ} id='Dialect'>
@@ -355,9 +354,9 @@ function FAQ() {
                         </p>
                         <p>
                             [
-                            <Link component={NextLink} href='#FAQTop'>
+                            <NextLink  href='#FAQTop'>
                                 Back to top
-                            </Link>
+                            </NextLink>
                             ]
                         </p>
                         <h2 className={styles.FAQ} id='Anachronisms'>
@@ -384,9 +383,9 @@ function FAQ() {
                         </p>
                         <p>
                             [
-                            <Link component={NextLink} href='#FAQTop'>
+                            <NextLink  href='#FAQTop'>
                                 Back to top
-                            </Link>
+                            </NextLink>
                             ]
                         </p>
                         <h2 className={styles.FAQ} id='Why'>
@@ -433,9 +432,9 @@ function FAQ() {
                         </ol>
                         <p>
                             [
-                            <Link component={NextLink} href='#FAQTop'>
+                            <NextLink  href='#FAQTop'>
                                 Back to top
-                            </Link>
+                            </NextLink>
                             ]
                         </p>
                         <h2 className={styles.FAQ} id='OTNT'>
@@ -475,9 +474,9 @@ function FAQ() {
                         </p>
                         <p>
                             [
-                            <Link component={NextLink} href='#FAQTop'>
+                            <NextLink  href='#FAQTop'>
                                 Back to top
-                            </Link>
+                            </NextLink>
                             ]
                         </p>
                         <h2 className={styles.FAQ} id='Tags'>
@@ -503,24 +502,24 @@ function FAQ() {
                             the <em>him</em> referred to is the person David. A
                             full list of tags and special characters can be
                             found{' '}
-                            <Link
-                                component={NextLink}
+                            <NextLink
+                                
                                 href='https://github.com/Freely-Given-org/ESFM'
                             >
                                 here
-                            </Link>
+                            </NextLink>
                             . Note also that a stripped copy of the files will
                             eventually also be provided on the{' '}
-                            <Link component={NextLink} href='Downloads/'>
+                            <NextLink  href='Downloads/'>
                                 Downloads page
-                            </Link>
+                            </NextLink>
                             .
                         </p>
                         <p>
                             [
-                            <Link component={NextLink} href='#FAQTop'>
+                            <NextLink  href='#FAQTop'>
                                 Back to top
-                            </Link>
+                            </NextLink>
                             ]
                         </p>
                         <h2 className={styles.FAQ} id='BookOrder'>
@@ -543,9 +542,9 @@ function FAQ() {
                         </p>
                         <p>
                             [
-                            <Link component={NextLink} href='#FAQTop'>
+                            <NextLink  href='#FAQTop'>
                                 Back to top
-                            </Link>
+                            </NextLink>
                             ]
                         </p>
                         <h2 className={styles.FAQ} id='ReleaseDate'>
@@ -564,19 +563,19 @@ function FAQ() {
                             the V1.0 release of the first two versions, so no
                             time frame is available for them yet. But if we can
                             recruit more{' '}
-                            <Link
-                                component={NextLink}
+                            <NextLink
+                                
                                 href='https://Freely-Given.org/Opportunities.html'
                             >
                                 volunteers
-                            </Link>
+                            </NextLink>
                             , it would be nice to speed up the progress.
                         </p>
                         <p>
                             [
-                            <Link component={NextLink} href='#FAQTop'>
+                            <NextLink  href='#FAQTop'>
                                 Back to top
-                            </Link>
+                            </NextLink>
                             ]
                         </p>
                         <h2 className={styles.FAQ} id='SourceFiles'>
@@ -584,79 +583,79 @@ function FAQ() {
                         </h2>
                         <p className={styles.FAQAnswer}>
                             The <em>OET</em> source files use our own{' '}
-                            <Link
-                                component={NextLink}
+                            <NextLink
+                                
                                 href='https://Freely-Given.org/Software/BibleDropBox/ESFMBibles.html'
                             >
                                 ESFM
-                            </Link>{' '}
+                            </NextLink>{' '}
                             format, which are human-readable Unicode text files
                             with embedded semantic markers. But each version
                             will be available in multiple exported formats for
                             download, including text,{' '}
-                            <Link
-                                component={NextLink}
+                            <NextLink
+                                
                                 href='https://www.libreoffice.org'
                             >
                                 LibreOffice
-                            </Link>{' '}
+                            </NextLink>{' '}
                             /
-                            <Link
-                                component={NextLink}
+                            <NextLink
+                                
                                 href='https://www.openoffice.org'
                             >
                                 OpenOffice
-                            </Link>{' '}
+                            </NextLink>{' '}
                             (
-                            <Link
-                                component={NextLink}
+                            <NextLink
+                                
                                 href='https://en.wikipedia.org/wiki/OpenDocument'
                             >
                                 ODF
-                            </Link>
+                            </NextLink>
                             ), and{' '}
-                            <Link
-                                component={NextLink}
+                            <NextLink
+                                
                                 href='https://en.wikipedia.org/wiki/Pdf'
                             >
                                 PDF
-                            </Link>{' '}
+                            </NextLink>{' '}
                             files (both of individual books and of entire
                             versions),{' '}
-                            <Link
-                                component={NextLink}
+                            <NextLink
+                                
                                 href='https://Freely-Given.org/Software/BibleDropBox/USFMBibles.html'
                             >
                                 USFM
-                            </Link>{' '}
+                            </NextLink>{' '}
                             and{' '}
-                            <Link
-                                component={NextLink}
+                            <NextLink
+                                
                                 href='https://Freely-Given.org/Software/BibleDropBox/USXBibles.html'
                             >
                                 USX
-                            </Link>{' '}
+                            </NextLink>{' '}
                             files,{' '}
-                            <Link
-                                component={NextLink}
+                            <NextLink
+                                
                                 href='https://Freely-Given.org/Software/BibleDropBox/OSISBibles.html'
                             >
                                 OSIS
-                            </Link>{' '}
+                            </NextLink>{' '}
                             files, and{' '}
-                            <Link
-                                component={NextLink}
+                            <NextLink
+                                
                                 href='https://www.idpf.org'
                             >
                                 Epub electronic book
-                            </Link>{' '}
+                            </NextLink>{' '}
                             files.
                         </p>
                         <p>
                             [
-                            <Link component={NextLink} href='#FAQTop'>
+                            <NextLink  href='#FAQTop'>
                                 Back to top
-                            </Link>
+                            </NextLink>
                             ]
                         </p>
                         <h2 className={styles.FAQ} id='License'>
@@ -664,33 +663,33 @@ function FAQ() {
                         </h2>
                         <p className={styles.FAQAnswer}>
                             It’s currently being released under a{' '}
-                            <Link
-                                component={NextLink}
+                            <NextLink
+                                
                                 href='https://CreativeCommons.org/About'
                             >
                                 Creative Commons
-                            </Link>{' '}
-                            <Link
-                                component={NextLink}
+                            </NextLink>{' '}
+                            <NextLink
+                                
                                 href='https://CreativeCommons.org/licenses/by-sa/4.0/'
                             >
                                 ‘share-alike’ license
-                            </Link>{' '}
+                            </NextLink>{' '}
                             with a future plan to put it all into the{' '}
-                            <Link
-                                component={NextLink}
+                            <NextLink
+                                
                                 href='https://wiki.creativecommons.org/Public_domain'
                             >
                                 public domain
-                            </Link>
-                            . See our <Link href='/About/Licence'>Licence</Link>{' '}
+                            </NextLink>
+                            . See our <NextLink href='/About/Licence'>Licence</NextLink>{' '}
                             page.
                         </p>
                         <p>
                             [
-                            <Link component={NextLink} href='#FAQTop'>
+                            <NextLink  href='#FAQTop'>
                                 Back to top
-                            </Link>
+                            </NextLink>
                             ]
                         </p>
                         <h2 className={styles.FAQ} id='Editor'>
@@ -698,12 +697,12 @@ function FAQ() {
                         </h2>
                         <p className={styles.FAQAnswer}>
                             We use our own{' '}
-                            <Link
-                                component={NextLink}
+                            <NextLink
+                                
                                 href='https://Freely-Given.org/Software/Biblelator/'
                             >
                                 Biblelator
-                            </Link>{' '}
+                            </NextLink>{' '}
                             Bible-translation editor which is still being
                             developed, but which already has most of the tools
                             working to enable Old Testament translation (still
@@ -724,23 +723,23 @@ function FAQ() {
                         </p>
                         <p>
                             [
-                            <Link component={NextLink} href='#FAQTop'>
+                            <NextLink  href='#FAQTop'>
                                 Back to top
-                            </Link>
+                            </NextLink>
                             ]
                         </p>
                         <h1 id='LVQ'>Literal Version Questions</h1>
                         <p className={styles.FAQContentEntry}>
-                            <Link href='#LVAim'>
+                            <NextLink href='#LVAim'>
                                 Who is the <em>Literal Version</em> intended
                                 for?
-                            </Link>
+                            </NextLink>
                         </p>
                         <p className={styles.FAQContentEntry}>
-                            <Link component={NextLink} href='#LVWoody'>
+                            <NextLink  href='#LVWoody'>
                                 Why doesn’t the <em>Literal Version</em> sound
                                 very fluent or natural?
-                            </Link>
+                            </NextLink>
                         </p>
                         <h2 className={styles.FAQ} id='LVAim'>
                             Who is the <em>Literal Version</em> intended for?
@@ -770,20 +769,20 @@ function FAQ() {
                         </p>
                         <p>
                             [
-                            <Link component={NextLink} href='#LVQ'>
+                            <NextLink  href='#LVQ'>
                                 Back to Literal Version top
-                            </Link>
+                            </NextLink>
                             ] &nbsp;&nbsp;&nbsp; [
-                            <Link component={NextLink} href='#FAQTop'>
+                            <NextLink  href='#FAQTop'>
                                 Back to FAQ top
-                            </Link>
+                            </NextLink>
                             ]
                         </p>
                         <h1 id='RVQ'>Readers’ Version Questions</h1>
                         <p className={styles.FAQContentEntry}>
-                            <Link component={NextLink} href='#RVAim'>
+                            <NextLink  href='#RVAim'>
                                 Who is the Readers’ Version intended for?
-                            </Link>
+                            </NextLink>
                         </p>
                         <h2 className={styles.FAQ} id='RVAim'>
                             Who is the Readers’ Version intended for?
@@ -799,20 +798,20 @@ function FAQ() {
                         </p>
                         <p>
                             [
-                            <Link component={NextLink} href='#RVQ'>
+                            <NextLink  href='#RVQ'>
                                 Back to Readers’ Version top
-                            </Link>
+                            </NextLink>
                             ] &nbsp;&nbsp;&nbsp; [
-                            <Link component={NextLink} href='#FAQTop'>
+                            <NextLink  href='#FAQTop'>
                                 Back to FAQ top
-                            </Link>
+                            </NextLink>
                             ]
                         </p>
                         <h1 id='CVQ'>Colloquial Version Questions</h1>
                         <p className={styles.FAQContentEntry}>
-                            <Link component={NextLink} href='#CVAim'>
+                            <NextLink  href='#CVAim'>
                                 Who is the Colloquial Version intended for?
-                            </Link>
+                            </NextLink>
                         </p>
                         <h2 className={styles.FAQ} id='CVAim'>
                             Who is the Colloquial Version intended for?
@@ -829,20 +828,20 @@ function FAQ() {
                         </p>
                         <p>
                             [
-                            <Link component={NextLink} href='#CVQ'>
+                            <NextLink  href='#CVQ'>
                                 Back to Colloquial Version top
-                            </Link>
+                            </NextLink>
                             ] &nbsp;&nbsp;&nbsp; [
-                            <Link component={NextLink} href='#FAQTop'>
+                            <NextLink  href='#FAQTop'>
                                 Back to FAQ top
-                            </Link>
+                            </NextLink>
                             ]
                         </p>
                         <h1 id='SVQ'>Study Version Questions</h1>
                         <p className={styles.FAQContentEntry}>
-                            <Link component={NextLink} href='#SVAim'>
+                            <NextLink  href='#SVAim'>
                                 Who is the Study Version intended for?
-                            </Link>
+                            </NextLink>
                         </p>
                         <h2 className={styles.FAQ} id='SVAim'>
                             Who is the Study Version intended for?
@@ -854,20 +853,20 @@ function FAQ() {
                         </p>
                         <p>
                             [
-                            <Link component={NextLink} href='#SVQ'>
+                            <NextLink  href='#SVQ'>
                                 Back to Study Version top
-                            </Link>
+                            </NextLink>
                             ] &nbsp;&nbsp;&nbsp; [
-                            <Link component={NextLink} href='#FAQTop'>
+                            <NextLink  href='#FAQTop'>
                                 Back to FAQ top
-                            </Link>
+                            </NextLink>
                             ]
                         </p>
                         <h1 id='EVQ'>Extended Version Questions</h1>
                         <p className={styles.FAQContentEntry}>
-                            <Link component={NextLink} href='#EVAim'>
+                            <NextLink  href='#EVAim'>
                                 Who is the Extended Version intended for?
-                            </Link>
+                            </NextLink>
                         </p>
                         <h2 className={styles.FAQ} id='EVAim'>
                             Who is the Extended Version intended for?
@@ -880,20 +879,20 @@ function FAQ() {
                         </p>
                         <p>
                             [
-                            <Link component={NextLink} href='#EVQ'>
+                            <NextLink  href='#EVQ'>
                                 Back to Extended Version top
-                            </Link>
+                            </NextLink>
                             ] &nbsp;&nbsp;&nbsp; [
-                            <Link component={NextLink} href='#FAQTop'>
+                            <NextLink  href='#FAQTop'>
                                 Back to FAQ top
-                            </Link>
+                            </NextLink>
                             ]
                         </p>
                         <p>
                             Use the{' '}
-                            <Link component={NextLink} href='/About/Contact'>
+                            <NextLink  href='/About/Contact'>
                                 contact page
-                            </Link>{' '}
+                            </NextLink>{' '}
                             to submit additional questions.
                         </p>
                     </MainPageContent>

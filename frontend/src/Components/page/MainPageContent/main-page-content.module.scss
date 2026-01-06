@@ -1,3 +1,63 @@
+@use '../../../variables';
+
 .main-page-content {
+    color: variables.$medium-blue;
+    font-size: 1.1rem;
     flex-basis: 65%;
+    max-width: 1040px;
+    margin-top: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+
+    h1, h2, h3, h4, h5, h6, p, ul, small {
+        margin: 0;
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+        margin-top: 1rem;
+        font-weight: 500;
+    }
+
+    h1 {
+        font-weight: 600;
+    }
+
+    ul {
+        padding: 0;
+        list-style-position: inside;
+    }
+
+    p {
+        margin-top: 1rem;
+        font-size: 1.1rem;
+        line-height: 1.5rem;
+    }
+
+    a {
+        font-weight: 500;
+        color: variables.$medium-blue;
+        text-decoration-thickness: 2px;
+        text-decoration-style: solid; 
+        text-decoration-color: variables.$accent-orange; 
+        transition-duration: 0.3s;
+
+        &:hover {
+            text-decoration-style: dotted;
+        }
+    }
+
+    iframe {
+        width: 100% !important;
+        height: 42rem;
+    }
+
+    img {
+        object-fit: contain; 
+        height: auto;
+        width: 100%;
+        margin: 0;
+    }
 }

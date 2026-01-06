@@ -1,72 +1,90 @@
+@use '../../variables';
+@use '../../breakpoints';
+
+
 .header {
     display: flex;
     height: 65px;
     flex-direction: row;
-    justify-content: space-between;
     align-items: center;
     margin: 0px;
-    flex: 0 0 auto;
-    border-top: #0a0461;
-    border-top-width: 7px;
-    border-top-style: solid;
-    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), 0 1px 4px rgba(0, 0, 0, 0.05),
-        0 2px 8px rgba(0, 0, 0, 0.05);
+    flex: 0 0 0 auto;
+
+    .inner {
+        height: 65px;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        max-width: 1040px;
+        padding: 0rem 0.5rem;
+        flex: 0 0 auto;
+        margin-left: auto;
+        margin-right: auto;
+
+        .cta-btn {
+            display: none !important;
+        }
+    }
 }
 
 .main-logo {
-    margin-left: 10px;
-    margin-top: 5px;
     height: inherit;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.main-logo:hover svg {
-    fill: #4a75e0;
-}
-
-.big-main-logo {
-    height: inherit;
-    width: 300px;
-}
-.small-main-logo {
-    height: 22.4px;
-    width: inherit;
+.main-logo {
+    height: 100%;
+    width: 8rem;
 }
 
 .big-nav {
     height: 100%;
-    display: flex;
-    background-color: whitesmoke;
-    padding-right: 20px;
+    display: none;
+    flex-direction: row;
+    background-color: #fff;
+    
+    button {
+        color: variables.$medium-blue;
+        font-family: inherit !important;
+        font-size: 1.1rem;
+        letter-spacing: 0.005rem;
+        font-weight: 500;
+        padding-right: 0.45rem;
+        padding-left: 0.45rem;
+    }
+
     a {
         display: flex;
         align-items: center;
-        padding-right: 8px;
-        padding-left: 8px;
-        color: black;
+        padding-right: 4px;
+        padding-left: 4px;
+        color: variables.$medium-blue;
         text-decoration: none;
-        font-size: 20px;
+        font-size: 1.1rem;
+        letter-spacing: 0.005rem;
+        font-weight: 500;
         &:hover {
-            color: #4a75e0;
-        }
-        &:active {
-            background-color: rgba(0, 0, 0, 0.15);
+            text-decoration: none;
         }
     }
 }
 
 .small-nav {
+    fill: variables.$medium-blue;
     display: flex !important;
-    font-size: 35px !important;
+    width: 32px !important;
     margin-right: 16px;
 }
 
-.close-side-menu {
-    margin: 12px 15px 12px auto;
-    width: 30px !important;
-    height: auto !important;
+.close-btn {
+    fill: variables.$medium-blue;
+    margin: 1rem;
+    width: 22px;
+    height: 22px;
 }
 
 .phone-nav {
@@ -74,31 +92,53 @@
     flex-direction: column;
     list-style: none;
     padding-left: 20px;
+
     li {
         display: flex;
+
+        button {
+            color: variables.$medium-blue;
+            font-family: inherit !important;
+            font-size: 1.2rem;
+            letter-spacing: 0.009rem;
+        }
+
         a {
-            padding-top: 6px;
+            padding-top: 1rem;
+            padding-left: 1.2rem;
             display: flex;
             width: 100%;
             text-decoration: none;
-            font-size: 20px;
-            color: black;
+            font-size: 1.2rem;
+            letter-spacing: 0.009rem;
+            color: variables.$medium-blue;
         }
     }
 }
 
-@media screen and (max-width: 800px) {
-    .big-nav,
-    .big-main-logo {
-        display: none;
+@include breakpoints.respond-to(small) {
+    .big-nav {
+        display: flex;
     }
-    .main-logo {
-        width: 70px;
-    }
-}
-@media screen and (min-width: 801px) {
-    .small-main-logo,
+
     .small-nav {
         display: none !important;
+    }
+
+    .header {
+        .inner {
+            .cta-btn {
+                display: block !important;
+            }
+        }
+    }
+}
+
+@include breakpoints.respond-to(medium) {
+    .big-nav {
+        button {
+            padding-right: 0.95rem;
+            padding-left: 0.95rem;
+        }
     }
 }

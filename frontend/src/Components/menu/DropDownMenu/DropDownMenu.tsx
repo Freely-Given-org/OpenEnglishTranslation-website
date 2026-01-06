@@ -2,7 +2,7 @@ import Link from 'next/link';
 import { useState } from 'react';
 
 import styles from './DropDownMenu.module.scss';
-import { Triangle } from '../../../Assets/SVGs';
+import { ChevronDownIcon } from '../../../Assets/SVGs';
 
 interface item {
     name: string;
@@ -26,7 +26,7 @@ function DropDownMenu({ menu, isPhoneNav }: Props) {
 
     const listItems = menu.items.map((item) => {
         return (
-            <li>
+            <li key={item.name}>
                 <Link href={item.link}>{item.name}</Link>
             </li>
         );
@@ -66,7 +66,7 @@ function DropDownMenu({ menu, isPhoneNav }: Props) {
             {isPhoneNav ? (
                 <div className={styles['phone-menu']} onClick={clicked}>
                     <button className={styles['phone-menu-name']}>
-                        <Triangle
+                        <ChevronDownIcon
                             className={`${styles['triangle']} ${
                                 MenuState ? styles['turn'] : null
                             }`}
@@ -91,6 +91,11 @@ function DropDownMenu({ menu, isPhoneNav }: Props) {
                             styles['menu-title']
                         } ${MenuState ? styles['drop-menu-title'] : ''}`}
                     >
+                        <ChevronDownIcon
+                            className={`${styles['big-triangle']} ${
+                                MenuState ? styles['big-turn'] : null
+                            }`}
+                        />
                         {menu.title}
                     </button>
 

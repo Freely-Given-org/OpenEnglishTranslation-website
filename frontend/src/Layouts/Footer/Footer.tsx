@@ -1,66 +1,60 @@
-import FacebookIcon from '@mui/icons-material/Facebook';
-import TwitterIcon from '@mui/icons-material/Twitter';
-import { Link } from '@mui/material';
-import NextLink from 'next/link';
+import { FacebookIcon, TwitterXIcon } from 'Assets/SVGs';
+import { WhiteLogo } from 'Assets/WhiteLogo';
+import Link  from 'next/link';
 
 import styles from './Footer.module.scss';
-import { BigHomeLogo } from '../../Assets/SVGs';
+
 
 function Footer() {
     return (
         <div className={styles['footer']}>
-            <div className={styles['footer-container']}>
-                <span className={styles['home-logo']}>
-                    <Link component={NextLink} href={'/'}>
-                        <BigHomeLogo className={styles['big-main-logo']} />
-                    </Link>
-                </span>
-                <div className={styles['link-list-left']}>
-                    <ul>
-                        <li>
-                            <Link href={'/Intro/Overview'}>Overview</Link>
-                        </li>
-                        <li>
-                            <Link href={'/Intro/Name'}>Name</Link>
-                        </li>
-                        <li>
-                            <Link href={'/Design/LiteralVersion'}>
-                                Literal Version
+            <div className={styles['inner']}>
+                <div className={styles['grid-cols']}>
+
+                    <div className={styles['column']}>
+                        <Link href={'/'}>
+                            <WhiteLogo className={styles['logo']} />
+                        </Link>
+                        <p className={styles['description']}>A new, exciting, radical, freely-licensed Bible translation.</p>
+                        <div className={styles['social-links']}>
+                            <Link href='https://x.com/OETBible' target='blank'>
+                                <TwitterXIcon className={styles['icon']} />
                             </Link>
-                        </li>
-                        <li>
-                            <Link href={'/Design/ReadersVersion'}>
-                                Readers’ Version
+                            <Link href='/' target='blank'>
+                                <FacebookIcon className={styles['icon']} />
                             </Link>
-                        </li>
+                        </div>
+                    </div>
+                    <div className={styles['column']}>
+                        <span className={styles['section-heading']}>Information</span>
+                        <ul>
                         <li>
-                            <Link href={'/Design/ExplorersEdition'}>
-                                Explorers’ Edition
-                            </Link>
+                            <Link href={'/Intro/WhoFor'}>Who is it for?</Link>
                         </li>
-                        <li>
-                            <Link href={'/Design/ConventionalEdition'}>
-                                Conventional Edition
-                            </Link>
-                        </li>
-                        <li>
-                            <Link href={'/Design/SourceTexts'}>
-                                Source texts
-                            </Link>
-                        </li>
-                        <li>
-                            <Link href={'/Discussion/FAQ'}>FAQs</Link>
-                        </li>
-                    </ul>
-                </div>
-                <div className={styles['link-list-right']}>
-                    <ul>
-                        <li>
-                            <Link href={'/Intro/WhoFor'}>Who for?</Link>
-                        </li>
-                        <li>
-                            <Link href={'/Intro/Stories'}>Stories</Link>
-                        </li>
+                            <li>
+                                <Link href={'/Intro/Overview'}>Overview</Link>
+                            </li>
+                            <li>
+                                <Link href={'/Intro/Name'}>Name</Link>
+                            </li>
+
+                            <li>
+                                <Link href={'/Design/SourceTexts'}>
+                                    Source texts
+                                </Link>
+                            </li>
+                            <li>
+                                <Link href={'/Discussion/FAQ'}>FAQs</Link>
+                            </li>
+                            <li>
+                                <Link href={'/Intro/Stories'}>Stories</Link>
+                            </li>
+                        </ul>
+
+                    </div>
+                    <div className={styles['column']}>
+                        <span className={styles['section-heading']}>About</span>
+                        <ul>
                         <li>
                             <Link href={'/About/OET'}>About OET</Link>
                         </li>
@@ -83,32 +77,48 @@ function Footer() {
                         <li>
                             <Link href={'/About/Contact'}>Contact us</Link>
                         </li>
-                    </ul>
+                        </ul>
+                    </div>
+                    <div className={styles['column']}>
+                        <span className={styles['section-heading']}>Versions</span>
+                        <ul>
+                            <li>
+                                <Link href={'/Design/LiteralVersion'}>
+                                    Literal Version
+                                </Link>
+                            </li>
+                            <li>
+                                <Link href={'/Design/ReadersVersion'}>
+                                    Readers’ Version
+                                </Link>
+                            </li>
+                            <li>
+                                <Link href={'/Design/ExplorersEdition'}>
+                                    Explorers’ Edition
+                                </Link>
+                            </li>
+                            <li>
+                                <Link href={'/Design/ConventionalEdition'}>
+                                    Conventional Edition
+                                </Link>
+                            </li>
+                            </ul>
+                    </div>
                 </div>
-                <div className={styles['nav-social']}>
-                    <a
-                        href='https://www.facebook.com/'
-                        className='social-icon'
-                        target='blank'
-                    >
-                        <FacebookIcon className={styles['facebook-icon']} />
-                    </a>
-                    <a href='https://twitter.com/OETBible'>
-                        <TwitterIcon className={styles['twitter-icon']} />
-                    </a>
+                <div className={styles['bottom']}>
+                    <span className={styles['copyright']}>
+                        Copyright &copy; 2022-2026 &nbsp;
+                        <a
+                            href='https://GitHub.com/Freely-Given-org'
+                            target='blank'
+                        >
+                            Freely-Given.org
+                        </a>
+                    </span>
+                    <span className={styles['buildnote']}>
+                        (Site last built: 23 Dec 2025)
+                    </span>
                 </div>
-                <span className={styles['copyright']}>
-                    Website copyright © 2022-2025 &nbsp;
-                    <a
-                        href='https://GitHub.com/Freely-Given-org'
-                        target='blank'
-                    >
-                        Freely-Given.org
-                    </a>
-                </span>
-                <span className={styles['buildNotes']}>
-                    (Site last built: 23 Dec 2025)
-                </span>
             </div>
         </div>
     );

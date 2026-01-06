@@ -1,9 +1,9 @@
 'use client';
 import { createTheme } from 'lib/mui';
-import { Roboto } from 'next/font/google';
+import { Hind } from 'next/font/google';
 
-const roboto = Roboto({
-  weight: ['300', '400', '500', '700'],
+const hind = Hind({
+  weight: ['300', '400', '500', '600', '700'],
   subsets: ['latin'],
   display: 'swap',
 });
@@ -13,7 +13,7 @@ const theme = createTheme({
     mode: 'light',
   },
   typography: {
-    fontFamily: roboto.style.fontFamily,
+    fontFamily: hind.style.fontFamily,
   },
   components: {
     MuiAlert: {
