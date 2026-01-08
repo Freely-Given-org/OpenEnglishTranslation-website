@@ -77,8 +77,7 @@ function Partners() {
                                 width={500}
                                 height={333.333}
                             />
-                            <p>
-                                  
+                           
                                 <small>
                                     Photo by{' '}
                                     <Link href='https://unsplash.com/@johnschno?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText'>
@@ -89,7 +88,6 @@ function Partners() {
                                         Unsplash
                                     </Link>
                                 </small>
-                            </p>
                         </div>
                         <h2 id='designers'>Designers and artists</h2>
                         <p>

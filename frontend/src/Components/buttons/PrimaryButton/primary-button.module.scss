@@ -1,0 +1,36 @@
+@use '../../../variables';
+
+
+.primary-button {
+    display: inline-flex;
+    align-items: center;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 600;
+    letter-spacing: 0.09pt;
+    background-color: variables.$accent-orange;
+    padding: 0.55rem 1.4rem;
+    text-decoration: none;
+    border-color: variables.$accent-orange;
+    border-radius: 5px;
+    border-width: variables.$btn-border-width;
+    border-style: solid;
+    transition: ease-in-out 0.15s;
+
+    &:hover {
+        color: variables.$medium-blue;
+        background-color: transparent;
+        border-color: variables.$medium-blue;
+    }
+
+    svg {
+        margin-left: 0.4rem;
+        width: 12px;
+        fill: #fff;
+        transition: ease-in-out 0.15s;
+    }
+
+    &:hover svg {
+        fill: variables.$medium-blue;
+    }
+}
