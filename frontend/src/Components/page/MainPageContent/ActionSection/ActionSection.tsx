@@ -13,7 +13,7 @@ export function ActionSection() {
                     text="What is the OET? Who is it for? Why was it created? A new, exciting, radical, freely-licensed Bible translation."
                     />
                 <ActionItem 
-                    link="/" 
+                    link="/Discussion/Blog" 
                     title="News"
                     iconType="news" 
                     text="As of early-January 2026, we have a first draft of most of the sixty-six Bible ‘books’ excluding Leviticus, Numbers, Proverbs, Isaiah, and Jeremiah. Now over 83% of the Bible is drafted."

@@ -9,6 +9,7 @@ import theme from 'theme';
 export default function RootLayout(props: { children: React.ReactNode }) {
   return (
     <html lang="en">
+      <title>Open English Translation</title>
       <body>
         <AppRouterCacheProvider options={{ enableCssLayer: true }}>
           <ThemeProvider theme={theme}>
