@@ -6,14 +6,10 @@ import { AppRouterCacheProvider } from '@mui/material-nextjs/v14-appRouter';
 import * as React from 'react';
 import theme from 'theme';
 
-export const metadata = {
-  title: 'Open English Translation',
-  description: 'A new, exciting, radical, freely-licensed Bible translation',
-};
-
 export default function RootLayout(props: { children: React.ReactNode }) {
   return (
     <html lang="en">
+      <title>Open English Translation</title>
       <body>
         <AppRouterCacheProvider options={{ enableCssLayer: true }}>
           <ThemeProvider theme={theme}>
