@@ -15,7 +15,7 @@ export function LicenseSection() {
                 <blockquote>
                     This is a careful, modern-English translation of God’s messages to mankind that have been preserved through the centuries despite much opposition and bloodshed, and <b>it’s free for you to use!</b>
                 </blockquote>
-                <SecondaryButton>
+                <SecondaryButton href='/About/Licence'>
                     Learn about the license
                     <ArrowRightIcon />
                 </SecondaryButton>
