@@ -291,7 +291,8 @@ function OET() {
                                 ‘New Testament’, the <em>OET</em> will use ‘The
                                 Hebrew scriptures’ and ‘The Messianic update’ to
                                 replace them (and to try to provoke our readers
-                                to think, and to learn more about Bible history).
+                                to think, and to learn more about Bible
+                                history).
                             </li>
                             <li id='italics'>
                                 <i>Italics</i> are only used for{' '}
@@ -580,6 +581,36 @@ function OET() {
                             in your own app or on your own website. Try finding
                             one—you’ll find plenty of apps but not the source
                             files.)
+                        </p>
+                        <h2>Websites</h2>
+                        <p>
+                            This website can be accessed from{' '}
+                            <Link href='https://OET.Bible'>OET.Bible</Link> or
+                            from{' '}
+                            <Link href='https://OpenEnglishTranslation.Bible'>
+                                OpenEnglishTranslation.Bible
+                            </Link>
+                            .
+                        </p>
+                        <p>
+                            Currently, the actual text of the <em>OET</em> is
+                            best read via the <i>Open Bible Data</i> project{' '}
+                            <Link href='https://Freely-Given.org/OBD/'>
+                                here
+                            </Link>
+                            . Note that the{' '}
+                            <Link href='https://Freely-Given.org/OBD/par/'>
+                                parallel verse pages
+                            </Link>{' '}
+                            and{' '}
+                            <Link href='https://Freely-Given.org/OBD/rel/'>
+                                related passage pages
+                            </Link>{' '}
+                            all feature the <em>OET</em>, as do the{' '}
+                            <Link href='https://Freely-Given.org/OBD/tpc/'>
+                                topical passage pages
+                            </Link>
+                            .
                         </p>
                     </MainPageContent>
                 </Page>
