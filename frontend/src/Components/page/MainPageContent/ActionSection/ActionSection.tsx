@@ -15,7 +15,7 @@ export function ActionSection() {
                     link='/Discussion/Blog'
                     title='News'
                     iconType='news'
-                    text='As of early March 2026, we have a first draft of most of the sixty-six Bible ‘books’ excluding Leviticus, Numbers, Isaiah, and Jeremiah. Now over 88% of the Bible is drafted.'
+                    text='As of mid-March 2026, we have a first draft of most of the sixty-six Bible ‘books’ excluding Leviticus, Isaiah, and Jeremiah. Now over 89% of the Bible is drafted.'
                 />
                 <ActionItem
                     link='/About/Partners'
