@@ -235,6 +235,21 @@ function Formats() {
                                 even that isn’t at all understandable.)
                             </li>
                         </ul>
+                        <p>
+                            <small>
+                                <b>Note</b>: There are four special characters (
+                                <Link href='#parallelism'>
+                                    <b>≈</b>, <b>^</b>, <b>→</b>
+                                </Link>
+                                , and{' '}
+                                <Link href='#other'>
+                                    <b>⇔</b>
+                                </Link>
+                                ) that can be used at the very beginning of a
+                                line, i.e., these are OUTSIDE of <b>\add</b>{' '}
+                                markers so are quite different from the above.
+                            </small>
+                        </p>
                         <h3 id='fNotesXrefs'>Footnotes and cross-references</h3>
                         <p>
                             We are planning to annotate the type of all of our
@@ -297,8 +312,33 @@ function Formats() {
                             <small>
                                 <b>Note</b>: This is different from when the{' '}
                                 <b>≈</b> and <b>^</b>characters are used with
-                                the <b>\add</b> character field (see above).
+                                the <b>\add</b> character field (see{' '}
+                                <Link href='#Add'>above</Link>).
                             </small>
+                        </p>
+                        <h3 id='other'>Other</h3>
+                        <p>
+                            Automated software is used to ‘connect’ words in the{' '}
+                            <em>OET-RV</em> with words from the <em>OET-LV</em>{' '}
+                            that it’s translated from, e.g., we might change
+                            ‘Speak to’ to ‘Tell’, or the verb ‘stored up’ to
+                            ‘savings’. Usually that software assumes that we
+                            roughly translated the verse from beginning to end.
+                        </p>
+                        <p>
+                            However, sometimes it’s more natural in English to
+                            reverse the ordering, e.g., from{' '}
+                            <Link href='https://Freely-Given.org/OBD/par/NUM/C36V10.htm#Top'>
+                                Num 36:10
+                            </Link>
+                            : “Just as YHWH commanded, so the girls did.”
+                            becomes “The girls did just as Yahweh had
+                            commanded.” In order to inform our software that we
+                            swapped the first and second halves of the verse, we
+                            place a <b>⇔</b> character at the beginning of the{' '}
+                            <em>OET-RV</em>verse line. (Of course, this
+                            character should be removed/ignored by most
+                            presentation software.)
                         </p>
                         <h1 id='booksCodes'>Bible Books Codes</h1>
                         <p>
