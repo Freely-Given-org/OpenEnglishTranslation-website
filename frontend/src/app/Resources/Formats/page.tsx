@@ -311,7 +311,7 @@ function Formats() {
                         <p>
                             <small>
                                 <b>Note</b>: This is different from when the{' '}
-                                <b>≈</b> and <b>^</b>characters are used with
+                                <b>≈</b> and <b>^</b> characters are used with
                                 the <b>\add</b> character field (see{' '}
                                 <Link href='#Add'>above</Link>).
                             </small>
@@ -321,13 +321,14 @@ function Formats() {
                             Automated software is used to ‘connect’ words in the{' '}
                             <em>OET-RV</em> with words from the <em>OET-LV</em>{' '}
                             that it’s translated from, e.g., we might change
-                            ‘Speak to’ to ‘Tell’, or the verb ‘stored up’ to
-                            ‘savings’. Usually that software assumes that we
-                            roughly translated the verse from beginning to end.
+                            ‘Speak to’ to ‘Tell’, or the verb phrase ‘stored up’
+                            to the noun ‘savings’. Usually that software assumes
+                            that we roughly translated the verse from beginning
+                            to end.
                         </p>
                         <p>
                             However, sometimes it’s more natural in English to
-                            reverse the ordering, e.g., from{' '}
+                            completely reverse the ordering, e.g., from{' '}
                             <Link href='https://Freely-Given.org/OBD/par/NUM/C36V10.htm#Top'>
                                 Num 36:10
                             </Link>
@@ -336,9 +337,13 @@ function Formats() {
                             commanded.” In order to inform our software that we
                             swapped the first and second halves of the verse, we
                             place a <b>⇔</b> character at the beginning of the{' '}
-                            <em>OET-RV</em>verse line. (Of course, this
+                            <em>OET-RV</em> verse line. (Of course, this
                             character should be removed/ignored by most
-                            presentation software.)
+                            presentation software and will be removed in our
+                            <Link href='https://GitHub.com/Freely-Given-org/OpenEnglishTranslation--OET/tree/main/furtherDerivedTexts/cleanedUSFM'>
+                                exported USFM files
+                            </Link>
+                            .)
                         </p>
                         <h1 id='booksCodes'>Bible Books Codes</h1>
                         <p>
