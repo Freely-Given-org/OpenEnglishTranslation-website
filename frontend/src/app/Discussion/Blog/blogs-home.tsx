@@ -1,12 +1,13 @@
 'use client';
 
+import Link from 'next/link';
+
 import MainPageContent from 'Components/page/MainPageContent/MainPageContent';
 import SideBar from 'Components/page/MainPageContent/SideBar/SideBar';
 import Page from 'Components/page/page';
 import Footer from 'Layouts/Footer/Footer';
 import Header from 'Layouts/Header/Header';
 import Main from 'Layouts/main/main';
-import Link from 'next/link';
 
 const Home = ({ _blogs }: any) => {
     return (

@@ -12,7 +12,7 @@ export async function getAllBlogIds() {
                 },
             };
         });
-    } catch (err) {
+    } catch {
         return [{ params: { id: 'error' } }];
     }
 }
@@ -45,7 +45,6 @@ export async function getBlogsById({ pk, title }: querys) {
     if (pk) query = 'pk=' + pk;
     else if (title) query = 'title=' + title;
     else query = '';
-    let error;
     try {
         const blogQuery: any = await GET(
             `${serverURL}/api/blogs/published/?${query}`,
@@ -53,7 +52,8 @@ export async function getBlogsById({ pk, title }: querys) {
         return {
             blog: blogQuery.data,
         };
-    } catch (err) {
-        return error;
+    } catch (error) {
+        console.error('get blogs by id error:', error);
+        return { blog: { error: 'ERROR SERVER NOT WORKING', isEmpty: true } };
     }
 }

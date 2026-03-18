@@ -1,4 +1,6 @@
 // From https://www.sitepoint.com/managing-responsive-breakpoints-sass/
+@use "sass:map";
+@use "sass:meta";
 
 $breakpoints: (
 
@@ -14,11 +16,11 @@ $breakpoints: (
 
   // If the key exists in the map
 
-  @if map-has-key($breakpoints, $name) {
+  @if map.has-key($breakpoints, $name) {
 
     // Prints a media query based on the value
 
-    @media #{inspect(map-get($breakpoints, $name))} {
+    @media #{meta.inspect(map.get($breakpoints, $name))} {
 
       @content;
 

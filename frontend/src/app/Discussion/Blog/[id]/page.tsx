@@ -1,16 +1,17 @@
 'use client';
 
+import { useEffect } from 'react';
+import ReactMarkdown from 'react-markdown';
+import rehypePrism from 'rehype-prism-plus';
+import rehypeRaw from 'rehype-raw';
+import remarkGfm from 'remark-gfm';
+
 import MainPageContent from 'Components/page/MainPageContent/MainPageContent';
 import SideBar from 'Components/page/MainPageContent/SideBar/SideBar';
 import Page from 'Components/page/page';
 import Footer from 'Layouts/Footer/Footer';
 import Header from 'Layouts/Header/Header';
 import Main from 'Layouts/main/main';
-import { useEffect } from 'react';
-import ReactMarkdown from 'react-markdown';
-import rehypePrism from 'rehype-prism-plus';
-import rehypeRaw from 'rehype-raw';
-import remarkGfm from 'remark-gfm';
 
 
 // export async function getStaticPaths() {
@@ -40,7 +41,7 @@ import remarkGfm from 'remark-gfm';
 function Blog({ blog }: any) {
     useEffect(() => {
         console.log(blog);
-    }, []);
+    }, [blog]);
 
     return (
         <>
@@ -54,10 +55,9 @@ function Blog({ blog }: any) {
                             <>
                                 <h1>{blog.title}</h1>
                                 <ReactMarkdown
-                                    children={blog.data}
                                     rehypePlugins={[rehypeRaw, rehypePrism]}
                                     remarkPlugins={[remarkGfm]}
-                                />
+                                >{blog.data}</ReactMarkdown>
                                 <span>{blog.author}</span>
                                 <ul>
                                     {blog.labels.map((i: string) => (
@@ -79,6 +79,3 @@ function Blog({ blog }: any) {
 }
 
 export default Blog;
-
-
-export const runtime = 'edge';

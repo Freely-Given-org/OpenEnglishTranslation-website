@@ -1,9 +1,10 @@
 'use client';
 
+import type { NextPage } from 'next';
+
 import { LicenseSection } from 'Components/page/MainPageContent/LicenseSection/LicenseSection';
 import { VerseOfTheDaySection } from 'Components/page/MainPageContent/VerseOfTheDaySection/VerseOfTheDaySection';
 import { WhatIsSection } from 'Components/page/MainPageContent/WhatIsSection/WhatIsSection';
-import type { NextPage } from 'next';
 
 import { ActionSection } from '../Components/page/MainPageContent/ActionSection/ActionSection';
 import { Hero } from '../Components/page/MainPageContent/Hero/Hero';

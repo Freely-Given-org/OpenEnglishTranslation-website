@@ -15,65 +15,51 @@ const SimpleMDE = dynamic(() => import('react-simplemde-editor'), {
     ssr: false,
 });
 
+const isBrowser = typeof window !== 'undefined';
+const getStored = (key: string, fallback = '') =>
+    isBrowser ? localStorage.getItem(key) || fallback : fallback;
+
 const Home: NextPage = () => {
-    const [blog, setBlog] = useState<any>();
-    const [date, setDate] = useState<any>();
+    const [blog] = useState<any>(() => isBrowser ? new FormData() : null);
+    const [date] = useState(() => {
+        const d = new Date();
+        return `${d.getDate()}/${d.getMonth() + 1}/${d.getFullYear()}`;
+    });
 
     const [auth, setAuth] = useState({ username: '', password: '' });
     const [imageurl, setImageURL] = useState<any>();
 
-    const [title, setTitle] = useState('');
-    const [published, setPublished] = useState('string');
-    const [body, setBody] = useState('');
-    const [author, setAuthor] = useState('');
+    const [title, setTitle] = useState(() => getStored('title'));
+    const [published, setPublished] = useState(() => getStored('published', 'false'));
+    const [body, setBody] = useState(() => getStored('body'));
+    const [author, setAuthor] = useState(() => getStored('author'));
 
     const [input, setInput] = useState('');
-    const [labels, setlabels] = useState(['']);
+    const [labels, setlabels] = useState(() =>
+        isBrowser ? JSON.parse(getStored('labels', '[]')) as string[] : [] as string[],
+    );
 
     const [response, setConsole] = useState('');
-    const [run, setRun] = useState(false);
 
     useEffect(() => {
-        if (run) localStorage.setItem('labels', JSON.stringify(labels));
+        localStorage.setItem('labels', JSON.stringify(labels));
     }, [labels]);
 
     useEffect(() => {
-        if (run) localStorage.setItem('title', title);
+        localStorage.setItem('title', title);
     }, [title]);
 
     useEffect(() => {
-        if (run) localStorage.setItem('published', published);
+        localStorage.setItem('published', published);
     }, [published]);
 
     useEffect(() => {
-        if (run) localStorage.setItem('body', body);
+        localStorage.setItem('body', body);
     }, [body]);
 
     useEffect(() => {
-        if (run) localStorage.setItem('author', author);
+        localStorage.setItem('author', author);
     }, [author]);
-
-    useEffect(() => {
-        const current = new Date();
-        const datee = `${current.getDate()}/${
-            current.getMonth() + 1
-        }/${current.getFullYear()}`;
-        setDate(datee);
-        setBlog(new FormData());
-        onload();
-    }, []);
-
-    const onload = () => {
-        setTitle(localStorage.getItem('title') || '');
-        setAuthor(localStorage.getItem('author') || '');
-        setPublished(localStorage.getItem('published') || 'false');
-        setBody(localStorage.getItem('body') || '');
-        setlabels(
-            JSON.parse(localStorage.getItem('labels') || '[]') as string[],
-        );
-        setAuth({ username: '', password: '' });
-        setRun(true);
-    };
 
     const reset = () => {
         setTitle('');
@@ -129,7 +115,6 @@ const Home: NextPage = () => {
                 ]);
                 blog.append('image', img, [img.name]);
             } else {
-                4;
                 setImageURL([
                     {
                         name: img.name,
@@ -225,7 +210,7 @@ const Home: NextPage = () => {
                     />
                     <div>
                         {labels.map((tag, index) => (
-                            <div onClick={() => deleteTag(index)}>{tag}</div>
+                            <div key={tag} onClick={() => deleteTag(index)}>{tag}</div>
                         ))}
                     </div>
                     <div style={{ minHeight: '30px' }}>
@@ -234,6 +219,7 @@ const Home: NextPage = () => {
                                   return (
                                       // eslint-disable-next-line @next/next/no-img-element
                                       <img
+                                          key={i.name}
                                           style={{ cursor: 'pointer' }}
                                           onClick={() => {
                                               navigator.clipboard.writeText(
@@ -297,13 +283,12 @@ const Home: NextPage = () => {
                 <div>
                     <h1>{title}</h1>
                     <ReactMarkdown
-                        children={body}
                         rehypePlugins={[
                             rehypeRaw,
                             [rehypePrism, { ignoreMissing: true }],
                         ]}
                         remarkPlugins={[remarkGfm]}
-                    />
+                    >{body}</ReactMarkdown>
                     {author ? <span>Author is {author}</span> : null}
                     <ul>
                         {labels.map((i: string) => (

@@ -1,8 +1,9 @@
-import { MenuIcon, XIcon } from 'Assets/SVGs';
-import { SecondaryButton } from 'Components/buttons/SecondaryButton/SecondaryButton';
 import { NextPage } from 'next';
 import NextLink from 'next/link';
 import { useState } from 'react';
+
+import { MenuIcon, XIcon } from 'Assets/SVGs';
+import { SecondaryButton } from 'Components/buttons/SecondaryButton/SecondaryButton';
 
 import styles from './Header.module.scss';
 import { ColorLogo } from '../../Assets/ColorLogo';

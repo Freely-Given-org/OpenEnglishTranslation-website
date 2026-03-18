@@ -6,7 +6,10 @@
         "dev": "next dev",
         "build": "next build",
         "start": "next start",
-        "lint": "eslint ./ --fix"
+        "lint": "eslint ./ --fix",
+        "build:worker": "opennextjs-cloudflare build",
+        "preview": "opennextjs-cloudflare build && opennextjs-cloudflare preview",
+        "deploy": "opennextjs-cloudflare build && opennextjs-cloudflare deploy"
     },
     "dependencies": {
         "@emotion/cache": "^11.11.0",
@@ -25,12 +28,12 @@
         "react-markdown": "^9.0.1",
         "react-remark": "^2.1.0",
         "react-simplemde-editor": "^5.2.0",
-        "rehype-prism-plus": "^2.0.0",
+        "rehype-prism-plus": "^2.0.2",
         "rehype-raw": "^7.0.0",
         "remark": "^15.0.1",
-        "remark-gfm": "^4.0.0",
+        "remark-gfm": "^4.0.1",
         "remark-html": "^16.0.1",
-        "sass": "^1.70.0"
+        "sass": "^1.99.0"
     },
     "devDependencies": {
         "@next/eslint-plugin-next": "^14.2.0",

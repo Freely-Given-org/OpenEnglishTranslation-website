@@ -1,6 +1,7 @@
-import { FacebookIcon, TwitterXIcon, SubstackIcon } from 'Assets/SVGs';
-import { WhiteLogo } from 'Assets/WhiteLogo';
 import Link from 'next/link';
+
+import { FacebookIcon, SubstackIcon, TwitterXIcon } from 'Assets/SVGs';
+import { WhiteLogo } from 'Assets/WhiteLogo';
 
 import styles from './Footer.module.scss';
 

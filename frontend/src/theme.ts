@@ -1,6 +1,7 @@
 'use client';
-import { createTheme } from 'lib/mui';
 import { Hind } from 'next/font/google';
+
+import { createTheme } from 'lib/mui';
 
 const hind = Hind({
   weight: ['300', '400', '500', '600', '700'],

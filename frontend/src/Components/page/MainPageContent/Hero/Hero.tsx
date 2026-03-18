@@ -1,6 +1,5 @@
 import { PrimaryButton } from 'Components/buttons/PrimaryButton/PrimaryButton';
 import { SecondaryButton } from 'Components/buttons/SecondaryButton/SecondaryButton';
-import Image from 'next/image';
 
 import styles from './Hero.module.scss';
 

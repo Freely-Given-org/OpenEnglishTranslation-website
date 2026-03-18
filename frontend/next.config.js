@@ -2,7 +2,20 @@
 const nextConfig = {
     reactStrictMode: true,
     images: {
-        domains: ['images.unsplash.com'],
+        remotePatterns: [
+            {
+                protocol: 'https',
+                hostname: 'images.unsplash.com',
+            },
+        ],
+    },
+    turbopack: {
+        rules: {
+            '*.md': {
+                loaders: ['raw-loader'],
+                as: '*.js',
+            },
+        },
     },
     webpack: (config) => {
         config.module.rules.push({

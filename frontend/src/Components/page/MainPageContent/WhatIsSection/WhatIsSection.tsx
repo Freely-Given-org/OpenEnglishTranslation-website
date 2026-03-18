@@ -1,6 +1,7 @@
+import NextLink from 'next/link';
+
 import { ArrowRightIcon, BookIcon } from 'Assets/SVGs';
 import { SecondaryButton } from 'Components/buttons/SecondaryButton/SecondaryButton';
-import NextLink from 'next/link';
 
 import styles from './WhatIsSection.module.scss';
 
