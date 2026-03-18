@@ -339,7 +339,7 @@ function Formats() {
                             place a <b>⇔</b> character at the beginning of the{' '}
                             <em>OET-RV</em> verse line. (Of course, this
                             character should be removed/ignored by most
-                            presentation software and will be removed in our
+                            presentation software and will be removed in our{' '}
                             <Link href='https://GitHub.com/Freely-Given-org/OpenEnglishTranslation--OET/tree/main/furtherDerivedTexts/cleanedUSFM'>
                                 exported USFM files
                             </Link>
