@@ -4,6 +4,10 @@ const menu: dropMenu = {
     title: 'About',
     items: [
         {
+            name: 'Current status',
+            link: '/About/Status',
+        },
+        {
             name: 'About OET',
             link: '/About/OET',
         },

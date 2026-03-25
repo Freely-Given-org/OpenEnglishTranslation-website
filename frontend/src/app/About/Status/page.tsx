@@ -19,14 +19,40 @@ function Status() {
                         <h2>Overview</h2>
                         <p>
                             The OET is given a version number (similar to
-                            software packages) and it’s currenty at v0.47. (The
-                            full version number can always be found in the first
-                            paragraph on{' '}
+                            software packages) and it’s currently at{' '}
+                            <b>v0.47</b>. (The full version number can always be
+                            found in the first paragraph on{' '}
                             <Link href='https://Freely-Given.org/OBD/OET/details.htm'>
                                 this page
                             </Link>
                             .)
                         </p>
+                        <ul>
+                            <li>
+                                Recommended for reading, Bible study, and for
+                                preaching from (but please submit
+                                corrections/suggestions)
+                            </li>
+                            <li>USA-spelling version is not yet available</li>
+                            <li>PDFs not yet available for sample printouts</li>
+                            <li>
+                                Not yet recommended for inclusion on Bible sites
+                                (due to the three books which haven’t been
+                                drafted yet)
+                            </li>
+                            <li>Not yet recommended for memorisation</li>
+                            <li>Not yet recommended for mass printing</li>
+                            <li>
+                                Not yet recommended for use as a resource for
+                                translating into other modern languages
+                                (although many of the{' '}
+                                <Link href='/Design/ReadersVersion'>
+                                    design features
+                                </Link>{' '}
+                                mentioned on this website should probably be
+                                considered)
+                            </li>
+                        </ul>
                         <p>
                             We have a list of terms which have to be made more
                             consistent across all the books and chapters, and
@@ -48,9 +74,9 @@ function Status() {
                         <h3>Literal Version</h3>
                         <p>
                             The <em>OET-LV</em> OT is still missing a few word
-                            and morpheme glosses, and we aren't totally
-                            satisfied with others, but in general it's reliable
-                            to use.
+                            and morpheme glosses, and we aren’t totally
+                            satisfied with a few others, but in general it’s
+                            reliable to use.
                         </p>
                         <h3>Readers’ Version</h3>
                         <p>
@@ -65,15 +91,20 @@ function Status() {
                         </h2>
                         <h3>Literal Version</h3>
                         <p>
-                            The <em>OET-LV</em> NT is greatfully adapted from an
-                            early version of the Verifiable Literal Translation
-                            created by the Center for NT Restoration (which we
-                            also volunteered for, for a time). A few books
-                            haven't been properly reordered yet (we try to make
-                            the sentences closer to English SVO order), and the
-                            SR-GNT/VLT still break the Greek text into an
-                            excessive number of (shortish) sentences, but the{' '}
-                            <em>OET-LV</em> NT is perfectly reliable to use.
+                            The <em>OET-LV</em> NT is gratefully adapted from an
+                            early version of the forthcoming Verifiable Literal
+                            Translation created by the{' '}
+                            <Link href='https://GreekCNTR.org'>
+                                Center for NT Restoration
+                            </Link>{' '}
+                            (which we also volunteered for, for a time). A few
+                            books haven’t been properly reordered yet (we try to
+                            make the sentences closer to English{' '}
+                            <span title='Subject/Verb/ObjectSVO'>SVO</span>{' '}
+                            order), and the SR-GNT/VLT still breaks the Greek
+                            text into an excessive number of (shortish)
+                            sentences, but the <em>OET-LV</em> NT is perfectly
+                            reliable to use.
                         </p>
                         <h3>Readers’ Version</h3>
                         <p>

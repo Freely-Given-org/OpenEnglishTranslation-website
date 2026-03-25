@@ -66,7 +66,9 @@ function Footer() {
                         <span className={styles['section-heading']}>About</span>
                         <ul>
                             <li>
-                                <Link href={'/About/Status'}>Current status</Link>
+                                <Link href={'/About/Status'}>
+                                    Current status
+                                </Link>
                             </li>
                             <li>
                                 <Link href={'/About/OET'}>About OET</Link>
