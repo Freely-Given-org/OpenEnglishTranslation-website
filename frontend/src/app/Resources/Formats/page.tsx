@@ -324,11 +324,12 @@ function Formats() {
                             ‘Speak to’ to ‘Tell’, or the verb phrase ‘stored up’
                             to the noun ‘savings’. Usually that software assumes
                             that we roughly translated the verse from beginning
-                            to end.
+                            to end as it tries to match up words.
                         </p>
                         <p>
                             However, sometimes it’s more natural in English to
-                            completely reverse the ordering, e.g., from{' '}
+                            completely reverse the ordering, e.g., a simplified
+                            example from{' '}
                             <Link href='https://Freely-Given.org/OBD/par/NUM/C36V10.htm#Top'>
                                 Num 36:10
                             </Link>
@@ -381,12 +382,23 @@ function Formats() {
                                 <li>
                                     include codes for unusual cases like{' '}
                                     <b>SAM</b> (which would be <b>SA1</b> and{' '}
-                                    <b>SA2</b> (since we’re no longer restricted
+                                    <b>SA2</b> since we’re no longer restricted
                                     by how big or heavy a single scroll can
                                     be—the revolutionary, new <em>OET</em>
                                      always considers traditions and whether or
                                     not they still need to apply)
                                 </li>
+                                <p>
+                                    Note that the{' '}
+                                    <em>OET Explorers’ Edition</em> changes the
+                                    traditional protestant Christian ‘book’
+                                    order and number of ‘books’ (unlike the{' '}
+                                    <em>Conventional Edition</em>). We don't
+                                    feel at all bad about that, because
+                                    Christians already changed both the number
+                                    of ‘books’ and the traditional Jewish order
+                                    from the Hebrew scriptures.
+                                </p>
                             </ul>
                         </p>
                     </MainPageContent>

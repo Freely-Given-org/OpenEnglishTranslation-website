@@ -66,6 +66,9 @@ function Footer() {
                         <span className={styles['section-heading']}>About</span>
                         <ul>
                             <li>
+                                <Link href={'/About/Status'}>Current status</Link>
+                            </li>
+                            <li>
                                 <Link href={'/About/OET'}>About OET</Link>
                             </li>
                             <li>
@@ -132,7 +135,7 @@ function Footer() {
                         </a>
                     </span>
                     <span className={styles['buildnote']}>
-                        (Site last built: 18 Mar 2026)
+                        (Site last built: 26 Mar 2026)
                     </span>
                 </div>
             </div>
