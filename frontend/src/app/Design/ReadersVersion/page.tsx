@@ -15,7 +15,7 @@ function RV() {
             <Main>
                 <Page>
                     <MainPageContent>
-                        <h1>OET Readers’ Version</h1>
+                        <h1>OET Readers’ Version design features</h1>
                         <ul>
                             <li>
                                 The <em>Readers’ Version</em>{' '}
@@ -210,11 +210,11 @@ function RV() {
                             believe that a principle of translating ‘one word in
                             the source language into one word in the target
                             language’, is a principle of ‘non-translation’ (and
-                            most so-called ‘literal’ Bibles don’t actually do it
-                            consistently despite their claim on the cover). A
-                            good ‘translation’ <em>must</em> translate the
-                            intended meaning of the author into the appropriate
-                            words in the target language.{' '}
+                            fortunately, most so-called ‘literal’ Bibles don’t
+                            actually do it consistently despite their claim on
+                            the cover). A good ‘translation’ <em>must</em>{' '}
+                            translate the intended meaning of the author into
+                            the appropriate words in the target language.{' '}
                             <small>
                                 (Of course, a word-for-word correspondence is an
                                 excellent tool for serious students of a text in
