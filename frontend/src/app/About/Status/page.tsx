@@ -29,18 +29,30 @@ function Status() {
                         </p>
                         <ul>
                             <li>
-                                Recommended for reading, Bible study, and for
-                                preaching from (but please submit
-                                corrections/suggestions)
+                                <b>
+                                    Recommended for reading, Bible study, and
+                                    for preaching from
+                                </b>{' '}
+                                (but please submit corrections/suggestions)
                             </li>
                             <li>USA-spelling version is not yet available</li>
                             <li>PDFs not yet available for sample printouts</li>
+                            <li>
+                                An early alpha version of the <em>Bibleside</em>{' '}
+                                app is{' '}
+                                <Link href='https://www.bibleside.com/'>
+                                    available
+                                </Link>{' '}
+                                for enthusiastic users to test
+                            </li>
                             <li>
                                 Not yet recommended for inclusion on Bible sites
                                 (due to the three books which haven’t been
                                 drafted yet)
                             </li>
-                            <li>Not yet recommended for memorisation</li>
+                            <li>
+                                <b>Not yet recommended for memorisation</b>
+                            </li>
                             <li>Not yet recommended for mass printing</li>
                             <li>
                                 Not yet recommended for use as a resource for
@@ -84,7 +96,9 @@ function Status() {
                             Leviticus, Isaiah, and Jeremiah), and the spelling
                             of names are not yet fully consistent. However,
                             although you might find the occasional typo, the
-                            text is quite reliable to use.
+                            text is quite reliable to use. Some of the earlier
+                            OT books to be translated (esp. Jonah and Genesis)
+                            also need some formatting updates.
                         </p>
                         <h2 id='NT'>
                             Messianic Update <small>(New Testament)</small>
@@ -100,11 +114,10 @@ function Status() {
                             (which we also volunteered for, for a time). A few
                             books haven’t been properly reordered yet (we try to
                             make the sentences closer to English{' '}
-                            <span title='Subject/Verb/ObjectSVO'>SVO</span>{' '}
-                            order), and the SR-GNT/VLT still breaks the Greek
-                            text into an excessive number of (shortish)
-                            sentences, but the <em>OET-LV</em> NT is perfectly
-                            reliable to use.
+                            <span title='Subject/Verb/Object'>SVO</span> order),
+                            and the SR-GNT/VLT still breaks the Greek text into
+                            an excessive number of (shortish) sentences, but the{' '}
+                            <em>OET-LV</em> NT is perfectly reliable to use.
                         </p>
                         <h3>Readers’ Version</h3>
                         <p>
@@ -125,6 +138,17 @@ function Status() {
                             Also at that time, we plan to start work on making
                             PDFs and other exports available for download (or
                             for printing a few test copies).
+                        </p>
+                        <h2 id='app'>Mobile app</h2>
+                        <p>
+                            The{' '}
+                            <Link href='https://www.Bibleside.com/'>
+                                Bibleside app
+                            </Link>{' '}
+                            (for viewing the Readers’ Version and the Literal
+                            Version side-by-side) is currently in development
+                            and not yet available for general use, but it’s
+                            coming!
                         </p>
                     </MainPageContent>
                 </Page>

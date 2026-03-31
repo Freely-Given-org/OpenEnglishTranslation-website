@@ -15,7 +15,7 @@ function LV() {
             <Main>
                 <Page>
                     <MainPageContent>
-                        <h1>OET Literal Version</h1>
+                        <h1>OET Literal Version design features</h1>
                         <ul>
                             <li>
                                 The <em>Literal Version</em> is less concerned
