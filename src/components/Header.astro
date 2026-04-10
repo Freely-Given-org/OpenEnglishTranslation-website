@@ -3,639 +3,815 @@ import ColorLogo from './ColorLogo.astro';
 ---
 
 <div class="header">
-  <div class="header-inner">
-    <div class="main-logo">
-      <a href="/">
-        <ColorLogo class="main-logo" />
-      </a>
-    </div>
-
-    <nav class="big-nav">
-      <!-- Intro dropdown -->
-      <div class="drop-menu" data-dropdown>
-        <button class="menu-name menu-title" data-dropdown-trigger>
-          <svg class="big-triangle" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 16 16">
-            <path d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708" />
-          </svg>
-          Intro
-        </button>
-        <ul class="menu-items" data-dropdown-menu>
-          <li><a href="/Intro/Overview">Overview</a></li>
-          <li><a href="/Intro/Name">Name</a></li>
-          <li><a href="/Intro/WhoFor">Who for?</a></li>
-          <li><a href="/Intro/Stories">Stories</a></li>
-        </ul>
-      </div>
-
-      <!-- Design dropdown -->
-      <div class="drop-menu" data-dropdown>
-        <button class="menu-name menu-title" data-dropdown-trigger>
-          <svg class="big-triangle" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 16 16">
-            <path d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708" />
-          </svg>
-          Design
-        </button>
-        <ul class="menu-items" data-dropdown-menu>
-          <li><a href="/Design/ReadersVersion">Readers' Version</a></li>
-          <li><a href="/Design/LiteralVersion">Literal Version</a></li>
-          <li><a href="/Design/ExplorersEdition">Explorers' Edition</a></li>
-          <li><a href="/Design/ConventionalEdition">Conventional Edition</a></li>
-          <li><a href="/Design/SourceTexts">Source texts</a></li>
-        </ul>
-      </div>
-
-      <!-- Resources dropdown -->
-      <div class="drop-menu" data-dropdown>
-        <button class="menu-name menu-title" data-dropdown-trigger>
-          <svg class="big-triangle" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 16 16">
-            <path d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708" />
-          </svg>
-          Resources
-        </button>
-        <ul class="menu-items" data-dropdown-menu>
-          <li><a href="/Resources/Downloads">Downloads</a></li>
-          <li><a href="/Resources/Formats">Formats</a></li>
-        </ul>
-      </div>
-
-      <!-- Discussion dropdown -->
-      <div class="drop-menu" data-dropdown>
-        <button class="menu-name menu-title" data-dropdown-trigger>
-          <svg class="big-triangle" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 16 16">
-            <path d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708" />
-          </svg>
-          Discussion
-        </button>
-        <ul class="menu-items" data-dropdown-menu>
-          <li><a href="/Discussion/BiblicalNames">Biblical names</a></li>
-          <li><a href="/Discussion/WordEssays">Word essays</a></li>
-          <li><a href="/Discussion/KTEssays">Theological essays</a></li>
-          <li><a href="/Discussion/StyleEssays">Style essays</a></li>
-          <li><a href="/Discussion/Blog">Blog</a></li>
-          <li><a href="/Discussion/FAQ">FAQs</a></li>
-          <li><a href="/Discussion/Notes">Notes / Disclaimers</a></li>
-          <li><a href="/Discussion/New">New topic</a></li>
-          <li><a href="/Discussion/Challenge">Challenge / Errors</a></li>
-        </ul>
-      </div>
-
-      <!-- About dropdown -->
-      <div class="drop-menu" data-dropdown>
-        <button class="menu-name menu-title" data-dropdown-trigger>
-          <svg class="big-triangle" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 16 16">
-            <path d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708" />
-          </svg>
-          About
-        </button>
-        <ul class="menu-items" data-dropdown-menu>
-          <li><a href="/About/OET">About OET</a></li>
-          <li><a href="/About/Freely-Given">About Freely-Given</a></li>
-          <li><a href="/About/CoreValues">Core values</a></li>
-          <li><a href="/About/StatementOfFaith">Statement of faith</a></li>
-          <li><a href="/About/Partners">Our partners</a></li>
-          <li><a href="/About/Licence">Licence</a></li>
-          <li><a href="/About/Contact">Contact us</a></li>
-        </ul>
-      </div>
-    </nav>
-
-    <div id="header-default-actions">
-      <span class="cta-btn">
-        <div>
-          <a class="secondary-button" href="/Reader">Read the OET</a>
+    <div class="header-inner">
+        <div class="main-logo">
+            <a href="/">
+                <ColorLogo class="main-logo" />
+            </a>
         </div>
-      </span>
-      <span id="open-side-menu">
-        <svg class="small-nav" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 16 16">
-          <path d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5" />
-        </svg>
-      </span>
+
+        <nav class="big-nav">
+            <!-- Intro dropdown -->
+            <div class="drop-menu" data-dropdown>
+                <button class="menu-name menu-title" data-dropdown-trigger>
+                    <svg
+                        class="big-triangle"
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="currentColor"
+                        viewBox="0 0 16 16"
+                    >
+                        <path
+                            d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708"
+                        ></path>
+                    </svg>
+                    Intro
+                </button>
+                <ul class="menu-items" data-dropdown-menu>
+                    <li><a href="/Intro/Overview">Overview</a></li>
+                    <li><a href="/Intro/Name">Name</a></li>
+                    <li><a href="/Intro/WhoFor">Who for?</a></li>
+                    <li><a href="/Intro/Stories">Stories</a></li>
+                </ul>
+            </div>
+
+            <!-- Design dropdown -->
+            <div class="drop-menu" data-dropdown>
+                <button class="menu-name menu-title" data-dropdown-trigger>
+                    <svg
+                        class="big-triangle"
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="currentColor"
+                        viewBox="0 0 16 16"
+                    >
+                        <path
+                            d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708"
+                        ></path>
+                    </svg>
+                    Design
+                </button>
+                <ul class="menu-items" data-dropdown-menu>
+                    <li>
+                        <a href="/Design/ReadersVersion">Readers' Version</a>
+                    </li>
+                    <li>
+                        <a href="/Design/LiteralVersion">Literal Version</a>
+                    </li>
+                    <li>
+                        <a href="/Design/ExplorersEdition">Explorers' Edition</a
+                        >
+                    </li>
+                    <li>
+                        <a href="/Design/ConventionalEdition"
+                            >Conventional Edition</a
+                        >
+                    </li>
+                    <li><a href="/Design/SourceTexts">Source texts</a></li>
+                </ul>
+            </div>
+
+            <!-- Resources dropdown -->
+            <div class="drop-menu" data-dropdown>
+                <button class="menu-name menu-title" data-dropdown-trigger>
+                    <svg
+                        class="big-triangle"
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="currentColor"
+                        viewBox="0 0 16 16"
+                    >
+                        <path
+                            d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708"
+                        ></path>
+                    </svg>
+                    Resources
+                </button>
+                <ul class="menu-items" data-dropdown-menu>
+                    <li><a href="/Resources/Downloads">Downloads</a></li>
+                    <li><a href="/Resources/Formats">Formats</a></li>
+                </ul>
+            </div>
+
+            <!-- Discussion dropdown -->
+            <div class="drop-menu" data-dropdown>
+                <button class="menu-name menu-title" data-dropdown-trigger>
+                    <svg
+                        class="big-triangle"
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="currentColor"
+                        viewBox="0 0 16 16"
+                    >
+                        <path
+                            d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708"
+                        ></path>
+                    </svg>
+                    Discussion
+                </button>
+                <ul class="menu-items" data-dropdown-menu>
+                    <li>
+                        <a href="/Discussion/BiblicalNames">Biblical names</a>
+                    </li>
+                    <li><a href="/Discussion/WordEssays">Word essays</a></li>
+                    <li>
+                        <a href="/Discussion/KTEssays">Theological essays</a>
+                    </li>
+                    <li><a href="/Discussion/StyleEssays">Style essays</a></li>
+                    <li><a href="/Discussion/Blog">Blog</a></li>
+                    <li><a href="/Discussion/FAQ">FAQs</a></li>
+                    <li><a href="/Discussion/Notes">Notes / Disclaimers</a></li>
+                    <li><a href="/Discussion/New">New topic</a></li>
+                    <li>
+                        <a href="/Discussion/Challenge">Challenge / Errors</a>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- About dropdown -->
+            <div class="drop-menu" data-dropdown>
+                <button class="menu-name menu-title" data-dropdown-trigger>
+                    <svg
+                        class="big-triangle"
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="currentColor"
+                        viewBox="0 0 16 16"
+                    >
+                        <path
+                            d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708"
+                        ></path>
+                    </svg>
+                    About
+                </button>
+                <ul class="menu-items" data-dropdown-menu>
+                    <li><a href="/About/OET">About OET</a></li>
+                    <li>
+                        <a href="/About/Freely-Given">About Freely-Given</a>
+                    </li>
+                    <li><a href="/About/CoreValues">Core values</a></li>
+                    <li>
+                        <a href="/About/StatementOfFaith">Statement of faith</a>
+                    </li>
+                    <li><a href="/About/Partners">Our partners</a></li>
+                    <li><a href="/About/Licence">Licence</a></li>
+                    <li><a href="/About/Contact">Contact us</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <div id="header-default-actions">
+            <span class="cta-btn">
+                <div>
+                    <a class="secondary-button" href="/Reader">Read the OET</a>
+                </div>
+            </span>
+            <span id="open-side-menu">
+                <svg
+                    class="small-nav"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="currentColor"
+                    viewBox="0 0 16 16"
+                >
+                    <path
+                        d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"
+                    ></path>
+                </svg>
+            </span>
+        </div>
+
+        <div id="side-menu" class="side-menu" hidden>
+            <span id="close-side-menu">
+                <svg
+                    class="close-btn"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="currentColor"
+                    viewBox="0 0 16 16"
+                >
+                    <path
+                        d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8z"
+                    ></path>
+                </svg>
+            </span>
+
+            <ul class="phone-nav">
+                <!-- Intro (phone) -->
+                <li>
+                    <div class="phone-menu" data-phone-dropdown>
+                        <button
+                            class="phone-menu-name"
+                            data-phone-dropdown-trigger
+                        >
+                            <svg
+                                class="triangle"
+                                xmlns="http://www.w3.org/2000/svg"
+                                fill="currentColor"
+                                viewBox="0 0 16 16"
+                            >
+                                <path
+                                    d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708"
+                                ></path>
+                            </svg>
+                            Intro
+                        </button>
+                        <ul class="phone-menu-items" hidden>
+                            <li><a href="/Intro/Overview">Overview</a></li>
+                            <li><a href="/Intro/Name">Name</a></li>
+                            <li><a href="/Intro/WhoFor">Who for?</a></li>
+                            <li><a href="/Intro/Stories">Stories</a></li>
+                        </ul>
+                    </div>
+                </li>
+
+                <!-- Design (phone) -->
+                <li>
+                    <div class="phone-menu" data-phone-dropdown>
+                        <button
+                            class="phone-menu-name"
+                            data-phone-dropdown-trigger
+                        >
+                            <svg
+                                class="triangle"
+                                xmlns="http://www.w3.org/2000/svg"
+                                fill="currentColor"
+                                viewBox="0 0 16 16"
+                            >
+                                <path
+                                    d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708"
+                                ></path>
+                            </svg>
+                            Design
+                        </button>
+                        <ul class="phone-menu-items" hidden>
+                            <li>
+                                <a href="/Design/ReadersVersion"
+                                    >Readers' Version</a
+                                >
+                            </li>
+                            <li>
+                                <a href="/Design/LiteralVersion"
+                                    >Literal Version</a
+                                >
+                            </li>
+                            <li>
+                                <a href="/Design/ExplorersEdition"
+                                    >Explorers' Edition</a
+                                >
+                            </li>
+                            <li>
+                                <a href="/Design/ConventionalEdition"
+                                    >Conventional Edition</a
+                                >
+                            </li>
+                            <li>
+                                <a href="/Design/SourceTexts">Source texts</a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+
+                <!-- Reader (direct link) -->
+                <li>
+                    <a href="/Reader">Reader</a>
+                </li>
+
+                <!-- Resources (phone) -->
+                <li>
+                    <div class="phone-menu" data-phone-dropdown>
+                        <button
+                            class="phone-menu-name"
+                            data-phone-dropdown-trigger
+                        >
+                            <svg
+                                class="triangle"
+                                xmlns="http://www.w3.org/2000/svg"
+                                fill="currentColor"
+                                viewBox="0 0 16 16"
+                            >
+                                <path
+                                    d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708"
+                                ></path>
+                            </svg>
+                            Resources
+                        </button>
+                        <ul class="phone-menu-items" hidden>
+                            <li>
+                                <a href="/Resources/Downloads">Downloads</a>
+                            </li>
+                            <li><a href="/Resources/Formats">Formats</a></li>
+                        </ul>
+                    </div>
+                </li>
+
+                <!-- Discussion (phone) -->
+                <li>
+                    <div class="phone-menu" data-phone-dropdown>
+                        <button
+                            class="phone-menu-name"
+                            data-phone-dropdown-trigger
+                        >
+                            <svg
+                                class="triangle"
+                                xmlns="http://www.w3.org/2000/svg"
+                                fill="currentColor"
+                                viewBox="0 0 16 16"
+                            >
+                                <path
+                                    d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708"
+                                ></path>
+                            </svg>
+                            Discussion
+                        </button>
+                        <ul class="phone-menu-items" hidden>
+                            <li>
+                                <a href="/Discussion/BiblicalNames"
+                                    >Biblical names</a
+                                >
+                            </li>
+                            <li>
+                                <a href="/Discussion/WordEssays">Word essays</a>
+                            </li>
+                            <li>
+                                <a href="/Discussion/KTEssays"
+                                    >Theological essays</a
+                                >
+                            </li>
+                            <li>
+                                <a href="/Discussion/StyleEssays"
+                                    >Style essays</a
+                                >
+                            </li>
+                            <li><a href="/Discussion/Blog">Blog</a></li>
+                            <li><a href="/Discussion/FAQ">FAQs</a></li>
+                            <li>
+                                <a href="/Discussion/Notes"
+                                    >Notes / Disclaimers</a
+                                >
+                            </li>
+                            <li><a href="/Discussion/New">New topic</a></li>
+                            <li>
+                                <a href="/Discussion/Challenge"
+                                    >Challenge / Errors</a
+                                >
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+
+                <!-- About (phone) -->
+                <li>
+                    <div class="phone-menu" data-phone-dropdown>
+                        <button
+                            class="phone-menu-name"
+                            data-phone-dropdown-trigger
+                        >
+                            <svg
+                                class="triangle"
+                                xmlns="http://www.w3.org/2000/svg"
+                                fill="currentColor"
+                                viewBox="0 0 16 16"
+                            >
+                                <path
+                                    d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708"
+                                ></path>
+                            </svg>
+                            About
+                        </button>
+                        <ul class="phone-menu-items" hidden>
+                            <li><a href="/About/OET">About OET</a></li>
+                            <li>
+                                <a href="/About/Freely-Given"
+                                    >About Freely-Given</a
+                                >
+                            </li>
+                            <li><a href="/About/CoreValues">Core values</a></li>
+                            <li>
+                                <a href="/About/StatementOfFaith"
+                                    >Statement of faith</a
+                                >
+                            </li>
+                            <li><a href="/About/Partners">Our partners</a></li>
+                            <li><a href="/About/Licence">Licence</a></li>
+                            <li><a href="/About/Contact">Contact us</a></li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </div>
     </div>
-
-    <div id="side-menu" class="side-menu" hidden>
-      <span id="close-side-menu">
-        <svg class="close-btn" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 16 16">
-          <path d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8z" />
-        </svg>
-      </span>
-
-      <ul class="phone-nav">
-        <!-- Intro (phone) -->
-        <li>
-          <div class="phone-menu" data-phone-dropdown>
-            <button class="phone-menu-name" data-phone-dropdown-trigger>
-              <svg class="triangle" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 16 16">
-                <path d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708" />
-              </svg>
-              Intro
-            </button>
-            <ul class="phone-menu-items" hidden>
-              <li><a href="/Intro/Overview">Overview</a></li>
-              <li><a href="/Intro/Name">Name</a></li>
-              <li><a href="/Intro/WhoFor">Who for?</a></li>
-              <li><a href="/Intro/Stories">Stories</a></li>
-            </ul>
-          </div>
-        </li>
-
-        <!-- Design (phone) -->
-        <li>
-          <div class="phone-menu" data-phone-dropdown>
-            <button class="phone-menu-name" data-phone-dropdown-trigger>
-              <svg class="triangle" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 16 16">
-                <path d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708" />
-              </svg>
-              Design
-            </button>
-            <ul class="phone-menu-items" hidden>
-              <li><a href="/Design/ReadersVersion">Readers' Version</a></li>
-              <li><a href="/Design/LiteralVersion">Literal Version</a></li>
-              <li><a href="/Design/ExplorersEdition">Explorers' Edition</a></li>
-              <li><a href="/Design/ConventionalEdition">Conventional Edition</a></li>
-              <li><a href="/Design/SourceTexts">Source texts</a></li>
-            </ul>
-          </div>
-        </li>
-
-        <!-- Reader (direct link) -->
-        <li>
-          <a href="/Reader">Reader</a>
-        </li>
-
-        <!-- Resources (phone) -->
-        <li>
-          <div class="phone-menu" data-phone-dropdown>
-            <button class="phone-menu-name" data-phone-dropdown-trigger>
-              <svg class="triangle" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 16 16">
-                <path d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708" />
-              </svg>
-              Resources
-            </button>
-            <ul class="phone-menu-items" hidden>
-              <li><a href="/Resources/Downloads">Downloads</a></li>
-              <li><a href="/Resources/Formats">Formats</a></li>
-            </ul>
-          </div>
-        </li>
-
-        <!-- Discussion (phone) -->
-        <li>
-          <div class="phone-menu" data-phone-dropdown>
-            <button class="phone-menu-name" data-phone-dropdown-trigger>
-              <svg class="triangle" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 16 16">
-                <path d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708" />
-              </svg>
-              Discussion
-            </button>
-            <ul class="phone-menu-items" hidden>
-              <li><a href="/Discussion/BiblicalNames">Biblical names</a></li>
-              <li><a href="/Discussion/WordEssays">Word essays</a></li>
-              <li><a href="/Discussion/KTEssays">Theological essays</a></li>
-              <li><a href="/Discussion/StyleEssays">Style essays</a></li>
-              <li><a href="/Discussion/Blog">Blog</a></li>
-              <li><a href="/Discussion/FAQ">FAQs</a></li>
-              <li><a href="/Discussion/Notes">Notes / Disclaimers</a></li>
-              <li><a href="/Discussion/New">New topic</a></li>
-              <li><a href="/Discussion/Challenge">Challenge / Errors</a></li>
-            </ul>
-          </div>
-        </li>
-
-        <!-- About (phone) -->
-        <li>
-          <div class="phone-menu" data-phone-dropdown>
-            <button class="phone-menu-name" data-phone-dropdown-trigger>
-              <svg class="triangle" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 16 16">
-                <path d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708" />
-              </svg>
-              About
-            </button>
-            <ul class="phone-menu-items" hidden>
-              <li><a href="/About/OET">About OET</a></li>
-              <li><a href="/About/Freely-Given">About Freely-Given</a></li>
-              <li><a href="/About/CoreValues">Core values</a></li>
-              <li><a href="/About/StatementOfFaith">Statement of faith</a></li>
-              <li><a href="/About/Partners">Our partners</a></li>
-              <li><a href="/About/Licence">Licence</a></li>
-              <li><a href="/About/Contact">Contact us</a></li>
-            </ul>
-          </div>
-        </li>
-      </ul>
-    </div>
-  </div>
 </div>
 
 <style>
-  .header {
-    display: flex;
-    height: 65px;
-    flex-direction: row;
-    align-items: center;
-    margin: 0px;
-    flex: 0 0 auto;
-  }
-
-  .header-inner {
-    height: 65px;
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    max-width: 1040px;
-    padding: 0rem 0.5rem;
-    flex: 0 0 auto;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  .main-logo {
-    height: 100%;
-    width: 8rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .close-btn {
-    fill: var(--medium-blue);
-    margin: 1rem;
-    width: 22px;
-    height: 22px;
-    cursor: pointer;
-  }
-
-  .cta-btn {
-    display: none !important;
-  }
-
-  .big-nav {
-    height: 100%;
-    display: none;
-    flex-direction: row;
-    background-color: #fff;
-  }
-
-  .big-nav button {
-    color: var(--medium-blue);
-    font-family: inherit !important;
-    font-size: 1.1rem;
-    letter-spacing: 0.005rem;
-    font-weight: 500;
-    padding-right: 0.45rem;
-    padding-left: 0.45rem;
-  }
-
-  .big-nav a {
-    display: flex;
-    align-items: center;
-    padding-right: 4px;
-    padding-left: 4px;
-    color: var(--medium-blue);
-    text-decoration: none;
-    font-size: 1.1rem;
-    letter-spacing: 0.005rem;
-    font-weight: 500;
-  }
-
-  .big-nav a:hover {
-    text-decoration: none;
-  }
-
-  .small-nav {
-    fill: var(--medium-blue);
-    display: flex !important;
-    width: 32px !important;
-    margin-right: 16px;
-    cursor: pointer;
-  }
-
-  .phone-nav {
-    display: flex;
-    flex-direction: column;
-    list-style: none;
-    padding-left: 20px;
-  }
-
-  .phone-nav li {
-    display: flex;
-  }
-
-  .phone-nav li button {
-    color: var(--medium-blue);
-    font-family: inherit !important;
-    font-size: 1.2rem;
-    letter-spacing: 0.009rem;
-  }
-
-  .phone-nav li a {
-    padding-top: 1rem;
-    padding-left: 1.2rem;
-    display: flex;
-    width: 100%;
-    text-decoration: none;
-    font-size: 1.2rem;
-    letter-spacing: 0.009rem;
-    color: var(--medium-blue);
-  }
-
-  /* Desktop dropdown styles */
-  .drop-menu {
-    position: relative;
-    display: flex;
-    height: 100%;
-  }
-
-  .menu-name {
-    height: 100%;
-    background: none;
-    border: none;
-    padding: 0;
-    outline: inherit;
-    display: flex;
-    align-items: center;
-    padding-right: 8px;
-    padding-left: 8px;
-    color: var(--medium-blue);
-    text-decoration: none;
-    font-size: 1.2rem;
-    letter-spacing: 0.009rem;
-    z-index: 11;
-  }
-
-  .menu-items {
-    padding: 0rem 0rem;
-    list-style: none;
-    top: 40px;
-    position: absolute;
-    background-color: #fff;
-    min-width: max-content;
-    border-radius: 4px;
-    overflow: visible;
-    z-index: 10;
-    right: 0;
-    left: auto;
-    display: none;
-  }
-
-  .menu-items.open {
-    display: block;
-  }
-
-  .menu-items li {
-    overflow: visible;
-    width: unset;
-    animation: menu-fade 80ms ease-in 0ms 1 normal both;
-  }
-
-  .menu-items li a {
-    padding: 0.4rem 0.7rem;
-    width: unset;
-  }
-
-  .menu-items li:hover {
-    background-color: var(--medium-blue);
-    color: #fff;
-    text-decoration: none;
-    outline: none;
-    border-radius: 4px;
-  }
-
-  .menu-items li:hover a {
-    color: white;
-  }
-
-  @keyframes menu-fade {
-    0% {
-      opacity: 0;
-      visibility: hidden;
-    }
-    100% {
-      opacity: 1;
-      visibility: visible;
-    }
-  }
-
-  .menu-title {
-    width: 100%;
-    padding: 0 16px;
-    cursor: pointer;
-  }
-
-  .big-triangle {
-    margin-right: 0.3rem;
-    width: 12px;
-    transform: rotate(0deg);
-    transition: transform 0.15s;
-  }
-
-  .big-triangle.turned {
-    transform: rotate(-180deg);
-  }
-
-  /* Phone dropdown styles */
-  .phone-menu {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-  }
-
-  .phone-menu-name {
-    background: none;
-    border: none;
-    padding: 0.7rem 0 0 0;
-    outline: inherit;
-    color: var(--medium-blue);
-    text-decoration: none;
-    font-size: 1.2rem;
-    letter-spacing: 0.009rem;
-    cursor: pointer;
-  }
-
-  .triangle {
-    margin-right: 0.3rem;
-    width: 16px;
-    transform: rotate(-90deg);
-    transition: transform 0.15s;
-  }
-
-  .triangle.turned {
-    transform: rotate(0deg);
-  }
-
-  .phone-menu-items {
-    list-style: none;
-    padding-left: 1.2rem;
-  }
-
-  .phone-menu-items a {
-    padding-top: 0.5rem;
-    display: block;
-    text-decoration: none;
-    font-size: 1.1rem;
-    color: var(--medium-blue);
-  }
-
-  /* Side menu styles */
-  .side-menu {
-    position: absolute;
-    right: 0;
-    top: 0;
-    width: 70%;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    background-color: #fff;
-    z-index: 100;
-  }
-
-  .side-menu[hidden] {
-    display: none;
-  }
-
-  /* Secondary button inline (matches SecondaryButton component) */
-  .secondary-button {
-    display: inline-flex;
-    align-items: center;
-    color: var(--medium-blue);
-    font-size: 1rem;
-    font-weight: 600;
-    letter-spacing: 0.09pt;
-    padding: 0.55rem 1.4rem;
-    text-decoration: none;
-    border-color: var(--medium-blue);
-    border-radius: 5px;
-    border-width: var(--btn-border-width);
-    border-style: solid;
-    transition: ease-in-out 0.15s;
-  }
-
-  .secondary-button:hover {
-    color: #fff;
-    background-color: var(--medium-blue);
-    border-color: var(--medium-blue);
-  }
-
-  @media (min-width: 767px) {
-    .big-nav {
-      display: flex;
+    .header {
+        display: flex;
+        height: 65px;
+        flex-direction: row;
+        align-items: center;
+        margin: 0px;
+        flex: 0 0 auto;
     }
 
-    .small-nav {
-      display: none !important;
+    .header-inner {
+        height: 65px;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        max-width: 1040px;
+        padding: 0rem 0.5rem;
+        flex: 0 0 auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .main-logo {
+        height: 100%;
+        width: 8rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .close-btn {
+        fill: var(--medium-blue);
+        margin: 1rem;
+        width: 22px;
+        height: 22px;
+        cursor: pointer;
     }
 
     .cta-btn {
-      display: block !important;
+        display: none !important;
     }
 
-    .side-menu {
-      display: none;
+    .big-nav {
+        height: 100%;
+        display: none;
+        flex-direction: row;
+        background-color: #fff;
     }
-  }
 
-  @media (min-width: 992px) {
     .big-nav button {
-      padding-right: 0.95rem;
-      padding-left: 0.95rem;
+        color: var(--medium-blue);
+        font-family: inherit !important;
+        font-size: 1.1rem;
+        letter-spacing: 0.005rem;
+        font-weight: 500;
+        padding-right: 0.45rem;
+        padding-left: 0.45rem;
     }
-  }
 
-  @media screen and (min-width: 801px) {
-    .side-menu {
-      display: none;
+    .big-nav a {
+        display: flex;
+        align-items: center;
+        padding-right: 4px;
+        padding-left: 4px;
+        color: var(--medium-blue);
+        text-decoration: none;
+        font-size: 1.1rem;
+        letter-spacing: 0.005rem;
+        font-weight: 500;
     }
-  }
+
+    .big-nav a:hover {
+        text-decoration: none;
+    }
+
+    .small-nav {
+        fill: var(--medium-blue);
+        display: flex !important;
+        width: 32px !important;
+        margin-right: 16px;
+        cursor: pointer;
+    }
+
+    .phone-nav {
+        display: flex;
+        flex-direction: column;
+        list-style: none;
+        padding-left: 20px;
+    }
+
+    .phone-nav li {
+        display: flex;
+    }
+
+    .phone-nav li button {
+        color: var(--medium-blue);
+        font-family: inherit !important;
+        font-size: 1.2rem;
+        letter-spacing: 0.009rem;
+    }
+
+    .phone-nav li a {
+        padding-top: 1rem;
+        padding-left: 1.2rem;
+        display: flex;
+        width: 100%;
+        text-decoration: none;
+        font-size: 1.2rem;
+        letter-spacing: 0.009rem;
+        color: var(--medium-blue);
+    }
+
+    /* Desktop dropdown styles */
+    .drop-menu {
+        position: relative;
+        display: flex;
+        height: 100%;
+    }
+
+    .menu-name {
+        height: 100%;
+        background: none;
+        border: none;
+        padding: 0;
+        outline: inherit;
+        display: flex;
+        align-items: center;
+        padding-right: 8px;
+        padding-left: 8px;
+        color: var(--medium-blue);
+        text-decoration: none;
+        font-size: 1.2rem;
+        letter-spacing: 0.009rem;
+        z-index: 11;
+    }
+
+    .menu-items {
+        padding: 0rem 0rem;
+        list-style: none;
+        top: 40px;
+        position: absolute;
+        background-color: #fff;
+        min-width: max-content;
+        border-radius: 4px;
+        overflow: visible;
+        z-index: 10;
+        right: 0;
+        left: auto;
+        display: none;
+    }
+
+    .menu-items.open {
+        display: block;
+    }
+
+    .menu-items li {
+        overflow: visible;
+        width: unset;
+        animation: menu-fade 80ms ease-in 0ms 1 normal both;
+    }
+
+    .menu-items li a {
+        padding: 0.4rem 0.7rem;
+        width: unset;
+    }
+
+    .menu-items li:hover {
+        background-color: var(--medium-blue);
+        color: #fff;
+        text-decoration: none;
+        outline: none;
+        border-radius: 4px;
+    }
+
+    .menu-items li:hover a {
+        color: white;
+    }
+
+    @keyframes menu-fade {
+        0% {
+            opacity: 0;
+            visibility: hidden;
+        }
+        100% {
+            opacity: 1;
+            visibility: visible;
+        }
+    }
+
+    .menu-title {
+        width: 100%;
+        padding: 0 16px;
+        cursor: pointer;
+    }
+
+    .big-triangle {
+        margin-right: 0.3rem;
+        width: 12px;
+        transform: rotate(0deg);
+        transition: transform 0.15s;
+    }
+
+    .big-triangle.turned {
+        transform: rotate(-180deg);
+    }
+
+    /* Phone dropdown styles */
+    .phone-menu {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .phone-menu-name {
+        background: none;
+        border: none;
+        padding: 0.7rem 0 0 0;
+        outline: inherit;
+        color: var(--medium-blue);
+        text-decoration: none;
+        font-size: 1.2rem;
+        letter-spacing: 0.009rem;
+        cursor: pointer;
+    }
+
+    .triangle {
+        margin-right: 0.3rem;
+        width: 16px;
+        transform: rotate(-90deg);
+        transition: transform 0.15s;
+    }
+
+    .triangle.turned {
+        transform: rotate(0deg);
+    }
+
+    .phone-menu-items {
+        list-style: none;
+        padding-left: 1.2rem;
+    }
+
+    .phone-menu-items a {
+        padding-top: 0.5rem;
+        display: block;
+        text-decoration: none;
+        font-size: 1.1rem;
+        color: var(--medium-blue);
+    }
+
+    /* Side menu styles */
+    .side-menu {
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 70%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        background-color: #fff;
+        z-index: 100;
+    }
+
+    .side-menu[hidden] {
+        display: none;
+    }
+
+    /* Secondary button inline (matches SecondaryButton component) */
+    .secondary-button {
+        display: inline-flex;
+        align-items: center;
+        color: var(--medium-blue);
+        font-size: 1rem;
+        font-weight: 600;
+        letter-spacing: 0.09pt;
+        padding: 0.55rem 1.4rem;
+        text-decoration: none;
+        border-color: var(--medium-blue);
+        border-radius: 5px;
+        border-width: var(--btn-border-width);
+        border-style: solid;
+        transition: ease-in-out 0.15s;
+    }
+
+    .secondary-button:hover {
+        color: #fff;
+        background-color: var(--medium-blue);
+        border-color: var(--medium-blue);
+    }
+
+    @media (min-width: 767px) {
+        .big-nav {
+            display: flex;
+        }
+
+        .small-nav {
+            display: none !important;
+        }
+
+        .cta-btn {
+            display: block !important;
+        }
+
+        .side-menu {
+            display: none;
+        }
+    }
+
+    @media (min-width: 992px) {
+        .big-nav button {
+            padding-right: 0.95rem;
+            padding-left: 0.95rem;
+        }
+    }
+
+    @media screen and (min-width: 801px) {
+        .side-menu {
+            display: none;
+        }
+    }
 </style>
 
 <script>
-  function initHeader() {
-    // Desktop dropdowns
-    document.querySelectorAll('[data-dropdown]').forEach((dropdown) => {
-      const trigger = dropdown.querySelector('[data-dropdown-trigger]');
-      const menu = dropdown.querySelector('[data-dropdown-menu]');
-      const chevron = trigger?.querySelector('.big-triangle');
-      if (!trigger || !menu) return;
+    function initHeader() {
+        // Desktop dropdowns
+        document.querySelectorAll('[data-dropdown]').forEach((dropdown) => {
+            const trigger = dropdown.querySelector('[data-dropdown-trigger]');
+            const menu = dropdown.querySelector('[data-dropdown-menu]');
+            const chevron = trigger?.querySelector('.big-triangle');
+            if (!trigger || !menu) return;
 
-      let isClicked = false;
+            let isClicked = false;
 
-      function openMenu() {
-        menu.classList.add('open');
-        chevron?.classList.add('turned');
-      }
+            function openMenu() {
+                menu.classList.add('open');
+                chevron?.classList.add('turned');
+            }
 
-      function closeMenu() {
-        menu.classList.remove('open');
-        chevron?.classList.remove('turned');
-        isClicked = false;
-        window.removeEventListener('click', onWindowClick);
-      }
+            function closeMenu() {
+                menu.classList.remove('open');
+                chevron?.classList.remove('turned');
+                isClicked = false;
+                window.removeEventListener('click', onWindowClick);
+            }
 
-      function onWindowClick() {
-        closeMenu();
-      }
+            function onWindowClick() {
+                closeMenu();
+            }
 
-      trigger.addEventListener('click', (e) => {
-        e.stopPropagation();
-        if (!isClicked) {
-          isClicked = true;
-          openMenu();
-          setTimeout(() => {
-            window.addEventListener('click', onWindowClick);
-          }, 0);
-        }
-      });
+            trigger.addEventListener('click', (e) => {
+                e.stopPropagation();
+                if (!isClicked) {
+                    isClicked = true;
+                    openMenu();
+                    setTimeout(() => {
+                        window.addEventListener('click', onWindowClick);
+                    }, 0);
+                }
+            });
 
-      dropdown.addEventListener('mouseenter', () => {
-        if (!isClicked) {
-          openMenu();
-        }
-      });
+            dropdown.addEventListener('mouseenter', () => {
+                if (!isClicked) {
+                    openMenu();
+                }
+            });
 
-      dropdown.addEventListener('mouseleave', () => {
-        if (!isClicked) {
-          closeMenu();
-        }
-      });
-    });
+            dropdown.addEventListener('mouseleave', () => {
+                if (!isClicked) {
+                    closeMenu();
+                }
+            });
+        });
 
-    // Side menu toggle
-    const sideMenu = document.getElementById('side-menu');
-    const openBtn = document.getElementById('open-side-menu');
-    const closeBtn = document.getElementById('close-side-menu');
-    const defaultActions = document.getElementById('header-default-actions');
+        // Side menu toggle
+        const sideMenu = document.getElementById('side-menu');
+        const openBtn = document.getElementById('open-side-menu');
+        const closeBtn = document.getElementById('close-side-menu');
+        const defaultActions = document.getElementById(
+            'header-default-actions',
+        );
 
-    openBtn?.addEventListener('click', () => {
-      sideMenu?.removeAttribute('hidden');
-      if (defaultActions) defaultActions.style.display = 'none';
-    });
+        openBtn?.addEventListener('click', () => {
+            sideMenu?.removeAttribute('hidden');
+            if (defaultActions) defaultActions.style.display = 'none';
+        });
 
-    closeBtn?.addEventListener('click', () => {
-      sideMenu?.setAttribute('hidden', '');
-      if (defaultActions) defaultActions.style.display = '';
-    });
+        closeBtn?.addEventListener('click', () => {
+            sideMenu?.setAttribute('hidden', '');
+            if (defaultActions) defaultActions.style.display = '';
+        });
 
-    // Phone dropdown toggles
-    document.querySelectorAll('[data-phone-dropdown]').forEach((dropdown) => {
-      const trigger = dropdown.querySelector('[data-phone-dropdown-trigger]');
-      const items = dropdown.querySelector('.phone-menu-items');
-      const chevron = trigger?.querySelector('.triangle');
-      if (!trigger || !items) return;
+        // Phone dropdown toggles
+        document
+            .querySelectorAll('[data-phone-dropdown]')
+            .forEach((dropdown) => {
+                const trigger = dropdown.querySelector(
+                    '[data-phone-dropdown-trigger]',
+                );
+                const items = dropdown.querySelector('.phone-menu-items');
+                const chevron = trigger?.querySelector('.triangle');
+                if (!trigger || !items) return;
 
-      trigger.addEventListener('click', () => {
-        const isOpen = !items.hidden;
-        if (isOpen) {
-          items.hidden = true;
-          chevron?.classList.remove('turned');
-        } else {
-          items.hidden = false;
-          chevron?.classList.add('turned');
-        }
-      });
-    });
-  }
+                trigger.addEventListener('click', () => {
+                    const isOpen = !items.hidden;
+                    if (isOpen) {
+                        items.hidden = true;
+                        chevron?.classList.remove('turned');
+                    } else {
+                        items.hidden = false;
+                        chevron?.classList.add('turned');
+                    }
+                });
+            });
+    }
 
-  initHeader();
-  document.addEventListener('astro:after-swap', initHeader);
+    initHeader();
+    document.addEventListener('astro:after-swap', initHeader);
 </script>

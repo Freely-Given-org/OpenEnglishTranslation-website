@@ -3,43 +3,43 @@ const { href } = Astro.props;
 ---
 
 <div>
-  <a class="primary-button" href={href}>
-    <slot />
-  </a>
+    <a class="primary-button" href={href}>
+        <slot />
+    </a>
 </div>
 
 <style>
-  .primary-button {
-    display: inline-flex;
-    align-items: center;
-    color: #fff;
-    font-size: 1rem;
-    font-weight: 600;
-    letter-spacing: 0.09pt;
-    background-color: var(--accent-orange);
-    padding: 0.55rem 1.4rem;
-    text-decoration: none;
-    border-color: var(--accent-orange);
-    border-radius: 5px;
-    border-width: var(--btn-border-width);
-    border-style: solid;
-    transition: ease-in-out 0.15s;
-  }
+    .primary-button {
+        display: inline-flex;
+        align-items: center;
+        color: #fff;
+        font-size: 1rem;
+        font-weight: 600;
+        letter-spacing: 0.09pt;
+        background-color: var(--accent-orange);
+        padding: 0.55rem 1.4rem;
+        text-decoration: none;
+        border-color: var(--accent-orange);
+        border-radius: 5px;
+        border-width: var(--btn-border-width);
+        border-style: solid;
+        transition: ease-in-out 0.15s;
+    }
 
-  .primary-button:hover {
-    color: var(--medium-blue);
-    background-color: transparent;
-    border-color: var(--medium-blue);
-  }
+    .primary-button:hover {
+        color: var(--medium-blue);
+        background-color: transparent;
+        border-color: var(--medium-blue);
+    }
 
-  .primary-button :global(svg) {
-    margin-left: 0.4rem;
-    width: 12px;
-    fill: #fff;
-    transition: ease-in-out 0.15s;
-  }
+    .primary-button :global(svg) {
+        margin-left: 0.4rem;
+        width: 12px;
+        fill: #fff;
+        transition: ease-in-out 0.15s;
+    }
 
-  .primary-button:hover :global(svg) {
-    fill: var(--medium-blue);
-  }
+    .primary-button:hover :global(svg) {
+        fill: var(--medium-blue);
+    }
 </style>

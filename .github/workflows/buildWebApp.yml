@@ -6,52 +6,40 @@ on:
       - main
 jobs:
   build:
-    name: Building
+    name: Build
     runs-on: ubuntu-latest
     steps:
-      - name: check out code 🛎
-        uses: actions/checkout@v3
+      - name: Checkout
+        uses: actions/checkout@v4
 
-      - name: Install Node v18
-        uses: actions/setup-node@v3
+      - name: Install Node
+        uses: actions/setup-node@v4
         with:
-          node-version: "18.x"
-          registry-url: "https://registry.npmjs.org"
+          node-version: "22"
 
       - name: Install dependencies
         run: npm install
-        working-directory: ./frontend
 
       - name: Build
         run: npm run build
-        working-directory: ./frontend
+
   lint:
-    name: ESLint check
+    name: Lint & Format
     runs-on: ubuntu-latest
     steps:
-      - name: check out code 🛎
-        uses: actions/checkout@v3
+      - name: Checkout
+        uses: actions/checkout@v4
 
-      - name: Install Node v18
-        uses: actions/setup-node@v3
+      - name: Install Node
+        uses: actions/setup-node@v4
         with:
-          node-version: "18.x"
-          registry-url: "https://registry.npmjs.org"
-          
+          node-version: "22"
+
       - name: Install dependencies
-        run: npm i eslint eslint-plugin-typescript-sort-keys
-        working-directory: ./frontend
+        run: npm install
 
-      - name: Run ESLint
+      - name: Lint
         run: npm run lint
-        working-directory: ./frontend
 
-  # test:
-
-  # name: Tests check
-  # runs-on: self-hosted
-  # steps:
-
-  # - name: Run Tests
-  #   run: npm run test
-  #   working-directory: ./frontend
+      - name: Check formatting
+        run: npm run format:check

@@ -9,9 +9,17 @@
     "dev": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "astro": "astro"
+    "astro": "astro",
+    "lint": "oxlint ./src",
+    "format": "prettier --write ./src",
+    "format:check": "prettier --check ./src"
   },
   "dependencies": {
     "astro": "^6.1.5"
+  },
+  "devDependencies": {
+    "oxlint": "^1.59.0",
+    "prettier": "^3.8.2",
+    "prettier-plugin-astro": "^0.14.1"
   }
 }
