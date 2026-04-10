@@ -1,0 +1,52 @@
+---
+import ActionItem from './ActionItem.astro';
+---
+
+<div class="actionsection">
+    <div class="inner">
+        <ActionItem
+            link="/Intro/Overview"
+            title="Learn"
+            iconType="info"
+            text="What is the OET? Who is it for? Why was it created? A new, exciting, radical, freely-licensed Bible translation."
+        />
+        <ActionItem
+            link="/Discussion/Blog"
+            title="News"
+            iconType="news"
+            text="As of early-April 2026, we have a first draft of most of the sixty-six Bible 'books' excluding Leviticus, Isaiah, and Jeremiah. Now almost 92% of the Bible is drafted."
+        />
+        <ActionItem
+            link="/About/Partners"
+            title="Volunteer"
+            iconType="volunteer"
+            text="Wanting to gift your God-given skills to the Bible world? Excited that your work could be freely reused by Bible translators across all the continents and for decades to come? Yes, we need you!"
+        />
+    </div>
+</div>
+
+<style>
+    .actionsection {
+        display: flex;
+        width: 100%;
+        background-color: var(--medium-blue);
+    }
+
+    .inner {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        max-width: var(--max-width);
+        padding: 1.2rem 0.5rem;
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    @media (min-width: 767px) {
+        .inner {
+            align-items: start;
+            flex-direction: row;
+        }
+    }
+</style>

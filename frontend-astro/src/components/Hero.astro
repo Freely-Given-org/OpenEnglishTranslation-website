@@ -1,0 +1,89 @@
+---
+import PrimaryButton from './PrimaryButton.astro';
+import SecondaryButton from './SecondaryButton.astro';
+---
+
+<div class="hero">
+    <div class="hero-inner">
+        <div>
+            <small class="full-name">The Open English Translation</small>
+            <h1>A new, exciting, radical, freely-licensed Bible translation for the 2030's.</h1>
+            <div class="buttons">
+                <PrimaryButton href="/Reader">Read the OET</PrimaryButton>
+                <SecondaryButton href="/Intro/Overview">Learn about the OET</SecondaryButton>
+            </div>
+        </div>
+        <img
+            class="image"
+            src="/assets/sixteen-miles-out-MLOZazGGCb8-unsplash.jpg"
+            alt="Picture of an open Bible"
+        />
+    </div>
+</div>
+
+<style>
+    .hero {
+        display: flex;
+        width: 100%;
+        background-color: var(--accent-orange-light);
+        max-height: 100%;
+        overflow: hidden;
+    }
+
+    .hero-inner {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        text-align: center;
+        max-width: var(--max-width);
+        padding: 3rem 0.5rem;
+        margin: 0 auto;
+        gap: 3rem;
+        width: 100%;
+    }
+
+    h1 {
+        margin: 0;
+        margin-top: 0.4rem;
+        font-size: 2.5rem;
+        line-height: 3.1rem;
+        letter-spacing: -0.006rem;
+        font-weight: 600;
+        color: var(--medium-blue);
+    }
+
+    .full-name {
+        color: var(--medium-blue);
+        text-transform: uppercase;
+        font-weight: 600;
+        letter-spacing: 0.5px;
+    }
+
+    .buttons {
+        margin-top: 1.5rem;
+        display: flex;
+        flex-direction: column;
+        gap: 0.3rem;
+    }
+
+    .image {
+        object-fit: contain;
+        height: auto;
+        width: 100%;
+    }
+
+    @media (min-width: 767px) {
+        .hero {
+            max-height: 24rem;
+        }
+
+        .hero-inner {
+            flex-direction: row;
+            text-align: left;
+        }
+
+        .buttons {
+            flex-direction: row;
+        }
+    }
+</style>

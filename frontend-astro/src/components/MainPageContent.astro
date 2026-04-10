@@ -1,0 +1,70 @@
+---
+---
+
+<div class="main-page-content" style={{ color: 'var(--medium-blue)', fontSize: '1.1rem', flexBasis: '65%', maxWidth: '1040px', marginTop: '2rem', marginLeft: 'auto', marginRight: 'auto', marginBottom: '2rem', paddingLeft: '0.5rem', paddingRight: '0.5rem' }}>
+  <slot />
+</div>
+
+<style>
+  .main-page-content :global(h1),
+  .main-page-content :global(h2),
+  .main-page-content :global(h3),
+  .main-page-content :global(h4),
+  .main-page-content :global(h5),
+  .main-page-content :global(h6),
+  .main-page-content :global(p),
+  .main-page-content :global(ul),
+  .main-page-content :global(small) {
+    margin: 0;
+  }
+
+  .main-page-content :global(h1),
+  .main-page-content :global(h2),
+  .main-page-content :global(h3),
+  .main-page-content :global(h4),
+  .main-page-content :global(h5),
+  .main-page-content :global(h6) {
+    margin-top: 1rem;
+    font-weight: 500;
+  }
+
+  .main-page-content :global(h1) {
+    font-weight: 600;
+  }
+
+  .main-page-content :global(ul) {
+    padding: 0;
+    list-style-position: inside;
+  }
+
+  .main-page-content :global(p) {
+    margin-top: 1rem;
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+  }
+
+  .main-page-content :global(a) {
+    font-weight: 500;
+    color: var(--medium-blue);
+    text-decoration-thickness: 2px;
+    text-decoration-style: solid;
+    text-decoration-color: var(--accent-orange);
+    transition-duration: 0.3s;
+  }
+
+  .main-page-content :global(a:hover) {
+    text-decoration-style: dotted;
+  }
+
+  .main-page-content :global(iframe) {
+    width: 100% !important;
+    height: 42rem;
+  }
+
+  .main-page-content :global(img) {
+    object-fit: contain;
+    height: auto;
+    width: 100%;
+    margin: 0;
+  }
+</style>
