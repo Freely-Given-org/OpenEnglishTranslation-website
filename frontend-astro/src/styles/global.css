@@ -1,0 +1,28 @@
+:root {
+    --accent-orange: #DDA854;
+    --accent-orange-light: #FBF5DD;
+    --medium-blue-lighter: #17404D;
+    --medium-blue: #16404D;
+    --blue-black: #021014;
+    --btn-border-width: 3px;
+    --max-width: 1040px;
+    --bp-small: 767px;
+    --bp-medium: 992px;
+    --bp-large: 1200px;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Hind', sans-serif;
+    color: var(--medium-blue);
+}
+
+a {
+    color: var(--medium-blue);
+}

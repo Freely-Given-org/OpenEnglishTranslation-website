@@ -1,0 +1,86 @@
+---
+interface Props {
+    link: string;
+    title: string;
+    iconType: 'info' | 'news' | 'volunteer';
+    text: string;
+}
+
+const { link, title, iconType, text } = Astro.props;
+
+const icons = {
+    info: `<svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 16 16" class="main-icon"><path d="M14 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2z"/><path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0"/></svg>`,
+    news: `<svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 16 16" class="main-icon"><path d="M0 2.5A1.5 1.5 0 0 1 1.5 1h11A1.5 1.5 0 0 1 14 2.5v10.528c0 .3-.05.654-.238.972h.738a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 1 1 0v9a1.5 1.5 0 0 1-1.5 1.5H1.497A1.497 1.497 0 0 1 0 13.5zM12 14c.37 0 .654-.211.853-.441.092-.106.147-.279.147-.531V2.5a.5.5 0 0 0-.5-.5h-11a.5.5 0 0 0-.5.5v11c0 .278.223.5.497.5z"/><path d="M2 3h10v2H2zm0 3h4v3H2zm0 4h4v1H2zm0 2h4v1H2zm5-6h2v1H7zm3 0h2v1h-2zM7 8h2v1H7zm3 0h2v1h-2zm-3 2h2v1H7zm3 0h2v1h-2zm-3 2h2v1H7zm3 0h2v1h-2z"/></svg>`,
+    volunteer: `<svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 16 16" class="main-icon"><path d="M15 14s1 0 1-1-1-4-5-4-5 3-5 4 1 1 1 1zm-7.978-1L7 12.996c.001-.264.167-1.03.76-1.72C8.312 10.629 9.282 10 11 10c1.717 0 2.687.63 3.24 1.276.593.69.758 1.457.76 1.72l-.008.002-.014.002zM11 7a2 2 0 1 0 0-4 2 2 0 0 0 0 4m3-2a3 3 0 1 1-6 0 3 3 0 0 1 6 0M6.936 9.28a6 6 0 0 0-1.23-.247A7 7 0 0 0 5 9c-4 0-5 3-5 4q0 1 1 1h4.216A2.24 2.24 0 0 1 5 13c0-1.01.377-2.042 1.09-2.904.243-.294.526-.569.846-.816M4.92 10A5.5 5.5 0 0 0 4 13H1c0-.26.164-1.03.76-1.724.545-.636 1.492-1.256 3.16-1.275ZM1.5 5.5a3 3 0 1 1 6 0 3 3 0 0 1-6 0m3-2a2 2 0 1 0 0 4 2 2 0 0 0 0-4"/></svg>`,
+};
+
+const arrowIcon = `<svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 16 16" class="arrow-icon"><path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/></svg>`;
+---
+
+<a href={link} class="action">
+    <div class="head">
+        <div class="head-inner">
+            <Fragment set:html={icons[iconType]} />
+            <h4>{title}</h4>
+        </div>
+        <Fragment set:html={arrowIcon} />
+    </div>
+    <p class="body">{text}</p>
+</a>
+
+<style>
+    .action {
+        display: flex;
+        flex-direction: column;
+        max-width: 28rem;
+        padding: 1.4rem;
+        text-decoration: none;
+        color: #fff;
+        transition-duration: 0.2s;
+    }
+
+    .action:hover {
+        color: #ffffffc6;
+    }
+
+    .head {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .head-inner {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 0.7rem;
+    }
+
+    .head-inner :global(.main-icon) {
+        width: 26px;
+        height: 26px;
+    }
+
+    .head-inner h4 {
+        margin: 0;
+        font-weight: 500;
+        font-size: 1.5rem;
+        line-height: 2.1rem;
+    }
+
+    .head :global(.arrow-icon) {
+        width: 22px;
+        height: 22px;
+    }
+
+    .body {
+        font-size: 0.9rem;
+    }
+
+    @media (min-width: 767px) {
+        .action {
+            max-width: 21rem;
+        }
+    }
+</style>

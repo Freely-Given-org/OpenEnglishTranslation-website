@@ -1,0 +1,25 @@
+---
+import Base from '../layouts/Base.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import Page from '../components/Page.astro';
+import Hero from '../components/Hero.astro';
+import ActionSection from '../components/ActionSection.astro';
+import LicenseSection from '../components/LicenseSection.astro';
+import WhatIsSection from '../components/WhatIsSection.astro';
+import VerseOfTheDaySection from '../components/VerseOfTheDaySection.astro';
+---
+
+<Base title="Open English Translation">
+    <Header />
+    <main style={{ display: 'flex', flexDirection: 'column', minHeight: '85vh', alignItems: 'center', width: '100%' }}>
+        <div style={{ display: 'flex', flexDirection: 'column', width: '100%' }}>
+            <Hero />
+            <ActionSection />
+            <LicenseSection />
+            <WhatIsSection />
+            <VerseOfTheDaySection />
+        </div>
+    </main>
+    <Footer />
+</Base>
