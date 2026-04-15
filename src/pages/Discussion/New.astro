@@ -1,0 +1,41 @@
+---
+import Base from '../../layouts/Base.astro';
+import Header from '../../components/Header.astro';
+import Footer from '../../components/Footer.astro';
+import Page from '../../components/Page.astro';
+import MainPageContent from '../../components/MainPageContent.astro';
+---
+
+<Base title="New Discussion - Open English Translation">
+    <Header />
+    <main class="main">
+        <Page>
+            <MainPageContent>
+                <h1>Starting a new discussion</h1>
+                <p>
+                    We use the GitHub <a
+                        href="https://GitHub.com/Freely-Given-org/OpenEnglishTranslation--OET/discussions"
+                        >discussion pages</a
+                    > for open, online discussions, so feel free to join in with an
+                    existing discussion or start a new one.
+                </p>
+                <p>
+                    Alternatively, you can submit a question or comment from <a
+                        href="/About/Contact">our contact page</a
+                    >, and then we'll either open a discussion ourselves, or add
+                    it to <a href="/Discussion/FAQ">our FAQ Page</a> with our response.
+                </p>
+            </MainPageContent>
+        </Page>
+    </main>
+    <Footer />
+</Base>
+
+<style>
+    .main {
+        min-height: 85vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+</style>

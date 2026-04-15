@@ -1,0 +1,188 @@
+---
+import SecondaryButton from './SecondaryButton.astro';
+---
+
+<div class="whatissection">
+    <div class="inner">
+        <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="currentColor"
+            viewBox="0 0 16 16"
+            class="book-icon"
+        >
+            <path
+                d="M1 2.828c.885-.37 2.154-.769 3.388-.893 1.33-.134 2.458.063 3.112.752v9.746c-.935-.53-2.12-.603-3.213-.493-1.18.12-2.37.461-3.287.811zm7.5-.141c.654-.689 1.782-.886 3.112-.752 1.234.124 2.503.523 3.388.893v9.923c-.918-.35-2.107-.692-3.287-.81-1.094-.111-2.278-.039-3.213.492zM8 1.783C7.015.936 5.587.81 4.287.94c-1.514.153-3.042.672-3.994 1.105A.5.5 0 0 0 0 2.5v11a.5.5 0 0 0 .707.455c.882-.4 2.303-.881 3.68-1.02 1.409-.142 2.59.087 3.223.877a.5.5 0 0 0 .78 0c.633-.79 1.814-1.019 3.222-.877 1.378.139 2.8.62 3.681 1.02A.5.5 0 0 0 16 13.5v-11a.5.5 0 0 0-.293-.455c-.952-.433-2.48-.952-3.994-1.105C10.413.809 8.985.936 8 1.783"
+            ></path>
+        </svg>
+        <h3>What is the OET?</h3>
+        <p class="intro">
+            The OET contains a Readers' Version and a very Literal Version
+            side-by-side. Every word in the OET Literal Version is linked to the
+            Hebrew or Greek word that it's translated from.
+        </p>
+
+        <div class="info-cols">
+            <p class="info">
+                Not a commercial product unlike most English Bibles— it is
+                freely available to use, copy, print, adapt, or retranslate—no
+                need to ask for permission.
+            </p>
+            <p class="info">
+                An <b>opportunity for experts</b> to donate their linguistic, archaeological,
+                cultural, or theological expertise as a gift to the world by submitting
+                it as an
+                <i>add-on pack</i> to the translation (see our
+                <a class="info-link" href="/About/Partners">Partners page</a>)
+            </p>
+            <p class="info">
+                Not bound by church jargon, unnecessary tradition, and following
+                the crowd, in an attempt to communicate well to non-churched
+                readers, yet to provoke and stimulate seasoned Bible readers.
+            </p>
+            <p class="info">
+                A commitment to accuracy and high-quality, and to wrestle with
+                the text to try to determine the likely intent of the various
+                biblical writers.
+            </p>
+            <p class="info">
+                Prepared to <b>fix long-time mistakes</b>, including some that
+                have been propagated for hundreds of years since the New
+                Testament was translated from the Latin translation into
+                <a
+                    class="info-link"
+                    href="https://Freely-Given.org/OBD/Wycl/byC/MRK_C1.htm#Top"
+                    >middle-English</a
+                >, i.e., we're aiming to correct old mistakes (at the risk of
+                making some new ones)
+            </p>
+            <p class="info">
+                Following
+                <a
+                    class="info-link"
+                    href="https://www.nzherald.co.nz/nz/te-wiki-o-te-reo-maori-new-zealands-most-mispronounced-places-and-what-to-do-about-it/JCCWGOZ5OAQQN7C5A5PDV7UBMI/"
+                    >modern trends</a
+                >
+                in our societies of
+                <b>showing more respect to other language groups</b>
+                by trying to do the same with the
+                <a class="info-link" href="/Discussion/BiblicalNames">names</a>
+                of the Biblical characters and with
+                <a class="info-link" href="/Discussion/KTEssays#Yahweh"
+                    >God's name</a
+                >.
+            </p>
+            <p class="info">
+                Trying to
+                <b>avoid using untranslated Greek words</b>
+                as much as possible in the English translation (words like 'angel',
+                'apostle', 'baptise', and 'Christ'), although we do use 'Messiah'
+                (from Hebrew) heavily
+            </p>
+            <p class="info">
+                Preparing for the next major movement of lost young people
+                searching for truth and meaning and purpose, but who mightn't
+                want to be forced to learn old-fashioned English to do so.
+            </p>
+            <p class="info">
+                Designed from the beginning to connect with other resources
+                including links to the original manuscripts.
+            </p>
+            <p class="info">
+                Able to keep improving over time with community input.
+            </p>
+        </div>
+        <SecondaryButton href="/Intro/Overview">
+            Learn more
+            <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="currentColor"
+                viewBox="0 0 16 16"
+                style="margin-left:0.4rem;width:12px;"
+            >
+                <path
+                    fill-rule="evenodd"
+                    d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"
+                ></path>
+            </svg>
+        </SecondaryButton>
+    </div>
+</div>
+
+<style>
+    .whatissection {
+        color: var(--medium-blue);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .inner {
+        color: var(--medium-blue);
+        max-width: 740px;
+        margin: 0 auto;
+        text-align: center;
+        padding: 5rem 1rem;
+    }
+
+    .book-icon {
+        fill: var(--medium-blue);
+        width: 32px;
+        height: 32px;
+        margin-bottom: 0.7rem;
+    }
+
+    h3 {
+        margin: 0;
+        font-size: 2.4rem;
+        line-height: 3rem;
+        font-weight: 500;
+        max-width: 640px;
+        margin: 0 auto;
+    }
+
+    .intro {
+        max-width: 600px;
+        margin: 0.5rem auto 0;
+        font-size: 1.1rem;
+        line-height: 1.7rem;
+    }
+
+    .info-cols {
+        margin-top: 2rem;
+        margin-bottom: 4rem;
+        display: grid;
+        gap: 2rem;
+        grid-template-columns: auto;
+        text-wrap: pretty;
+    }
+
+    .info {
+        font-size: 1.1rem;
+        line-height: 1.5rem;
+        max-width: 28rem;
+    }
+
+    .info b {
+        font-weight: 600;
+    }
+
+    .info-link {
+        font-weight: 500;
+        color: var(--medium-blue);
+        text-decoration-thickness: 2px;
+        text-decoration-style: solid;
+        text-decoration-color: var(--accent-orange);
+        transition-duration: 0.3s;
+    }
+
+    .info-link:hover {
+        text-decoration-style: dotted;
+    }
+
+    @media (min-width: 767px) {
+        .info-cols {
+            grid-template-columns: auto auto;
+        }
+    }
+</style>

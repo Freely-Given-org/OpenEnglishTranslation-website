@@ -1,0 +1,57 @@
+---
+import Base from '../../layouts/Base.astro';
+import Header from '../../components/Header.astro';
+import Footer from '../../components/Footer.astro';
+import Page from '../../components/Page.astro';
+import MainPageContent from '../../components/MainPageContent.astro';
+---
+
+<Base title="Why the Name - Open English Translation">
+    <Header />
+    <main class="main">
+        <Page>
+            <MainPageContent>
+                <h1>
+                    Why is it called the <em>Open English Translation</em> of the
+                    Bible (OET)?
+                </h1>
+                <ul>
+                    <li>
+                        <b>Open</b> (unashamedly inspired by Free and Open-source
+                        software) expresses our desire to make it freely available
+                        for others to use or adapt in any way. It's also open in the
+                        sense of open for others to join in and help with (but that
+                        doesn't mean that it would be open to everyone—just those
+                        who show a genuine interest and ability).
+                    </li>
+                    <li>
+                        <b>English</b> because it's an English translation: <b
+                            >Modern English. Our English.</b
+                        > (It seems a little ethnocentric to leave the language qualifier
+                        out of the title of a Bible translation, as in 'Holy Bible'
+                        or similar, although it's true that in most cases that language
+                        of the title itself indicates the language of the translation.)
+                    </li>
+                    <li>
+                        <b>Translation</b> just to remind readers/users that it is
+                        indeed just a translation of the original language scriptures.
+                        (Again it seems a little deficient if a book called something
+                        like <em>The Holy Bible</em> doesn't clearly remind its readers
+                        that it's not the original but merely one of hundreds of different
+                        English translations.)
+                    </li>
+                </ul>
+            </MainPageContent>
+        </Page>
+    </main>
+    <Footer />
+</Base>
+
+<style>
+    .main {
+        min-height: 85vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+</style>

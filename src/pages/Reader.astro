@@ -1,0 +1,68 @@
+---
+import Base from '../layouts/Base.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import Page from '../components/Page.astro';
+import MainPageContent from '../components/MainPageContent.astro';
+---
+
+<Base title="Reader - Open English Translation">
+    <Header />
+    <main class="main">
+        <Page>
+            <MainPageContent>
+                <h1>OET Bible Reader</h1>
+                <p>
+                    This reader displays the <em>OET Explorers' Edition</em> which
+                    includes the <em>OET <b>Readers' Version</b></em> and the <em
+                        >OET <b>Literal Version</b></em
+                    > displayed together side-by-side (as well as parallel and interlinear
+                    verse views). More prettification and better navigation still
+                    to come, but we wanted to give you an early glimpse into our direction
+                    with the text.
+                </p>
+                <p>
+                    <small>
+                        You should note that the <em>OET</em> project is still in
+                        the startup phase and so you are viewing early, rough drafts
+                        of the New Testament and some Old Testament books made available
+                        to demonstrate some of the concepts and for early users to
+                        start testing. The <em>OET Old Testament</em> drafting is
+                        ongoing. The text is suitable to use for Bible-study, but
+                        not yet recommended for memorisation.
+                    </small>
+                </p>
+                <p>
+                    (<a
+                        href="https://Freely-Given.org/OBD/OET/bySec/JHN_S2.htm#Top"
+                        target="_blank"
+                        >Open reader site in separate tab (recommended for best
+                        performance)</a
+                    >)
+                </p>
+                <iframe
+                    class="reader-iframe"
+                    src="https://Freely-Given.org/OBD/OET/bySec/JHN_S2.htm#Top"
+                ></iframe>
+                <p>
+                    See the <a href="/About/Contact">contact page</a> to submit any
+                    errors or suggestions.
+                </p>
+            </MainPageContent>
+        </Page>
+    </main>
+    <Footer />
+</Base>
+
+<style>
+    .main {
+        min-height: 85vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .reader-iframe {
+        width: 96vw;
+        height: 95vh;
+    }
+</style>
