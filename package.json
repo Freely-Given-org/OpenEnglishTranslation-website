@@ -15,7 +15,7 @@
     "format:check": "prettier --check ./src"
   },
   "dependencies": {
-    "astro": "^6.1.5"
+    "astro": "^7.1.4"
   },
   "devDependencies": {
     "oxlint": "^1.59.0",
