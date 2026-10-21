@@ -1,3 +1,19 @@
+# Static website
+
+Build the current Astro website from this repository's root directory. Use the
+Node.js version in `.nvmrc` and npm 9.6.5 or newer. If you use nvm, run `nvm install`
+and `nvm use` first.
+
+```sh
+npm ci
+npm run build
+npm run lint
+npm run format:check
+```
+
+GitHub Actions reads the same `.nvmrc` file and installs the versions recorded in
+`package-lock.json`. After changing dependencies, commit the updated lockfile too.
+
 # Startup details
 
 ## Start front end
