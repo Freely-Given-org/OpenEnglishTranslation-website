@@ -1,0 +1,163 @@
+---
+import Base from './Base.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import Page from '../components/Page.astro';
+import MainPageContent from '../components/MainPageContent.astro';
+
+interface Props {
+    frontmatter: {
+        title: string;
+        author: string;
+        date: string | null;
+        dateLabel: string | null;
+        updated?: string;
+        updatedLabel?: string;
+        related?: string;
+        source?: string;
+    };
+}
+
+const {
+    title,
+    author,
+    date,
+    dateLabel,
+    updated,
+    updatedLabel,
+    related,
+    source,
+} = Astro.props.frontmatter;
+---
+
+<Base title={`${title} - Open English Translation`}>
+    <Header />
+    <main>
+        <Page>
+            <MainPageContent>
+                <article class="essay">
+                    <nav aria-label="Blog navigation">
+                        <a href="/Discussion/Blog/">← All blog essays</a>
+                    </nav>
+                    <header>
+                        <h1>{title}</h1>
+                        <p class="byline">
+                            {author} · {
+                                date ? (
+                                    <time datetime={date}>{dateLabel}</time>
+                                ) : (
+                                    'Undated in the booklet'
+                                )
+                            }
+                            {
+                                updated && (
+                                    <>
+                                        {' · Updated '}
+                                        <time datetime={updated}>
+                                            {updatedLabel}
+                                        </time>
+                                    </>
+                                )
+                            }
+                        </p>
+                        <p class="source-note">
+                            {
+                                source && (
+                                    <>
+                                        From{' '}
+                                        <em>A collection of short essays</em>
+                                        .{' '}
+                                    </>
+                                )
+                            }
+                            Project references reflect the source essay; see our <a
+                                href="/About/Status">current status</a
+                            >.
+                        </p>
+                    </header>
+                    <div class="essay-body"><slot /></div>
+                    <footer>
+                        {
+                            related && (
+                                <p>
+                                    <a href={related}>
+                                        Read more on this topic
+                                    </a>
+                                </p>
+                            )
+                        }
+                        <p><a href="/Discussion/Blog/">← All blog essays</a></p>
+                    </footer>
+                </article>
+            </MainPageContent>
+        </Page>
+    </main>
+    <Footer />
+</Base>
+
+<style>
+    main {
+        min-height: 85vh;
+    }
+
+    .essay {
+        max-width: 46rem;
+        margin-inline: auto;
+        overflow-wrap: anywhere;
+    }
+
+    .essay header,
+    .essay footer {
+        padding-block: 1rem;
+    }
+
+    .essay .byline,
+    .essay .source-note {
+        font-size: 1rem;
+    }
+
+    .source-note {
+        border-left: 3px solid var(--accent-orange);
+        padding-left: 0.75rem;
+    }
+
+    .essay-body :global(ul),
+    .essay-body :global(ol) {
+        margin-block: 1rem;
+        padding-left: 1.5rem;
+        list-style-position: outside;
+    }
+
+    .essay-body :global(li) {
+        margin-block: 0.5rem;
+    }
+
+    .essay-body :global(figure) {
+        margin: 1.5rem 0;
+    }
+
+    .essay-body :global(.narrow-figure) {
+        max-width: 18rem;
+        margin-inline: auto;
+    }
+
+    .essay-body :global(.cropped-image) {
+        display: block;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .essay-body :global(.sacred-name) {
+        border: 2px solid #005a9c;
+        padding-inline: 0.1em;
+    }
+
+    .essay-body :global(.footnotes) {
+        margin-top: 2rem;
+        border-top: 1px solid currentColor;
+    }
+
+    .essay-body :global([id]) {
+        scroll-margin-top: 6rem;
+    }
+</style>
