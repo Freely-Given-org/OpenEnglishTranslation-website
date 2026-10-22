@@ -18,7 +18,7 @@ related: '/About/Partners'
 
 <p>Do you know a retired Bible translator who wants to do something useful in their last years? We need a team to write book introductions and study notes, and to expand our database of Bible people and places. These helpful resources will all be free and open and available for others to translate them into their own languages.</p>
 
-<p>Are you an expert in a specific field? Roman culture? Theology? Hinduism? Write a series of notes or an appendix for us. Textual criticism? Write a set of footnotes for our <em>Literal Version</em>. Your work will be openly published on GitHub and live-on on the internet even beyond your years.</p>
+<p>Are you an expert in a specific field? Roman culture? Theology? Hinduism? Write a series of notes or an appendix for us. Textual criticism? Write a set of footnotes for our <em>Literal Version</em>. Your work will be openly published on GitHub and live on the internet even beyond your years.</p>
 
 <p>Are you a developer? We use Python, Rust, and Flutter/Dart as well as HTML/CSS/JS. (The <em>OET</em> is a modern, hi-tech translation and every word is linked in the background to lexicon and data pages, etc.)</p>
 

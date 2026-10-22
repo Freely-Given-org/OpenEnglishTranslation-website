@@ -21,7 +21,7 @@ legacyId: 'word'
 
 <p> There’s a lot of other hang-over vocabulary that only Christians now use. For example, have you been <i >delivered</i > from your evil habits? Talking to a gang member on the street, he’s not likely to tell you that he’s hoping his brother will be delivered out of prison this month. In mainstream English we still use 'delivered' for pizzas and babies, but no longer for chains and prisons. Being delivered is retained in other contexts as a form of church jargon—talking like someone out of a previous century. Nowadays in real life, we are more likely to use 'set free' for prisons and sinful habits. </p>
 
-<p> Churches have 'Seeker services' but when did you last ask someone in the supermarket what they were <i>seeking</i> there in the aisles? No. we use 'looking for' now in mainstream English. </p>
+<p> Churches have 'Seeker services' but when did you last ask someone in the supermarket what they were <i>seeking</i> there in the aisles? No. We use 'looking for' now in mainstream English. </p>
 
 <p> And don’t start me talking about what an <i>epistle</i> is. I'm too busy writing <i>letters</i>—no actually, I moved on past letters to mostly emails over a decade ago. So you certainly won’t find any <i>epistles</i> in the <i>OET</i> (and probably not any <i>psalms</i> or <i>testaments</i> either). </p>
 

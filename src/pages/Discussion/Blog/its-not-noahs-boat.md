@@ -26,6 +26,6 @@ related: '/Discussion/WordEssays#ark'
 
 <p>This turns out to be an excellent example of how words change their meaning over the centuries (and even in our lifetimes, over the decades with words like ‘gay’ and ‘cool’ and ‘wicked’, etc.). But of course, you can probably imagine why any multi-million dollar Bible marketing business would be reluctant to remove a phrase as famous as ‘<strong>Noah’s ark</strong>’ from their publications.</p>
 
-<p>I also sent this to Dr. Mark Ward who did a whole YouTube series on “<em>False friends</em>”: old words from the 1600’s that now have a different meaning—well worth watching if you use the KJB (hopefully mostly fixed by the NKJV) plus many other excellent teaching videos: <a href="https://www.youtube.com/@markwardonwords"><u>https://www.youtube.com/@markwardonwords</u></a>. I haven’t noticed him do one on ‘ark’ yet (although he did reply positively about this article).</p>
+<p>I also sent this to Dr. Mark Ward who did a whole YouTube series on “<em>False friends</em>”: old words from the 1600s that now have a different meaning—well worth watching if you use the KJB (hopefully mostly fixed by the NKJV) plus many other excellent teaching videos: <a href="https://www.youtube.com/@markwardonwords"><u>https://www.youtube.com/@markwardonwords</u></a>. I haven’t noticed him do one on ‘ark’ yet (although he did reply positively about this article).</p>
 
 <p>Robert Hunt, Freely-Given.org, July 2024, updated May 2026</p>
