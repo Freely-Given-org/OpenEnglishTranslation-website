@@ -2,126 +2,162 @@
 import Base from '../layouts/Base.astro';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
+import BookIcon from '../components/icons/BookIcon.astro';
+import ArrowRightIcon from '../components/icons/ArrowRightIcon.astro';
 ---
 
-<Base title="404 - Page Not Found">
+<Base title="Page not found | Open English Translation">
     <Header />
-    <main class="main">
-        <div class="nf404" id="nf404-parent">
-            <div class="floating-div" id="floaty-thing">
-                <div class="big-404">404</div>
-                <div class="page-404">Page not found</div>
+    <main class="not-found">
+        <div class="not-found-inner">
+            <div class="message">
+                <p class="error-code">404</p>
+                <h1>This page couldn’t be found.</h1>
+                <p class="explanation">
+                    The link may be out of date, or the address may have been
+                    mistyped. Let’s help you find your way.
+                </p>
+                <a class="home-link" href="/">Back to the home page</a>
             </div>
+
+            <section class="reading" aria-labelledby="reading-heading">
+                <BookIcon class="book-icon" aria-hidden="true" />
+                <h2 id="reading-heading">Keep reading the OET</h2>
+                <p>
+                    You can also read the Open English Translation text on
+                    Freely-Given.org.
+                </p>
+                <a
+                    class="reading-link"
+                    href="https://Freely-Given.org/OBD/OET/"
+                >
+                    <span>Read the OET at Freely-Given.org</span>
+                    <ArrowRightIcon class="arrow-icon" aria-hidden="true" />
+                </a>
+            </section>
         </div>
     </main>
     <Footer />
 </Base>
 
 <style>
-    .main {
-        min-height: 85vh;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    .nf404 {
-        display: flex;
-        flex: 1;
-        align-items: center;
-        justify-content: center;
-        font-size: 214px;
-    }
-    .floating-div {
-        position: absolute;
-        display: flex;
-        flex-direction: column;
-    }
-    .page-404 {
-        font-size: 32px;
+    .not-found {
         display: flex;
         align-items: center;
-        justify-content: center;
-        font-weight: bold;
+        min-height: 65vh;
+        padding: clamp(3rem, 8vw, 6rem) 1.25rem;
+        background-color: var(--accent-orange-light);
+    }
+
+    .not-found-inner {
+        display: grid;
+        align-items: center;
+        gap: 2.5rem;
+        width: 100%;
+        max-width: var(--max-width);
+        margin: 0 auto;
+    }
+
+    .error-code {
+        margin: 0 0 1rem;
+        padding-left: 0.75rem;
+        border-left: 4px solid var(--accent-orange);
+        font-size: 1.125rem;
+        font-weight: 600;
+        letter-spacing: 0.12em;
+    }
+
+    h1 {
+        max-width: 12ch;
+        margin: 0;
+        font-size: clamp(2.25rem, 5vw, 3.5rem);
+        font-weight: 600;
+        line-height: 1.15;
+        letter-spacing: -0.025em;
+        text-wrap: balance;
+    }
+
+    .explanation {
+        max-width: 38ch;
+        margin: 1.5rem 0;
+        font-size: 1.125rem;
+        line-height: 1.6;
+    }
+
+    .home-link {
+        display: inline-block;
+        padding: 0.5rem 0;
+        font-weight: 600;
+        text-underline-offset: 0.25em;
+        text-decoration-thickness: 1px;
+    }
+
+    .home-link:hover {
+        text-decoration-thickness: 2px;
+    }
+
+    .reading {
+        padding: clamp(1.5rem, 4vw, 2.5rem);
+        border-top: 4px solid var(--accent-orange);
+        border-radius: 0.25rem;
+        background-color: #fff;
+    }
+
+    .reading :global(.book-icon) {
+        display: block;
+        width: 2.5rem;
+        height: 2.5rem;
+        margin-bottom: 1.5rem;
+    }
+
+    h2 {
+        margin: 0;
+        font-size: 1.75rem;
+        font-weight: 600;
+        line-height: 1.25;
+    }
+
+    .reading p {
+        margin: 1rem 0 1.5rem;
+        font-size: 1.125rem;
+        line-height: 1.6;
+    }
+
+    .reading-link {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 1rem;
+        padding: 0.875rem 1rem;
+        border: 2px solid var(--medium-blue);
+        border-radius: 5px;
+        background-color: var(--medium-blue);
+        color: #fff;
+        font-weight: 600;
+        line-height: 1.4;
+        text-decoration: none;
+    }
+
+    .reading-link:hover {
+        background-color: var(--blue-black);
+        border-color: var(--blue-black);
+    }
+
+    .reading-link :global(.arrow-icon) {
+        flex-shrink: 0;
+        width: 1.25rem;
+        height: 1.25rem;
+    }
+
+    a:focus-visible {
+        outline: 3px solid var(--medium-blue);
+        outline-offset: 5px;
+    }
+
+    @media (min-width: 800px) {
+        .not-found-inner {
+            grid-template-columns: 1fr 1fr;
+            gap: 4rem;
+        }
     }
 </style>
-
-<script>
-    const speed = 1.2;
-
-    const parentEl = document.getElementById('nf404-parent');
-    const childEl = document.getElementById('floaty-thing');
-
-    if (parentEl && childEl) {
-        let childrenWidth = 0;
-        let childrenHeight = 0;
-        let parentWidth = 0;
-        let parentHeight = 0;
-
-        let start: number | undefined;
-        let xSpeed = speed;
-        let ySpeed = speed;
-        let stopAnimation = false;
-
-        const getDimensions = () => {
-            if (parentEl) {
-                parentHeight = parentEl.offsetHeight / 2;
-                parentWidth = parentEl.offsetWidth / 2;
-            }
-            if (childEl) {
-                childrenHeight = childEl.offsetHeight / 2;
-                childrenWidth = childEl.offsetWidth / 2;
-            }
-        };
-
-        getDimensions();
-        window.addEventListener('resize', getDimensions);
-
-        function getRandomNumber(min: number, max: number): number {
-            return Math.random() * (max - min) + min;
-        }
-
-        let x = getRandomNumber(
-            -(parentWidth - childrenWidth),
-            parentWidth - childrenWidth,
-        );
-        let y = getRandomNumber(
-            -(parentHeight - childrenHeight),
-            parentHeight - childrenHeight,
-        );
-
-        function bounceAnimation(timestamp: number) {
-            if (start === undefined) {
-                start = timestamp;
-            }
-
-            x = x + xSpeed;
-            y = y + ySpeed;
-
-            if (x + childrenWidth >= parentWidth) {
-                xSpeed = -xSpeed;
-                x = parentWidth - childrenWidth;
-            } else if (x - childrenWidth <= -parentWidth) {
-                xSpeed = -xSpeed;
-                x = -parentWidth + childrenWidth;
-            }
-            if (y + childrenHeight >= parentHeight) {
-                ySpeed = -ySpeed;
-                y = parentHeight - childrenHeight;
-            } else if (
-                y - childrenHeight + 0.4 * childrenHeight <=
-                -parentHeight
-            ) {
-                ySpeed = -ySpeed;
-                y = -parentHeight + childrenHeight - 0.4 * childrenHeight;
-            }
-
-            childEl!.style.transform = `translateY(${y}px) translateX(${x}px)`;
-
-            if (!stopAnimation) {
-                window.requestAnimationFrame(bounceAnimation);
-            }
-        }
-
-        window.requestAnimationFrame(bounceAnimation);
-    }
-</script>
