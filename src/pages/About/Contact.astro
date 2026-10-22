@@ -33,19 +33,46 @@ import MainPageContent from '../../components/MainPageContent.astro';
                         href="/About/Licence">Licence page</a
                     >.)
                 </p>
+                <section
+                    class="newsletter"
+                    aria-labelledby="newsletter-heading"
+                >
+                    <div class="newsletter-intro">
+                        <h2 id="newsletter-heading">
+                            Stay in touch with the OET
+                        </h2>
+                        <p>
+                            Subscribe to our newsletter on Substack for news and
+                            updates about the Open English Translation.
+                        </p>
+                        <p class="newsletter-alternative">
+                            You can also <a
+                                href="https://oetbible.substack.com/subscribe"
+                                >sign up directly on Substack</a
+                            >.
+                        </p>
+                    </div>
+                    <iframe
+                        class="newsletter-form"
+                        src="https://oetbible.substack.com/embed"
+                        title="Subscribe to the OET newsletter on Substack"
+                        width="480"
+                        height="320"
+                        loading="lazy"></iframe>
+                </section>
                 <h1>Volunteering</h1>
                 <p>
-                    we’re currently looking for volunteers to help with this
+                    We’re currently looking for volunteers to help with this
                     work. This includes both Bible people (translators and
                     consultants and readers and checkers) as well as software
-                    people (developers and designers). There’s more details on
+                    people (developers and designers). There are more details on
                     the <a href="/About/Partners">Partners page</a>.
                 </p>
                 <p>
                     Any volunteers must agree in writing in advance that their
                     work will become the property of Freely-Given.org, and thus
                     made publicly available under an <a href="/About/Licence"
-                        >licence</a
+                        >open licence</a
                     >. Of course we’re happy to credit any contributors (unless
                     they wish to remain anonymous).
                 </p>
@@ -72,5 +99,52 @@ import MainPageContent from '../../components/MainPageContent.astro';
         display: flex;
         flex-direction: column;
         align-items: center;
+    }
+
+    .newsletter {
+        display: grid;
+        grid-template-columns: minmax(0, 1fr);
+        align-items: center;
+        gap: 1.5rem;
+        margin: 2.5rem 0;
+        padding: clamp(1rem, 3vw, 2rem);
+        border-top: 4px solid var(--accent-orange);
+        border-radius: 5px;
+        background-color: var(--accent-orange-light);
+    }
+
+    .newsletter h2 {
+        margin-top: 0;
+        font-size: 1.75rem;
+        font-weight: 600;
+        line-height: 1.25;
+        text-wrap: balance;
+    }
+
+    .newsletter .newsletter-alternative {
+        font-size: 1rem;
+    }
+
+    .newsletter a:focus-visible {
+        outline: 3px solid var(--medium-blue);
+        outline-offset: 4px;
+    }
+
+    .newsletter .newsletter-form {
+        display: block;
+        width: 100%;
+        max-width: 30rem;
+        height: 320px;
+        margin: 0 auto;
+        border: 0;
+        border-radius: 5px;
+        background-color: #fff;
+    }
+
+    @media (min-width: 800px) {
+        .newsletter {
+            grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+            gap: 2rem;
+        }
     }
 </style>
