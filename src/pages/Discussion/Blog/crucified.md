@@ -38,10 +38,22 @@ source: 'docs/DisplayPages.A4.F4.with_intro_and_ISV.34p.odt'
 <style>
   .dagger-t {
     display: inline-block;
-    font-family: sans-serif !important;
-    font-weight: 900 !important;   /* Makes it match standard letter thickness */
-    font-size: 0.85em;             /* Scales it down to lowercase 't' height */
-    transform: translateY(-0.08em); /* Nudges it up so it doesn't look subscripted */
+    /* Force a fallback font stack that uses a flat-bottomed dagger */
+    font-family: Arial, Helvetica, sans-serif !important; 
+    font-size: 0.82em;             
+    
+    position: relative;
+    top: 0.05em;                  
+    vertical-align: baseline;     
     letter-spacing: -0.05em;
+  }
+
+  /* Automatically adjust when nested inside a bold, strong, or heavy parent */
+  strong .dagger-t, 
+  b .dagger-t, 
+  [style*="font-weight: bold"] .dagger-t {
+    font-weight: 900 !important;   /* Forces the shrunken dagger to match the extra bold thickness */
+    font-size: 0.85em;             /* Tiny scale boost because bold lines take up more visual space */
+    top: 0.04em;                   /* Recalibrates the vertical balance for bold alignment */
   }
 </style>
