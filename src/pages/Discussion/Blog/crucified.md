@@ -38,6 +38,10 @@ source: 'docs/DisplayPages.A4.F4.with_intro_and_ISV.34p.odt'
 <style>
   .straight-t {
     /* Futura and Trebuchet MS have perfectly straight, tail-less lowercase 't's */
-    font-family: 'Futura', 'Trebuchet MS', 'Century Gothic', sans-serif !important;
-  }
+    /* font-family: 'Futura', 'Trebuchet MS', 'Century Gothic', sans-serif !important; */
+    /* The above didn't work on Firefox on Ubuntu
+    font-family: 'Impact', 'Arial Black', sans-serif !important;
+    font-weight: normal !important;
+    font-size: 0.95em; /* Slightly adjust if it looks too large */
+    }
 </style>
