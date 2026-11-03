@@ -43,7 +43,7 @@ source: 'docs/DisplayPages.A4.F4.with_intro_and_ISV.34p.odt'
     font-size: 0.82em;             
     
     position: relative;
-    top: 0.05em;                  
+    top: 0.03em;                  
     vertical-align: baseline;     
     letter-spacing: -0.05em;
   }
@@ -52,8 +52,8 @@ source: 'docs/DisplayPages.A4.F4.with_intro_and_ISV.34p.odt'
   strong .dagger-t, 
   b .dagger-t, 
   [style*="font-weight: bold"] .dagger-t {
-    font-weight: 900 !important;   /* Forces the shrunken dagger to match the extra bold thickness */
+    font-weight: 920 !important;   /* Forces the shrunken dagger to match the extra bold thickness */
     font-size: 0.85em;             /* Tiny scale boost because bold lines take up more visual space */
-    top: 0.04em;                   /* Recalibrates the vertical balance for bold alignment */
+    top: 0.02em;                   /* Recalibrates the vertical balance for bold alignment */
   }
 </style>
