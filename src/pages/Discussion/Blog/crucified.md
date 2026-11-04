@@ -25,7 +25,7 @@ source: 'docs/DisplayPages.A4.F4.with_intro_and_ISV.34p.odt'
 
 <p>None of those four accounts mention nails, but Yohan/John does mention them later when Toma/Thomas asks to <a href="https://Freely-Given.org/OBD/rel/JHN/JHN_S78.htm#Top">see the marks from the nails</a>. (Luke also tells them to <a href="https://Freely-Given.org/OBD/rel/LUK/LUK_S155.htm#C24V39">Look at my hands and feet</a> which would probably also suggest nailing rather than rope-burns.) Paul also wrote about <a href="https://Freely-Given.org/OBD/OET/bySec/COL_S6.htm#V14">nailing</a>. Some suggest that since Yohan/John used the plural ‘nails’, then that leans towards the <span class="dagger-t">&dagger;</span>-style cross (although nothing would have prevented two nails being used for the hands even on a single post.</p>
 
-<p>So the <em>Open English Translation</em> uses the wordy ‘<strong>executed on a tall wooden post</strong>’ to suggest a single pole, yet also allow for the traditionally accepted <span class="dagger-t">&dagger;</span>-style possibility.</p>
+<p>So the <em>Open English Translation</em> uses the wordy ‘<strong>executed on a tall wooden post</strong>’ to suggest a single pole/stake, yet also allow for the traditionally accepted <span class="dagger-t">&dagger;</span>-style possibility.</p>
 
 <figure class="narrow-figure"><a href="/assets/essays/execution-on-a-stake.jpg"><span class="cropped-image" style="aspect-ratio: 1.7402 / 3.0228"><img src="/assets/essays/execution-on-a-stake.jpg" alt="Historical illustration of a person being executed on an upright stake." loading="lazy" style="position: absolute; width: 118.92064%; max-width: none; left: -7.71438%; top: 0.00000%" /></span></a></figure>
 
@@ -43,7 +43,7 @@ source: 'docs/DisplayPages.A4.F4.with_intro_and_ISV.34p.odt'
     font-size: 0.82em;             
     
     position: relative;
-    top: 0.03em;                  
+    top: 0.01em;                  
     vertical-align: baseline;     
     letter-spacing: -0.05em;
   }
@@ -52,8 +52,8 @@ source: 'docs/DisplayPages.A4.F4.with_intro_and_ISV.34p.odt'
   strong .dagger-t, 
   b .dagger-t, 
   [style*="font-weight: bold"] .dagger-t {
-    font-weight: 920 !important;   /* Forces the shrunken dagger to match the extra bold thickness */
+    font-weight: 950 !important;   /* Forces the shrunken dagger to match the extra bold thickness */
     font-size: 0.85em;             /* Tiny scale boost because bold lines take up more visual space */
-    top: 0.02em;                   /* Recalibrates the vertical balance for bold alignment */
+    top: 0.00em;                   /* Recalibrates the vertical balance for bold alignment */
   }
 </style>
