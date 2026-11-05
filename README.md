@@ -1,8 +1,8 @@
 # Static website
 
 Build the current Astro website from this repository's root directory. Use
-Node.js 24.22.0 to match Cloudflare Pages and GitHub Actions, with npm 9.6.5 or
-newer. If you use nvm, run `nvm install` and `nvm use` first.
+Node.js 24.22.2 and its bundled npm 11.19.1 to match the website builds.
+If you use nvm, run `nvm install` and `nvm use` first.
 
 ```sh
 npm ci
@@ -20,11 +20,10 @@ environment variable, remove it or keep it in sync with `.nvmrc` in both
 production and preview settings. Keep the Node.js version in the GitHub workflow
 in sync too.
 
-Node.js 24.22.0 is a temporary compatibility pin: as of 22 October 2026,
-Cloudflare's upstream `node-build` definitions include it but do not yet include
-the newly released security patches 22.23.4 or 24.22.1. Move to 24.22.1 or a later
-patched release once the installer supports it. Verify the installer definition
-and run the checks above before changing the pins.
+For future upgrades, check that the chosen Node.js version has a
+[`nodenv/node-build` definition](https://github.com/nodenv/node-build/tree/master/share/node-build)
+and that Node.js and its bundled npm satisfy the minimums in `package.json`.
+Run the checks above with the new versions.
 
 # Startup details
 
