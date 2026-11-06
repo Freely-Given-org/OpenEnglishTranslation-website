@@ -8,11 +8,11 @@
   "groups": [
     {
       "id": "OT",
-      "title": "Old Testament"
+      "title": "Hebrew Scriptures (Old Testament)"
     },
     {
       "id": "NT",
-      "title": "New Testament"
+      "title": "The Messianic Update (New Testament)"
     },
     {
       "id": "DC",
@@ -22,7 +22,7 @@
   "entries": [
     {
       "id": "OT",
-      "title": "Old Testament",
+      "title": "Hebrew Scriptures (Old Testament)",
       "group": "OT",
       "kind": "collection",
       "books": [
@@ -68,16 +68,16 @@
       ],
       "print": {
         "filename": "OET-OT-oet.B5.print.pdf",
-        "bytes": 33414915,
-        "sha256": "51fec4a34cef225868bf8cb8be0ea5f75058a41d66e62c37bdc033fc6077b921",
+        "bytes": 33415029,
+        "sha256": "4e4a3622da24063ef6fda467a16af612e5d392b4bd6e60d5aea8ce7a67cfdda8",
         "pages": 2341,
         "draft_version": "v0.48.94",
         "url": "https://Freely-Given.org/OBD/OET/Downloads/OET-OT-oet.B5.print.pdf"
       },
       "screen": {
         "filename": "OET-OT-oet.B5.screen.pdf",
-        "bytes": 34005257,
-        "sha256": "192452a2ee9c761ffc4822087bfc0a8276fed44cf3ea6921c2843ca529d31167",
+        "bytes": 34005373,
+        "sha256": "2948fb5a8cdfd2b4b2893ab03c2219e9c165fd4772eb3a083b746c2df73eb022",
         "pages": 2340,
         "draft_version": "v0.48.94",
         "url": "https://Freely-Given.org/OBD/OET/Downloads/OET-OT-oet.B5.screen.pdf"
@@ -85,7 +85,7 @@
     },
     {
       "id": "NT",
-      "title": "New Testament",
+      "title": "The Messianic Update (New Testament)",
       "group": "NT",
       "kind": "collection",
       "books": [
@@ -119,16 +119,16 @@
       ],
       "print": {
         "filename": "OET-NT-oet.B5.print.pdf",
-        "bytes": 11757520,
-        "sha256": "40d0ae61cb4f60119f9bb78a6d82f4a808078d5ddd412ecd0994e7185b180761",
+        "bytes": 11757573,
+        "sha256": "dc653bb13ebe84e17d91b38749b2f946f4f8b594ee7bcb79324ce8d7e394d44b",
         "pages": 689,
         "draft_version": "v0.48.94",
         "url": "https://Freely-Given.org/OBD/OET/Downloads/OET-NT-oet.B5.print.pdf"
       },
       "screen": {
         "filename": "OET-NT-oet.B5.screen.pdf",
-        "bytes": 12129017,
-        "sha256": "e4ad0f593f393df19c2cd7a86a0070b025f7268b947945f5fa3a0bd6bf8375b8",
+        "bytes": 12129064,
+        "sha256": "ce11d62482f57703aff1d8561ccf77d95125ba8f0fd7a138b1259c5be3eeff1c",
         "pages": 689,
         "draft_version": "v0.48.94",
         "url": "https://Freely-Given.org/OBD/OET/Downloads/OET-NT-oet.B5.screen.pdf"
