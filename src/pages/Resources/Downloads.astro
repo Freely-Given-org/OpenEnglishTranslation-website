@@ -1,4 +1,40 @@
 ---
+import downloadCatalogue from '../../data/oet-pdfs.json';
+
+type PDFFile = { url: string; filename: string; bytes: number; pages: number };
+type PDFEntry = {
+    id: string;
+    title: string;
+    group: string;
+    kind: 'collection' | 'book';
+    print: PDFFile;
+    screen: PDFFile;
+};
+type PDFCatalogue = {
+    schema_version: number;
+    draft_version: string;
+    paper_size: string;
+    groups: { id: string; title: string }[];
+    entries: PDFEntry[];
+};
+
+// Generated locally with the PDFs; the PDFs themselves are hosted on OBD.
+const catalogue = downloadCatalogue as PDFCatalogue;
+if (catalogue.schema_version !== 1) {
+    throw new Error('Unsupported PDF download catalogue version');
+}
+const entries = catalogue.entries;
+const collections = entries.filter((entry) => entry.kind === 'collection');
+const groups = (catalogue?.groups ?? []).map((group) => ({
+    ...group,
+    books: entries.filter(
+        (entry) => entry.kind === 'book' && entry.group === group.id,
+    ),
+}));
+const displayTitle = (entry: PDFEntry) =>
+    entry.kind === 'book' ? `${entry.title} (${entry.id})` : entry.title;
+const size = (file: PDFFile) => `${(file.bytes / (1024 * 1024)).toFixed(1)} MB`;
+
 import Base from '../../layouts/Base.astro';
 import Header from '../../components/Header.astro';
 import Footer from '../../components/Footer.astro';
@@ -13,12 +49,177 @@ import MainPageContent from '../../components/MainPageContent.astro';
             <MainPageContent>
                 <h1>Downloads</h1>
                 <h1 id="pdfs">PDFs</h1>
-                <p>
-                    We aim to have some initial PDF downloads of draft texts of
-                    ‘The Messianic Update’ (the ‘New Testament’) texts here by
-                    late-2026. (Still trying to find some typesetting help,
-                    sorry.)
-                </p>
+                {
+                    collections.length > 0 ? (
+                        <>
+                            <p>
+                                Download the Open English Translation with the
+                                Readers’ Version and Literal Version side by
+                                side. These are translation drafts (
+                                {catalogue?.draft_version}), in OET book order,
+                                on {catalogue?.paper_size} pages. The files are
+                                hosted on Freely-Given.org/OBD.
+                            </p>
+                            <p>
+                                Choose <strong>Print</strong> for
+                                black-and-white printing with full web
+                                addresses, or <strong>Online</strong> for colour
+                                and live links. Both editions have clickable
+                                links. For printing, use actual size,
+                                double-sided, with long-edge binding.
+                            </p>
+                            <p>
+                                Deuterocanonical and other books include early
+                                drafts. Where both versions are available, they
+                                are paired by chapter; their verses and lines do
+                                not necessarily correspond. Missing versions are
+                                identified in the PDFs.
+                            </p>
+                            <h2>Collections</h2>
+                            <div class="pdf-table-wrap">
+                                <table class="pdf-table">
+                                    <caption class="visually-hidden">
+                                        Collection PDF downloads
+                                    </caption>
+                                    <thead>
+                                        <tr>
+                                            <>
+                                                <th scope="col">Collection</th>
+                                                <th scope="col">Print</th>
+                                                <th scope="col">Online</th>
+                                            </>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        {collections.map((entry) => (
+                                            <tr>
+                                                <th scope="row">
+                                                    {displayTitle(entry)}
+                                                </th>
+                                                <td>
+                                                    <a
+                                                        href={entry.print.url}
+                                                        aria-label={`Download ${displayTitle(entry)}, print PDF`}
+                                                    >
+                                                        PDF{' '}
+                                                        <small>
+                                                            {size(entry.print)}{' '}
+                                                            ·{' '}
+                                                            {entry.print.pages}{' '}
+                                                            pages
+                                                        </small>
+                                                    </a>
+                                                </td>
+                                                <td>
+                                                    <a
+                                                        href={entry.screen.url}
+                                                        aria-label={`Download ${displayTitle(entry)}, online PDF`}
+                                                    >
+                                                        PDF{' '}
+                                                        <small>
+                                                            {size(entry.screen)}{' '}
+                                                            ·{' '}
+                                                            {entry.screen.pages}{' '}
+                                                            pages
+                                                        </small>
+                                                    </a>
+                                                </td>
+                                            </tr>
+                                        ))}
+                                    </tbody>
+                                </table>
+                            </div>
+                            <h2>Individual books</h2>
+                            {groups.map((group) => (
+                                <details class="pdf-group">
+                                    <summary>
+                                        {group.title}{' '}
+                                        <small>
+                                            ({group.books.length} books)
+                                        </small>
+                                    </summary>
+                                    <div class="pdf-table-wrap">
+                                        <table class="pdf-table">
+                                            <caption class="visually-hidden">
+                                                {group.title}: individual book
+                                                PDF downloads
+                                            </caption>
+                                            <thead>
+                                                <tr>
+                                                    <th scope="col">Book</th>
+                                                    <th scope="col">Print</th>
+                                                    <th scope="col">Online</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                {group.books.map((entry) => (
+                                                    <tr>
+                                                        <th scope="row">
+                                                            {displayTitle(
+                                                                entry,
+                                                            )}
+                                                        </th>
+                                                        <td>
+                                                            <a
+                                                                href={
+                                                                    entry.print
+                                                                        .url
+                                                                }
+                                                                aria-label={`Download ${displayTitle(entry)}, print PDF`}
+                                                            >
+                                                                PDF{' '}
+                                                                <small>
+                                                                    {size(
+                                                                        entry.print,
+                                                                    )}{' '}
+                                                                    ·{' '}
+                                                                    {
+                                                                        entry
+                                                                            .print
+                                                                            .pages
+                                                                    }{' '}
+                                                                    pages
+                                                                </small>
+                                                            </a>
+                                                        </td>
+                                                        <td>
+                                                            <a
+                                                                href={
+                                                                    entry.screen
+                                                                        .url
+                                                                }
+                                                                aria-label={`Download ${displayTitle(entry)}, online PDF`}
+                                                            >
+                                                                PDF{' '}
+                                                                <small>
+                                                                    {size(
+                                                                        entry.screen,
+                                                                    )}{' '}
+                                                                    ·{' '}
+                                                                    {
+                                                                        entry
+                                                                            .screen
+                                                                            .pages
+                                                                    }{' '}
+                                                                    pages
+                                                                </small>
+                                                            </a>
+                                                        </td>
+                                                    </tr>
+                                                ))}
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </details>
+                            ))}
+                        </>
+                    ) : (
+                        <p>
+                            PDF downloads are being prepared. Source files and
+                            Paratext backups are available below.
+                        </p>
+                    )
+                }
                 <h1 id="paratext">Paratext backups</h1>
                 <p>
                     The <a href="https://paratext.org/"
@@ -75,5 +276,54 @@ import MainPageContent from '../../components/MainPageContent.astro';
         display: flex;
         flex-direction: column;
         align-items: center;
+    }
+    .pdf-table-wrap {
+        overflow-x: auto;
+    }
+    .pdf-table {
+        width: 100%;
+        border-collapse: collapse;
+        margin: 1rem 0;
+    }
+    .pdf-table th,
+    .pdf-table td {
+        padding: 0.7rem 0.5rem;
+        text-align: left;
+        border-bottom: 1px solid #d5dce0;
+        vertical-align: top;
+    }
+    .pdf-table th:first-child {
+        width: 46%;
+    }
+    .pdf-table tbody th {
+        font-weight: 500;
+    }
+    .pdf-table small {
+        display: block;
+        font-size: 0.8rem;
+        font-weight: 400;
+        white-space: nowrap;
+    }
+    .pdf-group {
+        margin-top: 1rem;
+    }
+    .pdf-group summary {
+        cursor: pointer;
+        font-weight: 600;
+        padding: 0.5rem 0;
+    }
+    .pdf-group summary small {
+        font-weight: 400;
+    }
+    .visually-hidden {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        padding: 0;
+        margin: -1px;
+        overflow: hidden;
+        clip: rect(0, 0, 0, 0);
+        white-space: nowrap;
+        border: 0;
     }
 </style>

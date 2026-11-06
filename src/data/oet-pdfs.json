@@ -1,0 +1,2388 @@
+{
+  "schema_version": 1,
+  "title": "Open English Translation of the Bible",
+  "version": "OET",
+  "paper_size": "B5",
+  "book_order": "oet",
+  "draft_version": "v0.48.94",
+  "groups": [
+    {
+      "id": "OT",
+      "title": "Old Testament"
+    },
+    {
+      "id": "NT",
+      "title": "New Testament"
+    },
+    {
+      "id": "DC",
+      "title": "Deuterocanonical & other books"
+    }
+  ],
+  "entries": [
+    {
+      "id": "OT",
+      "title": "Old Testament",
+      "group": "OT",
+      "kind": "collection",
+      "books": [
+        "GEN",
+        "EXO",
+        "LEV",
+        "NUM",
+        "DEU",
+        "JOB",
+        "JOS",
+        "JDG",
+        "RUT",
+        "SA1",
+        "SA2",
+        "PSA",
+        "AMO",
+        "HOS",
+        "KI1",
+        "KI2",
+        "CH1",
+        "CH2",
+        "PRO",
+        "ECC",
+        "SNG",
+        "JOL",
+        "MIC",
+        "ISA",
+        "ZEP",
+        "HAB",
+        "JER",
+        "LAM",
+        "JNA",
+        "NAH",
+        "OBA",
+        "DAN",
+        "EZE",
+        "EZR",
+        "EST",
+        "NEH",
+        "HAG",
+        "ZEC",
+        "MAL"
+      ],
+      "print": {
+        "filename": "OET-OT-oet.B5.print.pdf",
+        "bytes": 33414915,
+        "sha256": "51fec4a34cef225868bf8cb8be0ea5f75058a41d66e62c37bdc033fc6077b921",
+        "pages": 2341,
+        "draft_version": "v0.48.94",
+        "url": "https://Freely-Given.org/OBD/OET/Downloads/OET-OT-oet.B5.print.pdf"
+      },
+      "screen": {
+        "filename": "OET-OT-oet.B5.screen.pdf",
+        "bytes": 34005257,
+        "sha256": "192452a2ee9c761ffc4822087bfc0a8276fed44cf3ea6921c2843ca529d31167",
+        "pages": 2340,
+        "draft_version": "v0.48.94",
+        "url": "https://Freely-Given.org/OBD/OET/Downloads/OET-OT-oet.B5.screen.pdf"
+      }
+    },
+    {
+      "id": "NT",
+      "title": "New Testament",
+      "group": "NT",
+      "kind": "collection",
+      "books": [
+        "JHN",
+        "MRK",
+        "MAT",
+        "LUK",
+        "ACT",
+        "JAM",
+        "GAL",
+        "TH1",
+        "TH2",
+        "CO1",
+        "CO2",
+        "ROM",
+        "COL",
+        "PHM",
+        "EPH",
+        "PHP",
+        "TI1",
+        "TIT",
+        "PE1",
+        "PE2",
+        "TI2",
+        "HEB",
+        "JDE",
+        "JN1",
+        "JN2",
+        "JN3",
+        "REV"
+      ],
+      "print": {
+        "filename": "OET-NT-oet.B5.print.pdf",
+        "bytes": 11757520,
+        "sha256": "40d0ae61cb4f60119f9bb78a6d82f4a808078d5ddd412ecd0994e7185b180761",
+        "pages": 689,
+        "draft_version": "v0.48.94",
+        "url": "https://Freely-Given.org/OBD/OET/Downloads/OET-NT-oet.B5.print.pdf"
+      },
+      "screen": {
+        "filename": "OET-NT-oet.B5.screen.pdf",
+        "bytes": 12129017,
+        "sha256": "e4ad0f593f393df19c2cd7a86a0070b025f7268b947945f5fa3a0bd6bf8375b8",
+        "pages": 689,
+        "draft_version": "v0.48.94",
+        "url": "https://Freely-Given.org/OBD/OET/Downloads/OET-NT-oet.B5.screen.pdf"
+      }
+    },
+    {
+      "id": "DC",
+      "title": "Deuterocanonical & other books",
+      "group": "DC",
+      "kind": "collection",
+      "books": [
+        "PS2",
+        "WIS",
+        "TOB",
+        "MAN",
+        "BAR",
+        "DNG",
+        "GES",
+        "LES",
+        "ESG",
+        "JDT",
+        "MA3",
+        "SIR",
+        "MA1",
+        "MA2",
+        "MA4",
+        "PSS",
+        "ODE",
+        "LAO"
+      ],
+      "print": {
+        "filename": "OET-DC-oet.B5.print.pdf",
+        "bytes": 10007243,
+        "sha256": "7dd4ffa58908d542809caa98ca7b92680be6305c40c6165b4232a7c2cceced7d",
+        "pages": 752,
+        "draft_version": "v0.48.94",
+        "url": "https://Freely-Given.org/OBD/OET/Downloads/OET-DC-oet.B5.print.pdf"
+      },
+      "screen": {
+        "filename": "OET-DC-oet.B5.screen.pdf",
+        "bytes": 10199447,
+        "sha256": "72476e4f240745002f6c0b79e7fcd34eccc43ce06d36671a6dd59de90befddee",
+        "pages": 752,
+        "draft_version": "v0.48.94",
+        "url": "https://Freely-Given.org/OBD/OET/Downloads/OET-DC-oet.B5.screen.pdf"
+      }
+    },
+    {
+      "id": "ALL",
+      "title": "All books",
+      "group": "ALL",
+      "kind": "collection",
+      "books": [
+        "GEN",
+        "EXO",
+        "LEV",
+        "NUM",
+        "DEU",
+        "JOB",
+        "JOS",
+        "JDG",
+        "RUT",
+        "SA1",
+        "SA2",
+        "PSA",
+        "AMO",
+        "HOS",
+        "KI1",
+        "KI2",
+        "CH1",
+        "CH2",
+        "PRO",
+        "ECC",
+        "SNG",
+        "JOL",
+        "MIC",
+        "ISA",
+        "ZEP",
+        "HAB",
+        "JER",
+        "LAM",
+        "JNA",
+        "NAH",
+        "OBA",
+        "DAN",
+        "EZE",
+        "EZR",
+        "EST",
+        "NEH",
+        "HAG",
+        "ZEC",
+        "MAL",
+        "PS2",
+        "WIS",
+        "TOB",
+        "MAN",
+        "BAR",
+        "DNG",
+        "GES",
+        "LES",
+        "ESG",
+        "JDT",
+        "MA3",
+        "SIR",
+        "MA1",
+        "MA2",
+        "MA4",
+        "PSS",
+        "ODE",
+        "JHN",
+        "MRK",
+        "MAT",
+        "LUK",
+        "ACT",
+        "JAM",
+        "GAL",
+        "TH1",
+        "TH2",
+        "CO1",
+        "CO2",
+        "ROM",
+        "COL",
+        "LAO",
+        "PHM",
+        "EPH",
+        "PHP",
+        "TI1",
+        "TIT",
+        "PE1",
+        "PE2",
+        "TI2",
+        "HEB",
+        "JDE",
+        "JN1",
+        "JN2",
+        "JN3",
+        "REV"
+      ],
+      "print": {
+        "filename": "OET-ALL-oet.B5.print.pdf",
+        "bytes": 54801961,
+        "sha256": "ec8038acf992de5e206028b6995edd302194af1e6b3062c3a2ddbf6673f504da",
+        "pages": 3764,
+        "draft_version": "v0.48.94",
+        "url": "https://Freely-Given.org/OBD/OET/Downloads/OET-ALL-oet.B5.print.pdf"
+      },
+      "screen": {
+        "filename": "OET-ALL-oet.B5.screen.pdf",
+        "bytes": 55930697,
+        "sha256": "7d8b25491cc8fdaf624dbb5c10c675f165927d6daa7c61b2c40bc3b932fe9bd7",
+        "pages": 3763,
+        "draft_version": "v0.48.94",
+        "url": "https://Freely-Given.org/OBD/OET/Downloads/OET-ALL-oet.B5.screen.pdf"
+      }
+    },
+    {
+      "id": "GEN",
+      "title": "Genesis",
+      "group": "OT",
+      "kind": "book",
+      "books": [
+        "GEN"
+      ],
+      "print": {
+        "filename": "OET-GEN.B5.print.pdf",
+        "bytes": 1926242,
+        "sha256": "fd33200627e7dbebdcd1cbd98ad1142d50bf5934b93ee6f1221bff5416d25b8d",
+        "pages": 138,
+        "draft_version": "v0.48.94",
+        "url": "https://Freely-Given.org/OBD/OET/Downloads/OET-GEN.B5.print.pdf"
+      },
+      "screen": {
+        "filename": "OET-GEN.B5.screen.pdf",
+        "bytes": 1967398,
+        "sha256": "55950fc3a2e9b34f7be0bf81a272fd80e861ffc02b176cc4e2ce1833a588df39",
+        "pages": 138,
+        "draft_version": "v0.48.94",
+        "url": "https://Freely-Given.org/OBD/OET/Downloads/OET-GEN.B5.screen.pdf"
+      }
+    },
+    {
+      "id": "EXO",
+      "title": "Exodus",
+      "group": "OT",
+      "kind": "book",
+      "books": [
+        "EXO"
+      ],
+      "print": {
+        "filename": "OET-EXO.B5.print.pdf",
+        "bytes": 1627875,
+        "sha256": "7da9f7c8f9654d9c7dbb667487fc1c24820f31bf84b02b1f08e62474094cacbc",
+        "pages": 117,
+        "draft_version": "v0.48.94",
+        "url": "https://Freely-Given.org/OBD/OET/Downloads/OET-EXO.B5.print.pdf"
+      },
+      "screen": {
+        "filename": "OET-EXO.B5.screen.pdf",
+        "bytes": 1665512,
+        "sha256": "32974675ca7d17e298cefeddd597355dc14b5ef9fcfecb043281321da4eb1f53",
+        "pages": 117,
+        "draft_version": "v0.48.94",
+        "url": "https://Freely-Given.org/OBD/OET/Downloads/OET-EXO.B5.screen.pdf"
+      }
+    },
+    {
+      "id": "LEV",
+      "title": "Leviticus",
+      "group": "OT",
+      "kind": "book",
+      "books": [
+        "LEV"
+      ],
+      "print": {
+        "filename": "OET-LEV.B5.print.pdf",
+        "bytes": 1199112,
+        "sha256": "3f2eed9e8e74bf78042c1b1f9fbfea8e63b0830b8ab2fbde68507b2d1571e699",
+        "pages": 86,
+        "draft_version": "v0.48.94",
+        "url": "https://Freely-Given.org/OBD/OET/Downloads/OET-LEV.B5.print.pdf"
+      },
+      "screen": {
+        "filename": "OET-LEV.B5.screen.pdf",
+        "bytes": 1227317,
+        "sha256": "767fb23c2a94e461306b40cc5161e837fc7002cbefdf5a3f64f3be5823e3751b",
+        "pages": 86,
+        "draft_version": "v0.48.94",
+        "url": "https://Freely-Given.org/OBD/OET/Downloads/OET-LEV.B5.screen.pdf"
+      }
+    },
+    {
+      "id": "NUM",
+      "title": "Census",
+      "group": "OT",
+      "kind": "book",
+      "books": [
+        "NUM"
+      ],
+      "print": {
+        "filename": "OET-NUM.B5.print.pdf",
+        "bytes": 1459179,
+        "sha256": "6e21aa6fa3f53edde9481b4061d9b86529889d5406e9145a5dd63c9c53395007",
+        "pages": 113,
+        "draft_version": "v0.48.94",
+        "url": "https://Freely-Given.org/OBD/OET/Downloads/OET-NUM.B5.print.pdf"
+      },
+      "screen": {
+        "filename": "OET-NUM.B5.screen.pdf",
+        "bytes": 1493529,
+        "sha256": "939712fd47e03cb79e055091d518cacdef98a38ff67ea03c3884fe33fc46e6e0",
+        "pages": 113,
+        "draft_version": "v0.48.94",
+        "url": "https://Freely-Given.org/OBD/OET/Downloads/OET-NUM.B5.screen.pdf"
+      }
+    },
+    {
+      "id": "DEU",
+      "title": "Deuteronomy",
+      "group": "OT",
+      "kind": "book",
+      "books": [
+        "DEU"
+      ],
+      "print": {
+        "filename": "OET-DEU.B5.print.pdf",
+        "bytes": 1536781,
+        "sha256": "5cdfa5aa137dad95ed218c2b289d51c0c8a65b1ed140d6847e9b3855c024c5be",
+        "pages": 108,
+        "draft_version": "v0.48.94",
+        "url": "https://Freely-Given.org/OBD/OET/Downloads/OET-DEU.B5.print.pdf"
+      },
+      "screen": {
+        "filename": "OET-DEU.B5.screen.pdf",
+        "bytes": 1571726,
+        "sha256": "aafdc1e66c73d8e121b2c4baa3a230827369df9183b567c66feaf3ba002a8186",
+        "pages": 108,
+        "draft_version": "v0.48.94",
+        "url": "https://Freely-Given.org/OBD/OET/Downloads/OET-DEU.B5.screen.pdf"
+      }
+    },
+    {
+      "id": "JOB",
+      "title": "Iyov",
+      "group": "OT",
+      "kind": "book",
+      "books": [
+        "JOB"
+      ],
+      "print": {
+        "filename": "OET-JOB.B5.print.pdf",
+        "bytes": 1035981,
+        "sha256": "e2c52e6ecbde971313865bc00423190bc9448d83c537f4cd09ba97ae5f0f337c",
+        "pages": 76,
+        "draft_version": "v0.48.94",
+        "url": "https://Freely-Given.org/OBD/OET/Downloads/OET-JOB.B5.print.pdf"
+      },
+      "screen": {
+        "filename": "OET-JOB.B5.screen.pdf",
+        "bytes": 1064445,
+        "sha256": "5773c266b91f6de61904f357105b311bc99e0f650fd1c39a75ff924af4ba35b4",
+        "pages": 76,
+        "draft_version": "v0.48.94",
+        "url": "https://Freely-Given.org/OBD/OET/Downloads/OET-JOB.B5.screen.pdf"
+      }
+    },
+    {
+      "id": "JOS",
+      "title": "Yehoshua",
+      "group": "OT",
+      "kind": "book",
+      "books": [
+        "JOS"
+      ],
+      "print": {
+        "filename": "OET-JOS.B5.print.pdf",
+        "bytes": 999036,
+        "sha256": "3b6ad56ad3ff02906761da2a0713bc0e604249d7d172ee043908abad382f938f",
+        "pages": 68,
+        "draft_version": "v0.48.94",
+        "url": "https://Freely-Given.org/OBD/OET/Downloads/OET-JOS.B5.print.pdf"
+      },
+      "screen": {
+        "filename": "OET-JOS.B5.screen.pdf",
+        "bytes": 1025570,
+        "sha256": "4e74d837f9fb3e47daca77713b577d986f1231dc23be279b272131cf222e6bf1",
+        "pages": 68,
+        "draft_version": "v0.48.94",
+        "url": "https://Freely-Given.org/OBD/OET/Downloads/OET-JOS.B5.screen.pdf"
+      }
+    },
+    {
+      "id": "JDG",
+      "title": "Heroes and Guides",
+      "group": "OT",
+      "kind": "book",
+      "books": [
+        "JDG"
+      ],
+      "print": {
+        "filename": "OET-JDG.B5.print.pdf",
+        "bytes": 986645,
+        "sha256": "93df096e0ca5b7f60105b29804b5a0f12b7ad16ea4ef398d77e2874a6897e4e9",
+        "pages": 68,
+        "draft_version": "v0.48.94",
+        "url": "https://Freely-Given.org/OBD/OET/Downloads/OET-JDG.B5.print.pdf"
+      },
+      "screen": {
+        "filename": "OET-JDG.B5.screen.pdf",
+        "bytes": 1010834,
+        "sha256": "2115eeacaf4da9ff628c06a92080db0da25cf5537c01211f18bcad998770e2f2",
+        "pages": 68,
+        "draft_version": "v0.48.94",
+        "url": "https://Freely-Given.org/OBD/OET/Downloads/OET-JDG.B5.screen.pdf"
+      }
+    },
+    {
+      "id": "RUT",
+      "title": "Ruth",
+      "group": "OT",
+      "kind": "book",
+      "books": [
+        "RUT"
+      ],
+      "print": {
+        "filename": "OET-RUT.B5.print.pdf",
+        "bytes": 295374,
+        "sha256": "f09f86c778fb0d3b26a997291bc2c7a8c40976949d239679f4c9594e80fc380f",
+        "pages": 11,
+        "draft_version": "v0.48.94",
+        "url": "https://Freely-Given.org/OBD/OET/Downloads/OET-RUT.B5.print.pdf"
+      },
+      "screen": {
+        "filename": "OET-RUT.B5.screen.pdf",
+        "bytes": 309339,
+        "sha256": "7d0f4a9b8c3afb71b06bbca837329cac6c036d4ce55b0480f12680433c321bd0",
+        "pages": 11,
+        "draft_version": "v0.48.94",
+        "url": "https://Freely-Given.org/OBD/OET/Downloads/OET-RUT.B5.screen.pdf"
+      }
+    },
+    {
+      "id": "SA1",
+      "title": "1 Shmuel",
+      "group": "OT",
+      "kind": "book",
+      "books": [
+        "SA1"
+      ],
+      "print": {
+        "filename": "OET-SA1.B5.print.pdf",
+        "bytes": 1275512,
+        "sha256": "736bc7d7ac20f614458ebba1681a2570085948654aedae37fecf678503f0dec8",
+        "pages": 90,
+        "draft_version": "v0.48.94",
+        "url": "https://Freely-Given.org/OBD/OET/Downloads/OET-SA1.B5.print.pdf"
+      },
+      "screen": {
+        "filename": "OET-SA1.B5.screen.pdf",
+        "bytes": 1305659,
+        "sha256": "113407bdc114c26dde30f90562f06f1313ae2db63e22cadeb957119b6d546187",
+        "pages": 90,
+        "draft_version": "v0.48.94",
+        "url": "https://Freely-Given.org/OBD/OET/Downloads/OET-SA1.B5.screen.pdf"
+      }
+    },
+    {
+      "id": "SA2",
+      "title": "2 Shmuel",
+      "group": "OT",
+      "kind": "book",
+      "books": [
+        "SA2"
+      ],
+      "print": {
+        "filename": "OET-SA2.B5.print.pdf",
+        "bytes": 1089318,
+        "sha256": "cf16408a4c83859e9703e6874b38e9548d13f1dec9c144514cf129a3174b8257",
+        "pages": 76,
+        "draft_version": "v0.48.94",
+        "url": "https://Freely-Given.org/OBD/OET/Downloads/OET-SA2.B5.print.pdf"
+      },
+      "screen": {
+        "filename": "OET-SA2.B5.screen.pdf",
+        "bytes": 1117379,
+        "sha256": "ead881d5b86539a7f4a803bdfc8fa103ddd61466e2f4b5eeab98917d53306062",
+        "pages": 76,
+        "draft_version": "v0.48.94",
+        "url": "https://Freely-Given.org/OBD/OET/Downloads/OET-SA2.B5.screen.pdf"
+      }
+    },
+    {
+      "id": "PSA",
+      "title": "Songs",
+      "group": "OT",
+      "kind": "book",
+      "books": [
+        "PSA"
+      ],
+      "print": {
+        "filename": "OET-PSA.B5.print.pdf",
+        "bytes": 2383105,
+        "sha256": "1cf73e7bf6b842b249e47be16b60d0d40796098f8574246e88adb1b579583a11",
+        "pages": 207,
+        "draft_version": "v0.48.94",
+        "url": "https://Freely-Given.org/OBD/OET/Downloads/OET-PSA.B5.print.pdf"
+      },
+      "screen": {
+        "filename": "OET-PSA.B5.screen.pdf",
+        "bytes": 2440680,
+        "sha256": "d8aa2782c937e689269a17ed20a2074f2682e56a6a0fd8603fd642ac216cf5ca",
+        "pages": 207,
+        "draft_version": "v0.48.94",
+        "url": "https://Freely-Given.org/OBD/OET/Downloads/OET-PSA.B5.screen.pdf"
+      }
+    },
+    {
+      "id": "AMO",
+      "title": "Amos",
+      "group": "OT",
+      "kind": "book",
+      "books": [
+        "AMO"
+      ],
+      "print": {
+        "filename": "OET-AMO.B5.print.pdf",
+        "bytes": 354622,
+        "sha256": "a5247913ac83d7c51375adb46ec024edbdd4263f4fafbdf855f7d475623394b6",
+        "pages": 18,
+        "draft_version": "v0.48.94",
+        "url": "https://Freely-Given.org/OBD/OET/Downloads/OET-AMO.B5.print.pdf"
+      },
+      "screen": {
+        "filename": "OET-AMO.B5.screen.pdf",
+        "bytes": 370485,
+        "sha256": "f5d6593635edbc701a7b54ac9237b8957d1ce69a7f83509355294d6a709c5d79",
+        "pages": 18,
+        "draft_version": "v0.48.94",
+        "url": "https://Freely-Given.org/OBD/OET/Downloads/OET-AMO.B5.screen.pdf"
+      }
+    },
+    {
+      "id": "HOS",
+      "title": "Hoshea",
+      "group": "OT",
+      "kind": "book",
+      "books": [
+        "HOS"
+      ],
+      "print": {
+        "filename": "OET-HOS.B5.print.pdf",
+        "bytes": 424925,
+        "sha256": "497e4e7c065eb514c2fcfe022bf08c19746faf86b53d356d264624053e10487c",
+        "pages": 24,
+        "draft_version": "v0.48.94",
+        "url": "https://Freely-Given.org/OBD/OET/Downloads/OET-HOS.B5.print.pdf"
+      },
+      "screen": {
+        "filename": "OET-HOS.B5.screen.pdf",
+        "bytes": 442594,
+        "sha256": "62ce2eaa38af351dd076397ad9b2b9f9d0edfd68460ab4be786cabb8ba2a262c",
+        "pages": 24,
+        "draft_version": "v0.48.94",
+        "url": "https://Freely-Given.org/OBD/OET/Downloads/OET-HOS.B5.screen.pdf"
+      }
+    },
+    {
+      "id": "KI1",
+      "title": "1 Kings",
+      "group": "OT",
+      "kind": "book",
+      "books": [
+        "KI1"
+      ],
+      "print": {
+        "filename": "OET-KI1.B5.print.pdf",
+        "bytes": 1255627,
+        "sha256": "204399b90c8e3c7ea40a9260a93a63842bc53506948bac410b93d9360bc50a14",
+        "pages": 88,
+        "draft_version": "v0.48.94",
+        "url": "https://Freely-Given.org/OBD/OET/Downloads/OET-KI1.B5.print.pdf"
+      },
+      "screen": {
+        "filename": "OET-KI1.B5.screen.pdf",
+        "bytes": 1286326,
+        "sha256": "0f248982d4d818499fa83dbf4327291ca20340eaf790fa79f4814d8f7d62cb34",
+        "pages": 88,
+        "draft_version": "v0.48.94",
+        "url": "https://Freely-Given.org/OBD/OET/Downloads/OET-KI1.B5.screen.pdf"
+      }
+    },
+    {
+      "id": "KI2",
+      "title": "2 Kings",
+      "group": "OT",
+      "kind": "book",
+      "books": [
+        "KI2"
+      ],
+      "print": {
+        "filename": "OET-KI2.B5.print.pdf",
+        "bytes": 1199181,
+        "sha256": "ec758d1acf6de6bebde50699377a35dce40aed5522ff598fe3a000702afe74be",
+        "pages": 82,
+        "draft_version": "v0.48.94",
+        "url": "https://Freely-Given.org/OBD/OET/Downloads/OET-KI2.B5.print.pdf"
+      },
+      "screen": {
+        "filename": "OET-KI2.B5.screen.pdf",
+        "bytes": 1229565,
+        "sha256": "cfe54a17005e8ad379cbb8e128953714f1d77e480a6dd21bcdeb1578d18165c1",
+        "pages": 82,
+        "draft_version": "v0.48.94",
+        "url": "https://Freely-Given.org/OBD/OET/Downloads/OET-KI2.B5.screen.pdf"
+      }
+    },
+    {
+      "id": "CH1",
+      "title": "1 Chronicles",
+      "group": "OT",
+      "kind": "book",
+      "books": [
+        "CH1"
+      ],
+      "print": {
+        "filename": "OET-CH1.B5.print.pdf",
+        "bytes": 1102666,
+        "sha256": "771731b186cd37b537eaa66e60daddbf5387b233ca9128ca205932563fe4b7ac",
+        "pages": 78,
+        "draft_version": "v0.48.94",
+        "url": "https://Freely-Given.org/OBD/OET/Downloads/OET-CH1.B5.print.pdf"
+      },
+      "screen": {
+        "filename": "OET-CH1.B5.screen.pdf",
+        "bytes": 1132335,
+        "sha256": "32f3d06ed270b6a4c1eead68110a1034143784ccfe4cdf5356278a86257be659",
+        "pages": 78,
+        "draft_version": "v0.48.94",
+        "url": "https://Freely-Given.org/OBD/OET/Downloads/OET-CH1.B5.screen.pdf"
+      }
+    },
+    {
+      "id": "CH2",
+      "title": "2 Chronicles",
+      "group": "OT",
+      "kind": "book",
+      "books": [
+        "CH2"
+      ],
+      "print": {
+        "filename": "OET-CH2.B5.print.pdf",
+        "bytes": 1330438,
+        "sha256": "9c4fe5b2e5436597b271bdd0d32249b7b79dbdb67557463a72a0f489d3af3a64",
+        "pages": 96,
+        "draft_version": "v0.48.94",
+        "url": "https://Freely-Given.org/OBD/OET/Downloads/OET-CH2.B5.print.pdf"
+      },
+      "screen": {
+        "filename": "OET-CH2.B5.screen.pdf",
+        "bytes": 1363129,
+        "sha256": "43d508b7dce090cef2504ec2f2380217615a949a416674c7afd55fe8b291b3b1",
+        "pages": 96,
+        "draft_version": "v0.48.94",
+        "url": "https://Freely-Given.org/OBD/OET/Downloads/OET-CH2.B5.screen.pdf"
+      }
+    },
+    {
+      "id": "PRO",
+      "title": "Proverbs",
+      "group": "OT",
+      "kind": "book",
+      "books": [
+        "PRO"
+      ],
+      "print": {
+        "filename": "OET-PRO.B5.print.pdf",
+        "bytes": 870817,
+        "sha256": "62387455b8195695b9bb730efd78c3d617945ffd8641977c423686abaf046b77",
+        "pages": 66,
+        "draft_version": "v0.48.94",
+        "url": "https://Freely-Given.org/OBD/OET/Downloads/OET-PRO.B5.print.pdf"
+      },
+      "screen": {
+        "filename": "OET-PRO.B5.screen.pdf",
+        "bytes": 895597,
+        "sha256": "ddb5896eb2aac52e3b41406a225d3b0f1c87e5a09f25624c304cf0cc36c19a54",
+        "pages": 66,
+        "draft_version": "v0.48.94",
+        "url": "https://Freely-Given.org/OBD/OET/Downloads/OET-PRO.B5.screen.pdf"
+      }
+    },
+    {
+      "id": "ECC",
+      "title": "Reflections",
+      "group": "OT",
+      "kind": "book",
+      "books": [
+        "ECC"
+      ],
+      "print": {
+        "filename": "OET-ECC.B5.print.pdf",
+        "bytes": 400105,
+        "sha256": "a7f17d252e48b8fadf7dc405d30d494a67dcc1e2881ec3a1190bf057e11abc1a",
+        "pages": 23,
+        "draft_version": "v0.48.94",
+        "url": "https://Freely-Given.org/OBD/OET/Downloads/OET-ECC.B5.print.pdf"
+      },
+      "screen": {
+        "filename": "OET-ECC.B5.screen.pdf",
+        "bytes": 416075,
+        "sha256": "cb808846ac5140ce2fb11bce560cf35f6d9fb869aa577b562d9f0162cbc516b7",
+        "pages": 23,
+        "draft_version": "v0.48.94",
+        "url": "https://Freely-Given.org/OBD/OET/Downloads/OET-ECC.B5.screen.pdf"
+      }
+    },
+    {
+      "id": "SNG",
+      "title": "Song of Songs",
+      "group": "OT",
+      "kind": "book",
+      "books": [
+        "SNG"
+      ],
+      "print": {
+        "filename": "OET-SNG.B5.print.pdf",
+        "bytes": 287769,
+        "sha256": "ec17bd01805b8d6c772129242dae806e34a47eca86b956903c6ca0a5140dc63a",
+        "pages": 13,
+        "draft_version": "v0.48.94",
+        "url": "https://Freely-Given.org/OBD/OET/Downloads/OET-SNG.B5.print.pdf"
+      },
+      "screen": {
+        "filename": "OET-SNG.B5.screen.pdf",
+        "bytes": 301879,
+        "sha256": "e3912698e43edc2cbf7a0a345f1a65602007c6a3e12a22b0e751b451ab72bf93",
+        "pages": 13,
+        "draft_version": "v0.48.94",
+        "url": "https://Freely-Given.org/OBD/OET/Downloads/OET-SNG.B5.screen.pdf"
+      }
+    },
+    {
+      "id": "JOL",
+      "title": "Yoel",
+      "group": "OT",
+      "kind": "book",
+      "books": [
+        "JOL"
+      ],
+      "print": {
+        "filename": "OET-JOL.B5.print.pdf",
+        "bytes": 259049,
+        "sha256": "e27a72e03c501c323f24dec4e87f68a919a05f7d44e3b7840d859194abbb03a9",
+        "pages": 10,
+        "draft_version": "v0.48.94",
+        "url": "https://Freely-Given.org/OBD/OET/Downloads/OET-JOL.B5.print.pdf"
+      },
+      "screen": {
+        "filename": "OET-JOL.B5.screen.pdf",
+        "bytes": 272782,
+        "sha256": "6c3e52b122e8b1ef66ae6c5c4c5629332a96801d130af49acf2b9bf1801804d4",
+        "pages": 10,
+        "draft_version": "v0.48.94",
+        "url": "https://Freely-Given.org/OBD/OET/Downloads/OET-JOL.B5.screen.pdf"
+      }
+    },
+    {
+      "id": "MIC",
+      "title": "Mikah",
+      "group": "OT",
+      "kind": "book",
+      "books": [
+        "MIC"
+      ],
+      "print": {
+        "filename": "OET-MIC.B5.print.pdf",
+        "bytes": 308508,
+        "sha256": "7cc73c343b64673a0a64e97dd71937c0d573350733147d8d0d7b25d0c0eb0fba",
+        "pages": 15,
+        "draft_version": "v0.48.94",
+        "url": "https://Freely-Given.org/OBD/OET/Downloads/OET-MIC.B5.print.pdf"
+      },
+      "screen": {
+        "filename": "OET-MIC.B5.screen.pdf",
+        "bytes": 323418,
+        "sha256": "7745c2ffa4582954a890c252d76920f0dda6715c0304b7e19a489c7601a0ea64",
+        "pages": 15,
+        "draft_version": "v0.48.94",
+        "url": "https://Freely-Given.org/OBD/OET/Downloads/OET-MIC.B5.screen.pdf"
+      }
+    },
+    {
+      "id": "ISA",
+      "title": "Yeshayah",
+      "group": "OT",
+      "kind": "book",
+      "books": [
+        "ISA"
+      ],
+      "print": {
+        "filename": "OET-ISA.B5.print.pdf",
+        "bytes": 1862685,
+        "sha256": "b26be5948b7f731305134a4850098fe77fc798bc4541bbc5ca0c38f9da78c09f",
+        "pages": 142,
+        "draft_version": "v0.48.94",
+        "url": "https://Freely-Given.org/OBD/OET/Downloads/OET-ISA.B5.print.pdf"
+      },
+      "screen": {
+        "filename": "OET-ISA.B5.screen.pdf",
+        "bytes": 1904895,
+        "sha256": "c224d6dfabcfe840c2f158321c6bfa158106bf14ad61d6120a117a0a5ae18d56",
+        "pages": 142,
+        "draft_version": "v0.48.94",
+        "url": "https://Freely-Given.org/OBD/OET/Downloads/OET-ISA.B5.screen.pdf"
+      }
+    },
+    {
+      "id": "ZEP",
+      "title": "Tsefanyah",
+      "group": "OT",
+      "kind": "book",
+      "books": [
+        "ZEP"
+      ],
+      "print": {
+        "filename": "OET-ZEP.B5.print.pdf",
+        "bytes": 234774,
+        "sha256": "e2e9bad75eec156bdf51681a99a947dcabb0559369c719391d60e87ec95096ce",
+        "pages": 8,
+        "draft_version": "v0.48.94",
+        "url": "https://Freely-Given.org/OBD/OET/Downloads/OET-ZEP.B5.print.pdf"
+      },
+      "screen": {
+        "filename": "OET-ZEP.B5.screen.pdf",
+        "bytes": 247851,
+        "sha256": "52be8a20faa7d67cc834d527048a1652c827db5399e95a9b3ed6d8c5835342cf",
+        "pages": 8,
+        "draft_version": "v0.48.94",
+        "url": "https://Freely-Given.org/OBD/OET/Downloads/OET-ZEP.B5.screen.pdf"
+      }
+    },
+    {
+      "id": "HAB",
+      "title": "Havakuk",
+      "group": "OT",
+      "kind": "book",
+      "books": [
+        "HAB"
+      ],
+      "print": {
+        "filename": "OET-HAB.B5.print.pdf",
+        "bytes": 232576,
+        "sha256": "038c48ee197d012f73e66aeee136242487d0583e4f5fe02bf472c68fd2cb520d",
+        "pages": 8,
+        "draft_version": "v0.48.94",
+        "url": "https://Freely-Given.org/OBD/OET/Downloads/OET-HAB.B5.print.pdf"
+      },
+      "screen": {
+        "filename": "OET-HAB.B5.screen.pdf",
+        "bytes": 245865,
+        "sha256": "0df4d4a1035aea39a222ede9e208703c23bc27e7d0aedb104cb9f9173bbc52a5",
+        "pages": 8,
+        "draft_version": "v0.48.94",
+        "url": "https://Freely-Given.org/OBD/OET/Downloads/OET-HAB.B5.screen.pdf"
+      }
+    },
+    {
+      "id": "JER",
+      "title": "Yirmiyah",
+      "group": "OT",
+      "kind": "book",
+      "books": [
+        "JER"
+      ],
+      "print": {
+        "filename": "OET-JER.B5.print.pdf",
+        "bytes": 2163407,
+        "sha256": "53fcea06edd5dce20213d48ae0f08c18b3f91acace7d4d445fd1746d67880bcc",
+        "pages": 162,
+        "draft_version": "v0.48.94",
+        "url": "https://Freely-Given.org/OBD/OET/Downloads/OET-JER.B5.print.pdf"
+      },
+      "screen": {
+        "filename": "OET-JER.B5.screen.pdf",
+        "bytes": 2211829,
+        "sha256": "1caef88893477636d69878bf337457ca05b112e1731be616f9bfb46afea334a7",
+        "pages": 162,
+        "draft_version": "v0.48.94",
+        "url": "https://Freely-Given.org/OBD/OET/Downloads/OET-JER.B5.screen.pdf"
+      }
+    },
+    {
+      "id": "LAM",
+      "title": "Sorrows",
+      "group": "OT",
+      "kind": "book",
+      "books": [
+        "LAM"
+      ],
+      "print": {
+        "filename": "OET-LAM.B5.print.pdf",
+        "bytes": 338243,
+        "sha256": "d8c20b6c91019cbdf0865b4456ec24602566d92f71f25dc04f8c4b91eb041c31",
+        "pages": 17,
+        "draft_version": "v0.48.94",
+        "url": "https://Freely-Given.org/OBD/OET/Downloads/OET-LAM.B5.print.pdf"
+      },
+      "screen": {
+        "filename": "OET-LAM.B5.screen.pdf",
+        "bytes": 352924,
+        "sha256": "f048bc584cf943c5d4636004e03402e31e6b284f2c155222740eac30072ded37",
+        "pages": 17,
+        "draft_version": "v0.48.94",
+        "url": "https://Freely-Given.org/OBD/OET/Downloads/OET-LAM.B5.screen.pdf"
+      }
+    },
+    {
+      "id": "JNA",
+      "title": "Yonah",
+      "group": "OT",
+      "kind": "book",
+      "books": [
+        "JNA"
+      ],
+      "print": {
+        "filename": "OET-JNA.B5.print.pdf",
+        "bytes": 206721,
+        "sha256": "6edd3648105804cab478d3ebd1fd9284848ca7ca5296652bf391be1e7a29466a",
+        "pages": 6,
+        "draft_version": "v0.48.94",
+        "url": "https://Freely-Given.org/OBD/OET/Downloads/OET-JNA.B5.print.pdf"
+      },
+      "screen": {
+        "filename": "OET-JNA.B5.screen.pdf",
+        "bytes": 219562,
+        "sha256": "594e781ab5fe908fa6a309fa7877d3da294eaf91049e8114175e8332065394a8",
+        "pages": 6,
+        "draft_version": "v0.48.94",
+        "url": "https://Freely-Given.org/OBD/OET/Downloads/OET-JNA.B5.screen.pdf"
+      }
+    },
+    {
+      "id": "NAH",
+      "title": "Nahum",
+      "group": "OT",
+      "kind": "book",
+      "books": [
+        "NAH"
+      ],
+      "print": {
+        "filename": "OET-NAH.B5.print.pdf",
+        "bytes": 226391,
+        "sha256": "38617c5ceaaf345481647a4d05ae1151d72324ed319ee0bd653b9a535e3362f5",
+        "pages": 7,
+        "draft_version": "v0.48.94",
+        "url": "https://Freely-Given.org/OBD/OET/Downloads/OET-NAH.B5.print.pdf"
+      },
+      "screen": {
+        "filename": "OET-NAH.B5.screen.pdf",
+        "bytes": 239116,
+        "sha256": "a87fc145c94d89ad105c17593fc3fd8a6c7330eca96bff6e71139d21e2a46e72",
+        "pages": 7,
+        "draft_version": "v0.48.94",
+        "url": "https://Freely-Given.org/OBD/OET/Downloads/OET-NAH.B5.screen.pdf"
+      }
+    },
+    {
+      "id": "OBA",
+      "title": "Ovadyah",
+      "group": "OT",
+      "kind": "book",
+      "books": [
+        "OBA"
+      ],
+      "print": {
+        "filename": "OET-OBA.B5.print.pdf",
+        "bytes": 192678,
+        "sha256": "d0a36fa26de4f6c7dd538d61c60a03ff3389976a8e34c395e7dad4a149151251",
+        "pages": 4,
+        "draft_version": "v0.48.94",
+        "url": "https://Freely-Given.org/OBD/OET/Downloads/OET-OBA.B5.print.pdf"
+      },
+      "screen": {
+        "filename": "OET-OBA.B5.screen.pdf",
+        "bytes": 205107,
+        "sha256": "b847b24775f0e5b50a661cde8b512ef09bf0e59ce91d11b17d4bc6e81c11b7f2",
+        "pages": 4,
+        "draft_version": "v0.48.94",
+        "url": "https://Freely-Given.org/OBD/OET/Downloads/OET-OBA.B5.screen.pdf"
+      }
+    },
+    {
+      "id": "DAN",
+      "title": "Daniyel",
+      "group": "OT",
+      "kind": "book",
+      "books": [
+        "DAN"
+      ],
+      "print": {
+        "filename": "OET-DAN.B5.print.pdf",
+        "bytes": 738420,
+        "sha256": "38802ed41e68bd8ecc6bd92ec98176506098016c9c9631bce79c3ac09059122b",
+        "pages": 48,
+        "draft_version": "v0.48.94",
+        "url": "https://Freely-Given.org/OBD/OET/Downloads/OET-DAN.B5.print.pdf"
+      },
+      "screen": {
+        "filename": "OET-DAN.B5.screen.pdf",
+        "bytes": 759405,
+        "sha256": "fecbd9fd4cc116d544c63d6b43375cf64fc5975eba3b9551e9095c45f66d94ec",
+        "pages": 48,
+        "draft_version": "v0.48.94",
+        "url": "https://Freely-Given.org/OBD/OET/Downloads/OET-DAN.B5.screen.pdf"
+      }
+    },
+    {
+      "id": "EZE",
+      "title": "Yehezkel",
+      "group": "OT",
+      "kind": "book",
+      "books": [
+        "EZE"
+      ],
+      "print": {
+        "filename": "OET-EZE.B5.print.pdf",
+        "bytes": 1948820,
+        "sha256": "07a3216d8bb4e358db68ab4bc5187a8052c131d1d757b3f65d27512e54b1991f",
+        "pages": 137,
+        "draft_version": "v0.48.94",
+        "url": "https://Freely-Given.org/OBD/OET/Downloads/OET-EZE.B5.print.pdf"
+      },
+      "screen": {
+        "filename": "OET-EZE.B5.screen.pdf",
+        "bytes": 1990586,
+        "sha256": "36d103eb9ef2df05cd36bc6984dfb78485817c9dc4b1d1798ac19993f5938f1f",
+        "pages": 137,
+        "draft_version": "v0.48.94",
+        "url": "https://Freely-Given.org/OBD/OET/Downloads/OET-EZE.B5.screen.pdf"
+      }
+    },
+    {
+      "id": "EZR",
+      "title": "Ezra",
+      "group": "OT",
+      "kind": "book",
+      "books": [
+        "EZR"
+      ],
+      "print": {
+        "filename": "OET-EZR.B5.print.pdf",
+        "bytes": 500155,
+        "sha256": "a4ee9c788426dfaadc38e20ae161336164ee093b967575c5458948ec00a8552a",
+        "pages": 29,
+        "draft_version": "v0.48.94",
+        "url": "https://Freely-Given.org/OBD/OET/Downloads/OET-EZR.B5.print.pdf"
+      },
+      "screen": {
+        "filename": "OET-EZR.B5.screen.pdf",
+        "bytes": 517636,
+        "sha256": "761e8806ac8fce69ed0bb88cf1f576ac6a48dc2ce74773f93a4908771b4fd525",
+        "pages": 29,
+        "draft_version": "v0.48.94",
+        "url": "https://Freely-Given.org/OBD/OET/Downloads/OET-EZR.B5.screen.pdf"
+      }
+    },
+    {
+      "id": "EST",
+      "title": "Ester",
+      "group": "OT",
+      "kind": "book",
+      "books": [
+        "EST"
+      ],
+      "print": {
+        "filename": "OET-EST.B5.print.pdf",
+        "bytes": 411470,
+        "sha256": "380066fd36b948f743b3e22e794c6e667e50437a53606911d1e8f99f447ea359",
+        "pages": 22,
+        "draft_version": "v0.48.94",
+        "url": "https://Freely-Given.org/OBD/OET/Downloads/OET-EST.B5.print.pdf"
+      },
+      "screen": {
+        "filename": "OET-EST.B5.screen.pdf",
+        "bytes": 427303,
+        "sha256": "80253844b7e2165e7ab948e2c23841cc07dcaae0563d95a553e7e6d44f057fcd",
+        "pages": 22,
+        "draft_version": "v0.48.94",
+        "url": "https://Freely-Given.org/OBD/OET/Downloads/OET-EST.B5.screen.pdf"
+      }
+    },
+    {
+      "id": "NEH",
+      "title": "Nehemyah",
+      "group": "OT",
+      "kind": "book",
+      "books": [
+        "NEH"
+      ],
+      "print": {
+        "filename": "OET-NEH.B5.print.pdf",
+        "bytes": 638212,
+        "sha256": "73d850e2e9ddc95403069d42d31371333cb64bc864f02437f69fd5a1b41cfeea",
+        "pages": 41,
+        "draft_version": "v0.48.94",
+        "url": "https://Freely-Given.org/OBD/OET/Downloads/OET-NEH.B5.print.pdf"
+      },
+      "screen": {
+        "filename": "OET-NEH.B5.screen.pdf",
+        "bytes": 657860,
+        "sha256": "d4d7983de6bbf1d328ea98a5dc541f6d6faf620d96b7d5394c2fdac4a8d99594",
+        "pages": 41,
+        "draft_version": "v0.48.94",
+        "url": "https://Freely-Given.org/OBD/OET/Downloads/OET-NEH.B5.screen.pdf"
+      }
+    },
+    {
+      "id": "HAG",
+      "title": "Hagay",
+      "group": "OT",
+      "kind": "book",
+      "books": [
+        "HAG"
+      ],
+      "print": {
+        "filename": "OET-HAG.B5.print.pdf",
+        "bytes": 208092,
+        "sha256": "34a9282e5f29ba29c2b5620ea2d38ec9eea161c009d63992a7f0dcea6db44b1c",
+        "pages": 5,
+        "draft_version": "v0.48.94",
+        "url": "https://Freely-Given.org/OBD/OET/Downloads/OET-HAG.B5.print.pdf"
+      },
+      "screen": {
+        "filename": "OET-HAG.B5.screen.pdf",
+        "bytes": 220732,
+        "sha256": "058ad3a3200e8ca7bb827670385d38948ade432b32c064a7b2c8905e17c3bba8",
+        "pages": 5,
+        "draft_version": "v0.48.94",
+        "url": "https://Freely-Given.org/OBD/OET/Downloads/OET-HAG.B5.screen.pdf"
+      }
+    },
+    {
+      "id": "ZEC",
+      "title": "Zekaryah",
+      "group": "OT",
+      "kind": "book",
+      "books": [
+        "ZEC"
+      ],
+      "print": {
+        "filename": "OET-ZEC.B5.print.pdf",
+        "bytes": 444648,
+        "sha256": "6e078ecad8501ce157aedef2f93e7bd3d9c39495206647086bddc0d1dc32a388",
+        "pages": 24,
+        "draft_version": "v0.48.94",
+        "url": "https://Freely-Given.org/OBD/OET/Downloads/OET-ZEC.B5.print.pdf"
+      },
+      "screen": {
+        "filename": "OET-ZEC.B5.screen.pdf",
+        "bytes": 461802,
+        "sha256": "6cf4587dd1649493c9f29733e532c777c30db638d7c12fdfae9033c1ad542f9c",
+        "pages": 24,
+        "draft_version": "v0.48.94",
+        "url": "https://Freely-Given.org/OBD/OET/Downloads/OET-ZEC.B5.screen.pdf"
+      }
+    },
+    {
+      "id": "MAL",
+      "title": "Malaki",
+      "group": "OT",
+      "kind": "book",
+      "books": [
+        "MAL"
+      ],
+      "print": {
+        "filename": "OET-MAL.B5.print.pdf",
+        "bytes": 238376,
+        "sha256": "fc5b6dfb5cf0cd0f4a13c9946f2127fd36ba7f8b5e3eddcfb7d5d915ae25abbb",
+        "pages": 8,
+        "draft_version": "v0.48.94",
+        "url": "https://Freely-Given.org/OBD/OET/Downloads/OET-MAL.B5.print.pdf"
+      },
+      "screen": {
+        "filename": "OET-MAL.B5.screen.pdf",
+        "bytes": 251703,
+        "sha256": "0b4d5a3c51c04f698a44647243a2832e34318e3dc58f143291299480cd230724",
+        "pages": 8,
+        "draft_version": "v0.48.94",
+        "url": "https://Freely-Given.org/OBD/OET/Downloads/OET-MAL.B5.screen.pdf"
+      }
+    },
+    {
+      "id": "PS2",
+      "title": "Psalm 151",
+      "group": "DC",
+      "kind": "book",
+      "books": [
+        "PS2"
+      ],
+      "print": {
+        "filename": "OET-PS2.B5.print.pdf",
+        "bytes": 149704,
+        "sha256": "3404d6b18642ba375ee8da21bfc1fdff686add478dbe9600d64234a052542079",
+        "pages": 2,
+        "draft_version": "v0.48.94",
+        "url": "https://Freely-Given.org/OBD/OET/Downloads/OET-PS2.B5.print.pdf"
+      },
+      "screen": {
+        "filename": "OET-PS2.B5.screen.pdf",
+        "bytes": 161582,
+        "sha256": "4927538c44e184c8931d5f10d0c85e31c8fbb1d5d5ba5f6ca41cd8e3fbfaa930",
+        "pages": 2,
+        "draft_version": "v0.48.94",
+        "url": "https://Freely-Given.org/OBD/OET/Downloads/OET-PS2.B5.screen.pdf"
+      }
+    },
+    {
+      "id": "WIS",
+      "title": "Wisdom of Shelomoh",
+      "group": "DC",
+      "kind": "book",
+      "books": [
+        "WIS"
+      ],
+      "print": {
+        "filename": "OET-WIS.B5.print.pdf",
+        "bytes": 622426,
+        "sha256": "1ef1e1bfdc401c59a8060679683f5a2e73227df81965987917e54ee6d2008f95",
+        "pages": 43,
+        "draft_version": "v0.48.94",
+        "url": "https://Freely-Given.org/OBD/OET/Downloads/OET-WIS.B5.print.pdf"
+      },
+      "screen": {
+        "filename": "OET-WIS.B5.screen.pdf",
+        "bytes": 643194,
+        "sha256": "6419187d33b2e15d13934c664e05be9215f37c1a91057ff6ac2e0de20ed09a27",
+        "pages": 43,
+        "draft_version": "v0.48.94",
+        "url": "https://Freely-Given.org/OBD/OET/Downloads/OET-WIS.B5.screen.pdf"
+      }
+    },
+    {
+      "id": "TOB",
+      "title": "Tovi",
+      "group": "DC",
+      "kind": "book",
+      "books": [
+        "TOB"
+      ],
+      "print": {
+        "filename": "OET-TOB.B5.print.pdf",
+        "bytes": 455600,
+        "sha256": "fcfd12958dc8c8d21e3abbeff6bd2dfa374d67aafe0c2ff2f739046b0b0e9a49",
+        "pages": 28,
+        "draft_version": "v0.48.94",
+        "url": "https://Freely-Given.org/OBD/OET/Downloads/OET-TOB.B5.print.pdf"
+      },
+      "screen": {
+        "filename": "OET-TOB.B5.screen.pdf",
+        "bytes": 472510,
+        "sha256": "70a56310f32538d519e71d167e91c2d96428d9555380489b383f715155b78bb2",
+        "pages": 28,
+        "draft_version": "v0.48.94",
+        "url": "https://Freely-Given.org/OBD/OET/Downloads/OET-TOB.B5.screen.pdf"
+      }
+    },
+    {
+      "id": "MAN",
+      "title": "Prayer of Menasheh",
+      "group": "DC",
+      "kind": "book",
+      "books": [
+        "MAN"
+      ],
+      "print": {
+        "filename": "OET-MAN.B5.print.pdf",
+        "bytes": 169755,
+        "sha256": "17e319c58fd4c341d4419033a91a29ad462dc79bef10b9a22bdd6dfd88d6a9e5",
+        "pages": 3,
+        "draft_version": "v0.48.94",
+        "url": "https://Freely-Given.org/OBD/OET/Downloads/OET-MAN.B5.print.pdf"
+      },
+      "screen": {
+        "filename": "OET-MAN.B5.screen.pdf",
+        "bytes": 181873,
+        "sha256": "ba1080eb20b01b0b01b1c87eb9e2ee600dedae76e6e7d8b1133f79aaba3bf337",
+        "pages": 3,
+        "draft_version": "v0.48.94",
+        "url": "https://Freely-Given.org/OBD/OET/Downloads/OET-MAN.B5.screen.pdf"
+      }
+    },
+    {
+      "id": "BAR",
+      "title": "Baruk",
+      "group": "DC",
+      "kind": "book",
+      "books": [
+        "BAR"
+      ],
+      "print": {
+        "filename": "OET-BAR.B5.print.pdf",
+        "bytes": 371945,
+        "sha256": "edb6a2c00a6d5c2638dfbb8fab326cdaca19645f4a3a36551a34bc1ce1203d7f",
+        "pages": 20,
+        "draft_version": "v0.48.94",
+        "url": "https://Freely-Given.org/OBD/OET/Downloads/OET-BAR.B5.print.pdf"
+      },
+      "screen": {
+        "filename": "OET-BAR.B5.screen.pdf",
+        "bytes": 387183,
+        "sha256": "465fea188e0ea9b471db65e798308a24054959843d92df41eaefe1dd09a9e438",
+        "pages": 20,
+        "draft_version": "v0.48.94",
+        "url": "https://Freely-Given.org/OBD/OET/Downloads/OET-BAR.B5.screen.pdf"
+      }
+    },
+    {
+      "id": "DNG",
+      "title": "Daniyel (Greek)",
+      "group": "DC",
+      "kind": "book",
+      "books": [
+        "DNG"
+      ],
+      "print": {
+        "filename": "OET-DNG.B5.print.pdf",
+        "bytes": 855607,
+        "sha256": "df21760ef98361966314a7c8f4df653e3a951b0c14d3e67fc1a758073d99e66b",
+        "pages": 64,
+        "draft_version": "v0.48.94",
+        "url": "https://Freely-Given.org/OBD/OET/Downloads/OET-DNG.B5.print.pdf"
+      },
+      "screen": {
+        "filename": "OET-DNG.B5.screen.pdf",
+        "bytes": 878088,
+        "sha256": "fc2332f7acf92d2a6b69e1cf0a36235b21977e4068629416434b1cce55d03d48",
+        "pages": 64,
+        "draft_version": "v0.48.94",
+        "url": "https://Freely-Given.org/OBD/OET/Downloads/OET-DNG.B5.screen.pdf"
+      }
+    },
+    {
+      "id": "GES",
+      "title": "1 Ezra",
+      "group": "DC",
+      "kind": "book",
+      "books": [
+        "GES"
+      ],
+      "print": {
+        "filename": "OET-GES.B5.print.pdf",
+        "bytes": 694503,
+        "sha256": "a50434e386c1f11cbf3ce985ff61cf517e76b5fe737493364a63f12bda0f38bb",
+        "pages": 49,
+        "draft_version": "v0.48.94",
+        "url": "https://Freely-Given.org/OBD/OET/Downloads/OET-GES.B5.print.pdf"
+      },
+      "screen": {
+        "filename": "OET-GES.B5.screen.pdf",
+        "bytes": 716301,
+        "sha256": "984016ba799f2d9752519f124044861dc2de3edef662673ec873108a8c34bd28",
+        "pages": 49,
+        "draft_version": "v0.48.94",
+        "url": "https://Freely-Given.org/OBD/OET/Downloads/OET-GES.B5.screen.pdf"
+      }
+    },
+    {
+      "id": "LES",
+      "title": "2 Ezra",
+      "group": "DC",
+      "kind": "book",
+      "books": [
+        "LES"
+      ],
+      "print": {
+        "filename": "OET-LES.B5.print.pdf",
+        "bytes": 588215,
+        "sha256": "70f9f1eba20a19390456c89969554a1c2110d4c085832b726784d1f768a47abf",
+        "pages": 63,
+        "draft_version": "v0.48.94",
+        "url": "https://Freely-Given.org/OBD/OET/Downloads/OET-LES.B5.print.pdf"
+      },
+      "screen": {
+        "filename": "OET-LES.B5.screen.pdf",
+        "bytes": 612091,
+        "sha256": "34d8abbd4bad28d2e3390291222fbd0133345b1813b3a9f1a0a9a16af97a8d2c",
+        "pages": 63,
+        "draft_version": "v0.48.94",
+        "url": "https://Freely-Given.org/OBD/OET/Downloads/OET-LES.B5.screen.pdf"
+      }
+    },
+    {
+      "id": "ESG",
+      "title": "Ester (Greek)",
+      "group": "DC",
+      "kind": "book",
+      "books": [
+        "ESG"
+      ],
+      "print": {
+        "filename": "OET-ESG.B5.print.pdf",
+        "bytes": 492536,
+        "sha256": "dff8ca52c6b7c3945f07d5172554cfeff57826179dc6d5581bf655bc4227ff93",
+        "pages": 33,
+        "draft_version": "v0.48.94",
+        "url": "https://Freely-Given.org/OBD/OET/Downloads/OET-ESG.B5.print.pdf"
+      },
+      "screen": {
+        "filename": "OET-ESG.B5.screen.pdf",
+        "bytes": 510251,
+        "sha256": "d620105923870d6c2d58999c4878706d30cee95e82b38d119e61fb99a98af202",
+        "pages": 33,
+        "draft_version": "v0.48.94",
+        "url": "https://Freely-Given.org/OBD/OET/Downloads/OET-ESG.B5.screen.pdf"
+      }
+    },
+    {
+      "id": "JDT",
+      "title": "Yehudit",
+      "group": "DC",
+      "kind": "book",
+      "books": [
+        "JDT"
+      ],
+      "print": {
+        "filename": "OET-JDT.B5.print.pdf",
+        "bytes": 648680,
+        "sha256": "636f681ced53d2775528176d6153e10069d0f952938a19d4a83b701684496ebe",
+        "pages": 47,
+        "draft_version": "v0.48.94",
+        "url": "https://Freely-Given.org/OBD/OET/Downloads/OET-JDT.B5.print.pdf"
+      },
+      "screen": {
+        "filename": "OET-JDT.B5.screen.pdf",
+        "bytes": 668119,
+        "sha256": "459665c6773c26e11659416473f353a249d39a91aee4d5a1401fcfa922b76edb",
+        "pages": 47,
+        "draft_version": "v0.48.94",
+        "url": "https://Freely-Given.org/OBD/OET/Downloads/OET-JDT.B5.screen.pdf"
+      }
+    },
+    {
+      "id": "MA3",
+      "title": "3 Maccabees",
+      "group": "DC",
+      "kind": "book",
+      "books": [
+        "MA3"
+      ],
+      "print": {
+        "filename": "OET-MA3.B5.print.pdf",
+        "bytes": 486091,
+        "sha256": "1f9ed42acf051e9e485d8354b7710844394ec92a7526210a4434f7eaaccf3ec7",
+        "pages": 30,
+        "draft_version": "v0.48.94",
+        "url": "https://Freely-Given.org/OBD/OET/Downloads/OET-MA3.B5.print.pdf"
+      },
+      "screen": {
+        "filename": "OET-MA3.B5.screen.pdf",
+        "bytes": 502677,
+        "sha256": "ea96dc509ecc081ff147f7439592f3e122c697aa0b5d3f32819b466999da5f4b",
+        "pages": 30,
+        "draft_version": "v0.48.94",
+        "url": "https://Freely-Given.org/OBD/OET/Downloads/OET-MA3.B5.screen.pdf"
+      }
+    },
+    {
+      "id": "SIR",
+      "title": "Sira",
+      "group": "DC",
+      "kind": "book",
+      "books": [
+        "SIR"
+      ],
+      "print": {
+        "filename": "OET-SIR.B5.print.pdf",
+        "bytes": 1383792,
+        "sha256": "c4eb604c06d91131f986c737b96f27915a05a700d888fe1a760bf079bb70e60b",
+        "pages": 108,
+        "draft_version": "v0.48.94",
+        "url": "https://Freely-Given.org/OBD/OET/Downloads/OET-SIR.B5.print.pdf"
+      },
+      "screen": {
+        "filename": "OET-SIR.B5.screen.pdf",
+        "bytes": 1421222,
+        "sha256": "cbd613c80311172e67198d312b1dfee84d053454ff32760195a561eca6f07d8f",
+        "pages": 108,
+        "draft_version": "v0.48.94",
+        "url": "https://Freely-Given.org/OBD/OET/Downloads/OET-SIR.B5.screen.pdf"
+      }
+    },
+    {
+      "id": "MA1",
+      "title": "1 Maccabees",
+      "group": "DC",
+      "kind": "book",
+      "books": [
+        "MA1"
+      ],
+      "print": {
+        "filename": "OET-MA1.B5.print.pdf",
+        "bytes": 1206656,
+        "sha256": "b57c2555e38b2314d0c2f59c339e0fe8bc2eec8db77355627e0a78c85b691f6c",
+        "pages": 98,
+        "draft_version": "v0.48.94",
+        "url": "https://Freely-Given.org/OBD/OET/Downloads/OET-MA1.B5.print.pdf"
+      },
+      "screen": {
+        "filename": "OET-MA1.B5.screen.pdf",
+        "bytes": 1237173,
+        "sha256": "f0fd4ec89c021f5825e495411ec1a45cc70a3589fded939f3a171388158e088f",
+        "pages": 98,
+        "draft_version": "v0.48.94",
+        "url": "https://Freely-Given.org/OBD/OET/Downloads/OET-MA1.B5.screen.pdf"
+      }
+    },
+    {
+      "id": "MA2",
+      "title": "2 Maccabees",
+      "group": "DC",
+      "kind": "book",
+      "books": [
+        "MA2"
+      ],
+      "print": {
+        "filename": "OET-MA2.B5.print.pdf",
+        "bytes": 953463,
+        "sha256": "49a96076adab04290d55005f360bc04560a707a70de63d20e0bc6bbfe18793c4",
+        "pages": 70,
+        "draft_version": "v0.48.94",
+        "url": "https://Freely-Given.org/OBD/OET/Downloads/OET-MA2.B5.print.pdf"
+      },
+      "screen": {
+        "filename": "OET-MA2.B5.screen.pdf",
+        "bytes": 978785,
+        "sha256": "fb93cd90e5bbb58c0c71bd1cbbedccacd5fda99830ed78357681899d3505b40b",
+        "pages": 70,
+        "draft_version": "v0.48.94",
+        "url": "https://Freely-Given.org/OBD/OET/Downloads/OET-MA2.B5.screen.pdf"
+      }
+    },
+    {
+      "id": "MA4",
+      "title": "4 Maccabees",
+      "group": "DC",
+      "kind": "book",
+      "books": [
+        "MA4"
+      ],
+      "print": {
+        "filename": "OET-MA4.B5.print.pdf",
+        "bytes": 660947,
+        "sha256": "3e83f82fb22c5b7ea3233f1c1bcd2b7b3bc89c5418b4d1e902fe6e68adf9b172",
+        "pages": 43,
+        "draft_version": "v0.48.94",
+        "url": "https://Freely-Given.org/OBD/OET/Downloads/OET-MA4.B5.print.pdf"
+      },
+      "screen": {
+        "filename": "OET-MA4.B5.screen.pdf",
+        "bytes": 680130,
+        "sha256": "1f13e53928214fe2b784a8bba190afe1a05b7e2de0678fcea896b77499d21eaf",
+        "pages": 43,
+        "draft_version": "v0.48.94",
+        "url": "https://Freely-Given.org/OBD/OET/Downloads/OET-MA4.B5.screen.pdf"
+      }
+    },
+    {
+      "id": "PSS",
+      "title": "Psalms of Solomon",
+      "group": "DC",
+      "kind": "book",
+      "books": [
+        "PSS"
+      ],
+      "print": {
+        "filename": "OET-PSS.B5.print.pdf",
+        "bytes": 317199,
+        "sha256": "facbd35b9e1952d68dbd0859fd50cbb7d56fbb253381821da0f5ab343fb7a831",
+        "pages": 27,
+        "draft_version": "v0.48.94",
+        "url": "https://Freely-Given.org/OBD/OET/Downloads/OET-PSS.B5.print.pdf"
+      },
+      "screen": {
+        "filename": "OET-PSS.B5.screen.pdf",
+        "bytes": 331959,
+        "sha256": "73209ceac5af8114143abfdc6b65b90ebc0dab26b3aa86314145eb5202c46b21",
+        "pages": 27,
+        "draft_version": "v0.48.94",
+        "url": "https://Freely-Given.org/OBD/OET/Downloads/OET-PSS.B5.screen.pdf"
+      }
+    },
+    {
+      "id": "ODE",
+      "title": "Biblical Odes",
+      "group": "DC",
+      "kind": "book",
+      "books": [
+        "ODE"
+      ],
+      "print": {
+        "filename": "OET-ODE.B5.print.pdf",
+        "bytes": 293396,
+        "sha256": "345be3e43adb2b2a5f97facd8c19bef90381f7e1512c6f7d6501cda58b5f21ef",
+        "pages": 22,
+        "draft_version": "v0.48.94",
+        "url": "https://Freely-Given.org/OBD/OET/Downloads/OET-ODE.B5.print.pdf"
+      },
+      "screen": {
+        "filename": "OET-ODE.B5.screen.pdf",
+        "bytes": 307559,
+        "sha256": "c5bb296f376411e2ca5d52288887fd932823f1450541c7f2a762f686e29d68c7",
+        "pages": 22,
+        "draft_version": "v0.48.94",
+        "url": "https://Freely-Given.org/OBD/OET/Downloads/OET-ODE.B5.screen.pdf"
+      }
+    },
+    {
+      "id": "JHN",
+      "title": "Yohan",
+      "group": "NT",
+      "kind": "book",
+      "books": [
+        "JHN"
+      ],
+      "print": {
+        "filename": "OET-JHN.B5.print.pdf",
+        "bytes": 1069612,
+        "sha256": "224c6ced619e89a0ba98771435c4d7374eb194d340cc37d5c2d5c902e6e97ac0",
+        "pages": 67,
+        "draft_version": "v0.48.94",
+        "url": "https://Freely-Given.org/OBD/OET/Downloads/OET-JHN.B5.print.pdf"
+      },
+      "screen": {
+        "filename": "OET-JHN.B5.screen.pdf",
+        "bytes": 1129836,
+        "sha256": "6173795e60b24cf30ce322a5aebed988d8aa50e1b263052a5e2d984ad860863d",
+        "pages": 67,
+        "draft_version": "v0.48.94",
+        "url": "https://Freely-Given.org/OBD/OET/Downloads/OET-JHN.B5.screen.pdf"
+      }
+    },
+    {
+      "id": "MRK",
+      "title": "Markos",
+      "group": "NT",
+      "kind": "book",
+      "books": [
+        "MRK"
+      ],
+      "print": {
+        "filename": "OET-MRK.B5.print.pdf",
+        "bytes": 908813,
+        "sha256": "10597a335e4c6467b80979493d3c226b18268924547d413fec6c423d298317e2",
+        "pages": 57,
+        "draft_version": "v0.48.94",
+        "url": "https://Freely-Given.org/OBD/OET/Downloads/OET-MRK.B5.print.pdf"
+      },
+      "screen": {
+        "filename": "OET-MRK.B5.screen.pdf",
+        "bytes": 948360,
+        "sha256": "f345f1208ac1bfd87a950206109a63bd6c3d7f69532b0756b67b7bb9a4b83ec9",
+        "pages": 57,
+        "draft_version": "v0.48.94",
+        "url": "https://Freely-Given.org/OBD/OET/Downloads/OET-MRK.B5.screen.pdf"
+      }
+    },
+    {
+      "id": "MAT",
+      "title": "Matay",
+      "group": "NT",
+      "kind": "book",
+      "books": [
+        "MAT"
+      ],
+      "print": {
+        "filename": "OET-MAT.B5.print.pdf",
+        "bytes": 1330420,
+        "sha256": "349aa72f63234568eecddf09a3dcf5491ba311a90529babd014a82c7348e4ada",
+        "pages": 89,
+        "draft_version": "v0.48.94",
+        "url": "https://Freely-Given.org/OBD/OET/Downloads/OET-MAT.B5.print.pdf"
+      },
+      "screen": {
+        "filename": "OET-MAT.B5.screen.pdf",
+        "bytes": 1412824,
+        "sha256": "ab068192cbb1feb73e71cc9b613a019e3ce40b5c7ab9759a64eeec2c341bd369",
+        "pages": 89,
+        "draft_version": "v0.48.94",
+        "url": "https://Freely-Given.org/OBD/OET/Downloads/OET-MAT.B5.screen.pdf"
+      }
+    },
+    {
+      "id": "LUK",
+      "title": "Lukas",
+      "group": "NT",
+      "kind": "book",
+      "books": [
+        "LUK"
+      ],
+      "print": {
+        "filename": "OET-LUK.B5.print.pdf",
+        "bytes": 1359585,
+        "sha256": "e593919f33233bc63db4533651601b57bc0d3e19717cf60745e330bf59492e06",
+        "pages": 92,
+        "draft_version": "v0.48.94",
+        "url": "https://Freely-Given.org/OBD/OET/Downloads/OET-LUK.B5.print.pdf"
+      },
+      "screen": {
+        "filename": "OET-LUK.B5.screen.pdf",
+        "bytes": 1440049,
+        "sha256": "fc8185a2ecdb13c623ca55161fddf85cd0a8e82c1b7374d3582e58f97abdba8e",
+        "pages": 92,
+        "draft_version": "v0.48.94",
+        "url": "https://Freely-Given.org/OBD/OET/Downloads/OET-LUK.B5.screen.pdf"
+      }
+    },
+    {
+      "id": "ACT",
+      "title": "Acts",
+      "group": "NT",
+      "kind": "book",
+      "books": [
+        "ACT"
+      ],
+      "print": {
+        "filename": "OET-ACT.B5.print.pdf",
+        "bytes": 1274627,
+        "sha256": "e2added6dcc1a94c61375ef5b1733db8e391a4e84e16e9a3f9fce24998e214f0",
+        "pages": 82,
+        "draft_version": "v0.48.94",
+        "url": "https://Freely-Given.org/OBD/OET/Downloads/OET-ACT.B5.print.pdf"
+      },
+      "screen": {
+        "filename": "OET-ACT.B5.screen.pdf",
+        "bytes": 1306236,
+        "sha256": "b8bf0197d67cc1b4c3684a4a7a6d9b39d9f699bcdae93e4f44757d7fc03cf4c6",
+        "pages": 82,
+        "draft_version": "v0.48.94",
+        "url": "https://Freely-Given.org/OBD/OET/Downloads/OET-ACT.B5.screen.pdf"
+      }
+    },
+    {
+      "id": "JAM",
+      "title": "Ya’akov",
+      "group": "NT",
+      "kind": "book",
+      "books": [
+        "JAM"
+      ],
+      "print": {
+        "filename": "OET-JAM.B5.print.pdf",
+        "bytes": 276903,
+        "sha256": "525ee56199c567259c96924e27189f1786c191a25b58b2d18bc6d8311bb48ef1",
+        "pages": 11,
+        "draft_version": "v0.48.94",
+        "url": "https://Freely-Given.org/OBD/OET/Downloads/OET-JAM.B5.print.pdf"
+      },
+      "screen": {
+        "filename": "OET-JAM.B5.screen.pdf",
+        "bytes": 291060,
+        "sha256": "f162cb6688629a57b98f48325f2f298c6d78b3fed7974f8e61f92f14644b883a",
+        "pages": 11,
+        "draft_version": "v0.48.94",
+        "url": "https://Freely-Given.org/OBD/OET/Downloads/OET-JAM.B5.screen.pdf"
+      }
+    },
+    {
+      "id": "GAL",
+      "title": "Galatians",
+      "group": "NT",
+      "kind": "book",
+      "books": [
+        "GAL"
+      ],
+      "print": {
+        "filename": "OET-GAL.B5.print.pdf",
+        "bytes": 318439,
+        "sha256": "594962b8c7f4a1901d25a503913d4212443436e6cc5b52725b5ed7486e24fdd4",
+        "pages": 14,
+        "draft_version": "v0.48.94",
+        "url": "https://Freely-Given.org/OBD/OET/Downloads/OET-GAL.B5.print.pdf"
+      },
+      "screen": {
+        "filename": "OET-GAL.B5.screen.pdf",
+        "bytes": 333261,
+        "sha256": "136963383d3e21ca718a74891d2722f1b5e3efdf85d7ea338eaa00ce5002a3d0",
+        "pages": 14,
+        "draft_version": "v0.48.94",
+        "url": "https://Freely-Given.org/OBD/OET/Downloads/OET-GAL.B5.screen.pdf"
+      }
+    },
+    {
+      "id": "TH1",
+      "title": "1 Thessalonikai",
+      "group": "NT",
+      "kind": "book",
+      "books": [
+        "TH1"
+      ],
+      "print": {
+        "filename": "OET-TH1.B5.print.pdf",
+        "bytes": 251112,
+        "sha256": "7bfbd1fe06e6fd1608fa0c3526afe2257e3a6a8376c61a8d63df4d39943ea6ef",
+        "pages": 8,
+        "draft_version": "v0.48.94",
+        "url": "https://Freely-Given.org/OBD/OET/Downloads/OET-TH1.B5.print.pdf"
+      },
+      "screen": {
+        "filename": "OET-TH1.B5.screen.pdf",
+        "bytes": 264406,
+        "sha256": "1f589a570a3a9918d3352574563f05a6af8125fb9260b4ff2d8f958595fc540a",
+        "pages": 8,
+        "draft_version": "v0.48.94",
+        "url": "https://Freely-Given.org/OBD/OET/Downloads/OET-TH1.B5.screen.pdf"
+      }
+    },
+    {
+      "id": "TH2",
+      "title": "2 Thessalonikai",
+      "group": "NT",
+      "kind": "book",
+      "books": [
+        "TH2"
+      ],
+      "print": {
+        "filename": "OET-TH2.B5.print.pdf",
+        "bytes": 208537,
+        "sha256": "aea987a98194210ff9d6f708c3185180355ab742d3b0dd95b79a4618c154235e",
+        "pages": 5,
+        "draft_version": "v0.48.94",
+        "url": "https://Freely-Given.org/OBD/OET/Downloads/OET-TH2.B5.print.pdf"
+      },
+      "screen": {
+        "filename": "OET-TH2.B5.screen.pdf",
+        "bytes": 221236,
+        "sha256": "55ef94776cd13f87950282f7ab46c4c61ec2dc2cfdd8c2d28cd8403dc5597cba",
+        "pages": 5,
+        "draft_version": "v0.48.94",
+        "url": "https://Freely-Given.org/OBD/OET/Downloads/OET-TH2.B5.screen.pdf"
+      }
+    },
+    {
+      "id": "CO1",
+      "title": "1 Korinthios",
+      "group": "NT",
+      "kind": "book",
+      "books": [
+        "CO1"
+      ],
+      "print": {
+        "filename": "OET-CO1.B5.print.pdf",
+        "bytes": 599170,
+        "sha256": "c71c0a09d3d4cd0715354fdfcfbf421c1afe3d978eff731b7e44ec3c7697694d",
+        "pages": 34,
+        "draft_version": "v0.48.94",
+        "url": "https://Freely-Given.org/OBD/OET/Downloads/OET-CO1.B5.print.pdf"
+      },
+      "screen": {
+        "filename": "OET-CO1.B5.screen.pdf",
+        "bytes": 618916,
+        "sha256": "7dee5b61d4c4b4ec1cff6a2890923004ad557e5b1461f038c37948733a58c0dc",
+        "pages": 34,
+        "draft_version": "v0.48.94",
+        "url": "https://Freely-Given.org/OBD/OET/Downloads/OET-CO1.B5.screen.pdf"
+      }
+    },
+    {
+      "id": "CO2",
+      "title": "2 Korinthios",
+      "group": "NT",
+      "kind": "book",
+      "books": [
+        "CO2"
+      ],
+      "print": {
+        "filename": "OET-CO2.B5.print.pdf",
+        "bytes": 441430,
+        "sha256": "fc0215b66f10f73651cfa248f57c9fddf44571388c1bb40797f7e164297c72b9",
+        "pages": 21,
+        "draft_version": "v0.48.94",
+        "url": "https://Freely-Given.org/OBD/OET/Downloads/OET-CO2.B5.print.pdf"
+      },
+      "screen": {
+        "filename": "OET-CO2.B5.screen.pdf",
+        "bytes": 458223,
+        "sha256": "a163f4a8608bc011be4fd60239f7d4df186964e0cb6d929399c554f7672524f1",
+        "pages": 21,
+        "draft_version": "v0.48.94",
+        "url": "https://Freely-Given.org/OBD/OET/Downloads/OET-CO2.B5.screen.pdf"
+      }
+    },
+    {
+      "id": "ROM",
+      "title": "Romaios",
+      "group": "NT",
+      "kind": "book",
+      "books": [
+        "ROM"
+      ],
+      "print": {
+        "filename": "OET-ROM.B5.print.pdf",
+        "bytes": 614133,
+        "sha256": "9a99995700514ac07a1537b0483a2fe1a1e0d1dde7fe612315b55a414e7e1dca",
+        "pages": 36,
+        "draft_version": "v0.48.94",
+        "url": "https://Freely-Given.org/OBD/OET/Downloads/OET-ROM.B5.print.pdf"
+      },
+      "screen": {
+        "filename": "OET-ROM.B5.screen.pdf",
+        "bytes": 634858,
+        "sha256": "c2ddb195d12c5aa6aef1ab828be5c9c8a16771c92efdb6f6cf9aed077baedaed",
+        "pages": 36,
+        "draft_version": "v0.48.94",
+        "url": "https://Freely-Given.org/OBD/OET/Downloads/OET-ROM.B5.screen.pdf"
+      }
+    },
+    {
+      "id": "COL",
+      "title": "Colossians",
+      "group": "NT",
+      "kind": "book",
+      "books": [
+        "COL"
+      ],
+      "print": {
+        "filename": "OET-COL.B5.print.pdf",
+        "bytes": 267445,
+        "sha256": "319b4ee18f1d1e6d4d34399cd60a96c176df91b98cfcaf7fbf66738aa75bbf8e",
+        "pages": 10,
+        "draft_version": "v0.48.94",
+        "url": "https://Freely-Given.org/OBD/OET/Downloads/OET-COL.B5.print.pdf"
+      },
+      "screen": {
+        "filename": "OET-COL.B5.screen.pdf",
+        "bytes": 281178,
+        "sha256": "97c5ef6f6352e2a2b1e04376bc44fd31ca0391953f6b17ea658c849b4538de7a",
+        "pages": 10,
+        "draft_version": "v0.48.94",
+        "url": "https://Freely-Given.org/OBD/OET/Downloads/OET-COL.B5.screen.pdf"
+      }
+    },
+    {
+      "id": "LAO",
+      "title": "Laodikeia",
+      "group": "DC",
+      "kind": "book",
+      "books": [
+        "LAO"
+      ],
+      "print": {
+        "filename": "OET-LAO.B5.print.pdf",
+        "bytes": 157437,
+        "sha256": "9bc8da81230d98dddad463e8d63eedb34ea19936c73a81faef97e35ce5cfceef",
+        "pages": 3,
+        "draft_version": "v0.48.94",
+        "url": "https://Freely-Given.org/OBD/OET/Downloads/OET-LAO.B5.print.pdf"
+      },
+      "screen": {
+        "filename": "OET-LAO.B5.screen.pdf",
+        "bytes": 169583,
+        "sha256": "b415013b06c6e15abae86a4211c034768e81b00943d9ffb9a6e188d3046363ce",
+        "pages": 3,
+        "draft_version": "v0.48.94",
+        "url": "https://Freely-Given.org/OBD/OET/Downloads/OET-LAO.B5.screen.pdf"
+      }
+    },
+    {
+      "id": "PHM",
+      "title": "Filemon",
+      "group": "NT",
+      "kind": "book",
+      "books": [
+        "PHM"
+      ],
+      "print": {
+        "filename": "OET-PHM.B5.print.pdf",
+        "bytes": 177929,
+        "sha256": "764fc1b50a6b36d1caece18ff438a722a63558bd6eba5590535cd675ad9cffda",
+        "pages": 3,
+        "draft_version": "v0.48.94",
+        "url": "https://Freely-Given.org/OBD/OET/Downloads/OET-PHM.B5.print.pdf"
+      },
+      "screen": {
+        "filename": "OET-PHM.B5.screen.pdf",
+        "bytes": 190215,
+        "sha256": "7b1c6d1ce5ea84e47f797f61289731e7ca3ae984f6a2b9e7ef004af5fea87d04",
+        "pages": 3,
+        "draft_version": "v0.48.94",
+        "url": "https://Freely-Given.org/OBD/OET/Downloads/OET-PHM.B5.screen.pdf"
+      }
+    },
+    {
+      "id": "EPH",
+      "title": "Efesos",
+      "group": "NT",
+      "kind": "book",
+      "books": [
+        "EPH"
+      ],
+      "print": {
+        "filename": "OET-EPH.B5.print.pdf",
+        "bytes": 311213,
+        "sha256": "cf1c3df960883f06d7da043caebd3d193731796e52a45a2ead24af5054ab29b8",
+        "pages": 13,
+        "draft_version": "v0.48.94",
+        "url": "https://Freely-Given.org/OBD/OET/Downloads/OET-EPH.B5.print.pdf"
+      },
+      "screen": {
+        "filename": "OET-EPH.B5.screen.pdf",
+        "bytes": 325988,
+        "sha256": "e73ec3e8e8cd2b9d5f096298193b40dd77f266c07e4fd055fdbe96233e5007c1",
+        "pages": 13,
+        "draft_version": "v0.48.94",
+        "url": "https://Freely-Given.org/OBD/OET/Downloads/OET-EPH.B5.screen.pdf"
+      }
+    },
+    {
+      "id": "PHP",
+      "title": "Filippaisios",
+      "group": "NT",
+      "kind": "book",
+      "books": [
+        "PHP"
+      ],
+      "print": {
+        "filename": "OET-PHP.B5.print.pdf",
+        "bytes": 265622,
+        "sha256": "1fed9a55ee134a6035e62bc9f6b5e9056290e070354da5553b828f235585e956",
+        "pages": 10,
+        "draft_version": "v0.48.94",
+        "url": "https://Freely-Given.org/OBD/OET/Downloads/OET-PHP.B5.print.pdf"
+      },
+      "screen": {
+        "filename": "OET-PHP.B5.screen.pdf",
+        "bytes": 279385,
+        "sha256": "d2820434b70ecf159314ebeaff41522a0a5fe962bd84fcccfef4bec47792b62e",
+        "pages": 10,
+        "draft_version": "v0.48.94",
+        "url": "https://Freely-Given.org/OBD/OET/Downloads/OET-PHP.B5.screen.pdf"
+      }
+    },
+    {
+      "id": "TI1",
+      "title": "1 Timotheos",
+      "group": "NT",
+      "kind": "book",
+      "books": [
+        "TI1"
+      ],
+      "print": {
+        "filename": "OET-TI1.B5.print.pdf",
+        "bytes": 268806,
+        "sha256": "d34c057deb09ed8cd0074100fe66ec71b8db642e3910b98674ac17a27885215f",
+        "pages": 10,
+        "draft_version": "v0.48.94",
+        "url": "https://Freely-Given.org/OBD/OET/Downloads/OET-TI1.B5.print.pdf"
+      },
+      "screen": {
+        "filename": "OET-TI1.B5.screen.pdf",
+        "bytes": 282744,
+        "sha256": "d920915c0c1517288770de92e212c68807fabc0bfdd8a0d40f7ad0ecc78f4e82",
+        "pages": 10,
+        "draft_version": "v0.48.94",
+        "url": "https://Freely-Given.org/OBD/OET/Downloads/OET-TI1.B5.screen.pdf"
+      }
+    },
+    {
+      "id": "TIT",
+      "title": "Titos",
+      "group": "NT",
+      "kind": "book",
+      "books": [
+        "TIT"
+      ],
+      "print": {
+        "filename": "OET-TIT.B5.print.pdf",
+        "bytes": 203030,
+        "sha256": "c685e7850d8f5d62c9982a173f118b8e8f62a8d439e309a068abdae3787ce50c",
+        "pages": 6,
+        "draft_version": "v0.48.94",
+        "url": "https://Freely-Given.org/OBD/OET/Downloads/OET-TIT.B5.print.pdf"
+      },
+      "screen": {
+        "filename": "OET-TIT.B5.screen.pdf",
+        "bytes": 215734,
+        "sha256": "c0c37276e7be0ff21c8229a99006ea584209a1b833f65794f04ddbcb89535811",
+        "pages": 6,
+        "draft_version": "v0.48.94",
+        "url": "https://Freely-Given.org/OBD/OET/Downloads/OET-TIT.B5.screen.pdf"
+      }
+    },
+    {
+      "id": "PE1",
+      "title": "1 Kefa",
+      "group": "NT",
+      "kind": "book",
+      "books": [
+        "PE1"
+      ],
+      "print": {
+        "filename": "OET-PE1.B5.print.pdf",
+        "bytes": 274899,
+        "sha256": "cdc791f6bc8a702f4b05ad954cedaf350b9c45993147cf1f21aed42a528da1d7",
+        "pages": 10,
+        "draft_version": "v0.48.94",
+        "url": "https://Freely-Given.org/OBD/OET/Downloads/OET-PE1.B5.print.pdf"
+      },
+      "screen": {
+        "filename": "OET-PE1.B5.screen.pdf",
+        "bytes": 288928,
+        "sha256": "135bad5f814aec34fb44431206bf5f71600b18311121b36cd4ba6b13c455eac7",
+        "pages": 10,
+        "draft_version": "v0.48.94",
+        "url": "https://Freely-Given.org/OBD/OET/Downloads/OET-PE1.B5.screen.pdf"
+      }
+    },
+    {
+      "id": "PE2",
+      "title": "2 Kefa",
+      "group": "NT",
+      "kind": "book",
+      "books": [
+        "PE2"
+      ],
+      "print": {
+        "filename": "OET-PE2.B5.print.pdf",
+        "bytes": 227376,
+        "sha256": "ff6630d366cbbd9bcbf2b76f9a05369defe51725f506d369c6f2c52312831b6c",
+        "pages": 7,
+        "draft_version": "v0.48.94",
+        "url": "https://Freely-Given.org/OBD/OET/Downloads/OET-PE2.B5.print.pdf"
+      },
+      "screen": {
+        "filename": "OET-PE2.B5.screen.pdf",
+        "bytes": 240222,
+        "sha256": "a0a91f23cf2bce6f364417f6c2d539ba11c5854545cd643b9899f744b064b9fb",
+        "pages": 7,
+        "draft_version": "v0.48.94",
+        "url": "https://Freely-Given.org/OBD/OET/Downloads/OET-PE2.B5.screen.pdf"
+      }
+    },
+    {
+      "id": "TI2",
+      "title": "2 Timotheos",
+      "group": "NT",
+      "kind": "book",
+      "books": [
+        "TI2"
+      ],
+      "print": {
+        "filename": "OET-TI2.B5.print.pdf",
+        "bytes": 242019,
+        "sha256": "59e76a210a2405077d85fa0745f904d5d83b96e45f5ed62958799d5548f0305b",
+        "pages": 8,
+        "draft_version": "v0.48.94",
+        "url": "https://Freely-Given.org/OBD/OET/Downloads/OET-TI2.B5.print.pdf"
+      },
+      "screen": {
+        "filename": "OET-TI2.B5.screen.pdf",
+        "bytes": 255460,
+        "sha256": "befd2c358b090c2aafdea502583c7cdcadc89f5336765e182e7bb63360e60930",
+        "pages": 8,
+        "draft_version": "v0.48.94",
+        "url": "https://Freely-Given.org/OBD/OET/Downloads/OET-TI2.B5.screen.pdf"
+      }
+    },
+    {
+      "id": "HEB",
+      "title": "Ivrim",
+      "group": "NT",
+      "kind": "book",
+      "books": [
+        "HEB"
+      ],
+      "print": {
+        "filename": "OET-HEB.B5.print.pdf",
+        "bytes": 487404,
+        "sha256": "323a46f33214ca7b94ecc4a293be1a206491e13bc940cd901810f6a3daf3f9d4",
+        "pages": 27,
+        "draft_version": "v0.48.94",
+        "url": "https://Freely-Given.org/OBD/OET/Downloads/OET-HEB.B5.print.pdf"
+      },
+      "screen": {
+        "filename": "OET-HEB.B5.screen.pdf",
+        "bytes": 505332,
+        "sha256": "8eef33c0176434a45799388c5e6fdd49d91ff58ea6261c9b7d8f9acfbc1a73e8",
+        "pages": 27,
+        "draft_version": "v0.48.94",
+        "url": "https://Freely-Given.org/OBD/OET/Downloads/OET-HEB.B5.screen.pdf"
+      }
+    },
+    {
+      "id": "JDE",
+      "title": "Yehudah",
+      "group": "NT",
+      "kind": "book",
+      "books": [
+        "JDE"
+      ],
+      "print": {
+        "filename": "OET-JDE.B5.print.pdf",
+        "bytes": 190639,
+        "sha256": "fdc5679e04d6ce0f060669cd0b33718288ae62fe383e1b0bf75071b9393262a0",
+        "pages": 4,
+        "draft_version": "v0.48.94",
+        "url": "https://Freely-Given.org/OBD/OET/Downloads/OET-JDE.B5.print.pdf"
+      },
+      "screen": {
+        "filename": "OET-JDE.B5.screen.pdf",
+        "bytes": 203075,
+        "sha256": "942d1826d34961273f2459f818e542d573513d701a79510e32eb100ed0e060e0",
+        "pages": 4,
+        "draft_version": "v0.48.94",
+        "url": "https://Freely-Given.org/OBD/OET/Downloads/OET-JDE.B5.screen.pdf"
+      }
+    },
+    {
+      "id": "JN1",
+      "title": "1 Yohan",
+      "group": "NT",
+      "kind": "book",
+      "books": [
+        "JN1"
+      ],
+      "print": {
+        "filename": "OET-JN1.B5.print.pdf",
+        "bytes": 285099,
+        "sha256": "93f88284eddb97913749177e8d147b6f399711a74db179664e4ce43a30c8dc09",
+        "pages": 10,
+        "draft_version": "v0.48.94",
+        "url": "https://Freely-Given.org/OBD/OET/Downloads/OET-JN1.B5.print.pdf"
+      },
+      "screen": {
+        "filename": "OET-JN1.B5.screen.pdf",
+        "bytes": 299098,
+        "sha256": "24619159288b383eb32bf04682d61dfff3ed3eda77eaf193bb6b60d2452a9753",
+        "pages": 10,
+        "draft_version": "v0.48.94",
+        "url": "https://Freely-Given.org/OBD/OET/Downloads/OET-JN1.B5.screen.pdf"
+      }
+    },
+    {
+      "id": "JN2",
+      "title": "2 Yohan",
+      "group": "NT",
+      "kind": "book",
+      "books": [
+        "JN2"
+      ],
+      "print": {
+        "filename": "OET-JN2.B5.print.pdf",
+        "bytes": 167166,
+        "sha256": "1d878ad33dfcee3b18f66e4ad4bb74c0fa925c4661a52a3dd1c3938cfce6e15e",
+        "pages": 3,
+        "draft_version": "v0.48.94",
+        "url": "https://Freely-Given.org/OBD/OET/Downloads/OET-JN2.B5.print.pdf"
+      },
+      "screen": {
+        "filename": "OET-JN2.B5.screen.pdf",
+        "bytes": 179165,
+        "sha256": "1611b529d2d70e5ca3caf1dff387439c8891d73a5dd573703400bda9d645ea6c",
+        "pages": 3,
+        "draft_version": "v0.48.94",
+        "url": "https://Freely-Given.org/OBD/OET/Downloads/OET-JN2.B5.screen.pdf"
+      }
+    },
+    {
+      "id": "JN3",
+      "title": "3 Yohan",
+      "group": "NT",
+      "kind": "book",
+      "books": [
+        "JN3"
+      ],
+      "print": {
+        "filename": "OET-JN3.B5.print.pdf",
+        "bytes": 162832,
+        "sha256": "4f6fb0217729c14a141beb345a745b43686323f92ff3726d04cab0cc5e054377",
+        "pages": 3,
+        "draft_version": "v0.48.94",
+        "url": "https://Freely-Given.org/OBD/OET/Downloads/OET-JN3.B5.print.pdf"
+      },
+      "screen": {
+        "filename": "OET-JN3.B5.screen.pdf",
+        "bytes": 174861,
+        "sha256": "760641d0f63e066827637670349ab6c0c79469ca310492ebc356aee54c729896",
+        "pages": 3,
+        "draft_version": "v0.48.94",
+        "url": "https://Freely-Given.org/OBD/OET/Downloads/OET-JN3.B5.screen.pdf"
+      }
+    },
+    {
+      "id": "REV",
+      "title": "Revelation",
+      "group": "NT",
+      "kind": "book",
+      "books": [
+        "REV"
+      ],
+      "print": {
+        "filename": "OET-REV.B5.print.pdf",
+        "bytes": 680262,
+        "sha256": "6f90a907f2cfc3ec5de5e25537212fc175f69362b301a67e69690b2cd7bb224e",
+        "pages": 44,
+        "draft_version": "v0.48.94",
+        "url": "https://Freely-Given.org/OBD/OET/Downloads/OET-REV.B5.print.pdf"
+      },
+      "screen": {
+        "filename": "OET-REV.B5.screen.pdf",
+        "bytes": 702168,
+        "sha256": "cc67fe95f22665c68495bf07a0524703f659b8894bdc9628709f608c304293bc",
+        "pages": 44,
+        "draft_version": "v0.48.94",
+        "url": "https://Freely-Given.org/OBD/OET/Downloads/OET-REV.B5.screen.pdf"
+      }
+    }
+  ]
+}
