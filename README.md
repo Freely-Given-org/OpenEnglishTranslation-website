@@ -25,6 +25,21 @@ For future upgrades, check that the chosen Node.js version has a
 and that Node.js and its bundled npm satisfy the minimums in `package.json`.
 Run the checks above with the new versions.
 
+## PDF downloads
+
+The PDFs are hosted under `https://Freely-Given.org/OBD/OET/Downloads/`.
+`src/pages/Resources/Downloads.astro` uses the generated
+`src/data/oet-pdfs.json` catalogue to display links, sizes and page counts.
+The large PDFs are not part of this website's build or deployment.
+
+Run `make PDF` from the sibling `OpenEnglishTranslation--OET/scripts/`
+folder to refresh the PDFs and catalogue, or let the normal `make` build do
+it. The batch script and publication profile live in `BibleTypesetter/`.
+Commit the small JSON catalogue with this website after regeneration; it is
+excluded from Prettier because it is generated deterministically by Python.
+Publish OBD's `htmlPages/OET/Downloads/` folder through the normal OBD hosting
+process before deploying changed links here.
+
 # Startup details
 
 ## Start front end
