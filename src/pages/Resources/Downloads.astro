@@ -57,145 +57,138 @@ import MainPageContent from '../../components/MainPageContent.astro';
         <Page
             ><MainPageContent>
                 <h1>Downloads</h1>
-                <h1 id="pdfs">PDFs</h1>
+                <h2 id="pdfs">PDFs for reading and printing</h2>
                 <p>
-                    Download the Open English Translation in OET book order:
-                    choose the parallel Readers’ and Literal Versions, or the
-                    Readers’ Version alone with a full-width introduction and
-                    two-column Bible text. These are translation drafts ({
-                        catalogue.draft_version
-                    }), hosted on Freely-Given.org/OBD.
+                    Take the Open English Translation with you: save a book to
+                    your device, read a whole collection offline, or print a
+                    copy to share. Start with the Readers’ Version for everyday
+                    reading, or choose the parallel edition to explore the
+                    Literal Version alongside it.
                 </p>
-                <p>
-                    <strong>Print</strong> PDFs use black-and-white text and full
-                    web addresses, with B5, A4 and Letter paper choices. <strong
-                        >Online</strong
-                    > PDFs use B5 pages, colour and live links. All PDFs have clickable
-                    links. For printing, use actual size, double-sided, with long-edge
-                    binding.
-                </p>
-                <p>
-                    Deuterocanonical and other books include early drafts. In
-                    parallel editions, the versions are paired by chapter; their
-                    verses and lines do not necessarily correspond. Missing
-                    versions are identified in those PDFs. Readers’ Version
-                    downloads include only books available in that version.
-                </p>
-                <nav aria-label="PDF editions" class="edition-links">
-                    {
-                        editions.map((edition) => (
-                            <a href={`#${edition.id}`}>{edition.label}</a>
-                        ))
-                    }
+                <nav aria-label="Choose a PDF edition" class="edition-links">
+                    <a href="#OET-RV">
+                        <strong>Read the Readers’ Version</strong>
+                        <span
+                            >Natural English, with a familiar two-column layout.</span
+                        >
+                    </a>
+                    <a href="#OET">
+                        <strong>Explore the parallel edition</strong>
+                        <span
+                            >Read the RV and consult the smaller LV beside it.</span
+                        >
+                    </a>
                 </nav>
+                <p class="download-note">
+                    These are draft {catalogue.draft_version} PDFs in OET book order.
+                    The colour B5 files suit screen reading; the black-and-white print
+                    files come in B5, A4 and Letter. All links are clickable, and
+                    print copies show full web addresses. For paper copies, print
+                    at actual size on both sides, with long-edge binding.
+                </p>
+                <p class="download-note">
+                    Downloads are served by <a
+                        href="https://Freely-Given.org/OBD/OET/Downloads/index.htm#Top"
+                        >Open Bible Data</a
+                    >. The deuterocanonical and other books are early drafts:
+                    parallel editions pair them by chapter, so their verses and
+                    lines may differ. Each PDF notes any unavailable version;
+                    RV-only downloads contain the books available in the RV.
+                </p>
                 {
                     editions.map((edition) => (
                         <section class="pdf-edition" id={edition.id}>
-                            <h2>
-                                {edition.label} ({edition.id})
-                            </h2>
+                            <h2>{edition.label}</h2>
+                            <p class="edition-description">
+                                {edition.id === 'OET-RV'
+                                    ? 'An uninterrupted English reading experience, with introductions and notes.'
+                                    : 'Two complementary translations, with matched sections to help you compare as you read.'}
+                            </p>
                             {edition.sections.map((section) => {
                                 const Wrapper = section.expandable
                                     ? 'details'
                                     : 'div';
                                 return (
                                     <Wrapper>
-                                        {section.expandable && (
+                                        {section.expandable ? (
                                             <summary>
-                                                {section.title} (
-                                                {section.books.length} books)
+                                                {section.title} ·{' '}
+                                                {section.books.length} books
                                             </summary>
+                                        ) : (
+                                            <h3>Choose a collection</h3>
                                         )}
-                                        <div class="pdf-table-wrap">
-                                            <table class="pdf-table">
-                                                <caption>
-                                                    {section.title}
-                                                </caption>
-                                                <thead>
-                                                    <tr>
-                                                        <th scope="col">
-                                                            Title
-                                                        </th>
-                                                        <th scope="col">
-                                                            Print
-                                                        </th>
-                                                        <th scope="col">
-                                                            Online
-                                                        </th>
-                                                    </tr>
-                                                </thead>
-                                                <tbody>
-                                                    {section.books.map(
-                                                        (entry) => (
-                                                            <tr>
-                                                                <th scope="row">
-                                                                    {displayTitle(
-                                                                        entry,
+                                        <ul class="download-cards">
+                                            {section.books.map((entry) => (
+                                                <li class="download-card">
+                                                    <h4>
+                                                        {displayTitle(entry)}
+                                                    </h4>
+                                                    {(
+                                                        [
+                                                            'screen',
+                                                            'print',
+                                                        ] as const
+                                                    ).map((medium) => (
+                                                        <div class="download-format">
+                                                            <p class="format-label">
+                                                                {medium ===
+                                                                'screen'
+                                                                    ? 'Read on screen'
+                                                                    : 'Print a copy'}
+                                                            </p>
+                                                            <div class="file-options">
+                                                                {entry.files
+                                                                    .filter(
+                                                                        (
+                                                                            file,
+                                                                        ) =>
+                                                                            file.medium ===
+                                                                            medium,
+                                                                    )
+                                                                    .map(
+                                                                        (
+                                                                            file,
+                                                                        ) => (
+                                                                            <div class="pdf-choice">
+                                                                                <a
+                                                                                    class={`download-link ${medium}`}
+                                                                                    href={
+                                                                                        file.url
+                                                                                    }
+                                                                                    aria-label={`${displayTitle(entry)} — ${edition.label} — ${medium === 'print' ? 'Print' : 'Online'} ${file.paper_size} PDF`}
+                                                                                >
+                                                                                    {
+                                                                                        file.paper_size
+                                                                                    }{' '}
+                                                                                    PDF
+                                                                                </a>
+                                                                                <small>
+                                                                                    {size(
+                                                                                        file,
+                                                                                    )}{' '}
+                                                                                    ·{' '}
+                                                                                    {file.pages.toLocaleString(
+                                                                                        'en',
+                                                                                    )}{' '}
+                                                                                    pages
+                                                                                </small>
+                                                                            </div>
+                                                                        ),
                                                                     )}
-                                                                </th>
-                                                                {(
-                                                                    [
-                                                                        'print',
-                                                                        'screen',
-                                                                    ] as const
-                                                                ).map(
-                                                                    (
-                                                                        medium,
-                                                                    ) => (
-                                                                        <td>
-                                                                            {entry.files
-                                                                                .filter(
-                                                                                    (
-                                                                                        file,
-                                                                                    ) =>
-                                                                                        file.medium ===
-                                                                                        medium,
-                                                                                )
-                                                                                .map(
-                                                                                    (
-                                                                                        file,
-                                                                                    ) => (
-                                                                                        <div class="pdf-choice">
-                                                                                            <a
-                                                                                                href={
-                                                                                                    file.url
-                                                                                                }
-                                                                                                aria-label={`${displayTitle(entry)} — ${edition.label} — ${medium === 'print' ? 'Print' : 'Online'} ${file.paper_size} PDF`}
-                                                                                            >
-                                                                                                {
-                                                                                                    file.paper_size
-                                                                                                }{' '}
-                                                                                                PDF
-                                                                                            </a>
-                                                                                            <small>
-                                                                                                {size(
-                                                                                                    file,
-                                                                                                )}{' '}
-                                                                                                ·{' '}
-                                                                                                {file.pages.toLocaleString(
-                                                                                                    'en',
-                                                                                                )}{' '}
-                                                                                                pages
-                                                                                            </small>
-                                                                                        </div>
-                                                                                    ),
-                                                                                )}
-                                                                        </td>
-                                                                    ),
-                                                                )}
-                                                            </tr>
-                                                        ),
-                                                    )}
-                                                </tbody>
-                                            </table>
-                                        </div>
+                                                            </div>
+                                                        </div>
+                                                    ))}
+                                                </li>
+                                            ))}
+                                        </ul>
                                     </Wrapper>
                                 );
                             })}
                         </section>
                     ))
                 }
-                <h1 id="paratext">Paratext backups</h1>
+                <h2 id="paratext">Paratext backups</h2>
                 <p>
                     The <a href="https://paratext.org/"
                         >UBS/SIL Paratext Bible editor</a
@@ -224,7 +217,7 @@ import MainPageContent from '../../components/MainPageContent.astro';
                         >
                     </li>
                 </ul>
-                <h1 id="source">Source files</h1>
+                <h2 id="source">Source files</h2>
                 <p>
                     The in-progress source files of the <em>OET</em> are <a
                         href="https://github.com/Freely-Given-org/ESFM">ESFM</a
@@ -257,54 +250,111 @@ import MainPageContent from '../../components/MainPageContent.astro';
         width: 100%;
         min-width: 0;
     }
-    .pdf-table-wrap {
-        overflow-x: auto;
+    .edition-links {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 1rem;
+        margin: 1.5rem 0;
     }
-    .pdf-table {
-        width: 100%;
-        border-collapse: collapse;
-        margin: 1rem 0;
+    .edition-links a {
+        display: block;
+        border-left: 4px solid var(--accent-orange);
+        background: #faf6ed;
+        padding: 1rem 1.2rem;
+        text-decoration: none;
     }
-    .pdf-table caption {
-        text-align: left;
+    .edition-links strong,
+    .edition-links span {
+        display: block;
+    }
+    .edition-links span {
+        margin-top: 0.4rem;
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1.5;
+    }
+    .pdf-edition {
+        margin: 3rem 0;
+        scroll-margin-top: 1rem;
+    }
+    .pdf-edition .edition-description,
+    .main .download-note {
+        font-size: 1rem;
+        line-height: 1.5;
+    }
+    .pdf-edition .download-cards {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 1rem;
+        list-style: none;
+        margin: 1rem 0 1.5rem;
+        padding: 0;
+    }
+    .download-card {
+        border: 1px solid #ddd5c7;
+        border-radius: 0.5rem;
+        padding: 1.2rem;
+        background: #fffdf8;
+        min-width: 0;
+    }
+    .download-card h4 {
+        margin: 0 0 1rem;
+        font-size: 1.15rem;
+        line-height: 1.4;
+    }
+    .download-format + .download-format {
+        margin-top: 1rem;
+        border-top: 1px solid #e8e1d5;
+        padding-top: 0.8rem;
+    }
+    .download-card .format-label {
+        margin: 0 0 0.6rem;
+        font-size: 0.85rem;
         font-weight: 600;
-        padding: 1rem 0;
-        font-size: 1.2rem;
     }
-    .pdf-table th,
-    .pdf-table td {
-        padding: 0.7rem 0.5rem;
-        text-align: left;
-        border-bottom: 1px solid #d5dce0;
-        vertical-align: top;
-    }
-    .pdf-table th:first-child {
-        width: 42%;
-    }
-    .pdf-table tbody th {
-        font-weight: 500;
+    .file-options {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.8rem;
     }
     .pdf-choice {
-        margin-bottom: 0.8rem;
+        flex: 1 1 6.5rem;
+    }
+    .pdf-edition .download-link {
+        display: inline-block;
+        border: 1px solid var(--medium-blue);
+        border-radius: 0.3rem;
+        padding: 0.4rem 0.65rem;
+        text-decoration: none;
+        font-size: 0.95rem;
+    }
+    .pdf-edition .download-link.screen {
+        color: white;
+        background: var(--medium-blue);
+    }
+    .pdf-edition .download-link:hover {
+        outline: 2px solid var(--accent-orange);
+        outline-offset: 2px;
     }
     .pdf-choice small {
         display: block;
-        margin-top: 0.2rem;
-    }
-    .pdf-edition {
-        margin-top: 2.5rem;
+        margin-top: 0.4rem;
+        font-size: 0.8rem;
+        line-height: 1.4;
     }
     .pdf-edition details {
-        margin: 1rem 0;
+        border-top: 1px solid #ddd5c7;
+        padding: 0.5rem 0;
     }
     .pdf-edition summary {
         cursor: pointer;
         font-weight: 600;
-        padding: 0.5rem 0;
+        padding: 0.7rem 0;
     }
-    .edition-links {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 1rem;
+    @media (max-width: 680px) {
+        .edition-links,
+        .pdf-edition .download-cards {
+            grid-template-columns: 1fr;
+        }
     }
 </style>

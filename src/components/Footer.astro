@@ -1,5 +1,12 @@
 ---
 import WhiteLogo from './WhiteLogo.astro';
+const builtAt = new Date();
+const buildDate = new Intl.DateTimeFormat('en-NZ', {
+    timeZone: 'Pacific/Auckland',
+    day: 'numeric',
+    month: 'short',
+    year: 'numeric',
+}).format(builtAt);
 ---
 
 <div class="footer">
@@ -107,7 +114,11 @@ import WhiteLogo from './WhiteLogo.astro';
                     >Freely-Given.org</a
                 >
             </span>
-            <span class="buildnote">(Site last built: 6 Nov 2026)</span>
+            <span class="buildnote"
+                >(Site last built: <time datetime={builtAt.toISOString()}
+                    >{buildDate}</time
+                >)</span
+            >
         </div>
     </div>
 </div>
