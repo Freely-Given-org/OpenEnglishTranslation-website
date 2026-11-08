@@ -1,4 +1,9 @@
 // @ts-check
 import { defineConfig } from 'astro/config';
+import sitemap from '@astrojs/sitemap';
 
-export default defineConfig({});
+export default defineConfig({
+    site: 'https://openenglishtranslation.bible/',
+    trailingSlash: 'always',
+    integrations: [sitemap()],
+});

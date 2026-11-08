@@ -5,18 +5,32 @@ import SecondaryButton from './SecondaryButton.astro';
 
 <div class="hero">
     <div class="hero-inner">
-        <div>
-            <small class="full-name">The Open English Translation</small>
-            <h1>
+        <div class="copy">
+            <h1>Open English Translation (OET)</h1>
+            <p class="introduction">
+                Read a freely licensed Bible translation with a modern-English{
+                    ' '
+                }
+                <strong>Readers’ Version</strong> alongside a <strong
+                    >Literal Version</strong
+                > that helps you explore the original Hebrew, Aramaic, and Greek.
+            </p>
+            <p class="tagline">
                 A new, exciting, radical, freely-licensed Bible translation for
                 the 2030s.
-            </h1>
+            </p>
             <div class="buttons">
                 <PrimaryButton href="/Reader">Read the OET</PrimaryButton>
                 <SecondaryButton href="/Intro/Overview"
                     >Learn about the OET</SecondaryButton
                 >
             </div>
+            <p class="status">
+                The OET is an unfinished draft undergoing consistency and
+                accuracy checks. <a href="/About/Status"
+                    >See the current status</a
+                >.
+            </p>
         </div>
         <img
             class="image"
@@ -31,8 +45,6 @@ import SecondaryButton from './SecondaryButton.astro';
         display: flex;
         width: 100%;
         background-color: var(--accent-orange-light);
-        max-height: 100%;
-        overflow: hidden;
     }
 
     .hero-inner {
@@ -47,9 +59,13 @@ import SecondaryButton from './SecondaryButton.astro';
         width: 100%;
     }
 
+    .copy {
+        flex: 1;
+        min-width: 0;
+    }
+
     h1 {
         margin: 0;
-        margin-top: 0.4rem;
         font-size: 2.5rem;
         line-height: 3.1rem;
         letter-spacing: -0.006rem;
@@ -57,11 +73,21 @@ import SecondaryButton from './SecondaryButton.astro';
         color: var(--medium-blue);
     }
 
-    .full-name {
-        color: var(--medium-blue);
-        text-transform: uppercase;
-        font-weight: 600;
-        letter-spacing: 0.5px;
+    .introduction {
+        margin: 1rem 0;
+        font-size: 1.125rem;
+        line-height: 1.6;
+    }
+
+    .tagline {
+        margin: 1rem 0;
+        line-height: 1.5;
+    }
+
+    .status {
+        margin: 1rem 0 0;
+        font-size: 0.95rem;
+        line-height: 1.5;
     }
 
     .buttons {
@@ -78,17 +104,19 @@ import SecondaryButton from './SecondaryButton.astro';
     }
 
     @media (min-width: 767px) {
-        .hero {
-            max-height: 24rem;
-        }
-
         .hero-inner {
             flex-direction: row;
+            align-items: center;
             text-align: left;
         }
 
         .buttons {
             flex-direction: row;
+            flex-wrap: wrap;
+        }
+
+        .image {
+            width: 42%;
         }
     }
 </style>
