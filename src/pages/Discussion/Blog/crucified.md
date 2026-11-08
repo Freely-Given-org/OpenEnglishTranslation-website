@@ -19,17 +19,17 @@ source: 'docs/DisplayPages.A4.F4.with_intro_and_ISV.34p.odt'
 
 <p>As well as a single wooden post, it’s certainly possible for the word ‘crucified’ to mean that there was <strong>a cross-bar at the top (T-style)</strong> or <strong>part-way up (<span class="dagger-t">&dagger;</span>-style)</strong> or <strong>X-style</strong>, <strong>but the Bible doesn’t state that</strong>. (The Romans used several styles at their whim, including executing people upside-down.)</p>
 
-<p>However, it should be noted that in Yeshua’s (Jesus’) case, <a href="https://Freely-Given.org/OBD/rel/JHN/JHN_S71.htm#V19">all four writers</a> who documented the crucifixion tell us that sign was placed above his head, so that seems to rule out the T-style and X-style in his case.</p>
+<p>However, it should be noted that in Yeshua’s (Jesus’) case, <a href="https://Freely-Given.org/OBD/rel/JHN/JHN_S71.htm#V19">all four writers</a> who documented the crucifixion tell us that sign was placed above his head, so that seems to rule out the X-style in his case, and possibly make the T-style less likely. (A small upright stick could have been attached at the back of the post to hold the sign.)</p>
 
 <p>Yeshua/Jesus himself (and then Shim’on/Simon from Kurainai/Cyrene) was <a href="https://Freely-Given.org/OBD/rel/JHN/JHN_S71.htm#V17">forced to carry the post</a> (or possibly just part of it, although if the word same Greek word ‘<a href="https://Freely-Given.org/OBD/ref/GrkLem/stauros.htm#Top">σταυρός</a>’ being ‘stauros’=‘stake/post’ was somehow being used here for a cross-beam, that would also raise questions about how it was then attached to the main post at the execution site).</p>
 
 <p>None of those four accounts mention nails, but Yohan/John does mention them later when Toma/Thomas asks to <a href="https://Freely-Given.org/OBD/rel/JHN/JHN_S78.htm#Top">see the marks from the nails</a>. (Luke also tells them to <a href="https://Freely-Given.org/OBD/rel/LUK/LUK_S155.htm#C24V39">Look at my hands and feet</a> which would probably also suggest nailing rather than rope-burns.) Paul also wrote about <a href="https://Freely-Given.org/OBD/OET/bySec/COL_S6.htm#V14">nailing</a>. Some suggest that since Yohan/John used the plural ‘nails’, then that leans towards the <span class="dagger-t">&dagger;</span>-style cross (although nothing would have prevented two nails being used for the hands even on a single post.</p>
 
-<p>So the <em>Open English Translation</em> uses the wordy ‘<strong>executed on a tall wooden post</strong>’ to suggest a single pole/stake, yet also allow for the traditionally accepted <span class="dagger-t">&dagger;</span>-style possibility.</p>
+<p>So the <em>Open English Translation</em> uses the wordy ‘<strong>executed on a tall post</strong>’ to suggest a single pole/stake, yet also allow for the traditionally accepted <span class="dagger-t">&dagger;</span>-style possibility.</p>
 
 <figure class="narrow-figure"><a href="/assets/essays/execution-on-a-stake.jpg"><span class="cropped-image" style="aspect-ratio: 1.7402 / 3.0228"><img src="/assets/essays/execution-on-a-stake.jpg" alt="Historical illustration of a person being executed on an upright stake." loading="lazy" style="position: absolute; width: 118.92064%; max-width: none; left: -7.71438%; top: 0.00000%" /></span></a></figure>
 
-<p>Anyway, hopefully that nice silver cross hanging around your neck on a chain could well be the correct torture instrument. 60-40 perhaps???</p>
+<p>Anyway, hopefully that nice silver cross hanging around your neck on a chain could well be the correct torture instrument. 50-50 perhaps, or maybe 60-40???</p>
 
 <p>The <strong><em>Open English Translation</em></strong> seeks accuracy over tradition for a new generation of truth seekers.</p>
 
