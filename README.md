@@ -40,6 +40,25 @@ excluded from Prettier because it is generated deterministically by Python.
 Publish OBD's `htmlPages/OET/Downloads/` folder through the normal OBD hosting
 process before deploying changed links here.
 
+## Search identity and discovery
+
+`astro.config.mjs` sets `https://openenglishtranslation.bible/` as the public
+site address. The shared `Base.astro` layout uses it for canonical URLs and
+social-sharing metadata. The homepage also declares the site name as
+**Open English Translation**, with **OET** as its alternate name, using
+`WebSite` structured data. The 404 page is marked `noindex` and has no canonical.
+
+The official `@astrojs/sitemap` integration generates `dist/sitemap-index.xml`
+and its child sitemap during each build, including new pages automatically and
+excluding the error page. `src/pages/robots.txt.ts` generates a static
+`dist/robots.txt` that advertises the sitemap using the same configured address.
+Publish these files with the rest of `dist/`; do not edit generated files.
+
+After deployment, verify the public sitemap and submit
+`https://openenglishtranslation.bible/sitemap-index.xml` in Google Search
+Console. The separate OBD reader remains at
+`https://freely-given.org/OBD/OET/` with its own canonical URL.
+
 # Startup details
 
 ## Start front end

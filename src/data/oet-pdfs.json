@@ -71,8 +71,8 @@
           "files": [
             {
               "filename": "OET-OT-oet.B5.print.pdf",
-              "bytes": 33310921,
-              "sha256": "7fe118a303f379da0a5ec99dbc0b10dccc4d9f0b0084d1c4ece422cc3afee03b",
+              "bytes": 33310898,
+              "sha256": "fa736cff07686efee4de6d7d2f9f841ecc8f3989e13eac44ad79034d077050d0",
               "pages": 2152,
               "draft_version": "v0.48.95",
               "url": "https://Freely-Given.org/OBD/OET/Downloads/OET-OT-oet.B5.print.pdf",
@@ -81,8 +81,8 @@
             },
             {
               "filename": "OET-OT-oet.A4.print.pdf",
-              "bytes": 32282356,
-              "sha256": "79c7d53f98a2ede459873ddb94eed2b95c94994c92cf29b36bbb0b4e6bcd1076",
+              "bytes": 32282339,
+              "sha256": "1299022145c0b4b9dbbbd01cfaff7fd5035cbfa8ccf73b100430dd2f22424304",
               "pages": 1466,
               "draft_version": "v0.48.95",
               "url": "https://Freely-Given.org/OBD/OET/Downloads/OET-OT-oet.A4.print.pdf",
@@ -91,8 +91,8 @@
             },
             {
               "filename": "OET-OT-oet.Letter.print.pdf",
-              "bytes": 32384602,
-              "sha256": "2e4bcfe7b33d096cedfc19ae7eaaf29653f393fafe7be9e7be84e67997abcac3",
+              "bytes": 32384583,
+              "sha256": "91d65305776da07fff529e49a6963357b7375bdd5e0588682058204fab5e165d",
               "pages": 1533,
               "draft_version": "v0.48.95",
               "url": "https://Freely-Given.org/OBD/OET/Downloads/OET-OT-oet.Letter.print.pdf",
@@ -101,8 +101,8 @@
             },
             {
               "filename": "OET-OT-oet.B5.screen.pdf",
-              "bytes": 33886074,
-              "sha256": "6bb2d6d84b4c7aeae5c0f7d68312aa7fd3a72852c721ac58b53cc362dbf4424e",
+              "bytes": 33886055,
+              "sha256": "9e5b453a2eb5aa822f869c3b6135bbd5bc7f06c4f7b1cea1efa95c0d425f55c5",
               "pages": 2151,
               "draft_version": "v0.48.95",
               "url": "https://Freely-Given.org/OBD/OET/Downloads/OET-OT-oet.B5.screen.pdf",
@@ -148,8 +148,8 @@
           "files": [
             {
               "filename": "OET-NT-oet.B5.print.pdf",
-              "bytes": 11853373,
-              "sha256": "71fadbe2fb30ca154d0a96ec5dd82d12d8be522b3eaafbc174b26aa76f123335",
+              "bytes": 11853710,
+              "sha256": "96884b3bcb9caa86dffa7065657144880b30fa5151a1de0bb461967573aedec8",
               "pages": 656,
               "draft_version": "v0.48.95",
               "url": "https://Freely-Given.org/OBD/OET/Downloads/OET-NT-oet.B5.print.pdf",
@@ -158,8 +158,8 @@
             },
             {
               "filename": "OET-NT-oet.A4.print.pdf",
-              "bytes": 11559832,
-              "sha256": "023e19b23ee1001ee7e279cf00c816d5f3dae986a08c2b62e35f9bd8ed21e3a1",
+              "bytes": 11560165,
+              "sha256": "fd3a6fab16747591084f6f50a1308a4ec91841ab96c0b32fd7b0f527b6bc35a3",
               "pages": 454,
               "draft_version": "v0.48.95",
               "url": "https://Freely-Given.org/OBD/OET/Downloads/OET-NT-oet.A4.print.pdf",
@@ -168,8 +168,8 @@
             },
             {
               "filename": "OET-NT-oet.Letter.print.pdf",
-              "bytes": 11583783,
-              "sha256": "f1ce4d752fe99010ae5c998269a26eed00a0571d1e4dc7457e8e976502c8b709",
+              "bytes": 11584281,
+              "sha256": "0481d92d969fd3041755dca970b689a5ef6ad6507c29d1bc10c2404a07c7b7e3",
               "pages": 473,
               "draft_version": "v0.48.95",
               "url": "https://Freely-Given.org/OBD/OET/Downloads/OET-NT-oet.Letter.print.pdf",
@@ -178,8 +178,8 @@
             },
             {
               "filename": "OET-NT-oet.B5.screen.pdf",
-              "bytes": 12218309,
-              "sha256": "7ddeba88be8e764e4faf99a43e2637c02c4e8dcd7353dd35fe6578ce67ee27cd",
+              "bytes": 12218619,
+              "sha256": "ab39a32a8e01ad4528061eff90f1ce0afbc783c324467a47141d84c85f36a77f",
               "pages": 656,
               "draft_version": "v0.48.95",
               "url": "https://Freely-Given.org/OBD/OET/Downloads/OET-NT-oet.B5.screen.pdf",
@@ -216,8 +216,8 @@
           "files": [
             {
               "filename": "OET-DC-oet.B5.print.pdf",
-              "bytes": 10080925,
-              "sha256": "78c7099e9f8aecdfa4091ff8137abedec899610383436c9b445a4378efe43914",
+              "bytes": 10080904,
+              "sha256": "37e70cb530240e0a47d3a4a1151581f435912225c064529b93b8feb382fefb41",
               "pages": 712,
               "draft_version": "v0.48.95",
               "url": "https://Freely-Given.org/OBD/OET/Downloads/OET-DC-oet.B5.print.pdf",
@@ -226,8 +226,8 @@
             },
             {
               "filename": "OET-DC-oet.A4.print.pdf",
-              "bytes": 9768929,
-              "sha256": "292f47d951f4d493c5cff9cc95eb439969108124315583fe3d95fdb5003f5bab",
+              "bytes": 9768912,
+              "sha256": "6bd97ce146f8a8d8a5718e56dc094c235d2a2310b97ae2a161489f2e60831c7f",
               "pages": 479,
               "draft_version": "v0.48.95",
               "url": "https://Freely-Given.org/OBD/OET/Downloads/OET-DC-oet.A4.print.pdf",
@@ -236,8 +236,8 @@
             },
             {
               "filename": "OET-DC-oet.Letter.print.pdf",
-              "bytes": 9800249,
-              "sha256": "126ccf514e93a8264e271351e12ae19e361b07dc1edb23c67bc724861967d1dc",
+              "bytes": 9800232,
+              "sha256": "4009189fb2412c0b928f8806aab74c7ceb16f5ea2f941c6344bfc422ab0995f3",
               "pages": 501,
               "draft_version": "v0.48.95",
               "url": "https://Freely-Given.org/OBD/OET/Downloads/OET-DC-oet.Letter.print.pdf",
@@ -246,8 +246,8 @@
             },
             {
               "filename": "OET-DC-oet.B5.screen.pdf",
-              "bytes": 10269313,
-              "sha256": "145b077fc04115c3e29c2d77772ac0299875126537568ecff636a58c45758b13",
+              "bytes": 10269292,
+              "sha256": "f90ffe470e51758ce653f53b38b893db3265a6e30e49588aa108f9f9bab22035",
               "pages": 712,
               "draft_version": "v0.48.95",
               "url": "https://Freely-Given.org/OBD/OET/Downloads/OET-DC-oet.B5.screen.pdf",
@@ -350,8 +350,8 @@
           "files": [
             {
               "filename": "OET-ALL-oet.B5.print.pdf",
-              "bytes": 54866136,
-              "sha256": "12685c07df509fbf99f5c1309fcc9723b6e25f206fea6f859b6645575ac4eba3",
+              "bytes": 54866472,
+              "sha256": "52a4ce5dda4c1557eabab4cd728baa01d2b8928fb8b3f977ac4cb96b82d01d57",
               "pages": 3502,
               "draft_version": "v0.48.95",
               "url": "https://Freely-Given.org/OBD/OET/Downloads/OET-ALL-oet.B5.print.pdf",
@@ -360,8 +360,8 @@
             },
             {
               "filename": "OET-ALL-oet.A4.print.pdf",
-              "bytes": 53227188,
-              "sha256": "8adf1c9248487a4bd027165dd1100f7505c9289e12c04fcdd1e9acd7ee2ae2e1",
+              "bytes": 53227490,
+              "sha256": "e4e4c26d004ad82fc1cb5e83bdc5907cb5b65627162cef4c046eafc525fd8950",
               "pages": 2383,
               "draft_version": "v0.48.95",
               "url": "https://Freely-Given.org/OBD/OET/Downloads/OET-ALL-oet.A4.print.pdf",
@@ -370,8 +370,8 @@
             },
             {
               "filename": "OET-ALL-oet.Letter.print.pdf",
-              "bytes": 53385515,
-              "sha256": "6b0085fccea42a3e1bd37dd7c8e36047316a4744e44ebf0553693d5c56cb2eca",
+              "bytes": 53386016,
+              "sha256": "b2d4384e19c497e832bccf4cd57d41ed57180da2d0a00de2301eb069489f8d8e",
               "pages": 2491,
               "draft_version": "v0.48.95",
               "url": "https://Freely-Given.org/OBD/OET/Downloads/OET-ALL-oet.Letter.print.pdf",
@@ -380,8 +380,8 @@
             },
             {
               "filename": "OET-ALL-oet.B5.screen.pdf",
-              "bytes": 55970158,
-              "sha256": "e2ef3d2ac50b4315ee156c4f4913612ce9a52460b6a2b5d3b6a0d76389920b63",
+              "bytes": 55970472,
+              "sha256": "8b143df26c5455a38320340a675c12b412b8a4798e5c1d19dbe8b5fa11908e21",
               "pages": 3501,
               "draft_version": "v0.48.95",
               "url": "https://Freely-Given.org/OBD/OET/Downloads/OET-ALL-oet.B5.screen.pdf",
@@ -3257,8 +3257,8 @@
           "files": [
             {
               "filename": "OET-JHN.B5.print.pdf",
-              "bytes": 1083285,
-              "sha256": "dc1e9d5177500bb4e705da2fe18ed8f2bc2a92a33f5404e7dee648ec620ba8a7",
+              "bytes": 1082997,
+              "sha256": "e64ffebc48fae69338925e519727a1d1ed39a26bccfb20a0f5cc1e39353ae574",
               "pages": 64,
               "draft_version": "v0.48.95",
               "url": "https://Freely-Given.org/OBD/OET/Downloads/OET-JHN.B5.print.pdf",
@@ -3267,8 +3267,8 @@
             },
             {
               "filename": "OET-JHN.A4.print.pdf",
-              "bytes": 1065904,
-              "sha256": "bd22f9dd5d8dcba266f8bb5420fd8466537037ec06dbe42e239efd3431247bab",
+              "bytes": 1065626,
+              "sha256": "296036229afa604d5a8b4c51e4634c06c9566e1be3f649c534d5042a495fb28b",
               "pages": 43,
               "draft_version": "v0.48.95",
               "url": "https://Freely-Given.org/OBD/OET/Downloads/OET-JHN.A4.print.pdf",
@@ -3277,8 +3277,8 @@
             },
             {
               "filename": "OET-JHN.Letter.print.pdf",
-              "bytes": 1068712,
-              "sha256": "0f5f9249336186b5fb224cb6f0f57f059b15f82a0586920e859727a0710a51b8",
+              "bytes": 1068457,
+              "sha256": "56a6881974d58e45e5d0ea224b99084400ef2494f3640cd5a1de6a857130f608",
               "pages": 45,
               "draft_version": "v0.48.95",
               "url": "https://Freely-Given.org/OBD/OET/Downloads/OET-JHN.Letter.print.pdf",
@@ -3287,8 +3287,8 @@
             },
             {
               "filename": "OET-JHN.B5.screen.pdf",
-              "bytes": 1142269,
-              "sha256": "5a84e959cd2c5022fdbe98af9513ba5737ac2d573bc91b831153c6e33744eef4",
+              "bytes": 1141961,
+              "sha256": "f9b7379a1becc474d273cff14eb0e8643b7fc50740a621dc3667c541ab6d6e5a",
               "pages": 64,
               "draft_version": "v0.48.95",
               "url": "https://Freely-Given.org/OBD/OET/Downloads/OET-JHN.B5.screen.pdf",
@@ -3359,8 +3359,8 @@
           "files": [
             {
               "filename": "OET-MAT.B5.print.pdf",
-              "bytes": 1347666,
-              "sha256": "cd035ede2afa6a2dc86556e5c97c8a86bc561c2a3c09da291f4b2d07c1b46ca7",
+              "bytes": 1348011,
+              "sha256": "7ce125bc940430034e5c9b25fead905239e6221585fb17280efde8ae7bbe44e8",
               "pages": 85,
               "draft_version": "v0.48.95",
               "url": "https://Freely-Given.org/OBD/OET/Downloads/OET-MAT.B5.print.pdf",
@@ -3369,8 +3369,8 @@
             },
             {
               "filename": "OET-MAT.A4.print.pdf",
-              "bytes": 1322982,
-              "sha256": "7a7f063e28e5ad946ec02c05ff8d9e8cff54170327a104a12fe370cb265287cd",
+              "bytes": 1323283,
+              "sha256": "b4de1e4288786b599e5ca10e96ee1be3cc301cf7f85e797d7713638391aebd51",
               "pages": 58,
               "draft_version": "v0.48.95",
               "url": "https://Freely-Given.org/OBD/OET/Downloads/OET-MAT.A4.print.pdf",
@@ -3379,8 +3379,8 @@
             },
             {
               "filename": "OET-MAT.Letter.print.pdf",
-              "bytes": 1326378,
-              "sha256": "f1d1feb874977640548d6891253e653cf7f656664e491ddc08a800a9ba2a5979",
+              "bytes": 1326754,
+              "sha256": "6daf36ae354ccfb8430c4f90403ce8651bc6ad2e3f7d16c9e4bdbd05e88382e4",
               "pages": 62,
               "draft_version": "v0.48.95",
               "url": "https://Freely-Given.org/OBD/OET/Downloads/OET-MAT.Letter.print.pdf",
@@ -3389,8 +3389,8 @@
             },
             {
               "filename": "OET-MAT.B5.screen.pdf",
-              "bytes": 1428361,
-              "sha256": "36b7a797727fa01d1718b18d36747fb420dab6d28d065f2b677fb2be25da5224",
+              "bytes": 1428673,
+              "sha256": "cdbbf3fc8eec39d87cad1a74d6121d9c36101173c4cb8fa3a662c688d27c5421",
               "pages": 85,
               "draft_version": "v0.48.95",
               "url": "https://Freely-Given.org/OBD/OET/Downloads/OET-MAT.B5.screen.pdf",
@@ -3461,8 +3461,8 @@
           "files": [
             {
               "filename": "OET-ACT.B5.print.pdf",
-              "bytes": 1289896,
-              "sha256": "0f4b5a828c2e636e610b5adb05bb267cf9b46ee61521dd302c8a505b13e40f4f",
+              "bytes": 1289851,
+              "sha256": "4548cc8d3b48385a179a26c957cba464e8734a2ed697e1e964b346f9cb36c536",
               "pages": 77,
               "draft_version": "v0.48.95",
               "url": "https://Freely-Given.org/OBD/OET/Downloads/OET-ACT.B5.print.pdf",
@@ -3471,8 +3471,8 @@
             },
             {
               "filename": "OET-ACT.A4.print.pdf",
-              "bytes": 1270842,
-              "sha256": "a967fb17ae9acb31ad346d7c95d3b0465cdcabf145211b1b5a891ab3e5efb9bb",
+              "bytes": 1270816,
+              "sha256": "3d6179596d896a14f983d0a4e3e5d1c1ab93df3abaea3054674f669a010c4edd",
               "pages": 51,
               "draft_version": "v0.48.95",
               "url": "https://Freely-Given.org/OBD/OET/Downloads/OET-ACT.A4.print.pdf",
@@ -3481,8 +3481,8 @@
             },
             {
               "filename": "OET-ACT.Letter.print.pdf",
-              "bytes": 1273853,
-              "sha256": "e017488487cacae0dc2c90d36390937d31e93dfdab1ac02676b9454130bafca6",
+              "bytes": 1273877,
+              "sha256": "7406ec8f64a3a5e6cd6f3a3f8b59f53dbc602cacae56efe489c2635ebcb88672",
               "pages": 55,
               "draft_version": "v0.48.95",
               "url": "https://Freely-Given.org/OBD/OET/Downloads/OET-ACT.Letter.print.pdf",
@@ -3491,8 +3491,8 @@
             },
             {
               "filename": "OET-ACT.B5.screen.pdf",
-              "bytes": 1321002,
-              "sha256": "5baa35b821d5aeaa6f72adb3f1927c7fd5d6cabee4e14814247f8d6695200f65",
+              "bytes": 1320962,
+              "sha256": "fecb60b733f62ac25bb238197b903fe73f740dd2bf74d8427a3848169e698f7c",
               "pages": 77,
               "draft_version": "v0.48.95",
               "url": "https://Freely-Given.org/OBD/OET/Downloads/OET-ACT.B5.screen.pdf",
@@ -4729,8 +4729,8 @@
           "files": [
             {
               "filename": "OET-RV-OT-oet.B5.print.pdf",
-              "bytes": 16299984,
-              "sha256": "29b7d47669ba41232941335a87bc3afe062c0f39c40002421c2135b6e2351ca3",
+              "bytes": 16299963,
+              "sha256": "420d88284a3d72921b0e8fa424d732553d3884c6e0d7c4f884ab8dc67b846580",
               "pages": 1035,
               "draft_version": "v0.48.95",
               "url": "https://Freely-Given.org/OBD/OET/Downloads/OET-RV-OT-oet.B5.print.pdf",
@@ -4739,8 +4739,8 @@
             },
             {
               "filename": "OET-RV-OT-oet.A4.print.pdf",
-              "bytes": 15828925,
-              "sha256": "404415f886d18bf2e8c55c8d0148ef0c5131a6fca377cf5bce059e5909987535",
+              "bytes": 15828908,
+              "sha256": "65cb66203e11e810e507ea7b19cf284ab7f72105252041ab9f82bbb41aacf759",
               "pages": 717,
               "draft_version": "v0.48.95",
               "url": "https://Freely-Given.org/OBD/OET/Downloads/OET-RV-OT-oet.A4.print.pdf",
@@ -4749,8 +4749,8 @@
             },
             {
               "filename": "OET-RV-OT-oet.Letter.print.pdf",
-              "bytes": 15865411,
-              "sha256": "e90ddd9600e6e0817ca5d77c61b96cf18511b631ad272d4bd89e8e1f9591c4cb",
+              "bytes": 15865396,
+              "sha256": "b7c26b4dff54ef5d60bf02a3c36e6b1b771478195a840557498b5eedfe4d2a5e",
               "pages": 748,
               "draft_version": "v0.48.95",
               "url": "https://Freely-Given.org/OBD/OET/Downloads/OET-RV-OT-oet.Letter.print.pdf",
@@ -4759,8 +4759,8 @@
             },
             {
               "filename": "OET-RV-OT-oet.B5.screen.pdf",
-              "bytes": 16633013,
-              "sha256": "8cf68626d9ced10eff046692f4d127e5e7c0fc4bb27a90989f173421eec76a7f",
+              "bytes": 16632994,
+              "sha256": "209737c7254336678b2389e276e59ceeedaa4a8edd479ada885a2237ce3eebad",
               "pages": 1034,
               "draft_version": "v0.48.95",
               "url": "https://Freely-Given.org/OBD/OET/Downloads/OET-RV-OT-oet.B5.screen.pdf",
@@ -4806,8 +4806,8 @@
           "files": [
             {
               "filename": "OET-RV-NT-oet.B5.print.pdf",
-              "bytes": 7106493,
-              "sha256": "996f3c7cd4684bbe5e67dc2185f72d782da17dc90dd061e955b3afcf7a6c01dc",
+              "bytes": 7106862,
+              "sha256": "45a7876cd37fa37bd775f4c2d1feb5d44801b7da96c36168557cac03bd64f6f0",
               "pages": 385,
               "draft_version": "v0.48.95",
               "url": "https://Freely-Given.org/OBD/OET/Downloads/OET-RV-NT-oet.B5.print.pdf",
@@ -4816,8 +4816,8 @@
             },
             {
               "filename": "OET-RV-NT-oet.A4.print.pdf",
-              "bytes": 6935849,
-              "sha256": "d615284d9178e99b11add282c8155512fcd740a4bc9a1b11d630212a32ff3502",
+              "bytes": 6936120,
+              "sha256": "3620945237272ceeae8257623728bd52b59c99f1cb7550a3ef8bd526987b5787",
               "pages": 273,
               "draft_version": "v0.48.95",
               "url": "https://Freely-Given.org/OBD/OET/Downloads/OET-RV-NT-oet.A4.print.pdf",
@@ -4826,8 +4826,8 @@
             },
             {
               "filename": "OET-RV-NT-oet.Letter.print.pdf",
-              "bytes": 6954447,
-              "sha256": "ae6a4b49c3af471f115112757d34ca6ca58efa82e81a1ce36a3e8c8ddbda41b9",
+              "bytes": 6954712,
+              "sha256": "2009ce6f055929a577325df82142d603a422fa97a491bbc770513524c42dad21",
               "pages": 290,
               "draft_version": "v0.48.95",
               "url": "https://Freely-Given.org/OBD/OET/Downloads/OET-RV-NT-oet.Letter.print.pdf",
@@ -4836,8 +4836,8 @@
             },
             {
               "filename": "OET-RV-NT-oet.B5.screen.pdf",
-              "bytes": 7375985,
-              "sha256": "cd8f23eb14e13953c111ceafb5a961cca4b772bfdc6cc472896efd769155567b",
+              "bytes": 7376324,
+              "sha256": "d13443dc986e47362ceb1a5160103d5cf9e9fca4e9f2c2107a08f3aa89d2c970",
               "pages": 384,
               "draft_version": "v0.48.95",
               "url": "https://Freely-Given.org/OBD/OET/Downloads/OET-RV-NT-oet.B5.screen.pdf",
@@ -4872,8 +4872,8 @@
           "files": [
             {
               "filename": "OET-RV-DC-oet.B5.print.pdf",
-              "bytes": 4985749,
-              "sha256": "66fa5b56a24a18f0f5b27a4a47632cdc5d52f1924131805932cbbe694461f658",
+              "bytes": 4985728,
+              "sha256": "2544ef3ecf4b94788bd4a6c938d77290e7e9cb9b1c2fa467f0616d11efb964af",
               "pages": 310,
               "draft_version": "v0.48.95",
               "url": "https://Freely-Given.org/OBD/OET/Downloads/OET-RV-DC-oet.B5.print.pdf",
@@ -4882,8 +4882,8 @@
             },
             {
               "filename": "OET-RV-DC-oet.A4.print.pdf",
-              "bytes": 4856397,
-              "sha256": "046911819356bf4b8d1273ce39608a5acb5967488d8c6634cef3cbfc4c380b0b",
+              "bytes": 4856380,
+              "sha256": "032427a78fed17dd42d847ede3540ef7bb54477b8d30bbdbd95df8474d854eb5",
               "pages": 221,
               "draft_version": "v0.48.95",
               "url": "https://Freely-Given.org/OBD/OET/Downloads/OET-RV-DC-oet.A4.print.pdf",
@@ -4892,8 +4892,8 @@
             },
             {
               "filename": "OET-RV-DC-oet.Letter.print.pdf",
-              "bytes": 4864933,
-              "sha256": "17cbe2c2e0d165849f2396075edeff2cb6ae841aa152edcc710c6ef183b979e9",
+              "bytes": 4864916,
+              "sha256": "3f9fa047574f8ce4d272f7e72a2e25480ca0471200e25dc468d5892718f8470f",
               "pages": 231,
               "draft_version": "v0.48.95",
               "url": "https://Freely-Given.org/OBD/OET/Downloads/OET-RV-DC-oet.Letter.print.pdf",
@@ -4902,8 +4902,8 @@
             },
             {
               "filename": "OET-RV-DC-oet.B5.screen.pdf",
-              "bytes": 5106350,
-              "sha256": "f679ae44da210a2344e4e16e638b6c995cc1032fee566a196a9cf7b8c3db5baf",
+              "bytes": 5106327,
+              "sha256": "210a8b0cc6ca621141f047f8a1083e7adece54c3dfb429568ad46a094a97a4fc",
               "pages": 310,
               "draft_version": "v0.48.95",
               "url": "https://Freely-Given.org/OBD/OET/Downloads/OET-RV-DC-oet.B5.screen.pdf",
@@ -5004,8 +5004,8 @@
           "files": [
             {
               "filename": "OET-RV-ALL-oet.B5.print.pdf",
-              "bytes": 28002122,
-              "sha256": "7efeca328de63cfce02978e3cea328c7933e95bbd007300b13994e56a08f66d9",
+              "bytes": 28002482,
+              "sha256": "c65778753103e9102b0d73a59dbd765646ded45e472173cd3f07e65c5d471be7",
               "pages": 1712,
               "draft_version": "v0.48.95",
               "url": "https://Freely-Given.org/OBD/OET/Downloads/OET-RV-ALL-oet.B5.print.pdf",
@@ -5014,8 +5014,8 @@
             },
             {
               "filename": "OET-RV-ALL-oet.A4.print.pdf",
-              "bytes": 27227014,
-              "sha256": "5484b16ab370115a2685f364f7573ab0d8bc28179a35442427786fc0590aa918",
+              "bytes": 27227284,
+              "sha256": "36461cb64a9c714d3ae06eafbf27ab6d28f8b214dd9d6ff147e9279dac6a00e8",
               "pages": 1195,
               "draft_version": "v0.48.95",
               "url": "https://Freely-Given.org/OBD/OET/Downloads/OET-RV-ALL-oet.A4.print.pdf",
@@ -5024,8 +5024,8 @@
             },
             {
               "filename": "OET-RV-ALL-oet.Letter.print.pdf",
-              "bytes": 27291493,
-              "sha256": "f96b76cd6a38bdff1b82910849b31297245af580ed0e1ed4f3fd8ae18d40ed4f",
+              "bytes": 27291773,
+              "sha256": "2da1121d115a86794db7029c49c8e4ede4d4ef4ceb27af4c098e2f14926723e5",
               "pages": 1253,
               "draft_version": "v0.48.95",
               "url": "https://Freely-Given.org/OBD/OET/Downloads/OET-RV-ALL-oet.Letter.print.pdf",
@@ -5034,8 +5034,8 @@
             },
             {
               "filename": "OET-RV-ALL-oet.B5.screen.pdf",
-              "bytes": 28700338,
-              "sha256": "431c1452f44a3c6e8995c4ec8d1108a96abb9ab4509150fe9eb2f6d4e1812c6d",
+              "bytes": 28700673,
+              "sha256": "c3437cd1b3187253be37db4bde8ea3fdef3766584b482d6cf847a032605defdc",
               "pages": 1710,
               "draft_version": "v0.48.95",
               "url": "https://Freely-Given.org/OBD/OET/Downloads/OET-RV-ALL-oet.B5.screen.pdf",
@@ -7809,8 +7809,8 @@
           "files": [
             {
               "filename": "OET-RV-JHN.B5.print.pdf",
-              "bytes": 596048,
-              "sha256": "27a6a0d02f18e7040c3d6da001b94b4877d5e8b979cbe371596ed46b6e08575f",
+              "bytes": 595778,
+              "sha256": "b00b0a9db8fbdec363dee7d71a8847bd9427def8c39d12a6849592c36ef13795",
               "pages": 35,
               "draft_version": "v0.48.95",
               "url": "https://Freely-Given.org/OBD/OET/Downloads/OET-RV-JHN.B5.print.pdf",
@@ -7819,8 +7819,8 @@
             },
             {
               "filename": "OET-RV-JHN.A4.print.pdf",
-              "bytes": 585426,
-              "sha256": "376a2ea7f1fe2d4e8ca73ad24bccdd13e6a1b72fbeeffb96cf2dc83a87fb17db",
+              "bytes": 585148,
+              "sha256": "958bcf73d84c21b63659e33353157e49e946b2b4ee0aa0f3fb4e8af1adf6d6ed",
               "pages": 24,
               "draft_version": "v0.48.95",
               "url": "https://Freely-Given.org/OBD/OET/Downloads/OET-RV-JHN.A4.print.pdf",
@@ -7829,8 +7829,8 @@
             },
             {
               "filename": "OET-RV-JHN.Letter.print.pdf",
-              "bytes": 585931,
-              "sha256": "8a855a83f424adfdcf4a272fc64a7f771b18ab6b113671097e53a03a4e9244be",
+              "bytes": 585649,
+              "sha256": "079c4765a67e50c861823c8af86b2df9c43fe1ce4744390aeb26905ac3b7fb4a",
               "pages": 25,
               "draft_version": "v0.48.95",
               "url": "https://Freely-Given.org/OBD/OET/Downloads/OET-RV-JHN.Letter.print.pdf",
@@ -7839,8 +7839,8 @@
             },
             {
               "filename": "OET-RV-JHN.B5.screen.pdf",
-              "bytes": 642331,
-              "sha256": "649cf37618f0822338ab03df4cd75ad30fcb91bc316b4f0a8a91d5a508ae45d3",
+              "bytes": 642041,
+              "sha256": "15a2eb1782ea212dc734a16c1a2c9e91cb63948415c23ca1e5fba057ffe69bc8",
               "pages": 35,
               "draft_version": "v0.48.95",
               "url": "https://Freely-Given.org/OBD/OET/Downloads/OET-RV-JHN.B5.screen.pdf",
@@ -7911,8 +7911,8 @@
           "files": [
             {
               "filename": "OET-RV-MAT.B5.print.pdf",
-              "bytes": 751645,
-              "sha256": "31b1626930d3a05e45b89708ee8e41e878aecbc8a6fdd0f485b54206bc7e409d",
+              "bytes": 751983,
+              "sha256": "ca22fdebd5c7d6c6043aeb95a4e577ff8f7e58fc9a2907179ebd197c6fbdf65f",
               "pages": 49,
               "draft_version": "v0.48.95",
               "url": "https://Freely-Given.org/OBD/OET/Downloads/OET-RV-MAT.B5.print.pdf",
@@ -7921,8 +7921,8 @@
             },
             {
               "filename": "OET-RV-MAT.A4.print.pdf",
-              "bytes": 737080,
-              "sha256": "a40cb46f746447ffb07f7ffaae2de8a1821eb69dd9393944297f14d14b203bf5",
+              "bytes": 737287,
+              "sha256": "433993ffb30a242db6add2085ce60c6ba24733640ed86129e42f9be05c9615fe",
               "pages": 34,
               "draft_version": "v0.48.95",
               "url": "https://Freely-Given.org/OBD/OET/Downloads/OET-RV-MAT.A4.print.pdf",
@@ -7931,8 +7931,8 @@
             },
             {
               "filename": "OET-RV-MAT.Letter.print.pdf",
-              "bytes": 739989,
-              "sha256": "bf489956ee51cff96283e6e6c02738f47353444c90aaf481c14364a3d7c8f620",
+              "bytes": 740220,
+              "sha256": "8e53859d5c193e7c1b9177a5cdc10da6d732bb743cb6a119299e4a21dda38a2b",
               "pages": 36,
               "draft_version": "v0.48.95",
               "url": "https://Freely-Given.org/OBD/OET/Downloads/OET-RV-MAT.Letter.print.pdf",
@@ -7941,8 +7941,8 @@
             },
             {
               "filename": "OET-RV-MAT.B5.screen.pdf",
-              "bytes": 811493,
-              "sha256": "21283da0b91fbdbed6dcd3850e895259d61aa66251a08d6d442d62710d2a7fff",
+              "bytes": 811819,
+              "sha256": "d5910b4f9dcb1f03151c00a16039294d17add79238fd73f40bce5cf0f6d4e897",
               "pages": 49,
               "draft_version": "v0.48.95",
               "url": "https://Freely-Given.org/OBD/OET/Downloads/OET-RV-MAT.B5.screen.pdf",
@@ -8013,8 +8013,8 @@
           "files": [
             {
               "filename": "OET-RV-ACT.B5.print.pdf",
-              "bytes": 679117,
-              "sha256": "bb87aef4571215cce24b7d95f0441da1e2f82a8c05d001206addfb996e763f69",
+              "bytes": 679096,
+              "sha256": "2eb99007c2fdfcc6086320f504c7e9723614d9e65fa80f5e6d7cf35e76f7dd1f",
               "pages": 42,
               "draft_version": "v0.48.95",
               "url": "https://Freely-Given.org/OBD/OET/Downloads/OET-RV-ACT.B5.print.pdf",
@@ -8023,8 +8023,8 @@
             },
             {
               "filename": "OET-RV-ACT.A4.print.pdf",
-              "bytes": 667163,
-              "sha256": "73d9551e6f5dd279048481111dc36b95d761a13b8910a7910877a92357cf8509",
+              "bytes": 667188,
+              "sha256": "1e5594621870e78ac1c5c4ca05ad1785e1f9889460fb6680b799045105725060",
               "pages": 28,
               "draft_version": "v0.48.95",
               "url": "https://Freely-Given.org/OBD/OET/Downloads/OET-RV-ACT.A4.print.pdf",
@@ -8033,8 +8033,8 @@
             },
             {
               "filename": "OET-RV-ACT.Letter.print.pdf",
-              "bytes": 669416,
-              "sha256": "ed8232f11a5dc6102cc60d3ed24372128f9b7d707ab1d6b7e8b4a24feab9e7b3",
+              "bytes": 669420,
+              "sha256": "eaca4bdd0c3bc7dc9623621d5a0fe7d97b8e0065348a32ad935c6449b5b7c757",
               "pages": 31,
               "draft_version": "v0.48.95",
               "url": "https://Freely-Given.org/OBD/OET/Downloads/OET-RV-ACT.Letter.print.pdf",
@@ -8043,8 +8043,8 @@
             },
             {
               "filename": "OET-RV-ACT.B5.screen.pdf",
-              "bytes": 702107,
-              "sha256": "5499ce23ba1bb5d27289a0be2e1b8c457f44c468c6db85cbefd9edbe87602c7f",
+              "bytes": 702093,
+              "sha256": "144e5f1a8ec83189175e8649a63c21cf57e9eb012da085566a6f6a5d3425395d",
               "pages": 42,
               "draft_version": "v0.48.95",
               "url": "https://Freely-Given.org/OBD/OET/Downloads/OET-RV-ACT.B5.screen.pdf",

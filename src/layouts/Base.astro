@@ -1,9 +1,21 @@
 ---
 interface Props {
     title?: string;
+    description?: string;
+    noindex?: boolean;
 }
 
-const { title = 'Open English Translation' } = Astro.props;
+const siteName = 'Open English Translation';
+const { title = siteName, description, noindex = false } = Astro.props;
+const canonicalURL = new URL(Astro.url.pathname, Astro.site);
+const sitemapURL = new URL('sitemap-index.xml', Astro.site);
+const siteIdentity = {
+    '@context': 'https://schema.org',
+    '@type': 'WebSite',
+    name: siteName,
+    alternateName: 'OET',
+    url: new URL('/', Astro.site).href,
+};
 const GA_ID = import.meta.env.PUBLIC_GA_ID;
 ---
 
@@ -13,6 +25,37 @@ const GA_ID = import.meta.env.PUBLIC_GA_ID;
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>{title}</title>
+        {description && <meta name="description" content={description} />}
+        {noindex && <meta name="robots" content="noindex" />}
+        {!noindex && <link rel="canonical" href={canonicalURL.href} />}
+        <link rel="sitemap" href={sitemapURL.href} />
+        <meta property="og:site_name" content={siteName} />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content={title} />
+        {!noindex && <meta property="og:url" content={canonicalURL.href} />}
+        {
+            description && (
+                <meta property="og:description" content={description} />
+            )
+        }
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:title" content={title} />
+        {
+            description && (
+                <meta name="twitter:description" content={description} />
+            )
+        }
+        {
+            !noindex && Astro.url.pathname === '/' && (
+                <script
+                    type="application/ld+json"
+                    set:html={JSON.stringify(siteIdentity).replace(
+                        /</g,
+                        '\\u003c',
+                    )}
+                />
+            )
+        }
         <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
