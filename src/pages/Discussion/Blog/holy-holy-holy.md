@@ -19,6 +19,6 @@ source: 'docs/DisplayPages.A4.F4.with_intro_and_ISV.34p.odt'
 
 <p>But back to our first statements, terms like ‘holy God’ and ‘glorious gospel’ aren’t really helpful either if a large percentage of readers can’t explain what they mean. So the <em>OET</em> will strive to translate these terms into modern-English at the risk of being criticised.</p>
 
-<p>Another feature of the <em>OET</em> is version numbers—one on each ‘book’, plus one for the entire publication (currently around v0.48). Even after we reach v1.00, we still expect to make revisions for a year or two (or more), as readers help us to keep making improvements (and corrections). Please don’t hesitate to join us.</p>
+<p>Another feature of the <em>OET</em> is version numbers—one on each ‘book’, plus one for the entire publication (currently around v0.49). Even after we reach v1.00, we still expect to make revisions for a year or two (or more), as readers help us to keep making improvements (and corrections). Please don’t hesitate to join us.</p>
 
 <p>Robert Hunt, August 2024</p>
