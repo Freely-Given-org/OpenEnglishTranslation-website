@@ -202,6 +202,12 @@ import MainPageContent from '../../components/MainPageContent.astro';
                         (like replacing ‘the doorway is not closed’ with ‘the door
                         is always open’) in order to make something more natural for
                         modern readers (<em>OET-RV</em> only)
+                        <br />
+                        <small>
+                            <b>Note</b>: This is different from when this symbol
+                            is used for Hebrew parallelism (see separate section
+                            below).
+                        </small>
                     </li>
                     <li>
                         <b>!</b> We{' '}
@@ -327,6 +333,39 @@ import MainPageContent from '../../components/MainPageContent.astro';
                         <b>\add</b> character field (see above).
                     </small>
                 </p>
+                <h3 id="poeticStructure">Poetic structure</h3>
+                <p>
+                    As well as the parallelism of line pairs mentioned above,
+                    Hebrew poetry often has larger structural divisions such as
+                    theme shifts. For example, a poem/song with twelve lines
+                    might have three sets of four lines with different themes.
+                    Sometimes the final set might have the same theme as the
+                    first set—this is known as a <b>chiastic structure</b> (referring
+                    to the Greek letter chi χ which indicates a crossing over).
+                </p>
+                <p>
+                    In the <em>OET-RV</em> we mark-up some of that structure with
+                    custom markers:
+                </p>
+                <ul>
+                    <li>
+                        \z1 to \z5 to mark the start of segments (only at the
+                        start of a line; never closed)
+                    </li>
+                    <li>
+                        \zr to mark a refrain (only at the start of a line;
+                        never closed)
+                    </li>
+                    <li>
+                        \z0 used to stop highlighting (when a song/poem finishes
+                        before the end of a chapter, i.e., not used in
+                        Songs/Psalms)
+                    </li>
+                    <li>
+                        \z1Nhilite (where N is 1..3) to mark highlighted words
+                        and then closed with an asterisk marker
+                    </li>
+                </ul>
                 <h3 id="other">Other</h3>
                 <p>
                     Automated software is used to ‘connect’ words in the{' '}
@@ -362,7 +401,9 @@ import MainPageContent from '../../components/MainPageContent.astro';
                 <p>
                     We have developed a simple program to help you make certain
                     adaptations of the <em>Open English Translation</em> and export
-                    into a couple of different file formats. You can find out more
+                    into a couple of different file formats. You can find out more{
+                        ' '
+                    }
                     <a
                         href="https://GitHub.com/Freely-Given-org/OpenEnglishTranslation_adapter"
                         >here</a
